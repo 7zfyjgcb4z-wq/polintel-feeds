@@ -1,0 +1,123 @@
+URL Audit — polintel-feeds sources.yaml
+Generated: 2026-03-26
+Format: enabled  tier       status  name                                      url
+========================================================================================================================
+
+yes  dedicated  200  Civil Service Jobs                        https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi
+yes  dedicated  200  myjobscotland                             https://www.myjobscotland.gov.uk -> https://myjobscotland.gov.uk/
+yes  dedicated  200  NICS                                      https://irecruit-ext.hrconnect.nigov.net/jobs/vacancies.aspx
+yes  dedicated  200  LGA Jobs                                  https://www.careers.local.gov.uk/jobs
+no   dedicated  405  Smart Thinking Jobs                       https://www.smartthinkingjobs.com
+yes  dedicated  200  CharityJob                                https://www.charityjob.co.uk/jobs?keywords=policy+advocacy+public+affairs
+yes  dedicated  200  Third Sector Jobs                         https://jp.thirdsector.co.uk/jobs/search
+no   dedicated  200  Bond Jobs                                 https://my.bond.org.uk/s/jobs -> https://my.bond.org.uk/s/jobs?language=en_US
+no   dedicated  403  Guardian Jobs                             https://jobs.theguardian.com/jobs/charities/
+no   dedicated  200  Escape the City                           https://www.escapethecity.org/opportunities -> https://www.escapethecity.org/search/jobs
+yes  dedicated  200  jobs.ac.uk                                https://www.jobs.ac.uk/search/politics-and-government
+yes  generic    200  Civil Service Fast Stream                 https://www.faststream.gov.uk -> https://www.civil-service-careers.gov.uk/fast-stream/?utm_source=faststream.gov.uk&utm_medium=redirect&utm_campaign=301_redirect&utm_content=Home
+yes  generic    200  FCDO                                      https://www.gov.uk/government/organisations/foreign-commonwealth-development-office/about/recruitment
+yes  generic    200  HM Treasury                               https://www.gov.uk/government/organisations/hm-treasury/about/recruitment
+yes  generic    200  Cabinet Office                            https://www.gov.uk/government/organisations/cabinet-office/about/recruitment
+yes  generic    200  Home Office                               https://www.gov.uk/government/organisations/home-office/about/recruitment
+yes  generic    200  Ministry of Defence                       https://www.gov.uk/government/organisations/ministry-of-defence/about/recruitment
+yes  generic    200  Ministry of Justice                       https://www.gov.uk/government/organisations/ministry-of-justice/about/recruitment
+yes  generic    200  Department for Education                  https://www.gov.uk/government/organisations/department-for-education/about/recruitment
+yes  generic    200  DHSC                                      https://www.gov.uk/government/organisations/department-of-health-and-social-care/about/recruitment
+yes  generic    200  SIS/MI6                                   https://www.sis.gov.uk/careers.html -> https://www.sis.gov.uk/careers/
+yes  generic    403  MI5                                       https://www.mi5.gov.uk/careers
+yes  generic    404  GCHQ                                      https://www.gchq.gov.uk/section/careers/overview
+yes  generic    403  National Crime Agency                     https://www.nationalcrimeagency.gov.uk/careers
+yes  generic    404  Crown Prosecution Service                 https://www.cps.gov.uk/careers
+yes  generic    404  Ofcom                                     https://www.ofcom.org.uk/about-ofcom/jobs
+yes  generic    404  Ofgem                                     https://www.ofgem.gov.uk/about-us/our-people/careers-ofgem
+yes  generic    200  FCA                                       https://www.fca.org.uk/careers
+yes  generic    200  CMA                                       https://www.gov.uk/government/organisations/competition-and-markets-authority/about/recruitment
+yes  generic    200  Ofwat                                     https://www.ofwat.gov.uk/about-us/jobs/ -> https://www.ofwat.gov.uk/jobs/
+yes  generic    403  Electoral Commission                      https://www.electoralcommission.org.uk/jobs
+yes  generic    404  EHRC                                      https://www.equalityhumanrights.com/en/jobs
+yes  generic    404  ICO                                       https://ico.org.uk/about-the-ico/jobs-at-the-ico/
+yes  generic    404  National Audit Office                     https://www.nao.org.uk/about-us/our-people/jobs-at-the-nao/
+yes  generic    404  NHS England                               https://www.england.nhs.uk/about/work-for-us/
+yes  generic    200  UK Parliament                             https://www.parliament.uk/about/careers/job-search/
+yes  generic    200  House of Lords                            https://www.parliament.uk/about/careers/lords/
+yes  generic    404  Hansard Society                           https://www.hansardsociety.org.uk/about/vacancies
+yes  generic    404  Scottish Government                       https://www.gov.scot/about/careers/
+yes  generic    200  Scottish Parliament                       https://www.parliament.scot/careers
+yes  generic    404  Welsh Government                          https://www.gov.wales/work-for-us
+yes  generic    404  Senedd Cymru                              https://senedd.wales/visit-and-learn/work-for-us/
+yes  generic    404  NI Assembly                               https://www.niassembly.gov.uk/about-the-assembly/corporate-information/vacancies/
+yes  generic    404  GLA                                       https://www.london.gov.uk/about-us/work-for-us
+yes  generic    403  Chatham House                             https://www.chathamhouse.org/about-us/careers
+yes  generic    404  IISS                                      https://www.iiss.org/about/careers
+yes  generic    404  RUSI                                      https://rusi.org/careers -> https://www.rusi.org/careers
+yes  generic    200  IPPR                                      https://www.ippr.org/jobs
+yes  generic    200  Policy Exchange                           https://policyexchange.org.uk/careers/
+yes  generic    404  IFS                                       https://ifs.org.uk/vacancies
+yes  generic    200  ODI                                       https://odi.org/en/careers/
+yes  generic    200  Tony Blair Institute                      https://institute.global/careers -> https://institute.global/who-we-are/careers
+yes  generic    404  Institute for Government                  https://www.instituteforgovernment.org.uk/vacancies
+yes  generic    404  Resolution Foundation                     https://www.resolutionfoundation.org/about/jobs/
+yes  generic    200  NIESR                                     https://www.niesr.ac.uk/vacancies -> https://niesr.ac.uk/publications/vacancies-fall-fastest-pace-two-years
+yes  generic    404  IEA                                       https://iea.org.uk/about/careers/
+yes  generic    404  Adam Smith Institute                      https://www.adamsmith.org/jobs
+yes  generic    200  Centre for Policy Studies                 https://www.cps.org.uk/about/vacancies -> https://cps.org.uk/about/vacancies/
+yes  generic    404  TaxPayers' Alliance                       https://www.taxpayersalliance.com/careers -> https://taxpayersalliance.com/careers/
+yes  generic    404  Centre for Social Justice                 https://www.centreforsocialjustice.org.uk/about/vacancies
+yes  generic    404  Onward                                    https://www.ukonward.com/about/careers/ -> https://ukonward.com/about/careers/
+yes  generic    200  Fabian Society                            https://fabians.org.uk/about-us/jobs/ -> https://fabians.org.uk/wp-content/uploads/2012/04/jobs-1.jpg
+yes  generic    404  NEF                                       https://neweconomics.org/about/jobs
+yes  generic    404  Demos                                     https://demos.co.uk/about/careers/
+yes  generic    404  SMF                                       https://www.smf.co.uk/about/work-for-us/
+yes  generic    ERR  Smith Institute                           https://www.smith-institute.org.uk  [ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.smith-institute.org.uk'. (_ssl.c:1016)]
+yes  generic    404  CER                                       https://www.cer.eu/about/vacancies
+yes  generic    404  UK in a Changing Europe                   https://ukandeu.ac.uk/vacancies/
+yes  generic    200  ECFR London                               https://ecfr.eu/about/jobs/ -> https://ecfr.eu/jobs/
+yes  generic    404  Centre for Cities                         https://www.centreforcities.org/about/vacancies/
+yes  generic    404  Centre for London                         https://www.centreforlondon.org/about/work-with-us/ -> https://centreforlondon.org/about/work-with-us/
+yes  generic    404  New Local                                 https://www.newlocal.org.uk/about/work-for-us/
+yes  generic    404  CLES                                      https://cles.org.uk/about-us/work-with-us/
+yes  generic    404  Green Alliance                            https://green-alliance.org.uk/about-us/work-for-us/
+yes  generic    200  E3G                                       https://www.e3g.org/about/careers/
+yes  generic    200  IIED                                      https://www.iied.org/vacancies -> https://www.iied.org/search?k=vacancies
+yes  generic    200  King's Fund                               https://www.kingsfund.org.uk/about-us/jobs
+yes  generic    403  Health Foundation                         https://www.health.org.uk/about-the-health-foundation/work-for-us
+yes  generic    404  Nuffield Trust                            https://www.nuffieldtrust.org.uk/about/work-for-us
+yes  generic    404  EPI                                       https://epi.org.uk/about-us/vacancies/
+yes  generic    200  HEPI                                      https://www.hepi.ac.uk/about/vacancies/ -> https://www.hepi.ac.uk/about-us/vacancies/
+yes  generic    404  Theos                                     https://www.theosthinktank.co.uk/about/work-with-us
+yes  generic    404  BFPG                                      https://bfpg.co.uk/about/careers/
+yes  generic    404  JRF                                       https://www.jrf.org.uk/about-us/jobs
+yes  generic    404  IDS                                       https://www.ids.ac.uk/about/working-at-ids/
+yes  generic    404  Constitution Unit                         https://www.ucl.ac.uk/constitution-unit/about-us/jobs -> https://www.ucl.ac.uk/social-historical-sciences/constitution-unit/about-us/jobs
+yes  generic    404  IWA                                       https://www.iwa.wales/about/vacancies/
+yes  generic    200  Reform Scotland                           https://reformscotland.com -> https://www.enlighten.scot/
+yes  generic    404  Conservative Party                        https://www.conservatives.com/jobs
+yes  generic    200  Labour Party                              https://labour.org.uk/jobs/ -> https://labour.org.uk/about-us/
+yes  generic    200  Liberal Democrats                         https://www.libdems.org.uk/jobs -> https://www.libdems.org.uk/work-for-us
+yes  generic    200  SNP                                       https://www.snp.org/jobs -> https://www.snp.org/jobs/
+yes  generic    ERR  Plaid Cymru                               https://www.plaidcymru.com/jobs  [ConnectTimeout: ]
+yes  generic    200  Green Party                               https://www.greenparty.org.uk/jobs -> https://greenparty.org.uk/get-involved/work-for-us/
+yes  generic    200  Co-operative Party                        https://party.coop/jobs/ -> https://party.coop/jobs
+yes  generic    404  FGS Global                                https://fgsglobal.com/careers/ -> https://fgsglobal.com/careers
+yes  generic    404  Hanbury Strategy                          https://www.hanburystrategy.com/careers -> https://hanburystrategy.com/careers
+yes  generic    200  Portland Communications                   https://portland-communications.com/careers/
+yes  generic    200  APCO Worldwide                            https://www.apcoworldwide.com/careers/ -> https://apcoworldwide.com/404/
+yes  generic    200  Burson                                    https://www.bursonglobal.com/careers
+yes  generic    200  FTI Consulting                            https://www.fticonsulting.com/careers
+yes  generic    403  Teneo                                     https://www.teneo.com/careers/
+yes  generic    200  SEC Newgate                               https://www.secnewgate.co.uk/careers/ -> https://www.secnewgate.co.uk/about-us
+yes  generic    200  WA Communications                         https://www.wacomms.co.uk/careers/ -> https://www.wacomms.co.uk/careers-purpose/
+yes  generic    ERR  Cicero/AMO                                https://cicero-group.com/careers/  [ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)]
+yes  generic    200  Ellwood Atfield                           https://www.ellwoodatfield.com
+yes  generic    200  NatCen Social Research                    https://natcen.ac.uk/careers -> https://natcen.ac.uk/work-for-us
+yes  generic    200  Amnesty International UK                  https://www.amnesty.org.uk/jobs -> https://www.amnesty.org.uk/about/who-we-are/work-with-us/vacancies/
+yes  generic    404  Oxfam GB                                  https://www.oxfam.org.uk/get-involved/work-for-oxfam/
+yes  generic    404  Save the Children UK                      https://www.savethechildren.org.uk/about-us/jobs
+yes  generic    200  ODI Fellowship                            https://odi.org/en/odi-fellowship-scheme/ -> https://odi.org/en/fellowship-scheme/
+yes  generic    403  Chatham House Internships                 https://www.chathamhouse.org/academy/internships
+yes  generic    404  CBI                                       https://www.cbi.org.uk/about-us/careers/
+yes  generic    404  TUC                                       https://www.tuc.org.uk/about-tuc/tuc-vacancies
+yes  generic    404  IoD                                       https://www.iod.com/about-us/careers/
+yes  generic    404  FSB                                       https://www.fsb.org.uk/about-us/careers.html -> https://www.fsb.org.uk/about-us/careers
+yes  generic    404  STUC                                      https://stuc.org.uk/about-stuc/vacancies -> https://www.stuc.org.uk/about-stuc/vacancies
+yes  generic    200  PoliticsHome                              https://www.politicshome.com

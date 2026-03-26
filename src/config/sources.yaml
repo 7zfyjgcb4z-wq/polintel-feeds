@@ -1,0 +1,860 @@
+# Pol-Intel UK Sources Configuration
+# scraper: "dedicated" = Tier 1 hand-written scraper
+#          "generic"   = Tier 2 Claude API extraction
+
+sources:
+
+  # ── Tier 1: Dedicated scrapers ─────────────────────────────────────────────
+
+  - name: "Civil Service Jobs"
+    url: "https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi"
+    category: "government"
+    country: "uk"
+    scraper: "dedicated"
+    module: "civil_service_jobs"
+    enabled: true
+
+  - name: "myjobscotland"
+    url: "https://www.myjobscotland.gov.uk"
+    category: "government"
+    country: "uk"
+    scraper: "dedicated"
+    module: "myjobscotland"
+    enabled: true
+
+  - name: "NICS"
+    url: "https://irecruit-ext.hrconnect.nigov.net/jobs/vacancies.aspx"
+    category: "government"
+    country: "uk"
+    scraper: "dedicated"
+    module: "nics"
+    enabled: true
+
+  - name: "LGA Jobs"
+    url: "https://www.careers.local.gov.uk/jobs"
+    category: "government"
+    country: "uk"
+    scraper: "dedicated"
+    module: "lga_jobs"
+    enabled: true
+
+  - name: "Smart Thinking Jobs"
+    url: "https://www.smartthinkingjobs.com"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "dedicated"
+    module: "smart_thinking"
+    enabled: false  # domain is parked/dead
+
+  - name: "CharityJob"
+    url: "https://www.charityjob.co.uk/jobs?keywords=policy+advocacy+public+affairs"
+    category: "ngos"
+    country: "uk"
+    scraper: "dedicated"
+    module: "charityjob"
+    enabled: true
+
+  - name: "Third Sector Jobs"
+    url: "https://jp.thirdsector.co.uk/jobs/search"
+    category: "ngos"
+    country: "uk"
+    scraper: "dedicated"
+    module: "third_sector"
+    enabled: true
+
+  - name: "Bond Jobs"
+    url: "https://my.bond.org.uk/s/jobs"
+    category: "ngos"
+    country: "uk"
+    scraper: "dedicated"
+    module: "bond_jobs"
+    enabled: false  # Salesforce Aura SPA — not scrapeable without Playwright session tokens
+
+  - name: "Guardian Jobs"
+    url: "https://jobs.theguardian.com/jobs/charities/"
+    category: "ngos"
+    country: "uk"
+    scraper: "dedicated"
+    module: "guardian_jobs"
+    enabled: false  # 403 blocked by Madgex WAF
+
+  - name: "Escape the City"
+    url: "https://www.escapethecity.org/opportunities"
+    category: "ngos"
+    country: "uk"
+    scraper: "dedicated"
+    module: "escape_the_city"
+    enabled: false  # Algolia/Vue SPA — needs API key from browser session
+
+  - name: "jobs.ac.uk"
+    url: "https://www.jobs.ac.uk/search/politics-and-government"
+    category: "general"
+    country: "uk"
+    scraper: "dedicated"
+    module: "jobs_ac_uk"
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — uk-government ────────────────────────────
+
+  - name: "Civil Service Fast Stream"
+    url: "https://www.faststream.gov.uk"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "FCDO"
+    url: "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "HM Treasury"
+    url: "https://www.gov.uk/government/organisations/hm-treasury/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Cabinet Office"
+    url: "https://www.gov.uk/government/organisations/cabinet-office/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Home Office"
+    url: "https://www.gov.uk/government/organisations/home-office/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Ministry of Defence"
+    url: "https://www.gov.uk/government/organisations/ministry-of-defence/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Ministry of Justice"
+    url: "https://www.gov.uk/government/organisations/ministry-of-justice/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Department for Education"
+    url: "https://www.gov.uk/government/organisations/department-for-education/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "DHSC"
+    url: "https://www.gov.uk/government/organisations/department-of-health-and-social-care/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "SIS/MI6"
+    url: "https://www.sis.gov.uk/careers.html"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "MI5"
+    url: "https://www.mi5.gov.uk/careers"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "GCHQ"
+    url: "https://www.gchq.gov.uk/section/careers/overview"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "National Crime Agency"
+    url: "https://www.nationalcrimeagency.gov.uk/careers"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Crown Prosecution Service"
+    url: "https://www.cps.gov.uk/careers"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Ofcom"
+    url: "https://www.ofcom.org.uk/about-ofcom/jobs"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Ofgem"
+    url: "https://www.ofgem.gov.uk/about-us/our-people/careers-ofgem"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "FCA"
+    url: "https://www.fca.org.uk/careers"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "CMA"
+    url: "https://www.gov.uk/government/organisations/competition-and-markets-authority/about/recruitment"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Ofwat"
+    url: "https://www.ofwat.gov.uk/about-us/jobs/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Electoral Commission"
+    url: "https://www.electoralcommission.org.uk/jobs"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "EHRC"
+    url: "https://www.equalityhumanrights.com/en/jobs"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "ICO"
+    url: "https://ico.org.uk/about-the-ico/jobs-at-the-ico/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "National Audit Office"
+    url: "https://www.nao.org.uk/about-us/our-people/jobs-at-the-nao/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "NHS England"
+    url: "https://www.england.nhs.uk/about/work-for-us/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "UK Parliament"
+    url: "https://www.parliament.uk/about/careers/job-search/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "House of Lords"
+    url: "https://www.parliament.uk/about/careers/lords/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Hansard Society"
+    url: "https://www.hansardsociety.org.uk/about/vacancies"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Scottish Government"
+    url: "https://www.gov.scot/about/careers/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Scottish Parliament"
+    url: "https://www.parliament.scot/careers"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Welsh Government"
+    url: "https://www.gov.wales/work-for-us"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Senedd Cymru"
+    url: "https://senedd.wales/visit-and-learn/work-for-us/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "NI Assembly"
+    url: "https://www.niassembly.gov.uk/about-the-assembly/corporate-information/vacancies/"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "GLA"
+    url: "https://www.london.gov.uk/about-us/work-for-us"
+    category: "government"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — uk-think-tanks ───────────────────────────
+
+  - name: "Chatham House"
+    url: "https://www.chathamhouse.org/about-us/careers"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "IISS"
+    url: "https://www.iiss.org/about/careers"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "RUSI"
+    url: "https://rusi.org/careers"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "IPPR"
+    url: "https://www.ippr.org/jobs"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Policy Exchange"
+    url: "https://policyexchange.org.uk/careers/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "IFS"
+    url: "https://ifs.org.uk/vacancies"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "ODI"
+    url: "https://odi.org/en/careers/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Tony Blair Institute"
+    url: "https://institute.global/careers"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Institute for Government"
+    url: "https://www.instituteforgovernment.org.uk/vacancies"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Resolution Foundation"
+    url: "https://www.resolutionfoundation.org/about/jobs/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "NIESR"
+    url: "https://www.niesr.ac.uk/vacancies"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "IEA"
+    url: "https://iea.org.uk/about/careers/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Adam Smith Institute"
+    url: "https://www.adamsmith.org/jobs"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Centre for Policy Studies"
+    url: "https://www.cps.org.uk/about/vacancies"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "TaxPayers' Alliance"
+    url: "https://www.taxpayersalliance.com/careers"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Centre for Social Justice"
+    url: "https://www.centreforsocialjustice.org.uk/about/vacancies"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Onward"
+    url: "https://www.ukonward.com/about/careers/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Fabian Society"
+    url: "https://fabians.org.uk/about-us/jobs/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "NEF"
+    url: "https://neweconomics.org/about/jobs"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Demos"
+    url: "https://demos.co.uk/about/careers/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "SMF"
+    url: "https://www.smf.co.uk/about/work-for-us/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Smith Institute"
+    url: "https://www.smith-institute.org.uk"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "CER"
+    url: "https://www.cer.eu/about/vacancies"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "UK in a Changing Europe"
+    url: "https://ukandeu.ac.uk/vacancies/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "ECFR London"
+    url: "https://ecfr.eu/about/jobs/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Centre for Cities"
+    url: "https://www.centreforcities.org/about/vacancies/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Centre for London"
+    url: "https://www.centreforlondon.org/about/work-with-us/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "New Local"
+    url: "https://www.newlocal.org.uk/about/work-for-us/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "CLES"
+    url: "https://cles.org.uk/about-us/work-with-us/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Green Alliance"
+    url: "https://green-alliance.org.uk/about-us/work-for-us/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "E3G"
+    url: "https://www.e3g.org/about/careers/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "IIED"
+    url: "https://www.iied.org/vacancies"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "King's Fund"
+    url: "https://www.kingsfund.org.uk/about-us/jobs"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Health Foundation"
+    url: "https://www.health.org.uk/about-the-health-foundation/work-for-us"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Nuffield Trust"
+    url: "https://www.nuffieldtrust.org.uk/about/work-for-us"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "EPI"
+    url: "https://epi.org.uk/about-us/vacancies/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "HEPI"
+    url: "https://www.hepi.ac.uk/about/vacancies/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Theos"
+    url: "https://www.theosthinktank.co.uk/about/work-with-us"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "BFPG"
+    url: "https://bfpg.co.uk/about/careers/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "JRF"
+    url: "https://www.jrf.org.uk/about-us/jobs"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "IDS"
+    url: "https://www.ids.ac.uk/about/working-at-ids/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Constitution Unit"
+    url: "https://www.ucl.ac.uk/constitution-unit/about-us/jobs"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "IWA"
+    url: "https://www.iwa.wales/about/vacancies/"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Reform Scotland"
+    url: "https://reformscotland.com"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — uk-political-parties ────────────────────
+
+  - name: "Conservative Party"
+    url: "https://www.conservatives.com/jobs"
+    category: "political-parties"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Labour Party"
+    url: "https://labour.org.uk/jobs/"
+    category: "political-parties"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Liberal Democrats"
+    url: "https://www.libdems.org.uk/jobs"
+    category: "political-parties"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "SNP"
+    url: "https://www.snp.org/jobs"
+    category: "political-parties"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Plaid Cymru"
+    url: "https://www.plaidcymru.com/jobs"
+    category: "political-parties"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Green Party"
+    url: "https://www.greenparty.org.uk/jobs"
+    category: "political-parties"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Co-operative Party"
+    url: "https://party.coop/jobs/"
+    category: "political-parties"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — uk-public-affairs ───────────────────────
+
+  - name: "FGS Global"
+    url: "https://fgsglobal.com/careers/"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Hanbury Strategy"
+    url: "https://www.hanburystrategy.com/careers"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Portland Communications"
+    url: "https://portland-communications.com/careers/"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "APCO Worldwide"
+    url: "https://www.apcoworldwide.com/careers/"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Burson"
+    url: "https://www.bursonglobal.com/careers"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "FTI Consulting"
+    url: "https://www.fticonsulting.com/careers"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Teneo"
+    url: "https://www.teneo.com/careers/"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "SEC Newgate"
+    url: "https://www.secnewgate.co.uk/careers/"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "WA Communications"
+    url: "https://www.wacomms.co.uk/careers/"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Cicero/AMO"
+    url: "https://cicero-group.com/careers/"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Ellwood Atfield"
+    url: "https://www.ellwoodatfield.com"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — uk-ngos ─────────────────────────────────
+
+  - name: "NatCen Social Research"
+    url: "https://natcen.ac.uk/careers"
+    category: "ngos"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Amnesty International UK"
+    url: "https://www.amnesty.org.uk/jobs"
+    category: "ngos"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Oxfam GB"
+    url: "https://www.oxfam.org.uk/get-involved/work-for-oxfam/"
+    category: "ngos"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Save the Children UK"
+    url: "https://www.savethechildren.org.uk/about-us/jobs"
+    category: "ngos"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — uk-fellowships ──────────────────────────
+
+  - name: "ODI Fellowship"
+    url: "https://odi.org/en/odi-fellowship-scheme/"
+    category: "fellowships"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "Chatham House Internships"
+    url: "https://www.chathamhouse.org/academy/internships"
+    category: "fellowships"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — uk-trade-associations ───────────────────
+
+  - name: "CBI"
+    url: "https://www.cbi.org.uk/about-us/careers/"
+    category: "trade-associations"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "TUC"
+    url: "https://www.tuc.org.uk/about-tuc/tuc-vacancies"
+    category: "trade-associations"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "IoD"
+    url: "https://www.iod.com/about-us/careers/"
+    category: "trade-associations"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "FSB"
+    url: "https://www.fsb.org.uk/about-us/careers.html"
+    category: "trade-associations"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  - name: "STUC"
+    url: "https://stuc.org.uk/about-stuc/vacancies"
+    category: "trade-associations"
+    country: "uk"
+    scraper: "generic"
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — uk-general ──────────────────────────────
+
+  - name: "PoliticsHome"
+    url: "https://www.politicshome.com"
+    category: "general"
+    country: "uk"
+    scraper: "generic"
+    enabled: true

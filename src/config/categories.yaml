@@ -1,0 +1,80 @@
+# Category mapping rules
+# Used to assign a category slug to a job when the scraper doesn't set one explicitly.
+
+categories:
+  government:
+    label: "Government"
+    feed: "uk-government"
+    keywords:
+      - civil service
+      - government
+      - parliament
+      - minister
+      - whitehall
+      - public sector
+      - policy advisor
+      - parliamentary
+
+  think-tanks:
+    label: "Think Tanks"
+    feed: "uk-think-tanks"
+    keywords:
+      - think tank
+      - research fellow
+      - policy analyst
+      - policy researcher
+      - senior researcher
+
+  political-parties:
+    label: "Political Parties"
+    feed: "uk-political-parties"
+    keywords:
+      - political party
+      - party staff
+      - campaigns
+
+  public-affairs:
+    label: "Public Affairs"
+    feed: "uk-public-affairs"
+    keywords:
+      - public affairs
+      - government relations
+      - lobbying
+      - stakeholder
+      - communications
+      - advocacy
+
+  ngos:
+    label: "NGOs"
+    feed: "uk-ngos"
+    keywords:
+      - charity
+      - ngo
+      - non-governmental
+      - third sector
+      - voluntary
+      - not-for-profit
+
+  fellowships:
+    label: "Fellowships"
+    feed: "uk-fellowships"
+    keywords:
+      - fellowship
+      - intern
+      - graduate scheme
+      - placement
+      - fast stream
+
+  trade-associations:
+    label: "Trade Associations"
+    feed: "uk-trade-associations"
+    keywords:
+      - trade association
+      - industry body
+      - trade union
+      - employers' federation
+
+  general:
+    label: "General"
+    feed: "uk-general"
+    keywords: []
