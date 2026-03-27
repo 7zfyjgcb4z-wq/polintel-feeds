@@ -52,7 +52,7 @@ sources:
     country: "uk"
     scraper: "dedicated"
     module: "third_sector"
-    enabled: true
+    enabled: false  # Disabled: scraping not permitted under their ToS
 
   - name: "Bond Jobs"
     url: "https://my.bond.org.uk/s/jobs"
