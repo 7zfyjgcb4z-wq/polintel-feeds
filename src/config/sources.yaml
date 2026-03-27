@@ -170,7 +170,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "National Crime Agency"
     url: "https://www.nationalcrimeagency.gov.uk/careers"
@@ -191,7 +191,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Ofgem"
     url: "https://www.ofgem.gov.uk/about-us/our-people/careers-ofgem"
@@ -233,7 +233,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "ICO"
     url: "https://ico.org.uk/about-the-ico/jobs-at-the-ico/"
@@ -254,7 +254,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "UK Parliament"
     url: "https://www.parliament.uk/about/careers/job-search/"
@@ -275,7 +275,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Scottish Government"
     url: "https://www.gov.scot/about/careers/"
@@ -296,7 +296,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Senedd Cymru"
     url: "https://senedd.wales/visit-and-learn/work-for-us/"
@@ -317,7 +317,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   # ── Tier 2: Generic AI scrapers — uk-think-tanks ───────────────────────────
 
@@ -340,7 +340,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "IPPR"
     url: "https://www.ippr.org/jobs"
@@ -361,7 +361,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "ODI"
     url: "https://odi.org/en/careers/"
@@ -382,7 +382,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Resolution Foundation"
     url: "https://www.resolutionfoundation.org/about/jobs/"
@@ -403,7 +403,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Adam Smith Institute"
     url: "https://www.adamsmith.org/jobs"
@@ -424,7 +424,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Centre for Social Justice"
     url: "https://www.centreforsocialjustice.org.uk/about/vacancies"
@@ -466,7 +466,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Smith Institute"
     url: "https://www.smith-institute.org.uk"
@@ -487,7 +487,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "ECFR London"
     url: "https://ecfr.eu/about/jobs/"
@@ -508,7 +508,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "New Local"
     url: "https://www.newlocal.org.uk/about/work-for-us/"
@@ -529,7 +529,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "E3G"
     url: "https://www.e3g.org/about/careers/"
@@ -550,7 +550,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Health Foundation"
     url: "https://www.health.org.uk/about-the-health-foundation/work-for-us"
@@ -571,7 +571,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "HEPI"
     url: "https://www.hepi.ac.uk/about/vacancies/"
@@ -592,7 +592,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "JRF"
     url: "https://www.jrf.org.uk/about-us/jobs"
@@ -613,7 +613,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "IWA"
     url: "https://www.iwa.wales/about/vacancies/"
@@ -636,7 +636,7 @@ sources:
     category: "political-parties"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Labour Party"
     url: "https://labour.org.uk/jobs/"
@@ -701,7 +701,7 @@ sources:
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "APCO Worldwide"
     url: "https://www.apcoworldwide.com/careers/"
@@ -722,7 +722,7 @@ sources:
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Teneo"
     url: "https://www.teneo.com/careers/"
@@ -743,7 +743,7 @@ sources:
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Cicero/AMO"
     url: "https://cicero-group.com/careers/"
@@ -766,7 +766,7 @@ sources:
     category: "ngos"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Amnesty International UK"
     url: "https://www.amnesty.org.uk/jobs"
@@ -787,7 +787,7 @@ sources:
     category: "ngos"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   # ── Tier 2: Generic AI scrapers — uk-fellowships ──────────────────────────
 
@@ -812,7 +812,7 @@ sources:
     category: "trade-associations"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "TUC"
     url: "https://www.tuc.org.uk/about-tuc/tuc-vacancies"
@@ -833,7 +833,7 @@ sources:
     category: "trade-associations"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "STUC"
     url: "https://stuc.org.uk/about-stuc/vacancies"
