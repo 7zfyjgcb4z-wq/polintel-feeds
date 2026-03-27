@@ -115,7 +115,10 @@ class Scraper(BaseScraper):
                 org = org_raw or "CharityJob"
                 location = None
 
-            desc = f"Role at {org}" + (f" ({location})" if location else "")
+            desc_parts = [org]
+            if location:
+                desc_parts.append(location)
+            desc = " | ".join(desc_parts)
 
             jobs.append(
                 Job(

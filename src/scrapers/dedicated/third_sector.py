@@ -117,11 +117,20 @@ class Scraper(BaseScraper):
             except httpx.HTTPError as e:
                 self.log.debug(f"Detail fetch failed {stub['url']}: {e}")
 
+            desc_parts = [org]
+            if stub.get("location"):
+                desc_parts.append(stub["location"])
+            if closing:
+                desc_parts.append(f"Closes: {closing}")
+            if stub.get("desc"):
+                desc_parts.append(stub["desc"])
+            desc = " | ".join(desc_parts)
+
             return Job(
                 title=stub["title"],
                 url=stub["url"],
                 organisation=org,
-                description=stub.get("desc", "")[:500],
+                description=desc[:500],
                 source_name=self.name,
                 category=self.category,
                 country=self.country,

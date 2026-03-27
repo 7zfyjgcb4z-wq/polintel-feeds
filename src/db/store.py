@@ -120,8 +120,8 @@ class JobStore:
         cur = self._conn.execute(
             """UPDATE jobs SET is_active = 0
                WHERE is_active = 1
-               AND date_last_seen < datetime(?, ?, ?)""",
-            (cutoff_str, "-", f"{days} days"),
+               AND date_last_seen < datetime(?, ?)""",
+            (cutoff_str, f"-{days} days"),
         )
         self._conn.commit()
         return cur.rowcount
@@ -130,8 +130,8 @@ class JobStore:
         """Delete jobs not seen in `days` days."""
         cutoff_str = datetime.now(timezone.utc).isoformat()
         cur = self._conn.execute(
-            "DELETE FROM jobs WHERE date_last_seen < datetime(?, ?, ?)",
-            (cutoff_str, "-", f"{days} days"),
+            "DELETE FROM jobs WHERE date_last_seen < datetime(?, ?)",
+            (cutoff_str, f"-{days} days"),
         )
         self._conn.commit()
         return cur.rowcount

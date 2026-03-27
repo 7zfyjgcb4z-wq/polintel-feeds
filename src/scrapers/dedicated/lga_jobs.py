@@ -38,12 +38,19 @@ class Scraper(BaseScraper):
             jobs: list[Job] = []
             for stub in stubs:
                 closing = await self._get_closing_date(client, stub["url"])
+                desc_parts = ["Local Government Association"]
+                if stub.get("location"):
+                    desc_parts.append(stub["location"])
+                if stub.get("salary"):
+                    desc_parts.append(f"Salary: {stub['salary']}")
+                if closing:
+                    desc_parts.append(f"Closes: {closing}")
                 jobs.append(
                     Job(
                         title=stub["title"],
                         url=stub["url"],
                         organisation="Local Government Association",
-                        description=stub.get("desc", "")[:500],
+                        description=" | ".join(desc_parts)[:500],
                         source_name=self.name,
                         category=self.category,
                         country=self.country,
@@ -71,10 +78,7 @@ class Scraper(BaseScraper):
             salary_el = li.select_one("li.results-salary")
             salary = salary_el.get_text(strip=True) if salary_el else ""
 
-            desc_el = li.select_one("p.job-description")
-            desc = desc_el.get_text(strip=True) if desc_el else salary
-
-            stubs.append({"title": title, "url": url, "location": location, "desc": desc})
+            stubs.append({"title": title, "url": url, "location": location, "salary": salary})
         return stubs
 
     async def _get_closing_date(self, client: httpx.AsyncClient, url: str) -> str | None:

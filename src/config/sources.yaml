@@ -38,14 +38,6 @@ sources:
     module: "lga_jobs"
     enabled: true
 
-  - name: "Smart Thinking Jobs"
-    url: "https://www.smartthinkingjobs.com"
-    category: "think-tanks"
-    country: "uk"
-    scraper: "dedicated"
-    module: "smart_thinking"
-    enabled: false  # domain is parked/dead
-
   - name: "CharityJob"
     url: "https://www.charityjob.co.uk/jobs?keywords=policy+advocacy+public+affairs"
     category: "ngos"

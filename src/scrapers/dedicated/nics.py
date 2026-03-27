@@ -53,13 +53,20 @@ class Scraper(BaseScraper):
             salary = self._field(div, "SALARY")
             location = self._field(div, "LOCATION")
 
-            org = dept or "Northern Ireland Civil Service"
-            desc = salary if salary else f"Role with {org}"
-
             close_el = div.select_one("span.jobs-date")
             closing = None
             if close_el:
                 closing = self._parse_date(close_el.get_text(strip=True))
+
+            org = dept or "Northern Ireland Civil Service"
+            desc_parts = [org]
+            if location:
+                desc_parts.append(location)
+            if salary:
+                desc_parts.append(f"Salary: {salary}")
+            if closing:
+                desc_parts.append(f"Closes: {closing}")
+            desc = " | ".join(desc_parts)
 
             jobs.append(
                 Job(

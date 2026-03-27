@@ -99,8 +99,16 @@ class Scraper(BaseScraper):
             close_el = div.select_one(".j-search-result__date--blue")
             closing = self._parse_date(close_el.get_text(strip=True)) if close_el else None
 
-            desc_parts = [p for p in [dept, salary] if p]
-            desc = "; ".join(desc_parts) if desc_parts else f"Role at {org}"
+            desc_parts = [org]
+            if dept:
+                desc_parts.append(dept)
+            if location:
+                desc_parts.append(location)
+            if salary:
+                desc_parts.append(f"Salary: {salary}")
+            if closing:
+                desc_parts.append(f"Closes: {closing}")
+            desc = " | ".join(desc_parts)
 
             jobs.append(
                 Job(

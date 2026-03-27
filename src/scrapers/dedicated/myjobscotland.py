@@ -78,8 +78,17 @@ class Scraper(BaseScraper):
 
         salary = (item.get("salary_name") or "").strip()
         contract = (item.get("c_type_name") or "").strip()
-        desc_parts = [p for p in [salary, contract] if p]
-        desc = "; ".join(desc_parts) if desc_parts else f"Role at {org}"
+
+        desc_parts = [org]
+        if location:
+            desc_parts.append(location)
+        if salary:
+            desc_parts.append(f"Salary: {salary}")
+        if contract:
+            desc_parts.append(contract)
+        if closing:
+            desc_parts.append(f"Closes: {closing}")
+        desc = " | ".join(desc_parts)
 
         return Job(
             title=title,

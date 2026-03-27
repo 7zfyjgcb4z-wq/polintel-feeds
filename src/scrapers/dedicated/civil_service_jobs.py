@@ -190,7 +190,15 @@ class Scraper(BaseScraper):
 
             salary_el = li.select_one(".search-results-job-box-salary")
             salary = self._content_text(salary_el) if salary_el else ""
-            desc = salary if salary else f"Role at {org}"
+
+            desc_parts = [org]
+            if location:
+                desc_parts.append(location)
+            if salary:
+                desc_parts.append(f"Salary: {salary}")
+            if closing:
+                desc_parts.append(f"Closes: {closing}")
+            desc = " | ".join(desc_parts)
 
             jobs.append(
                 Job(
