@@ -1,14 +1,10 @@
 {
-  "last_run": "2026-04-06T12:14:18Z",
-  "total_active_jobs": 115,
+  "last_run": "2026-04-06T12:19:30Z",
+  "total_active_jobs": 116,
   "sources_checked": 5,
-  "sources_succeeded": 2,
-  "sources_failed": 3,
-  "failed_sources": [
-    "European External Action Service",
-    "Carnegie Europe",
-    "EP Schuman Traineeships"
-  ],
-  "new_jobs_found": 115,
+  "sources_succeeded": 5,
+  "sources_failed": 0,
+  "failed_sources": [],
+  "new_jobs_found": 1,
   "feeds_generated": 6
 }
