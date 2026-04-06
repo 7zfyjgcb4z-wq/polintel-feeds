@@ -1,10 +1,12 @@
 # polintel-feeds
 
-RSS feed generator for UK political and policy sector jobs. Scrapes government departments, think tanks, NGOs, political parties, public affairs firms, trade associations, and fellowship programmes daily. Feeds are published to GitHub Pages and consumed by the Pol-Intel platform.
+RSS feed generator for UK and Brussels/EU political and policy sector jobs. Scrapes government departments, EU institutions, think tanks, NGOs, political parties, public affairs firms, trade associations, and fellowship programmes daily. Feeds are published to GitHub Pages and consumed by the Pol-Intel platform.
 
 ## Feeds
 
 Live feeds at `https://7zfyjgcb4z-wq.github.io/polintel-feeds/`:
+
+### UK
 
 | Feed | URL |
 |------|-----|
@@ -16,6 +18,17 @@ Live feeds at `https://7zfyjgcb4z-wq.github.io/polintel-feeds/`:
 | Fellowships & Early Career | `uk-fellowships.xml` |
 | Trade Associations | `uk-trade-associations.xml` |
 | General | `uk-general.xml` |
+
+### Brussels / EU
+
+| Feed | URL |
+|------|-----|
+| EU Affairs (Brussels) | `brussels-eu-affairs.xml` |
+| EU Institutions | `brussels-eu-institutions.xml` |
+| Think Tanks (Brussels) | `brussels-think-tanks.xml` |
+| NGOs (Brussels) | `brussels-ngos.xml` |
+| International Organisations | `brussels-international-orgs.xml` |
+| Fellowships (Brussels) | `brussels-fellowships.xml` |
 
 Feed index: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/`
 Run status: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/status.json`
