@@ -1,0 +1,248 @@
+# Pol-Intel Brussels/EU Sources Configuration
+# scraper: "dedicated" = Tier 1 hand-written scraper
+#          "generic"   = Tier 2 Claude API extraction
+# Note: uses "module" key (not "scraper_module") to match pipeline.py
+
+sources:
+
+  # ── Tier 1: Dedicated scrapers ─────────────────────────────────────────────
+
+  - name: "EuroBrussels"
+    url: "https://www.eurobrussels.com"
+    country: "brussels"
+    category: "eu-affairs"
+    scraper: "dedicated"
+    module: "eurobrussels"
+    schedule: "*/12"
+    language: "en"
+    enabled: true
+
+  - name: "EU Careers (EPSO)"
+    url: "https://eu-careers.europa.eu"
+    country: "brussels"
+    category: "eu-institutions"
+    scraper: "dedicated"
+    module: "eu_careers_epso"
+    schedule: "*/12"
+    language: "multilingual"
+    enabled: false  # JS-rendered portal; EU Training and EuroBrussels cover EPSO vacancies
+
+  - name: "APPLY4EP (European Parliament)"
+    url: "https://apply4ep.gestmax.eu"
+    country: "brussels"
+    category: "eu-institutions"
+    scraper: "dedicated"
+    module: "apply4ep"
+    schedule: "daily"
+    language: "multilingual"
+    enabled: false  # /search/offers returns 404; covered by EU Training Jobs
+
+  - name: "EU Training Jobs"
+    url: "https://eutraining.eu/eu-jobs"
+    country: "brussels"
+    category: "eu-affairs"
+    scraper: "dedicated"
+    module: "eutraining"
+    schedule: "daily"
+    language: "en"
+    enabled: true
+
+  - name: "Jobs in Brussels"
+    url: "https://jobsin.brussels"
+    country: "brussels"
+    category: "eu-affairs"
+    scraper: "dedicated"
+    module: "jobsinbrussels"
+    schedule: "daily"
+    language: "en"
+    enabled: false  # JS-rendered SPA, no accessible API endpoint
+
+  # ── Tier 2: Generic AI scrapers — eu-institutions ──────────────────────────
+
+  - name: "European External Action Service"
+    url: "https://www.eeas.europa.eu/eeas/vacancies_en"
+    country: "brussels"
+    category: "eu-institutions"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: true  # 200 OK (original /jobs-traineeships_en was 404; updated URL)
+
+  - name: "Council of the EU"
+    url: "https://www.consilium.europa.eu/en/general-secretariat/jobs/"
+    country: "brussels"
+    category: "eu-institutions"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 403 blocked
+
+  # ── Tier 2: Generic AI scrapers — international-orgs ──────────────────────
+
+  - name: "NATO Careers"
+    url: "https://www.nato.int/cps/en/natolive/recruit-index.htm"
+    country: "brussels"
+    category: "international-orgs"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 404 — URL not found
+
+  - name: "NATO NCIA"
+    url: "https://www.ncia.nato.int/careers.html"
+    country: "brussels"
+    category: "international-orgs"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 403 blocked
+
+  # ── Tier 2: Generic AI scrapers — think-tanks ─────────────────────────────
+
+  - name: "Bruegel"
+    url: "https://www.bruegel.org/about/recruitment"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 404 — URL not found
+
+  - name: "CEPS"
+    url: "https://www.ceps.eu/about-ceps/jobs/"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: true  # 200 OK
+
+  - name: "European Policy Centre"
+    url: "https://www.epc.eu/en/vacancies"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: true  # 200 OK
+
+  - name: "Carnegie Europe"
+    url: "https://carnegieeurope.eu/about/jobs"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: true  # 200 OK
+
+  - name: "Friends of Europe"
+    url: "https://www.friendsofeurope.org/jobs"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 404 — URL not found
+
+  - name: "ECFR"
+    url: "https://ecfr.eu/about/jobs/"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: true  # 200 OK (original /about/work-for-us/ was 404; updated URL)
+
+  - name: "Egmont Institute"
+    url: "https://www.egmontinstitute.be/vacancies/"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 404 — URL not found
+
+  # ── Tier 2: Generic AI scrapers — ngos ────────────────────────────────────
+
+  - name: "Transparency International EU"
+    url: "https://transparency.eu/vacancies/"
+    country: "brussels"
+    category: "ngos"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 404 — URL not found
+
+  - name: "International Crisis Group"
+    url: "https://www.crisisgroup.org/careers"
+    country: "brussels"
+    category: "ngos"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 403 blocked
+
+  - name: "European Environmental Bureau"
+    url: "https://eeb.org/jobs/"
+    country: "brussels"
+    category: "ngos"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 404 — URL not found
+
+  # ── Tier 2: Generic AI scrapers — fellowships ─────────────────────────────
+
+  - name: "Commission Blue Book Traineeships"
+    url: "https://traineeships.ec.europa.eu"
+    country: "brussels"
+    category: "fellowships"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: true  # 200 OK
+
+  - name: "EP Schuman Traineeships"
+    url: "https://www.europarl.europa.eu/at-your-service/en/work-with-us/traineeships"
+    country: "brussels"
+    category: "fellowships"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: true  # 200 OK
+
+  - name: "Council Traineeships"
+    url: "https://www.consilium.europa.eu/en/general-secretariat/jobs/traineeships/"
+    country: "brussels"
+    category: "fellowships"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: false  # 403 blocked
+
+  - name: "College of Europe Careers"
+    url: "https://www.coleurope.eu/careers"
+    country: "brussels"
+    category: "fellowships"
+    scraper: "generic"
+    schedule: "daily"
+    language: "en"
+    requires_js: false
+    enabled: true  # 200 OK

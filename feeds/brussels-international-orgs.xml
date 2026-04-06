@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>International Organisation Jobs (Brussels/NATO)</title>
+    <link>/brussels-international-orgs.xml</link>
+    <description>Job listings for International Organisations roles, scraped by Pol-Intel.</description>
+    <atom:link href="/brussels-international-orgs.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Apr 2026 12:02:41 +0000</lastBuildDate>
+  </channel>
+</rss>

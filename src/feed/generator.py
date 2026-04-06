@@ -23,23 +23,57 @@ CATEGORY_LABELS = {
     "fellowships": "Fellowships",
     "trade-associations": "Trade Associations",
     "general": "General",
+    # Brussels/EU categories
+    "eu-institutions": "EU Institutions",
+    "eu-affairs": "EU Affairs",
+    "international-orgs": "International Organisations",
 }
 
-FEED_META = {
-    "government": "UK Government & Public Sector Jobs",
-    "think-tanks": "UK Think Tank Jobs",
-    "political-parties": "UK Political Party Jobs",
-    "public-affairs": "UK Public Affairs & Lobbying Jobs",
-    "ngos": "UK NGO & Charity Jobs",
-    "fellowships": "UK Fellowships & Early Career Programmes",
-    "trade-associations": "UK Trade Association Jobs",
-    "general": "UK Political & Policy Jobs (General)",
+FEED_META: dict[str, dict[str, str]] = {
+    "uk": {
+        "government": "UK Government & Public Sector Jobs",
+        "think-tanks": "UK Think Tank Jobs",
+        "political-parties": "UK Political Party Jobs",
+        "public-affairs": "UK Public Affairs & Lobbying Jobs",
+        "ngos": "UK NGO & Charity Jobs",
+        "fellowships": "UK Fellowships & Early Career Programmes",
+        "trade-associations": "UK Trade Association Jobs",
+        "general": "UK Political & Policy Jobs (General)",
+    },
+    "brussels": {
+        "eu-institutions": "EU Institutions Jobs (Brussels)",
+        "eu-affairs": "EU Affairs & Public Affairs Jobs (Brussels)",
+        "think-tanks": "Brussels Think Tank Jobs",
+        "ngos": "Brussels NGO Jobs",
+        "fellowships": "EU Fellowships & Traineeships",
+        "international-orgs": "International Organisation Jobs (Brussels/NATO)",
+    },
+}
+
+# Which categories to generate per country
+COUNTRY_CATEGORIES: dict[str, list[str]] = {
+    "uk": [
+        "government", "think-tanks", "political-parties", "public-affairs",
+        "ngos", "fellowships", "trade-associations", "general",
+    ],
+    "brussels": [
+        "eu-institutions", "eu-affairs", "think-tanks", "ngos",
+        "fellowships", "international-orgs",
+    ],
 }
 
 
-def generate_feeds(jobs: list[Job], output_dir: str, base_url: str = "") -> dict[str, int]:
+def generate_feeds(
+    jobs: list[Job],
+    output_dir: str,
+    base_url: str = "",
+    country: str = "uk",
+) -> dict[str, int]:
     """Generate one RSS XML file per category. Returns {category: job_count}."""
     os.makedirs(output_dir, exist_ok=True)
+
+    categories = COUNTRY_CATEGORIES.get(country, COUNTRY_CATEGORIES["uk"])
+    feed_meta = FEED_META.get(country, FEED_META["uk"])
 
     by_category: dict[str, list[Job]] = {}
     for job in jobs:
@@ -47,19 +81,28 @@ def generate_feeds(jobs: list[Job], output_dir: str, base_url: str = "") -> dict
         by_category.setdefault(cat, []).append(job)
 
     counts: dict[str, int] = {}
-    for category in CATEGORY_LABELS:
+    for category in categories:
         cat_jobs = by_category.get(category, [])
-        _write_feed(category, cat_jobs, output_dir, base_url)
+        _write_feed(category, cat_jobs, output_dir, base_url, country=country, feed_meta=feed_meta)
         counts[category] = len(cat_jobs)
-        log.info(f"Feed uk-{category}.xml: {len(cat_jobs)} jobs")
+        log.info(f"Feed {country}-{category}.xml: {len(cat_jobs)} jobs")
 
     return counts
 
 
-def _write_feed(category: str, jobs: list[Job], output_dir: str, base_url: str) -> None:
+def _write_feed(
+    category: str,
+    jobs: list[Job],
+    output_dir: str,
+    base_url: str,
+    country: str = "uk",
+    feed_meta: dict[str, str] | None = None,
+) -> None:
     label = CATEGORY_LABELS.get(category, category.title())
-    title = FEED_META.get(category, f"UK {label} Jobs")
-    feed_url = f"{base_url}/uk-{category}.xml" if base_url else f"/uk-{category}.xml"
+    if feed_meta is None:
+        feed_meta = FEED_META.get(country, FEED_META["uk"])
+    title = feed_meta.get(category, f"{country.title()} {label} Jobs")
+    feed_url = f"{base_url}/{country}-{category}.xml" if base_url else f"/{country}-{category}.xml"
 
     # Cap at max items (already sorted newest-first from DB query)
     capped = jobs[:FEED_MAX_ITEMS]
@@ -69,7 +112,7 @@ def _write_feed(category: str, jobs: list[Job], output_dir: str, base_url: str) 
     fg.title(title)
     fg.link(href=feed_url, rel="self")
     fg.language("en")
-    fg.description(f"Job listings for UK {label} roles, scraped by Pol-Intel.")
+    fg.description(f"Job listings for {label} roles, scraped by Pol-Intel.")
     fg.lastBuildDate(datetime.now(timezone.utc))
 
     for job in capped:
@@ -98,7 +141,7 @@ def _write_feed(category: str, jobs: list[Job], output_dir: str, base_url: str) 
         if job.closing_date:
             fe.summary(f"Closing: {job.closing_date}. {job.description or ''}"[:500])
 
-    out_path = os.path.join(output_dir, f"uk-{category}.xml")
+    out_path = os.path.join(output_dir, f"{country}-{category}.xml")
     fg.rss_file(out_path, pretty=True)
 
     # Validate the written XML parses cleanly

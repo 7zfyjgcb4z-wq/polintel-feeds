@@ -14,7 +14,13 @@ from src.models.job import Job
 
 log = logging.getLogger(__name__)
 
-CONFIG_PATH = Path(__file__).parent / "config" / "sources.yaml"
+CONFIG_DIR = Path(__file__).parent / "config"
+CONFIG_PATH = CONFIG_DIR / "sources.yaml"
+
+COUNTRY_CONFIG = {
+    "uk": CONFIG_DIR / "sources.yaml",
+    "brussels": CONFIG_DIR / "sources-brussels.yaml",
+}
 
 
 def load_config(path: str | Path = CONFIG_PATH) -> dict:
@@ -47,7 +53,8 @@ async def run_pipeline(
     output_dir: str = "feeds/",
     base_url: str = "",
 ) -> dict:
-    config = load_config()
+    config_path = COUNTRY_CONFIG.get(country, CONFIG_PATH)
+    config = load_config(config_path)
     db = JobStore(db_path)
 
     active_sources = [s for s in config["sources"] if s.get("enabled", True)]
@@ -100,7 +107,7 @@ async def run_pipeline(
 
     # Generate feeds
     active_jobs = db.get_active_jobs(country=country)
-    feed_counts = generate_feeds(active_jobs, output_dir=output_dir, base_url=base_url)
+    feed_counts = generate_feeds(active_jobs, output_dir=output_dir, base_url=base_url, country=country)
 
     generate_status(
         output_dir=output_dir,

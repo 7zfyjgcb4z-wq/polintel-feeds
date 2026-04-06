@@ -57,12 +57,12 @@ def feeds(db_path, output_dir, country):
 
     db = JobStore(db_path)
     jobs = db.get_active_jobs(country=country)
-    counts = generate_feeds(jobs, output_dir=output_dir)
+    counts = generate_feeds(jobs, output_dir=output_dir, country=country)
     generate_status(output_dir=output_dir, total_active_jobs=len(jobs), feeds_generated=len(counts))
     db.close()
     click.echo(f"Generated {len(counts)} feeds from {len(jobs)} active jobs.")
     for cat, n in counts.items():
-        click.echo(f"  uk-{cat}.xml: {n} jobs")
+        click.echo(f"  {country}-{cat}.xml: {n} jobs")
 
 
 @cli.command()
@@ -86,11 +86,14 @@ def sources(config_path):
 @click.option("--source", "source_name", required=True, help="Source name to test.")
 @click.option("--dry-run/--no-dry-run", default=False, show_default=True,
               help="For generic sources: fetch + clean but skip API call.")
-@click.option("--config", "config_path", default="src/config/sources.yaml", show_default=True)
-def test(source_name, dry_run, config_path):
+@click.option("--country", default="uk", show_default=True, help="Country config to search.")
+@click.option("--config", "config_path", default=None, show_default=True)
+def test(source_name, dry_run, country, config_path):
     """Test a single source — print jobs, no DB write."""
-    from src.pipeline import load_config, load_dedicated_scraper
+    from src.pipeline import load_config, load_dedicated_scraper, COUNTRY_CONFIG, CONFIG_PATH
 
+    if config_path is None:
+        config_path = COUNTRY_CONFIG.get(country, CONFIG_PATH)
     config = load_config(config_path)
     matches = [s for s in config["sources"] if s["name"] == source_name]
     if not matches:

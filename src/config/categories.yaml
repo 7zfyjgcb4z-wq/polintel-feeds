@@ -78,3 +78,36 @@ categories:
     label: "General"
     feed: "uk-general"
     keywords: []
+
+  # ── Brussels/EU categories ──────────────────────────────────────────────────
+
+  eu-institutions:
+    label: "EU Institutions"
+    feed: "brussels-eu-institutions"
+    keywords:
+      - european commission
+      - european parliament
+      - council of the eu
+      - eu institution
+      - epso
+      - eu agency
+
+  eu-affairs:
+    label: "EU Affairs"
+    feed: "brussels-eu-affairs"
+    keywords:
+      - eu affairs
+      - european affairs
+      - brussels
+      - eu policy
+      - european policy
+      - trade association brussels
+
+  international-orgs:
+    label: "International Organisations"
+    feed: "brussels-international-orgs"
+    keywords:
+      - nato
+      - oecd
+      - international organisation
+      - intergovernmental
