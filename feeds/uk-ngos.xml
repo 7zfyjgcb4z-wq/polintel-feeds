@@ -3,76 +3,12 @@
   <channel>
     <title>UK NGO &amp; Charity Jobs</title>
     <link>/uk-ngos.xml</link>
-    <description>Job listings for UK NGOs roles, scraped by Pol-Intel.</description>
+    <description>Job listings for NGOs roles, scraped by Pol-Intel.</description>
     <atom:link href="/uk-ngos.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 07:26:12 +0000</lastBuildDate>
-    <item>
-      <title>Parish Nurse</title>
-      <link>https://www.charityjob.co.uk/jobs/hereford-cathedral/parish-nurse/1061972</link>
-      <description>Hereford Cathedral | Hereford (Hybrid)</description>
-      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/hereford-cathedral/parish-nurse/1061972</guid>
-      <category>NGOs</category>
-      <pubDate>Mon, 30 Mar 2026 07:21:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quality Assurance Manager</title>
-      <link>https://www.charityjob.co.uk/jobs/day-one-trauma-support/quality-assurance-manager/1061555</link>
-      <description>Day One Trauma Support | Leeds (Hybrid)</description>
-      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/day-one-trauma-support/quality-assurance-manager/1061555</guid>
-      <category>NGOs</category>
-      <pubDate>Mon, 30 Mar 2026 07:21:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Communications and Stories Officer</title>
-      <link>https://www.charityjob.co.uk/jobs/your-place/communications-and-stories-officer/1062162</link>
-      <description>Your Place | Multiple Locations (On-site)</description>
-      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/your-place/communications-and-stories-officer/1062162</guid>
-      <category>NGOs</category>
-      <pubDate>Tue, 31 Mar 2026 07:09:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Communications and Marketing Manager</title>
-      <link>https://www.charityjob.co.uk/jobs/the-hive-youth-zone/communications-and-marketing-manager/1062361</link>
-      <description>The Hive Youth Zone | Birkenhead (On-site)</description>
-      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/the-hive-youth-zone/communications-and-marketing-manager/1062361</guid>
-      <category>NGOs</category>
-      <pubDate>Tue, 31 Mar 2026 07:09:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Head of Acquisition</title>
-      <link>https://www.charityjob.co.uk/jobs/the-talent-set/head-of-acquisition/1062362</link>
-      <description>The Talent Set | Remote</description>
-      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/the-talent-set/head-of-acquisition/1062362</guid>
-      <category>NGOs</category>
-      <pubDate>Tue, 31 Mar 2026 07:09:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Marketing Campaigns Officer</title>
-      <link>https://www.charityjob.co.uk/jobs/cats-protection/marketing-campaigns-officer/1062328</link>
-      <description>Cats Protection | Remotely in the UK only (On-site)</description>
-      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/cats-protection/marketing-campaigns-officer/1062328</guid>
-      <category>NGOs</category>
-      <pubDate>Tue, 31 Mar 2026 07:09:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Digital Content Coordinator</title>
-      <link>https://www.charityjob.co.uk/jobs/not-for-profit-people/digital-content-coordinator/1062369</link>
-      <description>Not For Profit People | Multiple Locations (Hybrid)</description>
-      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/not-for-profit-people/digital-content-coordinator/1062369</guid>
-      <category>NGOs</category>
-      <pubDate>Tue, 31 Mar 2026 07:09:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Support Coordinator</title>
-      <link>https://www.charityjob.co.uk/jobs/not-for-profit-people/support-coordinator/1062855</link>
-      <description>Not For Profit People | Remote</description>
-      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/not-for-profit-people/support-coordinator/1062855</guid>
-      <category>NGOs</category>
-      <pubDate>Tue, 31 Mar 2026 07:09:03 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 07 Apr 2026 07:12:26 +0000</lastBuildDate>
     <item>
       <title>Head of Marketing</title>
       <link>https://www.charityjob.co.uk/jobs/not-for-profit-people/head-of-marketing/1062415</link>
@@ -4008,6 +3944,70 @@
       <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/rape-crisis-south-london-rcsl-/director-of-finance-and-resources-female-only-applicants-/1063107</guid>
       <category>NGOs</category>
       <pubDate>Mon, 06 Apr 2026 07:23:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Refuge Caseworkers</title>
+      <link>https://www.charityjob.co.uk/jobs/london-black-women-s-project/refuge-caseworkers/1063111</link>
+      <description>London Black Women's Project | London (On-site)</description>
+      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/london-black-women-s-project/refuge-caseworkers/1063111</guid>
+      <category>NGOs</category>
+      <pubDate>Tue, 07 Apr 2026 07:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>SENCo - North</title>
+      <link>https://www.charityjob.co.uk/jobs/the-really-neet-project-ltd/senco-north/1063113</link>
+      <description>The Really NEET Project Ltd | Rotherham (On-site)</description>
+      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/the-really-neet-project-ltd/senco-north/1063113</guid>
+      <category>NGOs</category>
+      <pubDate>Tue, 07 Apr 2026 07:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Peer Coordinator - My Health Matters</title>
+      <link>https://www.charityjob.co.uk/jobs/shelter/peer-coordinator-my-health-matters/1063118</link>
+      <description>Shelter | Manchester (On-site)</description>
+      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/shelter/peer-coordinator-my-health-matters/1063118</guid>
+      <category>NGOs</category>
+      <pubDate>Tue, 07 Apr 2026 07:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Conservation Projects Manager, East Anglia</title>
+      <link>https://www.charityjob.co.uk/jobs/the-churches-conservation-trust/conservation-projects-manager-east-anglia/1061621</link>
+      <description>The Churches Conservation Trust | Remote</description>
+      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/the-churches-conservation-trust/conservation-projects-manager-east-anglia/1061621</guid>
+      <category>NGOs</category>
+      <pubDate>Tue, 07 Apr 2026 07:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Estate Officer, East Anglia</title>
+      <link>https://www.charityjob.co.uk/jobs/the-churches-conservation-trust/estate-officer-east-anglia/1061628</link>
+      <description>The Churches Conservation Trust | Remote</description>
+      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/the-churches-conservation-trust/estate-officer-east-anglia/1061628</guid>
+      <category>NGOs</category>
+      <pubDate>Tue, 07 Apr 2026 07:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Estate Officer, West</title>
+      <link>https://www.charityjob.co.uk/jobs/the-churches-conservation-trust/estate-officer-west/1061635</link>
+      <description>The Churches Conservation Trust | Remote</description>
+      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/the-churches-conservation-trust/estate-officer-west/1061635</guid>
+      <category>NGOs</category>
+      <pubDate>Tue, 07 Apr 2026 07:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Regional Head - Midlands</title>
+      <link>https://www.charityjob.co.uk/jobs/the-really-neet-project-ltd/regional-head-midlands/1063110</link>
+      <description>The Really NEET Project Ltd | Telford (Hybrid)</description>
+      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/the-really-neet-project-ltd/regional-head-midlands/1063110</guid>
+      <category>NGOs</category>
+      <pubDate>Tue, 07 Apr 2026 07:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Regional Head - North</title>
+      <link>https://www.charityjob.co.uk/jobs/the-really-neet-project-ltd/regional-head-north/1063112</link>
+      <description>The Really NEET Project Ltd | Rotherham (Hybrid)</description>
+      <guid isPermaLink="false">https://www.charityjob.co.uk/jobs/the-really-neet-project-ltd/regional-head-north/1063112</guid>
+      <category>NGOs</category>
+      <pubDate>Tue, 07 Apr 2026 07:09:51 +0000</pubDate>
     </item>
   </channel>
 </rss>

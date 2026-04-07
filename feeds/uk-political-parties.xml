@@ -3,12 +3,12 @@
   <channel>
     <title>UK Political Party Jobs</title>
     <link>/uk-political-parties.xml</link>
-    <description>Job listings for UK Political Parties roles, scraped by Pol-Intel.</description>
+    <description>Job listings for Political Parties roles, scraped by Pol-Intel.</description>
     <atom:link href="/uk-political-parties.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 07:26:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 07:12:26 +0000</lastBuildDate>
     <item>
       <title>Case Worker – Hannah Spencer MP</title>
       <link>https://www.greenparty.org.uk/jobs/case-worker-hannah-spencer-mp</link>
@@ -72,6 +72,54 @@
       <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/data-protection-manager</guid>
       <category>Political Parties</category>
       <pubDate>Wed, 01 Apr 2026 07:15:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Caseworker for Pippa Heylings MP (South Cambridgeshire)</title>
+      <link>https://www.libdems.org.uk/jobs/caseworker-pippa-heylings-mp</link>
+      <description>Dedicated and empathetic Caseworker to join the Member of Parliament's constituency team.</description>
+      <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-pippa-heylings-mp</guid>
+      <category>Political Parties</category>
+      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Caseworker for Josh Babarinde MP (Eastbourne)</title>
+      <link>https://www.libdems.org.uk/jobs/caseworker-josh-babarinde-mp</link>
+      <description>Caseworker to join an award-winning MP office team, based in Eastbourne, officially the UK's sunniest town.</description>
+      <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-josh-babarinde-mp</guid>
+      <category>Political Parties</category>
+      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Caseworker for Helen Maguire MP (Epsom and Ewell)</title>
+      <link>https://www.libdems.org.uk/jobs/caseworker-helen-maguire-mp</link>
+      <description>Energetic and driven caseworker to support a well-established casework function in a busy constituency office.</description>
+      <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-helen-maguire-mp</guid>
+      <category>Political Parties</category>
+      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Support Officer for Charlotte Cane MP (Ely and East Cambridgeshire)</title>
+      <link>https://www.libdems.org.uk/jobs/support-officer-charlotte-cane-mp</link>
+      <description>Committed and well organised Support Officer to join the constituency team on a temporary basis.</description>
+      <guid isPermaLink="false">https://www.libdems.org.uk/jobs/support-officer-charlotte-cane-mp</guid>
+      <category>Political Parties</category>
+      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Caseworker for David Chadwick MP (Brecon, Radnor and Cwm Tawe)</title>
+      <link>https://www.libdems.org.uk/jobs/caseworker-david-chadwick-mp</link>
+      <description>Enthusiastic and hardworking Caseworker (part-time and flexible hours considered) to deliver timely, relevant advice to Brecon, Radnor and Cwm Tawe's residents.</description>
+      <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-david-chadwick-mp</guid>
+      <category>Political Parties</category>
+      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Leaders Visits Coordinator</title>
+      <link>https://www.libdems.org.uk/jobs/leaders-visits-coordinator</link>
+      <description>Join the Leader's Office following the 2024 General Election triumph where the Liberal Democrats secured 72 seats to be the third biggest party in Parliament.</description>
+      <guid isPermaLink="false">https://www.libdems.org.uk/jobs/leaders-visits-coordinator</guid>
+      <category>Political Parties</category>
+      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
     </item>
   </channel>
 </rss>

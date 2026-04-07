@@ -3,12 +3,12 @@
   <channel>
     <title>UK Public Affairs &amp; Lobbying Jobs</title>
     <link>/uk-public-affairs.xml</link>
-    <description>Job listings for UK Public Affairs roles, scraped by Pol-Intel.</description>
+    <description>Job listings for Public Affairs roles, scraped by Pol-Intel.</description>
     <atom:link href="/uk-public-affairs.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 07:26:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 07:12:26 +0000</lastBuildDate>
     <item>
       <title>Account Manager</title>
       <link>https://www.secnewgate.co.uk/careers/account-manager</link>
