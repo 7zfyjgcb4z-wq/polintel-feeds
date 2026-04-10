@@ -20,7 +20,7 @@ sources:
     country: "uk"
     scraper: "dedicated"
     module: "myjobscotland"
-    enabled: true
+    enabled: false  # Disabled 2026-04-10: signal-to-noise too low — overwhelmingly Scottish council operational roles (cleaners, catering, joiners, leisure attendants)
 
   - name: "NICS"
     url: "https://irecruit-ext.hrconnect.nigov.net/jobs/vacancies.aspx"

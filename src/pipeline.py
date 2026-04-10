@@ -9,13 +9,16 @@ from pathlib import Path
 import yaml
 
 from src.db.store import JobStore
+from src.enrichment.descriptions import fetch_descriptions
 from src.feed.generator import generate_feeds, generate_status
+from src.filters.relevance import filter_relevant_jobs
 from src.models.job import Job
 
 log = logging.getLogger(__name__)
 
 CONFIG_DIR = Path(__file__).parent / "config"
 CONFIG_PATH = CONFIG_DIR / "sources.yaml"
+EXCLUSIONS_PATH = CONFIG_DIR / "exclusions.yaml"
 
 COUNTRY_CONFIG = {
     "uk": CONFIG_DIR / "sources.yaml",
@@ -99,6 +102,12 @@ async def run_pipeline(
             except Exception as e:
                 log.error(f"FAIL: {source['name']}: {e}")
                 failed_sources.append(source["name"])
+
+    # Apply exclusion filter
+    all_jobs = filter_relevant_jobs(all_jobs, exclusions_path=str(EXCLUSIONS_PATH))
+
+    # Fetch descriptions for jobs that passed the filter
+    all_jobs = await fetch_descriptions(all_jobs, config_path=str(EXCLUSIONS_PATH))
 
     # Store
     new_count = db.upsert_jobs(all_jobs)

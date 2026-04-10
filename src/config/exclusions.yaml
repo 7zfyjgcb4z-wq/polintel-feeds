@@ -1,0 +1,158 @@
+# Exclusion keywords for job titles.
+# Case-insensitive, word-boundary matching for single words.
+# Substring matching for multi-word phrases (specific enough to avoid false positives).
+# If a job title contains any of these, the job is excluded from the feed.
+# Keep this list tight — only block the obviously irrelevant.
+# Borderline jobs should pass through for platform-side classification.
+
+exclusions:
+  # Trades and manual labour
+  - joiner
+  - plumber
+  - electrician
+  - glazier
+  - painter
+  - builder
+  - roofer
+  - bricklayer
+  - welder
+  - plasterer
+  - locksmith
+  - scaffolder
+  - tiler
+
+  # Facilities and maintenance
+  - cleaner
+  - cleaning
+  - janitor
+  - caretaker
+  - facility assistant
+  - facilities assistant
+  - maintenance technician
+  - groundskeeper
+  - gardener
+  - grounds maintenance
+  - sports surfaces technician
+
+  # Catering and kitchen
+  - catering assistant
+  - catering supervisor
+  - catering manager
+  - kitchen assistant
+  - cook
+  - chef
+  - school dining
+  - dining supervisor
+  - area cook
+
+  # Leisure and sport
+  - leisure attendant
+  - pool lifeguard
+  - lifeguard
+  - fitness instructor
+  - gym instructor
+  - swimming
+
+  # Driving and transport
+  - refuse collector
+  - refuse collection loader
+  - waste operative
+  - waste management assistant
+  - street cleaner
+  - recycling operative
+  - road worker
+  - roads operative
+  - parking attendant
+
+  # Education (frontline teaching, not policy)
+  - class teacher
+  - teacher of
+  - head teacher
+  - depute head teacher
+  - principal teacher
+  - supply teacher
+  - relief bank for teachers
+  - pupil support assistant
+  - additional support needs assistant
+  - early learning support worker
+  - early learning childcare
+  - ELC practitioner
+  - child development officer
+  - play assistant
+  - support for learning worker
+  - nursery nurse
+  - childcare practitioner
+  - classroom assistant
+  - playground supervisor
+  - lunchtime supervisor
+  - school crossing patrol
+
+  # Social care (frontline, not policy)
+  - social care worker
+  - home carer
+  - care practitioner
+  - care assistant
+  - residential worker
+  - support worker
+  - mobile warden
+  - occupational therapy assistant
+
+  # Healthcare (clinical)
+  - nurse
+  - midwife
+  - physiotherapist
+  - radiographer
+  - pharmacist
+  - dentist
+  - healthcare assistant
+  - clinical
+
+  # Prison service (operational, not policy)
+  - prison officer
+  - youth justice worker
+
+  # Pure IT and technical (not policy-adjacent)
+  - software developer
+  - software engineer
+  - frontend developer
+  - backend developer
+  - full stack developer
+  - web developer
+  - DevOps engineer
+  - database administrator
+  - network engineer
+  - IT support
+  - helpdesk
+  - desktop support
+
+  # Retail and customer service (generic)
+  - retail assistant
+  - shop assistant
+  - sales assistant
+  - cashier
+  - call centre
+  - contact centre
+
+  # Admin (very generic, low-level)
+  - filing clerk
+  - post room
+  - mailroom
+  - switchboard
+  - telephonist
+
+  # Other clearly irrelevant
+  - forklift
+  - warehouse operative
+  - pest control
+  - tree surgeon
+  - ferry engineer
+  - vehicle installation technician
+  - fleet support technician
+  - motorcycle technician
+  - acoustic analyst
+
+description_fetch:
+  throttle_seconds: 1.5
+  timeout_seconds: 15
+  max_description_length: 5000
+  min_existing_description_length: 500
