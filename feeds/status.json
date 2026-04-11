@@ -1,10 +1,181 @@
 {
-  "last_run": "2026-04-11T18:15:19Z",
-  "total_active_jobs": 4435,
-  "sources_checked": 0,
-  "sources_succeeded": 0,
+  "last_run": "2026-04-11T19:31:35Z",
+  "country": "uk",
+  "total_active_jobs": 4489,
+  "new_jobs_found": 54,
+  "sources_checked": 18,
+  "sources_succeeded": 18,
   "sources_failed": 0,
+  "sources_disabled": 102,
+  "relevance_filtered": 443,
+  "descriptions_enriched": 449,
+  "feeds_generated": 8,
+  "run_duration_seconds": 4093.4,
   "failed_sources": [],
-  "new_jobs_found": 0,
-  "feeds_generated": 8
+  "per_source": [
+    {
+      "name": "Civil Service Jobs",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 6250,
+      "jobs_after_relevance_filter": 5850,
+      "descriptions_enriched": 0,
+      "duration_seconds": 1074.8,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+    },
+    {
+      "name": "NICS",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 15,
+      "jobs_after_relevance_filter": 15,
+      "descriptions_enriched": 8,
+      "duration_seconds": 0.5
+    },
+    {
+      "name": "LGA Jobs",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 10,
+      "jobs_after_relevance_filter": 10,
+      "descriptions_enriched": 10,
+      "duration_seconds": 26.0
+    },
+    {
+      "name": "CharityJob",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 365,
+      "jobs_after_relevance_filter": 336,
+      "descriptions_enriched": 334,
+      "duration_seconds": 90.1
+    },
+    {
+      "name": "jobs.ac.uk",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 63,
+      "jobs_after_relevance_filter": 50,
+      "descriptions_enriched": 26,
+      "duration_seconds": 10.2
+    },
+    {
+      "name": "National Audit Office",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
+      "descriptions_enriched": 1,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "IPPR",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "Policy Exchange",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
+      "descriptions_enriched": 1,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "Onward",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 2,
+      "jobs_after_relevance_filter": 2,
+      "descriptions_enriched": 2,
+      "duration_seconds": 1.4
+    },
+    {
+      "name": "NEF",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 3,
+      "jobs_after_relevance_filter": 3,
+      "descriptions_enriched": 3,
+      "duration_seconds": 0.6
+    },
+    {
+      "name": "Demos",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 2,
+      "jobs_after_relevance_filter": 2,
+      "descriptions_enriched": 2,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "Liberal Democrats",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 6,
+      "jobs_after_relevance_filter": 6,
+      "descriptions_enriched": 6,
+      "duration_seconds": 0.7
+    },
+    {
+      "name": "SNP",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.7
+    },
+    {
+      "name": "Green Party",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 5,
+      "jobs_after_relevance_filter": 5,
+      "descriptions_enriched": 5,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "Co-operative Party",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
+      "descriptions_enriched": 0,
+      "duration_seconds": 2.4,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+    },
+    {
+      "name": "Ellwood Atfield",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 31,
+      "jobs_after_relevance_filter": 31,
+      "descriptions_enriched": 31,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "Amnesty International UK",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
+      "descriptions_enriched": 1,
+      "duration_seconds": 0.8
+    },
+    {
+      "name": "TUC",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 20,
+      "jobs_after_relevance_filter": 19,
+      "descriptions_enriched": 19,
+      "duration_seconds": 1.0
+    }
+  ]
 }

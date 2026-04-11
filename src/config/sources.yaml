@@ -12,6 +12,7 @@ sources:
     country: "uk"
     scraper: "dedicated"
     module: "civil_service_jobs"
+    enrich_description: false  # Individual job pages are ALTCHA-protected — enrichment always fails
     enabled: true
 
   - name: "myjobscotland"

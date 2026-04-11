@@ -166,17 +166,138 @@ def generate_status(
     new_jobs_found: int = 0,
     total_active_jobs: int = 0,
     feeds_generated: int = 8,
+    # Extended monitoring fields (all optional for backward compatibility)
+    country: str = "uk",
+    per_source: list[dict] | None = None,
+    sources_disabled: int = 0,
+    relevance_filtered: int = 0,
+    descriptions_enriched: int = 0,
+    run_duration_seconds: float = 0,
 ) -> None:
     status = {
         "last_run": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "country": country,
         "total_active_jobs": total_active_jobs,
+        "new_jobs_found": new_jobs_found,
         "sources_checked": sources_checked,
         "sources_succeeded": sources_succeeded,
         "sources_failed": sources_failed,
-        "failed_sources": failed_sources or [],
-        "new_jobs_found": new_jobs_found,
+        "sources_disabled": sources_disabled,
+        "relevance_filtered": relevance_filtered,
+        "descriptions_enriched": descriptions_enriched,
         "feeds_generated": feeds_generated,
+        "run_duration_seconds": run_duration_seconds,
+        "failed_sources": failed_sources or [],
+        "per_source": per_source or [],
     }
     os.makedirs(output_dir, exist_ok=True)
     with open(os.path.join(output_dir, "status.json"), "w") as f:
         json.dump(status, f, indent=2)
+
+
+def generate_alerts(
+    output_dir: str,
+    current_per_source: list[dict],
+    previous_status_path: str,
+    previous_alerts_path: str,
+) -> None:
+    """Compare current vs previous run to detect zero-result and failure regressions.
+
+    Reads the OLD status.json and alerts.json before they are overwritten, so this
+    must be called BEFORE generate_status().
+    """
+    # Load previous per-source data
+    prev_by_source: dict[str, dict] = {}
+    try:
+        with open(previous_status_path) as f:
+            prev_status = json.load(f)
+        for entry in prev_status.get("per_source", []):
+            prev_by_source[entry["name"]] = entry
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        pass  # first run or legacy status.json — no baseline to compare against
+
+    # Load previous alerts for consecutive-count tracking
+    prev_alerts_by_source: dict[str, dict] = {}
+    prev_tracking: dict[str, dict] = {}
+    try:
+        with open(previous_alerts_path) as f:
+            prev_alerts_data = json.load(f)
+        for alert in prev_alerts_data.get("alerts", []):
+            prev_alerts_by_source[alert["source"]] = alert
+        prev_tracking = prev_alerts_data.get("_tracking", {})
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+
+    alerts: list[dict] = []
+    tracking_out: dict[str, dict] = {"consecutive_failures": {}}
+
+    for entry in current_per_source:
+        name = entry["name"]
+        current_found = entry.get("jobs_found", 0)
+        current_status = entry.get("status", "success")
+        prev = prev_by_source.get(name, {})
+        prev_found = prev.get("jobs_found")  # None if source is new this run
+
+        # ── Zero-result detection ──────────────────────────────────────────────
+        if current_status == "success" and current_found == 0:
+            prev_zero_alert = prev_alerts_by_source.get(name, {})
+            had_zero_alert = prev_zero_alert.get("type") == "zero_result_after_success"
+
+            if prev_found is not None and prev_found > 0:
+                # First zero run
+                alerts.append({
+                    "source": name,
+                    "type": "zero_result_after_success",
+                    "previous_count": prev_found,
+                    "current_count": 0,
+                    "consecutive_zeros": 1,
+                    "message": (
+                        f"{name} returned 0 jobs after previously returning {prev_found}. "
+                        "May be broken selector, site redesign, or no current vacancies."
+                    ),
+                })
+            elif had_zero_alert:
+                # Continuing zero — increment counter
+                consecutive = prev_zero_alert.get("consecutive_zeros", 0) + 1
+                original_count = prev_zero_alert.get("previous_count", 0)
+                alerts.append({
+                    "source": name,
+                    "type": "zero_result_after_success",
+                    "previous_count": original_count,
+                    "current_count": 0,
+                    "consecutive_zeros": consecutive,
+                    "message": (
+                        f"{name} returned 0 jobs (was {original_count}) for "
+                        f"{consecutive} consecutive run(s). Review selector or check for vacancies."
+                    ),
+                })
+
+        # ── Consecutive failure detection ──────────────────────────────────────
+        prev_fail_counts = prev_tracking.get("consecutive_failures", {})
+        if current_status == "failed":
+            prev_count = prev_fail_counts.get(name, 0)
+            new_count = prev_count + 1
+            tracking_out["consecutive_failures"][name] = new_count
+            if new_count >= 3:
+                alerts.append({
+                    "source": name,
+                    "type": "consecutive_failure",
+                    "consecutive_failures": new_count,
+                    "message": f"{name} has failed for {new_count} consecutive pipeline runs.",
+                })
+        else:
+            tracking_out["consecutive_failures"][name] = 0  # reset on success
+
+    output = {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "alerts": alerts,
+        "_tracking": tracking_out,
+    }
+    os.makedirs(output_dir, exist_ok=True)
+    with open(os.path.join(output_dir, "alerts.json"), "w") as f:
+        json.dump(output, f, indent=2)
+
+    if alerts:
+        log.warning(f"Health alerts: {len(alerts)} issue(s) detected — see feeds/alerts.json")
+    else:
+        log.info("Health check: no alerts.")
