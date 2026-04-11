@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-04-11T21:07:44Z",
+  "last_run": "2026-04-11T21:30:34Z",
   "country": "uk",
-  "total_active_jobs": 4962,
+  "total_active_jobs": 139,
   "new_jobs_found": 0,
   "sources_checked": 0,
   "sources_succeeded": 0,
@@ -9,7 +9,7 @@
   "sources_disabled": 0,
   "relevance_filtered": 0,
   "descriptions_enriched": 0,
-  "feeds_generated": 8,
+  "feeds_generated": 6,
   "run_duration_seconds": 0,
   "failed_sources": [],
   "per_source": []

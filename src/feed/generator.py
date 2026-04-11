@@ -10,7 +10,6 @@ from feedgen.feed import FeedGenerator
 
 from src.models.job import Job
 
-FEED_MAX_ITEMS = 500
 
 log = logging.getLogger(__name__)
 
@@ -104,9 +103,6 @@ def _write_feed(
     title = feed_meta.get(category, f"{country.title()} {label} Jobs")
     feed_url = f"{base_url}/{country}-{category}.xml" if base_url else f"/{country}-{category}.xml"
 
-    # Cap at max items (already sorted newest-first from DB query)
-    capped = jobs[:FEED_MAX_ITEMS]
-
     fg = FeedGenerator()
     fg.load_extension("dc")
     fg.id(feed_url)
@@ -116,7 +112,7 @@ def _write_feed(
     fg.description(f"Job listings for {label} roles, scraped by Pol-Intel.")
     fg.lastBuildDate(datetime.now(timezone.utc))
 
-    for job in capped:
+    for job in jobs:
         # Skip entries with non-absolute URLs
         if not job.url.startswith("http"):
             log.warning(f"Skipping job with non-absolute URL: {job.url!r}")

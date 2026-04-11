@@ -113,6 +113,20 @@ class JobStore:
         self._conn.commit()
         return new_count
 
+    def expire_by_closing_date(self) -> int:
+        """Deactivate jobs whose closing_date is in the past."""
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        cur = self._conn.execute(
+            """UPDATE jobs SET is_active = 0
+               WHERE is_active = 1
+               AND closing_date IS NOT NULL
+               AND closing_date != ''
+               AND closing_date < ?""",
+            (today,),
+        )
+        self._conn.commit()
+        return cur.rowcount
+
     def mark_stale(self, days: int = 30) -> int:
         """Mark jobs not seen in `days` days as inactive."""
         cutoff = datetime.now(timezone.utc).replace(microsecond=0)

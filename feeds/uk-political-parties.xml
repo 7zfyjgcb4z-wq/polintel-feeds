@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2026 21:07:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 21:30:34 +0000</lastBuildDate>
     <item>
       <title>Case Worker – Hannah Spencer MP</title>
       <link>https://www.greenparty.org.uk/jobs/case-worker-hannah-spencer-mp</link>
@@ -46,33 +46,6 @@
       <dc:creator>Green Party</dc:creator>
     </item>
     <item>
-      <title>Social Media Officer</title>
-      <link>https://www.greenparty.org.uk/jobs/social-media-officer</link>
-      <description>Support the Green Peers' social media presence by producing timely, engaging, and professional content that elevates the impact of speeches and appearances across digital channels.</description>
-      <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/social-media-officer</guid>
-      <category>Political Parties</category>
-      <pubDate>Sun, 29 Mar 2026 07:01:32 +0000</pubDate>
-      <dc:creator>Green Party</dc:creator>
-    </item>
-    <item>
-      <title>Chief of Staff to the Leader of the Liberal Democrats</title>
-      <link>https://www.libdems.org.uk/jobs</link>
-      <description>The Chief of Staff is the Leader's principal strategic adviser, responsible for ensuring the effective operation of the Leader's Office and supporting the Leader in delivering the Party's political, parliamentary, electoral and organisational aims.</description>
-      <guid isPermaLink="false">https://www.libdems.org.uk/jobs</guid>
-      <category>Political Parties</category>
-      <pubDate>Sun, 29 Mar 2026 07:01:27 +0000</pubDate>
-      <dc:creator>Liberal Democrats</dc:creator>
-    </item>
-    <item>
-      <title>Executive Assistant to the CEO/Governance Officer</title>
-      <link>https://www.greenparty.org.uk/jobs/executive-assistant-to-the-ceo-governance-officer</link>
-      <description>Provide high-level executive support to the Chief Executive Officer and help deliver robust, transparent and well-managed governance across the Party's internal structures.</description>
-      <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/executive-assistant-to-the-ceo-governance-officer</guid>
-      <category>Political Parties</category>
-      <pubDate>Wed, 01 Apr 2026 07:15:50 +0000</pubDate>
-      <dc:creator>Green Party</dc:creator>
-    </item>
-    <item>
       <title>Data Protection Manager</title>
       <link>https://www.greenparty.org.uk/jobs</link>
       <description>Lead our approach to data protection and information governance, ensuring we meet legal obligations under UK GDPR, PECR, Data Protection Act 2018, and related legislation, while upholding our values.</description>
@@ -80,60 +53,6 @@
       <category>Political Parties</category>
       <pubDate>Wed, 01 Apr 2026 07:15:50 +0000</pubDate>
       <dc:creator>Green Party</dc:creator>
-    </item>
-    <item>
-      <title>Caseworker for Pippa Heylings MP (South Cambridgeshire)</title>
-      <link>https://www.libdems.org.uk/jobs/caseworker-pippa-heylings-mp</link>
-      <description>Dedicated and empathetic Caseworker to join the Member of Parliament's constituency team.</description>
-      <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-pippa-heylings-mp</guid>
-      <category>Political Parties</category>
-      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
-      <dc:creator>Liberal Democrats</dc:creator>
-    </item>
-    <item>
-      <title>Caseworker for Josh Babarinde MP (Eastbourne)</title>
-      <link>https://www.libdems.org.uk/work-for-us/vacancy/caseworker-for-josh-babarinde-mp-eastbourne</link>
-      <description>Caseworker to join an award-winning MP office team, based in Eastbourne, officially the UK's sunniest town.</description>
-      <guid isPermaLink="false">https://www.libdems.org.uk/work-for-us/vacancy/caseworker-for-josh-babarinde-mp-eastbourne</guid>
-      <category>Political Parties</category>
-      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
-      <dc:creator>Liberal Democrats</dc:creator>
-    </item>
-    <item>
-      <title>Caseworker for Helen Maguire MP (Epsom and Ewell)</title>
-      <link>https://www.libdems.org.uk/jobs/caseworker-helen-maguire-mp</link>
-      <description>Energetic and driven caseworker to support a well-established casework function in a busy constituency office.</description>
-      <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-helen-maguire-mp</guid>
-      <category>Political Parties</category>
-      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
-      <dc:creator>Liberal Democrats</dc:creator>
-    </item>
-    <item>
-      <title>Support Officer for Charlotte Cane MP (Ely and East Cambridgeshire)</title>
-      <link>https://www.libdems.org.uk/work-for-us/vacancy/support-officer-for-charlotte-cane-mp-ely-and-east-cambridgeshire</link>
-      <description>Committed and well organised Support Officer to join the constituency team on a temporary basis.</description>
-      <guid isPermaLink="false">https://www.libdems.org.uk/work-for-us/vacancy/support-officer-for-charlotte-cane-mp-ely-and-east-cambridgeshire</guid>
-      <category>Political Parties</category>
-      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
-      <dc:creator>Liberal Democrats</dc:creator>
-    </item>
-    <item>
-      <title>Caseworker for David Chadwick MP (Brecon, Radnor and Cwm Tawe)</title>
-      <link>https://www.libdems.org.uk/work-for-us/vacancy/caseworker-for-david-chadwick-mp-brecon-radnor-and-cwm-tawe</link>
-      <description>Enthusiastic and hardworking Caseworker (part-time and flexible hours considered) to deliver timely, relevant advice to Brecon, Radnor and Cwm Tawe's residents.</description>
-      <guid isPermaLink="false">https://www.libdems.org.uk/work-for-us/vacancy/caseworker-for-david-chadwick-mp-brecon-radnor-and-cwm-tawe</guid>
-      <category>Political Parties</category>
-      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
-      <dc:creator>Liberal Democrats</dc:creator>
-    </item>
-    <item>
-      <title>Leaders Visits Coordinator</title>
-      <link>https://www.libdems.org.uk/work-for-us/federal-vacancy/leaders-visits-coordinator-1</link>
-      <description>Join the Leader's Office following the 2024 General Election triumph where the Liberal Democrats secured 72 seats to be the third biggest party in Parliament.</description>
-      <guid isPermaLink="false">https://www.libdems.org.uk/work-for-us/federal-vacancy/leaders-visits-coordinator-1</guid>
-      <category>Political Parties</category>
-      <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
-      <dc:creator>Liberal Democrats</dc:creator>
     </item>
     <item>
       <title>Regional Organiser: South East, East of England &amp; London (PT)</title>

@@ -297,6 +297,7 @@ async def run_pipeline(
 
     # ── Store ─────────────────────────────────────────────────────────────────
     new_count = db.upsert_jobs(all_jobs)
+    db.expire_by_closing_date()
     db.mark_stale(days=30)
     db.purge_old(days=90)
 
