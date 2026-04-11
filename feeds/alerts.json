@@ -1,13 +1,10 @@
 {
-  "generated_at": "2026-04-11T20:52:12Z",
+  "generated_at": "2026-04-11T21:03:23Z",
   "alerts": [],
   "_tracking": {
     "consecutive_failures": {
-      "EuroBrussels": 0,
-      "EU Training Jobs": 0,
-      "European External Action Service": 0,
-      "European Policy Centre": 0,
-      "College of Europe Careers": 0
+      "W4MP": 0,
+      "UN Job Feed": 0
     }
   }
 }

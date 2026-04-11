@@ -995,26 +995,27 @@ sources:
   # ── RSS feeds ──────────────────────────────────────────────────────────────
 
   - name: "W4MP"
-    url: "https://www.w4mpjobs.org/rss/feed"
+    url: "https://www.w4mpjobs.org/RSS.aspx"
     country: uk
+    category: general
     scraper: rss_feed
     field_map:
       title: title
       organisation: author
       location: category
       description: description
-    enrich_description: false
-    enabled: false  # Disabled 2026-04-11: RSS feed URL returns 404 — no working RSS found
+    enrich_description: false  # W4MP RSS provides full job descriptions
+    enabled: true
 
   - name: "UN Job Feed"
     url: "https://careers.un.org/jobfeed"
-    country: international
-    category: international-orgs
+    country: uk
+    category: general
     scraper: rss_feed
     field_map:
       title: title
       description: description
-    enrich_description: conditional
+    enrich_description: false  # UN RSS provides full descriptions; country was 'international' which excluded it from all pipelines
     enabled: true
 
   - name: "jobs.ac.uk International"
@@ -1027,7 +1028,7 @@ sources:
       organisation: author
       description: description
     enrich_description: conditional
-    enabled: false  # Disabled 2026-04-11: RSS URL returns HTML, no valid RSS feed found
+    enabled: false  # RSS URL redirects to homepage; jobs.ac.uk subject-area feed index is JS-rendered with no extractable URLs; covered by dedicated jobs.ac.uk scraper
 
   - name: "jobs.ac.uk Sustainability"
     url: "https://www.jobs.ac.uk/jobs/sustainability/rss"
@@ -1039,4 +1040,4 @@ sources:
       organisation: author
       description: description
     enrich_description: conditional
-    enabled: false  # Disabled 2026-04-11: RSS URL returns HTML, no valid RSS feed found
+    enabled: false  # RSS URL redirects to homepage; jobs.ac.uk subject-area feed index is JS-rendered with no extractable URLs; covered by dedicated jobs.ac.uk scraper
