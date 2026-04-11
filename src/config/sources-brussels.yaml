@@ -246,3 +246,16 @@ sources:
     language: "en"
     requires_js: false
     enabled: true  # 200 OK
+
+  # ── RSS feeds ─────────────────────────────────────────────────────────────
+
+  - name: "EurActiv Jobs"
+    url: "https://jobs.euractiv.com/feed/"
+    country: brussels
+    category: eu-affairs
+    scraper: rss_feed
+    field_map:
+      title: title
+      description: description
+    enrich_description: conditional
+    enabled: true

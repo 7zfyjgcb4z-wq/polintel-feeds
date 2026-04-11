@@ -89,81 +89,82 @@ sources:
   # ── Tier 2: Generic AI scrapers — uk-government ────────────────────────────
 
   - name: "Civil Service Fast Stream"
-    url: "https://www.faststream.gov.uk"
+    url: "https://www.civil-service-careers.gov.uk/fast-stream/"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    requires_js: true
+    enabled: false  # Disabled 2026-04-11: JS/React SPA — not scrapeable without Playwright
 
   - name: "FCDO"
     url: "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office/about/recruitment"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "HM Treasury"
     url: "https://www.gov.uk/government/organisations/hm-treasury/about/recruitment"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "Cabinet Office"
     url: "https://www.gov.uk/government/organisations/cabinet-office/about/recruitment"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "Home Office"
     url: "https://www.gov.uk/government/organisations/home-office/about/recruitment"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "Ministry of Defence"
     url: "https://www.gov.uk/government/organisations/ministry-of-defence/about/recruitment"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "Ministry of Justice"
     url: "https://www.gov.uk/government/organisations/ministry-of-justice/about/recruitment"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "Department for Education"
     url: "https://www.gov.uk/government/organisations/department-for-education/about/recruitment"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "DHSC"
     url: "https://www.gov.uk/government/organisations/department-of-health-and-social-care/about/recruitment"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "SIS/MI6"
     url: "https://www.sis.gov.uk/careers.html"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: SSL TLSv1 protocol error
 
   - name: "MI5"
     url: "https://www.mi5.gov.uk/careers"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   - name: "GCHQ"
     url: "https://www.gchq.gov.uk/section/careers/overview"
@@ -184,7 +185,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Ofcom"
     url: "https://www.ofcom.org.uk/about-ofcom/jobs"
@@ -198,13 +199,15 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found (URL changed)
 
   - name: "FCA"
     url: "https://www.fca.org.uk/careers"
     category: "government"
     country: "uk"
-    scraper: "generic"
+    scraper: "ats_auto"
+    ats_type: "workday"
+    org_static: "FCA"
     enabled: true
 
   - name: "CMA"
@@ -212,21 +215,21 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: recruitment page redirects to Civil Service Jobs (already covered by dedicated scraper)
 
   - name: "Ofwat"
     url: "https://www.ofwat.gov.uk/about-us/jobs/"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   - name: "Electoral Commission"
     url: "https://www.electoralcommission.org.uk/jobs"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   - name: "EHRC"
     url: "https://www.equalityhumanrights.com/en/jobs"
@@ -236,17 +239,19 @@ sources:
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "ICO"
-    url: "https://ico.org.uk/about-the-ico/jobs-at-the-ico/"
+    url: "https://ico.org.uk/about-the-ico/jobs/"
     category: "government"
     country: "uk"
     scraper: "generic"
+    org_static: "ICO"
     enabled: true
 
   - name: "National Audit Office"
-    url: "https://www.nao.org.uk/about-us/our-people/jobs-at-the-nao/"
+    url: "https://www.nao.org.uk/about-us/jobs/current-vacancies/"
     category: "government"
     country: "uk"
     scraper: "generic"
+    org_static: "National Audit Office"
     enabled: true
 
   - name: "NHS England"
@@ -261,14 +266,14 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   - name: "House of Lords"
     url: "https://www.parliament.uk/about/careers/lords/"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   - name: "Hansard Society"
     url: "https://www.hansardsociety.org.uk/about/vacancies"
@@ -282,14 +287,14 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Scottish Parliament"
     url: "https://www.parliament.scot/careers"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: redirects to external webitrent ATS with no direct listing
 
   - name: "Welsh Government"
     url: "https://www.gov.wales/work-for-us"
@@ -303,14 +308,14 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found (URL changed)
 
   - name: "NI Assembly"
     url: "https://www.niassembly.gov.uk/about-the-assembly/corporate-information/vacancies/"
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: redirects to niarecruitment.org with no extractable ATS
 
   - name: "GLA"
     url: "https://www.london.gov.uk/about-us/work-for-us"
@@ -326,14 +331,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   - name: "IISS"
     url: "https://www.iiss.org/about/careers"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "RUSI"
     url: "https://rusi.org/careers"
@@ -364,18 +369,20 @@ sources:
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "ODI"
-    url: "https://odi.org/en/careers/"
+    url: "https://careers.odi.org/"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
+    scraper: "ats_auto"
+    ats_type: "pinpoint"
+    org_static: "ODI"
     enabled: true
 
   - name: "Tony Blair Institute"
-    url: "https://institute.global/careers"
+    url: "https://institute.global/who-we-are/careers"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: page renders no content (Salesforce/JS-rendered)
 
   - name: "Institute for Government"
     url: "https://www.instituteforgovernment.org.uk/vacancies"
@@ -389,14 +396,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "NIESR"
     url: "https://www.niesr.ac.uk/vacancies"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: URL redirects to a news article, no careers page found
 
   - name: "IEA"
     url: "https://iea.org.uk/about/careers/"
@@ -410,13 +417,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Centre for Policy Studies"
-    url: "https://www.cps.org.uk/about/vacancies"
+    url: "https://cps.org.uk/about/vacancies/"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
+    org_static: "Centre for Policy Studies"
     enabled: true
 
   - name: "TaxPayers' Alliance"
@@ -431,13 +439,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Onward"
-    url: "https://www.ukonward.com/about/careers/"
+    url: "https://ukonward.com/work-with-us/"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
+    org_static: "Onward"
     enabled: true
 
   - name: "Fabian Society"
@@ -445,20 +454,22 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: URL returns a JPEG image, no jobs page found
 
   - name: "NEF"
-    url: "https://neweconomics.org/about/jobs"
+    url: "https://neweconomics.org/about/work-with-us"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
+    org_static: "NEF"
     enabled: true
 
   - name: "Demos"
-    url: "https://demos.co.uk/about/careers/"
+    url: "https://demos.co.uk/jobs/"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
+    org_static: "Demos"
     enabled: true
 
   - name: "SMF"
@@ -473,14 +484,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: SSL certificate error (hostname mismatch)
 
   - name: "CER"
     url: "https://www.cer.eu/about/vacancies"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "UK in a Changing Europe"
     url: "https://ukandeu.ac.uk/vacancies/"
@@ -490,10 +501,12 @@ sources:
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "ECFR London"
-    url: "https://ecfr.eu/about/jobs/"
+    url: "https://ecfr.eu/jobs/"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
+    scraper: "ats_auto"
+    ats_type: "personio"
+    org_static: "ECFR"
     enabled: true
 
   - name: "Centre for Cities"
@@ -501,7 +514,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Centre for London"
     url: "https://www.centreforlondon.org/about/work-with-us/"
@@ -515,14 +528,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "CLES"
     url: "https://cles.org.uk/about-us/work-with-us/"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Green Alliance"
     url: "https://green-alliance.org.uk/about-us/work-for-us/"
@@ -535,7 +548,9 @@ sources:
     url: "https://www.e3g.org/about/careers/"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
+    scraper: "ats_auto"
+    ats_type: "bamboohr"
+    org_static: "E3G"
     enabled: true
 
   - name: "IIED"
@@ -543,7 +558,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: URL redirects to search page, no vacancies listing found
 
   - name: "King's Fund"
     url: "https://www.kingsfund.org.uk/about-us/jobs"
@@ -557,14 +572,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   - name: "Nuffield Trust"
     url: "https://www.nuffieldtrust.org.uk/about/work-for-us"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "EPI"
     url: "https://epi.org.uk/about-us/vacancies/"
@@ -574,10 +589,11 @@ sources:
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "HEPI"
-    url: "https://www.hepi.ac.uk/about/vacancies/"
+    url: "https://www.hepi.ac.uk/about-us/vacancies/"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
+    org_static: "HEPI"
     enabled: true
 
   - name: "Theos"
@@ -585,6 +601,7 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
+    org_static: "Theos Think Tank"
     enabled: true
 
   - name: "BFPG"
@@ -599,14 +616,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "IDS"
     url: "https://www.ids.ac.uk/about/working-at-ids/"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Constitution Unit"
     url: "https://www.ucl.ac.uk/constitution-unit/about-us/jobs"
@@ -620,14 +637,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Reform Scotland"
     url: "https://reformscotland.com"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: redirects to enlighten.scot (rebranded/merged), no jobs found
 
   # ── Tier 2: Generic AI scrapers — uk-political-parties ────────────────────
 
@@ -643,20 +660,22 @@ sources:
     category: "political-parties"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: SSL TLSv1 protocol error
 
   - name: "Liberal Democrats"
-    url: "https://www.libdems.org.uk/jobs"
+    url: "https://www.libdems.org.uk/work-for-us"
     category: "political-parties"
     country: "uk"
     scraper: "generic"
+    org_static: "Liberal Democrats"
     enabled: true
 
   - name: "SNP"
-    url: "https://www.snp.org/jobs"
+    url: "https://www.snp.org/jobs/"
     category: "political-parties"
     country: "uk"
     scraper: "generic"
+    org_static: "SNP"
     enabled: true
 
   - name: "Plaid Cymru"
@@ -664,20 +683,23 @@ sources:
     category: "political-parties"
     country: "uk"
     scraper: "generic"
+    org_static: "Plaid Cymru"
     enabled: true
 
   - name: "Green Party"
-    url: "https://www.greenparty.org.uk/jobs"
+    url: "https://greenparty.org.uk/get-involved/work-for-us/"
     category: "political-parties"
     country: "uk"
     scraper: "generic"
+    org_static: "Green Party"
     enabled: true
 
   - name: "Co-operative Party"
-    url: "https://party.coop/jobs/"
+    url: "https://party.coop/jobs"
     category: "political-parties"
     country: "uk"
     scraper: "generic"
+    org_static: "Co-operative Party"
     enabled: true
 
   # ── Tier 2: Generic AI scrapers — uk-public-affairs ───────────────────────
@@ -687,14 +709,14 @@ sources:
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Hanbury Strategy"
     url: "https://www.hanburystrategy.com/careers"
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   - name: "Portland Communications"
     url: "https://portland-communications.com/careers/"
@@ -704,10 +726,11 @@ sources:
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "APCO Worldwide"
-    url: "https://www.apcoworldwide.com/careers/"
+    url: "https://www.apcoworldwide.com/about/careers/"
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
+    org_static: "APCO Worldwide"
     enabled: true
 
   - name: "Burson"
@@ -715,7 +738,7 @@ sources:
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: JS-rendered (Next.js), no extractable content
 
   - name: "FTI Consulting"
     url: "https://www.fticonsulting.com/careers"
@@ -729,13 +752,15 @@ sources:
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: React SPA — jobs list not in initial HTML
 
   - name: "SEC Newgate"
-    url: "https://www.secnewgate.co.uk/careers/"
+    url: "https://secnewgateuk.bamboohr.com/careers"
     category: "public-affairs"
     country: "uk"
-    scraper: "generic"
+    scraper: "ats_auto"
+    ats_type: "bamboohr"
+    org_static: "SEC Newgate"
     enabled: true
 
   - name: "WA Communications"
@@ -750,13 +775,14 @@ sources:
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: SSL certificate expired, redirects to h-advisors.global
 
   - name: "Ellwood Atfield"
-    url: "https://www.ellwoodatfield.com"
+    url: "https://www.ellwoodatfield.com/active-jobs"
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
+    org_static: "Ellwood Atfield"
     enabled: true
 
   # ── Tier 2: Generic AI scrapers — uk-ngos ─────────────────────────────────
@@ -769,17 +795,19 @@ sources:
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "Amnesty International UK"
-    url: "https://www.amnesty.org.uk/jobs"
+    url: "https://www.amnesty.org.uk/about/who-we-are/work-with-us/vacancies/"
     category: "ngos"
     country: "uk"
     scraper: "generic"
+    org_static: "Amnesty International UK"
     enabled: true
 
   - name: "Oxfam GB"
-    url: "https://www.oxfam.org.uk/get-involved/work-for-oxfam/"
+    url: "https://jobs.oxfam.org.uk/jobs/home/"
     category: "ngos"
     country: "uk"
     scraper: "generic"
+    org_static: "Oxfam GB"
     enabled: true
 
   - name: "Save the Children UK"
@@ -792,10 +820,11 @@ sources:
   # ── Tier 2: Generic AI scrapers — uk-fellowships ──────────────────────────
 
   - name: "ODI Fellowship"
-    url: "https://odi.org/en/odi-fellowship-scheme/"
+    url: "https://odi.org/en/fellowship-scheme/"
     category: "fellowships"
     country: "uk"
     scraper: "generic"
+    org_static: "ODI"
     enabled: true
 
   - name: "Chatham House Internships"
@@ -803,7 +832,7 @@ sources:
     category: "fellowships"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 403 blocked
 
   # ── Tier 2: Generic AI scrapers — uk-trade-associations ───────────────────
 
@@ -815,17 +844,19 @@ sources:
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "TUC"
-    url: "https://www.tuc.org.uk/about-tuc/tuc-vacancies"
+    url: "https://www.tuc.org.uk/jobs"
     category: "trade-associations"
     country: "uk"
     scraper: "generic"
+    org_static: "TUC"
     enabled: true
 
   - name: "IoD"
-    url: "https://www.iod.com/about-us/careers/"
+    url: "https://careers.iod.com"
     category: "trade-associations"
     country: "uk"
     scraper: "generic"
+    org_static: "Institute of Directors"
     enabled: true
 
   - name: "FSB"
@@ -840,7 +871,7 @@ sources:
     category: "trade-associations"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Disabled 2026-04-11: 404 not found
 
   # ── Tier 2: Generic AI scrapers — uk-general ──────────────────────────────
 
@@ -849,4 +880,53 @@ sources:
     category: "general"
     country: "uk"
     scraper: "generic"
+    enabled: false  # Disabled 2026-04-11: news site with no embedded jobs board
+
+  # ── RSS feeds ──────────────────────────────────────────────────────────────
+
+  - name: "W4MP"
+    url: "https://www.w4mpjobs.org/rss/feed"
+    country: uk
+    scraper: rss_feed
+    field_map:
+      title: title
+      organisation: author
+      location: category
+      description: description
+    enrich_description: false
+    enabled: false  # Disabled 2026-04-11: RSS feed URL returns 404 — no working RSS found
+
+  - name: "UN Job Feed"
+    url: "https://careers.un.org/jobfeed"
+    country: international
+    category: international-orgs
+    scraper: rss_feed
+    field_map:
+      title: title
+      description: description
+    enrich_description: conditional
     enabled: true
+
+  - name: "jobs.ac.uk International"
+    url: "https://www.jobs.ac.uk/jobs/international-relations/rss"
+    country: uk
+    category: fellowships
+    scraper: rss_feed
+    field_map:
+      title: title
+      organisation: author
+      description: description
+    enrich_description: conditional
+    enabled: false  # Disabled 2026-04-11: RSS URL returns HTML, no valid RSS feed found
+
+  - name: "jobs.ac.uk Sustainability"
+    url: "https://www.jobs.ac.uk/jobs/sustainability/rss"
+    country: uk
+    category: ngos
+    scraper: rss_feed
+    field_map:
+      title: title
+      organisation: author
+      description: description
+    enrich_description: conditional
+    enabled: false  # Disabled 2026-04-11: RSS URL returns HTML, no valid RSS feed found
