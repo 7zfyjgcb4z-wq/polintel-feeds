@@ -638,7 +638,7 @@ sources:
       link: "a"
     org_static: "Higher Education Policy Institute"
     enrich_description: true
-    enabled: true  # Page says "no vacancies at this time" — will return 0 when empty, live when hiring
+    enabled: false  # Selector too broad (article li hits staff profiles + topic examples as false positives); no actual vacancies currently — re-enable when hiring with a verified selector
 
   - name: "Theos"
     url: "https://www.theosthinktank.co.uk/about/work-with-us"
@@ -748,7 +748,7 @@ sources:
       link: "a"
     org_static: "Plaid Cymru"
     enrich_description: true
-    enabled: true  # NationBuilder CMS; no current vacancies but page accessible
+    enabled: false  # Page is volunteer sign-up only ("We're always looking for new volunteers"), no structured job listings; main li selector returns only nav links
 
   - name: "Green Party"
     url: "https://greenparty.org.uk/get-involved/work-for-us/"
