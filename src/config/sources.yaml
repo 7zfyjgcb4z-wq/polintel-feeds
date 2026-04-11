@@ -178,7 +178,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Crown Prosecution Service"
     url: "https://www.cps.gov.uk/careers"
@@ -208,7 +208,7 @@ sources:
     scraper: "ats_auto"
     ats_type: "workday"
     org_static: "FCA"
-    enabled: true
+    enabled: false  # ATS extractor not yet implemented (workday)
 
   - name: "CMA"
     url: "https://www.gov.uk/government/organisations/competition-and-markets-authority/about/recruitment"
@@ -244,7 +244,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "ICO"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "National Audit Office"
     url: "https://www.nao.org.uk/about-us/jobs/current-vacancies/"
@@ -252,7 +252,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "National Audit Office"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "NHS England"
     url: "https://www.england.nhs.uk/about/work-for-us/"
@@ -352,14 +352,14 @@ sources:
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Policy Exchange"
     url: "https://policyexchange.org.uk/careers/"
     category: "think-tanks"
     country: "uk"
     scraper: "generic"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "IFS"
     url: "https://ifs.org.uk/vacancies"
@@ -375,7 +375,7 @@ sources:
     scraper: "ats_auto"
     ats_type: "pinpoint"
     org_static: "ODI"
-    enabled: true
+    enabled: false  # ATS extractor not yet implemented (pinpoint)
 
   - name: "Tony Blair Institute"
     url: "https://institute.global/who-we-are/careers"
@@ -425,7 +425,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Centre for Policy Studies"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "TaxPayers' Alliance"
     url: "https://www.taxpayersalliance.com/careers"
@@ -447,7 +447,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Onward"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Fabian Society"
     url: "https://fabians.org.uk/about-us/jobs/"
@@ -462,7 +462,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "NEF"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Demos"
     url: "https://demos.co.uk/jobs/"
@@ -470,7 +470,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Demos"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "SMF"
     url: "https://www.smf.co.uk/about/work-for-us/"
@@ -507,7 +507,7 @@ sources:
     scraper: "ats_auto"
     ats_type: "personio"
     org_static: "ECFR"
-    enabled: true
+    enabled: false  # ATS extractor not yet implemented (personio)
 
   - name: "Centre for Cities"
     url: "https://www.centreforcities.org/about/vacancies/"
@@ -551,7 +551,7 @@ sources:
     scraper: "ats_auto"
     ats_type: "bamboohr"
     org_static: "E3G"
-    enabled: true
+    enabled: false  # ATS extractor not yet implemented (bamboohr)
 
   - name: "IIED"
     url: "https://www.iied.org/vacancies"
@@ -594,7 +594,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "HEPI"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Theos"
     url: "https://www.theosthinktank.co.uk/about/work-with-us"
@@ -602,7 +602,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Theos Think Tank"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "BFPG"
     url: "https://bfpg.co.uk/about/careers/"
@@ -668,7 +668,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Liberal Democrats"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "SNP"
     url: "https://www.snp.org/jobs/"
@@ -676,7 +676,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "SNP"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Plaid Cymru"
     url: "https://www.plaidcymru.com/jobs"
@@ -684,7 +684,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Plaid Cymru"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Green Party"
     url: "https://greenparty.org.uk/get-involved/work-for-us/"
@@ -692,7 +692,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Green Party"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Co-operative Party"
     url: "https://party.coop/jobs"
@@ -700,7 +700,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Co-operative Party"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   # ── Tier 2: Generic AI scrapers — uk-public-affairs ───────────────────────
 
@@ -731,7 +731,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "APCO Worldwide"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Burson"
     url: "https://www.bursonglobal.com/careers"
@@ -761,7 +761,7 @@ sources:
     scraper: "ats_auto"
     ats_type: "bamboohr"
     org_static: "SEC Newgate"
-    enabled: true
+    enabled: false  # ATS extractor not yet implemented (bamboohr)
 
   - name: "WA Communications"
     url: "https://www.wacomms.co.uk/careers/"
@@ -783,7 +783,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Ellwood Atfield"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   # ── Tier 2: Generic AI scrapers — uk-ngos ─────────────────────────────────
 
@@ -800,7 +800,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Amnesty International UK"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Oxfam GB"
     url: "https://jobs.oxfam.org.uk/jobs/home/"
@@ -808,7 +808,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Oxfam GB"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Save the Children UK"
     url: "https://www.savethechildren.org.uk/about-us/jobs"
@@ -825,7 +825,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "ODI"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "Chatham House Internships"
     url: "https://www.chathamhouse.org/academy/internships"
@@ -849,7 +849,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "TUC"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "IoD"
     url: "https://careers.iod.com"
@@ -857,7 +857,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "Institute of Directors"
-    enabled: true
+    enabled: false  # Deprecated generic scraper — needs selector conversion
 
   - name: "FSB"
     url: "https://www.fsb.org.uk/about-us/careers.html"
