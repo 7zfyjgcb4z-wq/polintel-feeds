@@ -66,12 +66,13 @@ class SelectorScraper:
             org = self._extract(card, selectors.get("organisation")) or org_static
             location = self._extract(card, selectors.get("location"))
             closing_date = self._extract(card, selectors.get("closing_date"))
+            description = self._extract(card, selectors.get("description")) or ""
 
             jobs.append(Job(
                 title=title,
                 url=link,
                 organisation=org,
-                description="",
+                description=description[:500],
                 source_name=source_name,
                 category=category,
                 country=country,

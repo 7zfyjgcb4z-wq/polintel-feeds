@@ -109,18 +109,20 @@ class Scraper(BaseScraper):
             if m:
                 closing_date = m.group(1)
 
-        desc_parts = [org]
+        desc_parts = []
         if location:
-            desc_parts.append(location)
+            desc_parts.append(f"Role at {org} in {location}.")
+        else:
+            desc_parts.append(f"Role at {org}.")
         if contract:
-            desc_parts.append(contract)
+            desc_parts.append(f"Contract: {contract}.")
         if closing_date:
-            desc_parts.append(f"Deadline: {closing_date}")
-        desc = " | ".join(desc_parts)
+            desc_parts.append(f"Deadline: {closing_date}.")
+        desc = " ".join(desc_parts)
 
         return Job(
             title=title,
-            url=apply_url,
+            url=detail_url,
             organisation=org,
             description=desc[:500],
             source_name=self.name,

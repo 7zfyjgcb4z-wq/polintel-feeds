@@ -267,15 +267,18 @@ class Scraper(BaseScraper):
 
             salary_el = li.select_one(".search-results-job-box-salary")
             salary = self._content_text(salary_el) if salary_el else ""
+            salary = salary.lstrip(":").strip()  # HTML has ":£X" after stripping the h4 label
 
-            desc_parts = [org]
+            desc_parts = []
             if location:
-                desc_parts.append(location)
+                desc_parts.append(f"Role at {org} in {location}.")
+            else:
+                desc_parts.append(f"Role at {org}.")
             if salary:
-                desc_parts.append(f"Salary: {salary}")
+                desc_parts.append(f"Salary: {salary}.")
             if closing:
-                desc_parts.append(f"Closes: {closing}")
-            desc = " | ".join(desc_parts)
+                desc_parts.append(f"Closing: {closing}.")
+            desc = " ".join(desc_parts)
 
             jobs.append(
                 Job(
