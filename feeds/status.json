@@ -1,10 +1,12 @@
 {
-  "last_run": "2026-04-10T09:17:55Z",
-  "total_active_jobs": 125,
-  "sources_checked": 5,
-  "sources_succeeded": 5,
-  "sources_failed": 0,
-  "failed_sources": [],
+  "last_run": "2026-04-11T08:53:31Z",
+  "total_active_jobs": 128,
+  "sources_checked": 4,
+  "sources_succeeded": 3,
+  "sources_failed": 1,
+  "failed_sources": [
+    "European Policy Centre"
+  ],
   "new_jobs_found": 3,
   "feeds_generated": 6
 }
