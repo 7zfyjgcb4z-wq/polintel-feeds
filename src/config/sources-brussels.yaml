@@ -15,6 +15,8 @@ sources:
     module: "eurobrussels"
     schedule: "*/12"
     language: "en"
+    org_static: "EuroBrussels"
+    enrich_description: true
     enabled: true
 
   - name: "EU Careers (EPSO)"
@@ -45,6 +47,7 @@ sources:
     module: "eutraining"
     schedule: "daily"
     language: "en"
+    enrich_description: false  # eutraining.eu detail pages serve only a copyright footer via readability — enrichment returns garbage
     enabled: true
 
   - name: "Jobs in Brussels"
@@ -63,11 +66,14 @@ sources:
     url: "https://www.eeas.europa.eu/eeas/vacancies_en"
     country: "brussels"
     category: "eu-institutions"
-    scraper: "generic"
-    schedule: "daily"
-    language: "en"
-    requires_js: false
-    enabled: true  # 200 OK (original /jobs-traineeships_en was 404; updated URL)
+    scraper: "selector"
+    selectors:
+      job_card: "div.node--type-vacancy"
+      title: "h3.card-title a"
+      link: "h3.card-title a"
+    org_static: "European External Action Service"
+    enrich_description: true
+    enabled: true
 
   - name: "Council of the EU"
     url: "https://www.consilium.europa.eu/en/general-secretariat/jobs/"
@@ -114,34 +120,43 @@ sources:
     enabled: false  # 404 — URL not found
 
   - name: "CEPS"
-    url: "https://www.ceps.eu/about-ceps/jobs/"
+    url: "https://www.ceps.eu/about-ceps/career-opportunities/"
     country: "brussels"
     category: "think-tanks"
-    scraper: "generic"
-    schedule: "daily"
-    language: "en"
-    requires_js: false
-    enabled: true  # 200 OK
+    scraper: "selector"
+    selectors:
+      job_card: "article.job, .job-listing, h2 a, h3 a"
+      title: "a"
+      link: "a"
+    org_static: "Centre for European Policy Studies (CEPS)"
+    enrich_description: true
+    enabled: false  # No current vacancies — careers page is informational only; re-enable when hiring
 
   - name: "European Policy Centre"
-    url: "https://www.epc.eu/en/vacancies"
+    url: "https://www.epc.eu/vacancies/"
     country: "brussels"
     category: "think-tanks"
-    scraper: "generic"
-    schedule: "daily"
-    language: "en"
-    requires_js: false
-    enabled: true  # 200 OK
+    scraper: "selector"
+    selectors:
+      job_card: "div.vacancy-item"
+      title: ".vacancy-title a"
+      link: ".vacancy-title a"
+    org_static: "European Policy Centre (EPC)"
+    enrich_description: true
+    enabled: true
 
   - name: "Carnegie Europe"
     url: "https://carnegieeurope.eu/about/jobs"
     country: "brussels"
     category: "think-tanks"
-    scraper: "generic"
-    schedule: "daily"
-    language: "en"
-    requires_js: false
-    enabled: true  # 200 OK
+    scraper: "selector"
+    selectors:
+      job_card: "article, .job-listing"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    org_static: "Carnegie Europe"
+    enrich_description: true
+    enabled: false  # 404 — redirects to carnegieendowment.org/europe/about/jobs which returns "Page not Found"
 
   - name: "Friends of Europe"
     url: "https://www.friendsofeurope.org/jobs"
@@ -154,14 +169,17 @@ sources:
     enabled: false  # 404 — URL not found
 
   - name: "ECFR"
-    url: "https://ecfr.eu/about/jobs/"
+    url: "https://ecfr.eu/jobs/"
     country: "brussels"
     category: "think-tanks"
-    scraper: "generic"
-    schedule: "daily"
-    language: "en"
-    requires_js: false
-    enabled: true  # 200 OK (original /about/work-for-us/ was 404; updated URL)
+    scraper: "selector"
+    selectors:
+      job_card: "article, .job-listing"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    org_static: "European Council on Foreign Relations (ECFR)"
+    enrich_description: true
+    enabled: false  # ATS extractor not yet implemented (personio) — redirects to ecfr.eu/jobs/ which uses Personio
 
   - name: "Egmont Institute"
     url: "https://www.egmontinstitute.be/vacancies/"
@@ -211,21 +229,27 @@ sources:
     url: "https://traineeships.ec.europa.eu"
     country: "brussels"
     category: "fellowships"
-    scraper: "generic"
-    schedule: "daily"
-    language: "en"
-    requires_js: false
-    enabled: true  # 200 OK
+    scraper: "selector"
+    selectors:
+      job_card: "article, .vacancy, .traineeship"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    org_static: "European Commission"
+    enrich_description: true
+    enabled: false  # Informational homepage only — redirects to language selector; Blue Book applications require account registration, no individual listing page
 
   - name: "EP Schuman Traineeships"
     url: "https://www.europarl.europa.eu/at-your-service/en/work-with-us/traineeships"
     country: "brussels"
     category: "fellowships"
-    scraper: "generic"
-    schedule: "daily"
-    language: "en"
-    requires_js: false
-    enabled: true  # 200 OK
+    scraper: "selector"
+    selectors:
+      job_card: "article, .vacancy"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    org_static: "European Parliament"
+    enrich_description: true
+    enabled: false  # Informational page only — Schuman traineeships have fixed annual open/close windows, not individual job listings
 
   - name: "Council Traineeships"
     url: "https://www.consilium.europa.eu/en/general-secretariat/jobs/traineeships/"
@@ -238,14 +262,17 @@ sources:
     enabled: false  # 403 blocked
 
   - name: "College of Europe Careers"
-    url: "https://www.coleurope.eu/careers"
+    url: "https://www.coleurope.eu/bruges/vacancies"
     country: "brussels"
     category: "fellowships"
-    scraper: "generic"
-    schedule: "daily"
-    language: "en"
-    requires_js: false
-    enabled: true  # 200 OK
+    scraper: "selector"
+    selectors:
+      job_card: "div.view-vacancies-overview li"
+      title: ".views-field-title a"
+      link: ".views-field-title a"
+    org_static: "College of Europe"
+    enrich_description: true
+    enabled: true
 
   # ── RSS feeds ─────────────────────────────────────────────────────────────
 
@@ -258,4 +285,4 @@ sources:
       title: title
       description: description
     enrich_description: conditional
-    enabled: true
+    enabled: false  # RSS feed contains career advice articles only ("How to land a job in the EU Bubble"), not individual job listings

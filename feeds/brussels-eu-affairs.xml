@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>EU Affairs &amp; Public Affairs Jobs (Brussels)</title>
     <link>/brussels-eu-affairs.xml</link>
@@ -8,38 +8,42 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2026 08:53:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 20:52:12 +0000</lastBuildDate>
     <item>
       <title>IT Business Analyst</title>
-      <link>https://careers.ema.europa.eu/job/IT-Business-Analyst-1122/1281909401/</link>
+      <link>https://eutraining.eu/content/it-business-analyst</link>
       <description>European Medicines Agency (EMA) Info i Amsterdam | The Netherlands | Temporary | Deadline: 31 Dec</description>
-      <guid isPermaLink="false">https://careers.ema.europa.eu/job/IT-Business-Analyst-1122/1281909401/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/it-business-analyst</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Medicines Agency (EMA) Info i Amsterdam</dc:creator>
     </item>
     <item>
       <title>Study Placement Scheme</title>
-      <link>https://careers.easa.europa.eu/job/Study-Placement-Scheme/1375118033/</link>
+      <link>https://eutraining.eu/content/study-placement-scheme</link>
       <description>European Union Aviation Safety Agency (EASA) Info i Cologne | Germany | Temporary | Deadline: 31 Dec</description>
-      <guid isPermaLink="false">https://careers.easa.europa.eu/job/Study-Placement-Scheme/1375118033/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/study-placement-scheme</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Union Aviation Safety Agency (EASA) Info i Cologne</dc:creator>
     </item>
     <item>
       <title>Seconded National Experts</title>
-      <link>https://www.enisa.europa.eu/recruitment/vacancies/seconded-national-experts-sne</link>
+      <link>https://eutraining.eu/content/seconded-national-experts-european-union-agency-cybersecurity-enisa</link>
       <description>European Union Agency for Cybersecurity (ENISA) Athens | Greece | Temporary | Deadline: 31 Dec</description>
-      <guid isPermaLink="false">https://www.enisa.europa.eu/recruitment/vacancies/seconded-national-experts-sne</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/seconded-national-experts-european-union-agency-cybersecurity-enisa</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Union Agency for Cybersecurity (ENISA) Athens</dc:creator>
     </item>
     <item>
       <title>Trainees within the Library</title>
-      <link>https://www.eui.eu/Documents/ServicesAdmin/PersonnelService/Administrative-Positions/2026/V.TR.LIB.2.2026.pdf</link>
+      <link>https://eutraining.eu/content/trainees-within-library</link>
       <description>European University Institute (EUI) Info i Fiesole | Italy | Temporary | Deadline: 15 Jun</description>
-      <guid isPermaLink="false">https://www.eui.eu/Documents/ServicesAdmin/PersonnelService/Administrative-Positions/2026/V.TR.LIB.2.2026.pdf</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/trainees-within-library</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European University Institute (EUI) Info i Fiesole</dc:creator>
     </item>
     <item>
       <title>Trainer / Coach – EPSO Test Preparation (Italian Language)</title>
@@ -48,6 +52,7 @@
       <guid isPermaLink="false">https://eutraining.eu/content/trainer-coach-%E2%80%93-epso-test-preparation-italian-language</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>EU Training EU</dc:creator>
     </item>
     <item>
       <title>Trainer / Coach – EPSO Test Preparation (Portuguese Language)</title>
@@ -56,270 +61,304 @@
       <guid isPermaLink="false">https://eutraining.eu/content/trainer-coach-%E2%80%93-epso-test-preparation-portuguese-language#</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>EU Training EU</dc:creator>
     </item>
     <item>
       <title>PROOF-READERS/EDITORS IN BULGARIAN, DANISH, DUTCH, ENGLISH, FINNISH, FRENCH, GERMAN, IRISH, LITHUANIAN, MALTESE, ROMANIAN, OR SWEDISH LANGUAGES</title>
-      <link>https://apply4ep.gestmax.eu/139/1/appel-a-manifestation-d-interet-proof-readears-editors/en_US?backlink=search</link>
+      <link>https://eutraining.eu/content/proof-readerseditors-bulgarian-danish-dutch-english-finnish-french-german-irish-lithuanian</link>
       <description>European Parliament Info i Luxembourg | Temporary | Deadline: 30 May</description>
-      <guid isPermaLink="false">https://apply4ep.gestmax.eu/139/1/appel-a-manifestation-d-interet-proof-readears-editors/en_US?backlink=search</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/proof-readerseditors-bulgarian-danish-dutch-english-finnish-french-german-irish-lithuanian</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Parliament Info i Luxembourg</dc:creator>
     </item>
     <item>
       <title>Technology &amp; Master Planning Expert (SNE)</title>
-      <link>https://www.sesarju.eu/sites/default/files/documents/jobs/Secondment%20Notice%20-%20Technology%20%26%20Master%20Planning%20Expert%20SJU_SN023.pdf</link>
+      <link>https://eutraining.eu/content/technology-master-planning-expert-sne</link>
       <description>SESAR 3 Joint Undertaking Info i Brussels | Belgium | Temporary | Deadline: 29 May</description>
-      <guid isPermaLink="false">https://www.sesarju.eu/sites/default/files/documents/jobs/Secondment%20Notice%20-%20Technology%20%26%20Master%20Planning%20Expert%20SJU_SN023.pdf</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/technology-master-planning-expert-sne</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>SESAR 3 Joint Undertaking Info i Brussels</dc:creator>
     </item>
     <item>
       <title>Trainee within the Accounting Service, the Budget and Financial Affairs Service, and the Internal Audit Office</title>
-      <link>https://www.eui.eu/Documents/ServicesAdmin/PersonnelService/Administrative-Positions/2026/V.TR.EUI.1.2026.pdf</link>
+      <link>https://eutraining.eu/content/trainee-within-accounting-service-budget-and-financial-affairs-service-and-internal-audit</link>
       <description>European University Institute (EUI) Info i Fiesole | Italy | Temporary | Deadline: 15 May</description>
-      <guid isPermaLink="false">https://www.eui.eu/Documents/ServicesAdmin/PersonnelService/Administrative-Positions/2026/V.TR.EUI.1.2026.pdf</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/trainee-within-accounting-service-budget-and-financial-affairs-service-and-internal-audit</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European University Institute (EUI) Info i Fiesole</dc:creator>
     </item>
     <item>
       <title>Trainee (Smart Financial Management &amp; Automation)</title>
-      <link>https://careers.ema.europa.eu/job/Amsterdam-Trainee-%28Smart-Financial-Management-&amp;-Automation%29/1371095933/</link>
+      <link>https://eutraining.eu/content/trainee-smart-financial-management-automation</link>
       <description>European Medicines Agency (EMA) Info i Amsterdam | The Netherlands | Temporary | Deadline: 06 May</description>
-      <guid isPermaLink="false">https://careers.ema.europa.eu/job/Amsterdam-Trainee-%28Smart-Financial-Management-&amp;-Automation%29/1371095933/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/trainee-smart-financial-management-automation</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Medicines Agency (EMA) Info i Amsterdam</dc:creator>
     </item>
     <item>
       <title>Director</title>
-      <link>https://jobs.echa.europa.eu/psc/pshrrcr/view/%7bV2%7dpdi_DJK4j6MO.i9RXZuDPVnvtjSlmo6Ts8ZdGHntd_Gaidr7Tx_7JYqCqQNgUC3ziCidgd8AXd0YIRWGlLTHuBD2fXixPtaNw6gskaliEjVl0KY8FKY.64lzyTAPBum8qKAArDPMUr1L_qT6cCINY4h7YAmIc6AcZ130FGebUr1ZPMInmlMibLhmXme0b2WmQOuB4VF0mfi2V5AP_hApe7vlfWfDM2Q_zjSuqlUFZaRDl6zFY2LZ7Xv6wEVhOKj_9iosH3IXTuKvt3CU3VKTPA--/ECHA-IAJM-2026-01_-_1._Vacancy_notice.pdf</link>
+      <link>https://eutraining.eu/content/director</link>
       <description>European Chemicals Agency (ECHA) Info i Helsinki | Finland | Temporary | Deadline: 04 May</description>
-      <guid isPermaLink="false">https://jobs.echa.europa.eu/psc/pshrrcr/view/%7bV2%7dpdi_DJK4j6MO.i9RXZuDPVnvtjSlmo6Ts8ZdGHntd_Gaidr7Tx_7JYqCqQNgUC3ziCidgd8AXd0YIRWGlLTHuBD2fXixPtaNw6gskaliEjVl0KY8FKY.64lzyTAPBum8qKAArDPMUr1L_qT6cCINY4h7YAmIc6AcZ130FGebUr1ZPMInmlMibLhmXme0b2WmQOuB4VF0mfi2V5AP_hApe7vlfWfDM2Q_zjSuqlUFZaRDl6zFY2LZ7Xv6wEVhOKj_9iosH3IXTuKvt3CU3VKTPA--/ECHA-IAJM-2026-01_-_1._Vacancy_notice.pdf</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/director</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Chemicals Agency (ECHA) Info i Helsinki</dc:creator>
     </item>
     <item>
       <title>Director – Corporate and Operational</title>
-      <link>https://jobs.echa.europa.eu/psc/pshrrcr/view/%7bV2%7da02e72FJ1rjqV2y6kuR2rZNj2R4WAQne07FoElzt1I9AAA0PBgAj3vwgegS8sNEkSqXSvs1rLN9vONtcS5nekWENyQV3s2XQZEaDGZ7WuY_Q4k8tzl67HrmGRdvDSIkMEDCwFCvWkhtXcec0.J1oUmbh2LgtAzazsNzG_2HEwWjW2Vb2XOJkvBndX1THofXE10.HPbTDzSq_hF9kXsF2w3gS3cA4i0raozFhhEnR3WOKCZ.utZ8fx6m3vVmnf.oLbya6OwXJyXJaxsUT/ECHA-TA-2026-02_-_1._Vacancy_notice.pdf</link>
+      <link>https://eutraining.eu/content/director-%E2%80%93-corporate-and-operational</link>
       <description>European Chemicals Agency (ECHA) Info i Helsinki | Finland | Temporary | Deadline: 04 May</description>
-      <guid isPermaLink="false">https://jobs.echa.europa.eu/psc/pshrrcr/view/%7bV2%7da02e72FJ1rjqV2y6kuR2rZNj2R4WAQne07FoElzt1I9AAA0PBgAj3vwgegS8sNEkSqXSvs1rLN9vONtcS5nekWENyQV3s2XQZEaDGZ7WuY_Q4k8tzl67HrmGRdvDSIkMEDCwFCvWkhtXcec0.J1oUmbh2LgtAzazsNzG_2HEwWjW2Vb2XOJkvBndX1THofXE10.HPbTDzSq_hF9kXsF2w3gS3cA4i0raozFhhEnR3WOKCZ.utZ8fx6m3vVmnf.oLbya6OwXJyXJaxsUT/ECHA-TA-2026-02_-_1._Vacancy_notice.pdf</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/director-%E2%80%93-corporate-and-operational</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Chemicals Agency (ECHA) Info i Helsinki</dc:creator>
     </item>
     <item>
       <title>Scientific Officer – Toxicology (Genotoxicology)</title>
-      <link>https://careers.efsa.europa.eu/jobs/scientific-officer-%E2%80%93-toxicology-genotoxicology-448</link>
+      <link>https://eutraining.eu/content/scientific-officer-%E2%80%93-toxicology-genotoxicology</link>
       <description>European Food Safety Authority (EFSA) Info i Italy, Emilia-Romagna | Parma | Temporary | Deadline: 04 May</description>
-      <guid isPermaLink="false">https://careers.efsa.europa.eu/jobs/scientific-officer-%E2%80%93-toxicology-genotoxicology-448</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/scientific-officer-%E2%80%93-toxicology-genotoxicology</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Food Safety Authority (EFSA) Info i Italy, Emilia-Romagna</dc:creator>
     </item>
     <item>
       <title>PhD: Electricity systems’ resilience and security of supply</title>
-      <link>https://feee.ktu.edu/studies/#PhD-positions</link>
+      <link>https://eutraining.eu/content/phd-electricity-systems%E2%80%99-resilience-and-security-supply</link>
       <description>Joint Research Centre (JRC) Kaunas University of Technology (LT) &amp; JRC Ispra (IT) | Temporary | Deadline: 30 Apr</description>
-      <guid isPermaLink="false">https://feee.ktu.edu/studies/#PhD-positions</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/phd-electricity-systems%E2%80%99-resilience-and-security-supply</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>Joint Research Centre (JRC) Kaunas University of Technology (LT) &amp; JRC Ispra (IT)</dc:creator>
     </item>
     <item>
       <title>Certification Expert - Hydromechanical and Flight Control Systems</title>
-      <link>https://careers.easa.europa.eu/job/Certification-Expert-Hydromechanical-and-Flight-Control-Systems/1377932633/</link>
+      <link>https://eutraining.eu/content/certification-expert-hydromechanical-and-flight-control-systems</link>
       <description>European Union Aviation Safety Agency (EASA) Info i Cologne | Germany | Temporary | Deadline: 30 Apr</description>
-      <guid isPermaLink="false">https://careers.easa.europa.eu/job/Certification-Expert-Hydromechanical-and-Flight-Control-Systems/1377932633/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/certification-expert-hydromechanical-and-flight-control-systems</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Union Aviation Safety Agency (EASA) Info i Cologne</dc:creator>
     </item>
     <item>
       <title>Structures Expert</title>
-      <link>https://careers.easa.europa.eu/job/Structures-Expert/1377989933/</link>
+      <link>https://eutraining.eu/content/structures-expert</link>
       <description>European Union Aviation Safety Agency (EASA) Info i Cologne | Germany | Temporary | Deadline: 30 Apr</description>
-      <guid isPermaLink="false">https://careers.easa.europa.eu/job/Structures-Expert/1377989933/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/structures-expert</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Union Aviation Safety Agency (EASA) Info i Cologne</dc:creator>
     </item>
     <item>
       <title>Senior Military Advisor to the Executive Director</title>
-      <link>https://careers.easa.europa.eu/job/Senior-Military-Advisor-to-the-Executive-Director/1377917433/</link>
+      <link>https://eutraining.eu/content/senior-military-advisor-executive-director</link>
       <description>European Union Aviation Safety Agency (EASA) Info i Cologne | Germany | Temporary | Deadline: 30 Apr</description>
-      <guid isPermaLink="false">https://careers.easa.europa.eu/job/Senior-Military-Advisor-to-the-Executive-Director/1377917433/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/senior-military-advisor-executive-director</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Union Aviation Safety Agency (EASA) Info i Cologne</dc:creator>
     </item>
     <item>
       <title>Human Resources Officer</title>
-      <link>https://erecruitment.eulisa.europa.eu/en/our-jobs/human-resources-officer-ad5-214</link>
+      <link>https://eutraining.eu/content/human-resources-officer</link>
       <description>European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) Info i Tallinn | Estonia | Temporary | Deadline: 29 Apr</description>
-      <guid isPermaLink="false">https://erecruitment.eulisa.europa.eu/en/our-jobs/human-resources-officer-ad5-214</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/human-resources-officer</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) Info i Tallinn</dc:creator>
     </item>
     <item>
       <title>Information Technology Officer – DevSecOps Profile</title>
-      <link>https://erecruitment.eulisa.europa.eu/en/our-jobs/information-technology-officer-devsecops-profile-ad5-212</link>
+      <link>https://eutraining.eu/content/information-technology-officer-%E2%80%93-devsecops-profile</link>
       <description>European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) Info i Strasbourg | France | Temporary | Deadline: 28 Apr</description>
-      <guid isPermaLink="false">https://erecruitment.eulisa.europa.eu/en/our-jobs/information-technology-officer-devsecops-profile-ad5-212</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/information-technology-officer-%E2%80%93-devsecops-profile</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) Info i Strasbourg</dc:creator>
     </item>
     <item>
       <title>3Rs/Environmental Risk Assessment Specialist</title>
-      <link>https://careers.ema.europa.eu/job/Amsterdam-3RsEnvironmental-Risk-Assessment-Specialist-1121/1379848433/</link>
+      <link>https://eutraining.eu/content/3rsenvironmental-risk-assessment-specialist</link>
       <description>European Medicines Agency (EMA) Info i Amsterdam | The Netherlands | Temporary | Deadline: 28 Apr</description>
-      <guid isPermaLink="false">https://careers.ema.europa.eu/job/Amsterdam-3RsEnvironmental-Risk-Assessment-Specialist-1121/1379848433/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/3rsenvironmental-risk-assessment-specialist</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Medicines Agency (EMA) Info i Amsterdam</dc:creator>
     </item>
     <item>
       <title>Project Assistant</title>
-      <link>https://www.eit.europa.eu/work-with-us/careers/vacancies/project-assistant-fgiii</link>
+      <link>https://eutraining.eu/content/project-assistant-0</link>
       <description>European Institute of Innovation and Technology (EIT) Info i Budapest | Hungary | Temporary | Deadline: 28 Apr</description>
-      <guid isPermaLink="false">https://www.eit.europa.eu/work-with-us/careers/vacancies/project-assistant-fgiii</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/project-assistant-0</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Institute of Innovation and Technology (EIT) Info i Budapest</dc:creator>
     </item>
     <item>
       <title>Scientific Officer - Plant Protection Products Residues</title>
-      <link>https://careers.efsa.europa.eu/jobs/scientific-officer-plant-protection-products-residues-447</link>
+      <link>https://eutraining.eu/content/scientific-officer-plant-protection-products-residues</link>
       <description>European Food Safety Authority (EFSA) Info i Italy, Emilia-Romagna | Parma | Temporary | Deadline: 27 Apr</description>
-      <guid isPermaLink="false">https://careers.efsa.europa.eu/jobs/scientific-officer-plant-protection-products-residues-447</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/scientific-officer-plant-protection-products-residues</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Food Safety Authority (EFSA) Info i Italy, Emilia-Romagna</dc:creator>
     </item>
     <item>
       <title>Officer - Visits and Inspections (SNE)</title>
-      <link>https://www.emsa.europa.eu/jobs/vacancies/item/5650-emsa-sne-2026-01.html</link>
+      <link>https://eutraining.eu/content/officer-visits-and-inspections-sne</link>
       <description>European Maritime Safety Agency (EMSA) Info i Lisbon | Portugal | Temporary | Deadline: 23 Apr</description>
-      <guid isPermaLink="false">https://www.emsa.europa.eu/jobs/vacancies/item/5650-emsa-sne-2026-01.html</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/officer-visits-and-inspections-sne</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Maritime Safety Agency (EMSA) Info i Lisbon</dc:creator>
     </item>
     <item>
       <title>Grant Assurance Officer</title>
-      <link>https://www.eit.europa.eu/work-with-us/careers/vacancies/grant-assurance-officer-fgiv-0</link>
+      <link>https://eutraining.eu/content/grant-assurance-officer-0</link>
       <description>European Institute of Innovation and Technology (EIT) Info i Budapest | Hungary | Temporary | Deadline: 21 Apr</description>
-      <guid isPermaLink="false">https://www.eit.europa.eu/work-with-us/careers/vacancies/grant-assurance-officer-fgiv-0</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/grant-assurance-officer-0</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Institute of Innovation and Technology (EIT) Info i Budapest</dc:creator>
     </item>
     <item>
       <title>Medical Devices Senior Scientific Specialist</title>
-      <link>https://careers.ema.europa.eu/job/Amsterdam-Medical-Devices-Senior-Scientific-Specialist-1131/1378566733/</link>
+      <link>https://eutraining.eu/content/medical-devices-senior-scientific-specialist</link>
       <description>European Medicines Agency (EMA) Info i Amsterdam | The Netherlands | Temporary | Deadline: 20 Apr</description>
-      <guid isPermaLink="false">https://careers.ema.europa.eu/job/Amsterdam-Medical-Devices-Senior-Scientific-Specialist-1131/1378566733/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/medical-devices-senior-scientific-specialist</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Medicines Agency (EMA) Info i Amsterdam</dc:creator>
     </item>
     <item>
       <title>Senior Scientific Specialist</title>
-      <link>https://careers.ema.europa.eu/job/Senior-Scientific-Specialist-1131/1378578633/</link>
+      <link>https://eutraining.eu/content/senior-scientific-specialist</link>
       <description>European Medicines Agency (EMA) Info i Amsterdam | The Netherlands | Temporary | Deadline: 20 Apr</description>
-      <guid isPermaLink="false">https://careers.ema.europa.eu/job/Senior-Scientific-Specialist-1131/1378578633/</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/senior-scientific-specialist</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Medicines Agency (EMA) Info i Amsterdam</dc:creator>
     </item>
     <item>
       <title>Expert - Air Quality</title>
-      <link>https://jobs.eea.europa.eu/jobs/expert-air-quality-132</link>
+      <link>https://eutraining.eu/content/expert-air-quality</link>
       <description>European Environment Agency (EEA) Info i Copenhagen, Hovedstaden | Denmark | Temporary | Deadline: 20 Apr</description>
-      <guid isPermaLink="false">https://jobs.eea.europa.eu/jobs/expert-air-quality-132</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/expert-air-quality</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Environment Agency (EEA) Info i Copenhagen, Hovedstaden</dc:creator>
     </item>
     <item>
       <title>Project Officer - Regional Cooperation (OPS4) - Institutional Support &amp; Investments</title>
-      <link>https://www.eeas.europa.eu/delegations/nigeria/job-title-project-officer-regional-cooperation-ops4-institutional-support-investments-deadline_en</link>
+      <link>https://eutraining.eu/content/project-officer-regional-cooperation-ops4-institutional-support-investments</link>
       <description>The EU Delegation to the to the Federal Republic of Nigeria and ECOWAS Abuja | Nigeria | Temporary | Deadline: 17 Apr</description>
-      <guid isPermaLink="false">https://www.eeas.europa.eu/delegations/nigeria/job-title-project-officer-regional-cooperation-ops4-institutional-support-investments-deadline_en</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/project-officer-regional-cooperation-ops4-institutional-support-investments</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>The EU Delegation to the to the Federal Republic of Nigeria and ECOWAS Abuja</dc:creator>
     </item>
     <item>
       <title>Information Management Specialist</title>
-      <link>https://erecruitment.ecdc.europa.eu/en/our-vacancies/information-management-specialist-174</link>
+      <link>https://eutraining.eu/content/information-management-specialist</link>
       <description>European Centre for Disease Prevention and Control (ECDC) Info i Stockholm | Sweden | Temporary | Deadline: 16 Apr</description>
-      <guid isPermaLink="false">https://erecruitment.ecdc.europa.eu/en/our-vacancies/information-management-specialist-174</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/information-management-specialist</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Centre for Disease Prevention and Control (ECDC) Info i Stockholm</dc:creator>
     </item>
     <item>
       <title>Administrative Assistant</title>
-      <link>https://jobs.echa.europa.eu/psc/pshrrcr/view/%7bV2%7dqY232e9aA9_ZAhwBzwrGPcH0umhkQHfKYh8qFC0qJN9uAYKN7U.e7Uq_EjuGDP_fGAiu6hKpJ45JIVq0L_M5yveLyavnQf0q9QyN7O9qNtdUFN6Gvyonh8KV6x7dxx6mTD_D60EMIznc6tFzvTK__MaMmweiVC38eTfcKBXOa6FIIUPNQcvDDYNlvl6I.nFCG2tp.kb6Ulew8ZfXXL8R_zs3nK5YOB3ony6H90yamhAxdbCPcDhQ6Hr3BjIc76ORAkP4quwOhT4k3g--/ECHA-CA-2026-01-_1._Vacancy_Notice.pdf</link>
+      <link>https://eutraining.eu/content/administrative-assistant-0</link>
       <description>European Chemicals Agency (ECHA) Info i Helsinki | Finland | Temporary | Deadline: 16 Apr</description>
-      <guid isPermaLink="false">https://jobs.echa.europa.eu/psc/pshrrcr/view/%7bV2%7dqY232e9aA9_ZAhwBzwrGPcH0umhkQHfKYh8qFC0qJN9uAYKN7U.e7Uq_EjuGDP_fGAiu6hKpJ45JIVq0L_M5yveLyavnQf0q9QyN7O9qNtdUFN6Gvyonh8KV6x7dxx6mTD_D60EMIznc6tFzvTK__MaMmweiVC38eTfcKBXOa6FIIUPNQcvDDYNlvl6I.nFCG2tp.kb6Ulew8ZfXXL8R_zs3nK5YOB3ony6H90yamhAxdbCPcDhQ6Hr3BjIc76ORAkP4quwOhT4k3g--/ECHA-CA-2026-01-_1._Vacancy_Notice.pdf</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/administrative-assistant-0</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Chemicals Agency (ECHA) Info i Helsinki</dc:creator>
     </item>
     <item>
       <title>PhD Position: Knowledge representation and exploration for cross-domain crisis management</title>
-      <link>https://ntua.gr/el/news/item/5236-call-for-applications-collaborative-doctoral-partnership-between-ntua-and-european-commission-s-joint-research-centre-jrc-phd-position-knowledge-representation-and-exploration-for-cross-domain-crisis-management</link>
+      <link>https://eutraining.eu/content/phd-position-knowledge-representation-and-exploration-cross-domain-crisis-management</link>
       <description>Joint Research Centre (JRC) NTUA campus in Athens and the JRC site in Ispra | Temporary | Deadline: 15 Apr</description>
-      <guid isPermaLink="false">https://ntua.gr/el/news/item/5236-call-for-applications-collaborative-doctoral-partnership-between-ntua-and-european-commission-s-joint-research-centre-jrc-phd-position-knowledge-representation-and-exploration-for-cross-domain-crisis-management</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/phd-position-knowledge-representation-and-exploration-cross-domain-crisis-management</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>Joint Research Centre (JRC) NTUA campus in Athens and the JRC site in Ispra</dc:creator>
     </item>
     <item>
       <title>Policy Officer (Political Section)</title>
-      <link>https://www.eeas.europa.eu/vacancy-eudvn-political-policy-officer_en</link>
+      <link>https://eutraining.eu/content/policy-officer-political-section</link>
       <description>Delegation of the European Union to Vietnam Hanoi | Vietnam | Temporary | Deadline: 15 Apr</description>
-      <guid isPermaLink="false">https://www.eeas.europa.eu/vacancy-eudvn-political-policy-officer_en</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/policy-officer-political-section</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>Delegation of the European Union to Vietnam Hanoi</dc:creator>
     </item>
     <item>
       <title>Senior Gender Expert - Capacity-building &amp; Local Governance</title>
-      <link>https://vacancies.eip.org/jobs/detail/senior-gender-expert-capacity-building-local-governance-service-provider-112</link>
+      <link>https://eutraining.eu/content/senior-gender-expert-capacity-building-local-governance</link>
       <description>European Institute of Peace (EIP) Brussels | Belgium | Temporary | Deadline: 15 Apr</description>
-      <guid isPermaLink="false">https://vacancies.eip.org/jobs/detail/senior-gender-expert-capacity-building-local-governance-service-provider-112</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/senior-gender-expert-capacity-building-local-governance</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Institute of Peace (EIP) Brussels</dc:creator>
     </item>
     <item>
       <title>Legal Officer (Interim)</title>
-      <link>https://www.eit.europa.eu/work-with-us/careers/vacancies/legal-officer-interim-0</link>
+      <link>https://eutraining.eu/content/legal-officer-interim</link>
       <description>European Institute of Innovation and Technology (EIT) Info i Budapest | Hungary | Temporary | Deadline: 15 Apr</description>
-      <guid isPermaLink="false">https://www.eit.europa.eu/work-with-us/careers/vacancies/legal-officer-interim-0</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/legal-officer-interim</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Institute of Innovation and Technology (EIT) Info i Budapest</dc:creator>
     </item>
     <item>
       <title>Mathematical Modeller Vaccine-preventable Diseases</title>
-      <link>https://erecruitment.ecdc.europa.eu/en/our-vacancies/mathematical-modeller-vaccine-preventable-diseases-173</link>
+      <link>https://eutraining.eu/content/mathematical-modeller-vaccine-preventable-diseases</link>
       <description>European Centre for Disease Prevention and Control (ECDC) Info i Stockholm | Sweden | Temporary | Deadline: 14 Apr</description>
-      <guid isPermaLink="false">https://erecruitment.ecdc.europa.eu/en/our-vacancies/mathematical-modeller-vaccine-preventable-diseases-173</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/mathematical-modeller-vaccine-preventable-diseases</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Centre for Disease Prevention and Control (ECDC) Info i Stockholm</dc:creator>
     </item>
     <item>
       <title>Group Leader Learning and Development</title>
-      <link>https://erecruitment.ecdc.europa.eu/en/our-vacancies/group-leader-learning-and-development-172</link>
+      <link>https://eutraining.eu/content/group-leader-learning-and-development</link>
       <description>European Centre for Disease Prevention and Control (ECDC) Info i Stockholm | Sweden | Temporary | Deadline: 14 Apr</description>
-      <guid isPermaLink="false">https://erecruitment.ecdc.europa.eu/en/our-vacancies/group-leader-learning-and-development-172</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/group-leader-learning-and-development</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Centre for Disease Prevention and Control (ECDC) Info i Stockholm</dc:creator>
     </item>
     <item>
       <title>Administrative and Finance Assistant</title>
-      <link>https://www.eeas.europa.eu/delegations/palestine-occupied-palestinian-territory-west-bank-and-gaza-strip/job-vacancy-dg-echo-office-jerusalem-administrative-and-finance-assistant_en</link>
+      <link>https://eutraining.eu/content/administrative-and-finance-assistant</link>
       <description>European Commission’s Directorate-General for European Civil protection and Humanitarian aid Operations (ECHO) Jerusalem | Israel | Temporary | Deadline: 14 Apr</description>
-      <guid isPermaLink="false">https://www.eeas.europa.eu/delegations/palestine-occupied-palestinian-territory-west-bank-and-gaza-strip/job-vacancy-dg-echo-office-jerusalem-administrative-and-finance-assistant_en</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/administrative-and-finance-assistant</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Commission’s Directorate-General for European Civil protection and Humanitarian aid Operations (ECHO) Jerusalem</dc:creator>
     </item>
     <item>
       <title>Scientific Officer Preparedness and Response</title>
-      <link>https://erecruitment.ecdc.europa.eu/en/our-vacancies/scientific-officer-preparedness-and-response-171</link>
+      <link>https://eutraining.eu/content/scientific-officer-preparedness-and-response</link>
       <description>European Centre for Disease Prevention and Control (ECDC) Info i Stockholm | Sweden | Temporary | Deadline: 13 Apr</description>
-      <guid isPermaLink="false">https://erecruitment.ecdc.europa.eu/en/our-vacancies/scientific-officer-preparedness-and-response-171</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/scientific-officer-preparedness-and-response</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Centre for Disease Prevention and Control (ECDC) Info i Stockholm</dc:creator>
     </item>
     <item>
       <title>Fundraising and Strategic Communications Advisor</title>
-      <link>https://vacancies.eip.org/jobs/detail/fundraising-and-strategic-communications-advisor-service-provider-111</link>
+      <link>https://eutraining.eu/content/fundraising-and-strategic-communications-advisor</link>
       <description>European Institute of Peace (EIP) Brussels | Belgium | Temporary | Deadline: 12 Apr</description>
-      <guid isPermaLink="false">https://vacancies.eip.org/jobs/detail/fundraising-and-strategic-communications-advisor-service-provider-111</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/fundraising-and-strategic-communications-advisor</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Institute of Peace (EIP) Brussels</dc:creator>
     </item>
     <item>
       <title>Finance Officer</title>
@@ -328,14 +367,16 @@
       <guid isPermaLink="false">https://euosha.gestmax.eu/834/1/finance-officer-ast-3</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Agency for Safety and Health at Work (EU-OSHA) Info i Bilbao</dc:creator>
     </item>
     <item>
       <title>Project Assistant in the Florence School of Transnational Governance</title>
-      <link>https://www.eui.eu/Documents/ServicesAdmin/AcademicService/JobOpportunities/2026/STG-5-2026.pdf</link>
+      <link>https://eutraining.eu/content/project-assistant-florence-school-transnational-governance-0</link>
       <description>European University Institute (EUI) Info i Fiesole | Italy | Temporary | Deadline: 09 Apr</description>
-      <guid isPermaLink="false">https://www.eui.eu/Documents/ServicesAdmin/AcademicService/JobOpportunities/2026/STG-5-2026.pdf</guid>
+      <guid isPermaLink="false">https://eutraining.eu/content/project-assistant-florence-school-transnational-governance-0</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European University Institute (EUI) Info i Fiesole</dc:creator>
     </item>
     <item>
       <title>DORA  IT Specialist</title>
@@ -344,6 +385,7 @@
       <guid isPermaLink="false">https://eiopa.gestmax.eu/66/1/dora-it-specialist</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Insurance and Occupational Pensions Authority (EIOPA) Info i Frankfurt am Main</dc:creator>
     </item>
     <item>
       <title>Enabling officer</title>
@@ -352,6 +394,7 @@
       <guid isPermaLink="false">https://www.etf.europa.eu/en/about/working-with-us/vacancies/enabling-officer</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European Training Foundation (ETF) Info i</dc:creator>
     </item>
     <item>
       <title>IT Assistant</title>
@@ -360,6 +403,7 @@
       <guid isPermaLink="false">https://erecruitment.eulisa.europa.eu/en/our-jobs/information-technology-assistant-operations-services-centre-fgiii-209</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>eu-LISA Info i Strasbourg</dc:creator>
     </item>
     <item>
       <title>Research Assistant</title>
@@ -368,6 +412,7 @@
       <guid isPermaLink="false">https://www.eui.eu/Documents/ServicesAdmin/AcademicService/JobOpportunities/2026/RSC-7-2026.pdf</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>European University Institute (EUI) Info i Fiesole</dc:creator>
     </item>
     <item>
       <title>Accounting Officer</title>
@@ -376,6 +421,7 @@
       <guid isPermaLink="false">https://www.cedefop.europa.eu/en/about-cedefop/job-opportunities/vacancies/accounting-officer#group-details</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>Cedefop - European Centre for the Development of Vocational Training Info i Thessaloniki</dc:creator>
     </item>
     <item>
       <title>PhD-Position: AI-Driven Pathways to Healthy Soils</title>
@@ -384,6 +430,7 @@
       <guid isPermaLink="false">https://jobs.unibas.ch/offene-stellen/phd-position-ai-driven-pathways-to-healthy-soils/4e96fb6f-ac1a-43e3-b8e7-947874b84a9d</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>Joint Research Centre (JRC) University of Basel</dc:creator>
     </item>
     <item>
       <title>PhD fellowship/scholarship at Environmental Geosciences</title>
@@ -392,6 +439,7 @@
       <guid isPermaLink="false">https://jobs.unibas.ch/offene-stellen/quantifying-the-of-role-soil-erosion-on-phosphorus-loads-and-eutrophication-in-european-freshwaters/fa3d4154-7f8a-44c0-bba4-14c2edbb7a17</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
+      <dc:creator>Joint Research Centre (JRC) University of Basel</dc:creator>
     </item>
     <item>
       <title>Deputy Executive Director of the IEA</title>
@@ -400,6 +448,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288765/Deputy_Executive_Director_of_the_IEA_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:13 +0000</pubDate>
+      <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
     </item>
     <item>
       <title>Director of Programmes</title>
@@ -408,6 +457,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289062/Director_of_Programmes_TEPSA_Trans_European_Policy_Studies_Association_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:13 +0000</pubDate>
+      <dc:creator>TEPSA Trans European Policy Studies</dc:creator>
     </item>
     <item>
       <title>Director of Administration</title>
@@ -416,6 +466,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/287259/Director_of_Administration_ESRF_European_Synchrotron_Radiation_Facility_Grenoble_France</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:13 +0000</pubDate>
+      <dc:creator>ESRF European Synchrotron Radiation</dc:creator>
     </item>
     <item>
       <title>Project Director</title>
@@ -424,6 +475,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/287662/Project_Director_ICF_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:13 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Director (m/f/d) - Energy &amp; Resources</title>
@@ -432,6 +484,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289058/Director_m_f_d_Energy_Resources_adelphi_Berlin_Germany</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:13 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Projects Coordinator (m/f)</title>
@@ -440,6 +493,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/287996/Projects_Coordinator_m_f_ASPIRE_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:10 +0000</pubDate>
+      <dc:creator>f</dc:creator>
     </item>
     <item>
       <title>Temporary HR Coordinator - Administration (ADM) - VA 07/2026</title>
@@ -448,6 +502,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289282/Temporary_HR_Coordinator_Administration_ADM_VA_07_2026_EFTA_Secretariat_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:10 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Senior Project Support Manager (Transports &amp; Logistics)</title>
@@ -456,6 +511,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288256/Senior_Project_Support_Manager_Transports_Logistics_ERTICO_ITS_Europe_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:08 +0000</pubDate>
+      <dc:creator>ITS</dc:creator>
     </item>
     <item>
       <title>Sector Group Manager, Specialty Chemicals</title>
@@ -464,6 +520,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288946/Sector_Group_Manager_Specialty_Chemicals_CEFIC_European_Chemical_Industry_Council_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:08 +0000</pubDate>
+      <dc:creator>CEFIC European Chemical Industry</dc:creator>
     </item>
     <item>
       <title>MEL Officer</title>
@@ -472,6 +529,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289246/MEL_Officer_Front_Line_Defenders_Dublin_or_Brussels_Multiple_Countries</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>Front Line Defenders Dublin or</dc:creator>
     </item>
     <item>
       <title>Administration Officer (w/m/d)</title>
@@ -480,6 +538,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288253/Administration_Officer_w_m_d_FNF_Europe_Friedrich_Naumann_Stiftung_fr_die_Freiheit_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>m d FNF Europe Friedrich Naumann Stiftung fr die</dc:creator>
     </item>
     <item>
       <title>Two Sector Officers - Green Portfolio - VA 21/2026</title>
@@ -488,6 +547,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288446/Two_Sector_Officers_Green_Portfolio_VA_21_2026_FMO_Financial_Mechanism_Office_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>Financial Mechanism</dc:creator>
     </item>
     <item>
       <title>Country Officer - Romania - VA 23/2026</title>
@@ -496,6 +556,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288505/Country_Officer_Romania_VA_23_2026_FMO_Financial_Mechanism_Office_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>Financial Mechanism</dc:creator>
     </item>
     <item>
       <title>Country Officer - VA 24/2026</title>
@@ -504,6 +565,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288506/Country_Officer_VA_24_2026_FMO_Financial_Mechanism_Office_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>FMO Financial Mechanism</dc:creator>
     </item>
     <item>
       <title>Strategy Officer</title>
@@ -512,6 +574,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288627/Strategy_Officer_EMBL_European_Molecular_Biology_Laboratory_Heidelberg_or_Hinxton_Multiple_Countries</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>EMBL European Molecular Biology Laboratory Heidelberg or</dc:creator>
     </item>
     <item>
       <title>Grants Officer</title>
@@ -520,6 +583,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289286/Grants_Officer_EMBL_European_Molecular_Biology_Laboratory_Heidelberg_Germany</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>EMBL European Molecular Biology</dc:creator>
     </item>
     <item>
       <title>Risk Officer, Market Risk and Reporting</title>
@@ -528,6 +592,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288178/Risk_Officer_Market_Risk_and_Reporting_ESM_European_Stability_Mechanism_Luxembourg_Luxembourg</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>ESM European Stability</dc:creator>
     </item>
     <item>
       <title>Procurement Officer</title>
@@ -536,6 +601,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288466/Procurement_Officer_ESM_European_Stability_Mechanism_Luxembourg_Luxembourg</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>ESM European Stability</dc:creator>
     </item>
     <item>
       <title>Environment &amp; Sustainability Officer</title>
@@ -544,6 +610,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288527/Environment_Sustainability_Officer_EUnited_European_Engineering_Industries_Association_Brussels_or_Frankfurt_Multiple_Countries</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>European Engineering Industries Association Brussels or</dc:creator>
     </item>
     <item>
       <title>Experienced Derivatives and Market Intelligence Officer</title>
@@ -552,6 +619,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289338/Experienced_Derivatives_and_Market_Intelligence_Officer_ESM_European_Stability_Mechanism_Luxembourg_Luxembourg</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:03 +0000</pubDate>
+      <dc:creator>ESM European Stability</dc:creator>
     </item>
     <item>
       <title>Traineeship for the Security Unit</title>
@@ -560,6 +628,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288113/Traineeship_for_the_Security_Unit_EPPO_European_Public_Prosecutors_Office_Luxembourg_Luxembourg</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:58 +0000</pubDate>
+      <dc:creator>EPPO European Public Prosecutors</dc:creator>
     </item>
     <item>
       <title>Traineeship for the Data Protection Office</title>
@@ -568,6 +637,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288115/Traineeship_for_the_Data_Protection_Office_EPPO_European_Public_Prosecutors_Office_Luxembourg_Luxembourg</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:58 +0000</pubDate>
+      <dc:creator>EPPO European Public Prosecutors</dc:creator>
     </item>
     <item>
       <title>Traineeship for the Communication Sector</title>
@@ -576,6 +646,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288116/Traineeship_for_the_Communication_Sector_EPPO_European_Public_Prosecutors_Office_Luxembourg_Luxembourg</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:58 +0000</pubDate>
+      <dc:creator>EPPO European Public Prosecutors</dc:creator>
     </item>
     <item>
       <title>Strategy &amp; Innovation Intern</title>
@@ -584,6 +655,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289167/Strategy_Innovation_Intern_EIT_Urban_Mobility_Barcelona_Spain</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:56 +0000</pubDate>
+      <dc:creator>Urban</dc:creator>
     </item>
     <item>
       <title>Traineeship for the Legal Service Unit</title>
@@ -592,6 +664,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288114/Traineeship_for_the_Legal_Service_Unit_EPPO_European_Public_Prosecutors_Office_Luxembourg_Luxembourg</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:51 +0000</pubDate>
+      <dc:creator>EPPO European Public Prosecutors</dc:creator>
     </item>
     <item>
       <title>Trainee Legal and Procurement</title>
@@ -600,6 +673,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288122/Trainee_Legal_and_Procurement_EDA_European_Defence_Agency_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:51 +0000</pubDate>
+      <dc:creator>EDA European Defence</dc:creator>
     </item>
     <item>
       <title>Legal Officers Specialised in Data Protection</title>
@@ -608,6 +682,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288577/Legal_Officers_Specialised_in_Data_Protection_EDPS_European_Data_Protection_Supervisor_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:51 +0000</pubDate>
+      <dc:creator>EDPS European Data Protection</dc:creator>
     </item>
     <item>
       <title>Legal Officers - Supervision and Enforcement Unit</title>
@@ -616,6 +691,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288578/Legal_Officers_Supervision_and_Enforcement_Unit_EDPS_European_Data_Protection_Supervisor_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:51 +0000</pubDate>
+      <dc:creator>European Data Protection</dc:creator>
     </item>
     <item>
       <title>Legal Officer</title>
@@ -624,6 +700,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289324/Legal_Officer_EUMETSAT_European_Organisation_for_the_Exploitation_of_Meteorological_Satellites_Darmstadt_Germany</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:51 +0000</pubDate>
+      <dc:creator>EUMETSAT European Organisation for the Exploitation of Meteorological</dc:creator>
     </item>
     <item>
       <title>Strategic Communications Adviser</title>
@@ -632,6 +709,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288633/Strategic_Communications_Adviser_Fern_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:49 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Team Lead - Communications Unit</title>
@@ -640,6 +718,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288763/Team_Lead_Communications_Unit_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:49 +0000</pubDate>
+      <dc:creator>Organisation for Economic Cooperation and</dc:creator>
     </item>
     <item>
       <title>Trainee in Communications</title>
@@ -648,6 +727,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288886/Trainee_in_Communications_EUREKA_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:49 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Corporate Communications Trainee</title>
@@ -656,6 +736,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288928/Corporate_Communications_Trainee_ETC_European_Travel_Commission_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:49 +0000</pubDate>
+      <dc:creator>ETC European Travel</dc:creator>
     </item>
     <item>
       <title>Communications Consultant</title>
@@ -664,6 +745,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289066/Communications_Consultant_Clerens_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:49 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Communications Director</title>
@@ -672,6 +754,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288744/Communications_Director_Carbon_Market_Watch_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:49 +0000</pubDate>
+      <dc:creator>Carbon Market</dc:creator>
     </item>
     <item>
       <title>Communications Officer</title>
@@ -680,6 +763,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288330/Communications_Officer_ECMWF_European_Centre_for_Medium_Range_Weather_Forecasts_Bonn_Germany</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:49 +0000</pubDate>
+      <dc:creator>ECMWF European Centre for Medium Range Weather</dc:creator>
     </item>
     <item>
       <title>Research Assistant/Researcher - Raw Materials and Industrial Decarbonisation Policies</title>
@@ -688,6 +772,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289262/Research_Assistant_Researcher_Raw_Materials_and_Industrial_Decarbonisation_Policies_CEPS_Centre_for_European_Policy_Studies_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:46 +0000</pubDate>
+      <dc:creator>CEPS Centre for European Policy</dc:creator>
     </item>
     <item>
       <title>Research Officer - FORCES</title>
@@ -696,6 +781,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289383/Research_Officer_FORCES_TRAFFIC_The_Wildlife_Trade_Monitoring_Network_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:46 +0000</pubDate>
+      <dc:creator>The Wildlife Trade Monitoring</dc:creator>
     </item>
     <item>
       <title>Research &amp; Technical Support Expert: Gender Pay Transparency in Audiovisual Production</title>
@@ -704,6 +790,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288690/Research_Technical_Support_Expert_Gender_Pay_Transparency_in_Audiovisual_Production_UNI_Europa_Remote_Multiple_Countries</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:46 +0000</pubDate>
+      <dc:creator>Europa</dc:creator>
     </item>
     <item>
       <title>Research Officer - Chief Economist Department</title>
@@ -712,6 +799,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288346/Research_Officer_Chief_Economist_Department_ESM_European_Stability_Mechanism_Luxembourg_Luxembourg</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:46 +0000</pubDate>
+      <dc:creator>European Stability</dc:creator>
     </item>
     <item>
       <title>Sector Officer - Research and Innovation - VA 22/2026</title>
@@ -720,6 +808,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288444/Sector_Officer_Research_and_Innovation_VA_22_2026_FMO_Financial_Mechanism_Office_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:46 +0000</pubDate>
+      <dc:creator>Financial Mechanism</dc:creator>
     </item>
     <item>
       <title>Communications and Advocacy Trainee</title>
@@ -728,6 +817,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289343/Communications_and_Advocacy_Trainee_EFIC_European_Pain_Federation_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:44 +0000</pubDate>
+      <dc:creator>EFIC European Pain</dc:creator>
     </item>
     <item>
       <title>Director - Employment Labour and Social Affairs Directorate</title>
@@ -736,6 +826,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289055/Director_Employment_Labour_and_Social_Affairs_Directorate_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:34 +0000</pubDate>
+      <dc:creator>Organisation for Economic Cooperation and</dc:creator>
     </item>
     <item>
       <title>Deputy Director - Directorate for Legal Affairs</title>
@@ -744,6 +835,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289173/Deputy_Director_Directorate_for_Legal_Affairs_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:34 +0000</pubDate>
+      <dc:creator>Organisation for Economic Cooperation and</dc:creator>
     </item>
     <item>
       <title>Public Affairs Manager</title>
@@ -752,6 +844,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/287758/Public_Affairs_Manager_CEFIC_European_Chemical_Industry_Council_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:34 +0000</pubDate>
+      <dc:creator>CEFIC European Chemical Industry</dc:creator>
     </item>
     <item>
       <title>Legal Officer - Internal Market Affairs (General)</title>
@@ -760,6 +853,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288698/Legal_Officer_Internal_Market_Affairs_General_ESA_EFTA_Surveillance_Authority_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:34 +0000</pubDate>
+      <dc:creator>EFTA Surveillance</dc:creator>
     </item>
     <item>
       <title>Junior Regulatory Affairs and Advocacy Officer</title>
@@ -768,6 +862,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288733/Junior_Regulatory_Affairs_and_Advocacy_Officer_IOFI_International_Organization_of_the_Flavor_Industry_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:34 +0000</pubDate>
+      <dc:creator>IOFI International Organization of the Flavor</dc:creator>
     </item>
     <item>
       <title>Trainee EU-funded Defence Research Support</title>
@@ -776,6 +871,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288169/Trainee_EU_funded_Defence_Research_Support_EDA_European_Defence_Agency_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>Support EDA European Defence</dc:creator>
     </item>
     <item>
       <title>EU Project &amp; Engagement Officer</title>
@@ -784,6 +880,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288439/EU_Project_Engagement_Officer_Makeorg_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Trainee in Programme Management (Global &amp; Eurostars)</title>
@@ -792,6 +889,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288889/Trainee_in_Programme_Management_Global_Eurostars_EUREKA_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Referatsleiter (m/w/d) Verbindungsreferat SMEunited und Europäische Sektorpolitik</title>
@@ -800,6 +898,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288477/Referatsleiter_m_w_d_Verbindungsreferat_SMEunited_und_Europische_Sektorpolitik_ZDH_German_Confederation_for_Skilled_Crafts_and_Small_Businesses_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>Europische Sektorpolitik ZDH German Confederation for Skilled Crafts and Small</dc:creator>
     </item>
     <item>
       <title>Project Manager Industrial Transformation and Lead Markets, Europe (f/m/d)</title>
@@ -808,6 +907,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288504/Project_Manager_Industrial_Transformation_and_Lead_Markets_Europe_f_m_d_Agora_Industry_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>m d Agora</dc:creator>
     </item>
     <item>
       <title>Account Manager EU</title>
@@ -816,6 +916,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289110/Account_Manager_EU_Electica_Europe_Remote_Belgium_or_Anywhere_in_Europe_Multiple_Countries</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>Electica Europe Remote Belgium or Anywhere in</dc:creator>
     </item>
     <item>
       <title>Adviseur Public Affairs EU</title>
@@ -824,6 +925,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289123/Adviseur_Public_Affairs_EU_Brainport_Development_Brussels_or_Eindhoven_Multiple_Countries</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>Brainport Development Brussels or</dc:creator>
     </item>
     <item>
       <title>EU Projects Officer</title>
@@ -832,6 +934,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289212/EU_Projects_Officer_EHPA_European_Heat_Pump_Association_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>EHPA European Heat Pump</dc:creator>
     </item>
     <item>
       <title>Appel à Candidatures - Assesseurs HCR à la CNDA</title>
@@ -840,6 +943,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289215/Appel_Candidatures_Assesseurs_HCR_la_CNDA_UNHCR_Paris_Montreuil_Bordeaux_Lyon_Marseille_Nancy_Nantes_or_Toulouse_France</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>Bordeaux Lyon Marseille Nancy Nantes</dc:creator>
     </item>
     <item>
       <title>EU Funding and Communications Officer</title>
@@ -848,6 +952,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289258/EU_Funding_and_Communications_Officer_Gothenburg_European_Office_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
+      <dc:creator>Gothenburg European</dc:creator>
     </item>
     <item>
       <title>Junior Policy Analyst, Health</title>
@@ -856,6 +961,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288834/Junior_Policy_Analyst_Health_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
     </item>
     <item>
       <title>Assistant Director of EU Policy</title>
@@ -864,6 +970,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289061/Assistant_Director_of_EU_Policy_EFF_Electronic_Frontier_Foundation_Remote_Europe_Multiple_Countries</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>EFF Electronic Frontier Foundation Remote</dc:creator>
     </item>
     <item>
       <title>Energy Storage Policy Traineeship</title>
@@ -872,6 +979,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289129/Energy_Storage_Policy_Traineeship_Clerens_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>EuroBrussels</dc:creator>
     </item>
     <item>
       <title>Industrial Security and Security Policy Officer</title>
@@ -880,6 +988,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289200/Industrial_Security_and_Security_Policy_Officer_EDA_European_Defence_Agency_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>EDA European Defence</dc:creator>
     </item>
     <item>
       <title>Policy and Research Intern</title>
@@ -888,6 +997,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289277/Policy_and_Research_Intern_SFP_Smoke_Free_Partnership_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>SFP Smoke Free</dc:creator>
     </item>
     <item>
       <title>Policy Advisor - Regulatory Affairs &amp; Strategic Communications</title>
@@ -896,6 +1006,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/287484/Policy_Advisor_Regulatory_Affairs_Strategic_Communications_IIF_Institute_of_International_Finance_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>of International</dc:creator>
     </item>
     <item>
       <title>Policy Officer</title>
@@ -904,6 +1015,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289039/Policy_Officer_Ocean_Energy_Europe_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>Ocean Energy</dc:creator>
     </item>
     <item>
       <title>EU Project Officer - R&amp;I Policy</title>
@@ -912,6 +1024,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289065/EU_Project_Officer_RI_Policy_EuroTech_Universities_Alliance_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>Universities</dc:creator>
     </item>
     <item>
       <title>Policy, Economic and Operations Officer</title>
@@ -920,6 +1033,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289295/Policy_Economic_and_Operations_Officer_ECSDA_European_Central_Securities_Depositories_Association_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>ECSDA European Central Securities Depositories</dc:creator>
     </item>
     <item>
       <title>Senior Policy Adviser</title>
@@ -928,6 +1042,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289254/Senior_Policy_Adviser_EUROPEX_Association_of_European_Energy_Exchanges_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
+      <dc:creator>EUROPEX Association of European Energy</dc:creator>
     </item>
     <item>
       <title>Junior Communications and Publications Officer</title>
@@ -936,6 +1051,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289439/Junior_Communications_and_Publications_Officer_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</guid>
       <category>EU Affairs</category>
       <pubDate>Wed, 08 Apr 2026 09:06:12 +0000</pubDate>
+      <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
     </item>
     <item>
       <title>EU Global Health Policy Training</title>
@@ -944,6 +1060,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289450/EU_Global_Health_Policy_Training_Impactful_Policy_Careers_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Wed, 08 Apr 2026 09:05:50 +0000</pubDate>
+      <dc:creator>Impactful Policy</dc:creator>
     </item>
     <item>
       <title>Senior Communication Officer</title>
@@ -952,6 +1069,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289496/Senior_Communication_Officer_EDPS_European_Data_Protection_Supervisor_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Thu, 09 Apr 2026 09:13:15 +0000</pubDate>
+      <dc:creator>EDPS European Data Protection</dc:creator>
     </item>
     <item>
       <title>Legal Officer - Internal Market Affairs - Transport</title>
@@ -960,6 +1078,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289471/Legal_Officer_Internal_Market_Affairs_Transport_ESA_EFTA_Surveillance_Authority_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Thu, 09 Apr 2026 09:12:44 +0000</pubDate>
+      <dc:creator>Surveillance</dc:creator>
     </item>
     <item>
       <title>Policy Intern</title>
@@ -968,6 +1087,7 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289494/Policy_Intern_Hydrogen_Europe_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Thu, 09 Apr 2026 09:12:37 +0000</pubDate>
+      <dc:creator>Hydrogen</dc:creator>
     </item>
     <item>
       <title>Policy Officer</title>
@@ -976,54 +1096,142 @@
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289492/Policy_Officer_GFI_Europe_Good_Food_Institute_Europe_Brussels_Belgium</guid>
       <category>EU Affairs</category>
       <pubDate>Thu, 09 Apr 2026 09:12:37 +0000</pubDate>
+      <dc:creator>GFI Europe Good Food Institute</dc:creator>
     </item>
     <item>
-      <title>Communication and Public Relations Advisor</title>
-      <link>https://www.eurobrussels.com/job_display/289614/Communication_and_Public_Relations_Advisor_CIBE_International_Confederation_of_European_Beet_Growers_Brussels_Belgium</link>
-      <description>Job Search Search for Jobs 0 Saved Jobs Jobs Expiring Soon Search for Jobs My Profile Login Register CV Job Alerts Newsletter Saved Jobs ( 0 ) Jobs Expiring Soon Login Register CV Job Alerts Career Guides Conferences Education Career Career Guides Conferences Education Movers and Shakers Post a Job Recruiter Recruiters Guide Recruiters Recruiters Guide Communication and Public Relations Advisor Saved Save this Job Saved Save Communication and Public Relations Advisor C.I.B.E. - International Con</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289614/Communication_and_Public_Relations_Advisor_CIBE_International_Confederation_of_European_Beet_Growers_Brussels_Belgium</guid>
+      <title>The Brussels Bubble – The job Market</title>
+      <link>https://jobs.euractiv.com/the-brussels-bubble-the-job-market/</link>
+      <description>If you have been one of the few still around in Brussels over the last couple of weeks, you will have seen the mass exodus has already begun.&amp;nbsp; The last Strasbourg plenary and the school holidays are the usual trigger points. With employees taking 2-3 weeks holiday and most employers allowing staff to take 1-2 ‘remote working’ weeks’, most of the Bubble will be gone for 3-5 weeks. What is the current marketplace like? Are some sectors ‘hotter’ than others? Are in-house, consultancy or trade associations all seeing the same trends? In the last few weeks, I have placed 5 people. 1 Director in-house, 1 Director, Senior Consultant, EA in consultancies, and a Manager in a trade Association. On the books are jobs such as Partners &amp;amp; Head of Practice in Consultancies, in-house Mid-Level in a trade association and in-house. I am being asked more to do consultancy work to look at the structure of teams and how to maximize staff net pay packages. So, all areas seem to be buoyant. However, there seems to be a lot of restructuring in some of the corporates which is causing uncertainty for the in-house roles. Some trends that I am seeing more and more include the following: The Recruitment Process is taking way longer due primarily to hybrid working. The window where employers and candidates can meet is becoming smaller and smaller. This also results in cancellations and deferring of interviews, especially F2F. Burnout seems to be more common. This has increased markedly in trade associations. Trade Associations would normally be seen to be more ‘stress free’. This causes major issues in some of the smaller trade associations where they do not have the resources to redeploy the absentee’s workload.&amp;nbsp; Sexy Company v Sexy Work. More and more I see people really demotivated in their roles because they moved to a really interesting/cool sector, but this is not mirrored in their day to day work Less Events/Networking Opportunities. It is becoming more difficult to ensure good attendance at Events. This in turn means younger people have less opportunities to find jobs or improve network (Note to the younger generation, networking is NOT going to an event, taking pictures /notes, posting on socials and then leaving before the drinks. The REAL networking takes place after the panel finishes talking. Trump Effect . Some sectors seem to be reticient to engage/invest in hires due to concerns relating to what Trump will say or do next. This is has a detrimental effect on the job market. &amp;nbsp; Consultancy Chaos. Some consultancies are experiencing very high staff turnover and reduction in staff numbers. Others are seeing exponential growth. Most of this is down to culture and/or control from a HQ in the US/UK, who have little or no understanding of the Brussels market. Those with an infinite mindset during COVID and post-COVID are reaping the benefits (shout out to Simon Sinek). So my tuppence worth for the reader over the next few weeks and months: September will bring with it a much busier time and many people starting new roles (and leaving gaps behind). Employers If&amp;nbsp; you have gaps in your staffing or have investment hires to make, start today, September will be here before you know it. Don’t leave it until mid August. You will not manage a F2F and with the delays aforementioned and notice period, your hire may not start until 2026 (you also risk the hire being taken out of the budget if Q3 is bad). Give me a call if you wish to discuss! Candidates If you are offered F2F, take it. Do not sit in your bedroom in Overijse because you requested a teams call. You will need to do a F2F at some point, so remove a step. It also gives an indication of your commitment to working in the office. If you are offered some times/dates for interview, take the first available time. The later you leave it, the more chance it will be cancelled. Don’t be late…………get to your interview early and facture in metro delays and security delays at reception. Mark Cunningham, CEO Cunningham Executive Search</description>
+      <guid isPermaLink="false">https://jobs.euractiv.com/the-brussels-bubble-the-job-market/</guid>
       <category>EU Affairs</category>
-      <pubDate>Fri, 10 Apr 2026 09:14:54 +0000</pubDate>
+      <pubDate>Sat, 11 Apr 2026 20:47:16 +0000</pubDate>
+      <dc:creator>EurActiv Jobs</dc:creator>
     </item>
     <item>
-      <title>Airport Traffic Analyst</title>
-      <link>https://www.eurobrussels.com/job_display/289557/Airport_Traffic_Analyst_ACI_EUROPE_Airports_Council_International_Brussels_Belgium</link>
-      <description>Job Search Search for Jobs 0 Saved Jobs Jobs Expiring Soon Search for Jobs My Profile Login Register CV Job Alerts Newsletter Saved Jobs ( 0 ) Jobs Expiring Soon Login Register CV Job Alerts Career Guides Conferences Education Career Career Guides Conferences Education Movers and Shakers Post a Job Recruiter Recruiters Guide Recruiters Recruiters Guide Airport Traffic Analyst Saved Save this Job Saved Save Airport Traffic Analyst ACI EUROPE - Airports Council International Brussels, Belgium ACI </description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289557/Airport_Traffic_Analyst_ACI_EUROPE_Airports_Council_International_Brussels_Belgium</guid>
+      <title>Commercial Lobbying Jobs in Brussels</title>
+      <link>https://jobs.euractiv.com/commercial-lobbying-jobs-in-brussels/</link>
+      <description>A lobbyist is simply somebody who influences legislators. Lobbying in Brussels is a significant industry, led by well-educated, highly skilled, knowledgeable and mostly agreeable people. Every major commercial, not-for-profit, and governmental organisation lobbies in Brussels; academic programmes educate lobbyists; and well-established professional bodies like the Society of European Affairs Practitioners (SEAP) represent the sector and spread best practice. Moreover, the lobbying sector contributes hundreds of millions of euros to the Brussels economy, and fosters better EU policy-making for business and citizens. The growth of lobbying in Brussels is inextricably linked to the growth and importance of the EU. Just over 20 years ago, there were 15 EU Member States and an estimated 10,000 lobbyists. Now there are 27 Member States and around 29,000 lobbyists in Brussels, according to the European Court of Auditors. While Brussels is often criticised for being full of bureaucrats, in fact, there are only around 37,000 people employed by the EU here which is less than many European city councils. So, the EU relies on external advice and support to create policies that are rooted in the real world. Ironically, without lobbyists, it is likely the EU would have to hire more staff to engage with companies and society &amp;#8211; who would in turn have to hire people to talk to them and probably call them lobbyists to make them effective! This brief article discusses the main opportunities and rewards for lobbyists who represent the business community in Brussels via multinational companies, trade associations and public affairs consultancies. Corporate EU Public Affairs in Brussels Over 4,500 multinational companies actively lobby the EU, and around 625 have offices in or around Brussels. These companies originate from almost 40 countries and employ around 3,000 staff in key EU affairs functions. The vast majority of EU corporate affairs staff are involved in public affairs and outreach to the EU institutions, anticipating threats and opportunities posed by EU policy, and advocating company positions. The size of their offices typically depends on the degree of regulatory threats and opportunities facing the company. Hence it is no surprise that of top 10 corporate spenders there are; five companies from the tech sector (Meta, Microsoft, Apple, Qualcomm and Google; four companies from the chemical or petrochemical sector (Bayer, Shell, BASF and ExxonMobil) and one tobacco company (BAT). These ten companies alone declare spending of around 45 million euros on lobbying and employ almost 80 full-time lobbyists. When we recruit senior corporate public affairs executives, we usually look firstly at directly relevant policy or industry expertise. Although switching sectors is possible, especially at the junior level, senior corporate affairs people tend to specialize in one sector as the skills and even language required for instance in healthcare or financial services are quite distinct and usually take years to acquire. Also, usually at least half the time of a senior corporate affairs executive is focused internally, liaising with other corporate functions such as legal, regulatory affairs and communications often at C-suite level including the CEO. Hence, we look for specific interpersonal and political skills that tend to thrive in such corporate environments. Trade Associations in Brussels The association sector in Brussels is the largest employer of lobbyists. Out of 2,400 international associations in Brussels, there are around 500 European trade or business associations with a permanent secretariat according to the EU Transparency Register. While a significant proportion of these trade associations are relatively small with 5 or less staff, others are significant employers, with the European Chemical Industry Council (Cefic) at the top end with over 160 staff members working in a multicultural and multilingual European workplace. There are also more than 40 European trade associations staffed by mostly part-time specialists in Association Management Consultancies, Public Affairs Consultancies and Law Firms. In addition, there are hundreds of national organisations represented in Brussels – for instance there are approximately 50 German national trade associations with Brussels offices. The skill set, experience and even personality we look for in association staff can be quite different when compared to corporate profiles. Trade associations are typically more consensus-oriented and slow-moving than many businesses, for example. In our report, &amp;#8220;High Performance Secretariats&amp;#8221;, we identified seven key attributes of successful association leaders. Boards tend to look first for strategic thinkers, then for first class politically savvy communicators and managers who can set strategy rather than necessarily sectoral experts, because such knowledge can be acquired on the job and already exists in the secretar</description>
+      <guid isPermaLink="false">https://jobs.euractiv.com/commercial-lobbying-jobs-in-brussels/</guid>
       <category>EU Affairs</category>
-      <pubDate>Fri, 10 Apr 2026 09:14:49 +0000</pubDate>
+      <pubDate>Sat, 11 Apr 2026 20:47:16 +0000</pubDate>
+      <dc:creator>EurActiv Jobs</dc:creator>
     </item>
     <item>
-      <title>Advisor Climate and Energy Policy (m/f/d)</title>
-      <link>https://www.eurobrussels.com/job_display/289607/Advisor_Climate_and_Energy_Policy_m_f_d_VDMA_Verband_Deutscher_Maschinen_und_Anlagenbau_Brussels_Belgium</link>
-      <description>Job Search Search for Jobs 0 Saved Jobs Jobs Expiring Soon Search for Jobs My Profile Login Register CV Job Alerts Newsletter Saved Jobs ( 0 ) Jobs Expiring Soon Login Register CV Job Alerts Career Guides Conferences Education Career Career Guides Conferences Education Movers and Shakers Post a Job Recruiter Recruiters Guide Recruiters Recruiters Guide Advisor Climate and Energy Policy (m/f/d) Saved Save this Job Saved Save Advisor Climate and Energy Policy (m/f/d) VDMA - Verband Deutscher Masch</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289607/Advisor_Climate_and_Energy_Policy_m_f_d_VDMA_Verband_Deutscher_Maschinen_und_Anlagenbau_Brussels_Belgium</guid>
+      <title>10 interview tips for interns in the EU bubble</title>
+      <link>https://jobs.euractiv.com/10-interview-tips-for-interns-in-the-eu-bubble/</link>
+      <description>Euractiv has many good examples of how employing interns in a smart way can really benefit the company in future years. Several colleagues engaged as interns have stayed with Euractiv, and even hold leadership positions only five years after they joined. I have interviewed many dozens of interns over the past 15 years. For me, academic qualifications are almost secondary, as most people trying to break into the EU bubble have studied &amp;#8216;European Affairs&amp;#8217; or a similar course. Attendance at a particular university/institution is also less important for me. I assume that most courses (other than courses that are technical in nature) are fairly standardised with the teaching syllabus. When reading a CV and especially in the interview process, I want to get behind the CV jargon and try to assess the person in front of me. To do this, I apply up to 10 &amp;#8216;filters&amp;#8217;, and these help me make a decent assessment. Team player &amp;#8211; Is this candidate able to work well in a team environment? Holiday jobs on the CV can help answer this question. Multitasker &amp;#8211; Is the candidate able to navigate irregular working patterns and deal with heavier workloads at certain times? Flexibility &amp;#8211; How flexible will the candidate be if/when asked to step outside their comfort zone? Maturity &amp;#8211; Do I think the candidate will adapt to an office environment and not continue to display &amp;#8216;student-like behaviour&amp;#8217; in a professional setting. Attention to detail &amp;#8211; Do I think this candidate has a meticulous attention to detail, always checking work/emails before hitting &amp;#8216;send&amp;#8217;? Organisational skills &amp;#8211; Do I think the candidate is a well-organised person with a logical thinking process? International &amp;#8211; How well travelled is this candidate? Are they internationally minded and able to embrace different business cultures? Ability to learn &amp;#8211; Does the candidate appear open-minded enough to accept feedback, take advice, and then progress? Future career path &amp;#8211; Is this candidate future &amp;#8216;management material&amp;#8217;? Staying power &amp;#8211; This is the most difficult to ascertain, but do I think the candidate will join and then immediately start looking for a job in the EU institutions? Or are they really serious about joining a leading media company in the EU bubble? As someone interviewing for an intern position, you can bear these tips in mind. But every employer looks for different things. So perhaps the best advice I can give is: be yourself; stay relaxed and personable; answer any questions honestly!</description>
+      <guid isPermaLink="false">https://jobs.euractiv.com/10-interview-tips-for-interns-in-the-eu-bubble/</guid>
       <category>EU Affairs</category>
-      <pubDate>Fri, 10 Apr 2026 09:14:16 +0000</pubDate>
+      <pubDate>Sat, 11 Apr 2026 20:47:16 +0000</pubDate>
+      <dc:creator>EurActiv Jobs</dc:creator>
+    </item>
+    <item>
+      <title>European Trade Association Compensation &amp; Benefits Report</title>
+      <link>https://jobs.euractiv.com/european-trade-association-compensation-benefits-report/</link>
+      <description>Brussels ranks as the first capital in the world in number of international associations, and this number continues to grow. According to the Union of International Associations (UIA) there are more than 2,400 international associations in Brussels. Trade associations constitute the largest individual group of entries in the EU Transparency Register and tend to consider Brussels as their natural home. Their composition, vocation and outreach vary considerably due to their histories and EU competencies covering their sectors. Trade (or business) associations represent private businesses and provide a critical function. It is those private businesses that create the profits and employment that drive the European economy for growth and jobs. Most European trade associations are registered as international not-for-profit associations under Belgian law. Approximately 60% are traditionally pure federations, composed of national associations; 25% are composed of national associations and companies; and around 15% have exclusive direct company membership. Their budgets and staff size often depend on the nature of the business sector that they represent, the degree to which their industries are regulated, and who is in charge. Since the Global Financial Crisis, Brussels has become an even more important centre for European business and trade associations to engage with policymakers. Over the last decade there has been a growing sense of community, common purpose and professionalisation of the sector in Brussels. Solvay&amp;#8217;s Executive Master in International Association Management, the European Society of Association Executives, the European Association Summit (EAS), and visit.Brussels´ Convention &amp;amp; Association Bureau are all active manifestations of this change. The trade association sector contributes hundreds of millions of euros to the Brussels economy and fosters better EU policymaking for business and society. Out of 2,400 international associations in Brussels there are around 500 European trade or business associations with a permanent secretariat according to the EU Transparency Register. In addition, there are more than 40 trade associations staffed by mostly part-time specialists in Association Management Consultancies, Public Affairs Consultancies and Law Firms. European trade associations do not include three other types of associations identified in the Transparency Register with a Brussels presence (who also count among our clients), namely: – Professional associations (e.g. FERMA &amp;#8211; Federation of European Risk Management Associations) – National trade associations (e.g. Association Française de la Gestion Financière (AFG) representing the France-based investment management industry) – NGO not-for-profit associations (e.g. EDF – Environmental Defense Fund) The reason we chose not to include these other associations in our survey is that pay scales vary greatly in these other categories. For instance, German and Italian trade associations pay much higher salaries than those from Eastern Europe in line with local pay culture. Salaries are also generally much lower in NGOs driven by a social or environmental purpose for instance. Please also note that in 2023 we also decided to exclude associations and/or their staff hosted by consultancies and law firms, as their staff are consultants and lawyers who work in adjacent but distinct job markets in Brussels with different salary bands. The core of this salary report is based on an indepth survey we finalized in 2023 of 174 European trade association leaders at Secretary General level, and 600 secretariat staff overall. This sample size gives an accurate representation of the range of compensation and benefits available to staff of these 500 trade associations in Brussels. See the full report here .</description>
+      <guid isPermaLink="false">https://jobs.euractiv.com/european-trade-association-compensation-benefits-report/</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:47:16 +0000</pubDate>
+      <dc:creator>EurActiv Jobs</dc:creator>
+    </item>
+    <item>
+      <title>The Hidden Job Market of Brussels: 3,000 European Associations Powering Europe’s Policy Ecosystem</title>
+      <link>https://jobs.euractiv.com/the-hidden-job-market-of-brussels-3000-european-associations-powering-europes-policy-ecosystem/</link>
+      <description>The allure of Brussels remains immense. Yet, when most people think of “working in Europe,” their imagination rarely goes beyond the European institutions — the Commission, the Parliament, or the Council. Indeed, the EPSO competitions and the Blue Book traineeships offer well-defined entry routes into the EU system. But this article is not about that world. It is about the other Brussels — the one that thrives around the institutions, not inside them. Instead, let’s explore the fascinating ecosystem that surrounds the EU institutions — a parallel universe of associations, networks, and organizations that are, in many ways, the engine room of Europe’s policymaking process. A Parallel Europe: 50,000 Jobs Beyond the Institutions If around 50,000 professionals work directly for the EU institutions, imagine another 50,000 with similar expertise — operating in the private and associative sectors: national and regional representations, consultancies, corporations, NGOs, and media. Among these, one of the most dynamic segments is that of European associations. A recent Euractiv study (2025) estimates that around 3,000 associations are currently active in Brussels, employing approximately 18,750 professionals. Every year, roughly 1,000 new job opportunities arise within these organizations — many of which are advertised on the Euractiv Jobs portal. From the Treaty of Rome to Today’s Advocacy Landscape The origins of this ecosystem date back to the Treaty of Rome, when the first industrial groups were encouraged to “coordinate their interests” at European level. The logic was simple: policies decided in Brussels affected industries directly, and collective representation increased both visibility and efficiency. A classic example is ACEA – the European Automobile Manufacturers’ Association, representing members such as BMW, Renault, and Fiat. Over time, associations like ACEA evolved from producing technical statistics to leading communication campaigns and policy advocacy efforts. Today, ACEA’s positions often shape EU legislative debates. As its recent policy paper highlights: “ACEA’s recently published position paper also highlights the need for industry cooperation, standardisation, and the development of an industry-led framework for artificial intelligence (AI) data availability.” This is emblematic of how associations operate: crafting unified sectoral positions and influencing the legislative process in a transparent, structured manner. A Dense and Diverse Ecosystem Association names often follow a recognizable Brussels pattern: a technical or thematic term plus “Europe” (e.g., Glass for Europe, FoodDrinkEurope). Others still carry their original acronyms, such as UNIFE or APEAL. Organizational size varies greatly: about 50% of associations operate with fewer than five staff, while 20% employ more than eleven. At the top, leadership titles typically include Secretary General, Director General, or Head of Office — roles of significant influence in the EU’s legislative machinery. Their core missions combine member support, policy advocacy, internal communication, event organization, and occasionally fundraising. Recruitment: The Art of Precision and Policy Insight Interestingly, recruitment in these associations is often led by managers without formal HR training. Yet selection is rigorous and highly specific. Candidates are assessed not only for their academic background and language skills but also for their ability to think structurally, demonstrate teamwork in multicultural environments, and show genuine familiarity with EU institutions and policies. Sometimes, interviews even include role-play exercises to test agility and alignment with the association’s vision. For candidates, preparation is key: read the association’s website and social media, especially its Twitter/X feed, to grasp current priorities. You’ll need to know, for instance, what WWF or EEB stand for if you apply for a role in environmental policy. And remember — each advertised position can attract hundreds of applications, so precision, clarity, and motivation make the difference. Beyond a Career: A Window into European Integration Working within these associations offers a unique vantage point on the European project. It’s a world that bridges institutions, industries, and civil society — where technical expertise meets political strategy. It’s also a training ground: many young professionals start here and later move to EU institutions, consultancies, or corporate government affairs teams. Dan Luca has been part of the Euractiv team in Brussels for nearly 25 years and currently serves as Vice-President for Strategic Innovations. He is the author of the book Mapping the Influencers in EU Policies.</description>
+      <guid isPermaLink="false">https://jobs.euractiv.com/the-hidden-job-market-of-brussels-3000-european-associations-powering-europes-policy-ecosystem/</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:47:16 +0000</pubDate>
+      <dc:creator>EurActiv Jobs</dc:creator>
+    </item>
+    <item>
+      <title>10 ways to make your CV stand out in the Brussels Bubble</title>
+      <link>https://jobs.euractiv.com/10-ways-to-make-your-cv-stand-out-in-the-brussels-bubble/</link>
+      <description>If you’re job hunting in Brussels, especially within the insular “Brussels Bubble”, you’ve likely noticed that this job market has its own rules and expectations. From EU Institutions to think tanks, from advocacy groups to consultancies and anything in between, roles in this political and policy-driven environment are as competitive as they are specialised. So, what are hiring managers actually looking for when your CV lands in their inbox? Whether you’re a recent graduate or a seasoned policy expert changing sectors, understanding how hiring managers think can help you craft a CV that doesn’t just pass the eye test, but gets your foot in the door. 1.Relevance to EU policy and institutions One of the first things a hiring manager looks for is clear, demonstrable familiarity with EU structures, processes, and policy areas. Whether it’s a traineeship at the Commission, a short stint in a Brussels-based NGO, or even a master&amp;#8217;s thesis on EU environmental policy, anything that shows you understand how the EU actually works will give you an advantage. Tip: Be specific. Instead of just listing “Policy Intern”, say “Policy Intern – supported analysis on Digital Services Act for EU-level lobbying strategy”. 2. The Right Keywords Many organisations (especially large NGOs, consultancies, and public affairs firms) use some form of tool to screen CVs before they are seen by human eyes. This means that keywords are crucial. Tailor your CV using terminology from the job posting. For example, if the position mentions “strategic communications” or “stakeholder engagement”, mirror that language in your descriptions of your previous experience. Tip: Don’t force keywords everywhere; but do align your language with that of the job posting. If your previous experience involved “liaising with institutional stakeholders”, and the job post mentions “EU stakeholder engagement”, make sure that the connections are clear and visible. 3. Languages Brussels is officially bilingual, unofficially trilingual, and actually multilingual. English is the working language for most organisations in the bubble. However, French (and sometimes Dutch) is still prevalent – and in some roles, essential. For EU roles, additional EU languages are a plus, and for communications and advocacy roles, they can be crucial. Tip: Include a languages section with CEFR levels (e.g. English – C2, French – B2) and be honest! There’s little point in claiming C1 level if you’ll be expected to draft press releases or negotiate contracts in that language. 4. Clarity before creativity Hiring managers in Brussels often review dozens of CVs under tight deadlines. They’re not looking for unique or ornate layouts. They want clarity above all else. A clean, well-structured CV with clear section headings (Experience, Education, Skills, Languages, etc) with bullet points to underline achievements is key. Tip: Keep your CV to one (preferred) or two (maximum) pages. Two pages is acceptable if your experience justifies it. Remember to prioritise! Put key achievements or relevant experience in the top third of page one. 5. Show, don’t tell Soft skills such as collaboration, adaptability, and cross-cultural communication are essential in the Brussels bubble, but just writing that you have “strong communication skills” doesn’t mean anything. Show your soft skills through concrete examples and/or achievements: “Led a multilingual team to deliver stakeholder interviews in five EU member states” “Facilitated collaboration between technical experts and policy teams to draft position papers on EU taxonomy legislation” Tip: If you’re applying for a communications or policy role, including a link to a writing sample or publication (even a LinkedIn post) can help you stand out. 6. Demonstrate your interest in the role/sector Everyone knows that you’re likely applying for more than one position. However, hiring managers want to feel that you’re not applying at random, but that you have legitimate interest in working for them. For instance, if you’re applying to an energy-focused consultancy, a short line showing your past work on the Energy Efficiency Directive or your master’s thesis on green hydrogen will immediately spark interest. Tip: Consider a short, 1-2 line “Profile” or “Summary” at the top of your CV. For example: “Policy professional with 3 years’ experience in digital regulation and stakeholder outreach, with a strong track record engaging EU institutions.” 7. Internships matter The line between intern and professional is often blurry in Brussels. Bluebook traineeships, Schuman placements, and other internships roles carry weight and are often a proving ground for future candidates. Hiring managers know this, but they want to see what you did during the internship, not just a name drop of the organisation or institution you worked for. Did you write briefing notes? Track legislative developments? Assist in event planning? The more specific, the better. Tip: Don’t just write</description>
+      <guid isPermaLink="false">https://jobs.euractiv.com/10-ways-to-make-your-cv-stand-out-in-the-brussels-bubble/</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:47:16 +0000</pubDate>
+      <dc:creator>EurActiv Jobs</dc:creator>
+    </item>
+    <item>
+      <title>How to Build a Career in the Brussels Bubble Beyond Internships</title>
+      <link>https://jobs.euractiv.com/how-to-build-a-career-in-the-brussels-bubble-beyond-internships/</link>
+      <description>Brussels is a city built on full mobility. Every year, hundreds (if not thousands) of bright young professionals land here with big hopes of launching a career in European affairs. Most start with an internship. It&amp;#8217;s the classic entry point: a foot in the door of the EU institutions and then consultancies, NGOs, trade associations, think tanks or media. But here’s the thing: What happens after the internships end? How do you turn a short-term gig into something more stable and meaningful? This transition from intern to early-career professional is one of the most overlooked (and let’s be honest, most frustrating) parts of working in this city. Too many talented individuals find themselves in limbo: overqualified for another internship yet still considered too fresh for a full-time junior officer or consultant role. As someone who’s had the chance to recruit and promote dozens of people in this space, I’ve noticed some patterns. I’d like to share three insights that clearly make a difference when it comes to offering someone a more permanent position in this overly competitive job market. Shift from Performer to Contributor Let’s start with mindset. Most interns show up eager to perform. They complete tasks, meet deadlines, follow instructions. And this is a great start! But if you want to grow beyond the internship, you’ll need to shift gears. A contributor mindset means you’re not just doing the work, but you’re thinking about the work. Here’s what that looks like: Ask smart questions , not just about the task, but about the “why” behind it. Try to understand how your piece of the puzzle fits into the bigger picture. What is the project aiming to achieve? Who is the audience? How does this deliverable support the broader policy or communications strategy? These questions signal that you’re not just ticking boxes, but you’re thinking critically and strategically. Show curiosit y about the broader project or organisational priorities. Read the latest publications or newsletters. Pay attention in meetings, even when they seem above your pay grade. Bring up connections between different initiatives or issues you’ve noticed, this shows you’re mentally plugged in, not just mechanically present. Propose small improvements when you spot inefficiencies, outdated practices, or better ways of working. This doesn’t mean criticising everything, nobody wants a “this is all wrong” attitude! But thoughtful suggestions, delivered with humility, are powerful. They show initiative and care. Whether it’s a faster way to handle a database, a clearer format for a briefing, or even a new tool you’ve seen others use, these small contributions make a big impression. Most importantly, start acting like someone who’s already part of the team, not just a guest waiting to be evaluated. Own your work. Ask for feedback. Volunteer for tasks, even if they’re slightly out of your comfort zone. The more you operate as a trusted contributor, the more likely your team will begin to treat you, as well as keep you, as one. Trust me, teams don’t just promote task executors. They promote those who take initiative, bring fresh perspective, and offer value beyond the routine work. Build Relationships, Not Just a Network In the Brussels Bubble, alongside publicly advertised jobs, there are also many opportunities that never get posted. They’re shared informally, internally, or created for someone who’s already proven themselves. That’s why relationships, not just “networking,” matter so much. Here’s what makes the difference: Stay in touch after your internship. Relationships don’t end on the last day of your internship, they just being. A short message to say thank you, a LinkedIn comment celebrating a team’s achievement, or even a “just saw this report or project you worked on, it is super helpful” can keep you on people’s radar. These small, but thoughtful gestures signal that you care about the work and the people behind it. You don’t have to overdo it, consistency and authenticity matter more than frequency. Be helpful, not transactional. EU Bubble is a small town in a big city, and people remember how you made them feel. Instead of reaching out only when you need something, get into the habit of offering support. Share a job opening you saw with someone who might be a good fit. Offer to introduce two contacts working on similar topics. Recommend a reliable supplier, writer, designer, whatever might be useful. These small acts build trust, and trust often leads to opportunity. Show up to events, not to pitch yourself, but to engage. From all sorts of policy debates to social networking events, EU Bubble offers plenty of chances to be seen and heard. Attend with the intention to listen, learn, and have conversations that matter. Don&amp;#8217;t try to “sell yourself”, just being present, curious, and respectful goes a long way. And yes, it can be awkward at first (especially if you’re introverted or new to the city), but showing up regularly b</description>
+      <guid isPermaLink="false">https://jobs.euractiv.com/how-to-build-a-career-in-the-brussels-bubble-beyond-internships/</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:47:16 +0000</pubDate>
+      <dc:creator>EurActiv Jobs</dc:creator>
+    </item>
+    <item>
+      <title>From the desk of a recruiter: How to land a job in the EU Bubble</title>
+      <link>https://jobs.euractiv.com/from-the-desk-of-a-recruiter-how-to-land-a-job-in-the-eu-bubble/</link>
+      <description>Like many people working in Brussels, my career path might seem a little unconventional, but it’s exactly what makes me who I am today. My passion for media and EU affairs didn’t take root straight away. In fact, I started out with a very different dream: to work in aviation as a flight attendant &amp;#8211; and I made it happen. Little did I know that those years in the skies would become the foundation for my future in HR. From exceptional customer service to mastering patience (lots of it!), compassion, and adaptability, flying around the world gave me a unique lens through which to see people and cultures, a lens I draw on every day in HR. After almost five years in the aviation industry, my interests began to shift. That’s how I landed my first job as a corporate recruiter in Brussels. It felt like the perfect next step still people-focused, still about helping others find their place. But something was still missing. Then came the change that shaped everything: my first role within the EU bubble, in talent acquisition for a media organisation. Seeing a newsroom up close, watching diverse talents come together to create something meaningful was truly inspirational. It was the moment everything clicked. I found my passion and understood where I was meant to be. After two years in the media industry, I decided to take the next step and join Euractiv where I truly found my perfect match: in the work ethic, the support, and the role itself. I’m excited to be here and look forward to talking to many of you who are interested in joining us! Get Your Application in Order Your first point of contact with a recruiter is your CV and cover letter. Before you’re ever invited to an interview, those documents need to do the job of convincing a recruiter that your profile deserves a closer look. Start by understanding what the job posting asks for. Tailor your CV to match the skills and experience requested, rather than submitting the same generic version to every opening. Recruiters in Brussels often look for evidence that you know what the role entails, and that you’ve thought about how your experience fits in that context. When you include clear descriptions of your tasks and achievements, and why they matter for the role, it becomes much easier for a recruiter to see your potential. Structured and relevant experience will help you get shortlisted. Your cover letter should explain why you are applying for this specific role and what you can contribute, rather than repeating what’s in your CV. Explain briefly how your experience connects to the job description. This shows that you are serious about the position and have taken time to consider how you fit in the role and organisation. Before the Interview Once your application has succeeded in getting you an interview, good preparation is essential. Start by researching the organisation and the job you are interviewing for. Understand its mission, audience, recent projects, and the context of the role you would fill. Recruiters and hiring managers notice when a candidate knows the organisation well, as it shows motivation and genuine interest. Practice talking about your experience with concrete examples. Many interviews in the EU context use competency-based questions, where you are asked to describe how you handled specific situations in the past. A useful approach is to describe the situation briefly, explain what you were responsible for, what actions you took, and what the results were. This method helps you communicate clearly and confidently under pressure. Making an Effective First Impression First impressions happen quickly and are significant. Arriving on time is one of the simplest but most important parts of this. If the interview is in person, aim to arrive 5 to 10 minutes earlier. If it’s online, join the call a few minutes before the scheduled time to ensure your technology is working correctly and to show respect for the process. During the interview, be attentive. Listen carefully to the questions and take a moment to think before replying. If you don’t understand a question, it’s better to ask for clarification than to give a rushed or off-topic answer. Staying calm and focused shows professionalism and maturity. Eye contact, composed posture, and a friendly but professional tone all contribute to a positive impression. In many roles, communication skills are central to the job, so showing clarity and confidence in how you express yourself is especially important. During and After the Interview When you are asked to talk about your experience, do not read your CV word by word. Recruiters appreciate clarity and relevance. Rather than listing every task you’ve ever done, focus on a few key examples that clearly demonstrate how your skills and mindset match what the role requires. At the end of the interview, when given the opportunity, ask well-thought-out questions. This could be about how success is measured in the role, what the team’s priorities are,</description>
+      <guid isPermaLink="false">https://jobs.euractiv.com/from-the-desk-of-a-recruiter-how-to-land-a-job-in-the-eu-bubble/</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:47:16 +0000</pubDate>
+      <dc:creator>EurActiv Jobs</dc:creator>
+    </item>
+    <item>
+      <title>PhD Position in Electricity risk preparedness and exercises for resilience</title>
+      <link>https://eutraining.eu/content/phd-position-electricity-risk-preparedness-and-exercises-resilience</link>
+      <description>©EU Training | Copyright: EU Training (Arboreus Kft.) 1075 Budapest, Rumbach Sebestyén u. 12. All rights reserved. No part of this publication may be reproduced, downloaded, stored in a retrieval system, or transmitted by any means, electronic, mechanical, photocopying or otherwise.</description>
+      <guid isPermaLink="false">https://eutraining.eu/content/phd-position-electricity-risk-preparedness-and-exercises-resilience</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:47:14 +0000</pubDate>
+      <dc:creator>Joint Research Centre (JRC) Kaunas University of Technology (LT) &amp; JRC Ispra (IT)</dc:creator>
     </item>
     <item>
       <title>Visiting Astronomer Travel Coordinator</title>
       <link>https://www.eurobrussels.com/job_display/289632/Visiting_Astronomer_Travel_Coordinator_ESO_European_Southern_Observatory_Garching_Germany</link>
-      <description>Job Search Search for Jobs 0 Saved Jobs Jobs Expiring Soon Search for Jobs My Profile Login Register CV Job Alerts Newsletter Saved Jobs ( 0 ) Jobs Expiring Soon Login Register CV Job Alerts Career Guides Conferences Education Career Career Guides Conferences Education Movers and Shakers Post a Job Recruiter Recruiters Guide Recruiters Recruiters Guide Visiting Astronomer Travel Coordinator Saved Save this Job Saved Save Visiting Astronomer Travel Coordinator ESO - European Southern Observatory </description>
+      <description>ESO operates three unique world-class observing sites in northern Chile: La Silla, Paranal, and Chajnantor (home to ALMA), and the ESO Headquarters are located in Garching, near Munich, Germany. At Paranal, ESO operates the Very Large Telescope, the world's most advanced visible-light astronomical observatory, and will host and operate the southern array of the Cherenkov Telescope Array, the world's largest and most sensitive high energy gamma-ray observatory. ESO is a major partner in ALMA. On Cerro Armazones, ESO is building the 39-metre Extremely Large Telescope (ELT), which will become "the world's biggest eye on the sky" and whose operations will be fully integrated into the Paranal Observatory. For its Operations Support Group, within the Directorate of Operations at its headquarters in Garching, near Munich, Germany, ESO is advertising the position of Visiting Astronomer Travel Coordinator. The Operations Support Group (OSG), as part of the User Support Department (USD), provides science operations services to the USD and other units responsible for supporting and operating the La Silla Paranal Observatory. The department belongs to the Data Management and Operations Division (DMO), which provides high-reliability support to the operation of the ESO facilities and their community of users, and maintains the data archive facility as a powerful resource for scientific and operational use. The Visiting Astronomer Travel Office (VA Travel Office), located within the OSG/USD, is an important interface between ESO and its community. The VA Travel Office is responsible for organising the travel arrangements for the Visiting Astronomers traveling to ESO's observatory in Chile, amounting to approximately 450 trips per year. It also provides administrative services to approximately 40 staff members within DMO. The core function of this role is to manage and coordinate all travel arrangements for Visiting Astronomers from the community and from ESO, who are traveling to the observatory sites in Chile for their observing runs. This includes acting as the primary point of contact for astronomers and efficiently organising their travels in close collaboration with the in-house travel agency and with the personnel responsible for logistics at the observatory sites in Chile. The responsibilities entail: Creation, maintenance, and publication of the list of astronomers travelling to the sites of the ESO observatories using dedicated tools; Timely maintenance of documentation available to Visiting Astronomers for the preparation of their trip to the ESO observatories, including the maintenance of a dedicated web site; Management of the ESO budget devoted to the travels of Visiting Astronomers and subsequent reporting; Preparation of purchase orders and internal financial commitments; Support for the organization of meetings and workshops for the user community, including oversight of and assistance with logistics and practical details before, during, and after meetings, as well as budget management; Provision of assistance to the staff within the Data Management and Operations Division with day-to-day administrative tasks. The above responsibilities are not exhaustive. A flexible approach and willingness to adapt to unexpected needs is required. Reports to: Head of the Operations Support Group within the User Support Department. Key Competences and Experience: Demonstrated experience (a minimum of 3 years) as an administrative assistant, and experience in coordinating and managing international travel arrangements for a large number of travellers are required. Working experience in an international scientific environment will be an asset. The successful candidate for this position will take complete ownership of the role and possess the following key competences and past experience: Excellent interpersonal and communication skills, with a friendly, service-oriented attitude; Self-directed and highly motivated, with attention to detail and problem-solving mindset; Ability to build strong and effective links with internal teams and external partners, optimising communication flows between Garching and Chile and between ESO and its community; Solid proficiency with standard office software and dedicated web applications, including content management systems; Proven ability to manage and monitor budgets effectively; Capacity to provide clear, concise, and timely oral and written communications; Demonstrated ability to effectively balance competing demands, prioritizing daily operational responsibilities while maintaining focus on longer-term objectives and deadlines; Able to make decisions in an objective and fair way, complying with corporate rules and boundaries. Desirable Competences and Experience: Experience with Enterprise Resource Planning (ERP) applications and Document Management Systems; Experience in reviewing processes and implementing improvements to enhance services. Qualifications: Secondary school educatio</description>
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289632/Visiting_Astronomer_Travel_Coordinator_ESO_European_Southern_Observatory_Garching_Germany</guid>
       <category>EU Affairs</category>
-      <pubDate>Sat, 11 Apr 2026 08:50:44 +0000</pubDate>
+      <pubDate>Sat, 11 Apr 2026 20:47:09 +0000</pubDate>
+      <dc:creator>ESO European Southern</dc:creator>
+    </item>
+    <item>
+      <title>Communication and Public Relations Advisor</title>
+      <link>https://www.eurobrussels.com/job_display/289614/Communication_and_Public_Relations_Advisor_CIBE_International_Confederation_of_European_Beet_Growers_Brussels_Belgium</link>
+      <description>Communication and Public Relations Advisor C.I.B.E. - International Confederation of European Beet Growers Brussels, Belgium Job description and responsibilities Working for an international Association well established in the agriculture sector and based in Brussels, and working on building a sustainable agriculture in a very challenging evolving EU and global context, under the supervision and coordination of the Director, the Communication and Public Relations Advisor will: Manage the communication activities, including the definition of communication objectives and tools, manage the social media accounts, as well as the website; Develop, edit and design communication materials; Contribute to the advocacy positions and public relations activities towards EU institutions, policymakers, industry, other advocacy communities and media and maintain relationships with the members; Collect information and manage the Association databases (contacts, statistics etc.) as well as internal distribution lists for internal documents and external distribution lists; Manage the organisation of internal and external events, online or in-person, in Brussels or abroad; Holds regular contacts and liaise with members from all over Europe and support them in their requests to the Association; Support and conduct all necessary tasks required or assigned by the Director of the Association. Areas of expertise Experience in Communication, Public relations, EU public affairs for an organisation - preferably in Brussels; Project and event organisational skills; Knowledge of EU decision making process and EU regulatory affairs; Excellent written and verbal communication skills; Social media and digital savvy; Knowledge in agri-food appreciated; Ability to work both independently and closely with all members. Minimum profile required Master’s degree in communication, EU Affairs, or other Degrees relevant to this position; 3 years’ work experience in Brussels, in a similar position within a company or an association; Experience and Proficiency in Office Management and other software (e.g. Canva) desired; Fluent written/spoken English, excellent in at least two other European languages (French, German); Team oriented, independent, flexible and very well-organised; Good relational skills and sense of diplomacy; Residency in Belgium (and valid permit to work in Belgium). In return we offer A challenging work, based in Brussels, in an international environment, rich in human relations rooted in farming; A challenging role in an organisation recognised in Brussels and internationally, working on one of the most pressing topics of our time – agriculture, food, climate change and environment; Autonomy and small teamwork; The chance to work with a diverse range of stakeholders from across the value chain and gain technical expertise in this field. Please apply here (single valid address): cibeoffice@cibe-europe.eu . Only candidates matching the minimum profile will be considered and contacted. Don't forget to mention EuroBrussels when applying.</description>
+      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289614/Communication_and_Public_Relations_Advisor_CIBE_International_Confederation_of_European_Beet_Growers_Brussels_Belgium</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:47:04 +0000</pubDate>
+      <dc:creator>CIBE International Confederation of European Beet</dc:creator>
+    </item>
+    <item>
+      <title>Airport Traffic Analyst</title>
+      <link>https://www.eurobrussels.com/job_display/289557/Airport_Traffic_Analyst_ACI_EUROPE_Airports_Council_International_Brussels_Belgium</link>
+      <description>Airport Traffic Analyst ACI EUROPE - Airports Council International Brussels, Belgium ACI EUROPE is hiring an Airport Traffic Analyst reporting to the ACI EUROPE Head of Economics &amp; Competition. SCOPE Assist in the collection of airport traffic data; ensuring data quality and estimation of missing data; Assist in the preparation of the monthly airport traffic analysis; Produce bi-annual reports on airline capacity; Manage the short-term outlook indicator project; Support the maintenance of databases on specific topics in the field of airport traffic economics; Conduct research work in identify trends and development in the aviation sector; acquiring data from primary or secondary data sources and maintain databases/data systems; Participate in the ACI EUROPE Economics Committee and the ACI Airport Traffic Think Tank (AT3). ESSENTIAL QUALITIES Very good knowledge of R language and the Rstudio suite of data analysis tools (Tidyverse, Shiny, Markdown); Genuine interest in economic research and data analysis in the field of civil aviation; Comfort dealing with messy data, data production and data wrangling; Developed social and communication skills, including the ability to communicate and work within a multilingual and multicultural environment; Ability to work under pressure and to deal with multiple assignments; Fluent in English, other European languages an asset. MINIMUM REQUIREMENTS Demonstrated experience using R language and RStudio; Interest and curiosity in transport economics; 2 years working experience. APPLICATION ACI EUROPE offers an attractive remuneration package and benefits for the right candidate. Please send your CV (maximum 2 pages), together with a one-page cover letter (in English) and any relevant supporting material to: stephanie.coppin@aci-europe.org and philippe.sacre@aci-europe.org . Application deadline: 24 April 2026 Don't forget to mention EuroBrussels when applying.</description>
+      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289557/Airport_Traffic_Analyst_ACI_EUROPE_Airports_Council_International_Brussels_Belgium</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:47:00 +0000</pubDate>
+      <dc:creator>ACI EUROPE Airports Council</dc:creator>
     </item>
     <item>
       <title>Policy Analyst</title>
       <link>https://www.eurobrussels.com/job_display/289622/Policy_Analyst_EPC_European_Policy_Centre_Brussels_Belgium</link>
-      <description>Job Search Search for Jobs 0 Saved Jobs Jobs Expiring Soon Search for Jobs My Profile Login Register CV Job Alerts Newsletter Saved Jobs ( 0 ) Jobs Expiring Soon Login Register CV Job Alerts Career Guides Conferences Education Career Career Guides Conferences Education Movers and Shakers Post a Job Recruiter Recruiters Guide Recruiters Recruiters Guide Policy Analyst Saved Save this Job Saved Save Policy Analyst EPC - European Policy Centre Brussels, Belgium The European Policy Centre (EPC) look</description>
+      <description>Policy Analyst EPC - European Policy Centre Brussels, Belgium The European Policy Centre (EPC) looking for a Policy Analyst to join its Sustainable Prosperity for Europe programme to work in Brussels on topics related primarily to the EU’s clean energy transition and industrial decarbonisation. The successful candidate should have a solid academic background and a good understanding of EU institutions. S/he/x should have a good knowledge of the current EU climate, energy and environmental policy developments. This will be coupled with an interest to engage in and develop cross-sectoral activities. S/he/x should also have experience in organising policy debates and writing papers on EU policies. The candidate should have the following profile: University degree in relevant subjects (e.g. energy and environmental sciences, economics, EU studies, public policy); Policy Analyst should have at least two to three years of relevant work experience (other than internships), including in organising events and in policy analysis; Demonstrated ability to research, write and present high-quality policy analysis; Strong interest in European affairs and commitment to EPC’s mission; A good understanding of EU policy developments in energy transition and industrial decarbonisation and a readiness to apply this across different policy areas such as economic security, geopolitics, circular economy, investments, electrification and digital; Experience in fundraising, or supporting fundraising initiatives; Excellent communication and social skills (oral and written); Ability to engage and network with experts and interested stakeholders; Ability to work independently as well as in a multi-disciplinary team; Dynamic, flexible, reliable and attentive to detail; Fluent in English. The main duties are: Developing and implementing the EPC’s activities related to the Clean Industrial Deal, including topics such as clean energy transition and industrial decarbonisation; Providing research and organisational support for the Sustainable Prosperity for Europe Programme; Research and writing policy analyses; Organising events (drafting event proposals, invitations and programmes, identifying and contacting speakers); Liaising with external experts and interested stakeholders, as well as building and maintaining a network; Supporting fundraising activities for the Programme; Producing new ideas and taking initiative on projects and activities. Don't forget to mention EuroBrussels when applying.</description>
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289622/Policy_Analyst_EPC_European_Policy_Centre_Brussels_Belgium</guid>
       <category>EU Affairs</category>
-      <pubDate>Sat, 11 Apr 2026 08:50:01 +0000</pubDate>
+      <pubDate>Sat, 11 Apr 2026 20:46:27 +0000</pubDate>
+      <dc:creator>EPC European Policy</dc:creator>
     </item>
     <item>
       <title>Legal &amp; Policy Officer</title>
       <link>https://www.eurobrussels.com/job_display/289626/Legal_Policy_Officer_FRA_European_Union_Agency_for_Fundamental_Rights_Vienna_Austria</link>
-      <description>Job Search Search for Jobs 0 Saved Jobs Jobs Expiring Soon Search for Jobs My Profile Login Register CV Job Alerts Newsletter Saved Jobs ( 0 ) Jobs Expiring Soon Login Register CV Job Alerts Career Guides Conferences Education Career Career Guides Conferences Education Movers and Shakers Post a Job Recruiter Recruiters Guide Recruiters Recruiters Guide Legal &amp; Policy Officer Saved Save this Job Saved Save Legal &amp; Policy Officer FRA - European Union Agency for Fundamental Rights Vienna, Austria D</description>
+      <description>Legal &amp; Policy Officer FRA - European Union Agency for Fundamental Rights Vienna, Austria Duties The Legal and Policy Officer will: Provide legal analysis and draft position papers, reports, guidelines, briefing notes, speeches and opinions on equality and non-discrimination and disability topics as well as other matters falling within the work of the unit; Deliver legal review of (internally-drafted or contracted) deliverables, manuals and recommendations for best practices dedicated to practitioners on various issues related to fundamental rights protection; Pro-actively follow the developments of EU legislative and policy issues in the field of equality and non-discrimination, disability and social rights (including the European Pillar of Social Rights), poverty and other issues covered by the unit; Lead and implement assigned activities falling within the work programme while ensuring their coherence and compatibility with the policies of the EU and consistency with EU law, especially the Charter; Participate, on behalf of FRA, in external meetings, working groups, conferences, seminars, and networks; Establish and maintain regular contacts with other European Institutions, Member States, civil society organisations and other partners in the assigned policy area. Duties applicable to all staff: Perform any other related duties assigned by the manager. Eligibility requirements Only candidates who meet all of the following eligibility criteria by the deadline for submission of applications will be marked as eligible. Candidates who do not meet one or more criteria will not be considered further: General conditions: Be a national of one of the Member States of the European Union and be entitled to full rights as a citizen; Have fulfilled any obligations imposed by the laws concerning military service; Meet the character requirements as to suitability for the performance of the duties involved; Be physically fit to perform the duties linked to the post. Education: A level of education which corresponds to completed university studies of at least three years in law, attested by a diploma. Language skills: Have a thorough knowledge (level C1) of English, as this is the working language of FRA; and Have a satisfactory knowledge (minimum level B2) of another language of the EU. The levels indicated correspond to the Common European Framework of Reference for Languages. Selection criteria In order to select the best-qualified candidates for the test and interview phase, FRA will assess the following essential and advantageous criteria. Please note that all essential criteria are mandatory. If a candidate scores zero on any individual essential criterion, their application will not be assessed further. The following criteria will be considered as essential: At least 5 years of proven experience in analysing and providing advice on EU fundamental rights law questions as well as relevant international human rights law; Demonstrated experience applying EU equality law; Excellent knowledge of EU legislation regarding rights of persons with disabilities; Excellent legal drafting skills in English, the working language of FRA. The following criteria will be considered as advantageous: Knowledge of social rights, in particular employment law; Demonstrated knowledge of European Convention on Human Rights caselaw, work of the Council of Europe and the European Court of Human Rights in the areas of equality and non-discrimination; A specialisation in EU fundamental rights law or international human rights law as part of the candidate’s law degree. In addition to the essential and advantageous criteria, candidates invited to the interview and test phase will also be assessed on behavioural competencies relevant for the position. In particular, the successful candidate will be expected to demonstrate: Ability to work in teams; Capacity for analytical thinking; Effective communication skills, both oral and written; Results orientation; Flexibility and adaptability. Don't forget to mention EuroBrussels when applying.</description>
       <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289626/Legal_Policy_Officer_FRA_European_Union_Agency_for_Fundamental_Rights_Vienna_Austria</guid>
       <category>EU Affairs</category>
-      <pubDate>Sat, 11 Apr 2026 08:50:01 +0000</pubDate>
+      <pubDate>Sat, 11 Apr 2026 20:46:27 +0000</pubDate>
+      <dc:creator>European Union Agency for Fundamental</dc:creator>
+    </item>
+    <item>
+      <title>Advisor Climate and Energy Policy (m/f/d)</title>
+      <link>https://www.eurobrussels.com/job_display/289607/Advisor_Climate_and_Energy_Policy_m_f_d_VDMA_Verband_Deutscher_Maschinen_und_Anlagenbau_Brussels_Belgium</link>
+      <description>Advisor Climate and Energy Policy (m/f/d) VDMA - Verband Deutscher Maschinen- und Anlagenbau Brussels, Belgium Who we are At the VDMA, you don't work for a single company, you work for over 3,500 - and for what they make possible. You move between technology and politics, between depth of detail and vision. You translate opinions into positions, knowledge into impact and debates into decisions. What you do here not only determines how a project runs, but also how an industry develops. And: It affects topics that are really important to you - from climate policy to digitalization, from securing skilled workers to the future of industrial value creation in Europe. The VDMA European Office, based in Brussels, represents the interests of its member companies vis-à-vis the European Union. Its dedicated, international team serves as the voice of the European mechanical engineering industry in Brussels while also keeping member companies informed about relevant European policy initiatives. These are the responsibilities: Making an impact Organizing and executing VDMA lobbying on EU climate and energy policy; Developing, drafting and coordinating VDMA positions on climate and energy policy; Maintaining and developing a strong network; Representing VDMA positions vis-à-vis EU institutions; Informing, advising and supporting VDMA members on EU climate and energy policy; Analyzing and evaluating EU policy initiatives to support VDMA members in their transformation processes; Participating in internal and external meetings, working groups and events; Acting as the European voice in a team of experts located in Frankfurt, Berlin and Brussels. This is what we expect: Expertise with integrity University degree or comparable qualification; Established network within EU Institutions; Knowledge and experience in European climate and energy policy; Strong economic and industrial understanding; Excellent command of English, German language skills are an asset; Willingness to travel within Europe. This is what we offer: Power for what matters Employee benefits are company-specific and may vary depending on position and location. Questions? Holger Kunze will gladly answer your field-specific questions under +32 478 6043-17. For general questions, please contact our career team under +49 69 6603-1793. The position is part-time with a total of 30.4 hours per week (not including break times). The position is based in our Brussels office. Ready? We look forward to your application. Don't forget to mention EuroBrussels when applying.</description>
+      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289607/Advisor_Climate_and_Energy_Policy_m_f_d_VDMA_Verband_Deutscher_Maschinen_und_Anlagenbau_Brussels_Belgium</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 11 Apr 2026 20:46:27 +0000</pubDate>
+      <dc:creator>f d VDMA Verband Deutscher Maschinen und</dc:creator>
     </item>
   </channel>
 </rss>
