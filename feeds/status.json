@@ -1,63 +1,16 @@
 {
-  "last_run": "2026-04-11T20:52:12Z",
-  "country": "brussels",
-  "total_active_jobs": 178,
+  "last_run": "2026-04-11T20:56:55Z",
+  "country": "uk",
+  "total_active_jobs": 170,
   "new_jobs_found": 0,
-  "sources_checked": 5,
-  "sources_succeeded": 5,
+  "sources_checked": 0,
+  "sources_succeeded": 0,
   "sources_failed": 0,
-  "sources_disabled": 19,
+  "sources_disabled": 0,
   "relevance_filtered": 0,
-  "descriptions_enriched": 92,
+  "descriptions_enriched": 0,
   "feeds_generated": 6,
-  "run_duration_seconds": 116.5,
+  "run_duration_seconds": 0,
   "failed_sources": [],
-  "per_source": [
-    {
-      "name": "EuroBrussels",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 54,
-      "jobs_after_relevance_filter": 54,
-      "descriptions_enriched": 54,
-      "duration_seconds": 47.6
-    },
-    {
-      "name": "EU Training Jobs",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 39,
-      "jobs_after_relevance_filter": 39,
-      "descriptions_enriched": 0,
-      "duration_seconds": 2.6,
-      "notes": "Description enrichment disabled for this source"
-    },
-    {
-      "name": "European External Action Service",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 36,
-      "jobs_after_relevance_filter": 36,
-      "descriptions_enriched": 33,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "European Policy Centre",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 1,
-      "jobs_after_relevance_filter": 1,
-      "descriptions_enriched": 1,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "College of Europe Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 4,
-      "jobs_after_relevance_filter": 4,
-      "descriptions_enriched": 4,
-      "duration_seconds": 0.3
-    }
-  ]
+  "per_source": []
 }
