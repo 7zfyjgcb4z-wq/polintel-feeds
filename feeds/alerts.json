@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-04-11T21:03:23Z",
+  "generated_at": "2026-04-11T21:07:31Z",
   "alerts": [],
   "_tracking": {
     "consecutive_failures": {
-      "W4MP": 0,
       "UN Job Feed": 0
     }
   }

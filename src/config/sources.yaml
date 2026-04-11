@@ -1015,6 +1015,7 @@ sources:
     field_map:
       title: title
       description: description
+    org_from_description_regex: "Department/Office\\s*:\\s*([^\\n]+?)(?:\\s+Duty Station|\\s*$)"
     enrich_description: false  # UN RSS provides full descriptions; country was 'international' which excluded it from all pipelines
     enabled: true
 

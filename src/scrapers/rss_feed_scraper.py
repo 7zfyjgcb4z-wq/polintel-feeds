@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import logging
 import re
-from typing import List
+from typing import List, Optional
 
 import feedparser
 from bs4 import BeautifulSoup
@@ -36,6 +36,9 @@ class RSSFeedScraper:
         category = source_config.get("category", "general")
         country = source_config.get("country", "uk")
         source_name = source_config.get("name", "")
+        org_desc_pattern: Optional[re.Pattern] = None
+        if source_config.get("org_from_description_regex"):
+            org_desc_pattern = re.compile(source_config["org_from_description_regex"])
 
         try:
             feed = feedparser.parse(url)
@@ -91,6 +94,12 @@ class RSSFeedScraper:
             date_field = field_map.get("date", "published")
             if hasattr(entry, date_field):
                 pub_date = getattr(entry, date_field, None)
+
+            # Extract org from description if pattern configured and no other org found
+            if org_desc_pattern and org == source_name:
+                m = org_desc_pattern.search(description)
+                if m:
+                    org = m.group(1).strip()
 
             needs_enrichment = _is_thin_description(description)
 
