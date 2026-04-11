@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>UK Public Affairs &amp; Lobbying Jobs</title>
     <link>/uk-public-affairs.xml</link>
@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2026 16:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 17:02:06 +0000</lastBuildDate>
     <item>
       <title>Account Manager</title>
       <link>https://www.secnewgate.co.uk/careers/account-manager</link>
@@ -16,6 +16,7 @@
       <guid isPermaLink="false">https://www.secnewgate.co.uk/careers/account-manager</guid>
       <category>Public Affairs</category>
       <pubDate>Fri, 27 Mar 2026 20:19:59 +0000</pubDate>
+      <dc:creator>SEC Newgate</dc:creator>
     </item>
     <item>
       <title>Senior Account Executive / Consultant - Communications</title>
@@ -24,6 +25,7 @@
       <guid isPermaLink="false">https://www.secnewgate.co.uk/careers/senior-account-executive-consultant-communications</guid>
       <category>Public Affairs</category>
       <pubDate>Fri, 27 Mar 2026 20:19:59 +0000</pubDate>
+      <dc:creator>SEC Newgate</dc:creator>
     </item>
     <item>
       <title>Credit Controller</title>
@@ -32,6 +34,7 @@
       <guid isPermaLink="false">https://www.secnewgate.co.uk/careers/credit-controller</guid>
       <category>Public Affairs</category>
       <pubDate>Fri, 27 Mar 2026 20:19:59 +0000</pubDate>
+      <dc:creator>SEC Newgate</dc:creator>
     </item>
     <item>
       <title>Director - Public Affairs</title>
@@ -40,6 +43,7 @@
       <guid isPermaLink="false">https://www.secnewgate.co.uk/careers/director-public-affairs</guid>
       <category>Public Affairs</category>
       <pubDate>Fri, 27 Mar 2026 20:19:59 +0000</pubDate>
+      <dc:creator>SEC Newgate</dc:creator>
     </item>
     <item>
       <title>Analyst (Strategy &amp; Corporate Communications)</title>
@@ -48,6 +52,7 @@
       <guid isPermaLink="false">https://www.secnewgate.co.uk/careers/analyst-strategy-corporate-communications</guid>
       <category>Public Affairs</category>
       <pubDate>Fri, 27 Mar 2026 20:19:59 +0000</pubDate>
+      <dc:creator>SEC Newgate</dc:creator>
     </item>
   </channel>
 </rss>

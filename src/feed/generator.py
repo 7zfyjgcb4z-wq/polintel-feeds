@@ -108,6 +108,7 @@ def _write_feed(
     capped = jobs[:FEED_MAX_ITEMS]
 
     fg = FeedGenerator()
+    fg.load_extension("dc")
     fg.id(feed_url)
     fg.title(title)
     fg.link(href=feed_url, rel="self")
@@ -126,7 +127,12 @@ def _write_feed(
         fe.title(job.title)
         fe.link(href=job.url)
         fe.description(job.description or "")
-        fe.author({"name": job.organisation})
+        # Write organisation as dc:creator (plain text, RSS 2.0 compatible).
+        # feedgen's fe.author() only works properly in Atom; in RSS it requires
+        # an email address. dc:creator is the correct field for a plain-text
+        # organisation name and is what the downstream Lovable parser reads.
+        if job.organisation:
+            fe.dc.dc_creator(job.organisation)
 
         # pubDate from date_scraped
         try:

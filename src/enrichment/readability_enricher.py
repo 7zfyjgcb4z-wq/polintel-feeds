@@ -14,6 +14,25 @@ log = logging.getLogger(__name__)
 
 USER_AGENT = "Pol-Intel/1.0 (contact@orison.co)"
 
+# Phrases that indicate a captcha or access-control page rather than job content.
+# If the extracted text starts with any of these, treat the fetch as failed.
+_CHALLENGE_PHRASES = (
+    "quick check needed",
+    "javascript is required",
+    "please enable javascript",
+    "access denied",
+    "403 forbidden",
+    "captcha",
+    "are you a robot",
+    "verify you are human",
+    "checking your browser",
+)
+
+
+def _looks_like_challenge(text: str) -> bool:
+    lower = text.lower()[:200]
+    return any(phrase in lower for phrase in _CHALLENGE_PHRASES)
+
 
 async def enrich_description(url: str, existing_description: str = None) -> Optional[str]:
     """Fetches the job page and extracts the main content body.
@@ -40,6 +59,10 @@ async def enrich_description(url: str, existing_description: str = None) -> Opti
         text = " ".join(text.split())
 
         if len(text) < 50:
+            return None
+
+        if _looks_like_challenge(text):
+            log.debug(f"enrich_description: challenge/captcha page detected for {url} — skipping")
             return None
 
         return text[:5000]

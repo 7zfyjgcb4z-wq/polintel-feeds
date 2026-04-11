@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>UK Political Party Jobs</title>
     <link>/uk-political-parties.xml</link>
@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2026 16:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 17:02:06 +0000</lastBuildDate>
     <item>
       <title>Case Worker – Hannah Spencer MP</title>
       <link>https://www.greenparty.org.uk/jobs/case-worker-hannah-spencer-mp</link>
@@ -16,6 +16,7 @@
       <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/case-worker-hannah-spencer-mp</guid>
       <category>Political Parties</category>
       <pubDate>Sun, 29 Mar 2026 07:01:32 +0000</pubDate>
+      <dc:creator>Green Party</dc:creator>
     </item>
     <item>
       <title>Senior Case Worker – Hannah Spencer MP</title>
@@ -24,6 +25,7 @@
       <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/senior-case-worker-hannah-spencer-mp</guid>
       <category>Political Parties</category>
       <pubDate>Sun, 29 Mar 2026 07:01:32 +0000</pubDate>
+      <dc:creator>Green Party</dc:creator>
     </item>
     <item>
       <title>Constituency Office Manager – Hannah Spencer MP</title>
@@ -32,6 +34,7 @@
       <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/constituency-office-manager-hannah-spencer-mp</guid>
       <category>Political Parties</category>
       <pubDate>Sun, 29 Mar 2026 07:01:32 +0000</pubDate>
+      <dc:creator>Green Party</dc:creator>
     </item>
     <item>
       <title>Senior Parliamentary Assistant – Hannah Spencer MP</title>
@@ -40,6 +43,7 @@
       <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/senior-parliamentary-assistant-hannah-spencer-mp</guid>
       <category>Political Parties</category>
       <pubDate>Sun, 29 Mar 2026 07:01:32 +0000</pubDate>
+      <dc:creator>Green Party</dc:creator>
     </item>
     <item>
       <title>Social Media Officer</title>
@@ -48,6 +52,7 @@
       <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/social-media-officer</guid>
       <category>Political Parties</category>
       <pubDate>Sun, 29 Mar 2026 07:01:32 +0000</pubDate>
+      <dc:creator>Green Party</dc:creator>
     </item>
     <item>
       <title>Chief of Staff to the Leader of the Liberal Democrats</title>
@@ -56,6 +61,7 @@
       <guid isPermaLink="false">https://www.libdems.org.uk/jobs</guid>
       <category>Political Parties</category>
       <pubDate>Sun, 29 Mar 2026 07:01:27 +0000</pubDate>
+      <dc:creator>Liberal Democrats</dc:creator>
     </item>
     <item>
       <title>Executive Assistant to the CEO/Governance Officer</title>
@@ -64,6 +70,7 @@
       <guid isPermaLink="false">https://www.greenparty.org.uk/jobs/executive-assistant-to-the-ceo-governance-officer</guid>
       <category>Political Parties</category>
       <pubDate>Wed, 01 Apr 2026 07:15:50 +0000</pubDate>
+      <dc:creator>Green Party</dc:creator>
     </item>
     <item>
       <title>Data Protection Manager</title>
@@ -72,6 +79,7 @@
       <guid isPermaLink="false">https://www.greenparty.org.uk/jobs</guid>
       <category>Political Parties</category>
       <pubDate>Wed, 01 Apr 2026 07:15:50 +0000</pubDate>
+      <dc:creator>Green Party</dc:creator>
     </item>
     <item>
       <title>Caseworker for Pippa Heylings MP (South Cambridgeshire)</title>
@@ -80,6 +88,7 @@
       <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-pippa-heylings-mp</guid>
       <category>Political Parties</category>
       <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+      <dc:creator>Liberal Democrats</dc:creator>
     </item>
     <item>
       <title>Caseworker for Josh Babarinde MP (Eastbourne)</title>
@@ -88,6 +97,7 @@
       <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-josh-babarinde-mp</guid>
       <category>Political Parties</category>
       <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+      <dc:creator>Liberal Democrats</dc:creator>
     </item>
     <item>
       <title>Caseworker for Helen Maguire MP (Epsom and Ewell)</title>
@@ -96,6 +106,7 @@
       <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-helen-maguire-mp</guid>
       <category>Political Parties</category>
       <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+      <dc:creator>Liberal Democrats</dc:creator>
     </item>
     <item>
       <title>Support Officer for Charlotte Cane MP (Ely and East Cambridgeshire)</title>
@@ -104,6 +115,7 @@
       <guid isPermaLink="false">https://www.libdems.org.uk/jobs/support-officer-charlotte-cane-mp</guid>
       <category>Political Parties</category>
       <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+      <dc:creator>Liberal Democrats</dc:creator>
     </item>
     <item>
       <title>Caseworker for David Chadwick MP (Brecon, Radnor and Cwm Tawe)</title>
@@ -112,6 +124,7 @@
       <guid isPermaLink="false">https://www.libdems.org.uk/jobs/caseworker-david-chadwick-mp</guid>
       <category>Political Parties</category>
       <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+      <dc:creator>Liberal Democrats</dc:creator>
     </item>
     <item>
       <title>Leaders Visits Coordinator</title>
@@ -120,6 +133,7 @@
       <guid isPermaLink="false">https://www.libdems.org.uk/jobs/leaders-visits-coordinator</guid>
       <category>Political Parties</category>
       <pubDate>Tue, 07 Apr 2026 07:12:18 +0000</pubDate>
+      <dc:creator>Liberal Democrats</dc:creator>
     </item>
   </channel>
 </rss>

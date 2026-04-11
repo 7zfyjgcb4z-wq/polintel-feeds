@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>UK Political &amp; Policy Jobs (General)</title>
     <link>/uk-general.xml</link>
@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2026 16:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 17:02:06 +0000</lastBuildDate>
     <item>
       <title>PhD Studentship: How do climate change-induced biodiversity targets influence the dynamics and effectiveness of international cooperation in biodiversity governance?</title>
       <link>https://www.jobs.ac.uk/job/DQE700/phd-studentship-how-do-climate-change-induced-biodiversity-targets-influence-the-dynamics-and-effectiveness-of-international-cooperation-in-biodiversity-governance</link>
@@ -16,6 +16,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQE700/phd-studentship-how-do-climate-change-induced-biodiversity-targets-influence-the-dynamics-and-effectiveness-of-international-cooperation-in-biodiversity-governance</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:07 +0000</pubDate>
+      <dc:creator>University of Essex</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: Political Economy of the Environment and Development</title>
@@ -24,6 +25,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQE656/phd-studentship-political-economy-of-the-environment-and-development</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:07 +0000</pubDate>
+      <dc:creator>University of Essex</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: Permissible Population Policy as a Means of Averting Harmful Climate Change</title>
@@ -32,6 +34,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQE622/phd-studentship-permissible-population-policy-as-a-means-of-averting-harmful-climate-change</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:07 +0000</pubDate>
+      <dc:creator>University of Essex</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: Unilateralism v Multilateralism: Harnessing International Economic Policy for Sustainable Transitions</title>
@@ -41,14 +44,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQE625/phd-studentship-unilateralism-v-multilateralism-harnessing-international-economic-policy-for-sustainable-transitions</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer/Senior Lecturer of International Relations</title>
-      <link>https://www.jobs.ac.uk/job/DQG781/lecturer-senior-lecturer-of-international-relations</link>
-      <description>Salary:Competitive</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQG781/lecturer-senior-lecturer-of-international-relations</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:07 +0000</pubDate>
+      <dc:creator>University of Essex</dc:creator>
     </item>
     <item>
       <title>Marie Sklodowska-Curie Actions (MSCA) Postdoctoral Fellowships</title>
@@ -57,6 +53,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQQ208/marie-sklodowska-curie-actions-msca-postdoctoral-fellowships</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:07 +0000</pubDate>
+      <dc:creator>University of Huddersfield</dc:creator>
     </item>
     <item>
       <title>Tenure-track Assistant Professor in Global Governance and Institutions</title>
@@ -65,6 +62,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQQ262/tenure-track-assistant-professor-in-global-governance-and-institutions</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>The University of Hong Kong</dc:creator>
     </item>
     <item>
       <title>Senior Research Officer</title>
@@ -74,6 +72,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQQ124/senior-research-officer</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Essex</dc:creator>
     </item>
     <item>
       <title>Tenure-Track Assistant Professor / Associate Professor in International Relations</title>
@@ -82,6 +81,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQQ993/tenure-track-assistant-professor-associate-professor-in-international-relations</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>The University of Hong Kong</dc:creator>
     </item>
     <item>
       <title>Senior Researcher in Environmental Ethics and Climate Justice in Global Health</title>
@@ -91,6 +91,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQR245/senior-researcher-in-environmental-ethics-and-climate-justice-in-global-health</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: Advancing the Science and Guidelines on Physical Activity and Health for Disabled People</title>
@@ -99,6 +100,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQR301/phd-studentship-advancing-the-science-and-guidelines-on-physical-activity-and-health-for-disabled-people</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of East Anglia</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: Using Wearables to Advance Evidence on the Health Benefits of Physical Activity in People in Low-middle Income Countries</title>
@@ -107,6 +109,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQR281/phd-studentship-using-wearables-to-advance-evidence-on-the-health-benefits-of-physical-activity-in-people-in-low-middle-income-countries</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of East Anglia</dc:creator>
     </item>
     <item>
       <title>PhD Studentship in Public Health: Who is Shaping Healthy and Sustainable Policies in UK Cities?</title>
@@ -116,6 +119,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQR276/phd-studentship-in-public-health-who-is-shaping-healthy-and-sustainable-policies-in-uk-cities</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>Newcastle University</dc:creator>
     </item>
     <item>
       <title>University Assistant Professor in Political Theory</title>
@@ -125,6 +129,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQS180/university-assistant-professor-in-political-theory</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Cambridge</dc:creator>
     </item>
     <item>
       <title>PhD Studentships: Become a Leading Expert in Ageing and Digitalization (x 14 Posts)</title>
@@ -133,6 +138,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQS195/phd-studentships-become-a-leading-expert-in-ageing-and-digitalization-x-14-posts</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>LUT University</dc:creator>
     </item>
     <item>
       <title>Associate Professorship of the International Relations of the Global South</title>
@@ -142,15 +148,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQS388/associate-professorship-of-the-international-relations-of-the-global-south</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Departmental Lecturer in Comparative Politics</title>
-      <link>https://www.jobs.ac.uk/job/DQS912/departmental-lecturer-in-comparative-politics</link>
-      <description>Department of Politics and International Relations; Salary:£39,424 to £47,779
-                                    per annum with a discretionary range to £51,983</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQS912/departmental-lecturer-in-comparative-politics</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
     </item>
     <item>
       <title>Postdoctoral Researcher in AI &amp; Risk (Oxford AI Governance Initiative)</title>
@@ -160,6 +158,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQT032/postdoctoral-researcher-in-ai-and-risk-oxford-ai-governance-initiative</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
     </item>
     <item>
       <title>Senior Policy Fellow (Economic and Fiscal Policy)</title>
@@ -169,6 +168,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQT744/senior-policy-fellow-economic-and-fiscal-policy</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>London School of Economics and Political Science</dc:creator>
     </item>
     <item>
       <title>Research Associate (Fixed Term)</title>
@@ -178,15 +178,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQT730/research-associate-fixed-term</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer/Senior Lecturer in Intelligence, Surveillance and Reconnaissance</title>
-      <link>https://www.jobs.ac.uk/job/DQT586/lecturer-senior-lecturer-in-intelligence-surveillance-and-reconnaissance</link>
-      <description>Defence and Security Education; Salary:£38,784
-                                    per annum</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQT586/lecturer-senior-lecturer-in-intelligence-surveillance-and-reconnaissance</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Cambridge</dc:creator>
     </item>
     <item>
       <title>Assistant Professor - China &amp; Global Development</title>
@@ -195,6 +187,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQT568/assistant-professor-china-and-global-development</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Cambridge</dc:creator>
     </item>
     <item>
       <title>Research Assistant (12 Months) for Strategic Research Program on Transformation of the Danish Healthcare System</title>
@@ -203,15 +196,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQU266/research-assistant-12-months-for-strategic-research-program-on-transformation-of-the-danish-healthcare-system</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer in Global Development</title>
-      <link>https://www.jobs.ac.uk/job/DQU157/lecturer-in-global-development</link>
-      <description>Department of Anthropology; Salary:£37,052.44 to £90,078.68
-                                    per annum</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQU157/lecturer-in-global-development</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Southern Denmark</dc:creator>
     </item>
     <item>
       <title>Associate Professorship in International Relations</title>
@@ -221,6 +206,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQU141/associate-professorship-in-international-relations</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
     </item>
     <item>
       <title>PhD Position within the project Governing Health, Family and Religion: The Biopolitics of Genetic Counselling and Religious Family Formations (RELI GENE)</title>
@@ -229,6 +215,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQS483/phd-position-within-the-project-governing-health-family-and-religion-the-biopolitics-of-genetic-counselling-and-religious-family-formations-reli-gene</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>SOAS University of London</dc:creator>
     </item>
     <item>
       <title>Assistant Professor or Associate Professor in Military Operations</title>
@@ -238,6 +225,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQU594/assistant-professor-or-associate-professor-in-military-operations</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>Royal Danish Defence College</dc:creator>
     </item>
     <item>
       <title>Assistant Professor in Middle East Politics</title>
@@ -247,6 +235,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQU540/assistant-professor-in-middle-east-politics</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>Durham University</dc:creator>
     </item>
     <item>
       <title>4 x Research Associates in Animal Studies (Humanities and Social Sciences)</title>
@@ -255,6 +244,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQS438/4-x-research-associates-in-animal-studies-humanities-and-social-sciences</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>University of Sheffield</dc:creator>
     </item>
     <item>
       <title>Researcher Fellow -Terrorism, Intelligence, Resilience and Organised Crime</title>
@@ -264,6 +254,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQV351/researcher-fellow-terrorism-intelligence-resilience-and-organised-crime</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:04 +0000</pubDate>
+      <dc:creator>Sheffield Hallam University</dc:creator>
     </item>
     <item>
       <title>PhD Studentship - World-Leading Scholarship in English</title>
@@ -273,6 +264,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQV928/phd-studentship-world-leading-scholarship-in-english</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>University of St Andrews</dc:creator>
     </item>
     <item>
       <title>PhD Position in Women Building Cities</title>
@@ -282,15 +274,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQV739/phd-position-in-women-building-cities</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer in Psychological Criminology</title>
-      <link>https://www.jobs.ac.uk/job/DQV464/lecturer-in-psychological-criminology</link>
-      <description>Centre for Security and Crime Science; Salary:£45,338.06 to £54,054.83
-                                    per year</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQV464/lecturer-in-psychological-criminology</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>Radboud University</dc:creator>
     </item>
     <item>
       <title>Professor of Comparative Education (0.2FTE)</title>
@@ -299,6 +283,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQV009/professor-of-comparative-education-02fte</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>UCL</dc:creator>
     </item>
     <item>
       <title>Research Associate in Political Theory</title>
@@ -308,6 +293,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQW886/research-associate-in-political-theory</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>Loughborough University</dc:creator>
     </item>
     <item>
       <title>Associate Professorship of Causal and Experimental Methods in Politics and Social Policy</title>
@@ -317,6 +303,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQW790/associate-professorship-of-causal-and-experimental-methods-in-politics-and-social-policy</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
     </item>
     <item>
       <title>PhD Studentship in East Asian Politics</title>
@@ -326,6 +313,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQW452/phd-studentship-in-east-asian-politics</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>Newcastle University</dc:creator>
     </item>
     <item>
       <title>PhD Scholarship</title>
@@ -334,6 +322,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQU885/phd-scholarship</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>Lahore University of Management Sciences (LUMS)</dc:creator>
     </item>
     <item>
       <title>Postdoctoral Fellowship</title>
@@ -342,6 +331,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQU884/postdoctoral-fellowship</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>Lahore University of Management Sciences (LUMS)</dc:creator>
     </item>
     <item>
       <title>Research Fellow in The Politics of River Rights</title>
@@ -351,6 +341,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQX258/research-fellow-in-the-politics-of-river-rights</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>University of Leeds</dc:creator>
     </item>
     <item>
       <title>Layered Histories in the Global South City PhD Studentship (Fixed Term)</title>
@@ -360,6 +351,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQX182/layered-histories-in-the-global-south-city-phd-studentship-fixed-term</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>University of Cambridge</dc:creator>
     </item>
     <item>
       <title>Postdoctoral Research Associate</title>
@@ -369,6 +361,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQV774/postdoctoral-research-associate</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>Queen Mary University of London</dc:creator>
     </item>
     <item>
       <title>Churchill Associate Professor of United States Politics</title>
@@ -378,6 +371,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQX465/churchill-associate-professor-of-united-states-politics</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
     </item>
     <item>
       <title>Postdoctoral Research Fellow in African Studies</title>
@@ -387,6 +381,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQX493/postdoctoral-research-fellow-in-african-studies</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
     </item>
     <item>
       <title>Early Notice of Forthcoming Call for Applications for the Doctoral Programs (2026/27)</title>
@@ -396,6 +391,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQX563/early-notice-of-forthcoming-call-for-applications-for-the-doctoral-programs-2026-27</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>Scuola Superiore Meridionale</dc:creator>
     </item>
     <item>
       <title>Doctoral Positions/Swyddi Doethurol</title>
@@ -404,6 +400,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQX950/doctoral-positions-swyddi-doethurol</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>Bangor University</dc:creator>
     </item>
     <item>
       <title>AKS Early Career Teaching &amp; Research Fellow in Korean Studies</title>
@@ -413,6 +410,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQX224/aks-early-career-teaching-and-research-fellow-in-korean-studies</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>The University of Edinburgh</dc:creator>
     </item>
     <item>
       <title>Policy Officer, Earth Capital Nexus</title>
@@ -422,14 +420,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY005/policy-officer-earth-capital-nexus</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer - Australian Centre for Jewish Civilisation</title>
-      <link>https://www.jobs.ac.uk/job/DQY630/lecturer-australian-centre-for-jewish-civilisation</link>
-      <description>Australian Centre for Jewish Civilisation; Salary:£62,649.80 to £74,397.37</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY630/lecturer-australian-centre-for-jewish-civilisation</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>London School of Economics and Political Science</dc:creator>
     </item>
     <item>
       <title>Research Assistant, Centre for Risk Studies (Part Time, Fixed Term)</title>
@@ -439,15 +430,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY555/research-assistant-centre-for-risk-studies-part-time-fixed-term</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer - AC2864</title>
-      <link>https://www.jobs.ac.uk/job/DQY935/lecturer-ac2864</link>
-      <description>School of International Relations; Salary:£47,389 to £58,226
-                                    per annum.</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY935/lecturer-ac2864</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>University of Cambridge</dc:creator>
     </item>
     <item>
       <title>Research Fellow</title>
@@ -457,6 +440,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY811/research-fellow</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
+      <dc:creator>University of Birmingham</dc:creator>
     </item>
     <item>
       <title>Marie Sklodowska-Curie Actions (MSCA) Postdoctoral Fellowships</title>
@@ -465,32 +449,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY816/marie-sklodowska-curie-actions-msca-postdoctoral-fellowships</guid>
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Teaching Assistant in Politics and International Relations</title>
-      <link>https://www.jobs.ac.uk/job/DQY998/teaching-assistant-in-politics-and-international-relations</link>
-      <description>Faculty of Arts, Humanities &amp; Social Sciences - Department of Politics &amp; Public Administration; Salary:£33,391.47
-                                    per annum (pro-rata)</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY998/teaching-assistant-in-politics-and-international-relations</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer in Environmental Politics</title>
-      <link>https://www.jobs.ac.uk/job/DQZ184/lecturer-in-environmental-politics</link>
-      <description>Politics, Languages &amp; International Studies; Salary:£47,389 to £56,535
-                                    Grade 8</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQZ184/lecturer-in-environmental-politics</guid>
-      <category>General</category>
-      <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer/Senior-Lecturer in Law and International Relations</title>
-      <link>https://www.jobs.ac.uk/job/DQY420/lecturer-senior-lecturer-in-law-and-international-relations</link>
-      <description>Anglia Ruskin University, London, School of Accounting, Business and Law; Salary:Competitive</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY420/lecturer-senior-lecturer-in-law-and-international-relations</guid>
-      <category>General</category>
-      <pubDate>Fri, 27 Mar 2026 07:07:31 +0000</pubDate>
+      <dc:creator>University of Hull</dc:creator>
     </item>
     <item>
       <title>Research Associate</title>
@@ -500,6 +459,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQY864/research-associate</guid>
       <category>General</category>
       <pubDate>Fri, 27 Mar 2026 07:07:31 +0000</pubDate>
+      <dc:creator>King's College London</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: Global Methane Politics</title>
@@ -509,6 +469,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQX454/phd-studentship-global-methane-politics</guid>
       <category>General</category>
       <pubDate>Fri, 27 Mar 2026 07:07:31 +0000</pubDate>
+      <dc:creator>University of Leeds</dc:creator>
     </item>
     <item>
       <title>Research Officers x4 (POPGOV, PI Bruno Leipold)</title>
@@ -518,23 +479,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQZ727/research-officers-x4-popgov-pi-bruno-leipold</guid>
       <category>General</category>
       <pubDate>Fri, 27 Mar 2026 07:07:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Research and Teaching Assistant in Economics</title>
-      <link>https://www.jobs.ac.uk/job/DRA100/research-and-teaching-assistant-in-economics</link>
-      <description>Imperial College London | Business School | London, Hybrid | Salary: Salary:£43,863 to £47,223
-                                    per annum | Closes: 2026-04-20</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRA100/research-and-teaching-assistant-in-economics</guid>
-      <category>General</category>
-      <pubDate>Fri, 27 Mar 2026 18:48:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer in the History of War and International Relations in the Modern Period (R&amp;T)</title>
-      <link>https://www.jobs.ac.uk/job/DRA732/lecturer-in-the-history-of-war-and-international-relations-in-the-modern-period-randt</link>
-      <description>University of Glasgow | College of Arts and Humanities - School of Humanities | Glasgow | Salary: Salary:Grade 7/8, £41,064 - £46,049 / £50,253 - £58,225 per annum | Closes: 2026-04-26</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRA732/lecturer-in-the-history-of-war-and-international-relations-in-the-modern-period-randt</guid>
-      <category>General</category>
-      <pubDate>Tue, 31 Mar 2026 07:09:24 +0000</pubDate>
+      <dc:creator>London School of Economics and Political Science</dc:creator>
     </item>
     <item>
       <title>Research Fellow</title>
@@ -544,6 +489,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRA885/research-fellow</guid>
       <category>General</category>
       <pubDate>Wed, 01 Apr 2026 07:15:09 +0000</pubDate>
+      <dc:creator>University of Southampton</dc:creator>
     </item>
     <item>
       <title>Research Officer in African Health Economics and Diagnostics, AHEaD Project</title>
@@ -553,6 +499,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRB021/research-officer-in-african-health-economics-and-diagnostics-ahead-project</guid>
       <category>General</category>
       <pubDate>Wed, 01 Apr 2026 07:15:09 +0000</pubDate>
+      <dc:creator>London School of Economics and Political Science</dc:creator>
     </item>
     <item>
       <title>Open Rank Research Fellow in European and American Studies</title>
@@ -561,14 +508,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRA015/open-rank-research-fellow-in-european-and-american-studies</guid>
       <category>General</category>
       <pubDate>Wed, 01 Apr 2026 07:15:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer in Public Policy</title>
-      <link>https://www.jobs.ac.uk/job/DQU972/lecturer-in-public-policy</link>
-      <description>UCL | London, Hybrid | Salary: Salary:Not Specified | Closes: 2026-04-21</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DQU972/lecturer-in-public-policy</guid>
-      <category>General</category>
-      <pubDate>Thu, 02 Apr 2026 07:08:12 +0000</pubDate>
+      <dc:creator>Institute of European and American Studies, Academia Sinica</dc:creator>
     </item>
     <item>
       <title>2x Resident Senior Policy Fellows, Bloomberg LSE European City Leadership Initiative</title>
@@ -578,6 +518,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRB340/2x-resident-senior-policy-fellows-bloomberg-lse-european-city-leadership-initiative</guid>
       <category>General</category>
       <pubDate>Thu, 02 Apr 2026 07:08:07 +0000</pubDate>
+      <dc:creator>London School of Economics and Political Science</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: Politics and Mythmaking: Disentangling Myth from Ideology</title>
@@ -586,15 +527,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRB421/phd-studentship-politics-and-mythmaking-disentangling-myth-from-ideology</guid>
       <category>General</category>
       <pubDate>Thu, 02 Apr 2026 07:08:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer in Politics &amp; Technology</title>
-      <link>https://www.jobs.ac.uk/job/DRB904/lecturer-in-politics-and-technology</link>
-      <description>King's College London | India Institute | London | Salary: Salary:£53,947 to £63,350
-                                    per annum including London Weighting Allowance | Closes: 2026-04-20</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRB904/lecturer-in-politics-and-technology</guid>
-      <category>General</category>
-      <pubDate>Fri, 03 Apr 2026 07:05:08 +0000</pubDate>
+      <dc:creator>Queen Mary University of London</dc:creator>
     </item>
     <item>
       <title>(Senior) Research Scholar</title>
@@ -603,6 +536,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRB992/senior-research-scholar</guid>
       <category>General</category>
       <pubDate>Fri, 03 Apr 2026 07:05:08 +0000</pubDate>
+      <dc:creator>Institute for Law &amp; AI</dc:creator>
     </item>
     <item>
       <title>Research Fellow</title>
@@ -612,6 +546,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRC586/research-fellow</guid>
       <category>General</category>
       <pubDate>Wed, 08 Apr 2026 07:11:12 +0000</pubDate>
+      <dc:creator>The Constitution Society</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: Enhancing Emergency Response Through Technology-Enabled Communication and Coordination During Major Incidents</title>
@@ -620,14 +555,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRC600/phd-studentship-enhancing-emergency-response-through-technology-enabled-communication-and-coordination-during-major-incidents</guid>
       <category>General</category>
       <pubDate>Wed, 08 Apr 2026 07:11:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Senior Lecturer/Lecturer (Teaching Track)</title>
-      <link>https://www.jobs.ac.uk/job/DRC656/senior-lecturer-lecturer-teaching-track</link>
-      <description>Nanyang Technological University | Nanyang Centre for Public Administration | Singapore | Salary: Salary:Not Specified | Closes: 2026-06-06</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRC656/senior-lecturer-lecturer-teaching-track</guid>
-      <category>General</category>
-      <pubDate>Wed, 08 Apr 2026 07:11:12 +0000</pubDate>
+      <dc:creator>University of Birmingham</dc:creator>
     </item>
     <item>
       <title>Departmental Lectureship in Politics</title>
@@ -637,15 +565,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRC673/departmental-lectureship-in-politics</guid>
       <category>General</category>
       <pubDate>Wed, 08 Apr 2026 07:11:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer - History and Politics</title>
-      <link>https://www.jobs.ac.uk/job/DRC698/lecturer-history-and-politics</link>
-      <description>HRUC | Uxbridge | Salary: Salary:£33,429 to £46,618
-                                    per annum including London Weighting | Closes: 2026-04-19</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRC698/lecturer-history-and-politics</guid>
-      <category>General</category>
-      <pubDate>Wed, 08 Apr 2026 07:11:12 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
     </item>
     <item>
       <title>Post-doctoral Research Fellow Level 1 or 2 - Temporary 4 years</title>
@@ -655,6 +575,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRB645/post-doctoral-research-fellow-level-1-or-2-temporary-4-years</guid>
       <category>General</category>
       <pubDate>Thu, 09 Apr 2026 07:18:08 +0000</pubDate>
+      <dc:creator>University College Dublin</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: King’s College London’s Leverhulme Centre for Research on Slavery in War (CRSW) AHRC Doctoral Studentships</title>
@@ -663,6 +584,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD006/phd-studentship-kings-college-londons-leverhulme-centre-for-research-on-slavery-in-war-crsw-ahrc-doctoral-studentships</guid>
       <category>General</category>
       <pubDate>Thu, 09 Apr 2026 07:18:08 +0000</pubDate>
+      <dc:creator>King's College London</dc:creator>
     </item>
     <item>
       <title>PhD Studentship: King’s College London’s Leverhulme Centre for Research on Slavery in War (CRSW) Doctoral Studentships</title>
@@ -671,6 +593,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD022/phd-studentship-kings-college-londons-leverhulme-centre-for-research-on-slavery-in-war-crsw-doctoral-studentships</guid>
       <category>General</category>
       <pubDate>Thu, 09 Apr 2026 07:18:08 +0000</pubDate>
+      <dc:creator>King's College London</dc:creator>
     </item>
     <item>
       <title>Research Assistant (WCPP)</title>
@@ -680,6 +603,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD120/research-assistant-wcpp</guid>
       <category>General</category>
       <pubDate>Thu, 09 Apr 2026 07:18:08 +0000</pubDate>
+      <dc:creator>Cardiff University</dc:creator>
     </item>
     <item>
       <title>Assistant Professor in Political Science</title>
@@ -689,6 +613,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD143/assistant-professor-in-political-science</guid>
       <category>General</category>
       <pubDate>Thu, 09 Apr 2026 07:18:08 +0000</pubDate>
+      <dc:creator>University of Nottingham</dc:creator>
     </item>
     <item>
       <title>2-year Postdoctoral Researcher in Public Administration</title>
@@ -697,14 +622,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD201/2-year-postdoctoral-researcher-in-public-administration</guid>
       <category>General</category>
       <pubDate>Thu, 09 Apr 2026 07:18:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lecturer</title>
-      <link>https://www.jobs.ac.uk/job/DRD194/lecturer</link>
-      <description>University of St Andrews | School of International Relations | St Andrews, Hybrid | Salary: Salary:£47,389 to £58,226 | Closes: 2026-04-30</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD194/lecturer</guid>
-      <category>General</category>
-      <pubDate>Thu, 09 Apr 2026 07:18:08 +0000</pubDate>
+      <dc:creator>University of Southern Denmark</dc:creator>
     </item>
     <item>
       <title>Teaching Fellow in Comparative Politics</title>
@@ -714,6 +632,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD453/teaching-fellow-in-comparative-politics</guid>
       <category>General</category>
       <pubDate>Fri, 10 Apr 2026 07:22:05 +0000</pubDate>
+      <dc:creator>Durham University</dc:creator>
     </item>
     <item>
       <title>Research Associate, El-Erian Institute of Behavioural Economics and Public Policy (Fixed Term)</title>
@@ -723,6 +642,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD525/research-associate-el-erian-institute-of-behavioural-economics-and-public-policy-fixed-term</guid>
       <category>General</category>
       <pubDate>Fri, 10 Apr 2026 07:22:05 +0000</pubDate>
+      <dc:creator>University of Cambridge</dc:creator>
     </item>
     <item>
       <title>Postdoctoral Fellow in Political Science</title>
@@ -731,6 +651,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD104/postdoctoral-fellow-in-political-science</guid>
       <category>General</category>
       <pubDate>Fri, 10 Apr 2026 09:59:29 +0000</pubDate>
+      <dc:creator>Max Planck Institute for Political and Social Science</dc:creator>
     </item>
     <item>
       <title>Assistant Programme Director</title>
@@ -739,6 +660,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD063/assistant-programme-director</guid>
       <category>General</category>
       <pubDate>Sat, 11 Apr 2026 15:39:23 +0000</pubDate>
+      <dc:creator>The Europaeum</dc:creator>
     </item>
     <item>
       <title>Vice-Chancellor’s Research and Impact Fellow</title>
@@ -747,6 +669,7 @@
       <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRD777/vice-chancellors-research-and-impact-fellow</guid>
       <category>General</category>
       <pubDate>Sat, 11 Apr 2026 15:39:23 +0000</pubDate>
+      <dc:creator>Victoria University in Melbourne</dc:creator>
     </item>
   </channel>
 </rss>
