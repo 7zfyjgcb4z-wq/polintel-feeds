@@ -99,8 +99,12 @@ class SelectorScraper:
             # Fall back to first link in card
             el = card.find("a", href=True)
         else:
-            base_sel = selector.split("[")[0].strip()
-            el = card.select_one(base_sel)
+            # Use the full selector for href extraction (supports attribute selectors like a[href*='/jobs/'])
+            el = card.select_one(selector)
+            if not el:
+                # Fallback: strip attribute portion and try simpler selector
+                base_sel = selector.split("[")[0].strip()
+                el = card.select_one(base_sel)
 
         if not el:
             return None

@@ -178,7 +178,7 @@ sources:
     category: "government"
     country: "uk"
     scraper: "generic"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enabled: false  # Redirects to Civil Service Jobs — already covered by dedicated scraper
 
   - name: "Crown Prosecution Service"
     url: "https://www.cps.gov.uk/careers"
@@ -239,20 +239,27 @@ sources:
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
   - name: "ICO"
-    url: "https://ico.org.uk/about-the-ico/jobs/"
+    url: "https://ico.wd3.myworkdayjobs.com/en-GB/ICO"
     category: "government"
     country: "uk"
-    scraper: "generic"
-    org_static: "ICO"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "ats_auto"
+    ats_type: "workday"
+    org_static: "Information Commissioner's Office"
+    enrich_description: true
+    enabled: false  # ATS extractor not yet implemented (workday)
 
   - name: "National Audit Office"
     url: "https://www.nao.org.uk/about-us/jobs/current-vacancies/"
     category: "government"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: "main li, .wp-block-list li"
+      title: "a"
+      link: "a"
     org_static: "National Audit Office"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: true
 
   - name: "NHS England"
     url: "https://www.england.nhs.uk/about/work-for-us/"
@@ -351,15 +358,27 @@ sources:
     url: "https://www.ippr.org/jobs"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: "div.opening, section.o-grid article"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    org_static: "Institute for Public Policy Research (IPPR)"
+    enrich_description: true
+    enabled: true  # Currently no vacancies; page works and will return jobs when hiring
 
   - name: "Policy Exchange"
     url: "https://policyexchange.org.uk/careers/"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: "article.elementor-post"
+      title: "h3.elementor-post__title a"
+      link: "h3.elementor-post__title a"
+    org_static: "Policy Exchange"
+    enrich_description: true
+    enabled: true
 
   - name: "IFS"
     url: "https://ifs.org.uk/vacancies"
@@ -423,9 +442,14 @@ sources:
     url: "https://cps.org.uk/about/vacancies/"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: ".member-detail p"
+      title: "a"
+      link: "a"
     org_static: "Centre for Policy Studies"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: false  # Job listings link to email (mailto:) not URLs — no scrapeable job listings
 
   - name: "TaxPayers' Alliance"
     url: "https://www.taxpayersalliance.com/careers"
@@ -442,12 +466,17 @@ sources:
     enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Onward"
-    url: "https://ukonward.com/work-with-us/"
+    url: "https://ukonward.com/job-opportunities/"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: "div.column-content--column"
+      title: "p"
+      link: "a.d-inline-block"
     org_static: "Onward"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: true
 
   - name: "Fabian Society"
     url: "https://fabians.org.uk/about-us/jobs/"
@@ -460,17 +489,27 @@ sources:
     url: "https://neweconomics.org/about/work-with-us"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
-    org_static: "NEF"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: "#single-post .bodytext h4"
+      title: "a"
+      link: "a"
+    org_static: "New Economics Foundation"
+    enrich_description: true
+    enabled: true
 
   - name: "Demos"
     url: "https://demos.co.uk/jobs/"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: ".content ul li"
+      title: "a"
+      link: "a"
     org_static: "Demos"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: true
 
   - name: "SMF"
     url: "https://www.smf.co.uk/about/work-for-us/"
@@ -592,17 +631,27 @@ sources:
     url: "https://www.hepi.ac.uk/about-us/vacancies/"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
-    org_static: "HEPI"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: "main li, .wp-block-list li, article li"
+      title: "a"
+      link: "a"
+    org_static: "Higher Education Policy Institute"
+    enrich_description: true
+    enabled: true  # Page says "no vacancies at this time" — will return 0 when empty, live when hiring
 
   - name: "Theos"
     url: "https://www.theosthinktank.co.uk/about/work-with-us"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
-    org_static: "Theos Think Tank"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: ".entry-content h2, .entry-content h3"
+      title: "a"
+      link: "a"
+    org_static: "Theos"
+    enrich_description: true
+    enabled: false  # 404 not found at /about/opportunities; /about/work-with-us also 404
 
   - name: "BFPG"
     url: "https://bfpg.co.uk/about/careers/"
@@ -666,41 +715,68 @@ sources:
     url: "https://www.libdems.org.uk/work-for-us"
     category: "political-parties"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: "article"
+      title: "h2 a"
+      link: "h2 a"
     org_static: "Liberal Democrats"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: true
 
   - name: "SNP"
     url: "https://www.snp.org/jobs/"
     category: "political-parties"
     country: "uk"
-    scraper: "generic"
-    org_static: "SNP"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: "main li, .job-listing, article"
+      title: "a"
+      link: "a"
+    org_static: "Scottish National Party"
+    enrich_description: true
+    enabled: true  # NationBuilder JS job board; returns 0 when no vacancies listed
 
   - name: "Plaid Cymru"
-    url: "https://www.plaidcymru.com/jobs"
+    url: "https://www.partyof.wales/jobs"
     category: "political-parties"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: "main li, .nb-content li, article"
+      title: "a"
+      link: "a"
     org_static: "Plaid Cymru"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: true  # NationBuilder CMS; no current vacancies but page accessible
 
   - name: "Green Party"
     url: "https://greenparty.org.uk/get-involved/work-for-us/"
     category: "political-parties"
     country: "uk"
-    scraper: "generic"
-    org_static: "Green Party"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: "div.job-card"
+      title: "h4"
+      link: "div.job-card-action a"
+      location: "div.job-card-meta span.meta-tag:not(.salary):not(.closing)"
+      closing_date: "div.job-card-meta span.meta-tag.closing"
+    org_static: "Green Party of England and Wales"
+    enrich_description: true
+    enabled: true
 
   - name: "Co-operative Party"
     url: "https://party.coop/jobs"
     category: "political-parties"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: ".fl-rich-text"
+      title: "h3"
+      link: "p > a[href*='party.coop/jobs/']"
     org_static: "Co-operative Party"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: true
 
   # ── Tier 2: Generic AI scrapers — uk-public-affairs ───────────────────────
 
@@ -731,7 +807,7 @@ sources:
     country: "uk"
     scraper: "generic"
     org_static: "APCO Worldwide"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enabled: false  # 404 — URL redirects to 404 page; no working careers URL found
 
   - name: "Burson"
     url: "https://www.bursonglobal.com/careers"
@@ -781,9 +857,13 @@ sources:
     url: "https://www.ellwoodatfield.com/active-jobs"
     category: "public-affairs"
     country: "uk"
-    scraper: "generic"
-    org_static: "Ellwood Atfield"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: "div.career19_item"
+      title: "div.text-size-large"
+      link: "a.button"
+    enrich_description: true
+    enabled: true
 
   # ── Tier 2: Generic AI scrapers — uk-ngos ─────────────────────────────────
 
@@ -798,17 +878,27 @@ sources:
     url: "https://www.amnesty.org.uk/about/who-we-are/work-with-us/vacancies/"
     category: "ngos"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: "#search-results li"
+      title: "a.link"
+      link: "a.link"
     org_static: "Amnesty International UK"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: true
 
   - name: "Oxfam GB"
-    url: "https://jobs.oxfam.org.uk/jobs/home/"
+    url: "https://jobs.oxfam.org.uk/jobs/vacancy/find/results/"
     category: "ngos"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: ".job-result, .job-listing, .vacancy-row, table.results tr, .results-item"
+      title: "a"
+      link: "a"
     org_static: "Oxfam GB"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: false  # eArcu ATS renders job listings via JavaScript — no scrapeable job list in static HTML
 
   - name: "Save the Children UK"
     url: "https://www.savethechildren.org.uk/about-us/jobs"
@@ -823,9 +913,14 @@ sources:
     url: "https://odi.org/en/fellowship-scheme/"
     category: "fellowships"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: ".entry-content h2, .entry-content h3"
+      title: "a"
+      link: "a"
     org_static: "ODI"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: false  # /en/fellowship/ is 404; /en/fellowship-scheme/ is informational, no job listings
 
   - name: "Chatham House Internships"
     url: "https://www.chathamhouse.org/academy/internships"
@@ -845,19 +940,31 @@ sources:
 
   - name: "TUC"
     url: "https://www.tuc.org.uk/jobs"
-    category: "trade-associations"
+    category: "ngos"
     country: "uk"
-    scraper: "generic"
-    org_static: "TUC"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    scraper: "selector"
+    selectors:
+      job_card: "div.listing-results__list__item"
+      title: ".listing-link__text__title span"
+      link: "a.listing-link"
+      location: ".listing-link__text__description span"
+      closing_date: ".listing-link__text__meta-line-one span"
+    org_static: "Trades Union Congress"
+    enrich_description: true
+    enabled: true
 
   - name: "IoD"
     url: "https://careers.iod.com"
     category: "trade-associations"
     country: "uk"
-    scraper: "generic"
+    scraper: "selector"
+    selectors:
+      job_card: "article.ed-collection-item"
+      title: "h2 a"
+      link: "h2 a"
     org_static: "Institute of Directors"
-    enabled: false  # Deprecated generic scraper — needs selector conversion
+    enrich_description: true
+    enabled: false  # JS-rendered via hirefulcms.com API (authenticated) — job links are placeholder /job templates
 
   - name: "FSB"
     url: "https://www.fsb.org.uk/about-us/careers.html"
