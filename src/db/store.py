@@ -96,7 +96,7 @@ class JobStore:
                     job.title,
                     job.url,
                     job.organisation,
-                    job.description[:500] if job.description else None,
+                    job.description[:5000] if job.description else None,
                     job.source_name,
                     job.country,
                     job.category,
