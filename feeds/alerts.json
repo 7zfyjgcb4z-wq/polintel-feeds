@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-04-11T21:07:31Z",
+  "generated_at": "2026-04-12T07:27:16Z",
   "alerts": [],
   "_tracking": {
     "consecutive_failures": {
+      "Civil Service Jobs": 0,
+      "NICS": 0,
+      "LGA Jobs": 0,
+      "CharityJob": 0,
+      "jobs.ac.uk": 0,
+      "National Audit Office": 0,
+      "IPPR": 0,
+      "Policy Exchange": 0,
+      "Onward": 0,
+      "NEF": 0,
+      "Demos": 0,
+      "Liberal Democrats": 0,
+      "SNP": 0,
+      "Green Party": 0,
+      "Co-operative Party": 0,
+      "Ellwood Atfield": 0,
+      "Amnesty International UK": 0,
+      "TUC": 0,
+      "W4MP": 0,
       "UN Job Feed": 0
     }
   }
