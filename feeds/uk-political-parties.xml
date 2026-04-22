@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 07:47:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 07:45:25 +0000</lastBuildDate>
     <item>
       <title>Regional Organiser: South East, East of England &amp; London (PT)</title>
       <link>https://party.coop/jobs/roseel</link>
@@ -133,6 +133,15 @@
       <category>Political Parties</category>
       <pubDate>Tue, 21 Apr 2026 07:42:20 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
+    </item>
+    <item>
+      <title>Senior Digital Officer (Software Development)</title>
+      <link>https://greenparty.org.uk/get-involved/work-for-us/senior-digital-officer-software-developer/</link>
+      <description>To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behaviour or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions. The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</description>
+      <guid isPermaLink="false">https://greenparty.org.uk/get-involved/work-for-us/senior-digital-officer-software-developer/</guid>
+      <category>Political Parties</category>
+      <pubDate>Wed, 22 Apr 2026 07:41:14 +0000</pubDate>
+      <dc:creator>Green Party of England and Wales</dc:creator>
     </item>
   </channel>
 </rss>
