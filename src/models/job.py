@@ -17,6 +17,7 @@ class Job:
     closing_date: str | None = None       # ISO date if known
     date_scraped: str = field(default_factory=lambda: datetime.utcnow().isoformat())
     language: str = "en"
+    partisan_lean: str | None = None  # US-only: left, centre-left, centre, centre-right, right, nonpartisan, unknown
 
     @property
     def guid(self) -> str:

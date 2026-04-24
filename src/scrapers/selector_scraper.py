@@ -42,6 +42,7 @@ class SelectorScraper:
         category = source_config.get("category", "general")
         country = source_config.get("country", "uk")
         source_name = source_config.get("name", "")
+        partisan_lean = source_config.get("partisan_lean")
 
         card_sel = selectors.get("job_card")
         if not card_sel:
@@ -78,6 +79,7 @@ class SelectorScraper:
                 country=country,
                 location=location,
                 closing_date=closing_date,
+                partisan_lean=partisan_lean,
             ))
 
         return jobs

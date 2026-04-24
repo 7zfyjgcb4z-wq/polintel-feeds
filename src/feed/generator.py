@@ -13,6 +13,14 @@ from src.models.job import Job
 
 log = logging.getLogger(__name__)
 
+POLINTEL_NS = "https://pol-intel.com/rss-ext/1.0"
+
+# Register RSS-related namespaces so ET preserves prefixes when re-serialising
+# a feedgen-generated file (otherwise ET emits ns0:, ns1: etc.)
+ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
+ET.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
+ET.register_namespace("polintel", POLINTEL_NS)
+
 CATEGORY_LABELS = {
     "government": "Government",
     "think-tanks": "Think Tanks",
@@ -26,6 +34,14 @@ CATEGORY_LABELS = {
     "eu-institutions": "EU Institutions",
     "eu-affairs": "EU Affairs",
     "international-orgs": "International Organisations",
+    # US categories
+    "us-federal": "US Federal Government",
+    "us-congress": "US Congress",
+    "us-think-tanks": "US Think Tanks",
+    "us-government-affairs": "US Government Affairs",
+    "us-ngos": "US NGOs & Advocacy",
+    "us-fellowships": "US Fellowships",
+    "us-campaigns": "US Campaigns & Parties",
 }
 
 FEED_META: dict[str, dict[str, str]] = {
@@ -47,6 +63,15 @@ FEED_META: dict[str, dict[str, str]] = {
         "fellowships": "EU Fellowships & Traineeships",
         "international-orgs": "International Organisation Jobs (Brussels/NATO)",
     },
+    "us": {
+        "us-federal": "US Federal Government Jobs",
+        "us-congress": "US Congress & Capitol Hill Jobs",
+        "us-think-tanks": "US Think Tank Jobs",
+        "us-government-affairs": "US Government Affairs & Lobbying Jobs",
+        "us-ngos": "US NGO & Advocacy Jobs",
+        "us-fellowships": "US Policy Fellowships",
+        "us-campaigns": "US Campaigns & Political Party Jobs",
+    },
 }
 
 # Which categories to generate per country
@@ -58,6 +83,10 @@ COUNTRY_CATEGORIES: dict[str, list[str]] = {
     "brussels": [
         "eu-institutions", "eu-affairs", "think-tanks", "ngos",
         "fellowships", "international-orgs",
+    ],
+    "us": [
+        "us-federal", "us-congress", "us-think-tanks", "us-government-affairs",
+        "us-ngos", "us-fellowships", "us-campaigns",
     ],
 }
 
@@ -87,6 +116,42 @@ def generate_feeds(
         log.info(f"Feed {country}-{category}.xml: {len(cat_jobs)} jobs")
 
     return counts
+
+
+def _inject_partisan_lean(out_path: str, jobs: list[Job]) -> None:
+    """Post-process an RSS file to add <polintel:partisanLean> to US job items.
+
+    Only modifies the file when at least one job in the feed has partisan_lean set.
+    UK and Brussels feeds are untouched (no jobs have the field populated).
+    Matches items by <guid> text, which is always job.url.
+    """
+    lean_by_url = {
+        job.url: job.partisan_lean
+        for job in jobs
+        if job.partisan_lean is not None
+    }
+    if not lean_by_url:
+        return
+
+    tree = ET.parse(out_path)
+    root = tree.getroot()
+    channel = root.find("channel")
+    if channel is None:
+        return
+
+    modified = False
+    for item in channel.findall("item"):
+        guid_el = item.find("guid")
+        if guid_el is None or not guid_el.text:
+            continue
+        lean = lean_by_url.get(guid_el.text.strip())
+        if lean:
+            el = ET.SubElement(item, f"{{{POLINTEL_NS}}}partisanLean")
+            el.text = lean
+            modified = True
+
+    if modified:
+        tree.write(out_path, encoding="UTF-8", xml_declaration=True)
 
 
 def _write_feed(
@@ -146,7 +211,10 @@ def _write_feed(
     out_path = os.path.join(output_dir, f"{country}-{category}.xml")
     fg.rss_file(out_path, pretty=True)
 
-    # Validate the written XML parses cleanly
+    # Inject <polintel:partisanLean> for US jobs (no-op for UK/Brussels)
+    _inject_partisan_lean(out_path, jobs)
+
+    # Validate the written XML parses cleanly (checks final output, post-injection)
     try:
         ET.parse(out_path)
     except ET.ParseError as exc:
@@ -283,6 +351,26 @@ def generate_alerts(
                 })
         else:
             tracking_out["consecutive_failures"][name] = 0  # reset on success
+
+        # ── Upstream staleness detection ───────────────────────────────────────
+        # Scrapers that consume third-party maintained upstream sources (e.g.
+        # dwillis/house-jobs) set upstream_stale: true in their per-source
+        # results when the upstream hasn't been updated within the expected cadence.
+        if entry.get("upstream_stale"):
+            last_update = entry.get("upstream_last_bulletin", "unknown")
+            days = entry.get("upstream_days_since_update")
+            days_str = f"{days} days" if days is not None else "unknown days"
+            alerts.append({
+                "source": name,
+                "type": "upstream_stale",
+                "upstream_last_bulletin": last_update,
+                "upstream_days_since_update": days,
+                "message": (
+                    f"{name} upstream data source has not been updated in {days_str} "
+                    f"(last bulletin: {last_update}). "
+                    "Verify dwillis/house-jobs is still being maintained."
+                ),
+            })
 
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
