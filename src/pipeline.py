@@ -27,6 +27,7 @@ EXCLUSIONS_PATH = CONFIG_DIR / "exclusions.yaml"
 COUNTRY_CONFIG = {
     "uk": CONFIG_DIR / "sources.yaml",
     "brussels": CONFIG_DIR / "sources-brussels.yaml",
+    "us": CONFIG_DIR / "sources-us.yaml",
 }
 
 
@@ -71,6 +72,25 @@ async def run_pipeline(
     output_dir: str = "feeds/",
     base_url: str = "",
 ) -> dict:
+    # "all" runs each country's pipeline sequentially and returns aggregated totals
+    if country == "all":
+        combined: dict = {"total": 0, "new": 0, "active": 0, "failed": []}
+        for c in ["uk", "brussels", "us"]:
+            result = await run_pipeline(
+                country=c,
+                sources=sources,
+                skip_ai=skip_ai,
+                dry_run=dry_run,
+                db_path=db_path,
+                output_dir=output_dir,
+                base_url=base_url,
+            )
+            combined["total"] += result["total"]
+            combined["new"] += result["new"]
+            combined["active"] += result["active"]
+            combined["failed"].extend(result["failed"])
+        return combined
+
     pipeline_start = time.monotonic()
 
     config_path = COUNTRY_CONFIG.get(country, CONFIG_PATH)
@@ -81,7 +101,7 @@ async def run_pipeline(
     disabled = [s for s in all_sources if not s.get("enabled", True)]
 
     active_sources = [s for s in all_sources if s.get("enabled", True)]
-    if country:
+    if country and country != "all":
         active_sources = [s for s in active_sources if s.get("country", "uk") == country]
     if sources:
         active_sources = [s for s in active_sources if s["name"] in sources]

@@ -111,3 +111,76 @@ categories:
       - oecd
       - international organisation
       - intergovernmental
+
+  # ── US categories ────────────────────────────────────────────────────────────
+
+  us-federal:
+    label: "US Federal Government"
+    feed: "us-us-federal"
+    keywords:
+      - federal agency
+      - usajobs
+      - executive branch
+      - department of state
+      - department of defense
+
+  us-congress:
+    label: "US Congress"
+    feed: "us-us-congress"
+    keywords:
+      - congress
+      - senate
+      - house of representatives
+      - committee staff
+      - capitol hill
+      - member office
+
+  us-think-tanks:
+    label: "US Think Tanks"
+    feed: "us-us-think-tanks"
+    keywords:
+      - think tank
+      - policy research
+      - brookings
+      - heritage foundation
+      - american enterprise institute
+      - council on foreign relations
+
+  us-government-affairs:
+    label: "US Government Affairs"
+    feed: "us-us-government-affairs"
+    keywords:
+      - lobbying
+      - government affairs
+      - government relations
+      - public affairs
+      - advocacy firm
+
+  us-ngos:
+    label: "US NGOs & Advocacy"
+    feed: "us-us-ngos"
+    keywords:
+      - nonprofit
+      - non-profit
+      - advocacy
+      - civil society
+      - ngo
+
+  us-fellowships:
+    label: "US Fellowships"
+    feed: "us-us-fellowships"
+    keywords:
+      - fellowship
+      - policy fellowship
+      - presidential management
+      - congressional fellowship
+
+  us-campaigns:
+    label: "US Campaigns & Parties"
+    feed: "us-us-campaigns"
+    keywords:
+      - political campaign
+      - political party
+      - democratic party
+      - republican party
+      - campaign staff

@@ -36,6 +36,7 @@ class RSSFeedScraper:
         category = source_config.get("category", "general")
         country = source_config.get("country", "uk")
         source_name = source_config.get("name", "")
+        partisan_lean = source_config.get("partisan_lean")
         org_desc_pattern: Optional[re.Pattern] = None
         if source_config.get("org_from_description_regex"):
             org_desc_pattern = re.compile(source_config["org_from_description_regex"])
@@ -112,6 +113,7 @@ class RSSFeedScraper:
                 category=category,
                 country=country,
                 location=location,
+                partisan_lean=partisan_lean,
             )
             # Tag thin descriptions for downstream enrichment
             j._needs_enrichment = needs_enrichment  # type: ignore[attr-defined]

@@ -1,0 +1,411 @@
+# Pol-Intel US Sources Configuration
+# scraper: "dedicated" = Tier 1 hand-written scraper
+#          "selector"  = Tier 2 CSS-selector scraper (zero-API)
+#          "rss_feed"  = Tier 2 RSS/Atom feed scraper (zero-API)
+#          "ats_auto"  = Tier 2 ATS auto-detection (greenhouse/lever/teamtailor/applied only)
+# Note: scraper: "generic" is deprecated in pipeline.py — not used here.
+# Note: uses "module" key (not "scraper_module") to match pipeline.py
+# partisan_lean values: left, centre-left, centre, centre-right, right, nonpartisan, unknown
+
+sources:
+
+  # ── Tier 1: Dedicated scrapers ─────────────────────────────────────────────
+
+  - name: "USAJobs"
+    url: "https://data.usajobs.gov/api/Search"
+    country: us
+    category: us-federal
+    scraper: dedicated
+    module: usajobs
+    schedule: "*/12"
+    language: en
+    partisan_lean: nonpartisan
+    enabled: true
+    notes: "Official federal government REST API. Free developer key from developer.usajobs.gov. Hybrid filter: query by series codes (0110, 0130, 0131, 0301, 0340, 0343, 1035), keyword post-filter, hard cap 500 per run. Requires env vars USAJOBS_USER_AGENT and USAJOBS_API_KEY."
+
+  - name: "Tom Manatos Jobs"
+    url: "https://www.tommanatosjobs.com"
+    country: us
+    category: us-congress
+    scraper: dedicated
+    module: tom_manatos
+    schedule: "daily"
+    language: en
+    partisan_lean: unknown
+    enabled: true
+    notes: "Leading Capitol Hill and DC political job board. WordPress-based. Returned 403 during URL verification (automated fetch blocked); dedicated scraper with browser-style headers should succeed. Employer name often in post title formatted as 'Employer - Role'."
+
+  - name: "Idealist"
+    url: "https://www.idealist.org/en/jobs?searchMode=ALL&q=&locationType=REMOTE,ONSITE,HYBRID&country=US&categories=POLICY_AND_ADVOCACY,GOVERNMENT_RELATIONS"
+    country: us
+    category: us-ngos
+    scraper: dedicated
+    module: idealist
+    schedule: "daily"
+    language: en
+    partisan_lean: nonpartisan
+    enabled: true
+    notes: "Major nonprofit and NGO aggregator. Confirmed live (200). JS-rendered listings — Playwright required. Filter by US location and policy/advocacy/government-relations categories at query time. Apply post-filter to exclude direct-service roles."
+
+  - name: "Political Job Hunt"
+    url: "https://www.politicaljobhunt.com"
+    country: us
+    category: us-campaigns
+    scraper: dedicated
+    module: political_job_hunt
+    schedule: "daily"
+    language: en
+    partisan_lean: unknown
+    enrich_description: false
+    enabled: true
+    notes: "Political Wire's job board (Jobboardly SPA platform). Job listings are JS-rendered — scraper uses XML sitemap to discover all active URLs and derives titles from slugs. Description enrichment disabled: individual job pages are also JS-rendered so readability extraction returns no useful content."
+
+  - name: "LobbyingJobs.com"
+    url: "https://lobbyingjobs.com"
+    country: us
+    category: us-government-affairs
+    scraper: dedicated
+    module: lobbyingjobs
+    schedule: "daily"
+    language: en
+    partisan_lean: unknown
+    enabled: true
+    notes: "Dedicated board for lobbying, government relations, advocacy, public policy. Confirmed live (200) with active listings."
+
+  # ── Tier 2: Selector scrapers — iCIMS portals ────────────────────────────
+  # iCIMS is not detected by ats_detector.py; direct subdomain URLs return plain
+  # HTML when queried with ?searchResults=true&ss=1&in_iframe=1. Selector: a.iCIMS_Anchor.
+
+  - name: "Brookings Institution Careers"
+    url: "https://careers-brookings.icims.com/jobs/search?searchResults=true&ss=1&in_iframe=1"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.iCIMS_JobCardItem"
+      title: ".title h3"
+      link: "a.iCIMS_Anchor"
+    org_static: "Brookings Institution"
+    enrich_description: true
+    partisan_lean: centre-left
+    enabled: true
+    notes: "iCIMS portal. Confirmed 9 live jobs. Main careers page brookings.edu/careers redirects here. Direct search URL returns plain HTML without authentication."
+
+  - name: "Council on Foreign Relations Careers"
+    url: "https://careers-cfr.icims.com/jobs/search?searchResults=true&ss=1&in_iframe=1"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.iCIMS_JobCardItem"
+      title: ".title h3"
+      link: "a.iCIMS_Anchor"
+    org_static: "Council on Foreign Relations"
+    enrich_description: true
+    partisan_lean: nonpartisan
+    enabled: true
+    notes: "iCIMS portal. Confirmed 23 live jobs. cfr.icims.com redirects to OAuth login wall; use careers-cfr.icims.com subdomain directly."
+
+  - name: "American Enterprise Institute Careers"
+    url: "https://careers-aei.icims.com/jobs/search?searchResults=true&ss=1&in_iframe=1"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.iCIMS_JobCardItem"
+      title: ".title h3"
+      link: "a.iCIMS_Anchor"
+    org_static: "American Enterprise Institute"
+    enrich_description: true
+    partisan_lean: right
+    enabled: true
+    notes: "iCIMS portal. Confirmed 16 live jobs. aei.org/jobs and aei.org/about/careers both redirect here. Direct search URL returns plain HTML."
+
+  # ── Tier 2: Selector scrapers — other HTML boards ─────────────────────────
+
+  - name: "Heritage Foundation Careers"
+    url: "https://heritage.applytojob.com/apply"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.list-group-item"
+      title: "h3.list-group-item-heading a"
+      link: "h3.list-group-item-heading a"
+    org_static: "Heritage Foundation"
+    enrich_description: true
+    partisan_lean: right
+    enabled: true
+    notes: "JazzHR (resumator) board at heritage.applytojob.com. Confirmed live with 13 active jobs. heritage.org domain 403-blocks all scrapers; use the direct JazzHR URL. ats_auto detects JazzHR but no extractor exists — use selector instead. Card: li.list-group-item; title: h3.list-group-item-heading a."
+
+  - name: "Carnegie Endowment for International Peace Careers"
+    url: "https://carnegieendowment.applicantpro.com/jobs/"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.list-group-item"
+      title: "h3.list-group-item-heading a"
+      link: "h3.list-group-item-heading a"
+    org_static: "Carnegie Endowment for International Peace"
+    enrich_description: true
+    partisan_lean: nonpartisan
+    enabled: true
+    notes: "isolved Talent Acquisition ATS. Uses same list-group-item structure as JazzHR boards. carnegieendowment.org/about/careers returns 404 — the direct ATS URL is more reliable. No jobs showing during selector verification (temporarily vacant), selectors confirmed against isolved HTML structure."
+
+  - name: "Hoover Institution Careers"
+    url: "https://careersearch.stanford.edu/page/hoover-institution-27"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "div.job_list_row"
+      title: "a.job_link"
+      link: "a.job_link"
+    org_static: "Hoover Institution"
+    enrich_description: true
+    partisan_lean: right
+    enabled: true
+    notes: "Hoover posts jobs through Stanford University's centralised careers portal (Taleo-backed careersearch.stanford.edu). Confirmed 5 live Hoover-specific jobs. Page ID 27 is stable. NOTE: macOS LibreSSL 2.8.3 causes TLSV1_ALERT_PROTOCOL_VERSION — works fine on Ubuntu/GitHub Actions with OpenSSL."
+
+  - name: "Wilson Center Careers"
+    url: "https://www.wilsoncenter.org/job-openings-the-wilson-center"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "article, .views-row, li.view-row"
+      title: "h2 a, h3 a, .views-field-title a"
+      link: "h2 a, h3 a, .views-field-title a"
+    org_static: "Wilson Center"
+    enrich_description: true
+    partisan_lean: nonpartisan
+    enabled: true
+    notes: "Static HTML listing page. Currently shows 'no open positions' — federal/civil service roles are routed to USAJobs externally. Keep enabled: page is structurally scrapable and will return jobs when hiring opens. wilsoncenter.org/about/careers redirects here."
+
+  - name: "New America Careers"
+    url: "https://newamerica.applytojob.com/apply"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.list-group-item"
+      title: "h3.list-group-item-heading a"
+      link: "h3.list-group-item-heading a"
+    org_static: "New America"
+    enrich_description: true
+    partisan_lean: centre-left
+    enabled: true
+    notes: "JazzHR (resumator) board. Confirmed live with 2 active jobs. newamerica.org/about/careers is a static landing page only — the JazzHR subdomain is the correct target. ats_auto detects JazzHR (applytojob.com) but no extractor exists; use selector. Same platform as Heritage Foundation."
+
+  - name: "Third Way Careers"
+    url: "https://thirdway.recruitee.com/"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "div.sc-6exb5d-0"
+      title: "div.sc-6exb5d-3 a"
+      link: "div.sc-6exb5d-3 a"
+    org_static: "Third Way"
+    enrich_description: true
+    partisan_lean: centre-left
+    enabled: true
+    notes: "Recruitee ATS (SSR with CSS-in-JS). Confirmed live with 8 active jobs. thirdway.org/jobs links here. ats_auto detects Recruitee but no extractor exists; use selector. Atom feed at /o.atom returns 302. sc-6exb5d-* classes are styled-component hashes — stable within a deploy but may change after Recruitee platform updates."
+
+  - name: "Public Affairs Council Jobs"
+    url: "https://pac.org/jobs"
+    country: us
+    category: us-government-affairs
+    scraper: selector
+    selectors:
+      job_card: "div.job-container"
+      title: "a.job-title"
+      link: "a.job-title"
+      organisation: "div.job-column-1"
+      location: "div.job-column-2"
+    enrich_description: true
+    partisan_lean: nonpartisan
+    enabled: true
+    notes: "Custom WordPress job board aggregating third-party postings. Confirmed live with active April 2026 listings. /jobs/feed/ is a WordPress comments feed (empty) — no usable RSS. Listings expire automatically after 30 days. Org extracted per-listing from div.job-column-1 (not org_static — this is a multi-employer board)."
+
+  # ── Tier 2: RSS feed scrapers ─────────────────────────────────────────────
+
+  - name: "Foundation List"
+    url: "https://www.foundationlist.org/wpjobboard/xml/rss/?filter=active&hide_filled[0]=1&sort_order=t1.job_created_at+DESC"
+    country: us
+    category: us-ngos
+    scraper: rss_feed
+    field_map:
+      title: title
+      description: description
+    partisan_lean: nonpartisan
+    enabled: true
+    notes: "Active nonprofit job board aggregator. Confirmed RSS feed. Original RSS URL from verification included is_featured=1 which limits to featured jobs only — removed that filter to capture all active listings. Confirmed 100+ positions with April 2026 dates."
+
+  # ── Tier 2: Disabled — technical blockers ────────────────────────────────
+
+  - name: "Center for American Progress Careers"
+    url: "https://www.americanprogress.org/about-us/jobs/"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "article, .job"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    org_static: "Center for American Progress"
+    enrich_description: true
+    partisan_lean: left
+    enabled: false
+    notes: "403 — blanket bot-blocking across entire americanprogress.org domain. ~13 live jobs confirmed via Google index but inaccessible to scrapers. No external ATS endpoint identified. Would require Playwright with residential proxy. Re-enable if ATS URL is discovered."
+
+  - name: "Urban Institute Careers"
+    url: "https://urban.wd1.myworkdayjobs.com/Urban-Careers"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.css-1q2dra3"
+      title: "a"
+      link: "a"
+    org_static: "Urban Institute"
+    enrich_description: false
+    partisan_lean: centre-left
+    enabled: false
+    notes: "Workday ATS at urban.wd1.myworkdayjobs.com. urban.org domain 403-blocks all scrapers. Workday is JS-rendered — ats_auto detects it but the pipeline stub returns []. Re-enable if Workday extractor is added to the pipeline."
+
+  - name: "RAND Corporation Careers"
+    url: "https://rand.wd5.myworkdayjobs.com/External_Career_Site"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.css-1q2dra3"
+      title: "a"
+      link: "a"
+    org_static: "RAND Corporation"
+    enrich_description: false
+    partisan_lean: nonpartisan
+    enabled: false
+    notes: "Workday ATS at rand.wd5.myworkdayjobs.com (also aliased as jobs.rand.org). rand.org domain 403-blocks scraper requests. Workday is JS-rendered — pipeline stub returns []. No RSS feed found. Re-enable if Workday extractor is added to the pipeline."
+
+  - name: "Cato Institute Careers"
+    url: "https://www.cato.org/about/open-positions"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "article, .job, li"
+      title: "a"
+      link: "a"
+    org_static: "Cato Institute"
+    enrich_description: true
+    partisan_lean: right
+    enabled: false
+    notes: "JS-rendered — job listings do not appear in static HTML fetch. No external ATS links detected in page source. Likely a JS widget loading jobs dynamically. Would require Playwright. Re-enable if a static HTML endpoint or ATS URL is found."
+
+  - name: "Bipartisan Policy Center Careers"
+    url: "https://bipartisanpolicy.org/about-us/careers/"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "article, .job"
+      title: "a"
+      link: "a"
+    org_static: "Bipartisan Policy Center"
+    enrich_description: true
+    partisan_lean: centre
+    enabled: false
+    notes: "JS-rendered or no current listings — no job items found in static HTML on any careers-related path. No ATS detected. Re-enable if a static HTML endpoint or ATS URL is found."
+
+  - name: "Truman National Security Project"
+    url: "https://trumanproject.org/about/careers"
+    country: us
+    category: us-fellowships
+    scraper: selector
+    selectors:
+      job_card: "tr, .job"
+      title: "a"
+      link: "a"
+    org_static: "Truman National Security Project"
+    enrich_description: true
+    partisan_lean: centre-left
+    enabled: false
+    notes: "Paylocity ATS at recruiting.paylocity.com/recruiting/jobs/All/b0bc350d-e06f-4160-825e-8da411dc1c06/Truman-Center-for-National-Policy. Paylocity is JS-rendered and not in the pipeline's supported ATS list. Re-enable if Paylocity support is added."
+
+  - name: "DemocraticGAIN / GainPower Career Center"
+    url: "https://careercenter.gainpower.org"
+    country: us
+    category: us-campaigns
+    scraper: selector
+    selectors:
+      job_card: "article, .job-listing"
+      title: "a"
+      link: "a"
+    org_static: "GainPower"
+    enrich_description: true
+    partisan_lean: left
+    enabled: false
+    notes: "403 — careercenter.gainpower.org actively blocks automated requests on all paths. democraticgain.org permanently redirects (301) to gainpower.org. Re-enable if a public feed or unblocked URL is found."
+
+  - name: "PPIA Fellowship"
+    url: "https://www.ppiaprogram.org"
+    country: us
+    category: us-fellowships
+    scraper: selector
+    selectors:
+      job_card: "article"
+      title: "a"
+      link: "a"
+    org_static: "PPIA"
+    enrich_description: false
+    partisan_lean: nonpartisan
+    enabled: false
+    notes: "Not a job board — PPIA is an educational/fellowship program site. No individual job listings present. Remove from sources or replace with a direct application URL if one becomes available."
+
+  - name: "Rangel Fellowship"
+    url: "https://rangelprogram.org"
+    country: us
+    category: us-fellowships
+    scraper: selector
+    selectors:
+      job_card: "article"
+      title: "a"
+      link: "a"
+    org_static: "Rangel Program"
+    enrich_description: false
+    partisan_lean: nonpartisan
+    enabled: false
+    notes: "Not a job board — Rangel is a State Dept. graduate fellowship/program site. No individual job listings present; 2026 cycle noted as postponed. Remove from sources."
+
+  - name: "Economic Policy Institute Careers"
+    url: "https://www.epi.org/about/jobs/"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "article, .job"
+      title: "a"
+      link: "a"
+    org_static: "Economic Policy Institute"
+    enrich_description: true
+    partisan_lean: left
+    enabled: false
+    notes: "403 — entire epi.org domain returns 403 for all automated requests. ATS platform unknown. Re-enable if an external ATS subdomain is identified."
+
+  - name: "Center on Budget and Policy Priorities Careers"
+    url: "https://www.cbpp.org/about/jobs"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "article, .job"
+      title: "a"
+      link: "a"
+    org_static: "Center on Budget and Policy Priorities"
+    enrich_description: true
+    partisan_lean: left
+    enabled: false
+    notes: "403 — entire cbpp.org domain returns 403 for all automated requests. ATS platform unknown. Re-enable if an external ATS subdomain is identified."

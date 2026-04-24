@@ -25,7 +25,8 @@ CREATE TABLE IF NOT EXISTS jobs (
     date_first_seen TEXT NOT NULL,
     date_last_seen TEXT NOT NULL,
     language TEXT DEFAULT 'en',
-    is_active INTEGER DEFAULT 1
+    is_active INTEGER DEFAULT 1,
+    partisan_lean TEXT
 );
 
 CREATE INDEX IF NOT EXISTS idx_country_category ON jobs(country, category);
@@ -47,10 +48,21 @@ class JobStore:
         self._conn = sqlite3.connect(db_path)
         self._conn.row_factory = sqlite3.Row
         self._conn.executescript(SCHEMA)
+        self._migrate()
         self._conn.commit()
 
     def close(self) -> None:
         self._conn.close()
+
+    def _migrate(self) -> None:
+        """Apply incremental schema migrations for columns added after initial deploy."""
+        columns = {
+            row[1]
+            for row in self._conn.execute("PRAGMA table_info(jobs)").fetchall()
+        }
+        if "partisan_lean" not in columns:
+            self._conn.execute("ALTER TABLE jobs ADD COLUMN partisan_lean TEXT")
+            log.info("DB migration: added partisan_lean column to jobs table")
 
     def upsert_jobs(self, jobs: list[Job]) -> int:
         """Insert or update jobs. Returns count of genuinely new jobs."""
@@ -89,8 +101,9 @@ class JobStore:
                 """INSERT INTO jobs
                    (guid, title, url, organisation, description, source_name,
                     country, category, location, closing_date, date_scraped,
-                    date_first_seen, date_last_seen, language, is_active)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1)""",
+                    date_first_seen, date_last_seen, language, is_active,
+                    partisan_lean)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?)""",
                 (
                     job.guid,
                     job.title,
@@ -106,6 +119,7 @@ class JobStore:
                     now,
                     now,
                     job.language,
+                    getattr(job, "partisan_lean", None),
                 ),
             )
             new_count += 1
@@ -151,11 +165,16 @@ class JobStore:
         return cur.rowcount
 
     def get_active_jobs(self, country: str = "uk") -> list[Job]:
-        rows = self._conn.execute(
-            """SELECT * FROM jobs WHERE is_active = 1 AND country = ?
-               ORDER BY date_first_seen DESC""",
-            (country,),
-        ).fetchall()
+        if country == "all":
+            rows = self._conn.execute(
+                "SELECT * FROM jobs WHERE is_active = 1 ORDER BY date_first_seen DESC"
+            ).fetchall()
+        else:
+            rows = self._conn.execute(
+                """SELECT * FROM jobs WHERE is_active = 1 AND country = ?
+                   ORDER BY date_first_seen DESC""",
+                (country,),
+            ).fetchall()
         return [self._row_to_job(r) for r in rows]
 
     def get_page_hash(self, source_name: str) -> str | None:
@@ -192,6 +211,7 @@ class JobStore:
             closing_date=row["closing_date"],
             date_scraped=row["date_scraped"],
             language=row["language"] or "en",
+            partisan_lean=row["partisan_lean"],
         )
 
     def stats(self) -> dict:

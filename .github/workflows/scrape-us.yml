@@ -1,0 +1,45 @@
+name: Scrape US
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-us
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+      - name: Install Playwright if needed
+        run: |
+          if grep -q "requires_js: true" src/config/sources-us.yaml 2>/dev/null; then
+            playwright install chromium
+          else
+            echo "No JS sources, skipping Playwright"
+          fi
+      - name: Run US scrapers
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_USER_AGENT: ${{ secrets.USAJOBS_USER_AGENT }}
+        run: python -m src.cli run --country us
+        timeout-minutes: 25
+      - name: Commit results
+        run: |
+          git config user.name "Pol-Intel Bot"
+          git config user.email "bot@orison.co"
+          git add data/jobs.db feeds/
+          git diff --staged --quiet || git commit -m "Update US feeds [skip ci]"
+          git push
