@@ -11,6 +11,24 @@ sources:
 
   # ── Tier 1: Dedicated scrapers ─────────────────────────────────────────────
 
+  - name: "USAJobs Fellowships"
+    url: "https://data.usajobs.gov/api/Search"
+    country: us
+    category: us-fellowships
+    scraper: dedicated
+    module: usajobs
+    language: en
+    partisan_lean: nonpartisan
+    enabled: true
+    keyword_queries:
+      - "presidential management fellow"
+      - "policy fellowship"
+      - "congressional fellowship"
+      - "government fellowship"
+      - "pathways intern"
+    total_cap: 200
+    notes: "Uses USAJobs Keyword API parameter (not JobCategoryCode) to find fellowship programs: PMF, policy fellowships, congressional fellowships, Pathways internships. Keyword mode bypasses the standard relevance post-filter since the query term is itself the signal. Runs before the main USAJobs source so that fellowship jobs are categorised us-fellowships if the same job_id appears in both queries. Requires USAJOBS_API_KEY and USAJOBS_USER_AGENT."
+
   - name: "USAJobs"
     url: "https://data.usajobs.gov/api/Search"
     country: us
