@@ -1,9 +1,24 @@
 {
-  "generated_at": "2026-04-11T21:07:31Z",
+  "generated_at": "2026-04-24T14:14:35Z",
   "alerts": [],
   "_tracking": {
     "consecutive_failures": {
-      "UN Job Feed": 0
+      "USAJobs": 0,
+      "Tom Manatos Jobs": 0,
+      "Idealist": 0,
+      "Political Job Hunt": 0,
+      "LobbyingJobs.com": 0,
+      "Brookings Institution Careers": 0,
+      "Council on Foreign Relations Careers": 0,
+      "American Enterprise Institute Careers": 0,
+      "Heritage Foundation Careers": 0,
+      "Carnegie Endowment for International Peace Careers": 0,
+      "Hoover Institution Careers": 0,
+      "Wilson Center Careers": 0,
+      "New America Careers": 0,
+      "Third Way Careers": 0,
+      "Public Affairs Council Jobs": 0,
+      "Foundation List": 0
     }
   }
 }
