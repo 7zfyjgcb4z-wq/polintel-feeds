@@ -1,13 +1,1300 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>US Policy Fellowships</title>
     <link>/us-us-fellowships.xml</link>
     <description>Job listings for US Fellowships roles, scraped by Pol-Intel.</description>
-    <atom:link href="/us-us-fellowships.xml" rel="self"/>
+    <atom:link href="/us-us-fellowships.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 13:58:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 15:13:24 +0000</lastBuildDate>
+    <item>
+      <title>Green &amp; Gold Congressional Aide</title>
+      <link>https://www.usajobs.gov:443/job/853571400</link>
+      <description>This position is limited to Veterans, Gold Star family members and Active-duty spouses desiring to serve a two-year paid Congressional Fellowship as part of the House of Representatives. Selected Fellows will work directly for a Member of Congress or other House officer as part of an office team. | Salary: $56,000–$68,000 PA | Grade: HS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/853571400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:02 +0000</pubDate>
+      <dc:creator>House of Representatives</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Biomedical Engineer (Process Engineer)</title>
+      <link>https://www.usajobs.gov:443/job/866007500</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $56,715–$130,786 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866007500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Licensed Professional Mental Health Counselor (Program Coordinator) - Suicide Prevention</title>
+      <link>https://www.usajobs.gov:443/job/865985700</link>
+      <description>The Fargo VA Health Care System is recruiting for 1 full-time Program Coordinator for the Suicide Prevention program. This position will be filled by a Social Worker (Program Coordinator) or a Licensed Professional Mental Health Counselor (Program Coordinator). | Salary: $89,508–$116,362 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865985700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Biomedical Engineer</title>
+      <link>https://www.usajobs.gov:443/job/865899000</link>
+      <description>As a Biomedical Engineer (BME) for the Lt. Col. Luke Weathers, Jr. VA Medical Center, Memphis, TN, the incumbent provides professional engineering support to a complex, highly technical, and service-oriented Healthcare Technology Management Section within Engineering Service. The Biomedical Engineer | Salary: $61,012–$140,696 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865899000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Psychology Program Manager-BHIP</title>
+      <link>https://www.usajobs.gov:443/job/865552000</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific individual eligibility requirements in accordance with VHA policy and submit your EDRP application within four months of appointment. Program Approval, awar | Salary: $145,643–$189,342 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865552000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Psychologist (Primary Care Mental Health) - EDRP Authorized</title>
+      <link>https://www.usajobs.gov:443/job/863765700</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific individual eligibility requirements in accordance with VHA policy and submit your EDRP application within four months of appointment. Program Approval, awar | Salary: $94,397–$174,906 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/863765700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Geriatrics Transitional Care Program Medical Director</title>
+      <link>https://www.usajobs.gov:443/job/854735700</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $256,000–$335,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/854735700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
+      <link>https://www.usajobs.gov:443/job/856552700</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $350,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/856552700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Neurologist</title>
+      <link>https://www.usajobs.gov:443/job/856363500</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $200,000–$264,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/856363500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician-Pulmonary Section Chief-Relocation Incentive-EDRP Authorized</title>
+      <link>https://www.usajobs.gov:443/job/847598300</link>
+      <description>The Medicine Service Mission is to lead satisfied staff dedicated to providing high quality patient centered care here at STVHCS, a great tertiary training and research Veteran's Hospital. The Pulmonary Section Chief is a management position that supports this mission through administrative leadersh | Salary: $315,000–$351,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847598300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physical Therapist</title>
+      <link>https://www.usajobs.gov:443/job/858466000</link>
+      <description>The Primary Purpose of the Position is: The Physical Therapist in this position provides serves as the Clinical Coordinator and a Team Leader within the Anesthesia and Pain Management Service, Chronic Pain Rehabilitation Program (CPRP). The Organizational Location of the Position is: VA North Texas  | Salary: $115,711–$150,426 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/858466000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Anesthesiology)</title>
+      <link>https://www.usajobs.gov:443/job/858437100</link>
+      <description>The Miami VA Healthcare System's and the Anesthesiology Service is seeking an experienced and dynamic Physician (Anesthesiology). Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academic hospital program. Y | Salary: $124,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/858437100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Anesthesiologist</title>
+      <link>https://www.usajobs.gov:443/job/864345100</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $350,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864345100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Endocrinology) - EDRP Approved</title>
+      <link>https://www.usajobs.gov:443/job/860284900</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $124,308–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860284900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician-Hematology/Oncology</title>
+      <link>https://www.usajobs.gov:443/job/860267100</link>
+      <description>RECRUITMENT INCENTIVE: May be authorized for highly qualified applicants and may recur up to 4 years. This is an open continuous announcement. Applicants will be accepted on an ongoing basis. Qualified candidates will be considered as vacancies become available. Applications will remain on file unti | Salary: $300,000–$380,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860267100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Pain Management</title>
+      <link>https://www.usajobs.gov:443/job/852031300</link>
+      <description>This position is eligible for Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000) &amp; el | Salary: $300,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/852031300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Acute)</title>
+      <link>https://www.usajobs.gov:443/job/866599400</link>
+      <description>Clarification from the agency All qualified candidates encouraged to apply. Open to U.S. Citizens but non-citizens may be appointed when it is not possible to recruit qualified citizens. NOTE: The 2-page Resume requirement does not apply to this position. For more information, refer to Required Documents below. VA offers a comprehensive total rewards package. VHA Physician Total Rewards . Pay: Competitive salary, annual performance bonus, regular salary increases Paid Time Off: 50-55 days of paid time off per year (26 days of annual leave, 13 days of sick leave, 11 paid Federal holidays per year and possible 5 day paid absence for CME) Retirement: Traditional federal pension (5 years vesting) and federal 401K with up to 5% in contributions by VA Insurance: Federal health/vision/dental/term life/long-term care (many federal insurance programs can be carried into retirement) Licensure: 1 full and unrestricted license from any US State or territory CME: Possible $1,000 per year reimbursement (must be full-time with board certification) Malpractice: Free liability protection with tail coverage provided Contract: No Physician Employment Contract and no significant restriction on moonlighting Hospitalist Physician - VA Northeast Ohio Healthcare System: The Medicine Service/Acute Medicine Section at the VA Northeast Ohio Healthcare System is seeking full-time staff hospitalist physician at our thriving tertiary care academic medical center. The selected candidate will join an interdisciplinary team dedicated to delivering high-quality, patient-centered care to our nation's Veterans. Clinical responsibilities span multiple care settings, including inpatient medical wards and the Community Living Center Post-Acute Care units. Clinical responsibilities include direct patient care across inpatient and post-acute care settings, supervision of advanced practice providers, and teaching and supervision of internal medicine residents and medical students. Board certification in internal medicine is required, as well as exceptional communication, interpersonal, and organizational skills. Prior inpatient hospitalist and post-acute or skilled nursing facility care experience preferred. Training and/or clinical experience in point-of-care ultrasound (POCUS), such as completion of a recognized POCUS certificate program (e.g., CHEST, SHM, or equivalent), dedicated ultrasound fellowship or rotation, or demonstrated proficiency in bedside diagnostic ultrasonography is preferred. The successful candidate will be eligible for a faculty appointment at Case Western Reserve University School of Medicine, commensurate with experience and qualifications. Work Schedule: Various tours to encompass both day and night shifts Conditions of employment U.S. Citizenship; non-citizens may only be appointed when it is not possible to recruit qualified citizens in accordance with VA Policy. All applicants tentatively selected for VA employment in a testing designated position are subject to urinalysis to screen for illegal drug use prior to appointment. Applicants who refuse to be tested will be denied employment with VA. Selective Service Registration is required for males born after 12/31/1959. Must be proficient in written and spoken English. Subject to background/security investigation. Selected applicants will be required to complete an online onboarding process. Acceptable form(s) of identification will be required to complete pre-employment requirements (https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents). Effective May 7, 2025, driver's licenses or state-issued dentification cards that are not REAL ID compliant cannot be utilized as an acceptable form of identification for employment. Must pass pre-employment physical examination. Participation in the seasonal influenza vaccination program is a requirement for all Department of Veterans Affairs Health Care Personnel (HCP). You may be required to serve a probationary period. Complete all application requirements detailed in the "Required Documents" section of this announcement. Qualifications To qualify for this position, you must meet the basic requirements as well as any additional requirements (if applicable) listed in the job announcement. Applicants pending the completion of training or license requirements may be referred and tentatively selected but may not be hired until all requirements are met. Currently employed physician(s) in VA who met the requirements for appointment under the previous qualification standard at the time of their initial appointment are deemed to have met the basic requirements of the occupation. Basic Requirements: United States Citizenship: Non-citizens may only be appointed when it is not possible to recruit qualified citizens in accordance with VA Policy. Degree of doctor of medicine or an equivalent degree resulting from a course of education in medicine or osteopathic medicine. The degree must have been obtained from one of the schools approv</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866599400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Psychiatry - Substance Treatment and Recovery</title>
+      <link>https://www.usajobs.gov:443/job/866591500</link>
+      <description>This position is in Substance Treatment and Recovery (STAR) programs of Mental Health Services at the Oklahoma City VA Health Care System which is affiliated with the University of Oklahoma Health Sciences Center. | Salary: $235,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866591500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - OTOLARYNGOLOGY (ENT)</title>
+      <link>https://www.usajobs.gov:443/job/866588200</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $375,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866588200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Endocrinology - Recruitment/Relocation Incentive</title>
+      <link>https://www.usajobs.gov:443/job/866309000</link>
+      <description>The physician is responsible for timely and accurate medical documentation in accordance with VA, VHA, and local policies, including use of CPRS/VistA. The incumbent will ensure compliance with applicable performance measures, accreditation standards, quality improvement, utilization management, and | Salary: $124,308–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866309000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Geriatrics), Community Living Center - EDRP Authorized</title>
+      <link>https://www.usajobs.gov:443/job/866215100</link>
+      <description>The VA North Texas Health Care System (VANTHCS) Community Living Center (CLC) has well-established programs dedicated to providing subacute rehabilitation and chronic lifelong comprehensive care to Veterans with complex medical issues. A Geriatric Physician will provide consultative and primary care | Salary: $124,308–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866215100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician, Supervisory Musculoskeletal with EDRP</title>
+      <link>https://www.usajobs.gov:443/job/866032500</link>
+      <description>Supervisory Musculoskeletal Physician - Physical Medicine &amp; Rehabilitation Service (PM&amp;RS) We are seeking an enthusiastic and highly organized physician leader to serve as the Supervisory Musculoskeletal Physician for PM&amp;RS-an exciting, central role that connects and coordinates care across multiple | Salary: $250,000–$310,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866032500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>PHYSICIAN PAIN MANAGEMENT DIRECTOR</title>
+      <link>https://www.usajobs.gov:443/job/865516600</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000) &amp; | Salary: $250,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865516600</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Healthcare Engineer</title>
+      <link>https://www.usajobs.gov:443/job/865434100</link>
+      <description>The Tibor Rubin VA Medical Center is recruiting for one (1) Healthcare Landscape Architect (HLA), works in support of the Veterans Administration Long Beach (VALB) Engineering Service as Project Manager and Landscape Architect, develops and updates project Master Plans and Operational Management Pla | Salary: $107,814–$167,993 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865434100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (MD/DO)-Diagnostic Radiologist (Hybrid)-UP TO 100,000</title>
+      <link>https://www.usajobs.gov:443/job/864495200</link>
+      <description>The 2-page Resume requirement does not apply to this occupational series. For more information, refer to Required Documents below. Recruitment Incentive: Authorized | Salary: $400,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864495200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Radiology Diagnostic (Mammography)</title>
+      <link>https://www.usajobs.gov:443/job/864011200</link>
+      <description>Interested in a career that offers a true work-life balance? Look no further! Start, continue, or finish your career here | VA Eastern Colorado Health Care System(youtube.com) The Physician-Radiologist provides medical imaging interpretation of studies and related procedures to adult patients at VA  | Salary: $365,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864011200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician-Neurologist</title>
+      <link>https://www.usajobs.gov:443/job/863135600</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $250,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/863135600</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician- Diagnostic Radiologist (intermittent)</title>
+      <link>https://www.usajobs.gov:443/job/863076700</link>
+      <description>The Charles George VA Medical Center is seeking an intermittent Diagnostic Radiologist to provide a spectrum of image interpretation, image-guided procedures and patient care services within the specialty of Diagnostic Radiology. In addition to the clinical practice of general diagnostic radiology,  | Salary: $124,308–$400,000 PA | Grade: AD</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/863076700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Diagnostic Radiologist)</title>
+      <link>https://www.usajobs.gov:443/job/863070200</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $124,308–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/863070200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (ACOS for Education)</title>
+      <link>https://www.usajobs.gov:443/job/862181700</link>
+      <description>Clarification from the agency All qualified candidates encouraged to apply. Open to U.S. Citizens but non-citizens may be appointed when it is not possible to recruit qualified citizens. NOTE: The 2-page Resume requirement does not apply to this position. For more information, refer to Required Documents below. The Central Alabama Veterans Health Care System (CAVHCS) in Montgomery is one of the largest and most historic VA medical facilities in the Southeast, with a rich legacy and a wide range of services. It's one of the VA's leading training sites, affiliated with 24 academic and professionalinstitutions such as Morehouse School of Medicine, Alabama State University, Auburn University, and Tuskegee University VA offers a comprehensive total rewards package. VHA Physician Total Rewards . Recruitment Incentive (Sign-on Bonus): Not Authorized Permanent Change of Station (Relocation Assistance): Not Authorized Appraised Value Offer (AVO): Not Authorized Education Debt Reduction Program (Student Loan Repayment): Not Authorized Pay: Competitive salary, annual performance bonus, regular salary increases Paid Time Off: 50-55 days of paid time off per year (26 days of annual leave, 13 days of sick leave, 11 paid Federal holidays per year and possible 5 day paid absence for CME) Retirement: Traditional federal pension (5 years vesting) and federal 401K with up to 5% in contributions by VA Insurance: Federal health/vision/dental/term life/long-term care (many federal insurance programs can be carried into retirement) Licensure: 1 full and unrestricted license from any US State or territory CME: Possible $1,000 per year reimbursement (must be full-time with board certification) Malpractice: Free liability protection with tail coverage provided Contract: No Physician Employment Contract and no significant restriction on moonlighting Duties: The Associate Chief of Staff for Education will be expected to participate in clinical care within their area of specialty. Responsibilities of the incumbent will include approximately 80% administrative and 20% clinical duties. The incumbent leads the academic mission of the CAVHCS with oversight, responsibility, and accountability for all accredited and affiliated clinical trainee programs within the CAVHCS in accordance with the Office of Academic Affiliations/Graduate Medical Education (OAA/GME) and other Veterans Administration guidance and applicable accrediting body standards. The Associate Chief of Staff for Education maintains the quality of relationships with affiliates and the quality of the local learning environment. Providing leadership and collaboration in planning, managing, supervising and executing various Graduate Medical Education, Mental Health Psychology, Acute Care, Pharmacy, Geriatric and Podiatric Resident training programs, Associated Health Professions Programs, VA Special Fellows, Internships, and a Clinical Pastoral Education program. Establishing and maintaining effective working relationships with affiliates, serving as the principal liaison with sponsoring institutions designated institutional officials (D1O) and education leaders in the academic programs. Serving as the CAVHCS Liaison to the Graduate Medical Education Council of the primary affiliated institution. Managing education affiliations and agreements for the CAVHCS. Serving as a member of the CAVHCS Medical Executive Committee and other facility committees as appointed. Facilitating appointment of Veteran's Affairs staff and appropriate affiliate institution program faculty to the Academic Partnership Council. Chairing the Graduate Medical Education Committee (Residency Review Committee) and reporting to the Medical Executive Committee on the safety and quality of patient care provided to trainees. Ensuring completion of the Annual Report of Residency Training Programs (ARRTP) and coordinating with the Chief of Staff for report submission by the Facility Director. Ensuring that trainees rotating to CAVHCS are sponsored by affiliated institutions with current affiliation agreements. Ensuring that applicable Trainee Qualifications and Credentials Verification Letter (TQCVL) requirements are met. Ensuring that all residents and trainees with completed applications have appropriate VA appointments through Human Resources, including Without Compensation (WOC) appointment letters when appropriate as well as appropriate security screening. Ensuring that necessary aspects of orientation are completed, including privacy training, computer security training, PIV card access, and Computerized Patient Records System (CPRS) Training. Supervising residents, personnel and budget assigned with oversight of resident's payroll, leave requests and processing for future assignments within the facilities. Providing oversight to ensure trainees have proper clinical supervision in place and are monitored according to required guidelines. Collaborating with and providing feedback to Service Chiefs and Chief of S</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/862181700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Hematology and Oncology Program Manager (Recruitment/Relocation Incentive)</title>
+      <link>https://www.usajobs.gov:443/job/861943700</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $350,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/861943700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Primary Care</title>
+      <link>https://www.usajobs.gov:443/job/861942700</link>
+      <description>NOTE: This announcement is scheduled to run from 20 March 2026 until 30 June 2026. Applications will be reviewed no later than 27 March and will continue to be reviewed until all vacancies are filled. This position is located in the Primary Care Service, at the Eastern Colorado Health Care System. T | Salary: $200,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/861942700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician, Interventional Radiologist with Recruitment/Relocation Incentive</title>
+      <link>https://www.usajobs.gov:443/job/861680300</link>
+      <description>The Interventional Radiologist, Physician will provide interpretive and patient care services within the scope of diagnostic/interventional radiology and will have responsibilities in other areas such as education and committee services. | Salary: $398,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/861680300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Pathology)</title>
+      <link>https://www.usajobs.gov:443/job/861570400</link>
+      <description>The North Florida/ South Georgia Veterans Health System is looking for a board certified Pathologist (Anatomic Pathology or Anatomic and Clinical Pathology). Additional board certification or completion of fellowship in the following areas are particularly valuable: Gastrointestinal and Liver Pathol | Salary: $250,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/861570400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Infectious Disease)</title>
+      <link>https://www.usajobs.gov:443/job/860637800</link>
+      <description>The VA Texas Valley Coastal Bend Health Care System, is seeking a Physician (Infectious Disease). The Infectious Disease (ID) Specialist is responsible for patient/family education, and participation in patient centered interdisciplinary team, including coordination of care with other specialists an | Salary: $124,308–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860637800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Staff Anesthesiologist)</title>
+      <link>https://www.usajobs.gov:443/job/860564200</link>
+      <description>The Puget Sound VA Healthcare System is currently seeking a qualified Staff Anesthesiologist to join our team at the Seattle VA Medical Center campus. The selected candidate will deliver veteran-centered, evidence-based anesthesia care across the VA Puget Sound Health Care System. Education Debt Red | Salary: $300,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860564200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (MD/DO) - Pain Anesthesiologist - SIGN ON BONUS</title>
+      <link>https://www.usajobs.gov:443/job/860207800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $380,000–$390,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860207800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Physical, Medicine &amp; Rehabilitation - Pain Management (Stockton)</title>
+      <link>https://www.usajobs.gov:443/job/860108400</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount up to $200,000 &amp;  | Salary: $290,000–$320,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860108400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Physical, Medicine &amp; Rehabilitation - Pain Management  (Redding)</title>
+      <link>https://www.usajobs.gov:443/job/860107800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount up to $200,000 &amp;  | Salary: $290,000–$320,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860107800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Pain Management &amp; Interventional Pain)</title>
+      <link>https://www.usajobs.gov:443/job/859510000</link>
+      <description>The 2-page resume requirement does not apply to this occupational series. For more information, refer to "Required Documents" below The Bay Pines VA Healthcare System's Primary Care Service is seeking an experienced and dynamic Primary Care Pain Physician. Ideal applicants are those who want to cont | Salary: $245,000–$380,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/859510000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Gynecology)</title>
+      <link>https://www.usajobs.gov:443/job/858458400</link>
+      <description>The Miami VA Healthcare System's Surgery Service is seeking an experienced and dynamic Gynecologist. Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academic hospital program. You must be an excellent commu | Salary: $124,308–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/858458400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Orthopedic Surgery)</title>
+      <link>https://www.usajobs.gov:443/job/865722200</link>
+      <description>North Florida/South Georgia Veterans Health System's Surgery Service is searching for a full-time Orthopedic Surgeon to cover both the Gainesville and Lake City, FL locations. Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and de | Salary: $325,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865722200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Neurology)</title>
+      <link>https://www.usajobs.gov:443/job/854222500</link>
+      <description>Bay Pines VA Healthcare System's Specialty Care service is seeking an experienced and dynamic Neurologist. Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academic hospital program. You must be an excellent | Salary: $300,000–$330,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/854222500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Primary Care)</title>
+      <link>https://www.usajobs.gov:443/job/859889700</link>
+      <description>The 2-page resume requirement does not apply to this occupational series. For more information, refer to "Required Documents" below The Bay Pines VA Healthcare System's Primary Care Service is seeking an experienced and dynamic Primary Care Pain Physician. Ideal applicants are those who want to cont | Salary: $225,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/859889700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Cardiothoracic Surgery) Section Chief</title>
+      <link>https://www.usajobs.gov:443/job/854926800</link>
+      <description>The Miami VA Healthcare System's Surgery Service is seeking an experienced and dynamic Cardiothoracic Surgeon Service Chief. Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academic hospital program. You mu | Salary: $331,326–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/854926800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Cardiologist (General)</title>
+      <link>https://www.usajobs.gov:443/job/854287300</link>
+      <description>The Cincinnati VA Medical Center (VAMC) is searching for a full-time Staff Cardiologist to fulfill the current staffing needs of our facility. The Cincinnati VAMC is an active teaching hospital that is affiliated with and in walking distance of the University of Cincinnati. The Cardiologist will pri | Salary: $341,199–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/854287300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician Hematology/Oncology with Recruitment/Relocation Incentive &amp; EDRP</title>
+      <link>https://www.usajobs.gov:443/job/850882300</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $300,000–$327,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/850882300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Cardiovascular Electrophysiologist</title>
+      <link>https://www.usajobs.gov:443/job/850595900</link>
+      <description>Shreveport offers you the 'lagniappe', which means a little something extra! Shreveport-Bossier City is situated on the Red River in northwest Louisiana. Commonly known as the 'Ark-La-Tex', the point where Arkansas, Louisiana and Texas meet. | Salary: $360,000–$390,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/850595900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Gastroenterologist)</title>
+      <link>https://www.usajobs.gov:443/job/850545100</link>
+      <description>The VA Texas Valley Coastal Bend Health Care System is seeking a Gastroenterologist to provide comprehensive care for patients who have illnesses within the scope of Gastroenterology, with an additional focus on patients with hepatitis. This position will be located at the Health Care Center, Ambula | Salary: $350,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/850545100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician-Infectious Disease-EDRP Authorized</title>
+      <link>https://www.usajobs.gov:443/job/850059800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $250,000–$300,000 PA | Grade: AD</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/850059800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Urology)</title>
+      <link>https://www.usajobs.gov:443/job/860269200</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $320,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860269200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Inpatient Spinal Cord)</title>
+      <link>https://www.usajobs.gov:443/job/848953300</link>
+      <description>This is an OPEN CONTINUOUS ANNOUNCEMENT and will remain open until September 30, 2026. The initial cut-off date for referral of eligible applications and subsequent cut-off dates are on the 1st of each month. Eligible applications received after that date will be referred at regular intervals or as  | Salary: $270,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/848953300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Diagnostic Radiologist) with Recruitment/Relocation Incentive/EDRP</title>
+      <link>https://www.usajobs.gov:443/job/848878700</link>
+      <description>The South Texas Veterans Health Care System is currently recruiting for a Staff Radiologist who will serve as a Clinical Diagnostic Radiologist located in San Antonio, TX. A Recruitment/Relocation Incentive has been authorized for a highly qualified candidate. This position is eligible for the Educa | Salary: $390,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/848878700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician Diagnostic Radiology</title>
+      <link>https://www.usajobs.gov:443/job/848421700</link>
+      <description>The Gulf Coast Veterans Health Care System (GCVHCS) is seeking a Physician - Diagnostic Radiologist, responsible for developing strategic management plans for the Imaging Service, assigning tasks to staff, resolving conflicts that arise, developing changes in the plan and methodology, and interpreti | Salary: $300,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/848421700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician, Chief, Imaging Service with EDRP &amp; Recruitment/Relocation Incentive</title>
+      <link>https://www.usajobs.gov:443/job/847910700</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $399,999–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847910700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician-Section Chief Anesthesiology-EDRP Authorized</title>
+      <link>https://www.usajobs.gov:443/job/847713700</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $200,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847713700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician, Gastroenterologist - Recruitment/Relocation Incentive and EDRP Authorized</title>
+      <link>https://www.usajobs.gov:443/job/847186400</link>
+      <description>Clarification from the agency All qualified candidates encouraged to apply. Open to U.S. Citizens but non-citizens may be appointed when it is not possible to recruit qualified citizens. The 2-page Resume requirement does not apply to this occupational series. For more information, refer to Required Documents below. This is an OPEN CONTINUOUS ANNOUNCEMENT &amp; will remain open until January 12, 2026 or until positions are filled . Eligible applications received will be referred at regular intervals or as additional vacancies occur. VA offers a comprehensive total rewards package. VHA Physician Total Rewards . Recruitment Incentive (Sign-on Bonus): Authorized Education Debt Reduction Program (Student Loan Repayment): Learn more . EDRP Authorized: Former EDRP participants ineligible to apply for incentive. Contact vhaedrpprogramsupport@va.gov , the EDRP Coordinator for questions/assistance Pay: Competitive salary, annual performance bonus, regular salary increases Paid Time Off: 50-55 days of paid time off per year (26 days of annual leave, 13 days of sick leave, 11 paid Federal holidays per year and possible 5 day paid absence for CME) Retirement: Traditional federal pension (5 years vesting) and federal 401K with up to 5% in contributions by VA Insurance: Federal health/vision/dental/term life/long-term care (many federal insurance programs can be carried into retirement) Licensure: 1 full and unrestricted license from any US State or territory CME: Possible $1,000 per year reimbursement (must be full-time with board certification) Malpractice: Free liability protection with tail coverage provided Contract: No Physician Employment Contract and no significant restriction on moonlighting The Gastroenterologist must possess an active license in any state or territory in the United States and must always maintain privileges, at the Amarillo VA Health Care System, to be able to work as a physician. The Gastroenterologist must be board certified or board eligible in Gastroenterology and maintain professional competency as indicated in the delineation of privileges. All physicians must maintain current BLS certification as indicated per medical center policies. The Gastroenterologist will provide comprehensive care for patients who have illnesses within the scope of Gastroenterology, with an additional focus on patients with hepatitis. In addition to patient care, the physician may have responsibilities in other areas such as, education. The Gastroenterology Staff Physician will be located in the Specialty Clinic at the Amarillo VA Medical Center in Amarillo, Texas. The Gastroenterology staff physician should be skilled in providing patient care and in coordinating the activities of other health care providers. He/she should be an effective teacher for fellow staff members, house staff medical students and in allied health care disciplines. He/she will be currently licensed in a State, Territory, or the District of Columbia and should preferable be a certified or qualified for examination by the American Board of Internal Medicine, or other appropriate specialty certifying boards. The Gastroenterology staff physician is responsible for providing primary, secondary, and tertiary care in both hospitalized and outpatient settings, identifying patients' health problems and designing diagnostic and therapeutic plans to meet these needs. He/she is responsible for coordinating activities of other health service personnel, resolving problems affecting patient care and providing appropriate education for the patient/family members regarding the patient's care, patient's illness and its management. A major percentage of the physician's time will be devoted to patient care. Depending on other activities, sufficient time will be allotted to administrative duties. The Gastroenterology staff physician will be responsible to perform diagnostic and therapeutic procedures: Colonoscopy procedures Polypectomy Flexible sigmoidoscopy Upper Gl endoscopy Esophageal ligation or banding of varices Dilation of the esophagus (bouginage) Small bowel biopsy\ The Gastroenterologist must demonstrate the knowledge and skill necessary to provide patient care appropriate to the age of the patients served. The Gastroenterologist provides patient care which is appropriate to the cognitive, emotional, and chronological maturation needs of the young adult (age 18-40), middle adult (age 41-65), and older adult (age 66-older) patient. Work Schedule: Monday - Friday (8:00 a.m. - 4:30 p.m.) Conditions of employment U.S. Citizenship; non-citizens may only be appointed when it is not possible to recruit qualified citizens in accordance with VA Policy. All applicants tentatively selected for VA employment in a testing designated position are subject to urinalysis to screen for illegal drug use prior to appointment. Applicants who refuse to be tested will be denied employment with VA. Selective Service Registration is required for males born after 12/31/1959. Mu</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847186400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician, Ophthalmologist, Glaucoma Specialist with EDRP</title>
+      <link>https://www.usajobs.gov:443/job/847060300</link>
+      <description>Clarification from the agency All qualified candidates encouraged to apply. Open to U.S. Citizens but non-citizens may be appointed when it is not possible to recruit qualified citizens. This is an OPEN CONTINUOUS ANNOUNCEMENT &amp; will remain open until September 29, 2026 or until positions are filled . Eligible applications received will be referred at regular intervals or as additional vacancies occur. VA offers a comprehensive total rewards package. VHA Physician Total Rewards . Education Debt Reduction Program (Student Loan Repayment): Learn more . EDRP Authorized: Former EDRP participants ineligible to apply for incentive. Contact vhaedrpprogramsupport@va.gov , the EDRP Coordinator for questions/assistance Pay: Competitive salary, annual performance bonus, regular salary increases Paid Time Off: 50-55 days of paid time off per year (26 days of annual leave, 13 days of sick leave, 11 paid Federal holidays per year and possible 5 day paid absence for CME) Retirement: Traditional federal pension (5 years vesting) and federal 401K with up to 5% in contributions by VA Insurance: Federal health/vision/dental/term life/long-term care (many federal insurance programs can be carried into retirement) Licensure: 1 full and unrestricted license from any US State or territory CME: Possible $1,000 per year reimbursement (must be full-time with board certification) Malpractice: Free liability protection with tail coverage provided Contract: No Physician Employment Contract and no significant restriction on moonlighting The mission of the Ophthalmology Services of the Veterans Health Administration -South Texas Veterans Health Care System (STVHCS) is to serve the needs of America's veterans by providing the highest quality care. Duties and responsibilities for this position include, but are not limited to the following: Responsible for patient care, education and research in the Ophthalmology Section of Surgical Service. Covers hospitalized patients and all phases of ambulatory care. Must have excellent diagnostic skills and expertise in the field of glaucoma including experience with traditional and minimally invasive glaucoma surgical procedures and drainage implants. Must be proficient in performing glaucoma laser procedures and in performing and interpreting glaucoma diagnostic testing. Must be proficient in the medical and surgical management of all types of glaucoma including but not limited to open angle glaucoma, angle closure glaucoma, neovascular glaucoma, low-tension glaucoma and ocular hypertension. Teaching responsibilities include the teaching of ophthalmology residents. Should possess well-developed knowledge and/or skill in the areas of: adult education principles for use in continuing education programs for both staff and patients, psychosocial aspects of health care required to provide comprehensive patient care, preventive medicine and primary care, the role of non-physician health care professionals and health care evaluation. Responsible for the diagnosis and treatment of patients with medical diseases, accomplished through ambulatory and bed-based resources assigned to Ophthalmology and Optometry. Must actively participate in patient care through hospital rounds, morning reports, conferences, consultations, participation in ambulatory care and other similar activities. Responsible for coordinating and providing ophthalmologic consultation throughout the medical center. Work Schedule: Monday - Friday, 8:00am - 4:30pm Conditions of employment U.S. Citizenship; non-citizens may only be appointed when it is not possible to recruit qualified citizens in accordance with VA Policy. All applicants tentatively selected for VA employment in a testing designated position are subject to urinalysis to screen for illegal drug use prior to appointment. Applicants who refuse to be tested will be denied employment with VA. Selective Service Registration is required for males born after 12/31/1959. Must be proficient in written and spoken English. Subject to background/security investigation. Selected applicants will be required to complete an online onboarding process. Acceptable form(s) of identification will be required to complete pre-employment requirements (https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents). Effective May 7, 2025, driver's licenses or state-issued dentification cards that are not REAL ID compliant cannot be utilized as an acceptable form of identification for employment. Must pass pre-employment physical examination. Participation in the seasonal influenza vaccination program is a requirement for all Department of Veterans Affairs Health Care Personnel (HCP). Complete all application requirements detailed in the "Required Documents" section of this announcement. As a condition of employment for accepting this position, you will be required to serve a 2-year probationary period during which we will evaluate your fitness and whether your continued employment advances the public int</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847060300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Spinal Cord Injury - EDRP and Recruitment/Relocation Incentive May be Offered</title>
+      <link>https://www.usajobs.gov:443/job/846993900</link>
+      <description>The VA North Texas Health Care System is seeking a Spinal Cord Injury Physician to provide clinical services to patients in outpatient clinics and/or inpatient clinics with rehabilitation and complex medical chronic disease management in Dallas, TX. Recruitment or Relocation Incentive May be offered | Salary: $200,000–$280,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/846993900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Gastroenterologist</title>
+      <link>https://www.usajobs.gov:443/job/866244300</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $320,000–$380,000 PA | Grade: AD</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866244300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician Chief (Hematology/Oncology)</title>
+      <link>https://www.usajobs.gov:443/job/858451800</link>
+      <description>The New Mexico VA Health Care System (NMVAHCS) is seeking applications for the position of Chief, Section of Hematology/Oncology at the NMVAHCS. The NMVAHCS Hematology/Oncology program is the major academic affiliate of the UNM Division of Hematology/Oncology and the UNM Comprehensive Cancer Center. | Salary: $385,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/858451800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Hospital Epidemiology and Infectious Disease</title>
+      <link>https://www.usajobs.gov:443/job/859081800</link>
+      <description>The Hospital Epidemiologist will study and review factors that determine disease, disability, or other healthcare outcomes (usually with a focus on Infectious Diseases and other hospital associated infections). | Salary: $294,308–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/859081800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Ophthalmologist (Open Continuous)</title>
+      <link>https://www.usajobs.gov:443/job/852993000</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $300,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/852993000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Regular Ft) Emergency Medicine</title>
+      <link>https://www.usajobs.gov:443/job/864620600</link>
+      <description>The Washington DC VA Medical Center is seeking an Emergency Medicine Physician to join our dynamic Emergency care team. Candidates will be board certified in Emergency Medicine, with a strong commitment to excellence in teaching and patient care. The Washington DC VAMC has a close relationship with  | Salary: $325,000–$340,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864620600</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Psychologist - PTSD Program Manager</title>
+      <link>https://www.usajobs.gov:443/job/857935000</link>
+      <description>Hudson Valley Healthcare System has a vacancy for an experienced and dedicated GS-14 Psychologist Program Manager This position is eligible for the Education Debt Reduction Program (EDRP) | Salary: $156,538–$198,287 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/857935000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Palliative Care Specialist</title>
+      <link>https://www.usajobs.gov:443/job/866519100</link>
+      <description>The Mann-Grandstaff VAMC is recruiting for one Palliative Care Specialist to perform duties at the VA hospital in Spokane, WA. A recruitment/relocation incentive has been authorized for this position and may be offered to a highly qualified candidate. This position is eligible for the Education Debt | Salary: $240,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866519100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Pulmonary Medicine)</title>
+      <link>https://www.usajobs.gov:443/job/866184100</link>
+      <description>The Lt. Col. Luke Weathers, Jr., VAMC in Memphis, TN is recruiting for a Pulmonary Physician to serve as a full-time Specialty Care physician. The position is accountable to the Chief of Specialty Care, for assuring the most effective delivery of state-of-the-art care by meeting or exceeding complia | Salary: $325,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866184100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Pain Management-PMOP Coordinator)</title>
+      <link>https://www.usajobs.gov:443/job/866109800</link>
+      <description>The Physician Facility Pain Management, Opioid Safety, and Prescription Drug Monitoring Program (PMOP) Coordinator is assigned to the Physical Medicine and Rehabilitation Service at the Martinsburg VA Medical Center located in Martinsburg West Virginia. The PMOP Coordinator supports the Facility Pai | Salary: $124,308–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866109800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Diagnostic Radiologist (Remote) - EDRP Eligible</title>
+      <link>https://www.usajobs.gov:443/job/865842300</link>
+      <description>The VA Valley Coastal Bend Health Care System, Harlingen, TX is seeking a Radiologist to provide a spectrum of image interpretation and patient care services within the specialty of Diagnostic Radiology and possess additional subspecialty expertise. Our healthcare system operates Monday - Friday fro | Salary: $275,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865842300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician, Psychiatrist with EDRP and Recruitment/Relocation Incentive</title>
+      <link>https://www.usajobs.gov:443/job/862753900</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $200,000–$282,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/862753900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Neurology</title>
+      <link>https://www.usajobs.gov:443/job/864714400</link>
+      <description>The Mann-Grandstaff VA Medical Center is recruiting for one Neurologist to perform duties at the VA hospital in Spokane, WA. A recruitment/relocation incentive has been authorized for this position and may be offered to a highly qualified candidate. This position is eligible for the Education Debt R | Salary: $270,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864714400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Chief of Imaging Service (Physician)</title>
+      <link>https://www.usajobs.gov:443/job/861986900</link>
+      <description>The Imaging Chief has specific supervisory responsibility for the staff radiologists and non-radiologist staff including clerical staff, technologists, nursing, technical personnel (PACS administrators), and administrative personnel. They are expected to demonstrate a commitment to ongoing clinical  | Salary: $270,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/861986900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Cardiologist (Recruitment and Relocation Incentive Authorized)</title>
+      <link>https://www.usajobs.gov:443/job/860960100</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $330,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860960100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Breast Imaging Radiologist)</title>
+      <link>https://www.usajobs.gov:443/job/858103500</link>
+      <description>The Iowa City Veterans Affairs Health Care System (ICVAHCS) is seeking a full-time Physician (Breast Imaging Radiologist) to join the Imaging Service Line at the VAMC in Iowa City, Iowa. Note: This is an OPEN CONTINUOUS ANNOUNCEMENT through May 19, 2026. The first referral cut-off is March 18, 2026, | Salary: $385,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/858103500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Gastroenterology)</title>
+      <link>https://www.usajobs.gov:443/job/855745000</link>
+      <description>The 2-page Resume requirement does not apply to this occupational series. For more information, refer to Required Documents below. The West Palm Beach VA Medical Center Specialty Care Service is seeking an experienced and dynamic Gastroenterologist. Ideal applicants are those who want to contribute  | Salary: $287,490–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855745000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Gastroenterologist) with Recruitment/Relocation Incentive/EDRP</title>
+      <link>https://www.usajobs.gov:443/job/855373000</link>
+      <description>The VA Texas Valley Coastal Bend Health Care System is seeking a Gastroenterologist to provide comprehensive care for patients who have illnesses within the scope of Gastroenterology, with an additional focus on patients with hepatitis. This position will be located at the Health Care Center, Ambula | Salary: $350,000–$400,000 PA | Grade: AD</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855373000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Radiology-Diagnostic)</title>
+      <link>https://www.usajobs.gov:443/job/855055300</link>
+      <description>The North Florida/South Georgia Veterans Health System is seeking a well-rounded general Diagnostic Radiologist with subspecialty expertise, particularly in body imaging, cardiothoracic imaging, PET/CT /nuclear medicine, or neuroradiology. This announcement is recruiting for 2 Full- Time and 1 Part  | Salary: $385,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855055300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Cardiologist (Electrophysiologist)</title>
+      <link>https://www.usajobs.gov:443/job/854197100</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $320,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/854197100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Physician - Ophthalmologist (Glaucoma Specialist)</title>
+      <link>https://www.usajobs.gov:443/job/852038000</link>
+      <description>The facility provides care to approximately 91,000 veterans in the midlands and upstate SC. CBOCs are located in Anderson, Greenville, Spartanburg, Florence, Orangeburg, Sumter, and Rock Hill, and provide primary care, mental health, and telemedicine services. Dorn VAMC is affiliated with the Univer | Salary: $123,077–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/852038000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Spinal Cord Injury and Disorder</title>
+      <link>https://www.usajobs.gov:443/job/851690900</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $245,000–$300,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/851690900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Addiction Psychiatrist- Supervisory</title>
+      <link>https://www.usajobs.gov:443/job/851212800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $275,000–$320,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/851212800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Interventional Radiologist</title>
+      <link>https://www.usajobs.gov:443/job/848349800</link>
+      <description>Clarification from the agency All qualified candidates encouraged to apply. Open to U.S. Citizens but non-citizens may be appointed when it is not possible to recruit qualified citizens. NOTE: The 2-page Resume requirement does not apply to this occupational series. For more information, refer to Required Documents below. VA Boston Healthcare System (VABHS) is a 467-bed facility located on three campuses in the Boston metropolitan area. The department is filmless and it provides tele-radiology services for several other VA New England Healthcare System facilities. Installed equipment includes 1.5T and two 3T MRI scanners, four multidetector CT scanners, PET/CT, and a wide array of ultrasound and rad/fluoro equipment, as well as a dedicated women's imaging suite, including digital mammography, breast tomosynthesis, ultrasound and bone density as well as two IR suites. One suite is equipped with a fixed C-arm with cone beam and other advanced features. The second room is a brand new fully integrated CT/C-arm room. At the time of installation it was the first unit deployed in the state of Massachusetts. Fellowship training in Interventional Radiology and ABR board certification or board eligibility is required. VABHS is seeking an Interventional Radiologist with a diverse skill set to include vascular (Y-90, dialysis access, PAE, GI bleeds, endoleaks) and non-vascular (Microwave ablation, biliary, urinary, biopsies and drains). VABHS is affiliated with Harvard Medical School and Boston University School of Medicine, and appointments can be made to either school. The Radiology residency program is integrated with Boston Medical Center, and resident teaching and research are integral parts of the department's mission. VA offers a comprehensive total rewards package. VHA Physician Total Rewards . Pay: Competitive salary, annual performance bonus, regular salary increases Paid Time Off: 50-55 days of paid time off per year (26 days of annual leave, 13 days of sick leave, 11 paid Federal holidays per year and possible 5 day paid absence for CME) Retirement: Traditional federal pension (5 years vesting) and federal 401K with up to 5% in contributions by VA Insurance: Federal health/vision/dental/term life/long-term care (many federal insurance programs can be carried into retirement) Licensure: 1 full and unrestricted license from any US State or territory CME: Possible $1,000 per year reimbursement (must be full-time with board certification) Malpractice: Free liability protection with tail coverage provided Contract: No Physician Employment Contract and no significant restriction on moonlighting Work Schedule: Full-time; Schedule to be determined with supervisor. Conditions of employment U.S. Citizenship; non-citizens may only be appointed when it is not possible to recruit qualified citizens in accordance with VA Policy. All applicants tentatively selected for VA employment in a testing designated position are subject to urinalysis to screen for illegal drug use prior to appointment. Applicants who refuse to be tested will be denied employment with VA. Selective Service Registration is required for males born after 12/31/1959. Must be proficient in written and spoken English. Subject to background/security investigation. Selected applicants will be required to complete an online onboarding process. Acceptable form(s) of identification will be required to complete pre-employment requirements (https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents). Effective May 7, 2025, driver's licenses or state-issued dentification cards that are not REAL ID compliant cannot be utilized as an acceptable form of identification for employment. Must pass pre-employment physical examination. Participation in the seasonal influenza vaccination program is a requirement for all Department of Veterans Affairs Health Care Personnel (HCP). You may be required to serve a probationary period. Complete all application requirements detailed in the "Required Documents" section of this announcement. Qualifications To qualify for this position, you must meet the basic requirements as well as any additional requirements (if applicable) listed in the job announcement. Applicants pending the completion of training or license requirements may be referred and tentatively selected but may not be hired until all requirements are met. Currently employed physician(s) in VA who met the requirements for appointment under the previous qualification standard at the time of their initial appointment are deemed to have met the basic requirements of the occupation. Basic Requirements: United States Citizenship: Non-citizens may only be appointed when it is not possible to recruit qualified citizens in accordance with VA Policy. Degree of doctor of medicine or an equivalent degree resulting from a course of education in medicine or osteopathic medicine. The degree must have been obtained from one of the schools approved by the Department of Veterans Af</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/848349800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Full Time Radiologist - 25 percent Incentive</title>
+      <link>https://www.usajobs.gov:443/job/847588200</link>
+      <description>The 2-page Resume does not apply to this position. For more information, refer to Required Documents below. This is an OPEN CONTINUOUS ANNOUNCEMENT. Qualified candidates will referred to the selecting official. A 25 percent incentive may be authorized to a highly qualified candidate. Phoenix Radiolo | Salary: $300,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847588200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician, Addiction Psychiatrist with EDRP and Recruitment/Relocation Incentive</title>
+      <link>https://www.usajobs.gov:443/job/847223400</link>
+      <description>Clarification from the agency All qualified candidates encouraged to apply. Open to U.S. Citizens but non-citizens may be appointed when it is not possible to recruit qualified citizens. This is an OPEN CONTINUOUS ANNOUNCEMENT &amp; will remain open until November 7, 2025 or until positions are filled . Eligible applications received after that date will be referred at regular intervals or as additional vacancies occur. As a VA Physician, your opportunities are endless. With many openings in the multiple functions of VA, you will have a wide range of opportunities at your fingertips. Not only is it the largest, most technologically advanced integrated health care system in the nation, but we also provide many other services to Veterans through the Benefits Administration and National Cemeteries. VA offers a comprehensive total rewards package. VHA Physician Total Rewards . Recruitment Incentive (Sign-on Bonus): Authorized Education Debt Reduction Program (Student Loan Repayment): Learn more . EDRP Authorized: Former EDRP participants ineligible to apply for incentive. Contact vhaedrpprogramsupport@va.gov , the EDRP Coordinator for questions/assistance Pay: Competitive salary, annual performance bonus, regular salary increases Paid Time Off: 50-55 days of paid time off per year (26 days of annual leave, 13 days of sick leave, 11 paid Federal holidays per year and possible 5 day paid absence for CME) Paid Parental Leave: 12 weeks time off for birth of child, adoption, foster care Retirement: Traditional federal pension (5 years vesting) and federal 401K with up to 5% in contributions by VA Insurance: Federal health/vision/dental/term life/long-term care (many federal insurance programs can be carried into retirement) Licensure: 1 full and unrestricted license from any US State or territory CME: Possible $2,000 per year reimbursement (must be full-time with board certification) Malpractice: Free liability protection with tail coverage provided Contract: No Physician Employment Contract and no significant restriction on moonlighting A full-time position is available for a Psychiatrist on the Substance Use Disorder Team in the VA North Texas Health Care System, Mental Health Service (VANTHCS MHS) in Dallas, Texas. Core responsibilities include providing comprehensive psychiatric medical care (assessment, consultation, treatment) to patients in the Dallas Mental Health Gold Team, which is an outpatient clinic with a focus on providing care to Veterans with addictions and substance use disorders. Incumbent must be skilled in general outpatient psychiatry &amp; addiction psychiatry, including diagnostic evaluations, pharmacotherapy &amp; psychotherapy. He/she should be competent in the management of individuals with a broad range of clinical problems, including but not limited to substance use disorders, mood, anxiety and psychotic disorders, post-traumatic stress disorder, and psychiatric disorders in the elderly Veteran population. The incumbent will serve as a collaborative member of a multidisciplinary mental health team. Incumbent is encouraged to be involved in medical student, psychiatry resident and addiction psychiatry fellow education. He/she may provide clinical supervision and may act as formal collaborating physician for health care professionals such as NP &amp; Physician Assistants. All psychiatrists at VANTHCS are expected to provide coverage to the inpatient psychiatric unit on a rotating basis (typically two to four times per year). The incumbent may also be called upon to assist with coverage of critical need areas based upon the needs of the service. Veterans served by the Gold Team tend to have serious and severe crises, be dually diagnosed, and have numerous psychosocial deficits. Treatment provided occurs in the outpatient level of care through an outpatient clinic in Dallas (main campus), an outpatient opioid replacement program, and an Intensive Outpatient Program (IOP). Patients are seen on scheduled and unscheduled basis. The incumbent may also be periodically called upon to provide cross coverage to the SUD Residential Treatment Program. VANTHCS MHS provides a full range of mental health services including general adult psychiatry, geriatrics, forensics, psychosomatic medicine, substance abuse sub-specialty services, trauma services, psychosocial rehabilitation and recovery programs, comprehensive homeless programs, peer support services, opiate replacement programs, Mental Health Intensive Case Management, vocational rehabilitation programs, domiciliary based programs and inpatient programs. There is ongoing active research in addiction psychiatry, post-traumatic stress disorder, disaster psychiatry, mood disorders, and homelessness. Clinical training programs exist for medical students, psychiatry residents and fellows, clinical psychologists, social workers and nurses. VA North Texas Health Care System has an active relationship with multiple academic affiliates. Work Schedule: 8:00 am - 4:30 pm, Mon</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847223400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Supervisory Physician (Chief Medical Officer)</title>
+      <link>https://www.usajobs.gov:443/job/866475800</link>
+      <description>Organizational Location: This position is with the Department of Homeland Security, within U.S. Customs and Border Protection, Operations Support, Office of the Chief Medical Officer, located in Washington, DC. | Salary: $180,000–$375,000 PA | Grade: GP</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866475800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Customs and Border Protection</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Pain Management)</title>
+      <link>https://www.usajobs.gov:443/job/859498500</link>
+      <description>The Physician (Pain Management) provides care for Veterans within the Chronic Pain Service situated within the Neurology Clinical Care Center at the Baltimore VA Medical Center. Services will be offered through a combination of in-person visits and virtual/telehealth appointments, in the outpatient  | Salary: $124,308–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/859498500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Section Chief Hematology-Oncology Physician</title>
+      <link>https://www.usajobs.gov:443/job/865800100</link>
+      <description>Eligible for Education Debt Reduction Program (EDRP), student loan payment reimbursement program must meet specific eligibility requirements per VHA policy and submit EDRP application within four months of appointment. Program Approval, award amount (up to $200,000) &amp; eligibility period (one to five | Salary: $385,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865800100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Tele - Radiologist (Diagnostic)</title>
+      <link>https://www.usajobs.gov:443/job/865372000</link>
+      <description>The Minneapolis VA Health Care System is a leading 1A VA facility consistently rated among the highest quality VA facilities in the country. A full spectrum of patient care services is offered by the Minneapolis VA including interventional radiology, radiation and surgical oncology, long term care a | Salary: $300,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865372000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Ophthalmologist</title>
+      <link>https://www.usajobs.gov:443/job/865087100</link>
+      <description>The Edward Hines Jr. VA Hospital is a Complex 1A medical facility located near Chicago, IL and provides a comprehensive Ophthalmology program. An Ophthalmologist is a medical doctor who possesses the advanced training and experience, as well as the license, in diagnosing and treating general and/or  | Salary: $200,000–$400,000 PA | Grade: AD</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865087100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Community Living Center Medical Director</title>
+      <link>https://www.usajobs.gov:443/job/862288200</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $236,000–$335,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/862288200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Chief of Orthopedic)</title>
+      <link>https://www.usajobs.gov:443/job/862205200</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $375,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/862205200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Physician - Orthopedic Section Chief</title>
+      <link>https://www.usajobs.gov:443/job/858984300</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $400,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/858984300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Interventional Radiologist</title>
+      <link>https://www.usajobs.gov:443/job/849954700</link>
+      <description>This position is located at the Albany Stratton VA Medical Center, Albany, New York in the Department of Diagnostic Imaging. The Interventional Radiologist performs a large spectrum of image guided procedures with appropriate clinical preparation and follow-up in the rapidly expanding field of Vascu | Salary: $340,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/849954700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician Radiologist</title>
+      <link>https://www.usajobs.gov:443/job/855594200</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $375,000–$400,000 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855594200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Nephrology Section Chief)</title>
+      <link>https://www.usajobs.gov:443/job/855307600</link>
+      <description>The Iowa City VAHCS is seeking a board certified/board eligible Nephrologist for a part-time appointment with affiliation with the University of Iowa CCOM to serve as the Section Chief of Nephrology at the VA facility. Note: This is an OPEN CONTINUOUS ANNOUNCEMENT through April 24, 2026. The first r | Salary: $240,000–$400,000 PA | Grade: AD</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855307600</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Gastroenterology Section Chief)</title>
+      <link>https://www.usajobs.gov:443/job/855300500</link>
+      <description>The Iowa City VA HCS is seeking a board certified/board eligible GI physician for a full time VHA appointment with affiliation with the University of Iowa CCOM to serve as the Section Chief of GI at the VA facility. Note: This is an OPEN CONTINUOUS ANNOUNCEMENT through April 24, 2026. The first refe | Salary: $360,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855300500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Anesthesiologist)</title>
+      <link>https://www.usajobs.gov:443/job/850166600</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $400,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/850166600</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Ophthalmologist- Retina Specialist</title>
+      <link>https://www.usajobs.gov:443/job/848311700</link>
+      <description>This position is located at the Stratton VA Medical Center, Albany, New York and supports the Ophthalmology Section of the Surgery Service. If selected, you will provide support to the eye clinic, inpatient services, eye operating room, and Emergency Department. You will follow established guideline | Salary: $250,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/848311700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Podiatrist-Section Chief Anesthesiology</title>
+      <link>https://www.usajobs.gov:443/job/847713800</link>
+      <description>Clarification from the agency All qualified candidates encouraged to apply. Open to U.S. Citizens but non-citizens may be appointed when it is not possible to recruit qualified citizens. NOTE: The 2-page Resume requirement does not apply to this occupational series. For more information, refer to Required Documents below. You will provide history &amp; physical including preoperative evaluation, preparing treatment plans, administration of parenteral fluids, medications, &amp; blood products. Application of specific methods of respiratory therapy, application of restraints, arterial blood gas sampling, bronchoscopy, clinical management of the patient unconscious from whatever cause. Clinical management of various fluid electrolyte &amp; metabolic disturbances, ECG interpretation, endotracheal intubation, cultures, femoral puncture, interpretation of pulmonary function tests, intravenous catheterization (peripheral and central), local and topical anesthesia. Management of problems in multi-organ resuscitation including cardiac &amp; respiratory. Management of problems in pain relief, management of procedures for rendering patient insensible to pain &amp; emotional stress during surgical, obstetrical &amp; certain medical procedures, nerve blocks with and without ultrasound guided assistance. Support of life functions under the stress of anesthetic &amp; surgical manipulations, pulmonary artery catheterization, temporary pacemaker placement, ultrasound-guided catheter placement, and insertion of trans-esophageal echocardiography probe. VA offers a comprehensive total rewards package . Work Schedule: Full-time; 7:00am-3:30pm Telework : Not Available Virtual : This is not a virtual position. Relocation/Recruitment Incentives : Not Authorized Permanent Change of Station (PCS) : Not Authorized This is an open continuous announcement and will remain open until the closing date or until the position is filled . Eligible applications received will be referred at regular intervals or as additional vacancies occur on an as-needed basis until the position is filled. Conditions of employment All qualified candidates encouraged to apply. Open to U.S. Citizens but non-citizens may be appointed when it is not possible to recruit qualified citizens. All applicants tentatively selected for VA employment in a testing designated position are subject to urinalysis to screen for illegal drug use prior to appointment. Applicants who refuse to be tested will be denied employment with VA. Selective Service Registration is required for males born after 12/31/1959. Must be proficient in written and spoken English. Subject to background/security investigation. Selected applicants will be required to complete an online onboarding process. Acceptable form(s) of identification will be required to complete pre-employment requirements (https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents). Effective May 7, 2025, driver's licenses or state-issued dentification cards that are not REAL ID compliant cannot be utilized as an acceptable form of identification for employment. Must pass pre-employment physical examination. Participation in the seasonal influenza vaccination program is a requirement for all Department of Veterans Affairs Health Care Personnel (HCP). You may be required to serve a probationary period. Complete all application requirements detailed in the "Required Documents" section of this announcement. Qualifications Applicants pending the completion of educational or certification/licensure requirements may be referred and tentatively selected but may not be hired until all requirements are met. Podiatrist Basic Requirements United States Citizenship: Non-citizens may only be appointed when it is not possible to recruit qualified citizens in accordance with VA Policy. Education: Degree as a doctor of podiatric medicine, or its equivalent, from a school of podiatric medicine approved by the Secretary of Veterans Affairs. Approved schools are United States schools of podiatric medicine approved by the Council on Podiatry Education of the American Podiatry Association in the year in which the degree was granted. ~AND~ Residency Training: Completed, or currently completing, residency training, or its equivalent, approved by the Secretary of Veterans Affairs in an accredited core specialty training program leading to eligibility for board certification. VA Podiatrists involved in academic training programs may be required to be board certified for faculty status. Approved residencies are: (1) Those approved by the accrediting bodies for graduate medical education, the Council on Podiatric Medical Education, in the list published for the year the residency was completed, or (2) Other residencies and training experiences, or their equivalents, which the local Professional Standards Board determines to have provided an applicant with appropriate professional training. ~AND~ Licensure or Registration: Currently hold, or will hold, a full and unrestricted </description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847713800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Geriatrics &amp; Extended Care</title>
+      <link>https://www.usajobs.gov:443/job/847657900</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $265,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847657900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>ICU fee basis Physician</title>
+      <link>https://www.usajobs.gov:443/job/847434900</link>
+      <description>The Staff Physician serves as a practicing Pulmonary service/Critical care provider that performs a full range of professional procedures in connection with the treatment of commonly encountered inpatient work load. This Position is a FEE BASIS - salary is paid by CPT codes performed per shift | Salary: $3,200–$3,200 FB | Grade: FB</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847434900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Psychiatrist</title>
+      <link>https://www.usajobs.gov:443/job/847231200</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $260,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847231200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Neurology - Vascular)</title>
+      <link>https://www.usajobs.gov:443/job/862662700</link>
+      <description>The Miami VA Healthcare System is seeking an experienced and dynamic Physician (Neurology - Vascular). Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academic hospital program. You must be an excellent com | Salary: $124,308–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/862662700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician -Diagnostic Radiologist (Intermittent)</title>
+      <link>https://www.usajobs.gov:443/job/865678200</link>
+      <description>The Charles George VA Medical Center is seeking an intermittent Diagnostic Radiologist to provide a spectrum of image interpretation, image-guided procedures and patient care services within the specialty of Diagnostic Radiology. In addition to the clinical practice of general diagnostic radiology,  | Salary: $200,000–$400,000 PA | Grade: AD</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865678200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician- Spinal Cord Injury</title>
+      <link>https://www.usajobs.gov:443/job/865650600</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $260,000–$290,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865650600</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Physician- Interventional Radiology</title>
+      <link>https://www.usajobs.gov:443/job/864549000</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific individual eligibility requirements in accordance with VHA policy and submit your EDRP application within four months of appointment. Approval, award amount | Salary: $350,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864549000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician-Interventional Radiologist-Intermittent-RECRUITMENT UP TO 50,000</title>
+      <link>https://www.usajobs.gov:443/job/864496500</link>
+      <description>This position is intermittent located at the Richard L Roudebush VAMC within the Radiology Department. The facility is a Complexity Level 1A, highly affiliated medical center and provides inpatient, specialty, and primary care throughout Central Indiana. The primary purpose of this position is to pe | Salary: $400,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864496500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Physician - Pathologist (43)</title>
+      <link>https://www.usajobs.gov:443/job/864339800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $200,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864339800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician-Gastroenterologist</title>
+      <link>https://www.usajobs.gov:443/job/864055400</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $300,000–$350,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864055400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Staff Radiologist-Recruitment/Incentive UP TO 50,000</title>
+      <link>https://www.usajobs.gov:443/job/863337200</link>
+      <description>. This position is Full-Time located at the Richard L Roudebush VAMC within the Radiology Department. The staff Radiologist functions locally as a team member of the Radiology Service with a regular interface with the Section Chief, Diagnostic Radiology and Chief, Radiology Service. Up to $50,000 re | Salary: $400,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/863337200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Spinal Cord Injury</title>
+      <link>https://www.usajobs.gov:443/job/862401000</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $267,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/862401000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Physiatrist</title>
+      <link>https://www.usajobs.gov:443/job/848565100</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $266,000–$290,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/848565100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Radiologist</title>
+      <link>https://www.usajobs.gov:443/job/847713200</link>
+      <description>This position is eligible for Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000) &amp; el | Salary: $375,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847713200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Musculoskeletal (MSK) Radiologist / Diagnostic Radiologist</title>
+      <link>https://www.usajobs.gov:443/job/847683300</link>
+      <description>A 25% Recruitment/Relocation Incentive maybe authorized to a highly qualified candidate. This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You submit your EDRP application within 4 months of appointment. Award (up to $200,000) &amp;  | Salary: $300,000–$400,000 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847683300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Urologist)</title>
+      <link>https://www.usajobs.gov:443/job/847536200</link>
+      <description>The 2-page Resume requirement does not apply to this occupational series. For more information, refer to Required Documents below. This position is located at the James H. Quillen VA Medical Center in Johnson City, Tennessee. The position is located in the Surgical Service and reports directly to th | Salary: $325,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/847536200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Psychologist (PAIN)</title>
+      <link>https://www.usajobs.gov:443/job/864083300</link>
+      <description>The incumbent serves as a Pain Management Psychologist with the Physical Medicine and Rehabilitation (PM&amp;R) Healthcare Group at Long Beach. *** This position is eligible for the Education Debt Reduction Program (EDRP). See "Duties section" for additional information.*** | Salary: $105,262–$195,037 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864083300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Podiatrist (Home Base Primary Care Medical Director)</title>
+      <link>https://www.usajobs.gov:443/job/855334000</link>
+      <description>The Home Base Primary Care (HBPC) Medical Director within the Geriatric and Extended Care Service at the Thomas E. Creek VA Health Care System is responsible for clinical over site of all HBPC services in Amarillo and satellite programs. Physicians should apply to CAZM-12866064-26-JMS | Salary: $275,000–$330,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855334000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Regular Ft) Cardiologist</title>
+      <link>https://www.usajobs.gov:443/job/852552400</link>
+      <description>NOTE: The 2-page Resume requirement does not apply to this occupational series. For more information, refer to Required Documents below. This position is located at the Veteran Affairs Medical Center in Washington DC. The Washington DC VA Medical Center , located within sight of the Nation's Capitol | Salary: $225,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/852552400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Psychologist - Residential Addiction Recovery Services</title>
+      <link>https://www.usajobs.gov:443/job/866592200</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific individual eligibility requirements in accordance with VHA policy and submit your EDRP application within four months of appointment. Program Approval, awar | Salary: $115,775–$150,509 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866592200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician Ophthalmologist (Glaucoma)</title>
+      <link>https://www.usajobs.gov:443/job/853483700</link>
+      <description>This position is located at the Minneapolis VA Health Care System in Minneapolis, Minnesota. This is an open continuous announcement until May 28, 2026. Qualified applicants will be considered and referred as vacancies become available. | Salary: $290,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/853483700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician Staff Radiologist (Hybrid) -Recruitment/Relocation Incentive UP TO 100,000</title>
+      <link>https://www.usajobs.gov:443/job/863273800</link>
+      <description>This position is Full-Time located at the Richard L Roudebush VAMC within the Radiology Department. The staff Radiologist functions locally as a team member of the Radiology Service with a regular interface with the Section Chief, Diagnostic Radiology and Chief, Radiology Service. Up to $100,000 rel | Salary: $400,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/863273800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Transplant Surgery</title>
+      <link>https://www.usajobs.gov:443/job/865328100</link>
+      <description>Ralph H. Johnson VA can be found in beautiful downtown Charleston. With its rich history, vibrant culture, idyllic coastal location, exquisitely preserved architecture, and celebrated dining selections, Charleston is one of America's best loved destinations. Settled alongside the Ashley rivers and A | Salary: $124,308–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865328100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>PHYSICIAN</title>
+      <link>https://www.usajobs.gov:443/job/866255800</link>
+      <description>This is a public notice flyer to notify interested applicants of anticipated vacancies. Applications will not be accepted through this flyer. Interested applicants must follow the directions in the "How to Apply" section of this flyer to be considered. There may or may not be actual vacancies filled | Salary: $180,000–$375,000 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866255800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Naval Education and Training Command</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Interventional Pain Specialist</title>
+      <link>https://www.usajobs.gov:443/job/866441400</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $360,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/866441400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician  (Aerospace Medicine)</title>
+      <link>https://www.usajobs.gov:443/job/865204500</link>
+      <description>The Supervisory Physician (Aerospace Medicine) is the Division Manager of the Aerospace Medical Certification Division (AAM-300). The Physician reports to the Director within the FAA, Aviation Safety (AVS), Office of Aerospace Medicine (AAM), Civil Aerospace Medical Institute (CAMI). The Office of A | Salary: $184,903–$228,000 PA | Grade: FV</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/865204500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Federal Aviation Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Adult Internal Medicine, General Medicine)</title>
+      <link>https://www.usajobs.gov:443/job/864275600</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $250,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864275600</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Transplant Hepatologist)</title>
+      <link>https://www.usajobs.gov:443/job/852939400</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200K) &amp; e | Salary: $320,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/852939400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Foreign Affairs Specialist (McCain Fellows)</title>
+      <link>https://www.usajobs.gov:443/job/851192400</link>
+      <description>The John S. McCain Strategic Defense Fellowship Program is a 1-year Department of War (DoW) development program for recent advanced degree program graduates from across multiple academic disciplines. While these are temporary appointments, Fellows that successfully complete this program are eligible | Salary: $77,001–$131,826 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/851192400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Washington Headquarters Services</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Public Notice for Medical Officer (Direct Hire)</title>
+      <link>https://www.usajobs.gov:443/job/856925000</link>
+      <description>Direct hiring authority for the 0602 series is being used to fill this position. Public Notices serve as a resume repository, and positions may or may not be filled from this announcement. | Salary: $156,999–$228,000 PA | Grade: FV</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/856925000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Federal Aviation Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Geriatrics PACT (Stockton)</title>
+      <link>https://www.usajobs.gov:443/job/860274800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $250,000–$316,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860274800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Radiology-Diagnostic) - Assistant Chief</title>
+      <link>https://www.usajobs.gov:443/job/855054100</link>
+      <description>North Florida/ South Georgia VA Healthcare System's Imaging Service is seeking an experienced and well rounded Radiologist-Assistant Chief. Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academic hospital  | Salary: $385,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855054100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Radiologist w/Recruitment/Relocation Incentive-EDRP</title>
+      <link>https://www.usajobs.gov:443/job/854189400</link>
+      <description>The Central Texas VA Health Care System is seeking a Physician (Radiologist) to serve as a consultant to referring health care providers and follow the guidelines of the American College of Radiology (ACR) and American Institute of Ultrasound in Medicine. A Recruitment/Relocation Incentive may be co | Salary: $355,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/854189400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Radiologist-Body/MSK and/or Neuro)</title>
+      <link>https://www.usajobs.gov:443/job/860326700</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $360,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/860326700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Regular Ft) Radiologist</title>
+      <link>https://www.usajobs.gov:443/job/855383100</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $345,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855383100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Psychiatric Physician)</title>
+      <link>https://www.usajobs.gov:443/job/861926900</link>
+      <description>Corrections professionals who foster a humane and secure environment and ensure public safety by preparing individuals for successful reentry into our communities. | Salary: $124,308–$315,000 PA | Grade: GP</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/861926900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Bureau of Prisons/Federal Prison System</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Misc Administration and Program Analyst (McCain Fellows)</title>
+      <link>https://www.usajobs.gov:443/job/851191400</link>
+      <description>The John S. McCain Strategic Defense Fellowship Program is a 1-year Department of War (DoW) development program for recent advanced degree program graduates from across multiple academic disciplines. While these are temporary appointments, Fellows that successfully complete this program are eligible | Salary: $77,001–$131,826 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/851191400</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Washington Headquarters Services</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Section Chief Hematology/Oncology</title>
+      <link>https://www.usajobs.gov:443/job/862427700</link>
+      <description>The VA Central California Health Care System is looking for seeking a full-time Physician - Section Chief of Hematology/Oncology in the Specialty Care Service. This position is critical to the VA's mission to provide high-quality, Veteran-centered care. | Salary: $325,000–$365,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/862427700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Neurology) - Movement</title>
+      <link>https://www.usajobs.gov:443/job/856087300</link>
+      <description>The Miami VA Healthcare System (Bruce W. Carter VA Medical Center) Specialty Care Service is seeking an experienced and dynamic Physician (Neurology). Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academi | Salary: $124,308–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/856087300</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Radiologist Diagnostic Neuroradiology)</title>
+      <link>https://www.usajobs.gov:443/job/856286500</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $380,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/856286500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician Gastroenterology/Hepatology</title>
+      <link>https://www.usajobs.gov:443/job/859726600</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $240,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/859726600</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Plastic Surgery)</title>
+      <link>https://www.usajobs.gov:443/job/863623200</link>
+      <description>The North Florida/ South Georgia VA Healthcare System's Surgical Care Service is seeking an experienced and dynamic board-certified Plastic Surgeon. Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academic  | Salary: $341,145–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/863623200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Home Base Primary Care Medical Director) - Recruitment/Recruitment and EDRP</title>
+      <link>https://www.usajobs.gov:443/job/855333700</link>
+      <description>The Home Base Primary Care (HBPC) Medical Director within the Geriatric and Extended Care Service at the Thomas E. Creek VA Health Care System is responsible for clinical over site of all HBPC services in Amarillo and satellite programs. Recruitment or Relocation Incentive May be Authorized. Educati | Salary: $275,000–$330,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/855333700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Geriatrics)- Community Living Center</title>
+      <link>https://www.usajobs.gov:443/job/856699200</link>
+      <description>The North Florida/ South Georgia VA Healthcare System's Geriatrics &amp; Extended Care Service is seeking an experienced and dynamic Board Certified Physician (Geriatrics) for our Lake City Community Living Center. This position offers a chance to serve our nation's veterans along with excellent work li | Salary: $228,000–$315,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/856699200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
 </rss>
