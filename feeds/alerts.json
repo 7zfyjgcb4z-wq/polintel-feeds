@@ -1,25 +1,28 @@
 {
-  "generated_at": "2026-04-25T14:11:17Z",
+  "generated_at": "2026-04-26T07:41:33Z",
   "alerts": [],
   "_tracking": {
     "consecutive_failures": {
-      "USAJobs Fellowships": 0,
-      "USAJobs": 0,
-      "House Employment Bulletin": 0,
-      "Idealist": 0,
-      "Political Job Hunt": 0,
-      "LobbyingJobs.com": 0,
-      "Brookings Institution Careers": 0,
-      "Council on Foreign Relations Careers": 0,
-      "American Enterprise Institute Careers": 0,
-      "Heritage Foundation Careers": 0,
-      "Carnegie Endowment for International Peace Careers": 0,
-      "Hoover Institution Careers": 0,
-      "Wilson Center Careers": 0,
-      "New America Careers": 0,
-      "Third Way Careers": 0,
-      "Public Affairs Council Jobs": 0,
-      "Foundation List": 0
+      "Civil Service Jobs": 0,
+      "NICS": 0,
+      "LGA Jobs": 0,
+      "CharityJob": 0,
+      "jobs.ac.uk": 0,
+      "National Audit Office": 0,
+      "IPPR": 0,
+      "Policy Exchange": 0,
+      "Onward": 0,
+      "NEF": 0,
+      "Demos": 0,
+      "Liberal Democrats": 0,
+      "SNP": 0,
+      "Green Party": 0,
+      "Co-operative Party": 0,
+      "Ellwood Atfield": 0,
+      "Amnesty International UK": 0,
+      "TUC": 0,
+      "W4MP": 0,
+      "UN Job Feed": 0
     }
   }
 }
