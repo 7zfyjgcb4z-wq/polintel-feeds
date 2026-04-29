@@ -319,6 +319,69 @@ async def run_pipeline(
 
     all_jobs = jobs_to_enrich + jobs_no_enrich
 
+    # ── Location extraction ───────────────────────────────────────────────────
+    # Fills job.location where it is not already set by a dedicated scraper.
+    # Dedicated scrapers (e.g. eutraining, house_employment_bulletin) populate
+    # location from structured upstream data; those values are preserved.
+    try:
+        from src.utils.location_extractor import extract_location  # noqa: PLC0415
+
+        loc_stats: dict[str, dict] = {}
+        unmatched_prefixes: list[str] = []
+
+        for job in all_jobs:
+            src = job.source_name
+            if src not in loc_stats:
+                loc_stats[src] = {"total": 0, "extracted": 0}
+            loc_stats[src]["total"] += 1
+
+            if job.location:
+                # Already set by dedicated scraper — preserve it.
+                loc_stats[src]["extracted"] += 1
+                continue
+
+            try:
+                result = extract_location(
+                    description=job.description,
+                    url=job.url,
+                    title=job.title,
+                    creator=None,
+                )
+                job.location = result
+                if result:
+                    loc_stats[src]["extracted"] += 1
+                else:
+                    prefix = (job.description or "")[:80].strip()
+                    if prefix:
+                        unmatched_prefixes.append(prefix)
+            except Exception as exc:
+                log.warning(f"location extraction failed [{src}] {job.url}: {exc}")
+
+        # Summary log by source
+        summary_lines = ["location-extraction summary:"]
+        for src_name, counts in sorted(loc_stats.items()):
+            total = counts["total"]
+            extracted = counts["extracted"]
+            null_count = total - extracted
+            pct_ex = round(100 * extracted / total) if total else 0
+            pct_null = 100 - pct_ex
+            summary_lines.append(
+                f"  {src_name}: total={total} extracted={extracted}"
+                f" ({pct_ex}%) null={null_count} ({pct_null}%)"
+            )
+        log.info("\n".join(summary_lines))
+
+        # Top 20 unmatched prefixes to guide future layer improvements
+        if unmatched_prefixes:
+            top = unmatched_prefixes[:20]
+            prefix_lines = ["top unmatched description prefixes (first 80 chars):"]
+            for p in top:
+                prefix_lines.append(f"  {p!r}")
+            log.info("\n".join(prefix_lines))
+
+    except Exception as exc:
+        log.warning(f"Location extraction pass failed (non-fatal): {exc}")
+
     # ── Store ─────────────────────────────────────────────────────────────────
     new_count = db.upsert_jobs(all_jobs)
     db.expire_by_closing_date()
