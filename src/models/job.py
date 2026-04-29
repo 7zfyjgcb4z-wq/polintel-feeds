@@ -13,7 +13,7 @@ class Job:
     source_name: str                      # e.g. "Chatham House"
     country: str = "uk"
     category: str = ""                    # Broad slug: "think-tanks", "government", etc.
-    location: str | None = None
+    location: str | None = None  # Free-text location string e.g. "Brussels, Belgium" or "London" or "Nairobi, Kenya". Mapped to country_code by the Edge Function parser.
     closing_date: str | None = None       # ISO date if known
     date_scraped: str = field(default_factory=lambda: datetime.utcnow().isoformat())
     language: str = "en"

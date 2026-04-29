@@ -125,6 +125,41 @@ def generate_feeds(
     return counts
 
 
+def _inject_location(out_path: str, jobs: list[Job]) -> None:
+    """Post-process an RSS file to add <polintel:location> to job items.
+
+    Only modifies the file when at least one job has a non-empty location.
+    Matches items by <guid> text, which is always job.url.
+    """
+    location_by_url = {
+        job.url: job.location
+        for job in jobs
+        if job.location and job.location.strip()
+    }
+    if not location_by_url:
+        return
+
+    tree = ET.parse(out_path)
+    root = tree.getroot()
+    channel = root.find("channel")
+    if channel is None:
+        return
+
+    modified = False
+    for item in channel.findall("item"):
+        guid_el = item.find("guid")
+        if guid_el is None or not guid_el.text:
+            continue
+        loc = location_by_url.get(guid_el.text.strip())
+        if loc:
+            el = ET.SubElement(item, f"{{{POLINTEL_NS}}}location")
+            el.text = loc
+            modified = True
+
+    if modified:
+        tree.write(out_path, encoding="UTF-8", xml_declaration=True)
+
+
 def _inject_partisan_lean(out_path: str, jobs: list[Job]) -> None:
     """Post-process an RSS file to add <polintel:partisanLean> to US job items.
 
@@ -217,6 +252,9 @@ def _write_feed(
 
     out_path = os.path.join(output_dir, f"{country}-{category}.xml")
     fg.rss_file(out_path, pretty=True)
+
+    # Inject <polintel:location> when the extractor has populated job.location
+    _inject_location(out_path, jobs)
 
     # Inject <polintel:partisanLean> for US jobs (no-op for UK/Brussels)
     _inject_partisan_lean(out_path, jobs)
