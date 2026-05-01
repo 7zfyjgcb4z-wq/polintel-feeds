@@ -110,6 +110,19 @@ def _description_from_html(html: str) -> str | None:
     """Extract main readable text from HTML via readability.  Returns None if
     extraction produces less than 50 characters or looks like a challenge page."""
     try:
+        # Strip Complianz cookie consent elements before readability runs.
+        # On WordPress sites with fragmented layouts (e.g. pac.org), the
+        # Complianz banner div contains more continuous text than any
+        # individual content div, so readability incorrectly identifies it
+        # as the main content. Stripping it first forces readability to
+        # score real content.
+        pre_soup = BeautifulSoup(html, "lxml")
+        for el in pre_soup.select(
+            '[class^="cmplz-"], [class*=" cmplz-"], [id^="cmplz-"]'
+        ):
+            el.decompose()
+        html = str(pre_soup)
+
         doc = Document(html)
         summary_html = doc.summary()
         soup = BeautifulSoup(summary_html, "lxml")
