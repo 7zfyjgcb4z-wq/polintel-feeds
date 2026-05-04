@@ -8,12 +8,12 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 May 2026 14:18:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 15:18:37 +0000</lastBuildDate>
     <item>
       <title>Green &amp; Gold Congressional Aide</title>
-      <link>https://www.usajobs.gov:443/job/864338500</link>
+      <link>https://www.usajobs.gov:443/job/862049600</link>
       <description>This position is limited to Veterans, Gold Star family members and Active-duty spouses desiring to serve a two-year paid Congressional Fellowship as part of the House of Representatives. Selected Fellows will work directly for a Member of Congress or other House officer as part of an office team. | Salary: $56,000–$68,000 PA | Grade: HS</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/864338500</guid>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/862049600</guid>
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:02 +0000</pubDate>
       <dc:creator>House of Representatives</dc:creator>
@@ -1159,6 +1159,15 @@
       <guid isPermaLink="false">https://www.usajobs.gov:443/job/867616300</guid>
       <category>US Fellowships</category>
       <pubDate>Sat, 02 May 2026 14:10:06 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician - Radiology Fee Basis</title>
+      <link>https://www.usajobs.gov:443/job/867617100</link>
+      <description>The Northern Arizona VA is seeking Radiologist Physician to serve as Fee Basis providers on an intermittent schedule. What is Fee Basis: Fee Basis appointment are temporary appointments for professional and technical occupations under Title 38 of the United States Code, Section 7405(a)(2). These app | Salary: $15–$60 FB | Grade: FB</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/867617100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Mon, 04 May 2026 15:10:37 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
