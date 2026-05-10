@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2026 14:24:35 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 14:27:55 +0000</lastBuildDate>
     <item>
       <title>Green &amp; Gold Congressional Aide</title>
       <link>https://www.usajobs.gov:443/job/853548900</link>
@@ -1789,6 +1789,15 @@
       <guid isPermaLink="false">https://www.usajobs.gov:443/job/868526800</guid>
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:56 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Pain Management)</title>
+      <link>https://www.usajobs.gov:443/job/859498500</link>
+      <description>The 2-page resume requirement does not apply to this occupational series. For more information, refer to "Required Documents" below The Bay Pines VA Healthcare System's Primary Care Service is seeking an experienced and dynamic Primary Care Pain Physician. Ideal applicants are those who want to cont | Salary: $245,000–$380,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/859498500</guid>
+      <category>US Fellowships</category>
+      <pubDate>Sun, 10 May 2026 14:19:54 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
