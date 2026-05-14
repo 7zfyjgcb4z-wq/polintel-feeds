@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 10:33:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 10:23:14 +0000</lastBuildDate>
     <item>
       <title>IT Business Analyst</title>
       <link>https://eutraining.eu/content/it-business-analyst</link>
@@ -172,15 +172,6 @@
       <dc:creator>TEPSA Trans European Policy Studies</dc:creator>
     </item>
     <item>
-      <title>Director of Administration</title>
-      <link>https://www.eurobrussels.com/job_display/287259/Director_of_Administration_ESRF_European_Synchrotron_Radiation_Facility_Grenoble_France</link>
-      <description>ESRF European Synchrotron Radiation | Facility Grenoble France</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/287259/Director_of_Administration_ESRF_European_Synchrotron_Radiation_Facility_Grenoble_France</guid>
-      <category>EU Affairs</category>
-      <pubDate>Mon, 06 Apr 2026 12:14:13 +0000</pubDate>
-      <dc:creator>ESRF European Synchrotron Radiation</dc:creator>
-    </item>
-    <item>
       <title>Director (m/f/d) - Energy &amp; Resources</title>
       <link>https://www.eurobrussels.com/job_display/289058/Director_m_f_d_Energy_Resources_adelphi_Berlin_Germany</link>
       <description>EuroBrussels | adelphi Berlin Germany</description>
@@ -271,15 +262,6 @@
       <dc:creator>EDA European Defence</dc:creator>
     </item>
     <item>
-      <title>Legal Officers - Supervision and Enforcement Unit</title>
-      <link>https://www.eurobrussels.com/job_display/288578/Legal_Officers_Supervision_and_Enforcement_Unit_EDPS_European_Data_Protection_Supervisor_Brussels_Belgium</link>
-      <description>European Data Protection | Supervisor Brussels Belgium</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288578/Legal_Officers_Supervision_and_Enforcement_Unit_EDPS_European_Data_Protection_Supervisor_Brussels_Belgium</guid>
-      <category>EU Affairs</category>
-      <pubDate>Mon, 06 Apr 2026 12:13:51 +0000</pubDate>
-      <dc:creator>European Data Protection</dc:creator>
-    </item>
-    <item>
       <title>Legal Officer</title>
       <link>https://www.eurobrussels.com/job_display/289324/Legal_Officer_EUMETSAT_European_Organisation_for_the_Exploitation_of_Meteorological_Satellites_Darmstadt_Germany</link>
       <description>EUMETSAT European Organisation for the Exploitation of Meteorological | Satellites Darmstadt Germany</description>
@@ -368,15 +350,6 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
       <dc:creator>Electica Europe Remote Belgium or Anywhere in</dc:creator>
-    </item>
-    <item>
-      <title>Adviseur Public Affairs EU</title>
-      <link>https://www.eurobrussels.com/job_display/289123/Adviseur_Public_Affairs_EU_Brainport_Development_Brussels_or_Eindhoven_Multiple_Countries</link>
-      <description>Brainport Development Brussels or | Eindhoven Multiple Countries</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289123/Adviseur_Public_Affairs_EU_Brainport_Development_Brussels_or_Eindhoven_Multiple_Countries</guid>
-      <category>EU Affairs</category>
-      <pubDate>Mon, 06 Apr 2026 12:13:29 +0000</pubDate>
-      <dc:creator>Brainport Development Brussels or</dc:creator>
     </item>
     <item>
       <title>EU Projects Officer</title>
@@ -1367,6 +1340,15 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 13 May 2026 10:31:04 +0000</pubDate>
       <dc:creator>European Council on Foreign Relations London United Kingdom</dc:creator>
+    </item>
+    <item>
+      <title>Senior Project Coordinator</title>
+      <link>https://www.eurobrussels.com/job_display/291040/Senior_Project_Coordinator_CEPOL_European_Union_Agency_for_Law_Enforcement_Training_Budapest_Hungary</link>
+      <description>What do you think of this job? I Applied Save This Job Not Interested</description>
+      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/291040/Senior_Project_Coordinator_CEPOL_European_Union_Agency_for_Law_Enforcement_Training_Budapest_Hungary</guid>
+      <category>EU Affairs</category>
+      <pubDate>Thu, 14 May 2026 10:21:58 +0000</pubDate>
+      <dc:creator>CEPOL European Union Agency for Law Enforcement</dc:creator>
     </item>
   </channel>
 </rss>
