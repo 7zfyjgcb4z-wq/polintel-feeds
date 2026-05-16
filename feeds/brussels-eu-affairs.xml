@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 May 2026 10:29:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 09:44:56 +0000</lastBuildDate>
     <item>
       <title>IT Business Analyst</title>
       <link>https://eutraining.eu/content/it-business-analyst</link>
@@ -163,15 +163,6 @@
       <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
     </item>
     <item>
-      <title>Director of Programmes</title>
-      <link>https://www.eurobrussels.com/job_display/289062/Director_of_Programmes_TEPSA_Trans_European_Policy_Studies_Association_Brussels_Belgium</link>
-      <description>TEPSA Trans European Policy Studies | Association Brussels Belgium</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289062/Director_of_Programmes_TEPSA_Trans_European_Policy_Studies_Association_Brussels_Belgium</guid>
-      <category>EU Affairs</category>
-      <pubDate>Mon, 06 Apr 2026 12:14:13 +0000</pubDate>
-      <dc:creator>TEPSA Trans European Policy Studies</dc:creator>
-    </item>
-    <item>
       <title>Director (m/f/d) - Energy &amp; Resources</title>
       <link>https://www.eurobrussels.com/job_display/289058/Director_m_f_d_Energy_Resources_adelphi_Berlin_Germany</link>
       <description>EuroBrussels | adelphi Berlin Germany</description>
@@ -197,15 +188,6 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:10 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
-    <item>
-      <title>Sector Group Manager, Specialty Chemicals</title>
-      <link>https://www.eurobrussels.com/job_display/288946/Sector_Group_Manager_Specialty_Chemicals_CEFIC_European_Chemical_Industry_Council_Brussels_Belgium</link>
-      <description>CEFIC European Chemical Industry | Council Brussels Belgium</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288946/Sector_Group_Manager_Specialty_Chemicals_CEFIC_European_Chemical_Industry_Council_Brussels_Belgium</guid>
-      <category>EU Affairs</category>
-      <pubDate>Mon, 06 Apr 2026 12:14:08 +0000</pubDate>
-      <dc:creator>CEFIC European Chemical Industry</dc:creator>
     </item>
     <item>
       <title>MEL Officer</title>
@@ -1331,6 +1313,15 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 14 May 2026 10:21:58 +0000</pubDate>
       <dc:creator>CEPOL European Union Agency for Law Enforcement</dc:creator>
+    </item>
+    <item>
+      <title>Partnerships &amp; Grants Development Officer</title>
+      <link>https://www.eurobrussels.com/job_display/291154/Partnerships_Grants_Development_Officer_Junior_Enterprises_Europe_Brussels_Belgium</link>
+      <description>What do you think of this job? I Applied Save This Job Not Interested</description>
+      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/291154/Partnerships_Grants_Development_Officer_Junior_Enterprises_Europe_Brussels_Belgium</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sat, 16 May 2026 09:43:32 +0000</pubDate>
+      <dc:creator>Enterprises</dc:creator>
     </item>
   </channel>
 </rss>
