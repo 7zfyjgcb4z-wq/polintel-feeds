@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 09:44:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 09:50:58 +0000</lastBuildDate>
     <item>
       <title>IT Business Analyst</title>
       <link>https://eutraining.eu/content/it-business-analyst</link>
@@ -235,15 +235,6 @@
       <dc:creator>ESM European Stability</dc:creator>
     </item>
     <item>
-      <title>Trainee Legal and Procurement</title>
-      <link>https://www.eurobrussels.com/job_display/288122/Trainee_Legal_and_Procurement_EDA_European_Defence_Agency_Brussels_Belgium</link>
-      <description>EDA European Defence | Agency Brussels Belgium</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/288122/Trainee_Legal_and_Procurement_EDA_European_Defence_Agency_Brussels_Belgium</guid>
-      <category>EU Affairs</category>
-      <pubDate>Mon, 06 Apr 2026 12:13:51 +0000</pubDate>
-      <dc:creator>EDA European Defence</dc:creator>
-    </item>
-    <item>
       <title>Legal Officer</title>
       <link>https://www.eurobrussels.com/job_display/289324/Legal_Officer_EUMETSAT_European_Organisation_for_the_Exploitation_of_Meteorological_Satellites_Darmstadt_Germany</link>
       <description>EUMETSAT European Organisation for the Exploitation of Meteorological | Satellites Darmstadt Germany</description>
@@ -377,15 +368,6 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
       <dc:creator>SFP Smoke Free</dc:creator>
-    </item>
-    <item>
-      <title>EU Project Officer - R&amp;I Policy</title>
-      <link>https://www.eurobrussels.com/job_display/289065/EU_Project_Officer_RI_Policy_EuroTech_Universities_Alliance_Brussels_Belgium</link>
-      <description>Universities | Alliance Brussels Belgium</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289065/EU_Project_Officer_RI_Policy_EuroTech_Universities_Alliance_Brussels_Belgium</guid>
-      <category>EU Affairs</category>
-      <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
-      <dc:creator>Universities</dc:creator>
     </item>
     <item>
       <title>Policy, Economic and Operations Officer</title>
