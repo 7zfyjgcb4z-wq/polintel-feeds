@@ -1,25 +1,13 @@
 {
-  "generated_at": "2026-05-21T16:24:47Z",
+  "generated_at": "2026-05-22T10:56:10Z",
   "alerts": [],
   "_tracking": {
     "consecutive_failures": {
-      "USAJobs Fellowships": 0,
-      "USAJobs": 0,
-      "House Employment Bulletin": 1,
-      "Idealist": 0,
-      "Political Job Hunt": 0,
-      "LobbyingJobs.com": 1,
-      "Brookings Institution Careers": 0,
-      "Council on Foreign Relations Careers": 0,
-      "American Enterprise Institute Careers": 0,
-      "Heritage Foundation Careers": 0,
-      "Carnegie Endowment for International Peace Careers": 0,
-      "Hoover Institution Careers": 0,
-      "Wilson Center Careers": 0,
-      "New America Careers": 0,
-      "Third Way Careers": 0,
-      "Public Affairs Council Jobs": 0,
-      "Foundation List": 0
+      "EuroBrussels": 0,
+      "EU Training Jobs": 0,
+      "European External Action Service": 0,
+      "European Policy Centre": 0,
+      "College of Europe Careers": 0
     }
   }
 }
