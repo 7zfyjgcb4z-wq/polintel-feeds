@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
@@ -12,6 +13,12 @@ from src.models.job import Job
 
 
 log = logging.getLogger(__name__)
+
+
+def _xml_safe(text: str | None) -> str | None:
+    if text is None:
+        return None
+    return re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
 
 POLINTEL_NS = "https://pol-intel.com/rss-ext/1.0"
 
@@ -185,15 +192,15 @@ def _write_feed(
 
         fe = fg.add_entry()
         fe.id(job.guid)
-        fe.title(job.title)
+        fe.title(_xml_safe(job.title))
         fe.link(href=job.url)
-        fe.description(job.description or "")
+        fe.description(_xml_safe(job.description) or "")
         # Write organisation as dc:creator (plain text, RSS 2.0 compatible).
         # feedgen's fe.author() only works properly in Atom; in RSS it requires
         # an email address. dc:creator is the correct field for a plain-text
         # organisation name and is what the downstream Lovable parser reads.
         if job.organisation:
-            fe.dc.dc_creator(job.organisation)
+            fe.dc.dc_creator(_xml_safe(job.organisation))
 
         # pubDate from date_scraped
         try:
@@ -206,7 +213,7 @@ def _write_feed(
         fe.category({"term": label})
 
         if job.closing_date:
-            fe.summary(f"Closing: {job.closing_date}. {job.description or ''}"[:500])
+            fe.summary(_xml_safe(f"Closing: {job.closing_date}. {job.description or ''}"[:500]))
 
     out_path = os.path.join(output_dir, f"{country}-{category}.xml")
     fg.rss_file(out_path, pretty=True)
