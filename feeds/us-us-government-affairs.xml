@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 17:03:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 16:51:09 +0000</lastBuildDate>
     <item>
       <title>Global Corporate Relations Manager</title>
       <link>https://pac.org/job/global-corporate-relations-manager-2</link>
@@ -7598,5 +7598,14 @@
       <category>US Government Affairs</category>
       <pubDate>Thu, 28 May 2026 16:54:18 +0000</pubDate>
     <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <item>
+      <title>Vice President, Health Policy &amp; Reimbursement</title>
+      <link>https://pac.org/job/vice-president-health-policy-reimbursement</link>
+      <description>To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions. The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</description>
+      <guid isPermaLink="false">https://pac.org/job/vice-president-health-policy-reimbursement</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Fri, 29 May 2026 16:42:48 +0000</pubDate>
+      <dc:creator>Medical Device Manufacturers Association (MDMA)</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
 </rss>
