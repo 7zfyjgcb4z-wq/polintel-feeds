@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 11:31:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 10:25:09 +0000</lastBuildDate>
     <item>
       <title>Regional Organiser: South East, East of England &amp; London (PT)</title>
       <link>https://party.coop/jobs/roseel</link>
@@ -232,6 +232,15 @@
       <category>Political Parties</category>
       <pubDate>Fri, 29 May 2026 09:52:16 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
+    </item>
+    <item>
+      <title>Campaign Strategy Consultant</title>
+      <link>https://greenparty.org.uk/app/uploads/2026/06/Final-Consultant-Brief-Campaign-Strategy-Consultant.pdf</link>
+      <description>Closing: Closes 15th Jun 2026. </description>
+      <guid isPermaLink="false">https://greenparty.org.uk/app/uploads/2026/06/Final-Consultant-Brief-Campaign-Strategy-Consultant.pdf</guid>
+      <category>Political Parties</category>
+      <pubDate>Tue, 02 Jun 2026 10:20:19 +0000</pubDate>
+      <dc:creator>Green Party of England and Wales</dc:creator>
     </item>
   </channel>
 </rss>
