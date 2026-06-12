@@ -54,8 +54,15 @@ class SelectorScraper:
             log.info(f"{source_name}: no job cards found with selector '{card_sel}'")
             return []
 
+        title_exclude = selectors.get("title_exclude")
         jobs: List[Job] = []
         for card in cards:
+            if title_exclude:
+                title_sel = selectors.get("title") or ""
+                title_el = card.select_one(title_sel) if title_sel else None
+                if title_el:
+                    for excl in title_el.select(title_exclude):
+                        excl.decompose()
             title = self._extract(card, selectors.get("title"))
             if not title:
                 continue
@@ -88,9 +95,7 @@ class SelectorScraper:
     def _extract(card, selector: str | None) -> str | None:
         if not selector:
             return None
-        # Strip attribute portion like [href] for text extraction
-        base_sel = selector.split("[")[0].strip()
-        el = card.select_one(base_sel)
+        el = card.select_one(selector)
         if not el:
             return None
         text = el.get_text(strip=True)

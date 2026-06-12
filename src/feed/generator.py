@@ -230,9 +230,11 @@ def _write_feed(
         if job.organisation:
             fe.dc.dc_creator(job.organisation)
 
-        # pubDate from date_scraped
+        # pubDate from posted_date if available, else date_scraped
         try:
-            pub_dt = datetime.fromisoformat(job.date_scraped).replace(tzinfo=timezone.utc)
+            pub_dt = datetime.fromisoformat(job.posted_date or job.date_scraped)
+            if pub_dt.tzinfo is None:
+                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
         except (ValueError, TypeError):
             pub_dt = datetime.now(timezone.utc)
         fe.published(pub_dt)

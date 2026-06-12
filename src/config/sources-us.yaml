@@ -228,6 +228,21 @@ sources:
     enabled: true
     notes: "JazzHR (resumator) board. Confirmed live with 2 active jobs. newamerica.org/about/careers is a static landing page only — the JazzHR subdomain is the correct target. ats_auto detects JazzHR (applytojob.com) but no extractor exists; use selector. Same platform as Heritage Foundation."
 
+  - name: "Atlantic Council Careers"
+    url: "https://www.atlanticcouncil.org/careers/"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "article.type-job_opportunity, .elementor-post, h2 a[href*='/job-opportunity/']"
+      title: "h2 a, h3 a, a[href*='/job-opportunity/']"
+      link: "h2 a, h3 a, a[href*='/job-opportunity/']"
+    org_static: "Atlantic Council"
+    enrich_description: true
+    partisan_lean: nonpartisan
+    enabled: true
+    notes: "Custom WordPress job board at atlanticcouncil.org/careers/ — jobs at /job-opportunity/ permalinks. Applications via Paycom (paycomonline.net). Spec claimed Greenhouse token 'atlanticcouncil' but board does not exist; org uses WordPress + Paycom."
+
   - name: "Third Way Careers"
     url: "https://thirdway.recruitee.com/"
     country: us
@@ -294,31 +309,31 @@ sources:
     url: "https://urban.wd1.myworkdayjobs.com/Urban-Careers"
     country: us
     category: us-think-tanks
-    scraper: selector
-    selectors:
-      job_card: "li.css-1q2dra3"
-      title: "a"
-      link: "a"
+    scraper: ats_auto
+    platform: workday
+    identifier:
+      tenant: urban
+      dc: wd1
+      site: Urban-Careers
     org_static: "Urban Institute"
-    enrich_description: false
     partisan_lean: centre-left
     enabled: false
-    notes: "Workday ATS at urban.wd1.myworkdayjobs.com. urban.org domain 403-blocks all scrapers. Workday is JS-rendered — ats_auto detects it but the pipeline stub returns []. Re-enable if Workday extractor is added to the pipeline."
+    notes: "Workday wd1. HARD-BLOCKED: GET portal returns 500 (Cloudflare); POST CXS endpoint returns 422 even with full browser header profile (Chrome UA, Sec-Fetch headers, CF cookies). Re-enable if Cloudflare protection is lifted."
 
   - name: "RAND Corporation Careers"
     url: "https://rand.wd5.myworkdayjobs.com/External_Career_Site"
     country: us
     category: us-think-tanks
-    scraper: selector
-    selectors:
-      job_card: "li.css-1q2dra3"
-      title: "a"
-      link: "a"
+    scraper: ats_auto
+    platform: workday
+    identifier:
+      tenant: rand
+      dc: wd5
+      site: External_Career_Site
     org_static: "RAND Corporation"
-    enrich_description: false
     partisan_lean: nonpartisan
-    enabled: false
-    notes: "Workday ATS at rand.wd5.myworkdayjobs.com (also aliased as jobs.rand.org). rand.org domain 403-blocks scraper requests. Workday is JS-rendered — pipeline stub returns []. No RSS feed found. Re-enable if Workday extractor is added to the pipeline."
+    enabled: true
+    notes: "Workday wd5 API confirmed working 2026-06-12. Descriptions are empty (Workday job pages are JS-rendered; enricher cannot fetch them)."
 
   - name: "Cato Institute Careers"
     url: "https://www.cato.org/about/open-positions"
@@ -354,16 +369,13 @@ sources:
     url: "https://trumanproject.org/about/careers"
     country: us
     category: us-fellowships
-    scraper: selector
-    selectors:
-      job_card: "tr, .job"
-      title: "a"
-      link: "a"
+    scraper: ats_auto
+    platform: greenhouse
+    identifier:
+      token: trumanprojectjobs
     org_static: "Truman National Security Project"
-    enrich_description: true
     partisan_lean: centre-left
-    enabled: false
-    notes: "Paylocity ATS at recruiting.paylocity.com/recruiting/jobs/All/b0bc350d-e06f-4160-825e-8da411dc1c06/Truman-Center-for-National-Policy. Paylocity is JS-rendered and not in the pipeline's supported ATS list. Re-enable if Paylocity support is added."
+    enabled: true
 
   - name: "DemocraticGAIN / GainPower Career Center"
     url: "https://careercenter.gainpower.org"
@@ -439,3 +451,157 @@ sources:
     partisan_lean: left
     enabled: false
     notes: "403 — entire cbpp.org domain returns 403 for all automated requests. ATS platform unknown. Re-enable if an external ATS subdomain is identified."
+
+  - name: "Manhattan Institute"
+    url: "https://manhattan.institute/careers"
+    country: us
+    category: us-think-tanks
+    scraper: ats_auto
+    platform: greenhouse
+    identifier:
+      token: manhattaninstituteforpolicyresearchinc
+    org_static: "Manhattan Institute"
+    partisan_lean: right
+    enabled: true
+
+  - name: "CNAS"
+    url: "https://www.cnas.org/careers"
+    country: us
+    category: us-think-tanks
+    scraper: ats_auto
+    platform: bamboohr
+    identifier:
+      company: cnas
+    org_static: "Center for a New American Security"
+    partisan_lean: nonpartisan
+    enabled: true
+
+  - name: "CSIS"
+    url: "https://www.csis.org/careers"
+    country: us
+    category: us-think-tanks
+    scraper: generic
+    org_static: "Center for Strategic and International Studies"
+    partisan_lean: nonpartisan
+    enabled: false  # HARD-BLOCKED: 403 persists with Chrome UA + Sec-Fetch browser header profile
+
+  - name: "Stimson Center"
+    url: "https://www.stimson.org/about/jobs"
+    country: us
+    category: us-think-tanks
+    scraper: generic
+    org_static: "Stimson Center"
+    partisan_lean: nonpartisan
+    enabled: false  # HARD-BLOCKED: 403 persists with Chrome UA + Sec-Fetch browser header profile
+
+  - name: "Hudson Institute"
+    url: "https://recruiting.paylocity.com/recruiting/jobs/All/58f6a769-631f-48b9-aa5a-874b6f41aaae/Hudson-Institute"
+    country: us
+    category: us-think-tanks
+    scraper: ats_auto
+    platform: paylocity
+    identifier:
+      guid: "58f6a769-631f-48b9-aa5a-874b6f41aaae"
+    org_static: "Hudson Institute"
+    partisan_lean: right
+    enabled: true
+
+  - name: "R Street Institute"
+    url: "https://street.applytojob.com/apply"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.list-group-item"
+      title: "h3.list-group-item-heading a"
+      link: "h3.list-group-item-heading a"
+    org_static: "R Street Institute"
+    enrich_description: true
+    partisan_lean: centre-right
+    enabled: true
+    notes: "JazzHR board at street.applytojob.com. rstreet.org/about/jobs/ embeds this via Jazz widget. Board was empty on 2026-06-12 but is live — same platform as Heritage Foundation and New America. Enable per policy: live empty board stays enabled."
+
+  - name: "Mercatus Center"
+    url: "https://www.mercatus.org/careers"
+    country: us
+    category: us-think-tanks
+    scraper: generic
+    org_static: "Mercatus Center"
+    partisan_lean: right
+    enabled: false  # HARD-BLOCKED: 403 persists with Chrome UA + Sec-Fetch browser header profile (Cloudflare)
+
+  - name: "Niskanen Center"
+    url: "https://www.niskanencenter.org/careers/"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "div.block-current-openings__item"
+      title: "h3.block-current-openings__item-title"
+      link: "a.component-button"
+    org_static: "Niskanen Center"
+    enrich_description: true
+    partisan_lean: centre
+    enabled: true
+    notes: "WordPress block theme. Confirmed 3 live jobs 2026-06-12 — accessible with Pol-Intel UA (earlier 403 was transient rate-limiting). Job URLs are /jobs/{slug}/. Title and link are separate elements in the card."
+
+  - name: "Peterson Institute for International Economics"
+    url: "https://www.piie.com/about/employment"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "p"
+      title: "a[href*='/employment/']"
+      link: "a[href*='/employment/']"
+    org_static: "Peterson Institute for International Economics"
+    partisan_lean: nonpartisan
+    enrich_description: true
+    enabled: true
+
+  - name: "Brennan Center for Justice"
+    url: "https://brennancenter.applytojob.com/apply"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "li.list-group-item"
+      title: "h3.list-group-item-heading a"
+      link: "h3.list-group-item-heading a"
+    org_static: "Brennan Center for Justice"
+    partisan_lean: left
+    enrich_description: true
+    enabled: true
+
+  - name: "Roosevelt Institute"
+    url: "https://rooseveltinstitute.org/careers/"
+    country: us
+    category: us-think-tanks
+    scraper: selector
+    selectors:
+      job_card: "div.list__single-row"
+      title: "h5 a"
+      link: "h5 a"
+      title_exclude: "span.screen-reader-text"
+    org_static: "Roosevelt Institute"
+    partisan_lean: left
+    enrich_description: true
+    enabled: true
+
+  - name: "Center for Global Development"
+    url: "https://www.cgdev.org/careers"
+    country: us
+    category: us-think-tanks
+    scraper: generic
+    org_static: "Center for Global Development"
+    partisan_lean: nonpartisan
+    enabled: false  # HARD-BLOCKED: 403 persists with Chrome UA + Sec-Fetch browser header profile
+
+  - name: "Migration Policy Institute"
+    url: "https://www.migrationpolicy.org/about/employment"
+    country: us
+    category: us-think-tanks
+    scraper: generic
+    org_static: "Migration Policy Institute"
+    partisan_lean: nonpartisan
+    enabled: false  # HARD-BLOCKED: 403 on all /about/employment, /careers, /jobs URL variants with browser header profile

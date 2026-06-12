@@ -163,7 +163,7 @@ async def run_pipeline(
     ats_sources = [s for s in active_sources if s.get("scraper") == "ats_auto"]
     if ats_sources:
         from src.scrapers.ats_detector import detect_ats  # noqa: PLC0415
-        from src.scrapers.ats_extractors import get_extractor  # noqa: PLC0415
+        from src.scrapers.ats_extractors import get_extractor, PLATFORM_EXTRACTORS  # noqa: PLC0415
 
         for source in ats_sources:
             sources_checked += 1
@@ -176,6 +176,20 @@ async def run_pipeline(
                     _record(source["name"], "ats_auto", "failed", 0, elapsed, "requires_js=true (Playwright not enabled)")
                     continue
 
+                # New API-based path: 'platform' field triggers direct API call (no HTML fetch).
+                # Legacy 'ats_type' field still routes through the HTML-based detection path.
+                platform = source.get("platform")
+                if platform and platform in PLATFORM_EXTRACTORS:
+                    api_extractor = PLATFORM_EXTRACTORS[platform]
+                    jobs = await api_extractor.extract(source)
+                    elapsed = time.monotonic() - t
+                    all_jobs.extend(jobs)
+                    sources_succeeded += 1
+                    log.info(f"OK: {source['name']} (API:{platform}) — {len(jobs)} jobs")
+                    _record(source["name"], "ats_auto", "success", len(jobs), elapsed)
+                    continue
+
+                # HTML-based detection/extraction path (legacy ats_type or auto-detection).
                 html = await _fetch_html(source["url"])
                 ats_type = source.get("ats_type") or detect_ats(html, source["url"])
                 if not ats_type:
