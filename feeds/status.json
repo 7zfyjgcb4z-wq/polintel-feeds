@@ -1,36 +1,26 @@
 {
-  "last_run": "2026-06-12T19:36:07Z",
-  "country": "southern",
+  "last_run": "2026-06-12T21:17:00Z",
+  "country": "benelux",
   "total_active_jobs": 0,
   "new_jobs_found": 0,
-  "sources_checked": 2,
-  "sources_succeeded": 2,
+  "sources_checked": 1,
+  "sources_succeeded": 1,
   "sources_failed": 0,
-  "sources_disabled": 17,
+  "sources_disabled": 0,
   "relevance_filtered": 0,
   "descriptions_enriched": 0,
-  "feeds_generated": 5,
-  "run_duration_seconds": 1.5,
+  "feeds_generated": 3,
+  "run_duration_seconds": 0.6,
   "failed_sources": [],
   "per_source": [
     {
-      "name": "Mission Politique",
+      "name": "TestNoATS",
       "scraper_type": "ats_auto",
       "status": "success",
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.7,
-      "notes": "AI fallback (no ATS detected)"
-    },
-    {
-      "name": "Emplois Politiques",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.7,
+      "duration_seconds": 0.6,
       "notes": "AI fallback (no ATS detected)"
     }
   ]

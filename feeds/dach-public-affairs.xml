@@ -1,13 +1,99 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>DACH Public Affairs Jobs (DE/AT)</title>
     <link>/dach-public-affairs.xml</link>
     <description>Job listings for Public Affairs roles, scraped by Pol-Intel.</description>
-    <atom:link href="/dach-public-affairs.xml" rel="self"/>
+    <atom:link href="/dach-public-affairs.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 19:35:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 21:11:56 +0000</lastBuildDate>
+    <item>
+      <title>Public Affairs Manager:in (m/w/d)</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/public-affairs-managerin-mwd-berlin-helmholtz-gemeinschaft-deutscher-forschungszentren-e-v-12974703</link>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/public-affairs-managerin-mwd-berlin-helmholtz-gemeinschaft-deutscher-forschungszentren-e-v-12974703</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>Helmholtz-Gemeinschaft Deutscher Forschungszentren e. V.</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
+    <item>
+      <title>Referentin/Referenten für Öffentlichkeitsarbeit (m/w/d)</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/referentinreferenten-fur-offentlichkeitsarbeit-mwd-munchen-psychotherapeutenkammer-bayern-12974777</link>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/referentinreferenten-fur-offentlichkeitsarbeit-mwd-munchen-psychotherapeutenkammer-bayern-12974777</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>Psychotherapeutenkammer Bayern</dc:creator>
+    <polintel:location>München</polintel:location></item>
+    <item>
+      <title>Leiter*in Public Affairs  (m/w/d)</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/leiterin-public-affairs-mwd-berlin-pro-generika-ev-12974906</link>
+      <description>Ort Pro Generika e.v. Unter den Linden 32-34 Mitte 10117 Berlin</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/leiterin-public-affairs-mwd-berlin-pro-generika-ev-12974906</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>Pro Generika e.v.</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
+    <item>
+      <title>Manager Public Affairs - Regionen &amp; Landespolitik (m/w/d)</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/manager-public-affairs-regionen-landespolitik-mwd-koln-rewe-group-12974912</link>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/manager-public-affairs-regionen-landespolitik-mwd-koln-rewe-group-12974912</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>REWE GROUP</dc:creator>
+    <polintel:location>Köln</polintel:location></item>
+    <item>
+      <title>eine*n Referent*in für Content Creation/Social Media (m/w/d)</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/einen-referentin-fur-content-creationsocial-media-mwd-dusseldorf-fraktion-bundnis-90die-grunen-im-landtag-nrw-12974767</link>
+      <description>Ort Fraktion BÜNDNIS 90/DIE GRÜNEN im Landtag NRW Platz des Landtags 1 40221 Düsseldorf</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/einen-referentin-fur-content-creationsocial-media-mwd-dusseldorf-fraktion-bundnis-90die-grunen-im-landtag-nrw-12974767</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>Fraktion BÜNDNIS 90/DIE GRÜNEN im Landtag NRW</dc:creator>
+    <polintel:location>Düsseldorf</polintel:location></item>
+    <item>
+      <title>Leitung Strategie, Kommunikation und Presse (m/w/d)</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/leitung-strategie-kommunikation-und-presse-mwd-dusseldorf-fraktion-bundnis-90die-grunen-im-landtag-nrw-12974693</link>
+      <description>Ort Fraktion BÜNDNIS 90/DIE GRÜNEN im Landtag NRW Platz des Landtags 1 40221 Düsseldorf</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/leitung-strategie-kommunikation-und-presse-mwd-dusseldorf-fraktion-bundnis-90die-grunen-im-landtag-nrw-12974693</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>Fraktion BÜNDNIS 90/DIE GRÜNEN im Landtag NRW</dc:creator>
+    <polintel:location>Düsseldorf</polintel:location></item>
+    <item>
+      <title>Referent für Kommunikation und Social Media (m/w/d) in Vollzeit</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/referent-fur-kommunikation-und-social-media-mwd-in-vollzeit-berlin-deutscher-bundestag-abgeordnetenburo-stefan-rouenhoff-mdb-12974896</link>
+      <description>Ort Deutscher Bundestag - Abgeordnetenbüro Stefan Rouenhoff MdB Platz der Republik 1 11011 Berlin</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/referent-fur-kommunikation-und-social-media-mwd-in-vollzeit-berlin-deutscher-bundestag-abgeordnetenburo-stefan-rouenhoff-mdb-12974896</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>Deutscher Bundestag - Abgeordnetenbüro Stefan Rouenhoff MdB</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
+    <item>
+      <title>Leiter Bundestagsbüro (m/w/d) in Vollzeit mit Schwerpunkt „Politische Planung und Strategie“</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/leiter-bundestagsburo-mwd-in-vollzeit-mit-schwerpunkt-politische-planung-und-strategie-berlin-deutscher-bundestag-abgeordnetenburo-stefan-rouenhoff-mdb-12974897</link>
+      <description>Ort Deutscher Bundestag - Abgeordnetenbüro Stefan Rouenhoff MdB Platz der Republik 1 11011 Berlin</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/leiter-bundestagsburo-mwd-in-vollzeit-mit-schwerpunkt-politische-planung-und-strategie-berlin-deutscher-bundestag-abgeordnetenburo-stefan-rouenhoff-mdb-12974897</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>Deutscher Bundestag - Abgeordnetenbüro Stefan Rouenhoff MdB</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
+    <item>
+      <title>SOCIAL-MEDIA-MANAGER (M/W/D) DES FRAKTIONSVORSITZENDEN HENNING HÖNE</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/social-media-manager-mwd-des-fraktionsvorsitzenden-henning-hone-dusseldorf-fdp-landtagsfraktion-nrw-12974846</link>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/social-media-manager-mwd-des-fraktionsvorsitzenden-henning-hone-dusseldorf-fdp-landtagsfraktion-nrw-12974846</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>FDP-Landtagsfraktion NRW</dc:creator>
+    <polintel:location>Düsseldorf</polintel:location></item>
+    <item>
+      <title>Public Affairs Manager (all genders)</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/public-affairs-manager-all-genders-berlin-stark-12974782</link>
+      <description>STARK ist ein Verteidigungstechnologie-Unternehmen, das den Einsatz autonomer Systeme in verschiedenen Einsatzbereichen grundlegend verändert. Wir entwerfen, entwickeln und produzieren leistungsstarke unbemannte Systeme, die softwaregesteuert, in großer Stückzahl skalierbar und kosteneffizient sind. Dadurch verschaffen wir unseren Einsatzkräften einen entscheidenden Vorteil in anspruchsvollen Gefechtsumgebungen. Unser Fokus liegt auf sofort einsatzbereiten Hochleistungssystemen – nicht auf vagen Zukunftsversprechen. In einer Zeit wachsender Bedrohungen stärkt STARK die technologische Überlegenheit der NATO-Verbündeten und ihrer Partner, um Abschreckung zu gewährleisten und Europa schon heute zu verteidigen. Your mission Als Senior Public Affairs Manager unterstützt du uns dabei, unsere Interessen gegenüber Politik, Ministerien und Verbänden wirkungsvoll zu vertreten. Du bist die Schnittstelle zwischen unserem Startup, politischen Entscheidern und der öffentlichen Hand. LEGAL DISCLAIMER We are an equal-opportunity employer committed to fostering a diverse and inclusive workplace. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, or any other characteristic protected by law. Due to the nature of our work in the defense sector, candidates must be eligible to obtain and maintain the appropriate security clearance required for the position.</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/public-affairs-manager-all-genders-berlin-stark-12974782</guid>
+      <category>Public Affairs</category>
+      <pubDate>Fri, 12 Jun 2026 21:11:41 +0000</pubDate>
+      <dc:creator>STARK</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
   </channel>
 </rss>
