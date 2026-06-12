@@ -12,10 +12,11 @@ sources:
     url: "https://parlamentjobs.de/"
     country_code: DE
     category: national-politics
-    scraper: ats_auto
+    scraper: dedicated
+    module: parlamentjobs
     language: de
     enabled: true
-    notes: "KEEP. ~100% political. WP Job Manager; probe /feed/ and /jobs/feed/ for native RSS. Aggregates party/fraction roles - reduces need to scrape party HQs."
+    notes: "KEEP. ~100% political. WP Job Manager static HTML — selector scraper (li.job_listing cards). Aggregates party/fraction roles - reduces need to scrape party HQs."
 
   - name: "Politjobs.com DE"
     url: "https://politjobs.com/en/de/jobs"
@@ -23,17 +24,18 @@ sources:
     category: public-affairs
     scraper: ats_auto
     language: de
-    enabled: true
-    notes: "KEEP. DACH+Brussels public affairs/political comms. Next.js SSR aggregator - jobs render server-side. ats_auto detect_ats() returns 'personio' (false-positive from linked Personio jobs on page) but Politjobs is not itself a Personio board. Path: AI fallback. Also covers /en/eu/jobs and /en/at/jobs."
+    enabled: false
+    notes: "DEACTIVATED: not a Personio board — Next.js SSR aggregator; detect_ats() returns 'personio' as false-positive from stiftung-mercator.jobs.personio.de links on page. No Personio subdomain to configure. Could become a dedicated selector scraper candidate (SSR renders job cards). Revisit."
 
   - name: "Politik-Kommunikation Jobs"
     url: "https://jobs.politik-kommunikation.de/stellen-beruf/bundestag-ministerien-verwaltung"
     country_code: DE
     category: public-affairs
-    scraper: ats_auto
+    scraper: dedicated
+    module: politik_kommunikation
     language: de
     enabled: true
-    notes: "KEEP. Public-affairs/political-communication board. URL is the resolved redirect (stellen-beruf/parlament-regierung 307s here). AI fallback — no ATS detected."
+    notes: "KEEP. Public-affairs/political-communication board. URL is the resolved redirect (stellen-beruf/parlament-regierung 307s here). Next.js SSR — selector scraper (a.job-listing cards)."
 
   # ── Germany: parliament (Stage 3 — CONDITIONAL) ───────────────────────────
 
@@ -44,7 +46,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "COND. ~3000-staff body; includes technical/facilities. Filter for policy/research/parliamentary terms. Enable only behind aggressive relevance filter."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. ~3000-staff body; includes technical/facilities. Filter for policy/research/parliamentary terms. Enable only behind aggressive relevance filter."
 
   # ── Germany: think tanks (Stage 2 — KEEP) ────────────────────────────────
 
@@ -55,7 +57,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP. Stiftung Wissenschaft und Politik. ~100% relevant. Custom CMS."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Stiftung Wissenschaft und Politik. ~100% relevant. Custom CMS."
 
   - name: "DGAP"
     url: "https://dgap.org/en/work-with-us"
@@ -64,7 +66,7 @@ sources:
     scraper: ats_auto
     language: en
     enabled: false
-    notes: "KEEP. German Council on Foreign Relations. DE page often has more roles than EN."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. German Council on Foreign Relations. DE page often has more roles than EN."
 
   - name: "MERICS"
     url: "https://www.merics.org/en/about-us/career"
@@ -73,7 +75,7 @@ sources:
     scraper: ats_auto
     language: en
     enabled: false
-    notes: "KEEP. China-focus institute, Berlin. Verify careers path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. China-focus institute, Berlin. Verify careers path on add."
 
   # ── Germany: political foundations (Stage 2 — KEEP) ──────────────────────
 
@@ -84,7 +86,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP. ~1700 staff. Near-100% relevant. Custom CMS."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. ~1700 staff. Near-100% relevant. Custom CMS."
 
   - name: "Friedrich-Ebert-Stiftung (FES)"
     url: "https://www.fes.de/stellenangebote"
@@ -93,7 +95,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP. Verify careers path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Verify careers path on add."
 
   - name: "Heinrich-Boll-Stiftung (HBS)"
     url: "https://www.boell.de/de/stellenangebote"
@@ -102,7 +104,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP. Verify path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Verify path on add."
 
   - name: "Friedrich-Naumann-Stiftung (FNF)"
     url: "https://www.freiheit.org/de/stellenangebote"
@@ -111,7 +113,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP. Verify path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Verify path on add."
 
   - name: "Rosa-Luxemburg-Stiftung (RLS)"
     url: "https://www.rosalux.de/stiftung/stellenausschreibungen"
@@ -120,7 +122,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP. Verify path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Verify path on add."
 
   - name: "Hanns-Seidel-Stiftung (HSS)"
     url: "https://www.hss.de/stellenangebote/"
@@ -129,7 +131,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP. Verify path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Verify path on add."
 
   # ── Germany: trade associations (Stage 3 — CONDITIONAL) ──────────────────
 
@@ -140,7 +142,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "COND. Federation of German Industries - policy/public-affairs heavy but mixed. WHITELIST bdi.eu only — do NOT use bdi-group.org (logistics homonym)."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Federation of German Industries - policy/public-affairs heavy but mixed. WHITELIST bdi.eu only — do NOT use bdi-group.org (logistics homonym)."
 
   # ── Austria (Stage 2/3) ──────────────────────────────────────────────────
 
@@ -151,7 +153,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP. Verify AT path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Same SSR aggregator pattern as Politjobs.com DE — no Personio subdomain to configure."
 
   - name: "NEOS"
     url: "https://www.neos.eu/mitmachen/jobs"
@@ -162,7 +164,7 @@ sources:
     identifier:
       subdomain: neos
     language: de
-    enabled: false
+    enabled: true
     notes: "KEEP. Best party careers page in scope. Personio API: neos.jobs.personio.de verified (11 jobs 2026-06-12). NOTE: NEOS is an Austrian party — do NOT confuse with Neos airline."
 
   - name: "SPO"
@@ -172,7 +174,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "KEEP, low crawl frequency. Often 'keine freien Stellen'. Check before enabling."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP, low crawl frequency. Often 'keine freien Stellen'. Check before enabling."
 
   - name: "Osterreichisches Parlament"
     url: "https://www.parlament.gv.at/aktuelles/jobboerse/"
@@ -181,7 +183,7 @@ sources:
     scraper: ats_auto
     language: de
     enabled: false
-    notes: "COND. Verify path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Verify path on add."
 
   - name: "OIIP"
     url: "https://www.oiip.ac.at/en/career/"
@@ -190,4 +192,4 @@ sources:
     scraper: ats_auto
     language: en
     enabled: false
-    notes: "KEEP. Austrian Institute for International Affairs. Verify path on add."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Austrian Institute for International Affairs. Verify path on add."

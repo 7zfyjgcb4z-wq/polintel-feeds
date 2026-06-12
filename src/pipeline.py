@@ -210,11 +210,24 @@ async def run_pipeline(
                 # HTML-based detection/extraction path (legacy ats_type or auto-detection).
                 html = await _fetch_html(source["url"])
                 ats_type = source.get("ats_type") or detect_ats(html, source["url"])
+
+                # AI fallback is gated behind ALLOW_AI_FALLBACK=1 (default OFF).
+                # When off, ats_auto sources with no zero-API extractor are skipped
+                # cleanly rather than incurring per-source Claude API calls.
+                # The generic_scrape code stays in the repo and is importable for
+                # deliberate one-off use; it just does not fire in normal runs.
+                _allow_ai = os.environ.get("ALLOW_AI_FALLBACK", "").lower() in ("1", "true", "yes")
+
                 if not ats_type:
-                    # No known ATS detected — route to generic AI extractor as fallback.
-                    # generic_scrape re-fetches the URL with its own hash-cache check,
-                    # cleans the HTML, and calls Claude. Errors surface through the
-                    # enclosing try/except so they log loudly and never abort the run.
+                    if not _allow_ai:
+                        elapsed = time.monotonic() - t
+                        log.info(
+                            f"{source['name']}: no zero-API extractor available — skipped"
+                            f" (set ALLOW_AI_FALLBACK=1 to enable AI fallback)"
+                        )
+                        _record(source["name"], "ats_auto", "skipped", 0, elapsed,
+                                "no zero-API extractor (AI fallback disabled)")
+                        continue
                     from src.scrapers.generic import generic_scrape  # noqa: PLC0415
                     log.info(f"{source['name']}: no ATS detected — routing to AI fallback")
                     jobs = await generic_scrape(source, db, dry_run=dry_run)
@@ -228,8 +241,15 @@ async def run_pipeline(
 
                 extractor = get_extractor(ats_type)
                 if extractor.__module__.endswith("_default_stub"):
-                    # ATS platform detected but no working extractor implemented yet —
-                    # fall back to AI extraction rather than silently returning 0 jobs.
+                    if not _allow_ai:
+                        elapsed = time.monotonic() - t
+                        log.info(
+                            f"{source['name']}: ATS={ats_type!r} has no extractor — skipped"
+                            f" (set ALLOW_AI_FALLBACK=1 to enable AI fallback)"
+                        )
+                        _record(source["name"], "ats_auto", "skipped", 0, elapsed,
+                                f"ATS={ats_type} detected but no extractor (AI fallback disabled)")
+                        continue
                     from src.scrapers.generic import generic_scrape  # noqa: PLC0415
                     log.info(
                         f"{source['name']}: ATS={ats_type!r} has no extractor — routing to AI fallback"
