@@ -24,16 +24,16 @@ sources:
     scraper: ats_auto
     language: de
     enabled: true
-    notes: "KEEP. DACH+Brussels public affairs/political comms. JS SPA - likely AI fallback. Also covers /en/eu/jobs and /en/at/jobs."
+    notes: "KEEP. DACH+Brussels public affairs/political comms. Next.js SSR aggregator - jobs render server-side. ats_auto detect_ats() returns 'personio' (false-positive from linked Personio jobs on page) but Politjobs is not itself a Personio board. Path: AI fallback. Also covers /en/eu/jobs and /en/at/jobs."
 
   - name: "Politik-Kommunikation Jobs"
-    url: "https://jobs.politik-kommunikation.de/stellen-beruf/parlament-regierung"
+    url: "https://jobs.politik-kommunikation.de/stellen-beruf/bundestag-ministerien-verwaltung"
     country_code: DE
     category: public-affairs
     scraper: ats_auto
     language: de
     enabled: true
-    notes: "KEEP. Public-affairs/political-communication board."
+    notes: "KEEP. Public-affairs/political-communication board. URL is the resolved redirect (stellen-beruf/parlament-regierung 307s here). AI fallback — no ATS detected."
 
   # ── Germany: parliament (Stage 3 — CONDITIONAL) ───────────────────────────
 
@@ -158,9 +158,12 @@ sources:
     country_code: AT
     category: political-parties
     scraper: ats_auto
+    platform: personio
+    identifier:
+      subdomain: neos
     language: de
     enabled: false
-    notes: "KEEP. Best party careers page in scope. ATS: Personio (neos.jobs.personio.de) - ats_auto will detect. NOTE: NEOS is an Austrian party — do NOT confuse with Neos airline."
+    notes: "KEEP. Best party careers page in scope. Personio API: neos.jobs.personio.de verified (11 jobs 2026-06-12). NOTE: NEOS is an Austrian party — do NOT confuse with Neos airline."
 
   - name: "SPO"
     url: "https://www.spoe.at/jobs/"

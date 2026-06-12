@@ -31,7 +31,11 @@ STRIP_TAGS = [
 ]
 
 STRIP_CLASSES_RE = re.compile(
-    r"sidebar|cookie|banner|newsletter|subscribe|social|breadcrumb|pagination",
+    # \bsocial\b: prevents "socials" (e.g. "tw-menu-has-socials") from matching.
+    # \bbanner\b(?!-w\d): hyphens are regex word boundaries, so without the
+    # negative lookahead, "banner" matches inside responsive-framework utility
+    # classes like "lte-banner-w1564".  Exclude the -w<digits> suffix pattern.
+    r"sidebar|cookie|\bbanner\b(?!-w\d)|newsletter|subscribe|\bsocial\b|breadcrumb|pagination",
     re.I,
 )
 
@@ -47,8 +51,13 @@ def clean_html(html: str) -> str:
     for tag in soup(STRIP_TAGS):
         tag.decompose()
 
-    # Remove elements whose class/id suggests boilerplate
+    # Remove elements whose class/id suggests boilerplate.
+    # Never decompose structural root elements — a false positive there destroys
+    # the entire document (e.g. body class "tw-menu-has-socials" on Parlamentjobs.de).
+    _SAFE_TAGS = {"body", "html", "main", "article"}
     for el in soup.find_all(True):
+        if el.name in _SAFE_TAGS:
+            continue
         attrs = getattr(el, "attrs", None) or {}
         classes = " ".join(attrs.get("class") or [])
         el_id = attrs.get("id") or ""
