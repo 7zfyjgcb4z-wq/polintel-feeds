@@ -211,18 +211,39 @@ async def run_pipeline(
                 html = await _fetch_html(source["url"])
                 ats_type = source.get("ats_type") or detect_ats(html, source["url"])
                 if not ats_type:
+                    # No known ATS detected — route to generic AI extractor as fallback.
+                    # generic_scrape re-fetches the URL with its own hash-cache check,
+                    # cleans the HTML, and calls Claude. Errors surface through the
+                    # enclosing try/except so they log loudly and never abort the run.
+                    from src.scrapers.generic import generic_scrape  # noqa: PLC0415
+                    log.info(f"{source['name']}: no ATS detected — routing to AI fallback")
+                    jobs = await generic_scrape(source, db, dry_run=dry_run)
                     elapsed = time.monotonic() - t
-                    log.warning(f"{source['name']}: no ATS detected — skipping")
-                    failed_sources.append(source["name"])
-                    _record(source["name"], "ats_auto", "failed", 0, elapsed, "No ATS platform detected")
+                    all_jobs.extend(jobs)
+                    sources_succeeded += 1
+                    log.info(f"OK: {source['name']} (AI fallback) — {len(jobs)} jobs")
+                    _record(source["name"], "ats_auto", "success", len(jobs), elapsed,
+                            "AI fallback (no ATS detected)")
                     continue
 
                 extractor = get_extractor(ats_type)
                 if extractor.__module__.endswith("_default_stub"):
-                    jobs = extractor(html, source["url"], source, ats_type=ats_type)
-                else:
-                    jobs = extractor(html, source["url"], source)
+                    # ATS platform detected but no working extractor implemented yet —
+                    # fall back to AI extraction rather than silently returning 0 jobs.
+                    from src.scrapers.generic import generic_scrape  # noqa: PLC0415
+                    log.info(
+                        f"{source['name']}: ATS={ats_type!r} has no extractor — routing to AI fallback"
+                    )
+                    jobs = await generic_scrape(source, db, dry_run=dry_run)
+                    elapsed = time.monotonic() - t
+                    all_jobs.extend(jobs)
+                    sources_succeeded += 1
+                    log.info(f"OK: {source['name']} (AI fallback, ATS={ats_type}) — {len(jobs)} jobs")
+                    _record(source["name"], "ats_auto", "success", len(jobs), elapsed,
+                            f"AI fallback (ATS={ats_type}, no extractor)")
+                    continue
 
+                jobs = extractor(html, source["url"], source)
                 elapsed = time.monotonic() - t
                 all_jobs.extend(jobs)
                 sources_succeeded += 1

@@ -16,8 +16,8 @@ sources:
     category: eu-affairs
     scraper: ats_auto
     language: en
-    enabled: true
-    notes: "KEEP. ~100% relevant. NOTE: sources-brussels.yaml has 'EurActiv Jobs' at jobs.euractiv.com/feed/ (disabled - RSS was career-advice articles). This entry targets the live job board, not the feed. Confirm canonical URL at build."
+    enabled: false
+    notes: "KEEP. ~100% relevant. DEFERRED: WP Job Manager site, no valid jobs RSS or API. /rss/ and /feed/ return career-advice articles only (same issue as disabled 'EurActiv Jobs' entry in sources-brussels.yaml). Needs a selector scraper once DOM structure is confirmed, or AI on rendered HTML. Do not duplicate the sources-brussels.yaml entry."
 
   - name: "EUJobs.co"
     url: "https://www.eujobs.co/"
@@ -25,8 +25,8 @@ sources:
     category: eu-affairs
     scraper: ats_auto
     language: en
-    enabled: true
-    notes: "KEEP. ~100% relevant. Scrape the live job board, not the SEO career-guide content."
+    enabled: false
+    notes: "KEEP. ~100% relevant. DEFERRED: JS-rendered React app with no SSR job content — plain fetch returns empty shell. Requires headless rendering (Playwright) before AI extraction works. Re-enable after Playwright is added to the pipeline."
 
   # ── Development/international (CONDITIONAL — Stage 3) ────────────────────
 

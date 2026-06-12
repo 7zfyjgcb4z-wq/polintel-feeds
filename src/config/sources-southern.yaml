@@ -13,8 +13,8 @@ sources:
     category: national-politics
     scraper: ats_auto
     language: fr
-    enabled: true
-    notes: "KEEP. ~100% political: cabinets, parliamentary, parties, public affairs."
+    enabled: false
+    notes: "KEEP. ~100% political: cabinets, parliamentary, parties, public affairs. DEFERRED: React SPA — server-rendered HTML is ~3329 chars with 0 body text. AI fallback returns 0 jobs without headless rendering. Re-enable after Playwright is added to pipeline."
 
   - name: "Emplois Politiques"
     url: "https://www.emplois-politiques.fr/les-offres-d-emplois"
