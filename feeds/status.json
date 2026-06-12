@@ -1,40 +1,37 @@
 {
-  "last_run": "2026-06-12T18:37:06Z",
-  "country": "pan-eu",
+  "last_run": "2026-06-12T19:36:07Z",
+  "country": "southern",
   "total_active_jobs": 0,
   "new_jobs_found": 0,
   "sources_checked": 2,
-  "sources_succeeded": 0,
-  "sources_failed": 2,
-  "sources_disabled": 1,
+  "sources_succeeded": 2,
+  "sources_failed": 0,
+  "sources_disabled": 17,
   "relevance_filtered": 0,
   "descriptions_enriched": 0,
-  "feeds_generated": 2,
+  "feeds_generated": 5,
   "run_duration_seconds": 1.5,
-  "failed_sources": [
-    "EURACTIV JobSite",
-    "EUJobs.co"
-  ],
+  "failed_sources": [],
   "per_source": [
     {
-      "name": "EURACTIV JobSite",
+      "name": "Mission Politique",
       "scraper_type": "ats_auto",
-      "status": "failed",
+      "status": "success",
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.2,
-      "notes": "No ATS platform detected"
+      "duration_seconds": 0.7,
+      "notes": "AI fallback (no ATS detected)"
     },
     {
-      "name": "EUJobs.co",
+      "name": "Emplois Politiques",
       "scraper_type": "ats_auto",
-      "status": "failed",
+      "status": "success",
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
-      "notes": "No ATS platform detected"
+      "duration_seconds": 0.7,
+      "notes": "AI fallback (no ATS detected)"
     }
   ]
 }
