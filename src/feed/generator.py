@@ -42,6 +42,9 @@ CATEGORY_LABELS = {
     "us-ngos": "US NGOs & Advocacy",
     "us-fellowships": "US Fellowships",
     "us-campaigns": "US Campaigns & Parties",
+    # EU national categories
+    "national-politics": "National Politics",
+    "foundations": "Political Foundations",
 }
 
 FEED_META: dict[str, dict[str, str]] = {
@@ -72,6 +75,39 @@ FEED_META: dict[str, dict[str, str]] = {
         "us-fellowships": "US Policy Fellowships",
         "us-campaigns": "US Campaigns & Political Party Jobs",
     },
+    # EU national regions
+    "dach": {
+        "national-politics": "DACH National Politics Jobs (DE/AT)",
+        "public-affairs": "DACH Public Affairs Jobs (DE/AT)",
+        "think-tanks": "DACH Think Tank Jobs (DE/AT)",
+        "foundations": "German & Austrian Political Foundation Jobs",
+        "political-parties": "DACH Political Party Jobs (DE/AT)",
+        "trade-associations": "DACH Trade Association Jobs (DE/AT)",
+    },
+    "southern": {
+        "national-politics": "Southern Europe National Politics Jobs (FR/ES/IT/PT/GR)",
+        "think-tanks": "Southern Europe Think Tank Jobs (FR/ES/IT/PT/GR)",
+        "political-parties": "Southern Europe Political Party Jobs (FR/ES/IT)",
+        "public-affairs": "Southern Europe Public Affairs Jobs (FR/ES/IT)",
+        "trade-associations": "Southern Europe Trade Association Jobs (FR/ES/IT)",
+    },
+    "benelux": {
+        "political-parties": "Benelux Political Party Jobs (NL)",
+        "national-politics": "Benelux National Politics Jobs (NL)",
+        "think-tanks": "Benelux Think Tank Jobs (NL)",
+    },
+    "nordics": {
+        "think-tanks": "Nordic Think Tank Jobs (SE/DK/FI/NO)",
+        "national-politics": "Nordic National Politics Jobs (SE/DK/FI)",
+    },
+    "cee": {
+        "think-tanks": "CEE Think Tank Jobs (IE/PL/CZ)",
+        "national-politics": "CEE National Politics Jobs (IE/PL/CZ)",
+    },
+    "pan-eu": {
+        "eu-affairs": "Pan-European EU Affairs Jobs",
+        "international-orgs": "Pan-European International Organisation Jobs",
+    },
 }
 
 # Which categories to generate per country
@@ -88,6 +124,19 @@ COUNTRY_CATEGORIES: dict[str, list[str]] = {
         "us-federal", "us-congress", "us-think-tanks", "us-government-affairs",
         "us-ngos", "us-fellowships", "us-campaigns",
     ],
+    # EU national regions
+    "dach": [
+        "national-politics", "public-affairs", "think-tanks",
+        "foundations", "political-parties", "trade-associations",
+    ],
+    "southern": [
+        "national-politics", "think-tanks", "political-parties",
+        "public-affairs", "trade-associations",
+    ],
+    "benelux": ["political-parties", "national-politics", "think-tanks"],
+    "nordics": ["think-tanks", "national-politics"],
+    "cee": ["think-tanks", "national-politics"],
+    "pan-eu": ["eu-affairs", "international-orgs"],
 }
 
 

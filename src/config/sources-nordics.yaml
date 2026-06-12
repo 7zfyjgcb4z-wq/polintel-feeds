@@ -1,0 +1,93 @@
+# Pol-Intel EU National Sources — Nordics (SE, DK, FI, NO)
+# scraper: ats_auto = runtime ATS detection with AI fallback
+# NO is non-EU/EEA but included for cross-border relevance.
+# All sources start disabled; Stage 2 KEEP sources enabled after ATS verify.
+# country_code: ISO 3166-1 alpha-2; used by downstream ingestion parser for geo-tagging.
+
+sources:
+
+  # ── Sweden (Stage 2 — KEEP) ───────────────────────────────────────────────
+
+  - name: "SIPRI"
+    url: "https://www.sipri.org/about/vacancies"
+    country_code: SE
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Stockholm International Peace Research Institute. ~100% relevant."
+
+  - name: "UI (Swedish Institute of International Affairs)"
+    url: "https://www.ui.se/english/about-ui/vacancies/"
+    country_code: SE
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Verify path on add."
+
+  # ── Sweden: parliament (Stage 3 — CONDITIONAL) ───────────────────────────
+
+  - name: "Riksdagen"
+    url: "https://www.riksdagen.se/sv/kontakt-och-besok/arbeta-hos-oss/lediga-jobb/"
+    country_code: SE
+    category: national-politics
+    scraper: ats_auto
+    language: sv
+    enabled: false
+    notes: "COND. ~700 politically-neutral staff across ~85 occupations - filter hard."
+
+  # ── Denmark (Stage 2 — KEEP) ──────────────────────────────────────────────
+
+  - name: "DIIS"
+    url: "https://www.diis.dk/en/about-diis/job-and-career/vacancies"
+    country_code: DK
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Danish Institute for International Studies. Job-agent alert mechanism - probe for RSS feed."
+
+  # ── Denmark: parliament (Stage 3 — CONDITIONAL) ──────────────────────────
+
+  - name: "Folketinget"
+    url: "https://www.ft.dk/da/ledige-stillinger"
+    country_code: DK
+    category: national-politics
+    scraper: ats_auto
+    language: da
+    enabled: false
+    notes: "COND. Verify path on add."
+
+  # ── Finland (Stage 2 — KEEP) ──────────────────────────────────────────────
+
+  - name: "FIIA"
+    url: "https://www.fiia.fi/en/about-us/open-positions"
+    country_code: FI
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Finnish Institute of International Affairs. Verify path on add."
+
+  # ── Finland: parliament (Stage 3 — CONDITIONAL) ──────────────────────────
+
+  - name: "Eduskunta"
+    url: "https://www.eduskunta.fi/FI/tehtavat/avoimet-tyopaikat/Sivut/default.aspx"
+    country_code: FI
+    category: national-politics
+    scraper: ats_auto
+    language: fi
+    enabled: false
+    notes: "COND. Verify path on add."
+
+  # ── Norway (Stage 2 — KEEP, optional) ────────────────────────────────────
+
+  - name: "NUPI"
+    url: "https://www.nupi.no/en/about-nupi/vacancies"
+    country_code: NO
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP (optional). Norway is non-EU/EEA — include per cross-border relevance. Verify path on add."

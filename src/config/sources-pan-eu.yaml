@@ -1,0 +1,40 @@
+# Pol-Intel EU National Sources — Pan-European Backbone
+# These sources are not country-specific; country_code is null.
+# The runtime location parser assigns geo-tags per job from description/title.
+# Highest ROI sources: enable Stage 1 first.
+#
+# NOTE: EuroBrussels already exists in sources-brussels.yaml as a dedicated scraper
+# (enabled: true). Do NOT duplicate it here.
+
+sources:
+
+  # ── Pan-EU job boards (Stage 1 — KEEP) ───────────────────────────────────
+
+  - name: "EURACTIV JobSite"
+    url: "https://jobs.euractiv.com/"
+    country_code: null
+    category: eu-affairs
+    scraper: ats_auto
+    language: en
+    enabled: true
+    notes: "KEEP. ~100% relevant. NOTE: sources-brussels.yaml has 'EurActiv Jobs' at jobs.euractiv.com/feed/ (disabled - RSS was career-advice articles). This entry targets the live job board, not the feed. Confirm canonical URL at build."
+
+  - name: "EUJobs.co"
+    url: "https://www.eujobs.co/"
+    country_code: null
+    category: eu-affairs
+    scraper: ats_auto
+    language: en
+    enabled: true
+    notes: "KEEP. ~100% relevant. Scrape the live job board, not the SEO career-guide content."
+
+  # ── Development/international (CONDITIONAL — Stage 3) ────────────────────
+
+  - name: "Devex"
+    url: "https://www.devex.com/jobs/search"
+    country_code: null
+    category: international-orgs
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "COND. Global development; ~70% relevant after filtering for EU/policy. JS-rendered - may need Playwright or partner feed. Enable only after relevance filter confirmed."
