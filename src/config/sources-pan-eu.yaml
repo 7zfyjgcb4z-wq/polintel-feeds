@@ -24,9 +24,10 @@ sources:
     country_code: null
     category: eu-affairs
     scraper: ats_auto
+    render_js: true
     language: en
     enabled: false
-    notes: "KEEP. ~100% relevant. DEFERRED: JS-rendered React app with no SSR job content — plain fetch returns empty shell. Requires headless rendering (Playwright) before AI extraction works. Re-enable after Playwright is added to the pipeline."
+    notes: "KEEP. ~100% relevant. DEFERRED to Playwright tier — JS-rendered React app with no SSR job content. Selector extraction once rendered."
 
   # ── Development/international (CONDITIONAL — Stage 3) ────────────────────
 
@@ -37,4 +38,4 @@ sources:
     scraper: ats_auto
     language: en
     enabled: false
-    notes: "COND. Global development; ~70% relevant after filtering for EU/policy. JS-rendered - may need Playwright or partner feed. Enable only after relevance filter confirmed."
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Global development; ~70% relevant after filtering for EU/policy. JS-rendered - may need Playwright or partner feed. Enable only after relevance filter confirmed."
