@@ -142,5 +142,83 @@ def test(source_name, dry_run, country, config_path):
         click.echo()
 
 
+_ATS_IDENTIFIER_FIELDS: dict[str, list[str]] = {
+    "greenhouse":    ["token"],
+    "lever":         ["company"],
+    "ashby":         ["board"],
+    "bamboohr":      ["company"],
+    "smartrecruiters": ["company_id"],
+    "workable":      ["account"],
+    "recruitee":     ["company"],
+    "workday":       ["tenant", "site", "dc"],
+    "personio":      ["subdomain"],
+    "oracle_hcm":    ["api_host", "site"],
+    "paylocity":     ["guid"],
+    "teamtailor":    ["base_url"],
+}
+
+
+@cli.command()
+@click.argument("platform")
+@click.argument("args", nargs=-1)
+@click.option("--name", default=None, help="Source name override for display.")
+@click.option("--category", default="general", show_default=True)
+@click.option("--country", default="uk", show_default=True)
+def ats(platform, args, name, category, country):
+    """Test an ATS API extractor directly.
+
+    \b
+    Examples:
+      ats greenhouse atlanticcouncil
+      ats bamboohr secnewgateuk
+      ats workday urban Urban-Careers wd1
+      ats personio ecfr
+      ats lever democrats
+    """
+    from src.scrapers.ats_extractors import PLATFORM_EXTRACTORS
+
+    if platform not in PLATFORM_EXTRACTORS:
+        known = ", ".join(sorted(PLATFORM_EXTRACTORS))
+        click.echo(f"Unknown platform '{platform}'. Known platforms: {known}", err=True)
+        raise SystemExit(1)
+
+    fields = _ATS_IDENTIFIER_FIELDS.get(platform, [])
+    if len(args) < len(fields):
+        click.echo(
+            f"Platform '{platform}' needs {len(fields)} arg(s): {', '.join(fields)}", err=True
+        )
+        raise SystemExit(1)
+
+    identifier = dict(zip(fields, args))
+    source = {
+        "name": name or f"{platform}:{args[0] if args else '?'}",
+        "org_static": name or (args[0] if args else platform),
+        "category": category,
+        "country": country,
+        "identifier": identifier,
+    }
+
+    extractor = PLATFORM_EXTRACTORS[platform]
+
+    async def _run():
+        return await extractor.extract(source)
+
+    jobs = asyncio.run(_run())
+
+    if not jobs:
+        click.echo(f"No jobs returned from {platform}/{identifier} (empty board or bad credentials).")
+        return
+
+    click.echo(f"\n{len(jobs)} jobs from '{source['name']}' via {platform}:")
+    for job in jobs:
+        click.echo(f"  {job.title}")
+        click.echo(f"    org={job.organisation!r}  loc={job.location!r}")
+        click.echo(f"    url={job.url}")
+        if job.description:
+            preview = job.description[:120].replace("\n", " ")
+            click.echo(f"    desc={preview!r}...")
+        click.echo()
+
+
 if __name__ == "__main__":
     cli()
