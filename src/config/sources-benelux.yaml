@@ -1,0 +1,73 @@
+# Pol-Intel EU National Sources — Benelux (NL; BE-national deferred)
+# scraper: ats_auto = runtime ATS detection with AI fallback
+# BE-national deferred: public affairs overlaps the Brussels/EU layer in sources-brussels.yaml.
+# Do NOT add Travaillerpour.be/Selor (whole-of-government, excluded by audit rule).
+# country_code: ISO 3166-1 alpha-2; used by downstream ingestion parser for geo-tagging.
+
+sources:
+
+  # ── Netherlands: parties (Stage 3 — KEEP, strongest party coverage in scope) ──
+
+  - name: "D66"
+    url: "https://d66.nl/partij/werken-bij-d66/"
+    country_code: NL
+    category: political-parties
+    scraper: ats_auto
+    language: nl
+    enabled: false
+    notes: "KEEP. Target national path only — skip regional /amsterdam etc. Enable Stage 3 behind relevance filter."
+
+  - name: "VVD"
+    url: "https://www.vvd.nl/vacatures/"
+    country_code: NL
+    category: political-parties
+    scraper: ats_auto
+    language: nl
+    enabled: false
+    notes: "KEEP. National vacancies only."
+
+  - name: "GroenLinks-PvdA"
+    url: "https://groenlinkspvda.nl/vacatures/"
+    country_code: NL
+    category: political-parties
+    scraper: ats_auto
+    language: nl
+    enabled: false
+    notes: "KEEP. Merger completes 2026; legacy pvda.nl and groenlinks.nl paths still resolve."
+
+  - name: "CDA"
+    url: "https://www.cda.nl/contact/vacatures"
+    country_code: NL
+    category: political-parties
+    scraper: ats_auto
+    language: nl
+    enabled: false
+    notes: "KEEP. Richest party listings; also /stage/."
+
+  # ── Netherlands: parliament (Stage 3 — CONDITIONAL) ──────────────────────
+
+  - name: "Tweede Kamer"
+    url: "https://werkenbij.tweedekamer.nl/"
+    country_code: NL
+    category: national-politics
+    scraper: ats_auto
+    language: nl
+    enabled: false
+    notes: "COND. ~700 staff incl. catering/security/IT - filter hard. Enable only behind aggressive relevance filter."
+
+  # ── Netherlands: think tank (Stage 2 — KEEP) ─────────────────────────────
+
+  - name: "Clingendael Institute"
+    url: "https://www.careers.clingendael.org/"
+    country_code: NL
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Netherlands Institute of International Relations. ~100% relevant. Custom OutSite ATS. NOTE: a separate Clingendael entry exists in sources-brussels.yaml (disabled); this NL entry uses the dedicated careers subdomain."
+
+  # ── Belgium-national: DEFERRED ─────────────────────────────────────────────
+  # BE-national public affairs overlaps the Brussels/EU layer already covered
+  # in sources-brussels.yaml. Do NOT add Travaillerpour.be/Selor (whole-of-gov,
+  # excluded by audit rule). Only add BE-national party/parliament sources if
+  # Belgian domestic scope is explicitly confirmed as in-scope.

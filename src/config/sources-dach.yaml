@@ -1,0 +1,190 @@
+# Pol-Intel EU National Sources — DACH (Germany, Austria)
+# scraper: ats_auto = runtime ATS detection (Greenhouse/Lever/Workday/etc.) with AI fallback
+# All sources start disabled. Enable in stages per pipeline.py staged-rollout plan.
+# country_code: ISO 3166-1 alpha-2; used by downstream ingestion parser for geo-tagging.
+# country: injected at pipeline load time as "dach" — do not set here.
+
+sources:
+
+  # ── Germany: dedicated political boards (Stage 1 — KEEP) ──────────────────
+
+  - name: "Parlamentjobs.de"
+    url: "https://parlamentjobs.de/"
+    country_code: DE
+    category: national-politics
+    scraper: ats_auto
+    language: de
+    enabled: true
+    notes: "KEEP. ~100% political. WP Job Manager; probe /feed/ and /jobs/feed/ for native RSS. Aggregates party/fraction roles - reduces need to scrape party HQs."
+
+  - name: "Politjobs.com DE"
+    url: "https://politjobs.com/en/de/jobs"
+    country_code: DE
+    category: public-affairs
+    scraper: ats_auto
+    language: de
+    enabled: true
+    notes: "KEEP. DACH+Brussels public affairs/political comms. JS SPA - likely AI fallback. Also covers /en/eu/jobs and /en/at/jobs."
+
+  - name: "Politik-Kommunikation Jobs"
+    url: "https://jobs.politik-kommunikation.de/stellen-beruf/parlament-regierung"
+    country_code: DE
+    category: public-affairs
+    scraper: ats_auto
+    language: de
+    enabled: true
+    notes: "KEEP. Public-affairs/political-communication board."
+
+  # ── Germany: parliament (Stage 3 — CONDITIONAL) ───────────────────────────
+
+  - name: "Deutscher Bundestag"
+    url: "https://www.bundestag.de/services/karriere/stellenausschreibungen/stellen/stellen"
+    country_code: DE
+    category: national-politics
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "COND. ~3000-staff body; includes technical/facilities. Filter for policy/research/parliamentary terms. Enable only behind aggressive relevance filter."
+
+  # ── Germany: think tanks (Stage 2 — KEEP) ────────────────────────────────
+
+  - name: "SWP"
+    url: "https://www.swp-berlin.org/ueber-uns/stellen-und-praktika/stellen/"
+    country_code: DE
+    category: think-tanks
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. Stiftung Wissenschaft und Politik. ~100% relevant. Custom CMS."
+
+  - name: "DGAP"
+    url: "https://dgap.org/en/work-with-us"
+    country_code: DE
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. German Council on Foreign Relations. DE page often has more roles than EN."
+
+  - name: "MERICS"
+    url: "https://www.merics.org/en/about-us/career"
+    country_code: DE
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. China-focus institute, Berlin. Verify careers path on add."
+
+  # ── Germany: political foundations (Stage 2 — KEEP) ──────────────────────
+
+  - name: "Konrad-Adenauer-Stiftung (KAS)"
+    url: "https://www.kas.de/en/offene-stellen"
+    country_code: DE
+    category: foundations
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. ~1700 staff. Near-100% relevant. Custom CMS."
+
+  - name: "Friedrich-Ebert-Stiftung (FES)"
+    url: "https://www.fes.de/stellenangebote"
+    country_code: DE
+    category: foundations
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. Verify careers path on add."
+
+  - name: "Heinrich-Boll-Stiftung (HBS)"
+    url: "https://www.boell.de/de/stellenangebote"
+    country_code: DE
+    category: foundations
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. Verify path on add."
+
+  - name: "Friedrich-Naumann-Stiftung (FNF)"
+    url: "https://www.freiheit.org/de/stellenangebote"
+    country_code: DE
+    category: foundations
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. Verify path on add."
+
+  - name: "Rosa-Luxemburg-Stiftung (RLS)"
+    url: "https://www.rosalux.de/stiftung/stellenausschreibungen"
+    country_code: DE
+    category: foundations
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. Verify path on add."
+
+  - name: "Hanns-Seidel-Stiftung (HSS)"
+    url: "https://www.hss.de/stellenangebote/"
+    country_code: DE
+    category: foundations
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. Verify path on add."
+
+  # ── Germany: trade associations (Stage 3 — CONDITIONAL) ──────────────────
+
+  - name: "BDI"
+    url: "https://bdi.eu/der-bdi/karriere"
+    country_code: DE
+    category: trade-associations
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "COND. Federation of German Industries - policy/public-affairs heavy but mixed. WHITELIST bdi.eu only — do NOT use bdi-group.org (logistics homonym)."
+
+  # ── Austria (Stage 2/3) ──────────────────────────────────────────────────
+
+  - name: "Politjobs.com AT"
+    url: "https://politjobs.com/en/at/jobs"
+    country_code: AT
+    category: public-affairs
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. Verify AT path on add."
+
+  - name: "NEOS"
+    url: "https://www.neos.eu/mitmachen/jobs"
+    country_code: AT
+    category: political-parties
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP. Best party careers page in scope. ATS: Personio (neos.jobs.personio.de) - ats_auto will detect. NOTE: NEOS is an Austrian party — do NOT confuse with Neos airline."
+
+  - name: "SPO"
+    url: "https://www.spoe.at/jobs/"
+    country_code: AT
+    category: political-parties
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "KEEP, low crawl frequency. Often 'keine freien Stellen'. Check before enabling."
+
+  - name: "Osterreichisches Parlament"
+    url: "https://www.parlament.gv.at/aktuelles/jobboerse/"
+    country_code: AT
+    category: national-politics
+    scraper: ats_auto
+    language: de
+    enabled: false
+    notes: "COND. Verify path on add."
+
+  - name: "OIIP"
+    url: "https://www.oiip.ac.at/en/career/"
+    country_code: AT
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Austrian Institute for International Affairs. Verify path on add."

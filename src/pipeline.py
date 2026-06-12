@@ -28,7 +28,18 @@ COUNTRY_CONFIG = {
     "uk": CONFIG_DIR / "sources.yaml",
     "brussels": CONFIG_DIR / "sources-brussels.yaml",
     "us": CONFIG_DIR / "sources-us.yaml",
+    "dach": CONFIG_DIR / "sources-dach.yaml",
+    "southern": CONFIG_DIR / "sources-southern.yaml",
+    "benelux": CONFIG_DIR / "sources-benelux.yaml",
+    "nordics": CONFIG_DIR / "sources-nordics.yaml",
+    "cee": CONFIG_DIR / "sources-cee.yaml",
+    "pan-eu": CONFIG_DIR / "sources-pan-eu.yaml",
 }
+
+# Regions that use country_code (ISO alpha-2) per source rather than a country
+# field; the pipeline injects country = region at load time so the DB and feed
+# generator route jobs correctly.
+EU_NATIONAL_REGIONS = {"dach", "southern", "benelux", "nordics", "cee", "pan-eu"}
 
 
 def load_config(path: str | Path = CONFIG_PATH) -> dict:
@@ -75,7 +86,7 @@ async def run_pipeline(
     # "all" runs each country's pipeline sequentially and returns aggregated totals
     if country == "all":
         combined: dict = {"total": 0, "new": 0, "active": 0, "failed": []}
-        for c in ["uk", "brussels", "us"]:
+        for c in ["uk", "brussels", "us", "dach", "southern", "benelux", "nordics", "cee", "pan-eu"]:
             result = await run_pipeline(
                 country=c,
                 sources=sources,
@@ -98,6 +109,13 @@ async def run_pipeline(
     db = JobStore(db_path)
 
     all_sources = config["sources"]
+
+    # For EU national regions, sources use country_code (ISO alpha-2) for geo-tagging
+    # but no pipeline-level country field. Inject country = region so ATS extractors
+    # store the correct region tag in the DB and feeds are routed correctly.
+    if country in EU_NATIONAL_REGIONS:
+        for s in all_sources:
+            s.setdefault("country", country)
     disabled = [s for s in all_sources if not s.get("enabled", True)]
 
     active_sources = [s for s in all_sources if s.get("enabled", True)]

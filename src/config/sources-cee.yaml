@@ -1,0 +1,90 @@
+# Pol-Intel EU National Sources — CEE + Ireland (IE, PL, CZ + thin long tail)
+# scraper: ats_auto = runtime ATS detection with AI fallback
+# Thin long-tail markets: parliament + flagship institute only per audit rule.
+# Do NOT invest in party-HQ scraping in RO/HU/SK/HR/SI/BG/CY/MT/LU.
+# country_code: ISO 3166-1 alpha-2; used by downstream ingestion parser for geo-tagging.
+
+sources:
+
+  # ── Ireland (Stage 2 — KEEP) ──────────────────────────────────────────────
+
+  - name: "IIEA"
+    url: "https://www.iiea.com/careers/"
+    country_code: IE
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Institute of International and European Affairs. ~100% relevant. Probe for native RSS at /careers/<role>/feed."
+
+  - name: "ESRI"
+    url: "https://www.esri.ie/careers"
+    country_code: IE
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Economic and Social Research Institute. ~90% relevant."
+
+  # ── Ireland: parliament (Stage 3 — CONDITIONAL) ──────────────────────────
+
+  - name: "Houses of the Oireachtas"
+    url: "https://www.oireachtas.ie/en/about/careers/"
+    country_code: IE
+    category: national-politics
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "COND. Filter hard. EXCLUDE PublicJobs.ie (whole-of-gov, not in scope)."
+
+  # ── Poland (Stage 2 — KEEP) ───────────────────────────────────────────────
+
+  - name: "PISM"
+    url: "https://www.pism.pl/o_nas/praca"
+    country_code: PL
+    category: think-tanks
+    scraper: ats_auto
+    language: pl
+    enabled: false
+    notes: "KEEP. Polish Institute of International Affairs. ~100% relevant."
+
+  - name: "OSW"
+    url: "https://www.osw.waw.pl/en/about-us/work-osw"
+    country_code: PL
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Centre for Eastern Studies. Verify path; applications may go to rekrutacja@osw.waw.pl."
+
+  # ── Poland: parliament (Stage 3 — CONDITIONAL) ───────────────────────────
+
+  - name: "Sejm"
+    url: "https://www.sejm.gov.pl/Sejm10.nsf/page.xsp/praca"
+    country_code: PL
+    category: national-politics
+    scraper: ats_auto
+    language: pl
+    enabled: false
+    notes: "COND. Verify path on add. Party HQs excluded (membership forms only)."
+
+  # ── Czechia (Stage 2 — KEEP) ──────────────────────────────────────────────
+
+  - name: "AMO / IIR Prague"
+    url: "https://www.amo.cz/en/about-amo/work-with-us/"
+    country_code: CZ
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. Verify which institute and path on add. Otherwise rely on pan-EU backbone for CZ coverage."
+
+  # ── Thin long-tail: parliament + flagship institute only ──────────────────
+  # The following markets are probe-and-verify only. Add parliament careers page
+  # and flagship IR institute when a working URL is confirmed. Do NOT scrape
+  # party HQs in these markets.
+  #
+  # EE: Estonian Foreign Policy Institute (EFPI) + Riigikogu
+  # LV: Latvian Institute of International Affairs (LIIA) + Saeima
+  # LT: TSPMI / Vilnius University IR + Seimas
+  # RO/HU/SK/HR/SI/BG/CY/MT/LU: national parliament careers page only, COND.

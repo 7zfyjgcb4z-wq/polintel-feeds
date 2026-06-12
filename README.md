@@ -1,6 +1,6 @@
 # polintel-feeds
 
-RSS feed generator for UK, Brussels/EU, and US political and policy sector jobs. Scrapes government departments, EU institutions, congressional offices, think tanks, NGOs, political parties, public affairs firms, trade associations, and fellowship programmes daily. Feeds are published to GitHub Pages and consumed by the Pol-Intel platform.
+RSS feed generator for UK, Brussels/EU, US, and EU national political and policy sector jobs. Scrapes government departments, EU institutions, congressional offices, think tanks, NGOs, political parties, public affairs firms, political foundations, trade associations, and fellowship programmes daily. Feeds are published to GitHub Pages and consumed by the Pol-Intel platform.
 
 ## Feeds
 
@@ -42,6 +42,56 @@ Live feeds at `https://7zfyjgcb4z-wq.github.io/polintel-feeds/`:
 | Policy Fellowships | `us-us-fellowships.xml` |
 | Campaigns & Political Parties | `us-us-campaigns.xml` |
 
+### EU National — DACH (configured, rollout in progress)
+
+| Feed | File |
+|------|------|
+| National Politics (DE/AT) | `dach-national-politics.xml` |
+| Public Affairs (DE/AT) | `dach-public-affairs.xml` |
+| Think Tanks (DE/AT) | `dach-think-tanks.xml` |
+| Political Foundations | `dach-foundations.xml` |
+| Political Parties (DE/AT) | `dach-political-parties.xml` |
+| Trade Associations (DE/AT) | `dach-trade-associations.xml` |
+
+### EU National — Southern Europe (configured, rollout in progress)
+
+| Feed | File |
+|------|------|
+| National Politics (FR/ES/IT/PT/GR) | `southern-national-politics.xml` |
+| Think Tanks | `southern-think-tanks.xml` |
+| Political Parties (FR/ES/IT) | `southern-political-parties.xml` |
+| Public Affairs (FR/ES/IT) | `southern-public-affairs.xml` |
+| Trade Associations (FR/ES/IT) | `southern-trade-associations.xml` |
+
+### EU National — Benelux (configured, rollout in progress)
+
+| Feed | File |
+|------|------|
+| Political Parties (NL) | `benelux-political-parties.xml` |
+| National Politics (NL) | `benelux-national-politics.xml` |
+| Think Tanks (NL) | `benelux-think-tanks.xml` |
+
+### EU National — Nordics (configured, rollout in progress)
+
+| Feed | File |
+|------|------|
+| Think Tanks (SE/DK/FI/NO) | `nordics-think-tanks.xml` |
+| National Politics (SE/DK/FI) | `nordics-national-politics.xml` |
+
+### EU National — CEE + Ireland (configured, rollout in progress)
+
+| Feed | File |
+|------|------|
+| Think Tanks (IE/PL/CZ) | `cee-think-tanks.xml` |
+| National Politics (IE/PL/CZ) | `cee-national-politics.xml` |
+
+### Pan-European Backbone (configured, rollout in progress)
+
+| Feed | File |
+|------|------|
+| EU Affairs | `pan-eu-eu-affairs.xml` |
+| International Organisations | `pan-eu-international-orgs.xml` |
+
 Feed index: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/`  
 Run status: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/status.json`  
 Health alerts: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/alerts.json`
@@ -56,6 +106,12 @@ src/
     sources.yaml              # UK sources
     sources-brussels.yaml     # Brussels/EU sources
     sources-us.yaml           # US sources
+    sources-dach.yaml         # EU national: DACH (DE, AT)
+    sources-southern.yaml     # EU national: Southern Europe (FR, ES, IT, PT, GR)
+    sources-benelux.yaml      # EU national: Benelux (NL; BE deferred)
+    sources-nordics.yaml      # EU national: Nordics (SE, DK, FI, NO)
+    sources-cee.yaml          # EU national: CEE + Ireland (IE, PL, CZ + long tail)
+    sources-pan-eu.yaml       # Pan-European backbone (not country-specific)
     categories.yaml           # Category keyword rules
   scrapers/
     base.py                   # BaseScraper ABC + fetch_with_retry utility
@@ -77,6 +133,8 @@ src/
 **Tier 1 (dedicated scrapers):** Hand-written per-source scrapers handling APIs, pagination, ALTCHA challenges, sitemaps, and third-party data feeds. New sources requiring custom logic go here.
 
 **Tier 2 (selector / RSS / ATS-auto):** Zero-API scrapers driven entirely by source config in the YAML. Add a new selector source without writing any Python.
+
+**EU national sources** use `ats_auto` throughout — the runtime ATS detector probes each URL for a known platform (Greenhouse, Lever, Workday, Personio, TeamTailor, etc.) and routes to the matching extractor, falling back to generic AI extraction when no platform is recognised. Whole-of-government portals (Bund.de, Selor, PublicJobs.ie, etc.) are deliberately excluded; only dedicated political boards, think tanks, foundations, and curated party/parliament pages are in scope.
 
 **Enrichment:** After scraping, jobs with descriptions shorter than 200 characters have their job page fetched. The readability library extracts the main content; any `JobPosting` JSON-LD on the page is also parsed to backfill `organisation`, `location`, and `closing_date` where absent.
 
@@ -132,11 +190,19 @@ python3 -m src.cli run --country brussels
 # Run US scrapers (requires USAJOBS_API_KEY + USAJOBS_USER_AGENT)
 python3 -m src.cli run --country us
 
+# Run EU national regions
+python3 -m src.cli run --country dach
+python3 -m src.cli run --country southern
+python3 -m src.cli run --country benelux
+python3 -m src.cli run --country nordics
+python3 -m src.cli run --country cee
+python3 -m src.cli run --country pan-eu
+
 # Regenerate feeds from existing DB without scraping
 python3 -m src.cli feeds
 
 # List all configured sources for a region
-python3 -m src.cli sources --country us
+python3 -m src.cli sources --country dach
 
 # Test a single source
 python3 -m src.cli test --source "CharityJob"
@@ -177,7 +243,7 @@ Output: `data/jobs.db` (SQLite), `feeds/` (RSS XML files), `feeds/status.json`, 
 | `ngos` | NGOs, charities, and civil society organisations |
 | `fellowships` | Fellowships, internships, and early career programmes |
 | `trade-associations` | Trade bodies and employer associations |
-| `general` | General political/policy sector job boards |
+| `general` | General UK political/policy sector job boards; excludes UN and international organisation listings (covered by dedicated feeds) |
 
 ### Brussels / EU
 
@@ -202,12 +268,27 @@ Output: `data/jobs.db` (SQLite), `feeds/` (RSS XML files), `feeds/status.json`, 
 | `us-fellowships` | Federal fellowship and internship programmes (PMF, Pathways, etc.) |
 | `us-campaigns` | Political campaigns, party organisations, and electoral roles |
 
+### EU National (all regions)
+
+| Slug | Used in | Description |
+|------|---------|-------------|
+| `national-politics` | dach, southern, benelux, nordics, cee | National parliaments, dedicated political job boards, party HQ roles |
+| `public-affairs` | dach, southern | Public affairs, government relations, political communications firms |
+| `think-tanks` | dach, southern, benelux, nordics, cee | National think tanks and foreign policy institutes |
+| `foundations` | dach | German and Austrian political foundations (Stiftungen) |
+| `political-parties` | dach, southern, benelux | National party organisations |
+| `trade-associations` | dach, southern | National trade bodies with significant public affairs functions |
+| `eu-affairs` | pan-eu | Pan-European EU affairs and public affairs job boards |
+| `international-orgs` | pan-eu | Pan-European international organisation jobs |
+
 ## Scheduled runs
 
 | Workflow | Schedule | Region |
 |----------|----------|--------|
 | `scrape-uk.yml` | 06:00 UTC daily | UK |
 | `scrape-brussels.yml` | 08:00 UTC daily | Brussels/EU |
+| `scrape-eu-national.yml` | 09:30 UTC daily | DACH + Southern + Benelux + Nordics + CEE |
+| `scrape-pan-eu.yml` | 10:00 UTC daily | Pan-European backbone |
 | `scrape-us.yml` | 13:00 UTC daily | United States |
 
 Results are committed back to the repository with `[skip ci]` in the message and served via GitHub Pages. Each run generates an updated `status.json` and `alerts.json`.
@@ -216,7 +297,7 @@ Results are committed back to the repository with `[skip ci]` in the message and
 
 | Secret | Used by |
 |--------|---------|
-| `ANTHROPIC_API_KEY` | `scrape-uk.yml` |
+| `ANTHROPIC_API_KEY` | `scrape-uk.yml`, `scrape-eu-national.yml`, `scrape-pan-eu.yml` |
 | `USAJOBS_API_KEY` | `scrape-us.yml` |
 | `USAJOBS_USER_AGENT` | `scrape-us.yml` |
 
