@@ -63,7 +63,7 @@ src/
     selector_scraper.py       # CSS-selector Tier 2 scraper
     rss_feed_scraper.py       # RSS/Atom Tier 2 scraper
     ats_detector.py           # ATS platform detection
-    ats_extractors.py         # ATS-specific extractors
+    ats_extractors/           # ATS-specific extractors (package: greenhouse, lever, teamtailor, applied, default stub)
   db/
     store.py                  # SQLite job store with dedup, stale/purge thresholds
   enrichment/
@@ -227,7 +227,7 @@ Results are committed back to the repository with `[skip ci]` in the message and
 | Gap | Reason | Workaround / next step |
 |-----|--------|------------------------|
 | **Senate employment** | Senate Employment Office HTML blocks automated access (403). No maintained open-source scraper exists; one known project (`c0nnortb/senate_employment`) is abandoned. | Next-session priority. Would require either a maintained upstream equivalent of `dwillis/house-jobs`, or direct contact with the Senate Employment Office for a data feed. |
-| **Workday-hosted organisations** | Workday renders job listings entirely in JavaScript. The ATS auto-detector identifies Workday but the pipeline has no Workday extractor. Affected US sites include Urban Institute, RAND, and others. | Add a Workday extractor to `src/scrapers/ats_extractors.py`. Several UK sources face the same blocker. |
+| **Workday-hosted organisations** | Workday renders job listings entirely in JavaScript. The ATS auto-detector identifies Workday but the pipeline has no Workday extractor. Affected US sites include Urban Institute, RAND, and others. | Add a Workday extractor to `src/scrapers/ats_extractors/`. Several UK sources face the same blocker. |
 | **Tom Manatos Jobs** | Protected by Cloudflare challenge mode. Returns HTTP 200 in CI but serves a JavaScript challenge page; no job cards are parsed. Browser headers alone are insufficient. | Re-enable once Playwright + a Cloudflare solver (e.g. `unblock-origin`) is added to the pipeline. See `sources-us.yaml` for the disabled entry. |
 | **Idealist** | Job listings are JavaScript-rendered. A dedicated scraper module exists (`src/scrapers/dedicated/idealist.py`) but requires Playwright to function. Currently disabled. | Re-enable once Playwright is added to the pipeline and CI workflow. |
 | **Brad Traverse / OPA Jobs** | Paid subscription required. No free tier or public feed identified. | Consider direct partnership or subscription if Capitol Hill coverage needs to be expanded. |
