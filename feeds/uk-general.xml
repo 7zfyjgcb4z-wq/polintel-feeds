@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>UK Political &amp; Policy Jobs (General)</title>
     <link>/uk-general.xml</link>
     <description>Job listings for General roles, scraped by Pol-Intel.</description>
-    <atom:link href="/uk-general.xml" rel="self"/>
+    <atom:link href="/uk-general.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 09:26:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 12:08:34 +0000</lastBuildDate>
     <item>
       <title>Early Notice of Forthcoming Call for Applications for the Doctoral Programs (2026/27)</title>
       <link>https://www.jobs.ac.uk/job/DQX563/early-notice-of-forthcoming-call-for-applications-for-the-doctoral-programs-2026-27</link>
@@ -18,7 +18,7 @@
       <category>General</category>
       <pubDate>Wed, 25 Mar 2026 20:48:01 +0000</pubDate>
       <dc:creator>Scuola Superiore Meridionale</dc:creator>
-    </item>
+    <polintel:location>Naples</polintel:location></item>
     <item>
       <title>COMMUNICATIONS MANAGER</title>
       <link>https://careers.un.org/jobSearchDescription/275293?language=en</link>
@@ -531,7 +531,7 @@
       <category>General</category>
       <pubDate>Sat, 11 Apr 2026 21:03:20 +0000</pubDate>
       <dc:creator>Tom Hayes MP (Bournemouth East)</dc:creator>
-    </item>
+    <polintel:location>Bournemouth East</polintel:location></item>
     <item>
       <title>Editorial Sub-Editor (AI-Supported)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=98886</link>
@@ -540,7 +540,7 @@
       <category>General</category>
       <pubDate>Sat, 11 Apr 2026 21:03:20 +0000</pubDate>
       <dc:creator>Westminster Forum Projects</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Editorial Research Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99440</link>
@@ -549,7 +549,7 @@
       <category>General</category>
       <pubDate>Sat, 11 Apr 2026 21:03:20 +0000</pubDate>
       <dc:creator>Westminster Forum Projects</dc:creator>
-    </item>
+    <polintel:location>Internet/London</polintel:location></item>
     <item>
       <title>Public Affairs and Campaigns Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99233</link>
@@ -558,7 +558,7 @@
       <category>General</category>
       <pubDate>Sat, 11 Apr 2026 21:03:20 +0000</pubDate>
       <dc:creator>Samaritans</dc:creator>
-    </item>
+    <polintel:location>Ewell, Surrey</polintel:location></item>
     <item>
       <title>Research Manager (Public Sector)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=98948</link>
@@ -567,7 +567,7 @@
       <category>General</category>
       <pubDate>Sat, 11 Apr 2026 21:03:20 +0000</pubDate>
       <dc:creator>Beauhust</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Research Fellow</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=98955</link>
@@ -576,7 +576,7 @@
       <category>General</category>
       <pubDate>Sat, 11 Apr 2026 21:03:20 +0000</pubDate>
       <dc:creator>The Constitution Society</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Associate Programme Management Officer</title>
       <link>https://careers.un.org/jobSearchDescription/276623?language=en</link>
@@ -693,34 +693,7 @@
       <category>General</category>
       <pubDate>Thu, 16 Apr 2026 07:38:55 +0000</pubDate>
       <dc:creator>Tom Collins MP (Worcester)</dc:creator>
-    </item>
-    <item>
-      <title>Policy Caseworker</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99012</link>
-      <description>Chris Webb MP is looking for a new Policy Caseworker in his Blackpool South constituency team. Responsible for managing a busy caseload, you will need excellent organisational and communication skills and be flexible and calm under pressur...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99012</guid>
-      <category>General</category>
-      <pubDate>Thu, 16 Apr 2026 07:38:55 +0000</pubDate>
-      <dc:creator>Chris Webb MP (Blackpool South)</dc:creator>
-    </item>
-    <item>
-      <title>Deputy Editor</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99015</link>
-      <description>CapX is recruiting for a Deputy Editor. You will be part of the CapX team, overseeing the website&amp;rsquo;s day-to-day output and helping to build new audiences. Your primary responsibility will be to edit and commission exclusive articles, ...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99015</guid>
-      <category>General</category>
-      <pubDate>Thu, 16 Apr 2026 07:38:55 +0000</pubDate>
-      <dc:creator>CapX / Centre for Policy Studies</dc:creator>
-    </item>
-    <item>
-      <title>Campaigns, Volunteer and Support Officer</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99020</link>
-      <description>In July 2024 Chris Coghlan was elected as the first Liberal (not just Liberal Democrat) MP for the area for over 100 years with 5.4k majority. We are now fast approaching the next General Election and it is our ambition to be ready to win again, t...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99020</guid>
-      <category>General</category>
-      <pubDate>Thu, 16 Apr 2026 07:38:55 +0000</pubDate>
-      <dc:creator>Chris Coghlan MP (Dorking &amp; Horley)</dc:creator>
-    </item>
+    <polintel:location>Worcester</polintel:location></item>
     <item>
       <title>Communications Officer (Constituency-Based)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99023</link>
@@ -729,16 +702,7 @@
       <category>General</category>
       <pubDate>Thu, 16 Apr 2026 07:38:55 +0000</pubDate>
       <dc:creator>Taiwo Owatemi MP  (Coventry North West)</dc:creator>
-    </item>
-    <item>
-      <title>Public Affairs Consultant</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99024</link>
-      <description>The Role Consultants are central to delivering client impact&amp;mdash;turning strategy into action. You will advise technology clients navigating complex UK and European regulatory and political environments, shaping public a...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99024</guid>
-      <category>General</category>
-      <pubDate>Thu, 16 Apr 2026 07:38:55 +0000</pubDate>
-      <dc:creator>Milltown Partners LLP</dc:creator>
-    </item>
+    <polintel:location>Coventry, West Midlands</polintel:location></item>
     <item>
       <title>INTERN –  E-Learning Content Development &amp; Digital Learning Support</title>
       <link>https://careers.un.org/jobSearchDescription/275636?language=en</link>
@@ -767,15 +731,6 @@
       <dc:creator>Department of Political and Peacebuilding Affairs-Department of Peace Operations-Shared Structure</dc:creator>
     </item>
     <item>
-      <title>Administrative Assistant</title>
-      <link>https://careers.un.org/jobSearchDescription/275861?language=en</link>
-      <description>Level : G-5 Job ID : 275861 Job Network : Management and Administration Job Family : Administration Department/Office : United Nations Office on Drugs and Crime Duty Station : TASHKENT Staffing Exercise : undefined Posted Date : 04/16/2026 00:00:00 AM (New York time) Deadline : 04/30/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/275861?language=en</guid>
-      <category>General</category>
-      <pubDate>Fri, 17 Apr 2026 07:39:17 +0000</pubDate>
-      <dc:creator>United Nations Office on Drugs and Crime</dc:creator>
-    </item>
-    <item>
       <title>Recrutement Consultant International – Évaluation Finale Indépendante de l’UNSDCF Gabon 2023–2027</title>
       <link>https://careers.un.org/jobSearchDescription/277537?language=en</link>
       <description>Level : CON Job ID : 275073 Job Network : Job Family : Social Affairs Department/Office : Resident Coordinator System Duty Station : LIBREVILLE Staffing Exercise : undefined Posted Date : 04/17/2026 00:00:00 AM (New York time) Deadline : 04/28/2026 23:59:59 PM (New York time)</description>
@@ -792,7 +747,7 @@
       <category>General</category>
       <pubDate>Fri, 17 Apr 2026 07:38:55 +0000</pubDate>
       <dc:creator>Modul University Vienna</dc:creator>
-    </item>
+    <polintel:location>Vienna</polintel:location></item>
     <item>
       <title>Procurement Intern at United Nations Office at Geneva</title>
       <link>https://careers.un.org/jobSearchDescription/276047?language=en</link>
@@ -837,15 +792,6 @@
       <category>General</category>
       <pubDate>Sat, 18 Apr 2026 07:17:04 +0000</pubDate>
       <dc:creator>Department of Operational Support</dc:creator>
-    </item>
-    <item>
-      <title>Campaign Fringe Event Lead</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99033</link>
-      <description>About Campaign Lab Campaign Lab is a network of technologists and campaigners focused on campaign innovation. We research, invent, test and embed effective tools and practices to strengthen progressive campaigning. &lt;br /...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99033</guid>
-      <category>General</category>
-      <pubDate>Sun, 19 Apr 2026 07:26:46 +0000</pubDate>
-      <dc:creator>Campaign Lab</dc:creator>
     </item>
     <item>
       <title>Travel Services Officer</title>
@@ -900,7 +846,7 @@
       <category>General</category>
       <pubDate>Tue, 21 Apr 2026 07:42:27 +0000</pubDate>
       <dc:creator>Trade Justice Movement</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Assessment Specialist - Skills-Based Assessment Design and Development</title>
       <link>https://careers.un.org/jobSearchDescription/274936?language=en</link>
@@ -936,7 +882,7 @@
       <category>General</category>
       <pubDate>Wed, 22 Apr 2026 07:41:19 +0000</pubDate>
       <dc:creator>The Labour Party</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Lead Campaigner</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99063</link>
@@ -945,7 +891,7 @@
       <category>General</category>
       <pubDate>Wed, 22 Apr 2026 07:41:19 +0000</pubDate>
       <dc:creator>We Own It</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Local Organiser - Communications and Digital</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99064</link>
@@ -954,7 +900,7 @@
       <category>General</category>
       <pubDate>Wed, 22 Apr 2026 07:41:19 +0000</pubDate>
       <dc:creator>Cumberland Labour Group</dc:creator>
-    </item>
+    <polintel:location>Cumbria</polintel:location></item>
     <item>
       <title>Policy &amp; Public Affairs Manager (Wales)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99068</link>
@@ -963,7 +909,7 @@
       <category>General</category>
       <pubDate>Wed, 22 Apr 2026 07:41:19 +0000</pubDate>
       <dc:creator>Trussell</dc:creator>
-    </item>
+    <polintel:location>Remote based</polintel:location></item>
     <item>
       <title>Summer Intern</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99070</link>
@@ -972,7 +918,7 @@
       <category>General</category>
       <pubDate>Wed, 22 Apr 2026 07:41:19 +0000</pubDate>
       <dc:creator>Michael Wheeler MP (Worsley and Eccles)</dc:creator>
-    </item>
+    <polintel:location>Swinton, Greater Manchester</polintel:location></item>
     <item>
       <title>Data Analyst - More in Common UK</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99072</link>
@@ -981,7 +927,7 @@
       <category>General</category>
       <pubDate>Wed, 22 Apr 2026 07:41:19 +0000</pubDate>
       <dc:creator>More in Common UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Bid (Growth) Associate</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99073</link>
@@ -990,7 +936,7 @@
       <category>General</category>
       <pubDate>Wed, 22 Apr 2026 07:41:19 +0000</pubDate>
       <dc:creator>PUBLIC</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>TRANSPORT ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/276329?language=en</link>
@@ -1181,15 +1127,6 @@
       <dc:creator>Economic and Social Commission for Western Asia</dc:creator>
     </item>
     <item>
-      <title>Membership Growth Associate</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99075</link>
-      <description>About this sales role As our membership grows, we need a highly organised and enthusiastic Membership Growth Associate who can quickly build relationships with energy sector companies, is able to have their fi...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99075</guid>
-      <category>General</category>
-      <pubDate>Fri, 24 Apr 2026 08:08:17 +0000</pubDate>
-      <dc:creator>ADE</dc:creator>
-    </item>
-    <item>
       <title>Events Producer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99078</link>
       <description>Job Details The New Statesman is the leading progressive political and cultural magazine in the United Kingdom. Celebrated for its dynamic and liberal politics, intelligence, diverse opinions, and high-quality writing and ...</description>
@@ -1197,7 +1134,7 @@
       <category>General</category>
       <pubDate>Fri, 24 Apr 2026 08:08:17 +0000</pubDate>
       <dc:creator>New Statesman Limited</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Summer Placement</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99080</link>
@@ -1206,16 +1143,7 @@
       <category>General</category>
       <pubDate>Fri, 24 Apr 2026 08:08:17 +0000</pubDate>
       <dc:creator>Katie Lam MP (Weald of Kent)</dc:creator>
-    </item>
-    <item>
-      <title>Associate</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99084</link>
-      <description>Chartwell Advisory is a boutique research and strategic advisory firm, providing counsel to political and business leaders. Based in London and building on a heritage in British politics, we now work with clients across the gl...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99084</guid>
-      <category>General</category>
-      <pubDate>Fri, 24 Apr 2026 08:08:17 +0000</pubDate>
-      <dc:creator>Chartwell Advisory</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Account Director</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99086</link>
@@ -1224,7 +1152,7 @@
       <category>General</category>
       <pubDate>Fri, 24 Apr 2026 08:08:17 +0000</pubDate>
       <dc:creator>Boscobel and Partners</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Partnerships and Interagency Engagement Intern</title>
       <link>https://careers.un.org/jobSearchDescription/275772?language=en</link>
@@ -1271,15 +1199,6 @@
       <dc:creator>Economic Commission for Africa</dc:creator>
     </item>
     <item>
-      <title>DIRECTOR, INFORMATION CENTRE</title>
-      <link>https://careers.un.org/jobSearchDescription/276192?language=en</link>
-      <description>Level : P-4 Job ID : 276192 Job Network : Public Information and Conference Management Job Family : Public Information Department/Office : Department of Global Communications Duty Station : TEHRAN Staffing Exercise : undefined Posted Date : 04/24/2026 00:00:00 AM (New York time) Deadline : 05/01/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/276192?language=en</guid>
-      <category>General</category>
-      <pubDate>Sat, 25 Apr 2026 07:21:38 +0000</pubDate>
-      <dc:creator>Department of Global Communications</dc:creator>
-    </item>
-    <item>
       <title>Marketing Intern</title>
       <link>https://careers.un.org/jobSearchDescription/276349?language=en</link>
       <description>Level : I-1 Job ID : 276349 Job Network : Job Family : Public Information Department/Office : Department of Global Communications Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 04/27/2026 00:00:00 AM (New York time) Deadline : 05/11/2026 23:59:59 PM (New York time)</description>
@@ -1305,25 +1224,7 @@
       <category>General</category>
       <pubDate>Mon, 27 Apr 2026 08:23:45 +0000</pubDate>
       <dc:creator>Renewable Energy Assurance Limited</dc:creator>
-    </item>
-    <item>
-      <title>Research Intern</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99098</link>
-      <description>The Centre for Policy Studies is looking to hire 1-2 Research Interns to support ongoing projects and contribute to the work of the research team over the summer of 2026. Each internship will be primarily office-based rather than remote, and will ...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99098</guid>
-      <category>General</category>
-      <pubDate>Mon, 27 Apr 2026 08:23:45 +0000</pubDate>
-      <dc:creator>Centre for Policy Studies</dc:creator>
-    </item>
-    <item>
-      <title>Senior Parliamentary Assistant</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99099</link>
-      <description>James Naish MP is looking for a skilled Senior Parliamentary Assistant to lead on his Westminster activities, and to support his Rushcliffe office with the delivery of key campaign projects. The successful candidate will: Oversee an...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99099</guid>
-      <category>General</category>
-      <pubDate>Mon, 27 Apr 2026 08:23:45 +0000</pubDate>
-      <dc:creator>James Naish, MP (Rushcliffe)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99101</link>
@@ -1332,7 +1233,7 @@
       <category>General</category>
       <pubDate>Mon, 27 Apr 2026 08:23:45 +0000</pubDate>
       <dc:creator>Dan Jarvis MBE MP (Barnsley North)</dc:creator>
-    </item>
+    <polintel:location>Westminster, but will consider constituency based</polintel:location></item>
     <item>
       <title>Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99106</link>
@@ -1341,7 +1242,7 @@
       <category>General</category>
       <pubDate>Mon, 27 Apr 2026 08:23:45 +0000</pubDate>
       <dc:creator>Dr Neil Shastri-Hurst (Solihull West and Shirley)</dc:creator>
-    </item>
+    <polintel:location>Solihull Office</polintel:location></item>
     <item>
       <title>INTERN - HUMAN RIGHTS</title>
       <link>https://careers.un.org/jobSearchDescription/276350?language=en</link>
@@ -1539,16 +1440,7 @@
       <category>General</category>
       <pubDate>Wed, 29 Apr 2026 08:19:02 +0000</pubDate>
       <dc:creator>FDA Trade Union</dc:creator>
-    </item>
-    <item>
-      <title>Policy and Public Affairs Officer</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99111</link>
-      <description>We are looking for a Policy and Public Affairs Officer to lead and deliver the Foundation&amp;rsquo;s policy and influencing work to support evidence-based system change. As part of our influencing team, you will drive the delivery of an influ...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99111</guid>
-      <category>General</category>
-      <pubDate>Wed, 29 Apr 2026 08:19:02 +0000</pubDate>
-      <dc:creator>The Bell Foundation</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Parliamentary Assistant - Maternity Cover</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99112</link>
@@ -1557,7 +1449,7 @@
       <category>General</category>
       <pubDate>Wed, 29 Apr 2026 08:19:02 +0000</pubDate>
       <dc:creator>Danny Kruger MP (East Wiltshire)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Fundraising Coordinator</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99113</link>
@@ -1566,7 +1458,7 @@
       <category>General</category>
       <pubDate>Wed, 29 Apr 2026 08:19:02 +0000</pubDate>
       <dc:creator>The Labour Party</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Benefits Assistant</title>
       <link>https://careers.un.org/jobSearchDescription/266780?language=en</link>
@@ -1647,16 +1539,7 @@
       <category>General</category>
       <pubDate>Thu, 30 Apr 2026 08:22:19 +0000</pubDate>
       <dc:creator>Tristan Osborne MP (Chatham and Aylesford)</dc:creator>
-    </item>
-    <item>
-      <title>Account Executive or Account Manager</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99118</link>
-      <description>DevComms, an innovative stakeholder engagement consultancy specialising in the built environment, is looking for a dynamic Account Executive / Senior Account Executive / Account Manager to join its growing Midlands team, based in Birmingham. ...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99118</guid>
-      <category>General</category>
-      <pubDate>Thu, 30 Apr 2026 08:22:19 +0000</pubDate>
-      <dc:creator>DevComms Midlands</dc:creator>
-    </item>
+    <polintel:location>Constituency office</polintel:location></item>
     <item>
       <title>Senior Policy and Public Affairs Officer - Devolved Nations</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99122</link>
@@ -1665,7 +1548,7 @@
       <category>General</category>
       <pubDate>Thu, 30 Apr 2026 08:22:19 +0000</pubDate>
       <dc:creator>Breakthrough T1D</dc:creator>
-    </item>
+    <polintel:location>Edinburgh, Cardiff or Belfast home-based</polintel:location></item>
     <item>
       <title>Chief of Staff</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99123</link>
@@ -1674,7 +1557,7 @@
       <category>General</category>
       <pubDate>Thu, 30 Apr 2026 08:22:19 +0000</pubDate>
       <dc:creator>Helen Morgan MP (North Shropshire)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99125</link>
@@ -1683,7 +1566,7 @@
       <category>General</category>
       <pubDate>Thu, 30 Apr 2026 08:22:19 +0000</pubDate>
       <dc:creator>The Coalfields Regeneration Trust</dc:creator>
-    </item>
+    <polintel:location>Wombwell, Barnsley</polintel:location></item>
     <item>
       <title>Constituency Office Intern</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99126</link>
@@ -1692,16 +1575,7 @@
       <category>General</category>
       <pubDate>Thu, 30 Apr 2026 08:22:19 +0000</pubDate>
       <dc:creator>Dr Kieran Mullan MP (Bexhill and Battle)</dc:creator>
-    </item>
-    <item>
-      <title>Part-time Caseworker</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99128</link>
-      <description>Debbie Abrahams MP is looking for a candidate to join her well-established, friendly and busy constituency team as a caseworker. There may be a requirement for the role-holder to work outside of normal hours and to travel for work from time to tim...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99128</guid>
-      <category>General</category>
-      <pubDate>Thu, 30 Apr 2026 08:22:19 +0000</pubDate>
-      <dc:creator>Debbie Abrahams MP (Oldham East and Saddleworth)</dc:creator>
-    </item>
+    <polintel:location>Bexhill on Sea</polintel:location></item>
     <item>
       <title>Legal Intern</title>
       <link>https://careers.un.org/jobSearchDescription/277600?language=en</link>
@@ -1710,15 +1584,6 @@
       <category>General</category>
       <pubDate>Fri, 01 May 2026 08:20:58 +0000</pubDate>
       <dc:creator>International Residual Mechanism for Criminal Tribunals</dc:creator>
-    </item>
-    <item>
-      <title>Finance and Budget Officer</title>
-      <link>https://careers.un.org/jobSearchDescription/276168?language=en</link>
-      <description>Level : NO-C Job ID : 276168 Job Network : Management and Administration Job Family : Finance Department/Office : Office of the United Nations Special Coordinator for the Middle East Peace Process Duty Station : JERUSALEM Staffing Exercise : undefined Posted Date : 04/30/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/276168?language=en</guid>
-      <category>General</category>
-      <pubDate>Fri, 01 May 2026 08:20:58 +0000</pubDate>
-      <dc:creator>Office of the United Nations Special Coordinator for the Middle East Peace Process</dc:creator>
     </item>
     <item>
       <title>Policy &amp; Foreign Affairs Research Intern</title>
@@ -1746,15 +1611,6 @@
       <category>General</category>
       <pubDate>Fri, 01 May 2026 08:20:58 +0000</pubDate>
       <dc:creator>United Nations Environment Programme</dc:creator>
-    </item>
-    <item>
-      <title>Programme Management Intern</title>
-      <link>https://careers.un.org/jobSearchDescription/276401?language=en</link>
-      <description>Level : I-1 Job ID : 276401 Job Network : Job Family : Programme Management Department/Office : Economic Commission for Europe Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 04/30/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/276401?language=en</guid>
-      <category>General</category>
-      <pubDate>Fri, 01 May 2026 08:20:58 +0000</pubDate>
-      <dc:creator>Economic Commission for Europe</dc:creator>
     </item>
     <item>
       <title>.POST Marketing &amp; Business Development Specialist, SPEC6</title>
@@ -1820,15 +1676,6 @@
       <dc:creator>United Nations Office at Geneva</dc:creator>
     </item>
     <item>
-      <title>Project Management Adviser (LICA 10)</title>
-      <link>https://careers.un.org/jobSearchDescription/276888?language=en</link>
-      <description>Level : CON Job ID : 276888 Job Network : Job Family : Programme Management Department/Office : International Trade Centre Duty Station : KIGALI Staffing Exercise : undefined Posted Date : 05/01/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/276888?language=en</guid>
-      <category>General</category>
-      <pubDate>Sat, 02 May 2026 07:38:47 +0000</pubDate>
-      <dc:creator>International Trade Centre</dc:creator>
-    </item>
-    <item>
       <title>Director, Administration</title>
       <link>https://careers.un.org/jobSearchDescription/278682?language=en</link>
       <description>Level : D-2 Job ID : 275156 Job Network : Management and Administration Job Family : Administration Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 05/01/2026 00:00:00 AM (New York time) Deadline : 06/14/2026 23:59:59 PM (New York time)</description>
@@ -1856,15 +1703,6 @@
       <dc:creator>Department of Global Communications</dc:creator>
     </item>
     <item>
-      <title>Resident Coordinator (Nigeria)</title>
-      <link>https://careers.un.org/jobSearchDescription/176771?language=en</link>
-      <description>Level : D-2 Job ID : 176771 Job Network : Economic, Social and Development Job Family : Sustainable Development Department/Office : Resident Coordinator System Duty Station : ABUJA Staffing Exercise : undefined Posted Date : 05/01/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/176771?language=en</guid>
-      <category>General</category>
-      <pubDate>Sat, 02 May 2026 07:38:47 +0000</pubDate>
-      <dc:creator>Resident Coordinator System</dc:creator>
-    </item>
-    <item>
       <title>Senior Manager, Policy and Campaigns</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99132</link>
       <description>Established by Sir Lewis Hamilton in 2021, Mission 44 is a charitable foundation working to ensure that every young person can thrive in school and access great careers in STEM. We support bold organisations, leaders and ideas to reimagine the fut...</description>
@@ -1872,7 +1710,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Mission 44</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Communications Officer (maternity cover)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99250</link>
@@ -1881,16 +1719,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Leigh Ingham MP (Stafford)</dc:creator>
-    </item>
-    <item>
-      <title>Account Executive</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99134</link>
-      <description>We are looking for a highly motivated individual to help us support our clients in powering the UK Net Zero transition. Due to a number of recent new client wins in the renewable energy sector, we have a vacancy for an Account Executive to help us...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99134</guid>
-      <category>General</category>
-      <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
-      <dc:creator>Alpaca Communications</dc:creator>
-    </item>
+    <polintel:location>Stafford, West Midlands</polintel:location></item>
     <item>
       <title>Public Affairs and Policy Adviser</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99135</link>
@@ -1899,7 +1728,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>The Consumer Legal Association</dc:creator>
-    </item>
+    <polintel:location>Internet (London)</polintel:location></item>
     <item>
       <title>Communications and Campaigns Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99137</link>
@@ -1908,7 +1737,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Fire Brigades Union (FBU)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Regional Organiser - South East</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99138</link>
@@ -1917,16 +1746,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>The Labour Party</dc:creator>
-    </item>
-    <item>
-      <title>Constituency Apprentice</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99139</link>
-      <description>Richard Quigley MP is looking for a Constituency Apprentice to join his team. The successful candidate will provide administrative and project support across the team, with a particular focus on casework (supporting constituents). They wil...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99139</guid>
-      <category>General</category>
-      <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
-      <dc:creator>Richard Quigley MP (Isle of Wight West)</dc:creator>
-    </item>
+    <polintel:location>Leatherhead</polintel:location></item>
     <item>
       <title>Research Lead/ Communications Manager/ Project Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99140</link>
@@ -1935,7 +1755,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Campaign Lab</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy and External Affairs Manager (Scotland)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99143</link>
@@ -1944,7 +1764,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Advice UK</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99148</link>
@@ -1953,7 +1773,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Julie Minns MP (Carlisle)</dc:creator>
-    </item>
+    <polintel:location>Carlisle</polintel:location></item>
     <item>
       <title>Campaigns Officer (Honiton &amp; Sidmouth)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99152</link>
@@ -1962,7 +1782,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Honiton, Sidmouth &amp; Tiverton Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>Tiverton/Whimple, Devon</polintel:location></item>
     <item>
       <title>Political, Crisis &amp; Litigation, Associate Consultant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99158</link>
@@ -1971,7 +1791,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Teneo</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99159</link>
@@ -1980,7 +1800,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Fleur Anderson MP (Putney)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99160</link>
@@ -1989,7 +1809,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Apsana Begum MP (Poplar and Limehouse)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Organiser &amp; Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99161</link>
@@ -1998,7 +1818,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Taunton and Wellington Liberal Democrats &amp; Gideon Amos MP</dc:creator>
-    </item>
+    <polintel:location>Taunton, Somerset</polintel:location></item>
     <item>
       <title>Campaigns Officer - England</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99162</link>
@@ -2007,7 +1827,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Stroke Association</dc:creator>
-    </item>
+    <polintel:location>Remote, England</polintel:location></item>
     <item>
       <title>Senior Policy Adviser</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99163</link>
@@ -2016,7 +1836,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Royal College of Nursing</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Communications and Campaigns Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99353</link>
@@ -2025,7 +1845,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>David Pinto-Duschinsky MP (Hendon)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Chief of Staff &amp; Campaigns</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99165</link>
@@ -2034,25 +1854,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Naushabah Khan MP (Gillingham &amp; Rainham)</dc:creator>
-    </item>
-    <item>
-      <title>Events Assistant</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99166</link>
-      <description>This is an excellent opportunity for someone who wants to build the experience in events to join a small and successful events team Universities UK International (UUKi), a membership-body representing over 140 UK universities. This role wi...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99166</guid>
-      <category>General</category>
-      <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
-      <dc:creator>Universities UK</dc:creator>
-    </item>
-    <item>
-      <title>Personal Assistant</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99167</link>
-      <description>Rt Hon Sir Mel Stride MP, Shadow Chancellor, is seeking an enthusiastic Personal Assistant to join him and his busy Westminster office. Key to this role will be direct support to Mel Stride in the planning, implementation and follow up of his visi...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99167</guid>
-      <category>General</category>
-      <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
-      <dc:creator>Rt Hon Sir Mel Stride MP (Central Devon)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Communications Officer (Digital Content Specialist)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99169</link>
@@ -2061,7 +1863,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Natalie Fleet MP (Bolsover)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy and Communications Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99170</link>
@@ -2070,7 +1872,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>The Institute of Alcohol Studies</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Deputy Head of the Commons Whips Office</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99171</link>
@@ -2079,7 +1881,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Researcher, Vulnerable Learners and Post-16</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99173</link>
@@ -2088,7 +1890,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Education Policy Institute</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99174</link>
@@ -2097,7 +1899,7 @@
       <category>General</category>
       <pubDate>Sat, 02 May 2026 07:38:46 +0000</pubDate>
       <dc:creator>Jonathan Hinder MP (Pendle and Clitheroe)</dc:creator>
-    </item>
+    <polintel:location>Pendle and Clitheroe</polintel:location></item>
     <item>
       <title>Information Security Engineer - Daily Paid Opportunity - Grade A</title>
       <link>https://careers.un.org/jobSearchDescription/276526?language=en</link>
@@ -2423,15 +2225,6 @@
       <dc:creator>United Nations Environment Programme</dc:creator>
     </item>
     <item>
-      <title>Innovative Climate Solutions Programme: Impact Report Writing</title>
-      <link>https://careers.un.org/jobSearchDescription/277034?language=en</link>
-      <description>Level : CON Job ID : 277034 Job Network : Job Family : Department/Office : United Nations Environment Programme Duty Station : COPENHAGEN Staffing Exercise : undefined Posted Date : 05/06/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/277034?language=en</guid>
-      <category>General</category>
-      <pubDate>Wed, 06 May 2026 08:26:10 +0000</pubDate>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    </item>
-    <item>
       <title>CCAC Senior Coordinator for the Super Pollutants Accelerator in Mexico</title>
       <link>https://careers.un.org/jobSearchDescription/276965?language=en</link>
       <description>Level : CON Job ID : 276965 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : PARIS Staffing Exercise : undefined Posted Date : 05/04/2026 00:00:00 AM (New York time) Deadline : 05/24/2026 23:59:59 PM (New York time)</description>
@@ -2531,15 +2324,6 @@
       <dc:creator>United Nations Environment Programme</dc:creator>
     </item>
     <item>
-      <title>Consultoría para el desarrollo de una plataforma web para la publicación de información de salvaguardas REDD+ (SIS) del MADES</title>
-      <link>https://careers.un.org/jobSearchDescription/276354?language=en</link>
-      <description>Level : CON Job ID : 276354 Job Network : Job Family : IMA Department/Office : United Nations Environment Programme Duty Station : PAN - Other cities Staffing Exercise : undefined Posted Date : 05/05/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/276354?language=en</guid>
-      <category>General</category>
-      <pubDate>Wed, 06 May 2026 08:26:10 +0000</pubDate>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    </item>
-    <item>
       <title>SENIOR SUPPLY ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/276873?language=en</link>
       <description>Level : G-7 Job ID : 276873 Job Network : Logistics, Transportation and Supply Chain Job Family : Logistics and Supply Chain Department/Office : Economic Commission for Africa Duty Station : ADDIS ABABA Staffing Exercise : undefined Posted Date : 05/05/2026 00:00:00 AM (New York time) Deadline : 06/03/2026 23:59:59 PM (New York time)</description>
@@ -2621,15 +2405,6 @@
       <dc:creator>United Nations Office on Drugs and Crime</dc:creator>
     </item>
     <item>
-      <title>Creative Content Officer</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99177</link>
-      <description>Are you a creative storyteller with a passion for digital content? We&amp;rsquo;re looking for an enthusiastic and talented individual to help bring our communications to life and connect with diverse audiences across Brent. In this role, you&amp;...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99177</guid>
-      <category>General</category>
-      <pubDate>Wed, 06 May 2026 08:26:08 +0000</pubDate>
-      <dc:creator>Brent Council</dc:creator>
-    </item>
-    <item>
       <title>Multiple Roles</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99178</link>
       <description>The Centre for Government Reform will seek to prepare several hundred senior and committed individuals, over the next three years, to reform and run the British state properly. The Centre is founded on the belief that the state of the coun...</description>
@@ -2637,7 +2412,7 @@
       <category>General</category>
       <pubDate>Wed, 06 May 2026 08:26:08 +0000</pubDate>
       <dc:creator>Centre for Government Reform</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Head of Digital Communications</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99179</link>
@@ -2646,7 +2421,7 @@
       <category>General</category>
       <pubDate>Wed, 06 May 2026 08:26:08 +0000</pubDate>
       <dc:creator>Big Brother Watch</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99180</link>
@@ -2655,7 +2430,7 @@
       <category>General</category>
       <pubDate>Wed, 06 May 2026 08:26:08 +0000</pubDate>
       <dc:creator>Josh Newbury MP (Cannock Chase)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99182</link>
@@ -2664,7 +2439,7 @@
       <category>General</category>
       <pubDate>Wed, 06 May 2026 08:26:08 +0000</pubDate>
       <dc:creator>Josh Newbury MP (Cannock Chase)</dc:creator>
-    </item>
+    <polintel:location>Hednesford, Staffordshire</polintel:location></item>
     <item>
       <title>Events and Office Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99183</link>
@@ -2673,7 +2448,7 @@
       <category>General</category>
       <pubDate>Wed, 06 May 2026 08:26:08 +0000</pubDate>
       <dc:creator>Policy Exchange</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>ASSOCIATE DATA SCIENTIST</title>
       <link>https://careers.un.org/jobSearchDescription/276962?language=en</link>
@@ -2693,15 +2468,6 @@
       <dc:creator>Economic Commission for Europe</dc:creator>
     </item>
     <item>
-      <title>International Consultant: Trade &amp; Investment Competitiveness Analyst</title>
-      <link>https://careers.un.org/jobSearchDescription/277078?language=en</link>
-      <description>Level : CON Job ID : 277078 Job Network : Job Family : Statistics Department/Office : International Trade Centre Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 05/06/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/277078?language=en</guid>
-      <category>General</category>
-      <pubDate>Thu, 07 May 2026 08:33:17 +0000</pubDate>
-      <dc:creator>International Trade Centre</dc:creator>
-    </item>
-    <item>
       <title>INTERN - Intergovernmental Affairs</title>
       <link>https://careers.un.org/jobSearchDescription/276722?language=en</link>
       <description>Level : I-1 Job ID : 276722 Job Network : Job Family : Political Affairs Department/Office : Department for General Assembly and Conference Management Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 05/05/2026 00:00:00 AM (New York time) Deadline : 05/19/2026 23:59:59 PM (New York time)</description>
@@ -2718,15 +2484,6 @@
       <category>General</category>
       <pubDate>Thu, 07 May 2026 08:33:17 +0000</pubDate>
       <dc:creator>United Nations Human Settlements Programme</dc:creator>
-    </item>
-    <item>
-      <title>Expert Consultant on Health Satellite Accounts Compilation and Application</title>
-      <link>https://careers.un.org/jobSearchDescription/275887?language=en</link>
-      <description>Level : CON Job ID : 275887 Job Network : Job Family : Statistics Department/Office : Economic Commission for Africa Duty Station : ADDIS ABABA Staffing Exercise : undefined Posted Date : 05/06/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/275887?language=en</guid>
-      <category>General</category>
-      <pubDate>Thu, 07 May 2026 08:33:17 +0000</pubDate>
-      <dc:creator>Economic Commission for Africa</dc:creator>
     </item>
     <item>
       <title>INFORMATION MANAGEMENT ASSOCIATE</title>
@@ -2855,15 +2612,6 @@
       <dc:creator>United Nations Environment Programme</dc:creator>
     </item>
     <item>
-      <title>Capacity Building in Carbon Markets and Article 6 Readiness Project Technical Lead Consultant</title>
-      <link>https://careers.un.org/jobSearchDescription/277084?language=en</link>
-      <description>Level : CON Job ID : 277084 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : PANAMA CITY Staffing Exercise : undefined Posted Date : 05/06/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/277084?language=en</guid>
-      <category>General</category>
-      <pubDate>Thu, 07 May 2026 08:33:17 +0000</pubDate>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    </item>
-    <item>
       <title>Programme Management and Communications Assistant</title>
       <link>https://careers.un.org/jobSearchDescription/276949?language=en</link>
       <description>Level : CON Job ID : 276949 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : PARIS Staffing Exercise : undefined Posted Date : 05/06/2026 00:00:00 AM (New York time) Deadline : 05/17/2026 23:59:59 PM (New York time)</description>
@@ -2943,7 +2691,7 @@
       <category>General</category>
       <pubDate>Thu, 07 May 2026 08:33:15 +0000</pubDate>
       <dc:creator>Jayne Kirkham MP (Truro and Falmouth)</dc:creator>
-    </item>
+    <polintel:location>Truro, Cornwall</polintel:location></item>
     <item>
       <title>Public Affairs Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99186</link>
@@ -2952,7 +2700,7 @@
       <category>General</category>
       <pubDate>Thu, 07 May 2026 08:33:15 +0000</pubDate>
       <dc:creator>Centrica</dc:creator>
-    </item>
+    <polintel:location>Windsor/London</polintel:location></item>
     <item>
       <title>Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99187</link>
@@ -2961,7 +2709,7 @@
       <category>General</category>
       <pubDate>Thu, 07 May 2026 08:33:15 +0000</pubDate>
       <dc:creator>Dr Caroline Johnson MP (Sleaford and North Hykeham)</dc:creator>
-    </item>
+    <polintel:location>Sleaford</polintel:location></item>
     <item>
       <title>Senior Research Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99188</link>
@@ -2970,7 +2718,7 @@
       <category>General</category>
       <pubDate>Thu, 07 May 2026 08:33:15 +0000</pubDate>
       <dc:creator>Mental Health Foundation</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker/Senior Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99189</link>
@@ -2979,7 +2727,7 @@
       <category>General</category>
       <pubDate>Thu, 07 May 2026 08:33:15 +0000</pubDate>
       <dc:creator>Rt Hon Sir Julian Smith KCB CBE MP (Skipton and Ripon)</dc:creator>
-    </item>
+    <polintel:location>Preferably Yorkshire based</polintel:location></item>
     <item>
       <title>Human Resources Assistant (part-time at 50%)</title>
       <link>https://careers.un.org/jobSearchDescription/277236?language=en</link>
@@ -3269,15 +3017,6 @@
       <dc:creator>Department of Operational Support</dc:creator>
     </item>
     <item>
-      <title>IT and Webmaster consultant</title>
-      <link>https://careers.un.org/jobSearchDescription/277072?language=en</link>
-      <description>Level : CON Job ID : 277072 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 05/09/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/277072?language=en</guid>
-      <category>General</category>
-      <pubDate>Sat, 09 May 2026 07:51:33 +0000</pubDate>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    </item>
-    <item>
       <title>FINANCE AND BUDGET ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/277185?language=en</link>
       <description>Level : G-6 Job ID : 277185 Job Network : Management and Administration Job Family : Finance Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 05/08/2026 00:00:00 AM (New York time) Deadline : 05/22/2026 23:59:59 PM (New York time)</description>
@@ -3294,15 +3033,6 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:33 +0000</pubDate>
       <dc:creator>Department of Economic and Social Affairs</dc:creator>
-    </item>
-    <item>
-      <title>International Consultant – Urban Resilience Strategy and Action Programme</title>
-      <link>https://careers.un.org/jobSearchDescription/267352?language=en</link>
-      <description>Level : CON Job ID : 267352 Job Network : Job Family : Environmental Affairs Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 05/08/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/267352?language=en</guid>
-      <category>General</category>
-      <pubDate>Sat, 09 May 2026 07:51:33 +0000</pubDate>
-      <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
     </item>
     <item>
       <title>PROGRAMME MANAGEMENT OFFICER</title>
@@ -3330,15 +3060,6 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:33 +0000</pubDate>
       <dc:creator>International Trade Centre</dc:creator>
-    </item>
-    <item>
-      <title>Critical Minerals Lead</title>
-      <link>https://careers.un.org/jobSearchDescription/277203?language=en</link>
-      <description>Level : CON Job ID : 277203 Job Network : Job Family : MPA Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 05/08/2026 00:00:00 AM (New York time) Deadline : 05/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/277203?language=en</guid>
-      <category>General</category>
-      <pubDate>Sat, 09 May 2026 07:51:33 +0000</pubDate>
-      <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
     </item>
     <item>
       <title>Video producer</title>
@@ -3411,7 +3132,7 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:31 +0000</pubDate>
       <dc:creator>HPA UK</dc:creator>
-    </item>
+    <polintel:location>Home based, with UK travel</polintel:location></item>
     <item>
       <title>Senior Caseworker (Part time)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99191</link>
@@ -3420,7 +3141,7 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:31 +0000</pubDate>
       <dc:creator>Anna Dixon MP (Shipley)</dc:creator>
-    </item>
+    <polintel:location>Shipley</polintel:location></item>
     <item>
       <title>Policy Officer (Planning &amp; Infrastructure)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99192</link>
@@ -3429,7 +3150,7 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:31 +0000</pubDate>
       <dc:creator>Central London Forward</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99318</link>
@@ -3438,7 +3159,7 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:31 +0000</pubDate>
       <dc:creator>a client of The Right Ethos</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Director (Policy) - Technology, Media and Telecoms</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99195</link>
@@ -3447,7 +3168,7 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:31 +0000</pubDate>
       <dc:creator>Public First</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Campaign Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99196</link>
@@ -3456,7 +3177,7 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:31 +0000</pubDate>
       <dc:creator>Bath, North East Somerset &amp; Hanham Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>Bath</polintel:location></item>
     <item>
       <title>Research Fellow in the Ideas of Anti-Autocratic Movements</title>
       <link>https://www.jobs.ac.uk/job/DRL381/research-fellow-in-the-ideas-of-anti-autocratic-movements</link>
@@ -3466,7 +3187,7 @@
       <category>General</category>
       <pubDate>Sat, 09 May 2026 07:51:12 +0000</pubDate>
       <dc:creator>University of Sussex</dc:creator>
-    </item>
+    <polintel:location>Falmer</polintel:location></item>
     <item>
       <title>National Consultant: GISD Kenya Work Programme &amp; Private Sector Engagement</title>
       <link>https://careers.un.org/jobSearchDescription/277302?language=en</link>
@@ -3502,7 +3223,7 @@
       <category>General</category>
       <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
       <dc:creator>Jonathan Davies MP (Mid Derbyshire)</dc:creator>
-    </item>
+    <polintel:location>Mid Derbyshire</polintel:location></item>
     <item>
       <title>Policy Manager – Digital Commerce &amp; Consumer Policy</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99198</link>
@@ -3511,7 +3232,7 @@
       <category>General</category>
       <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
       <dc:creator>techUK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99199</link>
@@ -3520,7 +3241,7 @@
       <category>General</category>
       <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
       <dc:creator>Paul Kohler MP (Wimbledon)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99200</link>
@@ -3529,16 +3250,7 @@
       <category>General</category>
       <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
       <dc:creator>Andrew George MP (St Ives)</dc:creator>
-    </item>
-    <item>
-      <title>Events Manager (Freelance)</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99201</link>
-      <description>Engagement: Freelance, 3 to 4 days per week, May through October 2026, with potential to develop into a longer-term arrangement THE ROLE You will lead the delivery of a programme of senior events across SHGH from M...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99201</guid>
-      <category>General</category>
-      <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
-      <dc:creator>Stonehaven / Public First</dc:creator>
-    </item>
+    <polintel:location>Penzance</polintel:location></item>
     <item>
       <title>Policy Lead</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99202</link>
@@ -3547,7 +3259,7 @@
       <category>General</category>
       <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
       <dc:creator>The Chartered Society of Physiotherapy</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Marketing Executive - Defense</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99203</link>
@@ -3556,7 +3268,7 @@
       <category>General</category>
       <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
       <dc:creator>Defence IQ (IQPC)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Conference Coordinator</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99204</link>
@@ -3565,7 +3277,7 @@
       <category>General</category>
       <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
       <dc:creator>International Law Summits (ILS)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Conference Producer – Defence IQ</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99205</link>
@@ -3574,7 +3286,7 @@
       <category>General</category>
       <pubDate>Mon, 11 May 2026 09:18:57 +0000</pubDate>
       <dc:creator>Defence IQ (IQPC)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>ASSOCIATE LEGAL OFFICER (Temporary Job Opening)</title>
       <link>https://careers.un.org/jobSearchDescription/276852?language=en</link>
@@ -3799,7 +3511,7 @@
       <category>General</category>
       <pubDate>Tue, 12 May 2026 08:43:27 +0000</pubDate>
       <dc:creator>Bowel Cancer UK</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Policy and Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99207</link>
@@ -3808,7 +3520,7 @@
       <category>General</category>
       <pubDate>Tue, 12 May 2026 08:43:27 +0000</pubDate>
       <dc:creator>Women's Equality Network Wales</dc:creator>
-    </item>
+    <polintel:location>Hybrid</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99208</link>
@@ -3817,7 +3529,7 @@
       <category>General</category>
       <pubDate>Tue, 12 May 2026 08:43:27 +0000</pubDate>
       <dc:creator>Damien Egan MP (Bristol North East)</dc:creator>
-    </item>
+    <polintel:location>Bristol North East</polintel:location></item>
     <item>
       <title>PhD Studentship: Institutional Cultures and Citizen Engagement for Net Zero Decision Making</title>
       <link>https://www.jobs.ac.uk/job/DRM890/phd-studentship-institutional-cultures-and-citizen-engagement-for-net-zero-decision-making</link>
@@ -3827,7 +3539,7 @@
       <category>General</category>
       <pubDate>Tue, 12 May 2026 08:43:09 +0000</pubDate>
       <dc:creator>The University of Manchester</dc:creator>
-    </item>
+    <polintel:location>Manchester</polintel:location></item>
     <item>
       <title>Web Assistant</title>
       <link>https://careers.un.org/jobSearchDescription/276658?language=en</link>
@@ -4412,7 +4124,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Commonwealth Parliamentary Association</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Regulatory Engagement Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99210</link>
@@ -4421,7 +4133,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Electoral Commission</dc:creator>
-    </item>
+    <polintel:location>Cardiff, Edinburgh, Belfast or Remote UK</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99211</link>
@@ -4430,7 +4142,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Michael Shanks MP (Rutherglen)</dc:creator>
-    </item>
+    <polintel:location>Rutherglen</polintel:location></item>
     <item>
       <title>Researcher</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99212</link>
@@ -4439,7 +4151,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Onward</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>International Policy Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99213</link>
@@ -4448,7 +4160,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Royal College of Nursing</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Mayor's Political Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99214</link>
@@ -4457,7 +4169,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Watford Borough Council</dc:creator>
-    </item>
+    <polintel:location>Watford, UK</polintel:location></item>
     <item>
       <title>Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99215</link>
@@ -4466,7 +4178,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Frank McNally MP (Coatbridge and Bellshill)</dc:creator>
-    </item>
+    <polintel:location>Coatbridge</polintel:location></item>
     <item>
       <title>Public Affairs Lead - Youth Charity</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99216</link>
@@ -4475,7 +4187,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>A client of CK Recruit</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99217</link>
@@ -4484,7 +4196,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Marsha de Cordova MP (Battersea)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy and public affairs lead, Wales</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99218</link>
@@ -4493,7 +4205,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Breast Cancer Now</dc:creator>
-    </item>
+    <polintel:location>Wales</polintel:location></item>
     <item>
       <title>Public Affairs &amp; Comms Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99219</link>
@@ -4502,7 +4214,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Club Soda</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99220</link>
@@ -4511,7 +4223,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Max Wilkinson MP (Cheltenham)</dc:creator>
-    </item>
+    <polintel:location>Cheltenham or remote</polintel:location></item>
     <item>
       <title>Advocacy Officer (fixed term - 8 months)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99221</link>
@@ -4520,7 +4232,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>International Rescue Committee</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Digital Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99222</link>
@@ -4529,7 +4241,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Elsie Blundell MP (Heywood and Middleton North)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Grassroots and Events Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99223</link>
@@ -4538,7 +4250,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Prosper UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Business Council Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99224</link>
@@ -4547,7 +4259,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Jobs Foundation</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Local Organiser - Bath</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99225</link>
@@ -4556,7 +4268,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>The Labour Party</dc:creator>
-    </item>
+    <polintel:location>Bath</polintel:location></item>
     <item>
       <title>Parliamentary and Constituency Researcher</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99226</link>
@@ -4565,7 +4277,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Frank McNally MP (Coatbridge and Bellshill)</dc:creator>
-    </item>
+    <polintel:location>Coatbridge</polintel:location></item>
     <item>
       <title>Undergraduate Research Internship 2026</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99227</link>
@@ -4574,7 +4286,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Education Policy Institute</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99228</link>
@@ -4583,7 +4295,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>Pippa Heylings MP (South Cambridgeshire)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Head of Policy and Research</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99229</link>
@@ -4592,7 +4304,7 @@
       <category>General</category>
       <pubDate>Thu, 14 May 2026 08:46:36 +0000</pubDate>
       <dc:creator>The Future Governance Forum</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Information Technology Intern</title>
       <link>https://careers.un.org/jobSearchDescription/275750?language=en</link>
@@ -4817,7 +4529,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Checkout.com</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Scottish Parliamentary Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99231</link>
@@ -4826,7 +4538,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Society for the Protection of Unborn Children (SPUC)</dc:creator>
-    </item>
+    <polintel:location>Holyrood/Glasgow</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99232</link>
@@ -4835,7 +4547,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Wera Hobhouse MP (Bath)</dc:creator>
-    </item>
+    <polintel:location>Bath</polintel:location></item>
     <item>
       <title>Senior Campaigns and Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99234</link>
@@ -4844,7 +4556,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Hannah Spencer MP (Gorton and Denton)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Part-time Caseworker (3 days a week)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99235</link>
@@ -4853,7 +4565,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Marie Tidball MP (Penistone and Stocksbridge)</dc:creator>
-    </item>
+    <polintel:location>Penistone &amp; Stocksbridge</polintel:location></item>
     <item>
       <title>Account Director</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99236</link>
@@ -4862,7 +4574,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Jefferson Communications JC Ltd</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Communications and Policy Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99237</link>
@@ -4871,7 +4583,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Charlie Maynard MP (Witney)</dc:creator>
-    </item>
+    <polintel:location>Witney, Oxfordshire</polintel:location></item>
     <item>
       <title>Senior Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99238</link>
@@ -4880,7 +4592,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Ashley Dalton (West Lancashire)</dc:creator>
-    </item>
+    <polintel:location>Skelmersdale</polintel:location></item>
     <item>
       <title>Public Affairs Account Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99239</link>
@@ -4889,7 +4601,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Jefferson Communications JC Ltd</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Part Time Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99240</link>
@@ -4898,7 +4610,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Office of Vikki Slade MP (Mid Dorset and North Poole)</dc:creator>
-    </item>
+    <polintel:location>Wimborne, Dorset</polintel:location></item>
     <item>
       <title>Campaign Lead</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99241</link>
@@ -4907,17 +4619,7 @@
       <category>General</category>
       <pubDate>Fri, 15 May 2026 08:59:28 +0000</pubDate>
       <dc:creator>Wild Card</dc:creator>
-    </item>
-    <item>
-      <title>Research Associate</title>
-      <link>https://www.jobs.ac.uk/job/DRO230/research-associate</link>
-      <description>Keele University | Faculty of Business, Law, Humanities and Social Sciences (BLHUMSS) | Keele | Salary: Salary:£38,784 to £47,389
-                                    (Incremental progression): Grade 7 | Closes: 2026-06-14</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRO230/research-associate</guid>
-      <category>General</category>
-      <pubDate>Fri, 15 May 2026 08:59:12 +0000</pubDate>
-      <dc:creator>Keele University</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Expert in Energy Sector Digitalization and Policy</title>
       <link>https://careers.un.org/jobSearchDescription/277686?language=en</link>
@@ -5205,7 +4907,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>Richard Foord MP (Honiton and Sidmouth)</dc:creator>
-    </item>
+    <polintel:location>In or close to the Honiton &amp; Sidmouth constituency</polintel:location></item>
     <item>
       <title>Campaigns Manager - St Albans Constituency</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99243</link>
@@ -5214,7 +4916,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>St Albans Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>St Albans / Home based</polintel:location></item>
     <item>
       <title>Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99244</link>
@@ -5223,7 +4925,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>David Barratt MSP (Cowdenbeath)</dc:creator>
-    </item>
+    <polintel:location>Scottish Parliament</polintel:location></item>
     <item>
       <title>Part-time Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99245</link>
@@ -5232,7 +4934,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>Mohammad Yasin MP (Bedford)</dc:creator>
-    </item>
+    <polintel:location>Bedford</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99246</link>
@@ -5241,7 +4943,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>David Barratt MSP (Cowdenbeath)</dc:creator>
-    </item>
+    <polintel:location>Constituency office (Cowdenbeath)/home</polintel:location></item>
     <item>
       <title>Political Assistant - Conservative Group</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99247</link>
@@ -5250,7 +4952,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>Milton Keynes City Council</dc:creator>
-    </item>
+    <polintel:location>Milton Keynes</polintel:location></item>
     <item>
       <title>Personal Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99248</link>
@@ -5259,7 +4961,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>Rt. Hon. Darren Jones MP (Bristol North West)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Event Producer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99249</link>
@@ -5268,7 +4970,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>Prospect Magazine</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Political Adviser</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99251</link>
@@ -5277,7 +4979,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:07:07 +0000</pubDate>
       <dc:creator>Uplift</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>The Iland Postgraduate Research Studentship Award (2026-27 entry)</title>
       <link>https://www.jobs.ac.uk/job/DRO380/the-iland-postgraduate-research-studentship-award-2026-27-entry</link>
@@ -5286,25 +4988,7 @@
       <category>General</category>
       <pubDate>Sat, 16 May 2026 08:06:51 +0000</pubDate>
       <dc:creator>Newcastle University</dc:creator>
-    </item>
-    <item>
-      <title>Academic Director and Chair - Grade 10</title>
-      <link>https://www.jobs.ac.uk/job/DRO471/academic-director-and-chair-grade-10</link>
-      <description>The University of Liverpool is seeking to appoint a Professor to serve as Director of D-STAR, (Defence and Security Training and Applied Research). This new role will provide strategic leadership for the University’s defence and security portfolio spanning skills, research and innovation. The post will be held alongside Professorial appointment in a discipline aligned with the successful candidate’s expertise. The University of Liverpool has significant strengths in key sectors outlined in the government’s Industrial strategy – advanced manufacturing, clean energy industries, defence and digital and technology – all of which are linked to the government’s Defence Industrial Strategy and National Security Strategy. This activity spans our faculties of science and engineering, humanities and social sciences, and health and life sciences. D-STAR is a new initiative that brings together this community, our research and innovation capabilities, and facilities to create an impact-driven platform for interdisciplinary collaboration and external engagement. Our world-class facilities include the Materials Innovation Factory (MIF), Pandemic Institute (PI) and the Institute of Digital Engineering and Autonomous Systems (IDEAS), all of which have capacity and activity relevant to defence and security challenges. We work in partnership with the Ministry of Defence (MOD)’s Defence Science and Technology Laboratory (Dstl) providing unique expertise and innovation. The University also engages with the Henry Royce Institute, including its Defence Materials Centre of Excellence (DMEX), and delivers a strong portfolio of postgraduate training. Significant additional expertise exists across the University, offering further potential for expansion. D-STAR is now entering its next phase. The University aims to: Deepen collaboration across existing research groups. Broaden participation across the institution. Strengthen partnerships with industry, government, funding bodies, professional institutes and regulators. Drive substantial growth in investment including skills and training contracts, research income, postgraduate research (PGR), research income as well as national and regional funding. You will lead this next stage – shaping and delivering a long-term, cross-disciplinary strategy that builds a sustainable, internationally competitive portfolio grounded in fundamental research with dual-use and export control. Acting as the University’s primary interface with defence and security sectors, you will engage with industry, government, funders, regulators, and professional bodies. Alongside this leadership role, you will maintain an active, internationally recognised research or practice-based portfolio through your Professorial appointment, which can be hosted in any of the three faculties. We welcome applications from individuals with experience outside academia, including industry, government or the defence and security sectors. You should hold a PhD and demonstrate a track record of leadership, innovation and impact commensurate with a Professorial appointment, whether developed within academia or through other career pathways. This appointment is intended to be full-time, however part-time and flexible arrangements will be considered. Informal enquiries can be directed to Professor Laura Harkness, Pro Vice Chancellor and the Head of the Faculty of Science and Engineering ljh@liverpool.ac.uk Our commitment to Equality, Diversity and Inclusion We are committed to enhancing a workforce as diverse as our community and particularly encourage applicants who are of minoritised genders and ethnic backgrounds, living with a disability, and/or are members of the LGBTQIA+ community. Closing Date: 14 June 2026 23:30 For full details and to apply online, please click on the apply button above.</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRO471/academic-director-and-chair-grade-10</guid>
-      <category>General</category>
-      <pubDate>Sat, 16 May 2026 08:06:51 +0000</pubDate>
-      <dc:creator>University of Liverpool</dc:creator>
-    </item>
-    <item>
-      <title>Research Associate - The Business of Bordering</title>
-      <link>https://www.jobs.ac.uk/job/DRO359/research-associate-the-business-of-bordering</link>
-      <description>Job description: We have an exciting opportunity for a Danish speaking postdoctoral researcher to join the ESRC funded Business of Bordering Project. The postholder will work under the supervision of Dr. Lucy Mayblin (University of Sheffield), in collaboration with Dr. Joe Turner (University of York) and Dr. Martin Lemberg-Pedersen (University of Southern Denmark). The Business of Bordering project, starting in September 2026, will focus on the wide range of companies, contracted directly or indirectly by governments, to contribute to border control. The research will focus on the UK and Denmark and how these states are experimenting with, propagating and normalising private border security businesses in their national contexts. The project entails: building a database of border security tenders and contracts; identifying the institutional mechanisms of democratic scrutiny and accountability of the business of bordering; undertaking critical discourse analysis of policy texts; mapping stakeholders in the border security economy; conducting qualitative field research entailing elite and civil society interviews and participatory observation during border security sector events; and dissemination work. This post is for a postdoctoral Research Associate (postdoc) to focus on the Danish part of the research. Suitable candidates will be fluent in Danish and have excellent English, and will ideally have knowledge and experience of working with financial datasets, analysis of public/private contracts, and company profiles. Experience of studying border and immigration regimes, the arms trade, or military industrial complex would be beneficial. Training will be provided, but enthusiasm for in depth independent desk based compilation of data in spreadsheets is essential. For more information about the project please contact Lucy Mayblin ( l.mayblin@sheffield.ac.uk ) The School of Sociological Studies, Politics and International Relations The School of Sociological Studies, Politics and International Relations brings together a range of social and political disciplines. We are experts in sociology, social policy, politics and international relations and the digital society. Our world-leading research and teaching directly impacts people, policy, and how societies are organised. We’re committed to addressing inequalities and supporting social and political change. You will especially benefit from the range of activities organised by the Migration Research Group, which is a vibrant community of researchers holding regular events. What The University of Sheffield offer The University of Sheffield is a remarkable place to work. Our people are at the heart of everything we do. Their diverse backgrounds, abilities and beliefs make Sheffield a world-class university. We offer a fantastic range of benefits including a highly competitive annual leave entitlement (with the ability to purchase more), a generous pensions scheme, flexible working opportunities,a commitment to your development and wellbeing, a wide range of retail discounts, and much more. Find out more at sheffield.ac.uk/jobs/benefits and join us to become part of something special. We build teams of people from different heritages and lifestyles from across the world, whose talent and contributions complement each other to greatest effect. We believe diversity in all its forms delivers greater impact through research, teaching and student experience.</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRO359/research-associate-the-business-of-bordering</guid>
-      <category>General</category>
-      <pubDate>Sat, 16 May 2026 08:06:51 +0000</pubDate>
-      <dc:creator>University of Sheffield</dc:creator>
-    </item>
+    <polintel:location>Newcastle upon Tyne</polintel:location></item>
     <item>
       <title>Intern – Public Information: Communications and Outreach</title>
       <link>https://careers.un.org/jobSearchDescription/276606?language=en</link>
@@ -5702,15 +5386,6 @@
       <dc:creator>United Nations Environment Programme</dc:creator>
     </item>
     <item>
-      <title>Postdoctoral Research Associate x 3 (Fixed Term)</title>
-      <link>https://www.jobs.ac.uk/job/DRP037/postdoctoral-research-associate-x-3-fixed-term</link>
-      <description>The Centre for Geopolitics (CfG), part of the Centre for Research in the Arts, Social Sciences and Humanities (CRASSH) at the University of Cambridge, invites applications for three Postdoctoral Research Associates to pursue historically minded work on statecraft and strategy. The post forms part of the Ax:son Johnson Institute for Statecraft and Diplomacy (AJI), established by the Axel and Margaret Ax:son Johnson Foundation for Public Benefit (AJF). These roles will be fixed term for two years. The successful candidates will be responsible for conducting independent research on any area of geopolitics, past and present. Preference may be given to candidates whose research focuses on the Indo-Pacific, or the history and strategy of the United Kingdom. Research Associates will conduct their own independent research projects under the general supervision of Professors Brendan Simms and William Hurst. The successful candidates will support the CfG's broader objectives through planning and facilitating events, generating publications and contributing to public engagement activities. They will be encouraged to develop as independent researchers and will be actively supported in doing so. The postholders will report directly to the Directors, Professors Brendan Simms and William Hurst. The post holders will also be expected to participate actively in collaborations with the other institutions that form part of the AJI initiative, including the Centre for Statecraft and National Security at King's College London, the Center for Statecraft and Strategic Communication at the Stockholm School of Economics, and the Henry A. Kissinger Center for Global Affairs at Johns Hopkins SAIS, and to attend the regular AJI meetings online and in-person. Further details of the post are available by downloading the further particulars document from the link below. In order for your application to be considered, please upload the following: Curriculum Vitae (CV) Covering letter Summary of your PhD (maximum 1,000 words) Proposal for independent research (maximum 2,000 words) for the 24 months of the appointment The names and contact details of two referees who are familiar with your work If you upload any additional documents which have not been requested, we will not be able to consider these as part of your application. If you have any queries about the role, please contact hr@crassh.cam.ac.uk . For queries related to the application process, please contact the School's HR Team at sahhr@admin.cam.ac.uk . The closing date for applications is midnight (BST) on Sunday 14 June 2026. Interviews are planning for Tuesday 30 June 2026, subject to change. To apply online for this vacancy and to view further information about the role, please click 'Apply' above. Please quote reference VM49732 on your application and in any correspondence about this vacancy. The University actively supports equality, diversity and inclusion and encourages applications from all sections of society. The University has a responsibility to ensure that all employees are eligible to live and work in the UK.</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRP037/postdoctoral-research-associate-x-3-fixed-term</guid>
-      <category>General</category>
-      <pubDate>Tue, 19 May 2026 09:18:01 +0000</pubDate>
-      <dc:creator>University of Cambridge</dc:creator>
-    </item>
-    <item>
       <title>Tenure-track Assistant/Associate Professor in South and/or Southeast Asian Political Thought</title>
       <link>https://www.jobs.ac.uk/job/DRO103/tenure-track-assistant-associate-professor-in-south-and-or-southeast-asian-political-thought</link>
       <description>Public Policy and Global Affairs Young and research-intensive, Nanyang Technological University (NTU Singapore) is ranked among the world's top universities. Agile, bold, and inventive, NTU Singapore shapes the future by combining technology and human creativity to tackle the toughest challenges facing society today. The School of Social Sciences offers undergraduate and graduate degree programmes in a full range of disciplines, from politics to psychology, and actively promotes interdisciplinary learning and research. It is part of NTU Singapore's College of Humanities, Arts and Social Sciences (CoHASS), which aims to be Asia's leading centre for innovative, interdisciplinary humanities, arts and social science teaching and research. At home in a technological university, CoHASS’s scholars connect systems of knowledge from continents and disciplines. Much of our research focuses on four interdisciplinary priorities: Digital Culture and Society; Health, Culture and Society; Global Asia; and Art, Science and Ecology. Tenure-track Assistant/Associate Professor in South and/or Southeast Asian Political Thought. We are seeking to appoint a tenure-track Assistant/Associate Professor in South or Southeast Asian political thought. We are looking for a scholar whose work engages seriously with political thinking from South and/or Southeast Asia, but whose ambition is to connect thinking from their region of study across Asia and on a global scale. The successful candidate will have a research agenda that uses past or present categories and concepts to open to open new ground in political theory, addressing questions that matter now. Candidates should: Hold a PhD in Political Science, Political Theory, History of Political Thought, or a cognate discipline focusing on South or Southeast Asian political thought. Demonstrate outstanding research track record for career stage, with the capacity to produce research that shapes the field, evidenced by a strong record of published research stage or — for early-career candidates —a distinctive research programme. Demonstrate the ability to teach Asian and global political theory at undergraduate and postgraduate level Have excellent communication, interpersonal skills, and commitment relevant to teaching, pastoral care, and administering the PPGA Programme. Demonstrate a willingness to engage in interdisciplinary conversations across the College of Humanities, Arts and Social Sciences and beyond The appointee will join the Public Policy and Global Affairs Division within School of Social Sciences and will be expected to contribute to CoHASS’s interdisciplinary research environment, particularly the Global Asia priority. There will be opportunities to supervise PhD students, develop new taught postgraduate programmes, and collaborate across schools and centres within CoHASS and the wider university. For further information about the Public Policy and Global Affairs Programme, School of Social Sciences at NTU Singapore, please see: https://www.ntu.edu.sg/sss/public-policy-and-global-affairs . Emoluments NTU Singapore offers a competitive salary commensurate with qualifications and experience in addition to a comprehensive fringe benefit package. Application Procedure The closing date for applications is 15 August 2026. Please submit your application by clicking the 'Apply' button Cover letter Research statement, outlining your current and future research plans, in no more than 3 pages Teaching statement, outlining your experience and teaching philosophy, and how you would approach teaching at NTU, in no more than two pages Curriculum vitae Names of three referees. If you have any questions about this position, please write to: Chair, South or Southeast Asia Political Thought Search Email: sc-sss@ntu.edu.sg</description>
@@ -5718,7 +5393,7 @@
       <category>General</category>
       <pubDate>Tue, 19 May 2026 09:18:01 +0000</pubDate>
       <dc:creator>Nanyang Technological University</dc:creator>
-    </item>
+    <polintel:location>Singapore</polintel:location></item>
     <item>
       <title>Professor</title>
       <link>https://www.jobs.ac.uk/job/DRP124/professor</link>
@@ -5727,7 +5402,7 @@
       <category>General</category>
       <pubDate>Tue, 19 May 2026 09:18:01 +0000</pubDate>
       <dc:creator>The Chinese University of Hong Kong</dc:creator>
-    </item>
+    <polintel:location>Hong Kong</polintel:location></item>
     <item>
       <title>International Market Research Consultant on Non-Traditional Flours in the Caribbean</title>
       <link>https://careers.un.org/jobSearchDescription/277905?language=en</link>
@@ -6105,7 +5780,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Nusrat Ghani MP (Sussex Weald)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Communications Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99253</link>
@@ -6114,7 +5789,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Nusrat Ghani MP (Sussex Weald)</dc:creator>
-    </item>
+    <polintel:location>Sussex Weald</polintel:location></item>
     <item>
       <title>Political Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99254</link>
@@ -6123,7 +5798,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>More in Common UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Vetting Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99255</link>
@@ -6132,7 +5807,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Reform UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker &amp; Community Engagement Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99256</link>
@@ -6141,7 +5816,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Sarah Coombes MP (West Bromwich)</dc:creator>
-    </item>
+    <polintel:location>West Bromwich</polintel:location></item>
     <item>
       <title>External Affairs Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99257</link>
@@ -6150,7 +5825,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>The Carbon Capture and Storage Assocation (CCSA)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs Manager/Senior Public Affairs Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99258</link>
@@ -6159,7 +5834,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Northern Health Science Alliance</dc:creator>
-    </item>
+    <polintel:location>Remote based in the North of England</polintel:location></item>
     <item>
       <title>Safe Sick Pay Campaign Director</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99259</link>
@@ -6168,7 +5843,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>The Centre for Progressive Change</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99260</link>
@@ -6177,7 +5852,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Rosie Duffield MP (Canterbury)</dc:creator>
-    </item>
+    <polintel:location>Constituency</polintel:location></item>
     <item>
       <title>Social Media Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99261</link>
@@ -6186,7 +5861,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>European Movement UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Assistant and Policy Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99262</link>
@@ -6195,7 +5870,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Jodie Gosling MP (Nuneaton)</dc:creator>
-    </item>
+    <polintel:location>Nuneaton</polintel:location></item>
     <item>
       <title>Democracy Network Director</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99263</link>
@@ -6204,7 +5879,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>The Politics Project</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99264</link>
@@ -6213,7 +5888,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Dave Doogan MP (Angus and Perthshire Glens)</dc:creator>
-    </item>
+    <polintel:location>Forfar, Angus and Perthshire Glens</polintel:location></item>
     <item>
       <title>Director, Finance and Commercial</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99265</link>
@@ -6222,7 +5897,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>The Independent Parliamentary Standards Authority (IPSA)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Research and Influencing Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99266</link>
@@ -6231,7 +5906,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>National Youth Advocacy Service</dc:creator>
-    </item>
+    <polintel:location>Cardiff Office based, with hybrid working or home based</polintel:location></item>
     <item>
       <title>Campaigns Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99267</link>
@@ -6240,7 +5915,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Dementia UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99268</link>
@@ -6249,7 +5924,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Energy UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Community Engagement and Campaigns Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99269</link>
@@ -6258,7 +5933,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Margaret Mullane MP (Dagenham and Rainham)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99270</link>
@@ -6267,7 +5942,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>National Housing Federation</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Researcher</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99271</link>
@@ -6276,7 +5951,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:26 +0000</pubDate>
       <dc:creator>Cordis Bright</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Research Fellow: Political Ecology of Multispecies - AR3288</title>
       <link>https://www.jobs.ac.uk/job/DRP534/research-fellow-political-ecology-of-multispecies-ar3288</link>
@@ -6285,7 +5960,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:07 +0000</pubDate>
       <dc:creator>University of St Andrews</dc:creator>
-    </item>
+    <polintel:location>St Andrews</polintel:location></item>
     <item>
       <title>Research Fellow: Political Ecology of Infrastructural-Ecological-Citizenship - AR3287</title>
       <link>https://www.jobs.ac.uk/job/DRP523/research-fellow-political-ecology-of-infrastructural-ecological-citizenship-ar3287</link>
@@ -6294,7 +5969,7 @@
       <category>General</category>
       <pubDate>Wed, 20 May 2026 09:14:07 +0000</pubDate>
       <dc:creator>University of St Andrews</dc:creator>
-    </item>
+    <polintel:location>St Andrews</polintel:location></item>
     <item>
       <title>Evaluation Specialist for Terminal Evaluation of the European Commission – UNEP Programme Cooperation Agreement (PCA II)</title>
       <link>https://careers.un.org/jobSearchDescription/277788?language=en</link>
@@ -7329,7 +7004,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Intern (Paid)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99273</link>
@@ -7338,7 +7013,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Anna Sabine MP (Frome and East Somerset)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Data &amp; Insights Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99274</link>
@@ -7347,7 +7022,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>East Hampshire District Council</dc:creator>
-    </item>
+    <polintel:location>Petersfield</polintel:location></item>
     <item>
       <title>Communications and Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99275</link>
@@ -7356,7 +7031,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Anna Sabine MP (Frome and East Somerset)</dc:creator>
-    </item>
+    <polintel:location>Constituency</polintel:location></item>
     <item>
       <title>External Affairs Advisor / Policy &amp; Advocacy Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99276</link>
@@ -7365,7 +7040,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Chester Zoo</dc:creator>
-    </item>
+    <polintel:location>Chester</polintel:location></item>
     <item>
       <title>Director</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99278</link>
@@ -7374,7 +7049,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Christians on the Left</dc:creator>
-    </item>
+    <polintel:location>Remote with some travel to Westminster</polintel:location></item>
     <item>
       <title>Head of Public Affairs</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99279</link>
@@ -7383,7 +7058,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Inside Track</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Digital Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99280</link>
@@ -7392,7 +7067,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>ADS</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Deputy Director - Policy &amp; Engagement</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99283</link>
@@ -7401,7 +7076,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Early Education and Childcare Coalition</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Affairs Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99284</link>
@@ -7410,7 +7085,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Covid-19 Bereaved Families for Justice UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Assistant/Senior Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99285</link>
@@ -7419,7 +7094,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Damien Egan MP (Bristol North East)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Part Time Caseworker (22 hours)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99286</link>
@@ -7428,7 +7103,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Tom Hayes MP (Bournemouth East)</dc:creator>
-    </item>
+    <polintel:location>Bournemouth East</polintel:location></item>
     <item>
       <title>Parliamentary and Research Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99287</link>
@@ -7437,7 +7112,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Angus MacDonald MP (Inverness, Skye and West Ross-shire)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Partnerships &amp; Advocacy Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99288</link>
@@ -7446,7 +7121,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>The Politics Project</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Education Programme Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99289</link>
@@ -7455,7 +7130,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>The Politics Project</dc:creator>
-    </item>
+    <polintel:location>Remote with one day a month in a London office.</polintel:location></item>
     <item>
       <title>Digital Content and Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99290</link>
@@ -7464,7 +7139,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:26:19 +0000</pubDate>
       <dc:creator>Stephanie Peacock MP (Barnsley South)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Research Fellow: Political Ecology of Multispecies Justice - AR3288</title>
       <link>https://www.jobs.ac.uk/job/DRP534/research-fellow-political-ecology-of-multispecies-justice-ar3288</link>
@@ -7473,17 +7148,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:25:58 +0000</pubDate>
       <dc:creator>University of St Andrews</dc:creator>
-    </item>
-    <item>
-      <title>Head of Department - Policing and Justice</title>
-      <link>https://www.jobs.ac.uk/job/DRQ248/head-of-department-policing-and-justice</link>
-      <description>University of Staffordshire | School of Health, Education, Policing and Sciences | Stoke-on-Trent | Salary: Salary:£68,529 to £72,691
-                                    per annum | Closes: 2026-06-14</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRQ248/head-of-department-policing-and-justice</guid>
-      <category>General</category>
-      <pubDate>Sat, 23 May 2026 08:25:58 +0000</pubDate>
-      <dc:creator>University of Staffordshire</dc:creator>
-    </item>
+    <polintel:location>St Andrews</polintel:location></item>
     <item>
       <title>Postdoctoral Research Fellow in Quantitative Political Science (Voter ID Project)</title>
       <link>https://www.jobs.ac.uk/job/DRQ609/postdoctoral-research-fellow-in-quantitative-political-science-voter-id-project</link>
@@ -7492,7 +7157,7 @@
       <category>General</category>
       <pubDate>Sat, 23 May 2026 08:25:58 +0000</pubDate>
       <dc:creator>University of Oxford</dc:creator>
-    </item>
+    <polintel:location>Oxford</polintel:location></item>
     <item>
       <title>Associate Community Development Officer</title>
       <link>https://careers.un.org/jobSearchDescription/273250?language=en</link>
@@ -7600,7 +7265,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>Jonathan Brash MP (Hartlepool)</dc:creator>
-    </item>
+    <polintel:location>Hartlepool</polintel:location></item>
     <item>
       <title>Communications and Press Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99292</link>
@@ -7609,7 +7274,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>International Transport Workers' Federation</dc:creator>
-    </item>
+    <polintel:location>London or ITF Regional Hub</polintel:location></item>
     <item>
       <title>Assistant Consultant / Consultant, Strategic Communications</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99293</link>
@@ -7618,7 +7283,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>Turley</dc:creator>
-    </item>
+    <polintel:location>Manchester</polintel:location></item>
     <item>
       <title>Customer Insight and Experience Officer (Housing)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99294</link>
@@ -7627,7 +7292,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>Runnymede Borough Council</dc:creator>
-    </item>
+    <polintel:location>Addlestone, Surrey</polintel:location></item>
     <item>
       <title>Campaigns Manager (Scotland)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99295</link>
@@ -7636,7 +7301,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Policy Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99296</link>
@@ -7645,7 +7310,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>A client of Michael Page</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Commercial Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99297</link>
@@ -7654,7 +7319,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99298</link>
@@ -7663,7 +7328,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>Rosie Duffield MP (Canterbury)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Political Adviser to the Green Group</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99299</link>
@@ -7672,7 +7337,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>London Councils</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Summer Internship</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99300</link>
@@ -7681,7 +7346,7 @@
       <category>General</category>
       <pubDate>Mon, 25 May 2026 10:05:30 +0000</pubDate>
       <dc:creator>FourOneOne</dc:creator>
-    </item>
+    <polintel:location>London/ Remote</polintel:location></item>
     <item>
       <title>Intern - Information Technology (IT)​</title>
       <link>https://careers.un.org/jobSearchDescription/278069?language=en</link>
@@ -7852,7 +7517,7 @@
       <category>General</category>
       <pubDate>Tue, 26 May 2026 09:54:42 +0000</pubDate>
       <dc:creator>George Freeman MP ( Mid Norfolk)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Office Manager  (part time)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99303</link>
@@ -7861,7 +7526,7 @@
       <category>General</category>
       <pubDate>Tue, 26 May 2026 09:54:42 +0000</pubDate>
       <dc:creator>George Freeman MP (Mid Norfolk)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Finance and Budget Assistant (Temporary Job Opening)</title>
       <link>https://careers.un.org/jobSearchDescription/277315?language=en</link>
@@ -8059,7 +7724,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>Centre for British Progress</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Engagement Lead (Higher Education)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99304</link>
@@ -8068,7 +7733,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>A client of Ellwood Atfield</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99305</link>
@@ -8077,7 +7742,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>Natural Source Waters Association</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99306</link>
@@ -8086,7 +7751,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>Steve Reed MP (Streatham and Croydon North)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy and Advocacy Manager – Clean Power, Flexibility &amp; Data Centres</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99307</link>
@@ -8095,7 +7760,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>REA</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Communications Officer (PT 30 hours per week)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99308</link>
@@ -8104,7 +7769,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>Pippa Heylings MP (South Cambridgeshire)</dc:creator>
-    </item>
+    <polintel:location>South Cambridgeshire</polintel:location></item>
     <item>
       <title>Political Assistants</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99309</link>
@@ -8113,7 +7778,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>Swindon Borough Council</dc:creator>
-    </item>
+    <polintel:location>Swindon</polintel:location></item>
     <item>
       <title>Campaign Organiser</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99310</link>
@@ -8122,7 +7787,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>Telford &amp; Wrekin Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>Telford &amp; Wrekin (Shropshire)</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99311</link>
@@ -8131,7 +7796,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>Alice Macdonald MP (Norwich North)</dc:creator>
-    </item>
+    <polintel:location>Norwich North or Remote</polintel:location></item>
     <item>
       <title>Student Policy and Insight Analyst</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99312</link>
@@ -8140,7 +7805,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>The University of Sheffield Students' Union</dc:creator>
-    </item>
+    <polintel:location>Sheffield</polintel:location></item>
     <item>
       <title>External Affairs Intern</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99313</link>
@@ -8149,7 +7814,7 @@
       <category>General</category>
       <pubDate>Wed, 27 May 2026 09:19:51 +0000</pubDate>
       <dc:creator>The Money and Mental Health Policy Institute</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Administrative Intern</title>
       <link>https://careers.un.org/jobSearchDescription/278232?language=en</link>
@@ -8212,7 +7877,7 @@
       <category>General</category>
       <pubDate>Thu, 28 May 2026 10:02:42 +0000</pubDate>
       <dc:creator>University of Oxford</dc:creator>
-    </item>
+    <polintel:location>Oxford</polintel:location></item>
     <item>
       <title>UNEP Finance Initiative (UNEP FI) - Sustainable Finance and Client-Facing Banking Professional</title>
       <link>https://careers.un.org/jobSearchDescription/278327?language=en</link>
@@ -8410,7 +8075,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Monica Harding MP (Esher and Walton)</dc:creator>
-    </item>
+    <polintel:location>Walton Office and Parliament</polintel:location></item>
     <item>
       <title>Constituency Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99315</link>
@@ -8419,7 +8084,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Roz Savage MP (South Cotswolds)</dc:creator>
-    </item>
+    <polintel:location>Cirencester</polintel:location></item>
     <item>
       <title>Director of Policy</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99316</link>
@@ -8428,7 +8093,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>WWF UK</dc:creator>
-    </item>
+    <polintel:location>Woking</polintel:location></item>
     <item>
       <title>Lobby Day project manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99317</link>
@@ -8437,7 +8102,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Economic Change Unit</dc:creator>
-    </item>
+    <polintel:location>Remote</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99319</link>
@@ -8446,7 +8111,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Mike Martin MP (Tunbridge Wells)</dc:creator>
-    </item>
+    <polintel:location>London/Tunbridge Wells</polintel:location></item>
     <item>
       <title>Parliamentary and Constituency Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99320</link>
@@ -8455,7 +8120,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Olivia Bailey MP (Reading West and Mid Berkshire)</dc:creator>
-    </item>
+    <polintel:location>Either based in the constituency or in London</polintel:location></item>
     <item>
       <title>Administrative Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99322</link>
@@ -8464,7 +8129,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Olivia Bailey MP (Reading West and Mid Berkshire)</dc:creator>
-    </item>
+    <polintel:location>Based in either the constituency or in London</polintel:location></item>
     <item>
       <title>Cabinet Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99323</link>
@@ -8473,7 +8138,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Hammersmith and Fulham Council</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Head of Development</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99324</link>
@@ -8482,7 +8147,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>The Centre for Social Justice</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Associate Consultant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99325</link>
@@ -8491,7 +8156,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Whitehouse Communications Ltd</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker/Senior Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99326</link>
@@ -8500,7 +8165,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Rt Hon Claire Coutinho MP (East Surrey)</dc:creator>
-    </item>
+    <polintel:location>Remote, with occasional Surrey days</polintel:location></item>
     <item>
       <title>Policy Manager and Policy Lead</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99327</link>
@@ -8509,7 +8174,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>RNIB</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Account Manager/Account Director</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99328</link>
@@ -8518,7 +8183,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Orbit Communications</dc:creator>
-    </item>
+    <polintel:location>Edinburgh, hybrid-working x2 days a week</polintel:location></item>
     <item>
       <title>Head of Constituency Office</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99329</link>
@@ -8527,7 +8192,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>John Healey MP  (Rawmarsh and Consibrough)</dc:creator>
-    </item>
+    <polintel:location>Rotherham</polintel:location></item>
     <item>
       <title>Senior Manager – Policy and Public Affairs</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99330</link>
@@ -8536,7 +8201,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>AQA</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99331</link>
@@ -8545,7 +8210,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:21 +0000</pubDate>
       <dc:creator>Abena Oppong-Asare MP (Erith and Thamesmead)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Head of Department: Social Work, Counselling and Social Care</title>
       <link>https://www.jobs.ac.uk/job/DRR454/head-of-department-social-work-counselling-and-social-care</link>
@@ -8554,7 +8219,7 @@
       <category>General</category>
       <pubDate>Fri, 29 May 2026 09:52:06 +0000</pubDate>
       <dc:creator>University of East London</dc:creator>
-    </item>
+    <polintel:location>London, Stratford</polintel:location></item>
     <item>
       <title>International Consultant Team Leader</title>
       <link>https://careers.un.org/jobSearchDescription/278177?language=en</link>
@@ -8806,7 +8471,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>Patchwork Foundation</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Research &amp; Communications Assistant (Internship)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99335</link>
@@ -8815,7 +8480,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>Global Labour Institute (GLI)</dc:creator>
-    </item>
+    <polintel:location>Manchester</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99336</link>
@@ -8824,7 +8489,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>Douglas McAllister MP  (West Dunbartonshire)</dc:creator>
-    </item>
+    <polintel:location>West Dunbartonshire</polintel:location></item>
     <item>
       <title>Senior Policy Officer and Case Worker: Commissioner for Conduct</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99337</link>
@@ -8833,7 +8498,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>The Bar Council of England and Wales</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99338</link>
@@ -8842,7 +8507,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>The International Parliamentary Network for Education, IPNEd</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99339</link>
@@ -8851,7 +8516,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>Dame Emily Thornberry MP (Islington South and Finsbury)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy and Campaigns Roles</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99340</link>
@@ -8860,7 +8525,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>The Royal College of Surgeons England</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy and Public Affairs Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99341</link>
@@ -8869,7 +8534,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>Tommy's</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Community Engagement and Campaigns Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99342</link>
@@ -8878,7 +8543,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>Liam Conlon (Beckenham and Penge)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99343</link>
@@ -8887,7 +8552,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>Liz Jarvis MP (Eastleigh)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99344</link>
@@ -8896,7 +8561,7 @@
       <category>General</category>
       <pubDate>Sat, 30 May 2026 08:34:05 +0000</pubDate>
       <dc:creator>Richard Burgon MP (Leeds East)</dc:creator>
-    </item>
+    <polintel:location>Leeds</polintel:location></item>
     <item>
       <title>Data Analyst</title>
       <link>https://careers.un.org/jobSearchDescription/278466?language=en</link>
@@ -9220,7 +8885,7 @@
       <category>General</category>
       <pubDate>Tue, 02 Jun 2026 10:20:23 +0000</pubDate>
       <dc:creator>Rt. Hon. Darren Jones MP (Bristol North West)</dc:creator>
-    </item>
+    <polintel:location>Bristol (Hybrid working)</polintel:location></item>
     <item>
       <title>Research Assistant in Public Policy</title>
       <link>https://www.jobs.ac.uk/job/DRT144/research-assistant-in-public-policy</link>
@@ -9229,7 +8894,7 @@
       <category>General</category>
       <pubDate>Tue, 02 Jun 2026 10:20:09 +0000</pubDate>
       <dc:creator>University of Cambridge</dc:creator>
-    </item>
+    <polintel:location>Cambridge</polintel:location></item>
     <item>
       <title>WUF Programme Support Consultant</title>
       <link>https://careers.un.org/jobSearchDescription/278464?language=en</link>
@@ -9490,7 +9155,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>UK Music</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Regulatory Affairs Lead</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99346</link>
@@ -9499,7 +9164,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Exchange for Change</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Paid Internship, Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99347</link>
@@ -9508,7 +9173,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Shaun Davies MP (Telford)</dc:creator>
-    </item>
+    <polintel:location>Telford</polintel:location></item>
     <item>
       <title>Group Political Assistant (Green Group)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99348</link>
@@ -9517,7 +9182,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Lewisham Council</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Mayor's Political Advisor</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99349</link>
@@ -9526,7 +9191,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Lewisham Council</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Telephone outreach agent</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99350</link>
@@ -9535,7 +9200,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Labour for a New Democracy</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Digital Content and Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99351</link>
@@ -9544,7 +9209,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Anna McMorrin MP (Cardiff North)</dc:creator>
-    </item>
+    <polintel:location>Cardiff</polintel:location></item>
     <item>
       <title>Campaign Director</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99352</link>
@@ -9553,7 +9218,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>4 Day Week Foundation</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Public Affairs – Account Executive to Account Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99355</link>
@@ -9562,7 +9227,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Lansons</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Assistant (0.64FTE)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99356</link>
@@ -9571,7 +9236,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Melanie Onn MP (Great Grimsby and Cleethorpes)</dc:creator>
-    </item>
+    <polintel:location>Great Grimsby and Cleethorpes</polintel:location></item>
     <item>
       <title>Office Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99357</link>
@@ -9580,7 +9245,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Josh Newbury MP (Cannock Chase)</dc:creator>
-    </item>
+    <polintel:location>Hednesford, Staffordshire</polintel:location></item>
     <item>
       <title>Welsh transport campaigner</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99358</link>
@@ -9589,7 +9254,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Transport Action Network</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Senior Digital and Communications Adviser</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99359</link>
@@ -9598,7 +9263,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Andrew Griffith MP (Arundel and South Downs)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Summer Research Internship</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99360</link>
@@ -9607,7 +9272,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Andrew Griffith MP (Arundel and South Downs)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Geopolitical Account Executive</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99361</link>
@@ -9616,7 +9281,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>College Green Group</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Migration Policy Adviser to Tony Vaughan MP and Barroness Lister</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99363</link>
@@ -9625,7 +9290,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>The RAMP Project</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99366</link>
@@ -9634,7 +9299,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Liam Byrne MP (Birmingham Hodge Hill and Solihull North)</dc:creator>
-    </item>
+    <polintel:location>Birmingham Hodge Hill and Solihull North</polintel:location></item>
     <item>
       <title>Personal Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99367</link>
@@ -9643,7 +9308,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Alberto Costa MP (South Leicestershire)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Support Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99368</link>
@@ -9652,7 +9317,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:33 +0000</pubDate>
       <dc:creator>Charlie Maynard MP (Witney)</dc:creator>
-    </item>
+    <polintel:location>Witney, Oxfordshire</polintel:location></item>
     <item>
       <title>Eamon Cleary Postdoctoral Fellowship in Irish Studies</title>
       <link>https://www.jobs.ac.uk/job/DRT722/eamon-cleary-postdoctoral-fellowship-in-irish-studies</link>
@@ -9661,7 +9326,7 @@
       <category>General</category>
       <pubDate>Wed, 03 Jun 2026 10:52:11 +0000</pubDate>
       <dc:creator>University of Otago</dc:creator>
-    </item>
+    <polintel:location>Dunedin</polintel:location></item>
     <item>
       <title>Internship - human rights</title>
       <link>https://careers.un.org/jobSearchDescription/278186?language=en</link>
@@ -9913,7 +9578,7 @@
       <category>General</category>
       <pubDate>Thu, 04 Jun 2026 10:01:42 +0000</pubDate>
       <dc:creator>University of Leicester</dc:creator>
-    </item>
+    <polintel:location>Leicester</polintel:location></item>
     <item>
       <title>Senior Research Associate in Digital Politics and Data Systems</title>
       <link>https://www.jobs.ac.uk/job/DRT808/senior-research-associate-in-digital-politics-and-data-systems</link>
@@ -9923,7 +9588,7 @@
       <category>General</category>
       <pubDate>Thu, 04 Jun 2026 10:01:42 +0000</pubDate>
       <dc:creator>University of Bristol</dc:creator>
-    </item>
+    <polintel:location>Bristol</polintel:location></item>
     <item>
       <title>Intern - Basic Services and Climate Change</title>
       <link>https://careers.un.org/jobSearchDescription/277752?language=en</link>
@@ -10301,7 +9966,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Labour Group</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Political Assistant to the Conservative Group</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99365</link>
@@ -10310,7 +9975,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Conservatives</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy Lead, Tech Regulation</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99369</link>
@@ -10319,7 +9984,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Startup Coalition</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Research and Policy Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99370</link>
@@ -10328,7 +9993,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Greater London Authority</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>National Criminal Justice Arts Alliance (NCJAA) Coordinator</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99371</link>
@@ -10337,7 +10002,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Clinks</dc:creator>
-    </item>
+    <polintel:location>Remote</polintel:location></item>
     <item>
       <title>Campaign &amp; Volunteer Organiser</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99372</link>
@@ -10346,7 +10011,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Witney Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>Witney, Oxfordshire</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99373</link>
@@ -10355,7 +10020,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Adam Harley MSP</dc:creator>
-    </item>
+    <polintel:location>Constituency office (Strathkelvin and Bearsden)</polintel:location></item>
     <item>
       <title>Policy Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99374</link>
@@ -10364,7 +10029,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Reform UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Regional Capacity and Membership Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99376</link>
@@ -10373,7 +10038,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy Executive and Stakeholder Relationship and Events Executive</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99377</link>
@@ -10382,7 +10047,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Energy UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Event Coordinator</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99378</link>
@@ -10391,7 +10056,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Westminster Insight</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Researcher</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99379</link>
@@ -10400,7 +10065,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>5654 &amp; Company</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs Executive (September 2026 Start)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99380</link>
@@ -10409,7 +10074,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>TheCityUK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs and Campaign Officer (South)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99381</link>
@@ -10418,7 +10083,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Royal British Legion</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99382</link>
@@ -10427,7 +10092,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Bradley Thomas MP (Bromsgrove)</dc:creator>
-    </item>
+    <polintel:location>Bromsgrove</polintel:location></item>
     <item>
       <title>Senior Policy &amp; Delivery Manager - Primary Care</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99383</link>
@@ -10436,7 +10101,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>The NHS Alliance</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Intern</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99384</link>
@@ -10445,7 +10110,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Knox Digital</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99385</link>
@@ -10454,7 +10119,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Anna Sabine MP (Frome and East Somerset)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs and Advocacy Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99386</link>
@@ -10463,7 +10128,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>The Committee for Freedom in Hong Kong Foundation</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Research Assistant Internship</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99387</link>
@@ -10472,7 +10137,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Thinks Insight and Strategy</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Head of Briefings and Regional Media</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99388</link>
@@ -10481,7 +10146,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>The Labour Party</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Assistant (Temporary)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99389</link>
@@ -10490,7 +10155,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:47:00 +0000</pubDate>
       <dc:creator>Georgia Gould MP (Queen's Park and Maida Vale)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Professor of Security and Intelligence Studies and Director of Centre for Security and Intelligence Studies (BUCSIS)</title>
       <link>https://www.jobs.ac.uk/job/DRU395/professor-of-security-and-intelligence-studies-and-director-of-centre-for-security-and-intelligence-studies-bucsis</link>
@@ -10499,7 +10164,7 @@
       <category>General</category>
       <pubDate>Fri, 05 Jun 2026 09:46:45 +0000</pubDate>
       <dc:creator>University of Buckingham</dc:creator>
-    </item>
+    <polintel:location>Buckingham</polintel:location></item>
     <item>
       <title>ASSOCIATE LIAISON OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/278785?language=en</link>
@@ -10823,7 +10488,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Luminate Education Group</dc:creator>
-    </item>
+    <polintel:location>Leeds</polintel:location></item>
     <item>
       <title>Senior Policy &amp; Public Affairs Executive</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99391</link>
@@ -10832,7 +10497,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Railway Industry Association</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Associate Consultant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99392</link>
@@ -10841,7 +10506,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>56 Degrees North</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Healthcare and Community Events Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99393</link>
@@ -10850,7 +10515,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Muscular Dystrophy UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99394</link>
@@ -10859,7 +10524,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Sarah Smith MP (Hyndburn)</dc:creator>
-    </item>
+    <polintel:location>Hyndburn Constituency</polintel:location></item>
     <item>
       <title>Account Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99395</link>
@@ -10868,7 +10533,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Seahorse Environmental</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy Researcher/ Senior Policy Researcher</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99396</link>
@@ -10877,7 +10542,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Britain Remade</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy Officer (Reform UK)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99397</link>
@@ -10886,7 +10551,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Bradford Council</dc:creator>
-    </item>
+    <polintel:location>Bradford</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99398</link>
@@ -10895,7 +10560,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Nesil Caliskan MP (Barking)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Economist - Technology</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99399</link>
@@ -10904,7 +10569,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Public First</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Casworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99400</link>
@@ -10913,7 +10578,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Paul Foster (South Ribble)</dc:creator>
-    </item>
+    <polintel:location>South Ribble</polintel:location></item>
     <item>
       <title>Senior Account Executive</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99401</link>
@@ -10922,7 +10587,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Arden Strategies</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99402</link>
@@ -10931,7 +10596,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Rushanara Ali MP (Bethnal Green and Stepney)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs and Campaigns Adviser</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99403</link>
@@ -10940,7 +10605,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Local Government Association</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs Intern</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99404</link>
@@ -10949,7 +10614,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Nuclear Industry Association (NIA)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Programme Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99405</link>
@@ -10958,7 +10623,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Rainforest Foundation UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Data Researcher</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99406</link>
@@ -10967,7 +10632,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Tussell</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Campaigns Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99407</link>
@@ -10976,7 +10641,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Cabinet Support Officer (Leader of the Council's Office)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99410</link>
@@ -10985,7 +10650,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>London Borough of Barking &amp; Dagenham</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Account Executive</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99411</link>
@@ -10994,7 +10659,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Font Communications</dc:creator>
-    </item>
+    <polintel:location>Manchester / Hybrid</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99412</link>
@@ -11003,7 +10668,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:52 +0000</pubDate>
       <dc:creator>Kerry McCarthy MP (Bristol East)</dc:creator>
-    </item>
+    <polintel:location>Bristol East Constituency</polintel:location></item>
     <item>
       <title>Associate Professor in Sustainability and Governance</title>
       <link>https://www.jobs.ac.uk/job/DRU493/associate-professor-in-sustainability-and-governance</link>
@@ -11012,7 +10677,7 @@
       <category>General</category>
       <pubDate>Sat, 06 Jun 2026 08:42:08 +0000</pubDate>
       <dc:creator>University of Nottingham Ningbo China</dc:creator>
-    </item>
+    <polintel:location>Ningbo</polintel:location></item>
     <item>
       <title>Social Media Intern</title>
       <link>https://careers.un.org/jobSearchDescription/278781?language=en</link>
@@ -11399,7 +11064,7 @@
       <category>General</category>
       <pubDate>Tue, 09 Jun 2026 09:19:10 +0000</pubDate>
       <dc:creator>Hamad bin Khalifa University</dc:creator>
-    </item>
+    <polintel:location>Qatar</polintel:location></item>
     <item>
       <title>INFORMATION SYSTEMS OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/278966?language=en</link>
@@ -11715,7 +11380,7 @@
       <category>General</category>
       <pubDate>Wed, 10 Jun 2026 09:59:28 +0000</pubDate>
       <dc:creator>London School of Economics and Political Science</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>PhD Research Fellowship in Political Science</title>
       <link>https://www.jobs.ac.uk/job/DRU577/phd-research-fellowship-in-political-science</link>
@@ -11724,7 +11389,7 @@
       <category>General</category>
       <pubDate>Wed, 10 Jun 2026 09:59:28 +0000</pubDate>
       <dc:creator>University of Oslo</dc:creator>
-    </item>
+    <polintel:location>Oslo</polintel:location></item>
     <item>
       <title>INTERN – Software development</title>
       <link>https://careers.un.org/jobSearchDescription/279033?language=en</link>
@@ -12120,7 +11785,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Max Bannerman MSP</dc:creator>
-    </item>
+    <polintel:location>Edinburgh</polintel:location></item>
     <item>
       <title>Head of Green Party Group Office</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99414</link>
@@ -12129,7 +11794,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Local Government Association</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99415</link>
@@ -12138,7 +11803,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Charities Aid Foundation (CAF)</dc:creator>
-    </item>
+    <polintel:location>Maidstone</polintel:location></item>
     <item>
       <title>British Fashion Council - Various Roles</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99416</link>
@@ -12147,7 +11812,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>British Fashion Council</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Campaigns and Communications Officer - Maternity Cover</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99417</link>
@@ -12156,7 +11821,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Action for Southern Africa (ACTSA)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Account Executive</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99418</link>
@@ -12165,7 +11830,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Kanda Consulting</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy &amp; Partnerships Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99419</link>
@@ -12174,7 +11839,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Lantra</dc:creator>
-    </item>
+    <polintel:location>CV8 2LG (hybrid working available)</polintel:location></item>
     <item>
       <title>Parliamentary Intern</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99420</link>
@@ -12183,7 +11848,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Pippa Heylings MP (South Cambridgeshire)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker (Full-Time)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99421</link>
@@ -12192,7 +11857,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Iqbal Mohamed MP (Dewsbury &amp; Batley)</dc:creator>
-    </item>
+    <polintel:location>Batley Constituency Office</polintel:location></item>
     <item>
       <title>Research Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99422</link>
@@ -12201,7 +11866,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>UK-China Transparency</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>Summer Paid Internship</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99423</link>
@@ -12210,7 +11875,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Gen Kitchen MP for Wellingborough and Rushden</dc:creator>
-    </item>
+    <polintel:location>Rushden, Northamptonshire</polintel:location></item>
     <item>
       <title>Researcher</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99424</link>
@@ -12219,7 +11884,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Rt Hon Dr Andrew Murrison MP (South West Wiltshire)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Specialist, UK Government Relations</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99425</link>
@@ -12228,7 +11893,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Pearson</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy Advisor, TNE Responsible Internationalisation</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99426</link>
@@ -12237,7 +11902,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Universities UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Communications and Events Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99427</link>
@@ -12246,7 +11911,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Centre for the Analysis of Taxation</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy, Campaigns and Communications Lead</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99429</link>
@@ -12255,7 +11920,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Care Rights UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Research and Insight Lead</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99430</link>
@@ -12264,7 +11929,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>FourOneOne</dc:creator>
-    </item>
+    <polintel:location>London / Remote (with domestic and international travel)</polintel:location></item>
     <item>
       <title>Practice and Policy Lead - Climate Resilience</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99431</link>
@@ -12273,7 +11938,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Equally Ours</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Assistant and Policy Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99432</link>
@@ -12282,7 +11947,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Rt Hon Nick Thomas-Symonds MP (Torfaen)</dc:creator>
-    </item>
+    <polintel:location>Torfaen / Internet</polintel:location></item>
     <item>
       <title>Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99433</link>
@@ -12291,7 +11956,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Chris Law MP (Dundee Central)</dc:creator>
-    </item>
+    <polintel:location>Dundee Central</polintel:location></item>
     <item>
       <title>Committee Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99434</link>
@@ -12300,7 +11965,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Greater London Authority</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Account Executive</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99435</link>
@@ -12309,7 +11974,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>CalComms</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99436</link>
@@ -12318,7 +11983,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Rt Hon Sir David Davis MP (Goole and Pocklington)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Events, Digital and Membership Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99437</link>
@@ -12327,7 +11992,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Fabian Society</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Policy Officer (Europe)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99438</link>
@@ -12336,7 +12001,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Universities UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Director of Scottish Fabians</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99439</link>
@@ -12345,7 +12010,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:51 +0000</pubDate>
       <dc:creator>Fabian Society</dc:creator>
-    </item>
+    <polintel:location>Home-based with occasional travel to London and Edinburgh</polintel:location></item>
     <item>
       <title>Postdoctoral Researcher – Value Collisions Project (GN)</title>
       <link>https://www.jobs.ac.uk/job/DRQ671/postdoctoral-researcher-value-collisions-project-gn</link>
@@ -12354,7 +12019,7 @@
       <category>General</category>
       <pubDate>Thu, 11 Jun 2026 10:22:36 +0000</pubDate>
       <dc:creator>Hertie School</dc:creator>
-    </item>
+    <polintel:location>Berlin</polintel:location></item>
     <item>
       <title>Campaigns Analyst</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99441</link>
@@ -12363,7 +12028,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>UK Finance</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99443</link>
@@ -12372,7 +12037,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Alex Barros-Curtis MP (Cardiff West)</dc:creator>
-    </item>
+    <polintel:location>Cardiff</polintel:location></item>
     <item>
       <title>Various Digital Roles</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99444</link>
@@ -12381,7 +12046,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>The Conservative Party</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Fundraising Manager (Maternity Cover)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99445</link>
@@ -12390,7 +12055,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Hope for the Future</dc:creator>
-    </item>
+    <polintel:location>Sheffield (Hybrid remote)</polintel:location></item>
     <item>
       <title>Digital Communications and Campaigns Coordinator</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99446</link>
@@ -12399,7 +12064,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Hope for the Future</dc:creator>
-    </item>
+    <polintel:location>Sheffield (Hybrid remote)</polintel:location></item>
     <item>
       <title>Parliamentary Assistant</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99447</link>
@@ -12408,7 +12073,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Nick Smith MP (Blaenau Gwent &amp; Rhymney)</dc:creator>
-    </item>
+    <polintel:location>Based in the Constituency Office, Brynmawr, South Wales.</polintel:location></item>
     <item>
       <title>Anti-poverty Project Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99448</link>
@@ -12417,7 +12082,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>South Cambs District Council &amp; Cambridge City Council</dc:creator>
-    </item>
+    <polintel:location>Cambourne/Cambridge</polintel:location></item>
     <item>
       <title>Senior Campaigns Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99449</link>
@@ -12426,7 +12091,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>London Borough of Brent</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Public Affairs and Campaigns Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99450</link>
@@ -12435,7 +12100,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Stroke Association</dc:creator>
-    </item>
+    <polintel:location>internet</polintel:location></item>
     <item>
       <title>Events Co-Ordinator</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99451</link>
@@ -12444,7 +12109,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Arden Strategies</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Membership Services Executive</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99452</link>
@@ -12453,7 +12118,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Liberal Democrats</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Movement Building Lead</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99453</link>
@@ -12462,7 +12127,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Economic Change Unit</dc:creator>
-    </item>
+    <polintel:location>Hybrid</polintel:location></item>
     <item>
       <title>Campaigns Manager Eastbourne Liberal Democrats</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99454</link>
@@ -12471,7 +12136,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Josh Babarinde OBE MP for Eastbourne</dc:creator>
-    </item>
+    <polintel:location>Hybrid home and Eastbourne</polintel:location></item>
     <item>
       <title>Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99455</link>
@@ -12480,7 +12145,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Charlotte Nichols MP (Warrington North)</dc:creator>
-    </item>
+    <polintel:location>Warrington North</polintel:location></item>
     <item>
       <title>Constituency Support Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99456</link>
@@ -12489,7 +12154,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Charlotte Nichols MP (Warrington North)</dc:creator>
-    </item>
+    <polintel:location>Warrington North</polintel:location></item>
     <item>
       <title>Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99457</link>
@@ -12498,7 +12163,7 @@
       <category>General</category>
       <pubDate>Fri, 12 Jun 2026 10:14:43 +0000</pubDate>
       <dc:creator>Fred Thomas MP  (Plymouth Moor View)</dc:creator>
-    </item>
+    <polintel:location>Plymouth, Devon</polintel:location></item>
     <item>
       <title>Programme Management Officer, Human Settlements</title>
       <link>https://careers.un.org/jobSearchDescription/277423?language=en</link>
@@ -12939,7 +12604,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>Rt Hon Kemi Badenoch MP (North West Essex)</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Constituency Support Officer/Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99459</link>
@@ -12948,7 +12613,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>Marie Tidball MP (Penistone and Stocksbridge)</dc:creator>
-    </item>
+    <polintel:location>Penistone and Stocksbridge</polintel:location></item>
     <item>
       <title>Account Executive - Media Relations</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99461</link>
@@ -12957,7 +12622,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>Shearwater Global</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Senior Caseworker</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99462</link>
@@ -12966,7 +12631,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>Afzal Khan MP (Manchester Rusholme)</dc:creator>
-    </item>
+    <polintel:location>Whalley Range, Manchester</polintel:location></item>
     <item>
       <title>Policy and Public Affairs Lead</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99463</link>
@@ -12975,7 +12640,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>Blood Cancer UK</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Account Manager, MP Services</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99464</link>
@@ -12984,7 +12649,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>The Independent Parliamentary Standards Authority</dc:creator>
-    </item>
+    <polintel:location>Internet</polintel:location></item>
     <item>
       <title>London Office Coordinator</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99465</link>
@@ -12993,7 +12658,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>European Council on Foreign Relations</dc:creator>
-    </item>
+    <polintel:location>London</polintel:location></item>
     <item>
       <title>Executive Support and Correspondence Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99466</link>
@@ -13002,7 +12667,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>Police and Crime Commissioner for Hertfordshire</dc:creator>
-    </item>
+    <polintel:location>Welwyn Garden City Hertfordshire</polintel:location></item>
     <item>
       <title>Research and Policy Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99467</link>
@@ -13011,7 +12676,7 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>Joe Fagan MSP (South Scotland)</dc:creator>
-    </item>
+    <polintel:location>Edinburgh</polintel:location></item>
     <item>
       <title>Local Organiser</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99468</link>
@@ -13020,6 +12685,25 @@
       <category>General</category>
       <pubDate>Sun, 14 Jun 2026 09:21:13 +0000</pubDate>
       <dc:creator>Oxford &amp; District Labour Party</dc:creator>
-    </item>
+    <polintel:location>Oxford &amp; District</polintel:location></item>
+    <item>
+      <title>Constituency Assistant</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99469</link>
+      <description>An exciting opportunity for a highly organised and detail-focused Constituency Assistant to join the busy constituency office of Daisy Cooper MP. This role is central to the smooth running of the office, with responsibility for triaging in...</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99469</guid>
+      <category>General</category>
+      <pubDate>Mon, 15 Jun 2026 12:03:35 +0000</pubDate>
+      <dc:creator>Daisy Cooper MP (St Albans)</dc:creator>
+    <polintel:location>St Albans, with some hybrid working options</polintel:location></item>
+    <item>
+      <title>Teaching and Research Fellow in Character and Leadership</title>
+      <link>https://www.jobs.ac.uk/job/DRX266/teaching-and-research-fellow-in-character-and-leadership</link>
+      <description>University of Oxford | Oxford | Salary: Salary:£39,424 to £42,794
+                                    per annum (pro-rata). Grade 7. This is inclusive of a pensionable Oxford University Weighting of £1,730 per year (pro rata). | Closes: 2026-07-03</description>
+      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DRX266/teaching-and-research-fellow-in-character-and-leadership</guid>
+      <category>General</category>
+      <pubDate>Mon, 15 Jun 2026 12:02:34 +0000</pubDate>
+      <dc:creator>University of Oxford</dc:creator>
+    <polintel:location>Oxford</polintel:location></item>
   </channel>
 </rss>

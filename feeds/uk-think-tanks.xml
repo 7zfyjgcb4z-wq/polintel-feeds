@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>UK Think Tank Jobs</title>
     <link>/uk-think-tanks.xml</link>
     <description>Job listings for Think Tanks roles, scraped by Pol-Intel.</description>
-    <atom:link href="/uk-think-tanks.xml" rel="self"/>
+    <atom:link href="/uk-think-tanks.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 09:26:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 12:08:34 +0000</lastBuildDate>
     <item>
       <title>Director of Policy and Impact</title>
       <link>https://demos.co.uk/director-of-policy-and-impact/</link>
@@ -117,5 +117,32 @@
       <pubDate>Thu, 28 May 2026 10:02:51 +0000</pubDate>
       <dc:creator>New Economics Foundation</dc:creator>
     </item>
+    <item>
+      <title>Power Platform/BI Developer, Transformation Programme, London</title>
+      <link>https://e3g.bamboohr.com/careers/255</link>
+      <description>Power Platform/BI Developer, Transformation Programme, London This post is based in E3G’s London office and will support the design, build and iteration of a suite of interim business tools within E3G’s Microsoft 365 estate. Working as part of a small agile delivery team, the role will help deliver new internal finance and resource management tools that improve visibility of resource allocation, cash flow and pipeline performance for senior stakeholders. Background E3G is the world lead strategist think tank on the political economy of climate change with a global outlook. We work on the frontier of the climate landscape tackling the barriers and advancing the solutions to a safe climate for all. We translate climate politics, economics and policies into action. We pride ourselves on bringing independence to an extremely polarised discussion and holding policy makers to account on their promises. E3G is consistently ranked as one of the top-ten most influential environmental think tanks in the world by the University of Pennsylvania’s Global Go To Think Tank Index. E3G is dedicated to fostering an engaging work environment with a competitive remuneration package in the non-profit sector. E3G offers a dynamic and fast paced working environment that will value your insight and initiative wherever you are in the organisation. We take pride in our team's commitment, supportiveness, and friendliness. We invest in our staff, offer flexible working conditions and pride ourselves on being an open and collaborative workplace. Role Overview This is a mid-to-senior individual contributor role and the primary build resource for a new suite of internal finance and resource management tools. The post-holder will be the only Power Platform and Power BI resource on the team, working directly with business stakeholders who own the product vision and brief. The role requires someone who can operate independently, translate executive-level needs into practical designs, and make sound </description>
+      <guid isPermaLink="false">https://e3g.bamboohr.com/careers/255</guid>
+      <category>Think Tanks</category>
+      <pubDate>Mon, 15 Jun 2026 12:03:22 +0000</pubDate>
+      <dc:creator>E3G</dc:creator>
+    <polintel:location>London, Greater London</polintel:location></item>
+    <item>
+      <title>Speculative Application</title>
+      <link>https://ecfr.jobs.personio.de/job/1993599</link>
+      <description>The European Council on Foreign Relations (ECFR) is an award-winning international think-tank that aims to conduct cutting-edge independent research on European foreign and security policy and to provide a safe meeting space for decision-makers, activists and influencers to share ideas. We build coalitions for change at the European level and promote informed debate about Europe’s role in the world. In 2007, ECFR’s founders set about creating a pan-European institution that could combine establishment credibility with intellectual insurgency. Today, ECFR remains uniquely placed to continue providing a pan-European perspective on some of the biggest strategic challenges and choices Europeans need to confront, with a network of offices in seven European capitals, over 90 staff from more than 25 different countries and a team of associated researchers in the EU 27 member states. For more information check our website: ecfr.eu</description>
+      <guid isPermaLink="false">https://ecfr.jobs.personio.de/job/1993599</guid>
+      <category>Think Tanks</category>
+      <pubDate>Mon, 15 Jun 2026 12:03:20 +0000</pubDate>
+      <dc:creator>European Council on Foreign Relations</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
+    <item>
+      <title>London Office Coordinator (m/f/d)</title>
+      <link>https://ecfr.jobs.personio.de/job/2650180</link>
+      <description>ECFR, in close cooperation with Mandate, is launching a project marking the 10-year anniversary of the Brexit referendum. Building on this milestone, the project will explore how UK–EU relations are evolving in a changing global context, combining research, polling and policy analysis to identify opportunities for strengthened cooperation between Europe and the UK. To support the delivery of this initiative, we are seeking a London Office Coordinator to contribute to the implementation of the project’s advocacy and outreach activities. The role will be responsible for coordinating project plans, organising in-person and online events, supporting stakeholder engagement, and ensuring the smooth day-to-day running of the London office. Working closely with the Advocacy Manager and the EU–UK Campaign Manager, the role provides essential organisational support to ensure activities are delivered on time, to a high standard, and in line with project objectives. The successful candidate will have a strong understanding of the UK political landscape and policy context, prior experience in project coordination and event delivery within policy, think tank, NGO or similarly stakeholder-driven organisations. They will be proactive, well organised and comfortable managing tasks independently in a fast-paced environment. Project and Advocacy Coordination In collaboration with the Advocacy Manager and EU-UK Campaign Manager , contribute to the planning and delivery of the EU-UK Project work plan and London office activities. Monitor project timelines, priorities and deliverables, ensuring activities are coordinated effectively and risks or delays are escalated where necessary. Oversee the day-to-day administration and coordination of project activities, ensuring effective organisation, cross-team communication and compliance with donor and grant requirements. Manage project content across digital platforms, including the website and social media channels, ensuring clear, consistent</description>
+      <guid isPermaLink="false">https://ecfr.jobs.personio.de/job/2650180</guid>
+      <category>Think Tanks</category>
+      <pubDate>Mon, 15 Jun 2026 12:03:20 +0000</pubDate>
+      <dc:creator>European Council on Foreign Relations</dc:creator>
+    <polintel:location>London</polintel:location></item>
   </channel>
 </rss>
