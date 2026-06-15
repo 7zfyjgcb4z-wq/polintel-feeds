@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 15:15:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 18:11:13 +0000</lastBuildDate>
     <item>
       <title>Legislative Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-analyst-d4d58ea2</link>
@@ -17,7 +17,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 24 Apr 2026 15:05:45 +0000</pubDate>
       <dc:creator>Scientific Research Corporation</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Alexandria, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative Strategist Oklahoma</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-strategist-oklahoma-d5fffaa3</link>
@@ -44,7 +44,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 24 Apr 2026 15:05:45 +0000</pubDate>
       <dc:creator>FAS</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Health Policy Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/health-policy-analyst-8d9305c1</link>
@@ -62,7 +62,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 24 Apr 2026 15:05:45 +0000</pubDate>
       <dc:creator>Peraton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Maryland</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Advanced Policy Analyst Contracts Compliance Operations</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-advanced-policy-analyst-contracts-compliance-operations-4353868c</link>
@@ -71,7 +71,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 24 Apr 2026 15:05:45 +0000</pubDate>
       <dc:creator>General Dynamics Mission Systems</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Orlando, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Affairs Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/government-affairs-manager-d10ab36c</link>
@@ -98,7 +98,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 24 Apr 2026 15:05:45 +0000</pubDate>
       <dc:creator>Peraton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Bethesda, Maryland</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Manager Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/manager-public-policy-760744d8</link>
@@ -125,7 +125,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 24 Apr 2026 15:05:45 +0000</pubDate>
       <dc:creator>Booz Allen Hamilton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Honolulu, Hawaii</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Of Selection Northwestern Mutual</title>
       <link>https://www.politicaljobhunt.com/jobs/director-of-selection-northwestern-mutual-2897b920</link>
@@ -134,7 +134,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 24 Apr 2026 15:05:45 +0000</pubDate>
       <dc:creator>Clayton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>St. Louis, Missouri</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Visiting Assistant Professor Of Political Science</title>
       <link>https://www.politicaljobhunt.com/jobs/visiting-assistant-professor-of-political-science-16f8c76e</link>
@@ -143,7 +143,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 24 Apr 2026 15:05:45 +0000</pubDate>
       <dc:creator>Eastern CT State University</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Willimantic, Connecticut</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Democratic Board Of Elections Senior Election Official</title>
       <link>https://www.politicaljobhunt.com/jobs/democratic-board-of-elections-senior-election-official-1bd8ce2c</link>
@@ -161,7 +161,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 25 Apr 2026 14:04:11 +0000</pubDate>
       <dc:creator>Booz Allen Hamilton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Affairs Intern Part Time</title>
       <link>https://www.politicaljobhunt.com/jobs/government-affairs-intern-part-time-dc27b061</link>
@@ -170,7 +170,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 27 Apr 2026 15:08:27 +0000</pubDate>
       <dc:creator>Central Health</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Austin, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Director Aerospace And National Security</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-director-aerospace-and-national-security-3b0e69a5</link>
@@ -179,7 +179,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 29 Apr 2026 15:14:28 +0000</pubDate>
       <dc:creator>American Institute of Aeronautics and Astronautics</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Reston, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>National Security Dow Interagency Integration Specialist Uscentcom Aor Dow Ts Sci</title>
       <link>https://www.politicaljobhunt.com/jobs/national-security-dow-interagency-integration-specialist-uscentcom-aor-dow-ts-sci-fdebd0ae</link>
@@ -188,7 +188,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 29 Apr 2026 15:14:28 +0000</pubDate>
       <dc:creator>Peraton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Tampa, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Executive Director Government Affairs And Trade Association Engagement</title>
       <link>https://www.politicaljobhunt.com/jobs/executive-director-government-affairs-and-trade-association-engagement-93c4b63b</link>
@@ -197,7 +197,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 01 May 2026 14:17:29 +0000</pubDate>
       <dc:creator>Bristol Myers Squibb</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>National Security Portfolio Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/national-security-portfolio-manager-0db4ef39</link>
@@ -206,7 +206,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 01 May 2026 14:17:29 +0000</pubDate>
       <dc:creator>Allied Universal</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Raleigh, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>National Coordinator Election Protection</title>
       <link>https://www.politicaljobhunt.com/jobs/national-coordinator-election-protection-612dedac</link>
@@ -242,7 +242,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>DiDi Global</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Bogota D.C.</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Bizdev Lead</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-bizdev-lead-db5da6a0</link>
@@ -251,7 +251,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Craif</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Tokyo</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Working Student M F D Impact Sustainability Public Affairs Europe</title>
       <link>https://www.politicaljobhunt.com/jobs/working-student-m-f-d-impact-sustainability-public-affairs-europe-41cba714</link>
@@ -260,7 +260,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Grohe AG</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Düsseldorf, North Rhine-Westphalia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Dc Associate First Shift Non Con Selections</title>
       <link>https://www.politicaljobhunt.com/jobs/dc-associate-first-shift-non-con-selections-e276fecf</link>
@@ -269,7 +269,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Advance Stores Company</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Houston, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Internship Ny Summer 2026</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-internship-ny-summer-2026-5da4e8ec</link>
@@ -278,7 +278,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Stagwell Global</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Pitt County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/pitt-county-election-canvasser-0872e8dd</link>
@@ -287,7 +287,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Greenville, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Policy Analyst Senior Public Policy Analyst National Councils Of Nonprofits</title>
       <link>https://www.politicaljobhunt.com/jobs/public-policy-analyst-senior-public-policy-analyst-national-councils-of-nonprofits-9e59aa2a</link>
@@ -305,7 +305,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Griffin Museum of Science and Industry</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Chicago, Illinois</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Selections Coordinator</title>
       <link>https://www.politicaljobhunt.com/jobs/selections-coordinator-1e44b242</link>
@@ -314,7 +314,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Housewrights</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Madison, Wisconsin</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Principal Site Selection Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-principal-site-selection-manager-adb86e22</link>
@@ -323,7 +323,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Oracle</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Austin, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Rowan County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/rowan-county-election-canvasser-f36870b3</link>
@@ -332,7 +332,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Salisbury, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Chatham County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/chatham-county-election-canvasser-0137fbbe</link>
@@ -341,7 +341,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Pittsboro, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Alamance County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/alamance-county-election-canvasser-eee67ea3</link>
@@ -350,7 +350,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Burlington, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Nash County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/nash-county-election-canvasser-af247c83</link>
@@ -359,7 +359,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Rocky Mount, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Cabarrus County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/cabarrus-county-election-canvasser-60df2e4e</link>
@@ -368,7 +368,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Concord, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Granville County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/granville-county-election-canvasser-7cf181e9</link>
@@ -377,7 +377,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Oxford, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Orange County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/orange-county-election-canvasser-bf5f384b</link>
@@ -386,7 +386,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Hillsborough, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Johnston County Election Canvasser</title>
       <link>https://www.politicaljobhunt.com/jobs/johnston-county-election-canvasser-76ef8562</link>
@@ -395,7 +395,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Down Home North Carolina</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Smithfield, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Chief Clerk Elections Registrations</title>
       <link>https://www.politicaljobhunt.com/jobs/chief-clerk-elections-registrations-a99b2d96</link>
@@ -404,7 +404,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>County Of Lehigh Pennsylvania</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Allentown, Pennsylvania</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Spring Summer 2026 Public Affairs Internship Dc</title>
       <link>https://www.politicaljobhunt.com/jobs/spring-summer-2026-public-affairs-internship-dc-453e3c66</link>
@@ -413,7 +413,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Stagwell Global</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Acquisition Policy Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/acquisition-policy-analyst-d1d4eb66</link>
@@ -422,7 +422,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Apogee Engineering</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Tampa, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Spring 2026 Public Affairs Internship Ny</title>
       <link>https://www.politicaljobhunt.com/jobs/spring-2026-public-affairs-internship-ny-3731662a</link>
@@ -431,7 +431,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Stagwell Global</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Specialist Ii</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-specialist-ii-20dc033e</link>
@@ -440,7 +440,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Integral Federal</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Aberdeen Proving Ground, Maryland</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Associate Recruiting Manager Global Assessment Selection Services</title>
       <link>https://www.politicaljobhunt.com/jobs/associate-recruiting-manager-global-assessment-selection-services-4a614fdc</link>
@@ -449,7 +449,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Latham &amp; Watkins LLP</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-specialist-3357fe70</link>
@@ -458,7 +458,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>INDUS Technology</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Newport, Rhode Island</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Vice President And Chief Of Staff Dc Public Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-vice-president-and-chief-of-staff-dc-public-affairs-f40727de</link>
@@ -467,7 +467,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Stagwell Global</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Specialist Iii</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-specialist-iii-d068c942</link>
@@ -476,7 +476,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Integral Federal</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Aberdeen Proving Ground, Maryland</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Communications And Policy Analyst Remote</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-communications-and-policy-analyst-remote-a5e7762b</link>
@@ -494,7 +494,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Oracle</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Managing Director Economic Dignity Lab Mccourt School Of Public Policy Georgetown University</title>
       <link>https://www.politicaljobhunt.com/jobs/managing-director-economic-dignity-lab-mccourt-school-of-public-policy-georgetown-university-c7dd1539</link>
@@ -512,7 +512,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Planned Parenthood of Orange and San Bernardino Counties</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Anaheim, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Assistant Professor Of Political Science</title>
       <link>https://www.politicaljobhunt.com/jobs/assistant-professor-of-political-science-4abae828</link>
@@ -521,7 +521,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Fort Valley State University</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Fort Valley, Georgia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Site Selection Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/site-selection-analyst-39dc43da</link>
@@ -530,7 +530,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Kimley-Horn</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Greenwood Village, Colorado</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Legislative Relations Liaison</title>
       <link>https://www.politicaljobhunt.com/jobs/government-legislative-relations-liaison-48b568ae</link>
@@ -539,7 +539,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Henry County Public Schools</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Administrative Assistant Massive Data Institute Mccourt School Of Public Policy Georgetown University</title>
       <link>https://www.politicaljobhunt.com/jobs/administrative-assistant-massive-data-institute-mccourt-school-of-public-policy-georgetown-university-e729081c</link>
@@ -557,7 +557,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 07 May 2026 15:29:05 +0000</pubDate>
       <dc:creator>Keiser University</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Fort Lauderdale, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Vp Sustainability Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/vp-sustainability-public-policy-59c57bc0</link>
@@ -584,7 +584,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 09 May 2026 14:17:34 +0000</pubDate>
       <dc:creator>Booz Allen Hamilton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative Strategist Oh And Mi</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-strategist-oh-and-mi-7663df19</link>
@@ -620,7 +620,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Johnson County Kansas</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Olathe, Kansas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Specialist I</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-specialist-i-2c2d4dac</link>
@@ -629,7 +629,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Ho-Chunk</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Affairs Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/government-affairs-specialist-a5a0bed9</link>
@@ -647,7 +647,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Foundation for Defense of Democracies</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Business Development Global Public Affairs Gpa</title>
       <link>https://www.politicaljobhunt.com/jobs/director-business-development-global-public-affairs-gpa-2ec90c19</link>
@@ -656,7 +656,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>FGS Global</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Berlin, Berlin</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-manager-073a87ca</link>
@@ -674,7 +674,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Keiser University</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Tallahassee, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Advocacy Campaign Strategist Elections And Government Program</title>
       <link>https://www.politicaljobhunt.com/jobs/advocacy-campaign-strategist-elections-and-government-program-83be744e</link>
@@ -683,7 +683,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Brennan Center for Justice</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-specialist-52b3d62b</link>
@@ -692,7 +692,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Astrion</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Tullahoma, Tennessee</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Assistant Professor History Political Science</title>
       <link>https://www.politicaljobhunt.com/jobs/assistant-professor-history-political-science-4f5bb2ba</link>
@@ -701,7 +701,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Kankakee Community College</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Kankakee, Illinois</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Assistant Director Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/assistant-director-government-affairs-61fac9b7</link>
@@ -710,7 +710,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Princeton University</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Princeton, New Jersey</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Aquaculture Policy Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/aquaculture-policy-analyst-bfa3824b</link>
@@ -737,7 +737,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 12 May 2026 15:40:11 +0000</pubDate>
       <dc:creator>Lennox International</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Richardson, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Communication Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-communication-specialist-a6c38ba4</link>
@@ -746,7 +746,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 13 May 2026 15:43:36 +0000</pubDate>
       <dc:creator>Scientific Research Corporation</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Alexandria, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Politics Ap</title>
       <link>https://www.politicaljobhunt.com/jobs/government-politics-ap-b8208169</link>
@@ -755,7 +755,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 14 May 2026 15:19:08 +0000</pubDate>
       <dc:creator>Pine Crest Preparatory School</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Fort Lauderdale, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Procurement Manager Source Selection</title>
       <link>https://www.politicaljobhunt.com/jobs/procurement-manager-source-selection-2286a58f</link>
@@ -773,7 +773,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 15 May 2026 15:13:46 +0000</pubDate>
       <dc:creator>Meridian Township</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Michigan</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Policy Analyst O 5 Billet Non Supervisory</title>
       <link>https://www.politicaljobhunt.com/jobs/policy-analyst-o-5-billet-non-supervisory-fd5721da</link>
@@ -782,7 +782,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 15 May 2026 15:13:46 +0000</pubDate>
       <dc:creator>Immigration and Customs Enforcement</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Policy Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/policy-analyst-07e3ff79</link>
@@ -791,16 +791,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 15 May 2026 15:13:46 +0000</pubDate>
       <dc:creator>Culmen International</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
-    <item>
-      <title>Campaign Manager</title>
-      <link>https://www.politicaljobhunt.com/jobs/campaign-manager-869c43eb</link>
-      <description>Boise, Idaho, United States $57,000 - $65,000 USD yearly</description>
-      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/campaign-manager-869c43eb</guid>
-      <category>US Campaigns &amp; Parties</category>
-      <pubDate>Sat, 16 May 2026 14:22:34 +0000</pubDate>
-      <dc:creator>Conservation Voters for Idaho</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director State Public Policy For Pharmacy And Pharmacy Benefit Management</title>
       <link>https://www.politicaljobhunt.com/jobs/director-state-public-policy-for-pharmacy-and-pharmacy-benefit-management-1e12498a</link>
@@ -818,7 +809,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 17 May 2026 14:26:05 +0000</pubDate>
       <dc:creator>Goodwill of Greater Washington</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>State Legislative Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/state-legislative-manager-064c429f</link>
@@ -827,7 +818,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 17 May 2026 14:26:05 +0000</pubDate>
       <dc:creator>Giffords</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Program Assistant Center For Children Families Mccourt School Of Public Policy Georgetown University</title>
       <link>https://www.politicaljobhunt.com/jobs/program-assistant-center-for-children-families-mccourt-school-of-public-policy-georgetown-university-f4f54493</link>
@@ -845,7 +836,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 17 May 2026 14:26:05 +0000</pubDate>
       <dc:creator>Coleman Fine Homes</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Wilmington, North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Temporary Election Office Staff</title>
       <link>https://www.politicaljobhunt.com/jobs/temporary-election-office-staff-f87f9ac5</link>
@@ -854,7 +845,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 17 May 2026 14:26:05 +0000</pubDate>
       <dc:creator>City of St. Clair Shores</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Michigan</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Deputy City Clerk Elections Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/deputy-city-clerk-elections-specialist-08d05bca</link>
@@ -865,33 +856,6 @@
       <dc:creator>Political Job Hunt</dc:creator>
     <polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
-      <title>Associate Professor Of Political Science Oklahoma Baptist University</title>
-      <link>https://www.politicaljobhunt.com/jobs/associate-professor-of-political-science-oklahoma-baptist-university-bf9fd94e</link>
-      <description>OBU Mission Statement OBU transforms lives by equipping students to pursue academic excellence, integrate faith with all areas of knowledge, engage a diverse world, and live worthy of the high calling of God in Christ. Expectations for all Employees Oklahoma Baptist University achieves its mission through a shared commitment to the following expectations. All employees must embrace these expectations and model them in their behavior. Demonstrate commitment to the essentials of the Christian faith. Commit to the mission and vision of Oklahoma Baptist University. Treat people with dignity and respect. Build relationships on honesty, integrity, and trust. Strive for excellence through teamwork, leadership, and a strong work ethic. Manage human and financial resources wisely and efficiently. Purpose: Oklahoma Baptist University invites applications for an Assistant or Associate Professor of Political Science position (beginning August 2026). Area of specialization is open. The successful candidate will be required to teach American National Government and Introduction to Political Science, as well as courses on congress, courts, and U.S. presidency. They may also teach other courses in the catalog or develop new courses that align with their interests and background, with prior approval. The standard load is 24 credit hours per academic year. In addition to teaching, the successful candidate will advise political science majors and minor with their course and career options. Candidates must be committed to the mission of OBU as a Christian liberal arts university. PhD in Political Science preferred (advanced ABD considered). Essential Functions: · Teach introductory and upper-level undergraduate Political Science courses. · Serve as an advisor to Political Science majors and minors. · Keep accurate class records and submit reports and grades. · Work regularly with faculty members from other disciplines. · Keep regular office hours for advising students. · Be an active member in a local evangelical church. Other Duties: · Maintain an active program of professional development. · Serve on university committees and take an active part in shaping the work of the division. · Assist in recruiting students to the Political Science program. · Support and guide students in research and practica. Required Qualifications: · Must be able to teach multiple Political Science courses, including ones covering the major branches of government. · Possess and demonstrate strong interpersonal skills, communication skills, and pedagogy. · Be able to conduct a college classroom to maximize the student learning experience. · Be able to adjust teaching methods to meeting student needs. · Be able to work effectively with college students in either individual advisement, as well as small and large class environments. · Be able to relate to colleagues in the OBU community as well as be a representative to the professional community beyond OBU. · Be proficient in office technology, office software (including various Microsoft tools), and classroom presentation software. Education: · Required : PhD in Political Science (advanced ABD considered). · Preferred : PhD in Political Science. Experience: · Preferred: Experience teaching undergraduate in a Christian, liberal arts environment. Special Requirements: · Must be a member of a local evangelical* Christian church. *Evangelical is a broad term referring to segment within Christianity which maintains the authority of the Bible and the belief in salvation by faith in Jesus alone. OBU Benefits Summary: OBU understands that our employees are our most valuable assets when fulfilling our mission. We strive to offer an extensive array of benefits and opportunities for employees to choose from. Full-time employees benefit from the generous OBU provision of premium contributions for nationwide family-friendly Health and Dental coverages along with free life insurance that includes accidental death and dismemberment equal to an employee’s base salary. OBU provides access to optional employee-paid ancillary benefits like vision, hospitalization, critical illness, accident, additional employee-paid family life insurance coverages, and education benefits at OBU and other institutions of higher education. There is generous paid time off that includes annual granted vacation time, accrued sick leave, six annual holidays, and week-long breaks for Thanksgiving and Christmas that include energy conservation days. For all employees working at least half-time, there is an employer matching opportunity for retirement investments in a 403(b)(9) plan administered by Guide Stone. There are numerous other perks and opportunities for OBU employees including FREE family membership to the OBU Recreation and Wellness Center or RAWC, Global outreach university mission trips, cafeteria discounts, and parking privileges to name a few.</description>
-      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/associate-professor-of-political-science-oklahoma-baptist-university-bf9fd94e</guid>
-      <category>US Campaigns &amp; Parties</category>
-      <pubDate>Sun, 17 May 2026 14:26:05 +0000</pubDate>
-      <dc:creator>Christian Career</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
-    <item>
-      <title>Voter Services Supervisor Republican Lucas County Board Of Elections</title>
-      <link>https://www.politicaljobhunt.com/jobs/voter-services-supervisor-republican-lucas-county-board-of-elections-c344acf8</link>
-      <description>Description Must be a registered Republican To declare your political party affiliation, you must select a partisan ballot in an even year Primary Election. Responsible for the accurate and timely data entry of all registration information including, but not limited to, new registrations, address changes, deletions, corrections and name changes in the voter registration system (both local and state); Responsible for supervision of all absentee by mail operations including but not limited to, processing absentee applications and assembling/mailing absentee ballot packets to voters as prescribed by law; Responsible for processing of all returned absentee ballots; Responsible for supervising inspection and counting all absentee ballots; Responsible for preparing absentee ballots for tabulation and the balancing of said tabulation as prescribed by law. Assisting in the processing and reviewing of the validity and sufficiency of all candidates, initiative and referendum petitions; Responsible for adhering to all statutory deadlines regarding campaign finance, registration, absentee voting and local options; Responsible for maintaining the supervision of the switchboard operations; Responsible for administrating the processing of the NCOA and duplicate lists; Responsible for maintaining confidentiality and business integrity. Responsible for providing the Directors with periodically written status reports regarding work processed and still outstanding in a format established by the Directors; Responsible for ensuring that enough staff are always logged into phone queues. Performs all other duties as assigned, by the Directors, the Board of Elections, and/or as prescribed by law. Responsible for daily supervision of operations within the absentee department by mail and in person voting and registration department. Also serves as back up for the Voter Services Supervisor (Democrat). Essential Job Functions: Ability to prepare and carry out project planning and implementation. Applies excellent interpersonal skills, which include effective verbal and written communication. Ability to learn voting system and voter registration system. Ability to learn and understand the security guidelines set by the State of Ohio Prepare a variety of staffing and productivity reports for the Directors. Maintains all deadlines for the Board of Elections. Manages and evaluates staff as needed. Manages workflow and meets all deadlines and priorities set by the Directors. Meeting requirements set by the Secretary of State. Demonstrates a continuing willingness to work extended hours to meet deadlines. Minimum Qualifications: A minimum of an associate’s degree preferred, and/or 2 years of Vocational Training, and/or equivalent supervisory work experience. Excellent organizational and planning skills. Excellent interpersonal skills which include effective verbal and written communications. Demonstrates adaptability, flexibility, and dependability. Ability to excel in task management and planning. Self-motivated and able to work well under pressure. PC literate must be with a command of MS Office applications. Must demonstrate the ability to create spreadsheets and databases using MS Excel and Access. Must demonstrate the ability to effectively enter data. Must demonstrate the ability to type 45 wpm. Must maintain an ongoing understanding of changes in Federal and State Statutory Requirements affecting the election process. Demonstrates a professional attitude and appearance. Equal Opportunity Employer</description>
-      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/voter-services-supervisor-republican-lucas-county-board-of-elections-c344acf8</guid>
-      <category>US Campaigns &amp; Parties</category>
-      <pubDate>Mon, 18 May 2026 16:23:45 +0000</pubDate>
-      <dc:creator>Lucas County</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
-    <item>
-      <title>Associate Manager Congressional Internship Program</title>
-      <link>https://www.politicaljobhunt.com/jobs/associate-manager-congressional-internship-program-916c3012</link>
-      <description>TITLE: Associate Manager, Congressional Internship Program REPORTS TO: Senior Manager, Congressional Internship Program LOCATION: Washington, DC - Hybrid In-Office &amp; Remote POSITION SUMMARY The Congressional Hispanic Caucus Institute (CHCI) is seeking an Associate Manager of the Congressional Internship Program (CIP) that will support the planning, execution, and continuous improvement of CHCI’s internship programs in Washington, DC. Working closely with program leadership, this role manages logistics, supports participant development, and helps deliver a high-quality, mission-driven experience for interns. This position is based in Washington, DC and follows a hybrid schedule, with regular in-person presence required to support program activities, events, and participant engagement. ESSENTIAL DUTIES AND RESPONSIBILITIES Program Operations and Logistics Coordinate logistics for programming, events, and workshops, including scheduling, materials, and speaker communication Manage program systems and data (e.g., Qualtrics, Salesforce, Google Classroom), ensuring accurate tracking of participant information, attendance, and engagement Prepare and distribute program materials such as travel memos, orientation packets, and weekly communications Track budgets and maintain financial records Support on-site execution of programming, including set-up and materials management Program Management Support intern cohorts from onboarding through offboarding, including orientation, travel coordination, and participant support. Build strong relationships with interns through regular check-ins, coaching, and performance feedback. Facilitate workshops, programming sessions, and leadership development activities. Develop and manage program content (e.g., presentations, onboarding modules, speaker materials). Collect and analyze evaluation data to inform program improvements. Support special events such as graduations, community service projects, and networking opportunities. Address participant needs and help resolve conflicts as needed Support additional strategic initiatives and event-related responsibilities as assigned Recruitment and Outreach Support recruitment efforts, outreach events, and applicant pipeline development Communicate with selected participants and assist with placement processes Share professional opportunities with interns and alumni Additional Responsibilities Draft and edit program materials (e.g., intern bios, reports, website content) Support special projects and cross-team initiatives as needed QUALIFICATIONS Required: 2–3 years of relevant experience or equivalent combination of education and experience Demonstrated commitment to the Latino community and first-generation college students Strong organizational, communication, and project management skills Experience facilitating groups or leading programming Proficiency in Microsoft Office 365 and Google Workspace Detail-oriented, adaptable, and able to manage multiple priorities in a fast-paced environment Commitment to CHCI’s mission and values Preferred: Bachelor’s degree or equivalent Experience working with policy organizations and/or Capitol Hill Bilingual – English/Spanish Experience working with platforms including Qualtrics, Salesforce, Articulate, Workramp, SM Apply and Vidcruiter Experience working with undergraduate and graduate students, or early-career professionals Experience working with student leadership programs Experience responding quickly and effectively to shifting demands and opportunities BENEFITS CHCI offers an array of competitive benefits to its employees: Flexibility for Telework Medical, Dental, and Vision insurance Basic Life Insurance Coverage Life Insurance Coverage for Dependents Employee Assistance Program Flexible Spending Account WMATA SmarTrip Benefit/Parking Subsidy 401k Retirement Plan Paid federal holidays Paid Time Off - Vacation and Sick Leave Pet Insurance Option An organization-wide winter break between 12/25 and 1/1 Furniture allowance for remote office About the Congressional Hispanic Caucus Institute (CHCI) The Congressional Hispanic Caucus Institute (CHCI) is a 501(c)(3) non-profit, non-partisan organization founded in 1978, dedicated to developing the next generation of Latino leaders in the United States. CHCI provides leadership, public service, and policy experiences in the nation’s capital to outstanding Latino students and young professionals from throughout the nation. CHCI manages a network of over 5,400 highly accomplished alumni, providing a pipeline of Latino talent to corporations, government, and nonprofits, to ensure the interests of the Latino community are represented across all sectors of society. CHCI also convenes a variety of community leaders that include Members of Congress, other public officials, corporate executives, advocates, and community leaders to discuss issues facing the Latino community and our nation and identify solutions that can be implemented in policy and practice</description>
-      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/associate-manager-congressional-internship-program-916c3012</guid>
-      <category>US Campaigns &amp; Parties</category>
-      <pubDate>Mon, 18 May 2026 16:23:45 +0000</pubDate>
-      <dc:creator>CHCI</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
-    <item>
       <title>Policy Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/policy-analyst-da7843b5</link>
       <description>Policy Analyst The Opportunity: As a Policy Analyst, you will provide support to all policy review, coordination, adjudication, promulgation, communication, and compliance in accordance with Policy Life Cycle Management ( PLCM ) process. You will support Subject Matter Expert ( SME ) coordination and maintenance of all assigned policies , self-inspection checklists, and gap analyses. What You’ll Work On: Support development of policies, review, coordination, and compliance for corporate policies , IT services policies , cybersecurity, and information assurance policies . Support the development of SME self-inspection compliance checklists to ensure policy implementation, monitoring, and tracking. Lead and support SME analysis for gap analysis and policy revisions. C ond uct independent verification and validation to ensure policies are clear, fact-based, accurate, and consistent with external guidance and strategic planning. Identify policy gaps and propose appropriate solutions and resolutions to the policy lead. Support the implementation of policy business process improvements. Support the tracking and reporting of policy business analytics, met rics, and performance measures. Support the organization’s Cybersecurity Strategy. Analyze internal documents and external issuances such as IC and DoW policy and Executive Orders to identify policy impacts, conflicts, or gaps. Join us. The world can't wait. You Have: 2+ years of experience tracking and managing formal taskers 2+ years of experience coordinating and collaborating on agency-level support agreements 2+ years of experience reviewing and analyzing high-level governance documents such as agency directives, statutes, or Executive Orders Experience leading, managing, and working policy compendiums, frameworks, strategic planning agendas, rescissions, and gaps Knowledge of NIST 800-53 controls, cybersecurity frameworks, and high-level cybersecurity policy Active TS/SCI clearance; willingness to take a polygraph exam Bachelor’s degree in Computer Science, System Engineering, Cybersecurity, International Affairs, or Policy and 7+ years of experience leading, managing, and working policies in accordance with a Policy Life Cycle Management ( PLCM ) process, or 10+ years of experience leading, managing, and working policies in accordance with a Policy Life Cycle Management ( PLCM ) process in lieu of a degree Clearance: Applicants selected will be subject to a security investigation and may need to meet eligibility requirements for access to classified information ; TS/SCI clearance is required. Compensation At Booz Allen, we celebrate your contributions, provide you with opportunities and choices, and support your total well-being. Our offerings include health, life, disability, financial, and retirement benefits, as well as paid leave, professional development, tuition assistance, work-life programs, and dependent care. Our recognition awards program acknowledges employees for exceptional performance and superior demonstration of our values. Full-time and part-time employees working at least 20 hours a week on a regular basis are eligible to participate in Booz Allen’s benefit programs. Individuals that do not meet the threshold are only eligible for select offerings, not inclusive of health benefits. We encourage you to learn more about our total benefits by visiting the Resource page on our Careers site and reviewing Our Employee Benefits page. Salary at Booz Allen is determined by various factors, including but not limited to location, the individual’s particular combination of education, knowledge, skills, competencies, and experience, as well as contract-specific affordability and organizational requirements. The projected compensation range for this position is $61,900.00 to $141,000.00 (annualized USD). The estimate displayed represents the typical salary range for this position and is just one component of Booz Allen’s total compensation package for employees. This posting will close within 90 days from the Posting Date. Identity Statement As part of the hiring process, we will ask you to complete an identity verification process that leverages advanced biometrics and artificial intelligence to ensure authenticity and protect against identity fraud. You are expected to be on camera during interviews and assessments. We reserve the right to take your picture to verify your identity and prevent fraud. Candidate AI Usage Policy AI is a part of our daily work at Booz Allen, and we are committed to the responsible and ethical use of AI tools. However, we want to ensure a fair candidate process based on your own skills and knowledge. As part of this commitment, the use of artificial intelligence (AI) or other tools to assist with responses during interviews (whether in-person or virtual) is prohibited unless permission is explicitly provided . Work Model Our people-first culture prioritizes the benefits of collaboration, whether it occurs in person or vir</description>
@@ -899,7 +863,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 18 May 2026 16:23:45 +0000</pubDate>
       <dc:creator>Booz Allen Hamilton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>St. Louis, Missouri</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Policy Analyst Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-policy-analyst-government-affairs-afb9c3db</link>
@@ -908,7 +872,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 20 May 2026 16:26:53 +0000</pubDate>
       <dc:creator>Grant PUD</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Ephrata, Washington</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Ltiip Project Selection And Scoping Specialist Pa</title>
       <link>https://www.politicaljobhunt.com/jobs/ltiip-project-selection-and-scoping-specialist-pa-c24ca8ce</link>
@@ -917,7 +881,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 20 May 2026 16:26:53 +0000</pubDate>
       <dc:creator>FirstEnergy</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Erie, Pennsylvania</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Executive Vice President Government Affairs Policy Washington Dc Hybrid</title>
       <link>https://www.politicaljobhunt.com/jobs/executive-vice-president-government-affairs-policy-washington-dc-hybrid-adb1e439</link>
@@ -926,7 +890,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 20 May 2026 16:26:53 +0000</pubDate>
       <dc:creator>Feeding America</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Fall 2026 Government Affairs Intern</title>
       <link>https://www.politicaljobhunt.com/jobs/fall-2026-government-affairs-intern-3ea0baf7</link>
@@ -935,7 +899,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 20 May 2026 16:26:53 +0000</pubDate>
       <dc:creator>Ctr Budget Policy</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Wgl Public Policy Intern</title>
       <link>https://www.politicaljobhunt.com/jobs/wgl-public-policy-intern-9d8c5fd3</link>
@@ -944,7 +908,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 20 May 2026 16:26:53 +0000</pubDate>
       <dc:creator>AltaGas</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>District Legislative Aide District 17</title>
       <link>https://www.politicaljobhunt.com/jobs/district-legislative-aide-district-17-cd80c274</link>
@@ -953,7 +917,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 21 May 2026 16:16:23 +0000</pubDate>
       <dc:creator>Florida Legislature</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Orlando, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Manager Election Protection</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-manager-election-protection-43469701</link>
@@ -989,7 +953,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 22 May 2026 15:48:28 +0000</pubDate>
       <dc:creator>Jewish Family Service Of Los Angeles</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Los Angeles, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Deputy Director For Ta Elections</title>
       <link>https://www.politicaljobhunt.com/jobs/deputy-director-for-ta-elections-7afc9f15</link>
@@ -998,7 +962,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 22 May 2026 15:48:28 +0000</pubDate>
       <dc:creator>City of New York</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative Outreach Coordinator</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-outreach-coordinator-eff450e8</link>
@@ -1007,7 +971,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 22 May 2026 15:48:28 +0000</pubDate>
       <dc:creator>Bipartisan Policy Center</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Associate Site Selection North America</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-associate-site-selection-north-america-dc7e063c</link>
@@ -1016,7 +980,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 22 May 2026 15:48:28 +0000</pubDate>
       <dc:creator>Ares Operations</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Bellevue, Washington</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Of Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/director-of-government-affairs-6584cb56</link>
@@ -1025,7 +989,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 22 May 2026 15:48:28 +0000</pubDate>
       <dc:creator>American Soybean Association</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Manager Public Policy Pacific Northwest Aws State And Local Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/manager-public-policy-pacific-northwest-aws-state-and-local-public-policy-e75f293a</link>
@@ -1034,7 +998,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 22 May 2026 15:48:28 +0000</pubDate>
       <dc:creator>Amazon</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Portland, Oregon</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Assoc Director Director Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/assoc-director-director-public-policy-f22d0f0d</link>
@@ -1043,7 +1007,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 23 May 2026 14:29:13 +0000</pubDate>
       <dc:creator>National Association of State Departments of Agriculture</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Arlington, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Affairs Director</title>
       <link>https://www.politicaljobhunt.com/jobs/government-affairs-director-353ce549</link>
@@ -1052,7 +1016,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 23 May 2026 14:29:13 +0000</pubDate>
       <dc:creator>American College of Radiology</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Director Policy Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-director-policy-government-affairs-b1427e4b</link>
@@ -1070,7 +1034,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 24 May 2026 14:24:08 +0000</pubDate>
       <dc:creator>Lee County Clerk of Court and Comptroller</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Fort Myers, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Bilingual Ersea Enrollment Recruitment Selection Eligibility And Attendance Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/bilingual-ersea-enrollment-recruitment-selection-eligibility-and-attendance-specialist-2e6edb55</link>
@@ -1079,7 +1043,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 25 May 2026 15:50:45 +0000</pubDate>
       <dc:creator>NeighborImpact</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Redmond, Oregon</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Elections Administrator</title>
       <link>https://www.politicaljobhunt.com/jobs/elections-administrator-fb03ea2b</link>
@@ -1088,7 +1052,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 25 May 2026 15:50:45 +0000</pubDate>
       <dc:creator>Lubbock County</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Lubbock, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Bizdev Lead</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-bizdev-lead-7e9f12e0</link>
@@ -1106,7 +1070,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 26 May 2026 16:43:25 +0000</pubDate>
       <dc:creator>Ares Operations</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Arlington, New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Sourcing Recruiter Legal And Public Policy Recruiting</title>
       <link>https://www.politicaljobhunt.com/jobs/sourcing-recruiter-legal-and-public-policy-recruiting-fbd8c0e0</link>
@@ -1115,7 +1079,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 26 May 2026 16:43:25 +0000</pubDate>
       <dc:creator>Amazon</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Seattle, Washington</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Economic Policy Analyst Tax Quantitative Eco And Stats Quest Manager Multiple Positions 1709580</title>
       <link>https://www.politicaljobhunt.com/jobs/economic-policy-analyst-tax-quantitative-eco-and-stats-quest-manager-multiple-positions-1709580-0a1d6e3b</link>
@@ -1124,7 +1088,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 27 May 2026 16:37:49 +0000</pubDate>
       <dc:creator>EY Société d'Avocats</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Government Affairs Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-government-affairs-manager-451678b7</link>
@@ -1133,7 +1097,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 27 May 2026 16:37:49 +0000</pubDate>
       <dc:creator>Centene Management Company</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative And Regulatory Affairs Director At Housing California</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-and-regulatory-affairs-director-at-housing-california-572ebcfc</link>
@@ -1142,7 +1106,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 27 May 2026 16:37:49 +0000</pubDate>
       <dc:creator>Axis Talent Partners</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Sacramento, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Legislative Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-legislative-analyst-e2e88746</link>
@@ -1151,7 +1115,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 27 May 2026 16:37:49 +0000</pubDate>
       <dc:creator>Association of American Medical Colleges</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Vice President Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/vice-president-government-affairs-73697b89</link>
@@ -1160,7 +1124,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
       <dc:creator>National Parks Conservation Association</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Sr Manager State Government Affairs Central</title>
       <link>https://www.politicaljobhunt.com/jobs/sr-manager-state-government-affairs-central-5dfc5ae6</link>
@@ -1178,7 +1142,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
       <dc:creator>Florida Legislature</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Coordinator Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/coordinator-public-policy-0786d343</link>
@@ -1187,16 +1151,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
       <dc:creator>Dallas Regional Chamber</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
-    <item>
-      <title>Legislative Liaison</title>
-      <link>https://www.politicaljobhunt.com/jobs/legislative-liaison-c738b454</link>
-      <description>Engineering a world of possibilities Mines is pleased to announce the creation and opening of a new position in the President's Office. The Legislative Liaison serves as the university’s primary staff lead for state government relations, coordinating and managing legislative engagement, and supporting the execution of the institution’s state advocacy and outreach strategy. While state relations are the primary focus, the position supports and advances the Office of Public Affairs and External Relations’ government and community engagement portfolio, including relationship building with community organizations and cross cutting government relations initiatives. Reporting to the Executive Director of Public Affairs and External Relations, this position plays a critical operational role during the Colorado legislative session by monitoring legislation, coordinating institutional responses, supporting testimony, and advancing policy and funding priorities aligned with the university’s mission. The position works with university leadership, faculty, staff, and external partners to ensure a coordinated local, state, and federal legislative and outreach strategy. The role collaborates with communications colleagues to provide support for advocacy related press, outreach, and social media tied to governmental relations efforts. This role requires regular and frequent presence on campus in Golden, Colorado. Key Responsibilities State Legislative Engagement &amp; Policy Support (Primary Focus) Manage and coordinate, in partnership with external government affairs partners, engagement with the Colorado General Assembly and relevant executive‑branch agencies during the legislative session. Monitor, track, analyze, and summarize state legislation, budget actions, regulatory developments, and policy proposals affecting the university. Coordinate institutional testimony, witness preparation, bill support or opposition materials, and legislative meetings. Prepare and distribute briefing materials, bill analyses, talking points, memos, and written updates for senior leadership and campus stakeholders. Provide policy research and operational support to inform the Executive Director’s review and institutional decision‑making regarding positions on state legislation, policy proposals, and funding priorities. Advocacy &amp; Strategy In collaboration with internal and government affairs partners, support the development and implementation of the university’s annual state legislative strategy in alignment with institutional goals. Advance awareness of the university’s research strengths, academic programs, workforce development capacity, and innovation ecosystem. Advocate for policy and investment in higher education, science, engineering, innovation, training, and infrastructure aligned with institutional priorities. Track legislative outcomes and assess impacts, in coordination with government affairs partners, to help inform future advocacy strategies. Coordination Across Local, State, and Federal Engagement Work closely with the Executive Director and campus partners to ensure alignment of local, state, and federal legislative priorities, stakeholder engagement, and advocacy across jurisdictions. Share legislative intelligence, policy analysis, and engagement outcomes across the university to support institutional planning and decision‑making. Assist with federal relations activities as needed, including policy tracking, preparation of briefing materials, coordination of meetings or visits, and issue research. Relationship Management Build and maintain productive working relationships with state legislators, legislative staff, executive‑branch officials, and policy advisors. Support engagement with local and regional officials and community‑based organizations in coordination with the Office of Public Affairs &amp; External Relations. Represent the university in meetings, briefings, hearings, coalitions, and external forums. Maintain situational awareness of political, policy, and budgetary dynamics to anticipate emerging issues and opportunities. Partnership Development &amp; External Engagement Position the university as a trusted and preferred partner for state and regional government entities. Support engagement with industry partners, higher‑education associations, advocacy coalitions, and community organizations aligned with institutional goals. Work in coordination with the Mines Foundation to help identify and engage alumni, industry leaders, and community partners who can support advocacy priorities. Campus Collaboration &amp; Engagement Partner across campus—including academic leadership, faculty experts, research administration, communications staff, and the Mines Foundation—to ensure coordinated engagement and consistent messaging. Plan and support legislative briefings, campus visits, tours, recognition events, and programs at the State Capitol and on campus. Engage faculty, staff, and students to inform, and when appropriate, parti</description>
-      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/legislative-liaison-c738b454</guid>
-      <category>US Campaigns &amp; Parties</category>
-      <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
-      <dc:creator>Colorado School of Mines</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Dallas, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Deputy Director External Legislative Affairs Om Wbe</title>
       <link>https://www.politicaljobhunt.com/jobs/deputy-director-external-legislative-affairs-om-wbe-5de639e2</link>
@@ -1205,7 +1160,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
       <dc:creator>City of New York</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York City, New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Policy Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/public-policy-specialist-f6ec5fc7</link>
@@ -1214,7 +1169,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
       <dc:creator>Booz Allen Hamilton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Fort Bragg, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Associate Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/associate-government-affairs-327f27e3</link>
@@ -1223,7 +1178,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
       <dc:creator>Ares Operations</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Arlington, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Software Development Manager Amazon Selection And Catalog Systems Ascs</title>
       <link>https://www.politicaljobhunt.com/jobs/software-development-manager-amazon-selection-and-catalog-systems-ascs-0337b0e7</link>
@@ -1232,7 +1187,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
       <dc:creator>Amazon</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Seattle, Washington</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Product Manager Tech Amazon Selection Catalog Systems Amazon Selection Catalog Systems</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-product-manager-tech-amazon-selection-catalog-systems-amazon-selection-catalog-systems-f6bfe3de</link>
@@ -1241,7 +1196,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 28 May 2026 16:54:16 +0000</pubDate>
       <dc:creator>Amazon</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Sunnyvale, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Associate Professor Of Gov T And Public Policy Helms School Of Government</title>
       <link>https://www.politicaljobhunt.com/jobs/associate-professor-of-gov-t-and-public-policy-helms-school-of-government-f3fb3edc</link>
@@ -1250,7 +1205,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 29 May 2026 16:42:29 +0000</pubDate>
       <dc:creator>Liberty University</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Lynchburg, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/director-government-affairs-e60c9558</link>
@@ -1259,7 +1214,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 29 May 2026 16:42:29 +0000</pubDate>
       <dc:creator>Kenton County AP External</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Cincinnati, Ohio</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative Assistant Native American Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-assistant-native-american-affairs-e5e924da</link>
@@ -1268,7 +1223,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 29 May 2026 16:42:29 +0000</pubDate>
       <dc:creator>Holland &amp; Knight</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Vp Public Policy Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/vp-public-policy-government-affairs-c0485aa0</link>
@@ -1304,7 +1259,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 31 May 2026 14:44:43 +0000</pubDate>
       <dc:creator>OpenAI</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>San Francisco, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Policy Specialist Energy And Environment Hybrid Remote Role Based In Reston Virginia</title>
       <link>https://www.politicaljobhunt.com/jobs/public-policy-specialist-energy-and-environment-hybrid-remote-role-based-in-reston-virginia-0d92be25</link>
@@ -1322,7 +1277,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 31 May 2026 14:44:43 +0000</pubDate>
       <dc:creator>CSU</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Sacramento, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Technical Program Manager Amazon Selection And Catalog Systems</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-technical-program-manager-amazon-selection-and-catalog-systems-7ca9a4ad</link>
@@ -1331,7 +1286,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 31 May 2026 14:44:43 +0000</pubDate>
       <dc:creator>Amazon</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Seattle, Washington</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative Affairs Support Officer Senior</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-affairs-support-officer-senior-93eb0111</link>
@@ -1340,7 +1295,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 01 Jun 2026 18:38:06 +0000</pubDate>
       <dc:creator>Parsons</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Springfield, Missouri</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Analyst Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/analyst-public-policy-4c27ed63</link>
@@ -1349,7 +1304,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 01 Jun 2026 18:38:06 +0000</pubDate>
       <dc:creator>PFM</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Philadelphia, Pennsylvania</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Economist Senior Economic Policy Advisor</title>
       <link>https://www.politicaljobhunt.com/jobs/economist-senior-economic-policy-advisor-09d18751</link>
@@ -1358,7 +1313,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 01 Jun 2026 18:38:06 +0000</pubDate>
       <dc:creator>Federal Reserve Bank of Philadelphia</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Saint Louis, Michigan</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Affairs Senior Manager Northeast Region</title>
       <link>https://www.politicaljobhunt.com/jobs/government-affairs-senior-manager-northeast-region-2ae63b99</link>
@@ -1367,7 +1322,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 01 Jun 2026 18:38:06 +0000</pubDate>
       <dc:creator>Accenture</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Affairs Senior Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/government-affairs-senior-manager-82c9b7f9</link>
@@ -1376,7 +1331,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 01 Jun 2026 18:38:06 +0000</pubDate>
       <dc:creator>Accenture</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Arlington, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Of Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/director-of-government-affairs-9d96c4b3</link>
@@ -1394,7 +1349,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 02 Jun 2026 17:23:26 +0000</pubDate>
       <dc:creator>Partnership For Public Service</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Research Project Manager Sanford School Of Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/research-project-manager-sanford-school-of-public-policy-31212a12</link>
@@ -1403,7 +1358,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 02 Jun 2026 17:23:26 +0000</pubDate>
       <dc:creator>Duke's Fuqua School of Business</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>State Government Affairs Intern</title>
       <link>https://www.politicaljobhunt.com/jobs/state-government-affairs-intern-7533857a</link>
@@ -1412,7 +1367,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 02 Jun 2026 17:23:26 +0000</pubDate>
       <dc:creator>Consumer Technology Association</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Arlington, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Managing Editor Of The 9th Street Journal Sanford School Of Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/managing-editor-of-the-9th-street-journal-sanford-school-of-public-policy-d0b2ce67</link>
@@ -1421,7 +1376,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 03 Jun 2026 18:00:27 +0000</pubDate>
       <dc:creator>Duke's Fuqua School of Business</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>North Carolina</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Chief Executive Officer</title>
       <link>https://www.politicaljobhunt.com/jobs/chief-executive-officer-43e8b4f2</link>
@@ -1439,7 +1394,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 03 Jun 2026 18:00:27 +0000</pubDate>
       <dc:creator>City of New York</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Long Island City, New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>California Legislative Correspondent 2 Indg</title>
       <link>https://www.politicaljobhunt.com/jobs/california-legislative-correspondent-2-indg-da1cb37c</link>
@@ -1457,7 +1412,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 03 Jun 2026 18:00:27 +0000</pubDate>
       <dc:creator>Bipartisan Policy Center</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/director-public-policy-92dda548</link>
@@ -1466,7 +1421,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 05 Jun 2026 15:54:34 +0000</pubDate>
       <dc:creator>McKesson</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Mission Integrator Acquisition Congressional Support</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-mission-integrator-acquisition-congressional-support-ce0f74d1</link>
@@ -1475,7 +1430,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 05 Jun 2026 15:54:34 +0000</pubDate>
       <dc:creator>Galapagos Federal Systems.</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative Aide District 45</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-aide-district-45-5624e16e</link>
@@ -1484,7 +1439,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 05 Jun 2026 15:54:34 +0000</pubDate>
       <dc:creator>Florida Legislature</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Winter Garden, Florida</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Elections Support</title>
       <link>https://www.politicaljobhunt.com/jobs/elections-support-b44e9652</link>
@@ -1493,7 +1448,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 06 Jun 2026 14:41:28 +0000</pubDate>
       <dc:creator>Hubbard County</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Park Rapids, Minnesota</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Community Manager Senate Square</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-community-manager-senate-square-4b055132</link>
@@ -1502,7 +1457,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 06 Jun 2026 14:41:28 +0000</pubDate>
       <dc:creator>Greystar Management Services</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Congressional Affairs Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/congressional-affairs-analyst-aee55284</link>
@@ -1511,7 +1466,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 06 Jun 2026 14:41:28 +0000</pubDate>
       <dc:creator>Galapagos Federal Systems.</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Assistant Attorney General Elections Section</title>
       <link>https://www.politicaljobhunt.com/jobs/assistant-attorney-general-elections-section-f5642e1c</link>
@@ -1520,7 +1475,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 06 Jun 2026 14:41:28 +0000</pubDate>
       <dc:creator>DHRM</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Richmond, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Head Of Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/head-of-government-affairs-b1960142</link>
@@ -1538,7 +1493,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 07 Jun 2026 14:53:00 +0000</pubDate>
       <dc:creator>Premier Healthcare Solutions</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Ap Clerk Elections Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/ap-clerk-elections-analyst-475fe666</link>
@@ -1547,7 +1502,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 07 Jun 2026 14:53:00 +0000</pubDate>
       <dc:creator>Pottawatomie County</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Westmoreland, Kansas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior State Legislative Affairs Manager State Legislative Affairs Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-state-legislative-affairs-manager-state-legislative-affairs-manager-c2dbdbca</link>
@@ -1556,7 +1511,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 07 Jun 2026 14:53:00 +0000</pubDate>
       <dc:creator>Portland General Electric Company</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Portland, Oregon</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Election Enrollment Coordinator</title>
       <link>https://www.politicaljobhunt.com/jobs/election-enrollment-coordinator-5fc6a5ee</link>
@@ -1565,7 +1520,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 07 Jun 2026 14:53:00 +0000</pubDate>
       <dc:creator>Pokagon Band Of Potwatomi Indians</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Dowagiac, Michigan</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Elections Assistant I</title>
       <link>https://www.politicaljobhunt.com/jobs/elections-assistant-i-c0e95e0c</link>
@@ -1574,7 +1529,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 07 Jun 2026 14:53:00 +0000</pubDate>
       <dc:creator>Henry County Government</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Georgia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Attorney Legislative Counsel</title>
       <link>https://www.politicaljobhunt.com/jobs/attorney-legislative-counsel-1d5a3b58</link>
@@ -1583,7 +1538,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 07 Jun 2026 14:53:00 +0000</pubDate>
       <dc:creator>DHRM</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Richmond, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Election Technician</title>
       <link>https://www.politicaljobhunt.com/jobs/election-technician-d6d28761</link>
@@ -1592,7 +1547,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 08 Jun 2026 16:48:42 +0000</pubDate>
       <dc:creator>Harris County</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Houston, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Elections Supply Lead</title>
       <link>https://www.politicaljobhunt.com/jobs/elections-supply-lead-886c1ec1</link>
@@ -1601,7 +1556,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 08 Jun 2026 16:48:42 +0000</pubDate>
       <dc:creator>Harris County</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Houston, Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Program Coordinator Center For Public And Nonprofit Leadership Mccourt School Of Public Policy Georgetown University</title>
       <link>https://www.politicaljobhunt.com/jobs/program-coordinator-center-for-public-and-nonprofit-leadership-mccourt-school-of-public-policy-georgetown-university-d9e9bd16</link>
@@ -1619,7 +1574,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 08 Jun 2026 16:48:42 +0000</pubDate>
       <dc:creator>Ezee Fiber</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Troy, Michigan</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Bos Legislative Intern Yac Coordinator 3rd District</title>
       <link>https://www.politicaljobhunt.com/jobs/bos-legislative-intern-yac-coordinator-3rd-district-f7ee7b3a</link>
@@ -1628,7 +1583,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 08 Jun 2026 16:48:42 +0000</pubDate>
       <dc:creator>County of Riverside</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Riverside, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Associate Dean Of Administration Cornell Jeb E Brooks School Of Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/associate-dean-of-administration-cornell-jeb-e-brooks-school-of-public-policy-06df2926</link>
@@ -1637,7 +1592,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 08 Jun 2026 16:48:42 +0000</pubDate>
       <dc:creator>Cornell University</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Ithaca, New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>State Police Cadet 6031 Selection Cycle</title>
       <link>https://www.politicaljobhunt.com/jobs/state-police-cadet-6031-selection-cycle-826347dd</link>
@@ -1646,7 +1601,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 08 Jun 2026 16:48:42 +0000</pubDate>
       <dc:creator>Commonwealth of Pennsylvania</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Pennsylvania</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative Aide Office Of Senator Rausch</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-aide-office-of-senator-rausch-daa2775f</link>
@@ -1655,7 +1610,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 08 Jun 2026 16:48:42 +0000</pubDate>
       <dc:creator>Commonwealth of Massachusetts</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Boston, Massachusetts</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Legislative Representative</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-legislative-representative-4af75352</link>
@@ -1664,7 +1619,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Mon, 08 Jun 2026 16:48:42 +0000</pubDate>
       <dc:creator>City of New York</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York City, New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Senior Director Public Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/senior-director-public-policy-058b2e3e</link>
@@ -1673,7 +1628,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 09 Jun 2026 15:55:24 +0000</pubDate>
       <dc:creator>National Association of State Departments of Agriculture</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Arlington, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Advisor Strategic Partnerships And Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/advisor-strategic-partnerships-and-government-affairs-d03e1be3</link>
@@ -1691,7 +1646,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Tue, 09 Jun 2026 15:55:24 +0000</pubDate>
       <dc:creator>ICF</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Reston, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Elections Manager</title>
       <link>https://www.politicaljobhunt.com/jobs/elections-manager-cceb3211</link>
@@ -1700,7 +1655,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 10 Jun 2026 16:35:47 +0000</pubDate>
       <dc:creator>County Of Albemarle</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Charlottesville, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Public Affairs Specialist City Manager S Office Communications Legislative Affairs Office</title>
       <link>https://www.politicaljobhunt.com/jobs/public-affairs-specialist-city-manager-s-office-communications-legislative-affairs-office-f7e8cef9</link>
@@ -1709,16 +1664,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Wed, 10 Jun 2026 16:35:47 +0000</pubDate>
       <dc:creator>City of Fremont</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
-    <item>
-      <title>Legislative Administrator Austin Government Relations</title>
-      <link>https://www.politicaljobhunt.com/jobs/legislative-administrator-austin-government-relations-5fa19308</link>
-      <description>About This Position This position will manage the legislative team and ensure legislative strategies are aligned with the City of Austin legislative priorities. The Legislative Administrator will work in a fast paced environment and have the ability to efficiently manage their time as well as staff time. Job Description: Legislative Administrator Purpose: Under limited direction, this position is responsible for management of the Legislative Division of Austin Governmental Relations (AGR). Duties, Functions and Responsibilities: Essential duties and functions, pursuant to the Americans with Disabilities Act, may include the following. Other related duties may be assigned. Manages the Division staff and the development and implementation of the City’s legislative strategy and agenda; represents the City’s interest and positions before a wide variety of audiences. Monitors legislative activity; researches and analyzes public policy trends to assess their potential impact on the organization. Recommends policy positions; develops strategies and approaches on issues affecting the City, communicates and advocates for City priorities on key legislative issues, and acts as liaison between the City and other governmental agencies, public entities, or key stakeholders on issues of governmental relations. Provides updates and briefings, providing background information and materials for meeting, reports, testimony and correspondence. Responds to and resolves sensitive inquiries and complaints from both internal and external sources and provides solutions to complex problems and works to resolve difficult issues between involved parties including Council, City Executives, media and the general public. Monitors program budget and secures funding from various resources. Represents and provides assistance to AGR executive leadership as directed and as needed. Responsibilities - Supervisor and/or Leadership Exercised: May provide leadership, work assignments, evaluation, training, and guidance to others. Knowledge, Skills, and Abilities: Must possess required knowledge, skills, abilities, and experience and be able to explain and demonstrate, with or without reasonable accommodations, that the essential functions of the job can be performed. Knowledge of legislative practices, procedures and organizational structures. Knowledge fiscal planning and budget preparation and monitoring. Knowledge of the principles and practices of public administration and public policy issues. Knowledge of pertinent Federal, State and Local laws, rules, and policies regarding local governmental operations. Knowledge of supervisory and managerial techniques and principles Skill in planning, coordinating, and implementing programs and activities. Skill in handling multiple tasks and prioritizing. Skill in using computers and related software applications. Skill in legal analysis and impact. Skill in political acumen, with the ability to understand, evaluate, navigate, political conditions and organizational environments effectively and make appropriate recommendations. Ability to analyze problems, provide alternatives, identify solutions in support of established goals, project consequences of proposed actions and make appropriate recommendations. Ability to establish and maintain good working relationships with elected officials, and with other City and government agency employees, and the public, and maintain good judgement, tact, confidentiality and diplomacy as required. Ability to communicate clearly and effectively, both verbally and in writing. Ability to adapt and work with frequent interruptions and changes in priorities. Ability to give public presentations. Ability to exercise good judgment, tact and diplomacy in all public dealings Ability to successfully articulate and advocate City interests at the local, state, and federal levels Minimum Qualifications: Graduation with a Bachelor’s degree from an accredited college or university with major coursework in Business, Economics, Public Administration, Political Science, or related field, plus (4) four years of related experience, two (2) of which were in a leadership or management capacity. Licenses and Certifications Required: Preferred Qualifications: Demonstrated experience formulating and executing legislative strategies within constrained or accelerated timelines. Proven leadership experience overseeing staff in a fast‑paced environment characterized by complex and evolving subject matter. Ability to rapidly reassess priorities and address urgent issues in a dynamic operational setting. Experience conveying complex or technical information in clear, concise, and easily understood terms for diverse audiences. Notes to Candidate: This position will manage the legislative team and ensure legislative strategies are aligned with the City of Austin legislative priorities. The Legislative Administrator will work in a fast paced environment and have the ability to efficiently manage thei</description>
-      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/legislative-administrator-austin-government-relations-5fa19308</guid>
-      <category>US Campaigns &amp; Parties</category>
-      <pubDate>Wed, 10 Jun 2026 16:35:47 +0000</pubDate>
-      <dc:creator>City of Austin</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Fremont, California</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Affairs Lead</title>
       <link>https://www.politicaljobhunt.com/jobs/government-affairs-lead-f0f82c5e</link>
@@ -1736,7 +1682,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 11 Jun 2026 16:55:02 +0000</pubDate>
       <dc:creator>Mass General Brigham</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Somerville, Massachusetts</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Federal Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/director-federal-government-affairs-97f27897</link>
@@ -1745,7 +1691,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 11 Jun 2026 16:55:02 +0000</pubDate>
       <dc:creator>Fresenius Medical Care</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Legislative Affairs Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/legislative-affairs-specialist-958dedc2</link>
@@ -1754,7 +1700,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 11 Jun 2026 16:55:02 +0000</pubDate>
       <dc:creator>Booz Allen Hamilton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Springfield, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Congressional Affairs Contact Officer Senior</title>
       <link>https://www.politicaljobhunt.com/jobs/congressional-affairs-contact-officer-senior-7ce4de7b</link>
@@ -1763,7 +1709,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Thu, 11 Jun 2026 16:55:02 +0000</pubDate>
       <dc:creator>Booz Allen Hamilton</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Arlington, Virginia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director State Public Policy Ny</title>
       <link>https://www.politicaljobhunt.com/jobs/director-state-public-policy-ny-19890456</link>
@@ -1772,7 +1718,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Fri, 12 Jun 2026 16:18:12 +0000</pubDate>
       <dc:creator>Interactive Advertising Bureau, Inc.</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Policy Analyst</title>
       <link>https://www.politicaljobhunt.com/jobs/policy-analyst-e67eaac5</link>
@@ -1790,7 +1736,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 13 Jun 2026 15:00:49 +0000</pubDate>
       <dc:creator>Safelite</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Regulatory Affairs Public Policy Senior Associate</title>
       <link>https://www.politicaljobhunt.com/jobs/regulatory-affairs-public-policy-senior-associate-595930a9</link>
@@ -1799,7 +1745,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 13 Jun 2026 15:00:49 +0000</pubDate>
       <dc:creator>Rowan Digital Infrastructure</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Denver, Colorado</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Public Policy Science And Fda Policy</title>
       <link>https://www.politicaljobhunt.com/jobs/director-public-policy-science-and-fda-policy-d24eb29d</link>
@@ -1808,7 +1754,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 13 Jun 2026 15:00:49 +0000</pubDate>
       <dc:creator>Regeneron Pharmaceuticals</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director State Policy Government Affairs</title>
       <link>https://www.politicaljobhunt.com/jobs/director-state-policy-government-affairs-6c4d07f5</link>
@@ -1835,7 +1781,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 13 Jun 2026 15:00:49 +0000</pubDate>
       <dc:creator>Oscar Health</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>New York</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Government Relations Legislative Regulatory Tracking Intern Fall 2026</title>
       <link>https://www.politicaljobhunt.com/jobs/government-relations-legislative-regulatory-tracking-intern-fall-2026-32db4ca7</link>
@@ -1844,7 +1790,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sat, 13 Jun 2026 15:00:49 +0000</pubDate>
       <dc:creator>First Solar</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Phoenix, Arizona</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Evp Congressional Relations</title>
       <link>https://www.politicaljobhunt.com/jobs/evp-congressional-relations-b431fd44</link>
@@ -1862,7 +1808,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 14 Jun 2026 15:07:53 +0000</pubDate>
       <dc:creator>Philadelphia Corporation for Aging</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Philadelphia, Pennsylvania</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Elections Technology Specialist</title>
       <link>https://www.politicaljobhunt.com/jobs/elections-technology-specialist-1762ceb9</link>
@@ -1871,7 +1817,7 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 14 Jun 2026 15:07:53 +0000</pubDate>
       <dc:creator>McLennan County</dc:creator>
-    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <polintel:location>Texas</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
     <item>
       <title>Director Federal Government Affairs Washington D C Remote</title>
       <link>https://www.politicaljobhunt.com/jobs/director-federal-government-affairs-washington-d-c-remote-d74f944b</link>
@@ -1889,6 +1835,51 @@
       <category>US Campaigns &amp; Parties</category>
       <pubDate>Sun, 14 Jun 2026 15:07:53 +0000</pubDate>
       <dc:creator>Everytown for Gun Safety Support Fund</dc:creator>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <item>
+      <title>Government Affairs Specialist I Ii</title>
+      <link>https://www.politicaljobhunt.com/jobs/government-affairs-specialist-i-ii-1a321b91</link>
+      <description>Policy and political role. See link for full details.</description>
+      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/government-affairs-specialist-i-ii-1a321b91</guid>
+      <category>US Campaigns &amp; Parties</category>
+      <pubDate>Mon, 15 Jun 2026 17:59:15 +0000</pubDate>
+      <dc:creator>Political Job Hunt</dc:creator>
+    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <item>
+      <title>Svp Head Of Government Affairs And Public Policy</title>
+      <link>https://www.politicaljobhunt.com/jobs/svp-head-of-government-affairs-and-public-policy-5800002d</link>
+      <description>Policy and political role. See link for full details.</description>
+      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/svp-head-of-government-affairs-and-public-policy-5800002d</guid>
+      <category>US Campaigns &amp; Parties</category>
+      <pubDate>Mon, 15 Jun 2026 17:59:15 +0000</pubDate>
+      <dc:creator>Political Job Hunt</dc:creator>
+    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <item>
+      <title>Site Selection Associate</title>
+      <link>https://www.politicaljobhunt.com/jobs/site-selection-associate-f8259ab9</link>
+      <description>Policy and political role. See link for full details.</description>
+      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/site-selection-associate-f8259ab9</guid>
+      <category>US Campaigns &amp; Parties</category>
+      <pubDate>Mon, 15 Jun 2026 17:59:15 +0000</pubDate>
+      <dc:creator>Political Job Hunt</dc:creator>
+    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <item>
+      <title>Administrative Assistant Massive Data Institute Mccourt School Of Public Policy Georgetown University</title>
+      <link>https://www.politicaljobhunt.com/jobs/administrative-assistant-massive-data-institute-mccourt-school-of-public-policy-georgetown-university-72fc2c60</link>
+      <description>Policy and political role. See link for full details.</description>
+      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/administrative-assistant-massive-data-institute-mccourt-school-of-public-policy-georgetown-university-72fc2c60</guid>
+      <category>US Campaigns &amp; Parties</category>
+      <pubDate>Mon, 15 Jun 2026 17:59:15 +0000</pubDate>
+      <dc:creator>Political Job Hunt</dc:creator>
+    <polintel:partisanLean>unknown</polintel:partisanLean></item>
+    <item>
+      <title>Data And Research Associate Georgetown University Initiative On Innovation Development And Evaluation Gui2de Mccourt School Of Public Policy</title>
+      <link>https://www.politicaljobhunt.com/jobs/data-and-research-associate-georgetown-university-initiative-on-innovation-development-and-evaluation-gui2de-mccourt-school-of-public-policy-6c19f572</link>
+      <description>Policy and political role. See link for full details.</description>
+      <guid isPermaLink="false">https://www.politicaljobhunt.com/jobs/data-and-research-associate-georgetown-university-initiative-on-innovation-development-and-evaluation-gui2de-mccourt-school-of-public-policy-6c19f572</guid>
+      <category>US Campaigns &amp; Parties</category>
+      <pubDate>Mon, 15 Jun 2026 17:59:15 +0000</pubDate>
+      <dc:creator>Political Job Hunt</dc:creator>
     <polintel:partisanLean>unknown</polintel:partisanLean></item>
   </channel>
 </rss>

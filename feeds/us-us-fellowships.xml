@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 15:15:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 18:11:13 +0000</lastBuildDate>
     <item>
       <title>Green &amp; Gold Congressional Aide</title>
       <link>https://www.usajobs.gov:443/job/853548900</link>
@@ -17,16 +17,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:02 +0000</pubDate>
       <dc:creator>House of Representatives</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
-    <item>
-      <title>Biomedical Engineer</title>
-      <link>https://www.usajobs.gov:443/job/867933100</link>
-      <description>As a Biomedical Engineer (BME) for the Lt. Col. Luke Weathers, Jr. VA Medical Center, Memphis, TN, the incumbent provides professional engineering support to a complex, highly technical, and service-oriented Healthcare Technology Management Section within Engineering Service. The Biomedical Engineer | Salary: $61,012–$140,696 PA | Grade: GS</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/867933100</guid>
-      <category>US Fellowships</category>
-      <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Pain Management</title>
       <link>https://www.usajobs.gov:443/job/872462600</link>
@@ -35,7 +26,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Columbia, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician, Supervisory Musculoskeletal with EDRP</title>
       <link>https://www.usajobs.gov:443/job/869605700</link>
@@ -44,7 +35,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (ACOS for Education)</title>
       <link>https://www.usajobs.gov:443/job/872325800</link>
@@ -53,7 +44,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Montgomery, Alabama</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Primary Care</title>
       <link>https://www.usajobs.gov:443/job/868981700</link>
@@ -62,7 +53,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Aurora, Colorado</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Pathology)</title>
       <link>https://www.usajobs.gov:443/job/861570400</link>
@@ -71,7 +62,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Gainesville, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Infectious Disease)</title>
       <link>https://www.usajobs.gov:443/job/869146500</link>
@@ -80,7 +71,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Harlingen, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Staff Anesthesiologist)</title>
       <link>https://www.usajobs.gov:443/job/871399000</link>
@@ -89,7 +80,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Seattle, Washington</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Pain Management &amp; Interventional Pain)</title>
       <link>https://www.usajobs.gov:443/job/859510000</link>
@@ -98,7 +89,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Cape Coral, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Gynecology)</title>
       <link>https://www.usajobs.gov:443/job/869134700</link>
@@ -107,7 +98,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Miami, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Orthopedic Surgery)</title>
       <link>https://www.usajobs.gov:443/job/855658200</link>
@@ -116,7 +107,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Gainesville, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Neurology)</title>
       <link>https://www.usajobs.gov:443/job/869157200</link>
@@ -125,7 +116,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Bay Pines, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Primary Care)</title>
       <link>https://www.usajobs.gov:443/job/868564700</link>
@@ -134,7 +125,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Bay Pines, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Cardiothoracic Surgery) Section Chief</title>
       <link>https://www.usajobs.gov:443/job/854926800</link>
@@ -143,7 +134,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Miami, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Cardiologist (General)</title>
       <link>https://www.usajobs.gov:443/job/871691400</link>
@@ -152,7 +143,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Cincinnati, Ohio</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Urology)</title>
       <link>https://www.usajobs.gov:443/job/868569000</link>
@@ -161,7 +152,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Kansas City, Missouri</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Inpatient Spinal Cord)</title>
       <link>https://www.usajobs.gov:443/job/848953300</link>
@@ -170,7 +161,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Augusta, Georgia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician, Chief, Imaging Service with EDRP &amp; Recruitment/Relocation Incentive</title>
       <link>https://www.usajobs.gov:443/job/868625100</link>
@@ -179,7 +170,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:05:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Spinal Cord Injury - EDRP and Recruitment/Relocation Incentive May be Offered</title>
       <link>https://www.usajobs.gov:443/job/869351600</link>
@@ -188,7 +179,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Dallas, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician Chief (Hematology/Oncology)</title>
       <link>https://www.usajobs.gov:443/job/858451800</link>
@@ -197,7 +188,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Albuquerque, New Mexico</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Pulmonary Medicine)</title>
       <link>https://www.usajobs.gov:443/job/869156300</link>
@@ -206,7 +197,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Memphis, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Pain Management-PMOP Coordinator)</title>
       <link>https://www.usajobs.gov:443/job/869283900</link>
@@ -215,7 +206,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Martinsburg, West Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Neurology</title>
       <link>https://www.usajobs.gov:443/job/862157900</link>
@@ -224,7 +215,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Spokane, Washington</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Gastroenterology)</title>
       <link>https://www.usajobs.gov:443/job/868794000</link>
@@ -233,7 +224,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>West Palm Beach, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Radiology-Diagnostic)</title>
       <link>https://www.usajobs.gov:443/job/855055300</link>
@@ -242,7 +233,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Gainesville, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Cardiologist (Electrophysiologist)</title>
       <link>https://www.usajobs.gov:443/job/869343700</link>
@@ -251,7 +242,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Pittsburgh, Pennsylvania</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician - Ophthalmologist (Glaucoma Specialist)</title>
       <link>https://www.usajobs.gov:443/job/852038000</link>
@@ -260,7 +251,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Columbia, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Addiction Psychiatrist- Supervisory</title>
       <link>https://www.usajobs.gov:443/job/851212800</link>
@@ -269,7 +260,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Charleston, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Full Time Radiologist - 25 percent Incentive</title>
       <link>https://www.usajobs.gov:443/job/847588200</link>
@@ -278,7 +269,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Phoenix, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Section Chief Hematology-Oncology Physician</title>
       <link>https://www.usajobs.gov:443/job/865800100</link>
@@ -287,7 +278,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Providence, Rhode Island</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Chief of Orthopedic)</title>
       <link>https://www.usajobs.gov:443/job/862205200</link>
@@ -296,7 +287,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Dayton, Ohio</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Interventional Radiologist</title>
       <link>https://www.usajobs.gov:443/job/868619000</link>
@@ -305,7 +296,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Albany, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Ophthalmologist- Retina Specialist</title>
       <link>https://www.usajobs.gov:443/job/848311700</link>
@@ -314,7 +305,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Albany, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>ICU fee basis Physician</title>
       <link>https://www.usajobs.gov:443/job/847434900</link>
@@ -323,7 +314,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Albuquerque, New Mexico</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician -Diagnostic Radiologist (Intermittent)</title>
       <link>https://www.usajobs.gov:443/job/865678200</link>
@@ -332,7 +323,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Asheville, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician- Interventional Radiology</title>
       <link>https://www.usajobs.gov:443/job/868175100</link>
@@ -341,7 +332,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Detroit, Michigan</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician - Pathologist (43)</title>
       <link>https://www.usajobs.gov:443/job/864339800</link>
@@ -350,7 +341,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Saint Louis, Missouri</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician-Gastroenterologist</title>
       <link>https://www.usajobs.gov:443/job/869830600</link>
@@ -359,7 +350,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Bronx, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Urologist)</title>
       <link>https://www.usajobs.gov:443/job/869076800</link>
@@ -368,7 +359,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Johnson City, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Transplant Hepatologist)</title>
       <link>https://www.usajobs.gov:443/job/869281700</link>
@@ -377,7 +368,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Pittsburgh, Pennsylvania</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Foreign Affairs Specialist (McCain Fellows)</title>
       <link>https://www.usajobs.gov:443/job/870329200</link>
@@ -386,7 +377,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Washington Headquarters Services</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Alexandria, Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Public Notice for Medical Officer (Direct Hire)</title>
       <link>https://www.usajobs.gov:443/job/856925000</link>
@@ -395,7 +386,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Federal Aviation Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Belgium, Belgium</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Radiology-Diagnostic) - Assistant Chief</title>
       <link>https://www.usajobs.gov:443/job/855054100</link>
@@ -404,7 +395,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Gainesville, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Psychiatric Physician)</title>
       <link>https://www.usajobs.gov:443/job/861926900</link>
@@ -413,7 +404,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Bureau of Prisons/Federal Prison System</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Guaynabo, Puerto Rico</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Section Chief Hematology/Oncology</title>
       <link>https://www.usajobs.gov:443/job/868930600</link>
@@ -422,7 +413,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fresno, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Plastic Surgery)</title>
       <link>https://www.usajobs.gov:443/job/863623200</link>
@@ -431,7 +422,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Gainesville, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Geriatrics)- Community Living Center</title>
       <link>https://www.usajobs.gov:443/job/856699200</link>
@@ -440,7 +431,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Lake City, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician Radiologist (Nuclear Medicine)</title>
       <link>https://www.usajobs.gov:443/job/867068600</link>
@@ -449,7 +440,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 29 Apr 2026 15:13:25 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Tucson, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician Hematology-Oncology Reg Full-Time</title>
       <link>https://www.usajobs.gov:443/job/867292400</link>
@@ -458,7 +449,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 30 Apr 2026 15:10:21 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Providence, Rhode Island</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Urologist</title>
       <link>https://www.usajobs.gov:443/job/869171400</link>
@@ -467,7 +458,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 01 May 2026 14:16:45 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Erie, Pennsylvania</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Hospice/Palliative Care</title>
       <link>https://www.usajobs.gov:443/job/869038400</link>
@@ -476,7 +467,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 02 May 2026 14:10:08 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fargo, North Dakota</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>PHYSICIAN (RADIOLOGIST)</title>
       <link>https://www.usajobs.gov:443/job/870094300</link>
@@ -485,7 +476,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 02 May 2026 14:10:06 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Buffalo, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - General Surgery (Sign-on Bonus Eligible)</title>
       <link>https://www.usajobs.gov:443/job/847590000</link>
@@ -494,7 +485,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 02 May 2026 14:10:06 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Albany, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Podiatrist (Deputy Chief - Imaging)</title>
       <link>https://www.usajobs.gov:443/job/868608500</link>
@@ -503,7 +494,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 02 May 2026 14:10:06 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Sleep Medicine</title>
       <link>https://www.usajobs.gov:443/job/868791600</link>
@@ -512,7 +503,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 08 May 2026 14:51:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Jamaica Plain, Massachusetts</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Hematology/Oncology</title>
       <link>https://www.usajobs.gov:443/job/869049700</link>
@@ -521,7 +512,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 08 May 2026 14:51:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Jamaica Plain, Massachusetts</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Palliative Care</title>
       <link>https://www.usajobs.gov:443/job/870680500</link>
@@ -530,7 +521,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 08 May 2026 14:51:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fresno, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Otolaryngology (ENT)</title>
       <link>https://www.usajobs.gov:443/job/868424300</link>
@@ -539,7 +530,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 08 May 2026 14:51:37 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Jamaica Plain, Massachusetts</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician, Hematology/Oncology</title>
       <link>https://www.usajobs.gov:443/job/868442100</link>
@@ -548,7 +539,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 08 May 2026 14:51:37 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Columbia, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Gastroenterology/Hepatology</title>
       <link>https://www.usajobs.gov:443/job/872752200</link>
@@ -557,7 +548,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 08 May 2026 14:51:37 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Salt Lake City, Utah</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Chief of Radiology</title>
       <link>https://www.usajobs.gov:443/job/869502000</link>
@@ -566,7 +557,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>West Roxbury, Massachusetts</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (PACT) Green Valley AZ</title>
       <link>https://www.usajobs.gov:443/job/868655200</link>
@@ -575,7 +566,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Green Valley, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Rheumatology)</title>
       <link>https://www.usajobs.gov:443/job/868653000</link>
@@ -584,7 +575,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Tucson, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Nocturnist)</title>
       <link>https://www.usajobs.gov:443/job/868650800</link>
@@ -593,7 +584,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Tucson, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Cardiology Non-Invasive)</title>
       <link>https://www.usajobs.gov:443/job/868648800</link>
@@ -602,7 +593,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Tucson, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Anesthesiology (Pain Management)</title>
       <link>https://www.usajobs.gov:443/job/868589100</link>
@@ -611,7 +602,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Temple, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Orthopedic Surgery</title>
       <link>https://www.usajobs.gov:443/job/868568300</link>
@@ -620,7 +611,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Phoenix, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Full Time Radiologist - Incentive and EDRP approved</title>
       <link>https://www.usajobs.gov:443/job/868559000</link>
@@ -629,7 +620,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fredericksburg, Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Podiatrist-Pulmonary Section Chief</title>
       <link>https://www.usajobs.gov:443/job/868651600</link>
@@ -638,7 +629,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:56 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (GEM/CLC Medical Director)</title>
       <link>https://www.usajobs.gov:443/job/868639500</link>
@@ -647,7 +638,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:56 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Kerrville, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Deputy Chief - Imaging) - Recruitment/Relocation Incentive Authorized</title>
       <link>https://www.usajobs.gov:443/job/868598400</link>
@@ -656,7 +647,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:56 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Podiatrist (GEM/CLC Medical Director)</title>
       <link>https://www.usajobs.gov:443/job/868640200</link>
@@ -665,7 +656,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:56 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Kerrville, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician-Pulmonary Section Chief-Recruitment/Relocation Incentive-EDRP Authorized</title>
       <link>https://www.usajobs.gov:443/job/868651500</link>
@@ -674,7 +665,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:56 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Chief of Cardiology -Physician</title>
       <link>https://www.usajobs.gov:443/job/868656600</link>
@@ -683,7 +674,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 09 May 2026 14:16:56 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Omaha, Nebraska</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Pain Management)</title>
       <link>https://www.usajobs.gov:443/job/859498500</link>
@@ -692,7 +683,7 @@
       <category>US Fellowships</category>
       <pubDate>Sun, 10 May 2026 14:19:54 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Bay Pines, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Urology</title>
       <link>https://www.usajobs.gov:443/job/868767400</link>
@@ -701,7 +692,7 @@
       <category>US Fellowships</category>
       <pubDate>Mon, 11 May 2026 15:55:18 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fort Meade, South Dakota</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician Diagnostic-Interventional Radiologist-Recruitment Incentive and No IR call</title>
       <link>https://www.usajobs.gov:443/job/868694700</link>
@@ -710,7 +701,7 @@
       <category>US Fellowships</category>
       <pubDate>Mon, 11 May 2026 15:55:15 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Providence, Rhode Island</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Pulmonologist / Critical Care</title>
       <link>https://www.usajobs.gov:443/job/868883800</link>
@@ -719,7 +710,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Syracuse, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Section Chief for Specialty Services within Specialty Care ICC</title>
       <link>https://www.usajobs.gov:443/job/868880700</link>
@@ -728,7 +719,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Syracuse, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Endocrinologist</title>
       <link>https://www.usajobs.gov:443/job/868877600</link>
@@ -737,7 +728,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Syracuse, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician Radiologist-Interventional</title>
       <link>https://www.usajobs.gov:443/job/868874800</link>
@@ -746,7 +737,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Geriatrics &amp; Extended Care- Community Living Center Medical Director</title>
       <link>https://www.usajobs.gov:443/job/868871900</link>
@@ -755,7 +746,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Radiologist- Mammography</title>
       <link>https://www.usajobs.gov:443/job/868830000</link>
@@ -764,7 +755,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Diagnostic Radiologist</title>
       <link>https://www.usajobs.gov:443/job/868829700</link>
@@ -773,7 +764,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Pulmonary Diseases</title>
       <link>https://www.usajobs.gov:443/job/868828400</link>
@@ -782,7 +773,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Hospitalist</title>
       <link>https://www.usajobs.gov:443/job/869321900</link>
@@ -791,7 +782,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>New York, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Endocrinologist)</title>
       <link>https://www.usajobs.gov:443/job/868788700</link>
@@ -800,7 +791,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Lexington, Kentucky</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Cardiac EP)</title>
       <link>https://www.usajobs.gov:443/job/868785400</link>
@@ -809,7 +800,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Lexington, Kentucky</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Cardiologist</title>
       <link>https://www.usajobs.gov:443/job/868781200</link>
@@ -818,7 +809,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Des Moines, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Deputy Chief - Physical Medicine &amp; Rehabilitation Service (PM&amp;R)</title>
       <link>https://www.usajobs.gov:443/job/868766400</link>
@@ -827,7 +818,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Salt Lake City, Utah</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Emergency Medicine</title>
       <link>https://www.usajobs.gov:443/job/868763600</link>
@@ -836,7 +827,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Kings, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - General and Musculoskeletal Radiologist</title>
       <link>https://www.usajobs.gov:443/job/868761900</link>
@@ -845,7 +836,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>New York, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician, Interventional Radiologist with EDRP and Recruitment/Relocation Incentive</title>
       <link>https://www.usajobs.gov:443/job/868872300</link>
@@ -854,7 +845,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:38 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Radiologist - Section Chief of Imaging Informatics</title>
       <link>https://www.usajobs.gov:443/job/868881100</link>
@@ -863,7 +854,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 12 May 2026 15:39:38 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Phoenix, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Pulmonologist</title>
       <link>https://www.usajobs.gov:443/job/869038700</link>
@@ -872,7 +863,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 13 May 2026 15:43:03 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Des Moines, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Chief of Pulmonology</title>
       <link>https://www.usajobs.gov:443/job/869036200</link>
@@ -881,7 +872,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 13 May 2026 15:43:03 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Des Moines, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Oncologist</title>
       <link>https://www.usajobs.gov:443/job/868982400</link>
@@ -890,7 +881,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 13 May 2026 15:43:03 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fargo, North Dakota</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Pain Management (PMR) - Stockton</title>
       <link>https://www.usajobs.gov:443/job/868943900</link>
@@ -899,7 +890,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 13 May 2026 15:43:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Stockton, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Geriatrics PACT (Stockton)</title>
       <link>https://www.usajobs.gov:443/job/869044500</link>
@@ -908,7 +899,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 13 May 2026 15:43:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Stockton, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician/Orthopedic Surgery Section Chief</title>
       <link>https://www.usajobs.gov:443/job/869120200</link>
@@ -917,7 +908,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 13 May 2026 15:43:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Saint Louis, Missouri</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician CHIEF OF UROLOGY</title>
       <link>https://www.usajobs.gov:443/job/869157300</link>
@@ -926,7 +917,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 14 May 2026 15:18:33 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Northport, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Part-Time Gastroenterologist)</title>
       <link>https://www.usajobs.gov:443/job/869145300</link>
@@ -935,7 +926,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 14 May 2026 15:18:33 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Johnson City, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Geriatrics)</title>
       <link>https://www.usajobs.gov:443/job/869226800</link>
@@ -944,7 +935,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 14 May 2026 15:18:31 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>West Palm Beach, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>NEUROLOGIST</title>
       <link>https://www.usajobs.gov:443/job/869142000</link>
@@ -953,7 +944,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 14 May 2026 15:18:31 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Northport, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Ophthalmologist</title>
       <link>https://www.usajobs.gov:443/job/869052200</link>
@@ -962,7 +953,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 14 May 2026 15:18:31 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Martinez, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Radiologist)</title>
       <link>https://www.usajobs.gov:443/job/869251500</link>
@@ -971,7 +962,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 14 May 2026 15:18:31 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Portland, Oregon</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician-Reassignment OCA-Internal Employees Only</title>
       <link>https://www.usajobs.gov:443/job/869821000</link>
@@ -980,7 +971,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 15 May 2026 15:13:11 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fayetteville, Arkansas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Spinal Cord Injury)</title>
       <link>https://www.usajobs.gov:443/job/869425300</link>
@@ -989,7 +980,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 15 May 2026 15:13:11 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Cleveland, Ohio</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Interventional Physiatrist)</title>
       <link>https://www.usajobs.gov:443/job/869437400</link>
@@ -998,7 +989,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 15 May 2026 15:13:09 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Huntington, West Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Breast Imaging Radiologist) - Recruitment/Relocation Incentive Authorized</title>
       <link>https://www.usajobs.gov:443/job/869503500</link>
@@ -1007,7 +998,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 15 May 2026 15:13:09 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Iowa City, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician, Otolaryngology</title>
       <link>https://www.usajobs.gov:443/job/869032900</link>
@@ -1016,7 +1007,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 15 May 2026 15:13:09 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Temple, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Community Living Center Director)</title>
       <link>https://www.usajobs.gov:443/job/869354700</link>
@@ -1025,7 +1016,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 15 May 2026 15:13:09 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Pittsburgh, Pennsylvania</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician-Anesthesiologist (Regional)</title>
       <link>https://www.usajobs.gov:443/job/869336700</link>
@@ -1034,7 +1025,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 15 May 2026 15:13:09 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Houston, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Geriatrician</title>
       <link>https://www.usajobs.gov:443/job/869551900</link>
@@ -1043,7 +1034,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 16 May 2026 14:22:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>North Little Rock, Arkansas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Physical Medicine &amp; Rehabilitation Services</title>
       <link>https://www.usajobs.gov:443/job/869548200</link>
@@ -1052,7 +1043,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 16 May 2026 14:22:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Dublin, Georgia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Staff Radiologist (Assistant Chief) - Recruitment / Relocation Incentive up to 100,000</title>
       <link>https://www.usajobs.gov:443/job/869602800</link>
@@ -1061,7 +1052,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 16 May 2026 14:22:00 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Indianapolis, Indiana</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Ophthalmologist - Retina Specialist</title>
       <link>https://www.usajobs.gov:443/job/869788500</link>
@@ -1070,7 +1061,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 19 May 2026 16:19:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Albany, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician - Multiple Specialties (Internal to El Paso Veterans Affairs Health Care System)</title>
       <link>https://www.usajobs.gov:443/job/870028900</link>
@@ -1079,7 +1070,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 20 May 2026 16:26:16 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Las Cruces, New Mexico</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Cardiologist)</title>
       <link>https://www.usajobs.gov:443/job/869907100</link>
@@ -1088,7 +1079,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 20 May 2026 16:26:16 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Salisbury, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Hospice and Palliative Medicine</title>
       <link>https://www.usajobs.gov:443/job/870164000</link>
@@ -1097,7 +1088,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 21 May 2026 16:15:44 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Reno, Nevada</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Sleep Medicine Physician (Regular Ft)</title>
       <link>https://www.usajobs.gov:443/job/870170300</link>
@@ -1106,7 +1097,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 21 May 2026 16:15:44 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fayetteville, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Psychiatry)- Recruitment/Relocation Incentive/EDRP Authorized</title>
       <link>https://www.usajobs.gov:443/job/872345300</link>
@@ -1115,7 +1106,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 21 May 2026 16:15:44 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Dallas, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician</title>
       <link>https://www.usajobs.gov:443/job/870368300</link>
@@ -1124,7 +1115,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 22 May 2026 15:47:55 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Conway, Arkansas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Orthopedic Surgery, Foot and Ankle)</title>
       <link>https://www.usajobs.gov:443/job/870333500</link>
@@ -1133,7 +1124,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 22 May 2026 15:47:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Tucson, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Cardiologist w/Recruitment/Relocation Incentive-EDRP)</title>
       <link>https://www.usajobs.gov:443/job/870281600</link>
@@ -1142,7 +1133,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 22 May 2026 15:47:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Amarillo, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician - Allergy</title>
       <link>https://www.usajobs.gov:443/job/870391400</link>
@@ -1151,7 +1142,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 22 May 2026 15:47:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Salisbury, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Gastroenterologist w/Recruitment-Relocation Incentive/EDRP</title>
       <link>https://www.usajobs.gov:443/job/870351400</link>
@@ -1160,7 +1151,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 22 May 2026 15:47:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Harlingen, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Radiologist</title>
       <link>https://www.usajobs.gov:443/job/869276800</link>
@@ -1169,7 +1160,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 23 May 2026 14:28:42 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>East Orange, New Jersey</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Staff Psychiatrist</title>
       <link>https://www.usajobs.gov:443/job/869229800</link>
@@ -1178,7 +1169,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 23 May 2026 14:28:42 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Tuscaloosa, Alabama</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Associate Chief of Staff for Mental Health</title>
       <link>https://www.usajobs.gov:443/job/869184300</link>
@@ -1187,7 +1178,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 23 May 2026 14:28:42 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Des Moines, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Geriatrics HBPC Medical Director</title>
       <link>https://www.usajobs.gov:443/job/870476800</link>
@@ -1196,7 +1187,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 23 May 2026 14:28:42 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Gastroenterologist (Part-time w/Recruitment-Relocation Incentive/EDRP)</title>
       <link>https://www.usajobs.gov:443/job/870488000</link>
@@ -1205,7 +1196,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 23 May 2026 14:28:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Harlingen, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Hematology/Oncology</title>
       <link>https://www.usajobs.gov:443/job/870667400</link>
@@ -1214,7 +1205,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 23 May 2026 14:28:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Buffalo, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Ophthalmologist (Glaucoma Specialist)</title>
       <link>https://www.usajobs.gov:443/job/870568100</link>
@@ -1223,7 +1214,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 26 May 2026 16:42:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Mental Health Medical Director</title>
       <link>https://www.usajobs.gov:443/job/869317900</link>
@@ -1232,7 +1223,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 27 May 2026 16:37:20 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Des Moines, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Chief-Spinal Cord Injury) - Recruitment Incentive May Be Offered/EDRP Approved</title>
       <link>https://www.usajobs.gov:443/job/870612600</link>
@@ -1241,7 +1232,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 27 May 2026 16:37:17 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Dallas, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Infectious Disease), Part-time</title>
       <link>https://www.usajobs.gov:443/job/870607900</link>
@@ -1250,7 +1241,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 27 May 2026 16:37:17 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Amarillo, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Neurologist</title>
       <link>https://www.usajobs.gov:443/job/870629600</link>
@@ -1259,7 +1250,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 27 May 2026 16:37:17 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Richmond, Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Psychiatrist)</title>
       <link>https://www.usajobs.gov:443/job/869335300</link>
@@ -1268,7 +1259,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 28 May 2026 16:53:42 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Memphis, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician-Section Chief Cardiology</title>
       <link>https://www.usajobs.gov:443/job/870725300</link>
@@ -1277,7 +1268,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 28 May 2026 16:53:42 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Martinsburg, West Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Radiologist (Diagnostic Neuroradiology)</title>
       <link>https://www.usajobs.gov:443/job/870783100</link>
@@ -1286,7 +1277,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 28 May 2026 16:53:39 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Tucson, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Section Chief, Sleep Medicine</title>
       <link>https://www.usajobs.gov:443/job/870750800</link>
@@ -1295,7 +1286,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 28 May 2026 16:53:39 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Salisbury, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Psychiatrist) SARRTP/PTSD</title>
       <link>https://www.usajobs.gov:443/job/869365300</link>
@@ -1304,7 +1295,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 29 May 2026 16:41:59 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Memphis, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Recruitment/Relocation Incentive/EDRP Authorized</title>
       <link>https://www.usajobs.gov:443/job/870910600</link>
@@ -1313,7 +1304,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 29 May 2026 16:41:57 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Dallas, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Hematology/Oncology)</title>
       <link>https://www.usajobs.gov:443/job/871300200</link>
@@ -1322,7 +1313,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 30 May 2026 14:28:20 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Asheville, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Chief of Diagnostic Imaging)</title>
       <link>https://www.usajobs.gov:443/job/869371100</link>
@@ -1331,7 +1322,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 30 May 2026 14:28:20 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Albuquerque, New Mexico</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Anesthesiologist-Pain Management)</title>
       <link>https://www.usajobs.gov:443/job/871113700</link>
@@ -1340,7 +1331,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 30 May 2026 14:28:18 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Murfreesboro, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Anesthesiologist-Cardiac)</title>
       <link>https://www.usajobs.gov:443/job/871112000</link>
@@ -1349,7 +1340,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 30 May 2026 14:28:18 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Nashville, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician (Endocrinology) - Recruitment/Relocation Incentive Authorized</title>
       <link>https://www.usajobs.gov:443/job/871204100</link>
@@ -1358,7 +1349,7 @@
       <category>US Fellowships</category>
       <pubDate>Mon, 01 Jun 2026 18:37:33 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Inpatient Psychiatrist)</title>
       <link>https://www.usajobs.gov:443/job/869450100</link>
@@ -1367,7 +1358,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 02 Jun 2026 17:22:57 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Memphis, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Chief of Pain Management</title>
       <link>https://www.usajobs.gov:443/job/871392900</link>
@@ -1376,7 +1367,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 02 Jun 2026 17:22:54 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Lebanon, Pennsylvania</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Cardiology-Interventional)</title>
       <link>https://www.usajobs.gov:443/job/869147000</link>
@@ -1385,7 +1376,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 03 Jun 2026 17:59:54 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Memphis, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Chief of Radiology)</title>
       <link>https://www.usajobs.gov:443/job/869124900</link>
@@ -1394,7 +1385,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 03 Jun 2026 17:59:54 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Memphis, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Psychiatrist</title>
       <link>https://www.usajobs.gov:443/job/871364300</link>
@@ -1403,7 +1394,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 03 Jun 2026 17:59:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Baltimore, Maryland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Psychologist - Behavioral Health Interdisciplinary Program (BHIP)</title>
       <link>https://www.usajobs.gov:443/job/871181000</link>
@@ -1412,7 +1403,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 03 Jun 2026 17:59:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Indianapolis, Indiana</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Chief of Imaging Service (Physician)</title>
       <link>https://www.usajobs.gov:443/job/871586300</link>
@@ -1421,7 +1412,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 03 Jun 2026 17:59:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Portland, Oregon</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Nuclear Radiologist</title>
       <link>https://www.usajobs.gov:443/job/871566700</link>
@@ -1430,7 +1421,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 03 Jun 2026 17:59:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Little Rock, Arkansas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Cardiology (Electrophysiologist)</title>
       <link>https://www.usajobs.gov:443/job/871560500</link>
@@ -1439,7 +1430,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 03 Jun 2026 17:59:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Iowa City, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician-Neurology</title>
       <link>https://www.usajobs.gov:443/job/871421300</link>
@@ -1448,7 +1439,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 03 Jun 2026 17:59:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Spokane, Washington</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Pulmonologist - Recruitment/Relocation Incentive and EDRP Authorized</title>
       <link>https://www.usajobs.gov:443/job/869037800</link>
@@ -1457,7 +1448,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 05 Jun 2026 15:54:01 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Des Moines, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Psychiatrist - Geriatric</title>
       <link>https://www.usajobs.gov:443/job/872020900</link>
@@ -1466,7 +1457,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 06 Jun 2026 14:40:57 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Durham, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Psychiatric Physician) - Direct Hire</title>
       <link>https://www.usajobs.gov:443/job/871975700</link>
@@ -1475,7 +1466,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 06 Jun 2026 14:40:57 +0000</pubDate>
       <dc:creator>Bureau of Prisons/Federal Prison System</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Aliceville, Alabama</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Interventional Radiologist (SIGN ON BONUS)</title>
       <link>https://www.usajobs.gov:443/job/849954700</link>
@@ -1484,7 +1475,7 @@
       <category>US Fellowships</category>
       <pubDate>Mon, 08 Jun 2026 16:48:10 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Kansas City, Missouri</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Gynecologist)</title>
       <link>https://www.usajobs.gov:443/job/872122600</link>
@@ -1493,7 +1484,7 @@
       <category>US Fellowships</category>
       <pubDate>Mon, 08 Jun 2026 16:48:08 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Cleveland, Ohio</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Addition Psychiatrist - Supervisory</title>
       <link>https://www.usajobs.gov:443/job/872111100</link>
@@ -1502,7 +1493,7 @@
       <category>US Fellowships</category>
       <pubDate>Mon, 08 Jun 2026 16:48:08 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Charleston, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Anesthesiologist</title>
       <link>https://www.usajobs.gov:443/job/868789800</link>
@@ -1511,7 +1502,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 09 Jun 2026 15:54:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Francisco, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Diagnostic Radiologist</title>
       <link>https://www.usajobs.gov:443/job/872153400</link>
@@ -1520,7 +1511,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 09 Jun 2026 15:54:49 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Las Vegas, Nevada</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Psychiatrist</title>
       <link>https://www.usajobs.gov:443/job/872285800</link>
@@ -1529,7 +1520,7 @@
       <category>US Fellowships</category>
       <pubDate>Tue, 09 Jun 2026 15:54:49 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Kings, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician (Compensation and Pension Program) - EDRP Authorized</title>
       <link>https://www.usajobs.gov:443/job/872469700</link>
@@ -1538,7 +1529,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 10 Jun 2026 16:35:14 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Physical, Medicine &amp; Rehabilitation - Pain Management (PMR) -  Redding</title>
       <link>https://www.usajobs.gov:443/job/872319200</link>
@@ -1547,7 +1538,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 10 Jun 2026 16:35:14 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Redding, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Cardiologist (Heart Failure Specialist)</title>
       <link>https://www.usajobs.gov:443/job/872308900</link>
@@ -1556,7 +1547,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 10 Jun 2026 16:35:14 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Pharmacy Supervisor - Surgery Service and OR Pharmacy</title>
       <link>https://www.usajobs.gov:443/job/872540100</link>
@@ -1565,7 +1556,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 10 Jun 2026 16:35:11 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Minneapolis, Minnesota</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Chief of Rheumatology)</title>
       <link>https://www.usajobs.gov:443/job/872473000</link>
@@ -1574,7 +1565,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 10 Jun 2026 16:35:11 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Salisbury, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Senior Psychologist Program Manager</title>
       <link>https://www.usajobs.gov:443/job/872408800</link>
@@ -1583,7 +1574,7 @@
       <category>US Fellowships</category>
       <pubDate>Wed, 10 Jun 2026 16:35:11 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Portland, Maine</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician (Radiology Diagnostic)</title>
       <link>https://www.usajobs.gov:443/job/872687800</link>
@@ -1592,7 +1583,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 11 Jun 2026 16:54:28 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Jacksonville, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Transplant Surgery</title>
       <link>https://www.usajobs.gov:443/job/872666900</link>
@@ -1601,7 +1592,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 11 Jun 2026 16:54:28 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Charleston, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Pharmacy Supervisor- Surgery Service and OR Pharmacy</title>
       <link>https://www.usajobs.gov:443/job/872601500</link>
@@ -1610,7 +1601,7 @@
       <category>US Fellowships</category>
       <pubDate>Thu, 11 Jun 2026 16:54:25 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Minneapolis, Minnesota</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Administrative Officer</title>
       <link>https://www.usajobs.gov:443/job/872864100</link>
@@ -1619,7 +1610,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 12 Jun 2026 16:17:39 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Columbia, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician - Radiology Diagnostic (Remote)</title>
       <link>https://www.usajobs.gov:443/job/872826300</link>
@@ -1628,7 +1619,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 12 Jun 2026 16:17:39 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Salt Lake City, Utah</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician- Pathologist</title>
       <link>https://www.usajobs.gov:443/job/872738400</link>
@@ -1637,7 +1628,7 @@
       <category>US Fellowships</category>
       <pubDate>Fri, 12 Jun 2026 16:17:36 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Fayetteville, Arkansas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Physician-Chief Health Informatics</title>
       <link>https://www.usajobs.gov:443/job/872923600</link>
@@ -1646,7 +1637,7 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 13 Jun 2026 15:00:17 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>Jackson, Mississippi</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Staff Physician (SCI/D Outpatient) - Recruitment/Relocation Incentive/EDRP Authorized</title>
       <link>https://www.usajobs.gov:443/job/872983400</link>
@@ -1655,6 +1646,15 @@
       <category>US Fellowships</category>
       <pubDate>Sat, 13 Jun 2026 15:00:15 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician-Tele-Critical Care Intensivist</title>
+      <link>https://www.usajobs.gov:443/job/873080700</link>
+      <description>The Tele-Critical Care Intensivists perform medical evaluation, monitoring, and management of patients presenting with critical illness complaints, diseases, and injuries, and in need of critical care management, including high-risk, high-volume and problem-prone procedures, exclusively via telemedi | Salary: $250,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/873080700</guid>
+      <category>US Fellowships</category>
+      <pubDate>Mon, 15 Jun 2026 17:58:37 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Los Angeles, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
 </rss>
