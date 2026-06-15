@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>EU Affairs &amp; Public Affairs Jobs (Brussels)</title>
     <link>/brussels-eu-affairs.xml</link>
     <description>Job listings for EU Affairs roles, scraped by Pol-Intel.</description>
-    <atom:link href="/brussels-eu-affairs.xml" rel="self"/>
+    <atom:link href="/brussels-eu-affairs.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 10:51:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 14:00:32 +0000</lastBuildDate>
     <item>
       <title>IT Business Analyst</title>
       <link>https://eutraining.eu/content/it-business-analyst</link>
@@ -17,7 +17,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
       <dc:creator>European Medicines Agency (EMA) Info i Amsterdam</dc:creator>
-    </item>
+    <polintel:location>The Netherlands</polintel:location></item>
     <item>
       <title>Study Placement Scheme</title>
       <link>https://eutraining.eu/content/study-placement-scheme</link>
@@ -26,7 +26,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
       <dc:creator>European Union Aviation Safety Agency (EASA) Info i Cologne</dc:creator>
-    </item>
+    <polintel:location>Germany</polintel:location></item>
     <item>
       <title>Seconded National Experts</title>
       <link>https://eutraining.eu/content/seconded-national-experts-european-union-agency-cybersecurity-enisa</link>
@@ -35,7 +35,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
       <dc:creator>European Union Agency for Cybersecurity (ENISA) Athens</dc:creator>
-    </item>
+    <polintel:location>Greece</polintel:location></item>
     <item>
       <title>PROOF-READERS/EDITORS IN BULGARIAN, DANISH, DUTCH, ENGLISH, FINNISH, FRENCH, GERMAN, IRISH, LITHUANIAN, MALTESE, ROMANIAN, OR SWEDISH LANGUAGES</title>
       <link>https://eutraining.eu/content/proof-readerseditors-bulgarian-danish-dutch-english-finnish-french-german-irish-lithuanian</link>
@@ -53,7 +53,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
       <dc:creator>SESAR 3 Joint Undertaking Info i Brussels</dc:creator>
-    </item>
+    <polintel:location>Belgium</polintel:location></item>
     <item>
       <title>Information Technology Officer – DevSecOps Profile</title>
       <link>https://eutraining.eu/content/information-technology-officer-%E2%80%93-devsecops-profile-0</link>
@@ -62,7 +62,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:16 +0000</pubDate>
       <dc:creator>European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) Info i Strasbourg</dc:creator>
-    </item>
+    <polintel:location>France</polintel:location></item>
     <item>
       <title>Deputy Executive Director of the IEA</title>
       <link>https://www.eurobrussels.com/job_display/288765/Deputy_Executive_Director_of_the_IEA_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -71,7 +71,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:14:13 +0000</pubDate>
       <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Deputy Director - Directorate for Legal Affairs</title>
       <link>https://www.eurobrussels.com/job_display/289842/Deputy_Director_Directorate_for_Legal_Affairs_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -80,7 +80,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:34 +0000</pubDate>
       <dc:creator>Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Junior Regulatory Affairs and Advocacy Officer</title>
       <link>https://www.eurobrussels.com/job_display/288733/Junior_Regulatory_Affairs_and_Advocacy_Officer_IOFI_International_Organization_of_the_Flavor_Industry_Brussels_Belgium</link>
@@ -89,16 +89,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 06 Apr 2026 12:13:34 +0000</pubDate>
       <dc:creator>IOFI International Organization of the Flavor</dc:creator>
-    </item>
-    <item>
-      <title>Senior Policy Adviser</title>
-      <link>https://www.eurobrussels.com/job_display/289254/Senior_Policy_Adviser_EUROPEX_Association_of_European_Energy_Exchanges_Brussels_Belgium</link>
-      <description>EUROPEX Association of European Energy | Exchanges Brussels Belgium</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/289254/Senior_Policy_Adviser_EUROPEX_Association_of_European_Energy_Exchanges_Brussels_Belgium</guid>
-      <category>EU Affairs</category>
-      <pubDate>Mon, 06 Apr 2026 12:13:27 +0000</pubDate>
-      <dc:creator>EUROPEX Association of European Energy</dc:creator>
-    </item>
+    <polintel:location>Industry Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Global Health Policy Training</title>
       <link>https://www.eurobrussels.com/job_display/289450/EU_Global_Health_Policy_Training_Impactful_Policy_Careers_Brussels_Belgium</link>
@@ -107,7 +98,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 08 Apr 2026 09:05:50 +0000</pubDate>
       <dc:creator>Impactful Policy</dc:creator>
-    </item>
+    <polintel:location>Careers Brussels Belgium</polintel:location></item>
     <item>
       <title>Communication and Public Relations Advisor</title>
       <link>https://www.eurobrussels.com/job_display/289614/Communication_and_Public_Relations_Advisor_CIBE_International_Confederation_of_European_Beet_Growers_Brussels_Belgium</link>
@@ -116,7 +107,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 11 Apr 2026 20:47:04 +0000</pubDate>
       <dc:creator>CIBE International Confederation of European Beet</dc:creator>
-    </item>
+    <polintel:location>Growers Brussels Belgium</polintel:location></item>
     <item>
       <title>Advisor Climate and Energy Policy (m/f/d)</title>
       <link>https://www.eurobrussels.com/job_display/289607/Advisor_Climate_and_Energy_Policy_m_f_d_VDMA_Verband_Deutscher_Maschinen_und_Anlagenbau_Brussels_Belgium</link>
@@ -125,7 +116,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 11 Apr 2026 20:46:27 +0000</pubDate>
       <dc:creator>f d VDMA Verband Deutscher Maschinen und</dc:creator>
-    </item>
+    <polintel:location>Anlagenbau Brussels Belgium</polintel:location></item>
     <item>
       <title>Technical Facilities Manager</title>
       <link>https://www.eurobrussels.com/job_display/289679/Technical_Facilities_Manager_EUMETSAT_European_Organisation_for_the_Exploitation_of_Meteorological_Satellites_Darmstadt_Germany</link>
@@ -134,7 +125,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 14 Apr 2026 09:23:18 +0000</pubDate>
       <dc:creator>EUMETSAT European Organisation for the Exploitation of Meteorological</dc:creator>
-    </item>
+    <polintel:location>Satellites Darmstadt Germany</polintel:location></item>
     <item>
       <title>Head Climate and Circular Economy Policy (m/f/d)</title>
       <link>https://www.eurobrussels.com/job_display/289804/Head_Climate_and_Circular_Economy_Policy_m_f_d_thyssenkrupp_Steel_Europe_AG_Brussels_Belgium</link>
@@ -143,7 +134,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 16 Apr 2026 09:23:01 +0000</pubDate>
       <dc:creator>f d thyssenkrupp Steel Europe</dc:creator>
-    </item>
+    <polintel:location>AG Brussels Belgium</polintel:location></item>
     <item>
       <title>Director Finance, Administration &amp; IT</title>
       <link>https://www.eurobrussels.com/job_display/289933/Director_Finance_Administration_IT_EURELECTRIC_Union_of_the_Electricity_Industry_Brussels_Belgium</link>
@@ -152,7 +143,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 18 Apr 2026 08:56:06 +0000</pubDate>
       <dc:creator>Union of the Electricity</dc:creator>
-    </item>
+    <polintel:location>Industry Brussels Belgium</polintel:location></item>
     <item>
       <title>Traineeship for Railways</title>
       <link>https://www.eurobrussels.com/job_display/289949/Traineeship_for_Railways_ETF_European_Transport_Workers_Federation_Brussels_Belgium</link>
@@ -161,7 +152,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 18 Apr 2026 08:55:50 +0000</pubDate>
       <dc:creator>ETF European Transport Workers</dc:creator>
-    </item>
+    <polintel:location>Federation Brussels Belgium</polintel:location></item>
     <item>
       <title>Project Manager</title>
       <link>https://www.eurobrussels.com/job_display/289958/Project_Manager_YouthProAktiv_Tervuren_Belgium</link>
@@ -170,7 +161,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 20 Apr 2026 10:02:06 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>YouthProAktiv Tervuren Belgium</polintel:location></item>
     <item>
       <title>Senior EU Knowledge Lawyer Antitrust</title>
       <link>https://www.eurobrussels.com/job_display/290005/Senior_EU_Knowledge_Lawyer_Antitrust_AO_Shearman_Brussels_Belgium</link>
@@ -179,7 +170,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 21 Apr 2026 09:43:05 +0000</pubDate>
       <dc:creator>AO</dc:creator>
-    </item>
+    <polintel:location>Shearman Brussels Belgium</polintel:location></item>
     <item>
       <title>Finance Officer</title>
       <link>https://www.eurobrussels.com/job_display/290082/Finance_Officer_NEF_Network_of_European_Foundations_Brussels_Belgium</link>
@@ -188,7 +179,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 22 Apr 2026 09:25:00 +0000</pubDate>
       <dc:creator>NEF Network of European</dc:creator>
-    </item>
+    <polintel:location>Foundations Brussels Belgium</polintel:location></item>
     <item>
       <title>Corporate Services Contracts Officer</title>
       <link>https://www.eurobrussels.com/job_display/290111/Corporate_Services_Contracts_Officer_EUSPA_European_Union_Agency_for_the_Space_Programme_Prague_Czech_Republic</link>
@@ -197,7 +188,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 23 Apr 2026 09:47:55 +0000</pubDate>
       <dc:creator>EUSPA European Union Agency for the Space Programme Prague Czech Republic</dc:creator>
-    </item>
+    <polintel:location>Brussels</polintel:location></item>
     <item>
       <title>REACH Senior Policy Advisor</title>
       <link>https://www.eurobrussels.com/job_display/290178/REACH_Senior_Policy_Advisor_FuelsEurope_Brussels_Belgium</link>
@@ -206,7 +197,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 24 Apr 2026 09:47:27 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>FuelsEurope Brussels Belgium</polintel:location></item>
     <item>
       <title>Expert in Research and Policy Analysis</title>
       <link>https://www.eurobrussels.com/job_display/290250/Expert_in_Research_and_Policy_Analysis_Cedefop_European_Centre_for_the_Development_of_Vocational_Training_Thessaloniki_Greece</link>
@@ -215,7 +206,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 25 Apr 2026 08:57:25 +0000</pubDate>
       <dc:creator>Cedefop European Centre for the Development of Vocational</dc:creator>
-    </item>
+    <polintel:location>Training Thessaloniki Greece</polintel:location></item>
     <item>
       <title>HR Coordinator</title>
       <link>https://eutraining.eu/content/hr-coordinator</link>
@@ -224,7 +215,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 27 Apr 2026 10:21:07 +0000</pubDate>
       <dc:creator>European Union Agency for Cybersecurity (ENISA) Athens</dc:creator>
-    </item>
+    <polintel:location>Greece</polintel:location></item>
     <item>
       <title>Head of Unit – Corporate and Operational</title>
       <link>https://eutraining.eu/content/head-unit-%E2%80%93-corporate-and-operational</link>
@@ -233,7 +224,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 27 Apr 2026 10:21:07 +0000</pubDate>
       <dc:creator>European Chemicals Agency (ECHA) Info i Helsinki</dc:creator>
-    </item>
+    <polintel:location>Finland</polintel:location></item>
     <item>
       <title>Head of Information and Communication Technology Unit</title>
       <link>https://eutraining.eu/content/head-information-and-communication-technology-unit</link>
@@ -242,7 +233,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 27 Apr 2026 10:21:07 +0000</pubDate>
       <dc:creator>European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) Info i Tallinn</dc:creator>
-    </item>
+    <polintel:location>Estonia</polintel:location></item>
     <item>
       <title>Accounts Clerk</title>
       <link>https://eutraining.eu/content/accounts-clerk</link>
@@ -269,7 +260,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 27 Apr 2026 10:20:55 +0000</pubDate>
       <dc:creator>EMBL European Molecular Biology</dc:creator>
-    </item>
+    <polintel:location>Laboratory Heidelberg Germany</polintel:location></item>
     <item>
       <title>EU Advocacy Intern</title>
       <link>https://www.eurobrussels.com/job_display/290262/EU_Advocacy_Intern_IRC_International_Rescue_Committee_Brussels_Belgium</link>
@@ -278,7 +269,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 27 Apr 2026 10:20:23 +0000</pubDate>
       <dc:creator>IRC International Rescue</dc:creator>
-    </item>
+    <polintel:location>Committee Brussels Belgium</polintel:location></item>
     <item>
       <title>Director General - Nuclear Energy Agency</title>
       <link>https://www.eurobrussels.com/job_display/290309/Director_General_Nuclear_Energy_Agency_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -287,7 +278,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 28 Apr 2026 10:18:21 +0000</pubDate>
       <dc:creator>Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>HR and Administration Officer</title>
       <link>https://www.eurobrussels.com/job_display/290303/HR_and_Administration_Officer_ECOS_Environmental_Coalition_on_Standards_Brussels_Belgium</link>
@@ -296,16 +287,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 28 Apr 2026 10:18:12 +0000</pubDate>
       <dc:creator>ECOS Environmental Coalition on</dc:creator>
-    </item>
-    <item>
-      <title>Policy Analyst - Responsible Business Conduct</title>
-      <link>https://www.eurobrussels.com/job_display/290311/Policy_Analyst_Responsible_Business_Conduct_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
-      <description>What do you think of this job? I Applied Save This Job Not Interested</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/290311/Policy_Analyst_Responsible_Business_Conduct_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</guid>
-      <category>EU Affairs</category>
-      <pubDate>Tue, 28 Apr 2026 10:17:36 +0000</pubDate>
-      <dc:creator>Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Standards Brussels Belgium</polintel:location></item>
     <item>
       <title>Senior Policy Advisor, Clean Economy Europe</title>
       <link>https://www.eurobrussels.com/job_display/290356/Senior_Policy_Advisor_Clean_Economy_Europe_E3G_Third_Generation_Environmentalism_Brussels_Belgium</link>
@@ -314,7 +296,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 28 Apr 2026 10:17:36 +0000</pubDate>
       <dc:creator>E3G Third Generation</dc:creator>
-    </item>
+    <polintel:location>Environmentalism Brussels Belgium</polintel:location></item>
     <item>
       <title>Director of Cartels</title>
       <link>https://www.eurobrussels.com/job_display/290175/Director_of_Cartels_CCPC_Competition_and_Consumer_Protection_Commission_Dublin_Ireland</link>
@@ -323,7 +305,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 29 Apr 2026 10:09:26 +0000</pubDate>
       <dc:creator>CCPC Competition and Consumer Protection</dc:creator>
-    </item>
+    <polintel:location>Commission Dublin Ireland</polintel:location></item>
     <item>
       <title>Senior Project Coordinator (m/f/d)</title>
       <link>https://www.eurobrussels.com/job_display/290401/Senior_Project_Coordinator_m_f_d_Climate_Alliance_Brussels_Belgium</link>
@@ -332,7 +314,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 29 Apr 2026 10:09:23 +0000</pubDate>
       <dc:creator>f d Climate</dc:creator>
-    </item>
+    <polintel:location>Alliance Brussels Belgium</polintel:location></item>
     <item>
       <title>Referent für Europäische Agrar- und Umweltpolitik (m/w/d)</title>
       <link>https://www.eurobrussels.com/job_display/290412/Referent_fr_Europische_Agrar_und_Umweltpolitik_m_w_d_DBV_Deutscher_Bauernverband_Brussels_Belgium</link>
@@ -341,7 +323,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 29 Apr 2026 10:08:42 +0000</pubDate>
       <dc:creator>w d DBV Deutscher</dc:creator>
-    </item>
+    <polintel:location>Bauernverband Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Public Affairs Account Director</title>
       <link>https://www.eurobrussels.com/job_display/290375/EU_Public_Affairs_Account_Director_Hanbury_Strategy_Brussels_Belgium</link>
@@ -350,7 +332,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 29 Apr 2026 10:08:42 +0000</pubDate>
       <dc:creator>Hanbury</dc:creator>
-    </item>
+    <polintel:location>Strategy Brussels Belgium</polintel:location></item>
     <item>
       <title>Head of Unit - Policy Monitoring and Evaluation</title>
       <link>https://www.eurobrussels.com/job_display/290373/Head_of_Unit_Policy_Monitoring_and_Evaluation_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -359,7 +341,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 29 Apr 2026 10:08:39 +0000</pubDate>
       <dc:creator>Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Head of EU Affairs</title>
       <link>https://www.eurobrussels.com/job_display/290426/Head_of_EU_Affairs_TIF_Technology_Industries_of_Finland_Brussels_Belgium</link>
@@ -368,7 +350,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 30 Apr 2026 10:09:02 +0000</pubDate>
       <dc:creator>TIF Technology Industries of</dc:creator>
-    </item>
+    <polintel:location>Finland Brussels Belgium</polintel:location></item>
     <item>
       <title>Europe Policy Lead</title>
       <link>https://www.eurobrussels.com/job_display/290431/Europe_Policy_Lead_EnergyTag_Brussels_Belgium</link>
@@ -377,7 +359,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 30 Apr 2026 10:09:00 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>EnergyTag Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Officer for Chemicals</title>
       <link>https://www.eurobrussels.com/job_display/290461/Policy_Officer_for_Chemicals_EEB_European_Environmental_Bureau_Brussels_Belgium</link>
@@ -386,7 +368,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 30 Apr 2026 10:09:00 +0000</pubDate>
       <dc:creator>EEB European Environmental</dc:creator>
-    </item>
+    <polintel:location>Bureau Brussels Belgium</polintel:location></item>
     <item>
       <title>Seconded National Expert (SNE)</title>
       <link>https://eutraining.eu/content/seconded-national-expert-sne</link>
@@ -395,7 +377,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 04 May 2026 10:17:15 +0000</pubDate>
       <dc:creator>European Securities and Markets Authority (ESMA) Info i Paris</dc:creator>
-    </item>
+    <polintel:location>France (office based); or The place of recruitment (on-remote)</polintel:location></item>
     <item>
       <title>Senior Space Systems Architect</title>
       <link>https://eutraining.eu/content/senior-space-systems-architect-0</link>
@@ -404,7 +386,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 04 May 2026 10:17:15 +0000</pubDate>
       <dc:creator>European Union Agency for the Space Programme (EUSPA) Info i Prague</dc:creator>
-    </item>
+    <polintel:location>Czech Republic</polintel:location></item>
     <item>
       <title>Seconded National Expert - Project Officer Ammunition</title>
       <link>https://eutraining.eu/content/seconded-national-expert-project-officer-ammunition</link>
@@ -413,7 +395,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 04 May 2026 10:17:15 +0000</pubDate>
       <dc:creator>European Defence Agency (EDA) Info i Brussels</dc:creator>
-    </item>
+    <polintel:location>Belgium</polintel:location></item>
     <item>
       <title>Seconded National Expert - Project Officer Military Mobility/Logistics</title>
       <link>https://eutraining.eu/content/seconded-national-expert-project-officer-military-mobilitylogistics</link>
@@ -422,7 +404,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 04 May 2026 10:17:15 +0000</pubDate>
       <dc:creator>European Defence Agency (EDA) Info i Brussels</dc:creator>
-    </item>
+    <polintel:location>Belgium</polintel:location></item>
     <item>
       <title>Seconded National Expert - Project Officer PESCO - Analysis and Assessment</title>
       <link>https://eutraining.eu/content/seconded-national-expert-project-officer-pesco-analysis-and-assessment</link>
@@ -431,7 +413,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 04 May 2026 10:17:15 +0000</pubDate>
       <dc:creator>European Defence Agency (EDA) Info i Brussels</dc:creator>
-    </item>
+    <polintel:location>Belgium</polintel:location></item>
     <item>
       <title>Senior Communications Advisor</title>
       <link>https://www.eurobrussels.com/job_display/290581/Senior_Communications_Advisor_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -440,7 +422,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 04 May 2026 10:16:49 +0000</pubDate>
       <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Junior Policy Analyst - Evaluation</title>
       <link>https://www.eurobrussels.com/job_display/290579/Junior_Policy_Analyst_Evaluation_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -449,7 +431,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 04 May 2026 10:16:28 +0000</pubDate>
       <dc:creator>Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Junior Policy Analyst - Development Impact and Digital</title>
       <link>https://www.eurobrussels.com/job_display/290582/Junior_Policy_Analyst_Development_Impact_and_Digital_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -458,7 +440,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 04 May 2026 10:16:28 +0000</pubDate>
       <dc:creator>Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Referent (w/m/d) Europäische Netz- und Regulierungsfragen, Mobilität und Nachhaltiges Finanzwesen</title>
       <link>https://www.eurobrussels.com/job_display/290652/Referent_w_m_d_Europische_Netz_und_Regulierungsfragen_Mobilitt_und_Nachhaltiges_Finanzwesen_BDEW_Bundesverband_der_Energie_und_Wasserwirtschaft_Brussels_Belgium</link>
@@ -467,7 +449,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 05 May 2026 10:05:32 +0000</pubDate>
       <dc:creator>Nachhaltiges Finanzwesen BDEW Bundesverband der Energie und</dc:creator>
-    </item>
+    <polintel:location>Wasserwirtschaft Brussels Belgium</polintel:location></item>
     <item>
       <title>Human Resources Manager</title>
       <link>https://www.eurobrussels.com/job_display/290687/Human_Resources_Manager_Eurogroup_for_Animals_Brussels_Belgium</link>
@@ -476,7 +458,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 06 May 2026 10:22:09 +0000</pubDate>
       <dc:creator>Eurogroup for</dc:creator>
-    </item>
+    <polintel:location>Animals Brussels Belgium</polintel:location></item>
     <item>
       <title>Intern</title>
       <link>https://www.eurobrussels.com/job_display/290680/Intern_YUFE_Young_Universities_for_the_Future_of_Europe_Brussels_Belgium</link>
@@ -485,7 +467,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 06 May 2026 10:21:58 +0000</pubDate>
       <dc:creator>YUFE Young Universities for the Future of</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Officer - R&amp;I EU Legislation and Advocacy</title>
       <link>https://www.eurobrussels.com/job_display/290686/Policy_Officer_RI_EU_Legislation_and_Advocacy_Science_Europe_Brussels_Belgium</link>
@@ -494,7 +476,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 06 May 2026 10:21:30 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Officer - Threat Actors Team</title>
       <link>https://www.eurobrussels.com/job_display/290783/Policy_Officer_Threat_Actors_Team_EEAS_European_External_Action_Service_Brussels_Belgium</link>
@@ -503,7 +485,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 07 May 2026 10:26:44 +0000</pubDate>
       <dc:creator>European External Action</dc:creator>
-    </item>
+    <polintel:location>Service Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Policy Officer</title>
       <link>https://www.eurobrussels.com/job_display/290775/EU_Policy_Officer_ESTA_European_Smoking_Tobacco_Association_Brussels_Belgium</link>
@@ -512,7 +494,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 07 May 2026 10:26:44 +0000</pubDate>
       <dc:creator>ESTA European Smoking Tobacco</dc:creator>
-    </item>
+    <polintel:location>Association Brussels Belgium</polintel:location></item>
     <item>
       <title>Communications Officer</title>
       <link>https://www.eurobrussels.com/job_display/290429/Communications_Officer_ClientEarth_Brussels_Belgium</link>
@@ -521,7 +503,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 08 May 2026 09:26:07 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>ClientEarth Brussels Belgium</polintel:location></item>
     <item>
       <title>Assistant - Human Resources, Finance and General Services</title>
       <link>https://eutraining.eu/content/assistant-human-resources-finance-and-general-services</link>
@@ -539,7 +521,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 11 May 2026 11:27:32 +0000</pubDate>
       <dc:creator>European Union Agency for Asylum (EUAA) Info i Headquarters: Malta; offices in Belgium, Italy, Greece, Spain</dc:creator>
-    </item>
+    <polintel:location>and Cyprus</polintel:location></item>
     <item>
       <title>Senior Manager, Social Standards</title>
       <link>https://www.eurobrussels.com/job_display/290864/Senior_Manager_Social_Standards_B_Lab_Amsterdam_Netherlands</link>
@@ -548,7 +530,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 11 May 2026 11:27:25 +0000</pubDate>
       <dc:creator>B</dc:creator>
-    </item>
+    <polintel:location>Lab Amsterdam Netherlands</polintel:location></item>
     <item>
       <title>Junior Advisor</title>
       <link>https://www.eurobrussels.com/job_display/290957/Junior_Advisor_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -557,7 +539,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 12 May 2026 10:34:52 +0000</pubDate>
       <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Chief Executive Officer</title>
       <link>https://www.eurobrussels.com/job_display/290907/Chief_Executive_Officer_EIT_Water_Aarhus_Denmark</link>
@@ -566,7 +548,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 12 May 2026 10:34:49 +0000</pubDate>
       <dc:creator>EIT</dc:creator>
-    </item>
+    <polintel:location>Water Aarhus Denmark</polintel:location></item>
     <item>
       <title>Campaigns Officer</title>
       <link>https://www.eurobrussels.com/job_display/290912/Campaigns_Officer_Eurogroup_for_Animals_Brussels_Belgium</link>
@@ -575,7 +557,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 12 May 2026 10:34:49 +0000</pubDate>
       <dc:creator>Eurogroup for</dc:creator>
-    </item>
+    <polintel:location>Animals Brussels Belgium</polintel:location></item>
     <item>
       <title>Communications Manager</title>
       <link>https://www.eurobrussels.com/job_display/290954/Communications_Manager_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -584,7 +566,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 12 May 2026 10:34:36 +0000</pubDate>
       <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>(Senior) Policy Adviser, Innovation &amp; Cybersecurity</title>
       <link>https://www.eurobrussels.com/job_display/290923/Senior_Policy_Adviser_Innovation_Cybersecurity_EBF_European_Banking_Federation_Brussels_Belgium</link>
@@ -593,7 +575,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 12 May 2026 10:34:16 +0000</pubDate>
       <dc:creator>European Banking</dc:creator>
-    </item>
+    <polintel:location>Federation Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Officer (ETS/Industrial Decarbonisation/Steel Sector)</title>
       <link>https://www.eurobrussels.com/job_display/290920/Policy_Officer_ETS_Industrial_Decarbonisation_Steel_Sector_Carbon_Market_Watch_Brussels_Belgium</link>
@@ -602,7 +584,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 12 May 2026 10:34:16 +0000</pubDate>
       <dc:creator>Steel Sector Carbon Market</dc:creator>
-    </item>
+    <polintel:location>Watch Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Advisor</title>
       <link>https://www.eurobrussels.com/job_display/290927/Policy_Advisor_BBH_Becker_Bttner_Held_Brussels_Belgium</link>
@@ -611,7 +593,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 12 May 2026 10:34:16 +0000</pubDate>
       <dc:creator>BBH Becker Bttner</dc:creator>
-    </item>
+    <polintel:location>Held Brussels Belgium</polintel:location></item>
     <item>
       <title>Principal Officer - Public Health</title>
       <link>https://www.eurobrussels.com/job_display/290972/Principal_Officer_Public_Health_Department_of_Health_Dublin_Ireland</link>
@@ -620,7 +602,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 13 May 2026 10:31:38 +0000</pubDate>
       <dc:creator>of</dc:creator>
-    </item>
+    <polintel:location>Health Dublin Ireland</polintel:location></item>
     <item>
       <title>Trainee Legal Consultant</title>
       <link>https://www.eurobrussels.com/job_display/290984/Trainee_Legal_Consultant_Spark_Legal_and_Policy_Consulting_Brussels_Belgium</link>
@@ -629,7 +611,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 13 May 2026 10:31:27 +0000</pubDate>
       <dc:creator>Spark Legal and Policy</dc:creator>
-    </item>
+    <polintel:location>Consulting Brussels Belgium</polintel:location></item>
     <item>
       <title>Head of Communications</title>
       <link>https://www.eurobrussels.com/job_display/291008/Head_of_Communications_ZWE_Zero_Waste_Europe_Brussels_Belgium</link>
@@ -638,7 +620,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 13 May 2026 10:31:24 +0000</pubDate>
       <dc:creator>ZWE Zero Waste</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Senior Project Manager or Senior Advisor - EU Advisory</title>
       <link>https://www.eurobrussels.com/job_display/290989/Senior_Project_Manager_or_Senior_Advisor_EU_Advisory_Viegand_Maage_Brussels_or_Copenhagen_Multiple_Countries</link>
@@ -647,7 +629,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 13 May 2026 10:31:06 +0000</pubDate>
       <dc:creator>Maage Brussels or</dc:creator>
-    </item>
+    <polintel:location>Copenhagen Multiple Countries</polintel:location></item>
     <item>
       <title>Defence &amp; Security Policy Fellow</title>
       <link>https://www.eurobrussels.com/job_display/290983/Defence_Security_Policy_Fellow_ECFR_European_Council_on_Foreign_Relations_London_United_Kingdom</link>
@@ -656,7 +638,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 13 May 2026 10:31:04 +0000</pubDate>
       <dc:creator>European Council on Foreign Relations London United Kingdom</dc:creator>
-    </item>
+    <polintel:location>Brussels</polintel:location></item>
     <item>
       <title>Senior Project Coordinator</title>
       <link>https://www.eurobrussels.com/job_display/291040/Senior_Project_Coordinator_CEPOL_European_Union_Agency_for_Law_Enforcement_Training_Budapest_Hungary</link>
@@ -665,7 +647,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 14 May 2026 10:21:58 +0000</pubDate>
       <dc:creator>CEPOL European Union Agency for Law Enforcement</dc:creator>
-    </item>
+    <polintel:location>Training Budapest Hungary</polintel:location></item>
     <item>
       <title>Partnerships &amp; Grants Development Officer</title>
       <link>https://www.eurobrussels.com/job_display/291154/Partnerships_Grants_Development_Officer_Junior_Enterprises_Europe_Brussels_Belgium</link>
@@ -674,7 +656,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 16 May 2026 09:43:32 +0000</pubDate>
       <dc:creator>Enterprises</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Events Intern</title>
       <link>https://www.eurobrussels.com/job_display/291164/Events_Intern_Hydrogen_Europe_Brussels_Belgium</link>
@@ -683,7 +665,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 18 May 2026 11:46:45 +0000</pubDate>
       <dc:creator>Hydrogen</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Security Policy Officer</title>
       <link>https://www.eurobrussels.com/job_display/291193/Security_Policy_Officer_EPPO_European_Public_Prosecutors_Office_Luxembourg_Luxembourg</link>
@@ -692,7 +674,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 18 May 2026 11:46:18 +0000</pubDate>
       <dc:creator>EPPO European Public Prosecutors</dc:creator>
-    </item>
+    <polintel:location>Office Luxembourg Luxembourg</polintel:location></item>
     <item>
       <title>Digital &amp; AI Policy Adviser (DAIPA)</title>
       <link>https://www.eurobrussels.com/job_display/291165/Digital_AI_Policy_Adviser_DAIPA_EURELECTRIC_Union_of_the_Electricity_Industry_Brussels_Belgium</link>
@@ -701,7 +683,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 18 May 2026 11:46:18 +0000</pubDate>
       <dc:creator>Union of the Electricity</dc:creator>
-    </item>
+    <polintel:location>Industry Brussels Belgium</polintel:location></item>
     <item>
       <title>Officer, Operational Risk Department (DOR)</title>
       <link>https://www.eurobrussels.com/job_display/291204/Officer_Operational_Risk_Department_DOR_BSTDB_Black_Sea_Trade_and_Development_Bank_Thessaloniki_Greece</link>
@@ -710,7 +692,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 19 May 2026 11:22:50 +0000</pubDate>
       <dc:creator>BSTDB Black Sea Trade and Development</dc:creator>
-    </item>
+    <polintel:location>Bank Thessaloniki Greece</polintel:location></item>
     <item>
       <title>Traineeship at the EU Special Representative for the Middle East Peace Process</title>
       <link>https://www.eurobrussels.com/job_display/291220/Traineeship_at_the_EU_Special_Representative_for_the_Middle_East_Peace_Process_EEAS_European_External_Action_Service_Brussels_Belgium</link>
@@ -719,7 +701,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 19 May 2026 11:22:17 +0000</pubDate>
       <dc:creator>EEAS European External Action</dc:creator>
-    </item>
+    <polintel:location>Service Brussels Belgium</polintel:location></item>
     <item>
       <title>Inter-institutional Stakeholder Relations Officer</title>
       <link>https://www.eurobrussels.com/job_display/291322/Inter_institutional_Stakeholder_Relations_Officer_EUSPA_European_Union_Agency_for_the_Space_Programme_Brussels_Belgium</link>
@@ -728,7 +710,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 20 May 2026 10:54:07 +0000</pubDate>
       <dc:creator>Officer EUSPA European Union Agency for the Space</dc:creator>
-    </item>
+    <polintel:location>Programme Brussels Belgium</polintel:location></item>
     <item>
       <title>Communications Officer</title>
       <link>https://www.eurobrussels.com/job_display/291297/Communications_Officer_EU_OSHA_European_Agency_for_Safety_and_Health_at_Work_Bilbao_Spain</link>
@@ -737,7 +719,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 20 May 2026 10:53:52 +0000</pubDate>
       <dc:creator>EU OSHA European Agency for Safety and Health at</dc:creator>
-    </item>
+    <polintel:location>Work Bilbao Spain</polintel:location></item>
     <item>
       <title>Policy Officer</title>
       <link>https://www.eurobrussels.com/job_display/291283/Policy_Officer_FIEC_European_Construction_Industry_Federation_Brussels_Belgium</link>
@@ -746,7 +728,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 20 May 2026 10:53:30 +0000</pubDate>
       <dc:creator>FIEC European Construction Industry</dc:creator>
-    </item>
+    <polintel:location>Federation Brussels Belgium</polintel:location></item>
     <item>
       <title>Senior Finance Manager</title>
       <link>https://www.eurobrussels.com/job_display/291332/Senior_Finance_Manager_NEF_Network_of_European_Foundations_Brussels_Belgium</link>
@@ -755,7 +737,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 21 May 2026 11:29:25 +0000</pubDate>
       <dc:creator>NEF Network of European</dc:creator>
-    </item>
+    <polintel:location>Foundations Brussels Belgium</polintel:location></item>
     <item>
       <title>European Public Affairs Junior Consultants</title>
       <link>https://www.eurobrussels.com/job_display/291395/European_Public_Affairs_Junior_Consultants_Afore_Consulting_Brussels_Belgium</link>
@@ -764,7 +746,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 21 May 2026 11:28:46 +0000</pubDate>
       <dc:creator>Afore</dc:creator>
-    </item>
+    <polintel:location>Consulting Brussels Belgium</polintel:location></item>
     <item>
       <title>European Public Affairs Consultants</title>
       <link>https://www.eurobrussels.com/job_display/291396/European_Public_Affairs_Consultants_Afore_Consulting_Brussels_Belgium</link>
@@ -773,7 +755,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 21 May 2026 11:28:46 +0000</pubDate>
       <dc:creator>Afore</dc:creator>
-    </item>
+    <polintel:location>Consulting Brussels Belgium</polintel:location></item>
     <item>
       <title>Senior AI Policy Manager, Europe</title>
       <link>https://www.eurobrussels.com/job_display/291356/Senior_AI_Policy_Manager_Europe_ITI_Information_Technology_Industry_Council_Brussels_Belgium</link>
@@ -782,7 +764,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 21 May 2026 11:28:43 +0000</pubDate>
       <dc:creator>ITI Information Technology Industry</dc:creator>
-    </item>
+    <polintel:location>Council Brussels Belgium</polintel:location></item>
     <item>
       <title>Regulatory Affairs and Policy Manager</title>
       <link>https://www.eurobrussels.com/job_display/291357/Regulatory_Affairs_and_Policy_Manager_EGBA_European_Gaming_and_Betting_Association_Brussels_Belgium</link>
@@ -791,7 +773,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 21 May 2026 11:28:43 +0000</pubDate>
       <dc:creator>EGBA European Gaming and Betting</dc:creator>
-    </item>
+    <polintel:location>Association Brussels Belgium</polintel:location></item>
     <item>
       <title>Senior Policy Officer for Circular Economy and Waste</title>
       <link>https://www.eurobrussels.com/job_display/291358/Senior_Policy_Officer_for_Circular_Economy_and_Waste_EEB_European_Environmental_Bureau_Brussels_Belgium</link>
@@ -800,7 +782,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 21 May 2026 11:28:43 +0000</pubDate>
       <dc:creator>EEB European Environmental</dc:creator>
-    </item>
+    <polintel:location>Bureau Brussels Belgium</polintel:location></item>
     <item>
       <title>Project Officer Counter UAS (Unmanned Aircraft Systems)</title>
       <link>https://www.eurobrussels.com/job_display/291421/Project_Officer_Counter_UAS_Unmanned_Aircraft_Systems_EDA_European_Defence_Agency_Brussels_Belgium</link>
@@ -809,7 +791,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 22 May 2026 10:54:23 +0000</pubDate>
       <dc:creator>EDA European Defence</dc:creator>
-    </item>
+    <polintel:location>Agency Brussels Belgium</polintel:location></item>
     <item>
       <title>Project Officer UAS (Unmanned Aircraft Systems)</title>
       <link>https://www.eurobrussels.com/job_display/291424/Project_Officer_UAS_Unmanned_Aircraft_Systems_EDA_European_Defence_Agency_Brussels_Belgium</link>
@@ -818,7 +800,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 22 May 2026 10:54:23 +0000</pubDate>
       <dc:creator>EDA European Defence</dc:creator>
-    </item>
+    <polintel:location>Agency Brussels Belgium</polintel:location></item>
     <item>
       <title>Legal Officer Specialised in Data Protection</title>
       <link>https://www.eurobrussels.com/job_display/291407/Legal_Officer_Specialised_in_Data_Protection_EDPS_European_Data_Protection_Supervisor_Brussels_Belgium</link>
@@ -827,7 +809,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 22 May 2026 10:54:11 +0000</pubDate>
       <dc:creator>EDPS European Data Protection</dc:creator>
-    </item>
+    <polintel:location>Supervisor Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Public Affairs Trainee</title>
       <link>https://www.eurobrussels.com/job_display/291400/EU_Public_Affairs_Trainee_EACON_European_Affairs_Consulting_Group_Brussels_Belgium</link>
@@ -836,7 +818,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 22 May 2026 10:53:49 +0000</pubDate>
       <dc:creator>EACON European Affairs Consulting</dc:creator>
-    </item>
+    <polintel:location>Group Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Advocacy and Policy Advisor</title>
       <link>https://www.eurobrussels.com/job_display/291460/EU_Advocacy_and_Policy_Advisor_SOS_Childrens_Villages_International_Brussels_Belgium</link>
@@ -845,7 +827,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 23 May 2026 09:56:21 +0000</pubDate>
       <dc:creator>SOS Childrens Villages</dc:creator>
-    </item>
+    <polintel:location>International Brussels Belgium</polintel:location></item>
     <item>
       <title>Junior Data Analyst</title>
       <link>https://www.eurobrussels.com/job_display/291485/Junior_Data_Analyst_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -854,7 +836,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 25 May 2026 11:55:15 +0000</pubDate>
       <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Senior Policy Manager</title>
       <link>https://www.eurobrussels.com/job_display/291565/Senior_Policy_Manager_FIGIEFA_International_Federation_of_Automotive_Aftermarket_Distributors_Brussels_Belgium</link>
@@ -863,7 +845,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 27 May 2026 11:40:16 +0000</pubDate>
       <dc:creator>FIGIEFA International Federation of Automotive Aftermarket</dc:creator>
-    </item>
+    <polintel:location>Distributors Brussels Belgium</polintel:location></item>
     <item>
       <title>Director of Programmes</title>
       <link>https://www.eurobrussels.com/job_display/291624/Director_of_Programmes_EED_European_Endowment_for_Democracy_Brussels_Belgium</link>
@@ -872,7 +854,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 28 May 2026 11:41:07 +0000</pubDate>
       <dc:creator>EED European Endowment for</dc:creator>
-    </item>
+    <polintel:location>Democracy Brussels Belgium</polintel:location></item>
     <item>
       <title>Senior Communications Officer</title>
       <link>https://www.eurobrussels.com/job_display/291628/Senior_Communications_Officer_REScoopeu_Brussels_Belgium</link>
@@ -881,7 +863,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 28 May 2026 11:40:43 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>REScoopeu Brussels Belgium</polintel:location></item>
     <item>
       <title>Public Affairs Consultant</title>
       <link>https://www.eurobrussels.com/job_display/291646/Public_Affairs_Consultant_EFC_European_Football_Clubs_Brussels_Belgium</link>
@@ -890,7 +872,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 28 May 2026 11:40:28 +0000</pubDate>
       <dc:creator>EFC European Football</dc:creator>
-    </item>
+    <polintel:location>Clubs Brussels Belgium</polintel:location></item>
     <item>
       <title>Innovation &amp; Sustainability Analyst - Innovation Team</title>
       <link>https://www.eurobrussels.com/job_display/291734/Innovation_Sustainability_Analyst_Innovation_Team_WindEurope_Brussels_Belgium</link>
@@ -899,7 +881,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 29 May 2026 11:32:34 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>Belgium</polintel:location></item>
     <item>
       <title>Communications Manager</title>
       <link>https://www.eurobrussels.com/job_display/291454/Communications_Manager_ETF_European_Transport_Workers_Federation_Brussels_Belgium</link>
@@ -908,7 +890,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 29 May 2026 11:32:22 +0000</pubDate>
       <dc:creator>ETF European Transport Workers</dc:creator>
-    </item>
+    <polintel:location>Federation Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Public Affairs &amp; Communication Traineeship</title>
       <link>https://www.eurobrussels.com/job_display/291704/EU_Public_Affairs_Communication_Traineeship_SAA_Society_of_Audiovisual_Authors_Brussels_Belgium</link>
@@ -917,7 +899,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 29 May 2026 11:32:03 +0000</pubDate>
       <dc:creator>Society of Audiovisual</dc:creator>
-    </item>
+    <polintel:location>Authors Brussels Belgium</polintel:location></item>
     <item>
       <title>Energy Policy Intern</title>
       <link>https://www.eurobrussels.com/job_display/291715/Energy_Policy_Intern_Hydrogen_Europe_Brussels_Belgium</link>
@@ -926,7 +908,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 29 May 2026 11:32:00 +0000</pubDate>
       <dc:creator>Hydrogen</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Intern</title>
       <link>https://www.eurobrussels.com/job_display/291763/Policy_Intern_MPA_Motion_Picture_Association_EMEA_Brussels_Belgium</link>
@@ -935,7 +917,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 01 Jun 2026 13:39:56 +0000</pubDate>
       <dc:creator>MPA Motion Picture Association</dc:creator>
-    </item>
+    <polintel:location>EMEA Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Policy Analyst</title>
       <link>https://www.eurobrussels.com/job_display/291801/EU_Policy_Analyst_Osborne_Clarke_Brussels_Belgium</link>
@@ -944,7 +926,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 01 Jun 2026 13:39:56 +0000</pubDate>
       <dc:creator>Osborne</dc:creator>
-    </item>
+    <polintel:location>Clarke Brussels Belgium</polintel:location></item>
     <item>
       <title>Events &amp; Communications Intern</title>
       <link>https://www.eurobrussels.com/job_display/291810/Events_Communications_Intern_WIL_European_Network_for_Women_in_Leadership_Paris_France</link>
@@ -953,7 +935,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 02 Jun 2026 12:06:35 +0000</pubDate>
       <dc:creator>European Network for Women in</dc:creator>
-    </item>
+    <polintel:location>Leadership Paris France</polintel:location></item>
     <item>
       <title>Communications &amp; Events Intern</title>
       <link>https://www.eurobrussels.com/job_display/291859/Communications_Events_Intern_FIA_Fdration_Internationale_de_lAutomobile_Brussels_Belgium</link>
@@ -962,7 +944,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 02 Jun 2026 12:06:35 +0000</pubDate>
       <dc:creator>Fdration Internationale de</dc:creator>
-    </item>
+    <polintel:location>lAutomobile Brussels Belgium</polintel:location></item>
     <item>
       <title>Paralegal, UK Mission to the European Union (BEL26-007727)</title>
       <link>https://www.eurobrussels.com/job_display/291820/Paralegal_UK_Mission_to_the_European_Union_BEL26_007727_British_Embassy_Brussels_Belgium</link>
@@ -971,7 +953,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 02 Jun 2026 12:06:16 +0000</pubDate>
       <dc:creator>007727 British</dc:creator>
-    </item>
+    <polintel:location>Embassy Brussels Belgium</polintel:location></item>
     <item>
       <title>Associate/Senior Associate (Lawyer) - EU Sanctions and Export Control/EU Litigation</title>
       <link>https://www.eurobrussels.com/job_display/291853/Associate_Senior_Associate_Lawyer_EU_Sanctions_and_Export_Control_EU_Litigation_Acquis_EU_Law_Policy_Brussels_Belgium</link>
@@ -980,7 +962,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 02 Jun 2026 12:06:16 +0000</pubDate>
       <dc:creator>Litigation Acquis EU Law</dc:creator>
-    </item>
+    <polintel:location>Policy Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Assistant</title>
       <link>https://www.eurobrussels.com/job_display/291809/Policy_Assistant_LLLP_The_Lifelong_Learning_Platform_Brussels_Belgium</link>
@@ -989,7 +971,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 02 Jun 2026 12:06:14 +0000</pubDate>
       <dc:creator>LLLP The Lifelong Learning</dc:creator>
-    </item>
+    <polintel:location>Platform Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Policy Advisor</title>
       <link>https://www.eurobrussels.com/job_display/291832/EU_Policy_Advisor_Vattenfall_Brussels_Belgium</link>
@@ -998,7 +980,7 @@
       <category>EU Affairs</category>
       <pubDate>Tue, 02 Jun 2026 12:06:14 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>Vattenfall Brussels Belgium</polintel:location></item>
     <item>
       <title>Junior AI &amp; Communications Intelligence Officer</title>
       <link>https://www.eurobrussels.com/job_display/291930/Junior_AI_Communications_Intelligence_Officer_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
@@ -1007,7 +989,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 03 Jun 2026 12:44:06 +0000</pubDate>
       <dc:creator>Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Paris France</polintel:location></item>
     <item>
       <title>Lawyer - Institutional and European Union Law</title>
       <link>https://www.eurobrussels.com/job_display/291891/Lawyer_Institutional_and_European_Union_Law_EIB_European_Investment_Bank_Luxembourg_Luxembourg</link>
@@ -1016,7 +998,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 03 Jun 2026 12:43:47 +0000</pubDate>
       <dc:creator>European Investment</dc:creator>
-    </item>
+    <polintel:location>Bank Luxembourg Luxembourg</polintel:location></item>
     <item>
       <title>Human Resources Advisor - Policy and Employee Relations</title>
       <link>https://www.eurobrussels.com/job_display/291869/Human_Resources_Advisor_Policy_and_Employee_Relations_ESO_European_Southern_Observatory_Garching_Germany</link>
@@ -1025,7 +1007,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 03 Jun 2026 12:43:44 +0000</pubDate>
       <dc:creator>European Southern</dc:creator>
-    </item>
+    <polintel:location>Observatory Garching Germany</polintel:location></item>
     <item>
       <title>Senior Policy Officer - Passenger</title>
       <link>https://www.eurobrussels.com/job_display/291925/Senior_Policy_Officer_Passenger_CER_Community_of_European_Railway_and_Infrastructure_Companies_Brussels_Belgium</link>
@@ -1034,7 +1016,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 03 Jun 2026 12:43:44 +0000</pubDate>
       <dc:creator>Community of European Railway and Infrastructure</dc:creator>
-    </item>
+    <polintel:location>Companies Brussels Belgium</polintel:location></item>
     <item>
       <title>Strategic Partnerships Officer</title>
       <link>https://www.eurobrussels.com/job_display/291991/Strategic_Partnerships_Officer_KOMIS_Brussels_Belgium</link>
@@ -1043,7 +1025,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 04 Jun 2026 11:17:43 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>KOMIS Brussels Belgium</polintel:location></item>
     <item>
       <title>Chief Operating Officer (COO)</title>
       <link>https://www.eurobrussels.com/job_display/291937/Chief_Operating_Officer_COO_Philea_Philanthropy_Europe_Association_Brussels_Belgium</link>
@@ -1052,7 +1034,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 04 Jun 2026 11:17:43 +0000</pubDate>
       <dc:creator>Philea Philanthropy Europe</dc:creator>
-    </item>
+    <polintel:location>Association Brussels Belgium</polintel:location></item>
     <item>
       <title>Business Development Intern</title>
       <link>https://www.eurobrussels.com/job_display/291952/Business_Development_Intern_Polpo_Brussels_Belgium</link>
@@ -1061,7 +1043,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 04 Jun 2026 11:17:36 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>Polpo Brussels Belgium</polintel:location></item>
     <item>
       <title>EU Public Affairs Internship</title>
       <link>https://www.eurobrussels.com/job_display/291983/EU_Public_Affairs_Internship_HOTREC_Hospitality_Europe_Brussels_Belgium</link>
@@ -1070,7 +1052,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 04 Jun 2026 11:17:09 +0000</pubDate>
       <dc:creator>HOTREC Hospitality</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Officer - Safeguards</title>
       <link>https://www.eurobrussels.com/job_display/291943/Policy_Officer_Safeguards_EEAS_European_External_Action_Service_Brussels_Belgium</link>
@@ -1079,7 +1061,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 04 Jun 2026 11:17:07 +0000</pubDate>
       <dc:creator>European External Action</dc:creator>
-    </item>
+    <polintel:location>Service Brussels Belgium</polintel:location></item>
     <item>
       <title>Junior Policy Analyst</title>
       <link>https://www.eurobrussels.com/job_display/291968/Junior_Policy_Analyst_EPC_European_Policy_Centre_Brussels_Belgium</link>
@@ -1088,7 +1070,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 04 Jun 2026 11:17:07 +0000</pubDate>
       <dc:creator>EPC European Policy</dc:creator>
-    </item>
+    <polintel:location>Centre Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy Advisor - Regulatory Affairs &amp; Strategic Communications</title>
       <link>https://www.eurobrussels.com/job_display/291885/Policy_Advisor_Regulatory_Affairs_Strategic_Communications_IIF_Institute_of_International_Finance_Brussels_Belgium</link>
@@ -1097,7 +1079,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 04 Jun 2026 11:17:07 +0000</pubDate>
       <dc:creator>of International</dc:creator>
-    </item>
+    <polintel:location>Finance Brussels Belgium</polintel:location></item>
     <item>
       <title>Managing Director and Head of Brussels Office</title>
       <link>https://www.eurobrussels.com/job_display/292002/Managing_Director_and_Head_of_Brussels_Office_ICI_Investment_Company_Institute_Brussels_Belgium</link>
@@ -1106,7 +1088,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 05 Jun 2026 11:31:14 +0000</pubDate>
       <dc:creator>ICI Investment Company</dc:creator>
-    </item>
+    <polintel:location>Institute Brussels Belgium</polintel:location></item>
     <item>
       <title>Communications Intern - Enforcement and Content Protection</title>
       <link>https://www.eurobrussels.com/job_display/292052/Communications_Intern_Enforcement_and_Content_Protection_MPA_Motion_Picture_Association_EMEA_Brussels_Belgium</link>
@@ -1115,7 +1097,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 05 Jun 2026 11:30:49 +0000</pubDate>
       <dc:creator>Motion Picture Association</dc:creator>
-    </item>
+    <polintel:location>EMEA Brussels Belgium</polintel:location></item>
     <item>
       <title>Intern - Publications, Communications &amp; Outreach</title>
       <link>https://www.eurobrussels.com/job_display/292053/Intern_Publications_Communications_Outreach_CEPS_Centre_for_European_Policy_Studies_Brussels_Belgium</link>
@@ -1124,7 +1106,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 05 Jun 2026 11:30:49 +0000</pubDate>
       <dc:creator>for European Policy</dc:creator>
-    </item>
+    <polintel:location>Studies Brussels Belgium</polintel:location></item>
     <item>
       <title>Sustainability Policy Officer</title>
       <link>https://www.eurobrussels.com/job_display/292050/Sustainability_Policy_Officer_FESI_Federation_of_the_European_Sporting_Goods_Industry_Brussels_Belgium</link>
@@ -1133,7 +1115,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 05 Jun 2026 11:30:26 +0000</pubDate>
       <dc:creator>FESI Federation of the European Sporting Goods</dc:creator>
-    </item>
+    <polintel:location>Industry Brussels Belgium</polintel:location></item>
     <item>
       <title>Programme Officer - Product Policies</title>
       <link>https://www.eurobrussels.com/job_display/292059/Programme_Officer_Product_Policies_ECOS_Environmental_Coalition_on_Standards_Brussels_Belgium</link>
@@ -1142,7 +1124,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 06 Jun 2026 10:07:13 +0000</pubDate>
       <dc:creator>Environmental Coalition on</dc:creator>
-    </item>
+    <polintel:location>Standards Brussels Belgium</polintel:location></item>
     <item>
       <title>Director</title>
       <link>https://www.eurobrussels.com/job_display/292071/Director_COST_European_Cooperation_in_Science_and_Technology_Brussels_Belgium</link>
@@ -1151,7 +1133,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 08 Jun 2026 12:36:43 +0000</pubDate>
       <dc:creator>COST European Cooperation in Science and</dc:creator>
-    </item>
+    <polintel:location>Technology Brussels Belgium</polintel:location></item>
     <item>
       <title>Senior Account Executive/Account Manager in Healthcare &amp; Life Sciences</title>
       <link>https://www.eurobrussels.com/job_display/292105/Senior_Account_Executive_Account_Manager_in_Healthcare_Life_Sciences_FIPRA_International_Brussels_Belgium</link>
@@ -1160,7 +1142,7 @@
       <category>EU Affairs</category>
       <pubDate>Mon, 08 Jun 2026 12:36:38 +0000</pubDate>
       <dc:creator>FIPRA</dc:creator>
-    </item>
+    <polintel:location>International Brussels Belgium</polintel:location></item>
     <item>
       <title>Network Development Officer</title>
       <link>https://www.eurobrussels.com/job_display/292222/Network_Development_Officer_ZWE_Zero_Waste_Europe_Brussels_Belgium</link>
@@ -1169,7 +1151,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 10 Jun 2026 11:41:07 +0000</pubDate>
       <dc:creator>ZWE Zero Waste</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Intern: Human Rights Law</title>
       <link>https://www.eurobrussels.com/job_display/292233/Intern_Human_Rights_Law_TMC_Asser_Institute_The_Hague_Netherlands</link>
@@ -1178,7 +1160,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 10 Jun 2026 11:41:00 +0000</pubDate>
       <dc:creator>TMC Asser Institute</dc:creator>
-    </item>
+    <polintel:location>The Hague Netherlands</polintel:location></item>
     <item>
       <title>EU Lobbying Internship</title>
       <link>https://www.eurobrussels.com/job_display/292189/EU_Lobbying_Internship_Alber_Geiger_Brussels_Belgium</link>
@@ -1187,7 +1169,7 @@
       <category>EU Affairs</category>
       <pubDate>Wed, 10 Jun 2026 11:40:33 +0000</pubDate>
       <dc:creator>Alber</dc:creator>
-    </item>
+    <polintel:location>Geiger Brussels Belgium</polintel:location></item>
     <item>
       <title>Senior Programmes Officer</title>
       <link>https://www.eurobrussels.com/job_display/292243/Senior_Programmes_Officer_ILGA_Europe_European_Region_of_the_Lesbian_Gay_Bisexual_Trans_and_Intersex_Association_Remote_Multiple_Countries</link>
@@ -1196,7 +1178,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 11 Jun 2026 12:12:22 +0000</pubDate>
       <dc:creator>ILGA Europe European Region of the Lesbian Gay Bisexual Trans and Intersex Association</dc:creator>
-    </item>
+    <polintel:location>Remote Multiple Countries</polintel:location></item>
     <item>
       <title>Associate Project Officer, InterPares, Belgium</title>
       <link>https://www.eurobrussels.com/job_display/292257/Associate_Project_Officer_InterPares_Belgium_International_IDEA_The_International_Institute_for_Democracy_and_Electoral_Assistance_Brussels_Belgium</link>
@@ -1205,7 +1187,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 11 Jun 2026 12:12:22 +0000</pubDate>
       <dc:creator>International IDEA The International Institute for Democracy and Electoral</dc:creator>
-    </item>
+    <polintel:location>Assistance Brussels Belgium</polintel:location></item>
     <item>
       <title>Analyst, GEI</title>
       <link>https://www.eurobrussels.com/job_display/292235/Analyst_GEI_EBRD_European_Bank_for_Reconstruction_and_Development_London_United_Kingdom</link>
@@ -1214,7 +1196,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 11 Jun 2026 12:12:19 +0000</pubDate>
       <dc:creator>EBRD European Bank for Reconstruction and Development London United Kingdom</dc:creator>
-    </item>
+    <polintel:location>Brussels</polintel:location></item>
     <item>
       <title>Analyst, Human Capital &amp; Skills, Energy</title>
       <link>https://www.eurobrussels.com/job_display/292237/Analyst_Human_Capital_Skills_Energy_EBRD_European_Bank_for_Reconstruction_and_Development_London_United_Kingdom</link>
@@ -1223,7 +1205,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 11 Jun 2026 12:12:19 +0000</pubDate>
       <dc:creator>European Bank for Reconstruction and Development London United Kingdom</dc:creator>
-    </item>
+    <polintel:location>Brussels</polintel:location></item>
     <item>
       <title>Legal Team Traineeship</title>
       <link>https://www.eurobrussels.com/job_display/292288/Legal_Team_Traineeship_GH_EDCTP3_JU_Global_Health_EDCTP3_Joint_Undertaking_Brussels_Belgium</link>
@@ -1232,7 +1214,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 11 Jun 2026 12:12:10 +0000</pubDate>
       <dc:creator>GH EDCTP3 JU Global Health EDCTP3 Joint</dc:creator>
-    </item>
+    <polintel:location>Undertaking Brussels Belgium</polintel:location></item>
     <item>
       <title>Economist - Policy Analyst</title>
       <link>https://www.eurobrussels.com/job_display/292239/Economist_Policy_Analyst_OECD_Organisation_for_Economic_Cooperation_and_Development_Athens_Greece</link>
@@ -1241,7 +1223,7 @@
       <category>EU Affairs</category>
       <pubDate>Thu, 11 Jun 2026 12:11:45 +0000</pubDate>
       <dc:creator>Organisation for Economic Cooperation and</dc:creator>
-    </item>
+    <polintel:location>Development Athens Greece</polintel:location></item>
     <item>
       <title>Project Development Junior Manager</title>
       <link>https://www.eurobrussels.com/job_display/292306/Project_Development_Junior_Manager_ALL_DIGITAL_Brussels_Belgium</link>
@@ -1250,7 +1232,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 12 Jun 2026 11:45:57 +0000</pubDate>
       <dc:creator>ALL</dc:creator>
-    </item>
+    <polintel:location>DIGITAL Brussels Belgium</polintel:location></item>
     <item>
       <title>Regulatory and Scientific Manager</title>
       <link>https://www.eurobrussels.com/job_display/292309/Regulatory_and_Scientific_Manager_SNE_Specialised_Nutrition_Europe_Brussels_Belgium</link>
@@ -1259,7 +1241,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 12 Jun 2026 11:45:57 +0000</pubDate>
       <dc:creator>SNE Specialised Nutrition</dc:creator>
-    </item>
+    <polintel:location>Europe Brussels Belgium</polintel:location></item>
     <item>
       <title>Communications Team Traineeship</title>
       <link>https://www.eurobrussels.com/job_display/292304/Communications_Team_Traineeship_GH_EDCTP3_JU_Global_Health_EDCTP3_Joint_Undertaking_Brussels_Belgium</link>
@@ -1268,7 +1250,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 12 Jun 2026 11:45:37 +0000</pubDate>
       <dc:creator>GH EDCTP3 JU Global Health EDCTP3 Joint</dc:creator>
-    </item>
+    <polintel:location>Undertaking Brussels Belgium</polintel:location></item>
     <item>
       <title>Adviser for Social Affairs Department</title>
       <link>https://www.eurobrussels.com/job_display/292350/Adviser_for_Social_Affairs_Department_BUSINESSEUROPE_Brussels_Belgium</link>
@@ -1277,7 +1259,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 12 Jun 2026 11:45:22 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>BUSINESSEUROPE Brussels Belgium</polintel:location></item>
     <item>
       <title>Policy &amp; Events Assistant</title>
       <link>https://www.eurobrussels.com/job_display/292356/Policy_Events_Assistant_EUMICON_Brussels_Belgium</link>
@@ -1286,7 +1268,7 @@
       <category>EU Affairs</category>
       <pubDate>Fri, 12 Jun 2026 11:45:15 +0000</pubDate>
       <dc:creator>EuroBrussels</dc:creator>
-    </item>
+    <polintel:location>Brussels Belgium</polintel:location></item>
     <item>
       <title>Head of Executive Director Services Department</title>
       <link>https://www.eurobrussels.com/job_display/292369/Head_of_Executive_Director_Services_Department_EUSPA_European_Union_Agency_for_the_Space_Programme_Prague_Czech_Republic</link>
@@ -1295,7 +1277,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 13 Jun 2026 10:32:48 +0000</pubDate>
       <dc:creator>EUSPA European Union Agency for the Space Programme Prague Czech Republic</dc:creator>
-    </item>
+    <polintel:location>Brussels</polintel:location></item>
     <item>
       <title>Chief Cybersecurity and Innovation Officer</title>
       <link>https://www.eurobrussels.com/job_display/292376/Chief_Cybersecurity_and_Innovation_Officer_ECCC_European_Cybersecurity_Industrial_Technology_and_Research_Competence_Centre_Bucharest_Romania</link>
@@ -1304,7 +1286,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 13 Jun 2026 10:32:38 +0000</pubDate>
       <dc:creator>ECCC European Cybersecurity Industrial Technology and Research Competence</dc:creator>
-    </item>
+    <polintel:location>Centre Bucharest Romania</polintel:location></item>
     <item>
       <title>Funding Officer</title>
       <link>https://www.eurobrussels.com/job_display/292368/Funding_Officer_ESM_European_Stability_Mechanism_Luxembourg_Luxembourg</link>
@@ -1313,7 +1295,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 13 Jun 2026 10:32:38 +0000</pubDate>
       <dc:creator>ESM European Stability</dc:creator>
-    </item>
+    <polintel:location>Mechanism Luxembourg Luxembourg</polintel:location></item>
     <item>
       <title>Legal Officer</title>
       <link>https://www.eurobrussels.com/job_display/292375/Legal_Officer_EDA_European_Defence_Agency_Brussels_Belgium</link>
@@ -1322,7 +1304,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 13 Jun 2026 10:32:26 +0000</pubDate>
       <dc:creator>EDA European Defence</dc:creator>
-    </item>
+    <polintel:location>Agency Brussels Belgium</polintel:location></item>
     <item>
       <title>Project Officer - Crime Prevention and European Projects</title>
       <link>https://www.eurobrussels.com/job_display/292374/Project_Officer_Crime_Prevention_and_European_Projects_EFUS_European_Forum_for_Urban_Security_Saint_Ouen_sur_Seine_France</link>
@@ -1331,7 +1313,7 @@
       <category>EU Affairs</category>
       <pubDate>Sat, 13 Jun 2026 10:32:03 +0000</pubDate>
       <dc:creator>European Forum for Urban Security Saint Ouen</dc:creator>
-    </item>
+    <polintel:location>sur Seine France</polintel:location></item>
     <item>
       <title>Seconded National Experts (SNE)</title>
       <link>https://eutraining.eu/content/seconded-national-experts-sne</link>
@@ -1340,7 +1322,7 @@
       <category>EU Affairs</category>
       <pubDate>Sun, 14 Jun 2026 10:50:37 +0000</pubDate>
       <dc:creator>European Banking Authority (EBA) Info i Paris</dc:creator>
-    </item>
+    <polintel:location>France</polintel:location></item>
     <item>
       <title>Impact Research Assistant</title>
       <link>https://eutraining.eu/content/impact-research-assistant</link>
@@ -1349,6 +1331,6 @@
       <category>EU Affairs</category>
       <pubDate>Sun, 14 Jun 2026 10:50:37 +0000</pubDate>
       <dc:creator>COST – European Cooperation in Science and Technology Brussels</dc:creator>
-    </item>
+    <polintel:location>Belgium</polintel:location></item>
   </channel>
 </rss>
