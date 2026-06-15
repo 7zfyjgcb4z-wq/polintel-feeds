@@ -1,0 +1,196 @@
+# Pol-Intel EU National Sources — Southern Europe (FR, ES, IT, PT, GR)
+# scraper: ats_auto = runtime ATS detection with AI fallback
+# All sources start disabled except Stage 1 dedicated boards.
+# country_code: ISO 3166-1 alpha-2; used by downstream ingestion parser for geo-tagging.
+
+sources:
+
+  # ── France: dedicated political boards (Stage 1 — KEEP) ──────────────────
+
+  - name: "Mission Politique"
+    url: "https://missionpolitique.com/"
+    country_code: FR
+    category: national-politics
+    scraper: ats_auto
+    render_js: true
+    language: fr
+    enabled: false
+    notes: "KEEP. ~100% political: cabinets, parliamentary, parties, public affairs. DEFERRED to Playwright tier — React SPA, 0 SSR body text. Selector extraction once rendered."
+
+  - name: "Emplois Politiques"
+    url: "https://www.emplois-politiques.fr/les-offres-d-emplois"
+    country_code: FR
+    category: national-politics
+    scraper: dedicated
+    module: emplois_politiques
+    language: fr
+    enabled: true
+    notes: "KEEP. ~100% political. WIX Pro Blog SSR — selector scraper (gallery-item-container cards). SSR renders 3 most recent posts; no RSS available. Subsequent posts require Playwright."
+
+  # ── France: parliament (Stage 3 — CONDITIONAL) ───────────────────────────
+
+  - name: "Assemblee Nationale"
+    url: "https://www.assemblee-nationale.fr/dyn/ressources-humaines/offres"
+    country_code: FR
+    category: national-politics
+    scraper: ats_auto
+    language: fr
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Mostly internships/concours + admin. Filter hard before enabling."
+
+  - name: "Senat"
+    url: "https://senat.nos-recrutements.fr/"
+    country_code: FR
+    category: national-politics
+    scraper: ats_auto
+    render_js: true
+    language: fr
+    enabled: false
+    notes: "DEFERRED to Playwright tier — JS SPA, requires JavaScript rendering. Includes IT/security/gardening - filter hard on enable. Verify path on add."
+
+  # ── France: think tanks (Stage 2 — KEEP) ─────────────────────────────────
+
+  - name: "Institut Montaigne"
+    url: "https://www.institutmontaigne.org/recrutement"
+    country_code: FR
+    category: think-tanks
+    scraper: ats_auto
+    language: fr
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. ~100% relevant."
+
+  - name: "IFRI"
+    url: "https://www.ifri.org/en/recruitment"
+    country_code: FR
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. French Institute of International Relations."
+
+  - name: "Terra Nova"
+    url: "https://tnova.fr/recrutement/"
+    country_code: FR
+    category: think-tanks
+    scraper: ats_auto
+    language: fr
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Verify path on add."
+
+  # ── France: trade association + party (Stage 3 — CONDITIONAL/low-yield) ──
+
+  - name: "MEDEF"
+    url: "https://www.medef.com/fr/recrutement"
+    country_code: FR
+    category: trade-associations
+    scraper: ats_auto
+    language: fr
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Verify path on add. Mixed relevance."
+
+  - name: "Renaissance"
+    url: "https://parti-renaissance.fr/emplois"
+    country_code: FR
+    category: political-parties
+    scraper: ats_auto
+    language: fr
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP, low crawl frequency - often empty. Only viable FR party HQ page. DO NOT use les-republicains.net (unofficial fan blog, not the party)."
+
+  # ── Spain (Stage 2/3) ─────────────────────────────────────────────────────
+
+  - name: "Real Instituto Elcano"
+    url: "https://www.realinstitutoelcano.org/ofertas-de-trabajo/"
+    country_code: ES
+    category: think-tanks
+    scraper: ats_auto
+    language: es
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Flagship foreign-affairs institute. ~100% relevant."
+
+  - name: "CIDOB"
+    url: "https://www.cidob.org/en/about-cidob/work-us"
+    country_code: ES
+    category: think-tanks
+    scraper: ats_auto
+    language: es
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Barcelona Centre for International Affairs. Verify path on add."
+
+  - name: "PSOE"
+    url: "https://www.psoe.es/actua/empleo/ofertas-activas-de-empleo/"
+    country_code: ES
+    category: political-parties
+    scraper: ats_auto
+    language: es
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Only viable ES party page. PP/Vox/Sumar 'empleo' pages are news tags, not jobs - excluded."
+
+  - name: "Congreso de los Diputados"
+    url: "https://www.congreso.es/es/web/guest/conoce-el-congreso/empleo"
+    country_code: ES
+    category: national-politics
+    scraper: ats_auto
+    language: es
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Concurso-heavy. Verify path on add."
+
+  # ── Italy (Stage 2/3) ─────────────────────────────────────────────────────
+
+  - name: "IAI"
+    url: "https://www.iai.it/en/careers"
+    country_code: IT
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Istituto Affari Internazionali. NOTE: do NOT confuse with US ISPI (ispi-jobs.careerwebsite.com)."
+
+  - name: "ISPI"
+    url: "https://www.ispionline.it/en/work-with-us"
+    country_code: IT
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Verify path. WHITELIST ispionline.it only — do NOT use ispi-jobs.careerwebsite.com (US homonym)."
+
+  - name: "Confindustria"
+    url: "https://www.confindustria.it/en/work-with-us/"
+    country_code: IT
+    category: trade-associations
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Mixed. confindustriajob.it is a member-company service — do not use."
+
+  - name: "Camera dei Deputati"
+    url: "https://www.camera.it/leg19/1"
+    country_code: IT
+    category: national-politics
+    scraper: ats_auto
+    language: it
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Verify concorsi/careers path on add."
+
+  # ── Portugal (Stage 3 — CONDITIONAL) ─────────────────────────────────────
+
+  - name: "Assembleia da Republica"
+    url: "https://www.parlamento.pt/sites/com/RecursosHumanos/Paginas/default.aspx"
+    country_code: PT
+    category: national-politics
+    scraper: ats_auto
+    language: pt
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. RecrutAR/EstagiAR programmes. Verify path. Thin market - rely on pan-EU backbone for PT coverage."
+
+  # ── Greece (Stage 2 — KEEP) ───────────────────────────────────────────────
+
+  - name: "ELIAMEP"
+    url: "https://www.eliamep.gr/en/opportunities/"
+    country_code: GR
+    category: think-tanks
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Hellenic Foundation for European & Foreign Policy. ~100% relevant."

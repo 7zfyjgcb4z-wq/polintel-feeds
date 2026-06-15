@@ -45,6 +45,11 @@ DOMAIN_SELECTORS: dict[str, list[str]] = {
         ".job-description",
         "#job-description",
     ],
+    "pac.org": [
+        ".post-content",
+        ".entry-content",
+        ".main-content",
+    ],
 }
 
 # Generic fallback containers (tried in order)
@@ -107,6 +112,10 @@ async def _fetch_one(
     response = await client.get(job.url)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "lxml")
+
+    # Strip Complianz GDPR plugin elements before extraction
+    for el in soup.select('[class^="cmplz-"], [class*=" cmplz-"], [id^="cmplz-"]'):
+        el.decompose()
 
     if selectors:
         text = _extract_text(soup, selectors)

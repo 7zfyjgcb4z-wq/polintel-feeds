@@ -49,6 +49,9 @@ CATEGORY_LABELS = {
     "us-ngos": "US NGOs & Advocacy",
     "us-fellowships": "US Fellowships",
     "us-campaigns": "US Campaigns & Parties",
+    # EU national categories
+    "national-politics": "National Politics",
+    "foundations": "Political Foundations",
 }
 
 FEED_META: dict[str, dict[str, str]] = {
@@ -79,6 +82,39 @@ FEED_META: dict[str, dict[str, str]] = {
         "us-fellowships": "US Policy Fellowships",
         "us-campaigns": "US Campaigns & Political Party Jobs",
     },
+    # EU national regions
+    "dach": {
+        "national-politics": "DACH National Politics Jobs (DE/AT)",
+        "public-affairs": "DACH Public Affairs Jobs (DE/AT)",
+        "think-tanks": "DACH Think Tank Jobs (DE/AT)",
+        "foundations": "German & Austrian Political Foundation Jobs",
+        "political-parties": "DACH Political Party Jobs (DE/AT)",
+        "trade-associations": "DACH Trade Association Jobs (DE/AT)",
+    },
+    "southern": {
+        "national-politics": "Southern Europe National Politics Jobs (FR/ES/IT/PT/GR)",
+        "think-tanks": "Southern Europe Think Tank Jobs (FR/ES/IT/PT/GR)",
+        "political-parties": "Southern Europe Political Party Jobs (FR/ES/IT)",
+        "public-affairs": "Southern Europe Public Affairs Jobs (FR/ES/IT)",
+        "trade-associations": "Southern Europe Trade Association Jobs (FR/ES/IT)",
+    },
+    "benelux": {
+        "political-parties": "Benelux Political Party Jobs (NL)",
+        "national-politics": "Benelux National Politics Jobs (NL)",
+        "think-tanks": "Benelux Think Tank Jobs (NL)",
+    },
+    "nordics": {
+        "think-tanks": "Nordic Think Tank Jobs (SE/DK/FI/NO)",
+        "national-politics": "Nordic National Politics Jobs (SE/DK/FI)",
+    },
+    "cee": {
+        "think-tanks": "CEE Think Tank Jobs (IE/PL/CZ)",
+        "national-politics": "CEE National Politics Jobs (IE/PL/CZ)",
+    },
+    "pan-eu": {
+        "eu-affairs": "Pan-European EU Affairs Jobs",
+        "international-orgs": "Pan-European International Organisation Jobs",
+    },
 }
 
 # Which categories to generate per country
@@ -95,6 +131,19 @@ COUNTRY_CATEGORIES: dict[str, list[str]] = {
         "us-federal", "us-congress", "us-think-tanks", "us-government-affairs",
         "us-ngos", "us-fellowships", "us-campaigns",
     ],
+    # EU national regions
+    "dach": [
+        "national-politics", "public-affairs", "think-tanks",
+        "foundations", "political-parties", "trade-associations",
+    ],
+    "southern": [
+        "national-politics", "think-tanks", "political-parties",
+        "public-affairs", "trade-associations",
+    ],
+    "benelux": ["political-parties", "national-politics", "think-tanks"],
+    "nordics": ["think-tanks", "national-politics"],
+    "cee": ["think-tanks", "national-politics"],
+    "pan-eu": ["eu-affairs", "international-orgs"],
 }
 
 
@@ -123,6 +172,41 @@ def generate_feeds(
         log.info(f"Feed {country}-{category}.xml: {len(cat_jobs)} jobs")
 
     return counts
+
+
+def _inject_location(out_path: str, jobs: list[Job]) -> None:
+    """Post-process an RSS file to add <polintel:location> to job items.
+
+    Only modifies the file when at least one job has a non-empty location.
+    Matches items by <guid> text, which is always job.url.
+    """
+    location_by_url = {
+        job.url: job.location
+        for job in jobs
+        if job.location and job.location.strip()
+    }
+    if not location_by_url:
+        return
+
+    tree = ET.parse(out_path)
+    root = tree.getroot()
+    channel = root.find("channel")
+    if channel is None:
+        return
+
+    modified = False
+    for item in channel.findall("item"):
+        guid_el = item.find("guid")
+        if guid_el is None or not guid_el.text:
+            continue
+        loc = location_by_url.get(guid_el.text.strip())
+        if loc:
+            el = ET.SubElement(item, f"{{{POLINTEL_NS}}}location")
+            el.text = loc
+            modified = True
+
+    if modified:
+        tree.write(out_path, encoding="UTF-8", xml_declaration=True)
 
 
 def _inject_partisan_lean(out_path: str, jobs: list[Job]) -> None:
@@ -202,9 +286,11 @@ def _write_feed(
         if job.organisation:
             fe.dc.dc_creator(_xml_safe(job.organisation))
 
-        # pubDate from date_scraped
+        # pubDate from posted_date if available, else date_scraped
         try:
-            pub_dt = datetime.fromisoformat(job.date_scraped).replace(tzinfo=timezone.utc)
+            pub_dt = datetime.fromisoformat(job.posted_date or job.date_scraped)
+            if pub_dt.tzinfo is None:
+                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
         except (ValueError, TypeError):
             pub_dt = datetime.now(timezone.utc)
         fe.published(pub_dt)
@@ -217,6 +303,9 @@ def _write_feed(
 
     out_path = os.path.join(output_dir, f"{country}-{category}.xml")
     fg.rss_file(out_path, pretty=True)
+
+    # Inject <polintel:location> when the extractor has populated job.location
+    _inject_location(out_path, jobs)
 
     # Inject <polintel:partisanLean> for US jobs (no-op for UK/Brussels)
     _inject_partisan_lean(out_path, jobs)

@@ -184,3 +184,31 @@ categories:
       - democratic party
       - republican party
       - campaign staff
+
+  # ── EU national categories ─────────────────────────────────────────────────
+
+  national-politics:
+    label: "National Politics"
+    feed: "national-politics"
+    keywords:
+      - parliament
+      - parliamentary
+      - political party
+      - national politics
+      - policy advisor
+      - legislative
+      - bundestag
+      - assemblée nationale
+      - partido
+      - riksdagen
+
+  foundations:
+    label: "Political Foundations"
+    feed: "foundations"
+    keywords:
+      - political foundation
+      - stiftung
+      - fondation
+      - fundación
+      - party foundation
+      - political institute

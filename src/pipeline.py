@@ -28,7 +28,18 @@ COUNTRY_CONFIG = {
     "uk": CONFIG_DIR / "sources.yaml",
     "brussels": CONFIG_DIR / "sources-brussels.yaml",
     "us": CONFIG_DIR / "sources-us.yaml",
+    "dach": CONFIG_DIR / "sources-dach.yaml",
+    "southern": CONFIG_DIR / "sources-southern.yaml",
+    "benelux": CONFIG_DIR / "sources-benelux.yaml",
+    "nordics": CONFIG_DIR / "sources-nordics.yaml",
+    "cee": CONFIG_DIR / "sources-cee.yaml",
+    "pan-eu": CONFIG_DIR / "sources-pan-eu.yaml",
 }
+
+# Regions that use country_code (ISO alpha-2) per source rather than a country
+# field; the pipeline injects country = region at load time so the DB and feed
+# generator route jobs correctly.
+EU_NATIONAL_REGIONS = {"dach", "southern", "benelux", "nordics", "cee", "pan-eu"}
 
 
 def load_config(path: str | Path = CONFIG_PATH) -> dict:
@@ -75,7 +86,7 @@ async def run_pipeline(
     # "all" runs each country's pipeline sequentially and returns aggregated totals
     if country == "all":
         combined: dict = {"total": 0, "new": 0, "active": 0, "failed": []}
-        for c in ["uk", "brussels", "us"]:
+        for c in ["uk", "brussels", "us", "dach", "southern", "benelux", "nordics", "cee", "pan-eu"]:
             result = await run_pipeline(
                 country=c,
                 sources=sources,
@@ -98,6 +109,13 @@ async def run_pipeline(
     db = JobStore(db_path)
 
     all_sources = config["sources"]
+
+    # For EU national regions, sources use country_code (ISO alpha-2) for geo-tagging
+    # but no pipeline-level country field. Inject country = region so ATS extractors
+    # store the correct region tag in the DB and feeds are routed correctly.
+    if country in EU_NATIONAL_REGIONS:
+        for s in all_sources:
+            s.setdefault("country", country)
     disabled = [s for s in all_sources if not s.get("enabled", True)]
 
     active_sources = [s for s in all_sources if s.get("enabled", True)]
@@ -163,7 +181,7 @@ async def run_pipeline(
     ats_sources = [s for s in active_sources if s.get("scraper") == "ats_auto"]
     if ats_sources:
         from src.scrapers.ats_detector import detect_ats  # noqa: PLC0415
-        from src.scrapers.ats_extractors import get_extractor  # noqa: PLC0415
+        from src.scrapers.ats_extractors import get_extractor, PLATFORM_EXTRACTORS  # noqa: PLC0415
 
         for source in ats_sources:
             sources_checked += 1
@@ -176,21 +194,76 @@ async def run_pipeline(
                     _record(source["name"], "ats_auto", "failed", 0, elapsed, "requires_js=true (Playwright not enabled)")
                     continue
 
+                # New API-based path: 'platform' field triggers direct API call (no HTML fetch).
+                # Legacy 'ats_type' field still routes through the HTML-based detection path.
+                platform = source.get("platform")
+                if platform and platform in PLATFORM_EXTRACTORS:
+                    api_extractor = PLATFORM_EXTRACTORS[platform]
+                    jobs = await api_extractor.extract(source)
+                    elapsed = time.monotonic() - t
+                    all_jobs.extend(jobs)
+                    sources_succeeded += 1
+                    log.info(f"OK: {source['name']} (API:{platform}) — {len(jobs)} jobs")
+                    _record(source["name"], "ats_auto", "success", len(jobs), elapsed)
+                    continue
+
+                # HTML-based detection/extraction path (legacy ats_type or auto-detection).
                 html = await _fetch_html(source["url"])
                 ats_type = source.get("ats_type") or detect_ats(html, source["url"])
+
+                # AI fallback is gated behind ALLOW_AI_FALLBACK=1 (default OFF).
+                # When off, ats_auto sources with no zero-API extractor are skipped
+                # cleanly rather than incurring per-source Claude API calls.
+                # The generic_scrape code stays in the repo and is importable for
+                # deliberate one-off use; it just does not fire in normal runs.
+                _allow_ai = os.environ.get("ALLOW_AI_FALLBACK", "").lower() in ("1", "true", "yes")
+
                 if not ats_type:
+                    if not _allow_ai:
+                        elapsed = time.monotonic() - t
+                        log.info(
+                            f"{source['name']}: no zero-API extractor available — skipped"
+                            f" (set ALLOW_AI_FALLBACK=1 to enable AI fallback)"
+                        )
+                        _record(source["name"], "ats_auto", "skipped", 0, elapsed,
+                                "no zero-API extractor (AI fallback disabled)")
+                        continue
+                    from src.scrapers.generic import generic_scrape  # noqa: PLC0415
+                    log.info(f"{source['name']}: no ATS detected — routing to AI fallback")
+                    jobs = await generic_scrape(source, db, dry_run=dry_run)
                     elapsed = time.monotonic() - t
-                    log.warning(f"{source['name']}: no ATS detected — skipping")
-                    failed_sources.append(source["name"])
-                    _record(source["name"], "ats_auto", "failed", 0, elapsed, "No ATS platform detected")
+                    all_jobs.extend(jobs)
+                    sources_succeeded += 1
+                    log.info(f"OK: {source['name']} (AI fallback) — {len(jobs)} jobs")
+                    _record(source["name"], "ats_auto", "success", len(jobs), elapsed,
+                            "AI fallback (no ATS detected)")
                     continue
 
                 extractor = get_extractor(ats_type)
                 if extractor.__module__.endswith("_default_stub"):
-                    jobs = extractor(html, source["url"], source, ats_type=ats_type)
-                else:
-                    jobs = extractor(html, source["url"], source)
+                    if not _allow_ai:
+                        elapsed = time.monotonic() - t
+                        log.info(
+                            f"{source['name']}: ATS={ats_type!r} has no extractor — skipped"
+                            f" (set ALLOW_AI_FALLBACK=1 to enable AI fallback)"
+                        )
+                        _record(source["name"], "ats_auto", "skipped", 0, elapsed,
+                                f"ATS={ats_type} detected but no extractor (AI fallback disabled)")
+                        continue
+                    from src.scrapers.generic import generic_scrape  # noqa: PLC0415
+                    log.info(
+                        f"{source['name']}: ATS={ats_type!r} has no extractor — routing to AI fallback"
+                    )
+                    jobs = await generic_scrape(source, db, dry_run=dry_run)
+                    elapsed = time.monotonic() - t
+                    all_jobs.extend(jobs)
+                    sources_succeeded += 1
+                    log.info(f"OK: {source['name']} (AI fallback, ATS={ats_type}) — {len(jobs)} jobs")
+                    _record(source["name"], "ats_auto", "success", len(jobs), elapsed,
+                            f"AI fallback (ATS={ats_type}, no extractor)")
+                    continue
 
+                jobs = extractor(html, source["url"], source)
                 elapsed = time.monotonic() - t
                 all_jobs.extend(jobs)
                 sources_succeeded += 1
@@ -318,6 +391,69 @@ async def run_pipeline(
         log.warning(f"Per-source enrichment tracking failed (non-fatal): {exc}")
 
     all_jobs = jobs_to_enrich + jobs_no_enrich
+
+    # ── Location extraction ───────────────────────────────────────────────────
+    # Fills job.location where it is not already set by a dedicated scraper.
+    # Dedicated scrapers (e.g. eutraining, house_employment_bulletin) populate
+    # location from structured upstream data; those values are preserved.
+    try:
+        from src.utils.location_extractor import extract_location  # noqa: PLC0415
+
+        loc_stats: dict[str, dict] = {}
+        unmatched_prefixes: list[str] = []
+
+        for job in all_jobs:
+            src = job.source_name
+            if src not in loc_stats:
+                loc_stats[src] = {"total": 0, "extracted": 0}
+            loc_stats[src]["total"] += 1
+
+            if job.location:
+                # Already set by dedicated scraper — preserve it.
+                loc_stats[src]["extracted"] += 1
+                continue
+
+            try:
+                result = extract_location(
+                    description=job.description,
+                    url=job.url,
+                    title=job.title,
+                    creator=None,
+                )
+                job.location = result
+                if result:
+                    loc_stats[src]["extracted"] += 1
+                else:
+                    prefix = (job.description or "")[:80].strip()
+                    if prefix:
+                        unmatched_prefixes.append(prefix)
+            except Exception as exc:
+                log.warning(f"location extraction failed [{src}] {job.url}: {exc}")
+
+        # Summary log by source
+        summary_lines = ["location-extraction summary:"]
+        for src_name, counts in sorted(loc_stats.items()):
+            total = counts["total"]
+            extracted = counts["extracted"]
+            null_count = total - extracted
+            pct_ex = round(100 * extracted / total) if total else 0
+            pct_null = 100 - pct_ex
+            summary_lines.append(
+                f"  {src_name}: total={total} extracted={extracted}"
+                f" ({pct_ex}%) null={null_count} ({pct_null}%)"
+            )
+        log.info("\n".join(summary_lines))
+
+        # Top 20 unmatched prefixes to guide future layer improvements
+        if unmatched_prefixes:
+            top = unmatched_prefixes[:20]
+            prefix_lines = ["top unmatched description prefixes (first 80 chars):"]
+            for p in top:
+                prefix_lines.append(f"  {p!r}")
+            log.info("\n".join(prefix_lines))
+
+    except Exception as exc:
+        log.warning(f"Location extraction pass failed (non-fatal): {exc}")
 
     # ── Store ─────────────────────────────────────────────────────────────────
     new_count = db.upsert_jobs(all_jobs)

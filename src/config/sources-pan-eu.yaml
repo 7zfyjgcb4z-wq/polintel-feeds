@@ -1,0 +1,41 @@
+# Pol-Intel EU National Sources — Pan-European Backbone
+# These sources are not country-specific; country_code is null.
+# The runtime location parser assigns geo-tags per job from description/title.
+# Highest ROI sources: enable Stage 1 first.
+#
+# NOTE: EuroBrussels already exists in sources-brussels.yaml as a dedicated scraper
+# (enabled: true). Do NOT duplicate it here.
+
+sources:
+
+  # ── Pan-EU job boards (Stage 1 — KEEP) ───────────────────────────────────
+
+  - name: "EURACTIV JobSite"
+    url: "https://jobs.euractiv.com/"
+    country_code: null
+    category: eu-affairs
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "KEEP. ~100% relevant. DEFERRED: WP Job Manager site, no valid jobs RSS or API. /rss/ and /feed/ return career-advice articles only (same issue as disabled 'EurActiv Jobs' entry in sources-brussels.yaml). Needs a selector scraper once DOM structure is confirmed, or AI on rendered HTML. Do not duplicate the sources-brussels.yaml entry."
+
+  - name: "EUJobs.co"
+    url: "https://www.eujobs.co/"
+    country_code: null
+    category: eu-affairs
+    scraper: ats_auto
+    render_js: true
+    language: en
+    enabled: false
+    notes: "KEEP. ~100% relevant. DEFERRED to Playwright tier — JS-rendered React app with no SSR job content. Selector extraction once rendered."
+
+  # ── Development/international (CONDITIONAL — Stage 3) ────────────────────
+
+  - name: "Devex"
+    url: "https://www.devex.com/jobs/search"
+    country_code: null
+    category: international-orgs
+    scraper: ats_auto
+    language: en
+    enabled: false
+    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Global development; ~70% relevant after filtering for EU/policy. JS-rendered - may need Playwright or partner feed. Enable only after relevance filter confirmed."

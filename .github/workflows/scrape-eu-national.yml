@@ -1,0 +1,75 @@
+name: Scrape EU National Sources
+
+on:
+  schedule:
+    - cron: "30 9 * * *"   # 09:30 UTC daily — after Brussels (08:00) finishes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-eu-national
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - run: pip install -r requirements.txt
+
+      - name: Install Playwright if needed
+        run: |
+          if grep -qE "requires_js: true" src/config/sources-dach.yaml src/config/sources-southern.yaml src/config/sources-benelux.yaml src/config/sources-nordics.yaml src/config/sources-cee.yaml 2>/dev/null; then
+            playwright install chromium
+          else
+            echo "No JS sources, skipping Playwright"
+          fi
+
+      - name: Run DACH scrapers
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m src.cli run --country dach
+        timeout-minutes: 8
+
+      - name: Run Southern Europe scrapers
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m src.cli run --country southern
+        timeout-minutes: 8
+
+      - name: Run Benelux scrapers
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m src.cli run --country benelux
+        timeout-minutes: 8
+
+      - name: Run Nordics scrapers
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m src.cli run --country nordics
+        timeout-minutes: 8
+
+      - name: Run CEE scrapers
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m src.cli run --country cee
+        timeout-minutes: 8
+
+      - name: Commit results
+        run: |
+          git config user.name "Pol-Intel Bot"
+          git config user.email "bot@orison.co"
+          git pull --rebase origin HEAD
+          git add data/jobs.db feeds/
+          git diff --staged --quiet || git commit -m "Update EU national feeds [skip ci]"
+          git push

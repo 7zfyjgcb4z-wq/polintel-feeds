@@ -172,14 +172,12 @@ sources:
     url: "https://ecfr.eu/jobs/"
     country: "brussels"
     category: "think-tanks"
-    scraper: "selector"
-    selectors:
-      job_card: "article, .job-listing"
-      title: "h2 a, h3 a"
-      link: "h2 a, h3 a"
+    scraper: "ats_auto"
+    platform: "personio"
+    identifier:
+      subdomain: ecfr
     org_static: "European Council on Foreign Relations (ECFR)"
-    enrich_description: true
-    enabled: false  # ATS extractor not yet implemented (personio) — redirects to ecfr.eu/jobs/ which uses Personio
+    enabled: true
 
   - name: "Egmont Institute"
     url: "https://www.egmontinstitute.be/vacancies/"
@@ -272,6 +270,44 @@ sources:
       link: ".views-field-title a"
     org_static: "College of Europe"
     enrich_description: true
+    enabled: true
+
+  # ── Tier 2: Generic AI scrapers — think-tanks (additional) ───────────────
+
+  - name: "German Marshall Fund"
+    url: "https://www.gmfus.org/about/careers"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "ats_auto"
+    platform: "paylocity"
+    identifier:
+      guid: "43d988e3-6446-4a25-8e28-28602ea60858"
+    org_static: "German Marshall Fund"
+    enabled: true
+
+  - name: "Clingendael"
+    url: "https://www.clingendael.org/jobs"
+    country: "brussels"
+    category: "think-tanks"
+    scraper: "generic"
+    enabled: false  # RECOVERABLE: /jobs page accessible (200, Drupal); vacancies link /vacancy-jobs/overview-jobs-extern returns 404 — listing path not yet found. Re-check when vacancies are posted.
+
+  - name: "BEUC"
+    url: "https://www.beuc.eu/vacancy"
+    country: "brussels"
+    category: "ngos"
+    scraper: "generic"
+    enabled: false  # TLS 1.0/1.1 only — macOS LibreSSL rejects handshake; should work on Ubuntu/GitHub Actions with OpenSSL. URL /vacancy confirmed via links on homepage. Enable once tested on Linux CI.
+
+  - name: "International IDEA"
+    url: "https://careers.idea.int"
+    country: "brussels"
+    category: "international-orgs"
+    scraper: "ats_auto"
+    platform: "teamtailor"
+    identifier:
+      base_url: "careers.idea.int"
+    org_static: "International IDEA"
     enabled: true
 
   # ── RSS feeds ─────────────────────────────────────────────────────────────
