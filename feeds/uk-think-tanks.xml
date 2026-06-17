@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 11:18:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 10:51:10 +0000</lastBuildDate>
     <item>
       <title>Director of Policy and Impact</title>
       <link>https://demos.co.uk/director-of-policy-and-impact/</link>
@@ -17,15 +17,6 @@
       <category>Think Tanks</category>
       <pubDate>Sat, 11 Apr 2026 18:43:26 +0000</pubDate>
       <dc:creator>Demos</dc:creator>
-    </item>
-    <item>
-      <title>Onward runs a six month internship, to find out more pleaseclick here.</title>
-      <link>https://ukonward.com/internship/</link>
-      <description>Our paid interns work closely with Onward’s research team to develop new ideas for the country’s greatest social and economic policy challenges. The successful candidate will typically be responsible for supporting the research process, including conducting data analysis, policy research and drafting. This will range across our research programmes. In addition, interns support Onward’s busy events and engagement programmes. This will typically involve curating our bi-weekly newsletter, organising events with leading MPs and policymakers, generating ideas for future events and supporting our wider political and social media engagement.</description>
-      <guid isPermaLink="false">https://ukonward.com/internship/</guid>
-      <category>Think Tanks</category>
-      <pubDate>Sat, 11 Apr 2026 18:43:25 +0000</pubDate>
-      <dc:creator>Onward</dc:creator>
     </item>
     <item>
       <title>Senior Events &amp; Partnerships Officer</title>
@@ -144,5 +135,14 @@
       <pubDate>Mon, 15 Jun 2026 12:03:20 +0000</pubDate>
       <dc:creator>European Council on Foreign Relations</dc:creator>
     <polintel:location>London</polintel:location></item>
+    <item>
+      <title>Programme Coordinator - Asia (m/f/d)</title>
+      <link>https://ecfr.jobs.personio.de/job/2674125</link>
+      <description>The Programme Coordinator plays a key role in ensuring the smooth operation and strategic coordination of the programme’s activities. Working closely with the Programme Director and Deputy Director, they ensure effective collaboration with internal teams, national offices, policy fellows, and external stakeholders. The role involves cross-functional coordination in areas such as advocacy, financial management, fundraising, and communications. The coordinator ensures effective project delivery and may contribute to other programme initiatives, enhancing the overall impact of ECFR’s work and the programme’s objective. Support the implementation of the Programme’s strategy and work plan under the guidance of the Deputy Director. Coordinate the development and execution of advocacy and communications strategies, ensuring alignment with ECFR’s national offices. Organize and manage all aspects of Programme events, including private meetings, workshops, consultations, and public events. Oversee the deliverables and Programme’s financial management , including budget drafting, monitoring, reporting, and ensuring compliance with grant/donor regulations. Coordinate fundraising efforts and contribute to the preparation of relevant materials and approaches for prospective donors in collaboration with the Strategic Partnerships team. Help strengthen and maintain relationships with current donors, and support donor reporting and grant management. Build and maintain a strong advocacy network by liaising with external contacts, partners, ECFR council members, and relevant stakeholders. Develop and maintain ECFR’s global contact database to support outreach and Programme communications. Track and report on the Programme’s impact to ECFR Leadership Team, Board of Trustees, and external donors/stakeholders. Support effective integration of the programme’s interns, acting as main point of contact and coordinating onboarding, providing guidance, and ensuring they have the resources need</description>
+      <guid isPermaLink="false">https://ecfr.jobs.personio.de/job/2674125</guid>
+      <category>Think Tanks</category>
+      <pubDate>Wed, 17 Jun 2026 10:45:44 +0000</pubDate>
+      <dc:creator>European Council on Foreign Relations</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
   </channel>
 </rss>
