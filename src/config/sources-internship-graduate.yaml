@@ -161,7 +161,7 @@ sources:
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Oracle HCM identifier confirmed 2026-06-17 from ipsos.com/careers HTML. Requires internship signal filter.
+    enabled: true   # ENABLED 2026-06-20: live verification slice. Oracle HCM identifier confirmed. Internship signal filter active.
     notes: "Oracle Recruiting Cloud. api_host=ecqf.fa.em2.oraclecloud.com, site=IpsosCareers — confirmed from ipsos.com/careers source."
 
   - name: "OECD Careers"
@@ -193,7 +193,7 @@ sources:
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Workday identifier confirmed 2026-06-17 (dry-run: 12 jobs). Requires internship signal filter to scope to early-career roles.
+    enabled: true   # ENABLED 2026-06-20: live verification slice. Workday identifier confirmed. Internship signal filter active.
     notes: "Workday wd5. Identifier confirmed live: imf/wd5/IMF. 12 jobs found in dry-run. Positive signal filter required to keep only intern/grad roles from full feed."
 
   - name: "WTO Careers"
@@ -299,7 +299,7 @@ sources:
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Teamtailor extractor exists and is confirmed working (International IDEA, Hanbury Strategy sources). Identifier confirmed: hanburystrategy.teamtailor.com/jobs.json. Separate from the blocked generic entry in sources.yaml (hanburystrategy.com/careers, 403) — do not touch that entry.
+    enabled: true   # ENABLED 2026-06-20: live verification slice. Teamtailor identifier confirmed. Internship signal filter active.
     notes: "Direct Teamtailor board at hanburystrategy.teamtailor.com. TeamTailor extractor fetches /jobs.json paginated feed. Requires intern signal filter since board posts all Hanbury roles, not only early-career."
 
   # ════════════════════════════════════════════════════════════════════════════
