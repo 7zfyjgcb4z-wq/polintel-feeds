@@ -27,6 +27,9 @@ sources:
     module: "eu_careers_epso"
     schedule: "*/12"
     language: "multilingual"
+    cyclical: true
+    # No cyclical_active_months — EPSO competition notices are published on a rolling basis
+    # throughout the year, but are clustered; off-peak zero results are not anomalies.
     enabled: false  # JS-rendered portal; EU Training and EuroBrussels cover EPSO vacancies
 
   - name: "APPLY4EP (European Parliament)"
@@ -37,7 +40,7 @@ sources:
     module: "apply4ep"
     schedule: "daily"
     language: "multilingual"
-    enabled: false  # /search/offers returns 404; covered by EU Training Jobs
+    enabled: false  # RETIRED 2026-06-17: apply4ep.gestmax.eu/search/offers returns 404 and has not recovered. Permanent EP staff recruitment via this portal appears discontinued. Schuman traineeships repointed to ep-stages.gestmax.eu (separate Gestmax portal). Do not re-enable — remove in next sources cleanup pass.
 
   - name: "EU Training Jobs"
     url: "https://eutraining.eu/eu-jobs"
@@ -234,20 +237,26 @@ sources:
       link: "h2 a, h3 a"
     org_static: "European Commission"
     enrich_description: true
+    cyclical: true
+    cyclical_active_months: [2, 3, 4, 7, 8]  # Feb-Apr (Oct session reg); Jul-Aug (Mar session reg)
+    cyclical_note: "Blue Book opens Oct session registration Feb-Apr; Mar session registration Jul-Aug. Zero results outside these windows is a healthy state."
     enabled: false  # Informational homepage only — redirects to language selector; Blue Book applications require account registration, no individual listing page
 
   - name: "EP Schuman Traineeships"
-    url: "https://www.europarl.europa.eu/at-your-service/en/work-with-us/traineeships"
+    url: "https://ep-stages.gestmax.eu/en/offer/index.html"
     country: "brussels"
     category: "fellowships"
     scraper: "selector"
     selectors:
-      job_card: "article, .vacancy"
-      title: "h2 a, h3 a"
-      link: "h2 a, h3 a"
+      job_card: "li.item-result, div.offer-card, article.offer"
+      title: "h2 a, h3 a, a.offer-title"
+      link: "h2 a, h3 a, a.offer-title"
     org_static: "European Parliament"
     enrich_description: true
-    enabled: false  # Informational page only — Schuman traineeships have fixed annual open/close windows, not individual job listings
+    cyclical: true
+    cyclical_active_months: [5, 10]  # Application windows: 1-31 May and 1-31 October
+    cyclical_note: "Schuman traineeships advertised 1-31 May (autumn intake) and 1-31 October (spring intake). Zero results outside these months is a healthy state, not a selector failure."
+    enabled: false  # REPOINTED 2026-06-17: URL changed from europarl.europa.eu informational page to ep-stages.gestmax.eu offer-index (ep-stages is the live traineeship listings portal, distinct from retired apply4ep.gestmax.eu). TODO (live-verify at enable step): confirm ep-stages.gestmax.eu/en/offer/index.html returns individual traineeship listings during an active application window and validate selector against live HTML.
 
   - name: "Council Traineeships"
     url: "https://www.consilium.europa.eu/en/general-secretariat/jobs/traineeships/"

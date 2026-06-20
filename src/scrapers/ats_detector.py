@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from typing import Optional
 
 from bs4 import BeautifulSoup
@@ -123,5 +124,62 @@ def detect_ats(html: str, url: str) -> Optional[str]:
         or "ashbyhq" in html
     ):
         return "ashby"
+
+    # Workable
+    if (
+        _has_link("workable.com")
+        or _has_iframe("workable.com")
+        or soup.find(id="whr_embed_hook")
+        or "whr_workable" in html
+        or "apply.workable.com" in html
+    ):
+        return "workable"
+
+    # iCIMS
+    if (
+        _has_link("icims.com")
+        or _has_iframe("icims.com")
+        or soup.find(class_=re.compile(r"^iCIMS_", re.I))
+        or soup.find(id="iCIMS_Content")
+        or "iCIMS" in html
+    ):
+        return "icims"
+
+    # Cornerstone OnDemand (csod.com)
+    if (
+        _has_link("csod.com")
+        or _has_iframe("csod.com")
+        or "cornerstone ondemand" in html.lower()
+        or "csod.com" in html
+    ):
+        return "cornerstone"
+
+    # ApplicantPro (isolved Talent Acquisition)
+    if (
+        _has_link("applicantpro.com")
+        or _has_iframe("applicantpro.com")
+        or "applicantpro.com" in html
+    ):
+        return "applicantpro"
+
+    # ApplicantStack (WizeHire)
+    if (
+        _has_link("applicantstack.com")
+        or _has_iframe("applicantstack.com")
+        or "applicantstack.com" in html
+    ):
+        return "applicantstack"
+
+    # Oracle Recruiting Cloud (HCM)
+    if (
+        "oraclecloud.com/hcmUI" in html
+        or _has_link("oraclecloud.com/hcmUI")
+        or _has_iframe("fa.em1.ukg.oraclecloud.com")
+        or _has_iframe("fa.em2.ukg.oraclecloud.com")
+        or _has_iframe("fa.eu.oraclecloud.com")
+        or "talent.oracle.com" in html
+        or "oraclehcm" in html.lower()
+    ):
+        return "oracle_hcm"
 
     return None

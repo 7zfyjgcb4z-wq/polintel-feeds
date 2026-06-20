@@ -1,0 +1,53 @@
+name: Scrape Internship & Graduate Sources
+
+on:
+  schedule:
+    - cron: "0 9 * * *"      # Daily at 09:00 UTC (after UK/Brussels runs)
+  workflow_dispatch:           # Manual trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-internship-graduate
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Create virtual environment
+        run: python3.11 -m venv .venv
+
+      - name: Install dependencies
+        run: |
+          source .venv/bin/activate
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run internship/graduate scrapers
+        run: |
+          source .venv/bin/activate
+          python3 -m src.cli run --country internship_graduate
+
+      - name: Commit results
+        run: |
+          git config user.name "Pol-Intel Bot"
+          git config user.email "bot@orison.co"
+          git add feeds/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(feeds): internship_graduate scraper run [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
