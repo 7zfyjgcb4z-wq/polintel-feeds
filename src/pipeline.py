@@ -223,7 +223,11 @@ async def run_pipeline(
                         prefilter = lambda rec: not _is_senior(rec.get("Title") or rec.get("title") or "")  # noqa: E731
                         postfilter = lambda title, desc_full: _hs(title, desc_full)  # noqa: E731
                     if prefilter is not None:
-                        jobs = await api_extractor.extract(source, prefilter=prefilter, postfilter=postfilter)
+                        _ceiling = source.get("max_detail_fetches") or 200
+                        jobs = await api_extractor.extract(
+                            source, prefilter=prefilter, postfilter=postfilter,
+                            detail_ceiling=_ceiling,
+                        )
                     else:
                         jobs = await api_extractor.extract(source)
                     elapsed = time.monotonic() - t

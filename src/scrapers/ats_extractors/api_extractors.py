@@ -335,7 +335,7 @@ class WorkdayAPIExtractor(BaseATSExtractor):
         m = self._URL_RE.match(url)
         return (m.group(1), m.group(2), m.group(3)) if m else None  # tenant, dc, site
 
-    async def extract(self, source: dict, prefilter=None, postfilter=None) -> list[Job]:
+    async def extract(self, source: dict, prefilter=None, postfilter=None, detail_ceiling: int = _MAX_DESCRIPTIONS) -> list[Job]:
         identifier = source.get("identifier") or {}
         tenant = identifier.get("tenant", "")
         dc = identifier.get("dc", "")
@@ -379,6 +379,8 @@ class WorkdayAPIExtractor(BaseATSExtractor):
         detail_base = f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}"
         jobs = []
         fetched = 0
+        _budget_dropped = 0
+        _empty_at_source = 0
         async with _client() as client:
             for p in all_postings:
                 title = (p.get("title") or "").strip()
@@ -391,7 +393,9 @@ class WorkdayAPIExtractor(BaseATSExtractor):
                 description = ""
                 posted_date = None
                 closing_date = None
-                if fetched < _MAX_DESCRIPTIONS:
+                detail_attempted = False
+                if fetched < detail_ceiling:
+                    detail_attempted = True
                     try:
                         dr = await client.get(f"{detail_base}{ext_path}")
                         if dr.status_code == 200:
@@ -406,13 +410,25 @@ class WorkdayAPIExtractor(BaseATSExtractor):
                         await asyncio.sleep(_DETAIL_DELAY)
                     except Exception as exc:
                         log.debug("Workday detail failed for %s: %s", ext_path, exc)
-                if postfilter is not None and not postfilter(title, description_full):
-                    continue
+                if postfilter is not None:
+                    if not description_full:
+                        if not detail_attempted:
+                            _budget_dropped += 1
+                        else:
+                            _empty_at_source += 1
+                        continue
+                    if not postfilter(title, description_full):
+                        continue
                 jobs.append(Job(
                     title=title, url=job_url, description=description,
                     location=location, posted_date=posted_date, closing_date=closing_date,
                     **base,
                 ))
+        if postfilter is not None and (_budget_dropped or _empty_at_source):
+            log.info(
+                "Workday %s/%s: dropped budget=%d empty-at-source=%d",
+                tenant, site, _budget_dropped, _empty_at_source,
+            )
         return jobs
 
 
@@ -427,7 +443,7 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
         "BEREAVEMENT;FULL_PART_TIME;REGULAR_TEMPORARY;POSTING_DATES;FLEX_FIELDS"
     )
 
-    async def extract(self, source: dict, prefilter=None, postfilter=None) -> list[Job]:
+    async def extract(self, source: dict, prefilter=None, postfilter=None, detail_ceiling: int = _MAX_DESCRIPTIONS) -> list[Job]:
         identifier = source.get("identifier") or {}
         api_host = identifier.get("api_host", "")
         site = identifier.get("site", "")
@@ -472,6 +488,8 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
         detail_base = f"https://{api_host}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails"
         jobs = []
         fetched = 0
+        _budget_dropped = 0
+        _empty_at_source = 0
         async with _client() as client:
             for req in all_reqs:
                 job_id = req.get("Id")
@@ -484,7 +502,9 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
                 closing_date = None
                 description_full = ""
                 description = ""
-                if fetched < _MAX_DESCRIPTIONS:
+                detail_attempted = False
+                if fetched < detail_ceiling:
+                    detail_attempted = True
                     try:
                         dr = await client.get(
                             detail_base,
@@ -501,13 +521,25 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
                         await asyncio.sleep(_DETAIL_DELAY)
                     except Exception as exc:
                         log.debug("OracleHCM detail failed for id=%s: %s", job_id, exc)
-                if postfilter is not None and not postfilter(title, description_full):
-                    continue
+                if postfilter is not None:
+                    if not description_full:
+                        if not detail_attempted:
+                            _budget_dropped += 1
+                        else:
+                            _empty_at_source += 1
+                        continue
+                    if not postfilter(title, description_full):
+                        continue
                 jobs.append(Job(
                     title=title, url=job_url, description=description,
                     location=location, posted_date=posted_date, closing_date=closing_date,
                     **base,
                 ))
+        if postfilter is not None and (_budget_dropped or _empty_at_source):
+            log.info(
+                "OracleHCM %s/%s: dropped budget=%d empty-at-source=%d",
+                api_host, site, _budget_dropped, _empty_at_source,
+            )
         return jobs
 
 
