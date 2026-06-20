@@ -335,7 +335,7 @@ class WorkdayAPIExtractor(BaseATSExtractor):
         m = self._URL_RE.match(url)
         return (m.group(1), m.group(2), m.group(3)) if m else None  # tenant, dc, site
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, prefilter=None) -> list[Job]:
         identifier = source.get("identifier") or {}
         tenant = identifier.get("tenant", "")
         dc = identifier.get("dc", "")
@@ -372,6 +372,10 @@ class WorkdayAPIExtractor(BaseATSExtractor):
                 if not batch or offset >= (total or 0):
                     break
         log.info("Workday %s/%s: %d postings (total=%d)", tenant, site, len(all_postings), total or 0)
+        if prefilter is not None:
+            _pre = len(all_postings)
+            all_postings = [p for p in all_postings if prefilter(p)]
+            log.info("Workday %s/%s: prefilter %d → %d", tenant, site, _pre, len(all_postings))
         detail_base = f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}"
         jobs = []
         fetched = 0
@@ -419,7 +423,7 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
         "BEREAVEMENT;FULL_PART_TIME;REGULAR_TEMPORARY;POSTING_DATES;FLEX_FIELDS"
     )
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, prefilter=None) -> list[Job]:
         identifier = source.get("identifier") or {}
         api_host = identifier.get("api_host", "")
         site = identifier.get("site", "")
@@ -456,6 +460,10 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
                 if not batch or offset >= (total or 0):
                     break
         log.info("OracleHCM %s/%s: %d jobs (total=%d)", api_host, site, len(all_reqs), total or 0)
+        if prefilter is not None:
+            _pre = len(all_reqs)
+            all_reqs = [req for req in all_reqs if prefilter(req)]
+            log.info("OracleHCM %s/%s: prefilter %d → %d", api_host, site, _pre, len(all_reqs))
         portal_base = f"https://{api_host}/hcmUI/CandidateExperience/en/sites/{site}"
         detail_base = f"https://{api_host}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails"
         jobs = []

@@ -202,7 +202,21 @@ async def run_pipeline(
                 platform = source.get("platform")
                 if platform and platform in PLATFORM_EXTRACTORS:
                     api_extractor = PLATFORM_EXTRACTORS[platform]
-                    jobs = await api_extractor.extract(source)
+                    # For internship_graduate sources that filter by signal, pass a
+                    # title-only prefilter into oracle_hcm/workday so detail fetches are
+                    # spent only on signal-matched jobs. prefilter=None (the default) leaves
+                    # all other platforms and all non-internship_graduate paths unchanged.
+                    prefilter = None
+                    if (country == "internship_graduate"
+                            and source.get("require_internship_signal")
+                            and not source.get("curated")
+                            and platform in {"oracle_hcm", "workday"}):
+                        from src.filters.internship_signal import has_internship_signal as _hs  # noqa: PLC0415
+                        prefilter = lambda rec: _hs(rec.get("Title") or rec.get("title") or "")  # noqa: E731
+                    if prefilter is not None:
+                        jobs = await api_extractor.extract(source, prefilter=prefilter)
+                    else:
+                        jobs = await api_extractor.extract(source)
                     elapsed = time.monotonic() - t
                     all_jobs.extend(jobs)
                     sources_succeeded += 1
