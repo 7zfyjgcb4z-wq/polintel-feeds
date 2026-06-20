@@ -335,7 +335,7 @@ class WorkdayAPIExtractor(BaseATSExtractor):
         m = self._URL_RE.match(url)
         return (m.group(1), m.group(2), m.group(3)) if m else None  # tenant, dc, site
 
-    async def extract(self, source: dict, prefilter=None) -> list[Job]:
+    async def extract(self, source: dict, prefilter=None, postfilter=None) -> list[Job]:
         identifier = source.get("identifier") or {}
         tenant = identifier.get("tenant", "")
         dc = identifier.get("dc", "")
@@ -387,6 +387,7 @@ class WorkdayAPIExtractor(BaseATSExtractor):
                     continue
                 job_url = f"https://{tenant}.{dc}.myworkdayjobs.com/{site}{ext_path}"
                 location = p.get("locationsText") or p.get("locationHierarchyReference")
+                description_full = ""
                 description = ""
                 posted_date = None
                 closing_date = None
@@ -397,13 +398,16 @@ class WorkdayAPIExtractor(BaseATSExtractor):
                             dd = dr.json()
                             info = dd.get("jobPostingInfo", {})
                             desc_html = info.get("jobDescription") or ""
-                            description = _clip(_strip_html(desc_html)) if desc_html else ""
+                            description_full = _strip_html(desc_html) if desc_html else ""
+                            description = _clip(description_full) if description_full else ""
                             posted_date = info.get("startDate")
                             closing_date = info.get("endDate")
                         fetched += 1
                         await asyncio.sleep(_DETAIL_DELAY)
                     except Exception as exc:
                         log.debug("Workday detail failed for %s: %s", ext_path, exc)
+                if postfilter is not None and not postfilter(title, description_full):
+                    continue
                 jobs.append(Job(
                     title=title, url=job_url, description=description,
                     location=location, posted_date=posted_date, closing_date=closing_date,
@@ -423,7 +427,7 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
         "BEREAVEMENT;FULL_PART_TIME;REGULAR_TEMPORARY;POSTING_DATES;FLEX_FIELDS"
     )
 
-    async def extract(self, source: dict, prefilter=None) -> list[Job]:
+    async def extract(self, source: dict, prefilter=None, postfilter=None) -> list[Job]:
         identifier = source.get("identifier") or {}
         api_host = identifier.get("api_host", "")
         site = identifier.get("site", "")
@@ -478,6 +482,7 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
                 location = req.get("PrimaryLocation") or None
                 posted_date = req.get("PostedDate")
                 closing_date = None
+                description_full = ""
                 description = ""
                 if fetched < _MAX_DESCRIPTIONS:
                     try:
@@ -489,12 +494,15 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
                             dd = dr.json()
                             detail = (dd.get("items") or [{}])[0]
                             desc_html = detail.get("ExternalDescriptionStr") or ""
-                            description = _clip(_strip_html(desc_html)) if desc_html else ""
+                            description_full = _strip_html(desc_html) if desc_html else ""
+                            description = _clip(description_full) if description_full else ""
                             closing_date = detail.get("ExternalPostedEndDate")
                         fetched += 1
                         await asyncio.sleep(_DETAIL_DELAY)
                     except Exception as exc:
                         log.debug("OracleHCM detail failed for id=%s: %s", job_id, exc)
+                if postfilter is not None and not postfilter(title, description_full):
+                    continue
                 jobs.append(Job(
                     title=title, url=job_url, description=description,
                     location=location, posted_date=posted_date, closing_date=closing_date,

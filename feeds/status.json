@@ -1,27 +1,37 @@
 {
-  "last_run": "2026-06-20T12:48:58Z",
+  "last_run": "2026-06-20T17:12:16Z",
   "country": "internship_graduate",
-  "total_active_jobs": 19,
-  "new_jobs_found": 19,
-  "sources_checked": 1,
-  "sources_succeeded": 1,
+  "total_active_jobs": 34,
+  "new_jobs_found": 34,
+  "sources_checked": 2,
+  "sources_succeeded": 2,
   "sources_failed": 0,
   "sources_disabled": 18,
   "relevance_filtered": 0,
   "descriptions_enriched": 0,
   "feeds_generated": 7,
-  "run_duration_seconds": 31.3,
+  "run_duration_seconds": 53.1,
   "failed_sources": [],
   "per_source": [
     {
       "name": "Ipsos Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 19,
-      "jobs_after_relevance_filter": 19,
+      "jobs_found": 30,
+      "jobs_after_relevance_filter": 30,
       "descriptions_enriched": 0,
-      "duration_seconds": 20.0,
+      "duration_seconds": 28.1,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+    },
+    {
+      "name": "IMF Careers",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 4,
+      "jobs_after_relevance_filter": 4,
+      "descriptions_enriched": 0,
+      "duration_seconds": 11.4,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
     }
   ]
 }

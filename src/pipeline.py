@@ -202,19 +202,28 @@ async def run_pipeline(
                 platform = source.get("platform")
                 if platform and platform in PLATFORM_EXTRACTORS:
                     api_extractor = PLATFORM_EXTRACTORS[platform]
-                    # For internship_graduate sources that filter by signal, pass a
-                    # title-only prefilter into oracle_hcm/workday so detail fetches are
-                    # spent only on signal-matched jobs. prefilter=None (the default) leaves
-                    # all other platforms and all non-internship_graduate paths unchanged.
+                    # Two-stage filter for internship_graduate oracle_hcm/workday sources
+                    # with require_internship_signal:
+                    #   Stage 1 prefilter (list level): drop titles with unambiguous
+                    #     seniority markers; keep neutral titles like "Research Analyst".
+                    #   Stage 2 postfilter (detail level): full has_internship_signal on
+                    #     title + FULL unclipped description (Fix 1: never clip before eval).
+                    # prefilter=None / postfilter=None leave all other platforms and all
+                    # non-internship_graduate paths byte-for-byte unchanged.
                     prefilter = None
+                    postfilter = None
                     if (country == "internship_graduate"
                             and source.get("require_internship_signal")
                             and not source.get("curated")
                             and platform in {"oracle_hcm", "workday"}):
-                        from src.filters.internship_signal import has_internship_signal as _hs  # noqa: PLC0415
-                        prefilter = lambda rec: _hs(rec.get("Title") or rec.get("title") or "")  # noqa: E731
+                        from src.filters.internship_signal import (  # noqa: PLC0415
+                            has_internship_signal as _hs,
+                            is_senior_title as _is_senior,
+                        )
+                        prefilter = lambda rec: not _is_senior(rec.get("Title") or rec.get("title") or "")  # noqa: E731
+                        postfilter = lambda title, desc_full: _hs(title, desc_full)  # noqa: E731
                     if prefilter is not None:
-                        jobs = await api_extractor.extract(source, prefilter=prefilter)
+                        jobs = await api_extractor.extract(source, prefilter=prefilter, postfilter=postfilter)
                     else:
                         jobs = await api_extractor.extract(source)
                     elapsed = time.monotonic() - t
@@ -360,13 +369,21 @@ async def run_pipeline(
                 require_signal = source_cfg.get("require_internship_signal", False)
                 source_jobs = [j for j in all_jobs if j.source_name == source_name]
                 if require_signal:
-                    kept, discarded = filter_by_internship_signal(source_jobs, source_is_curated=is_curated)
-                    if discarded:
-                        log.info(
-                            f"internship_signal filter [{source_name}]: "
-                            f"{len(kept)} kept, {discarded} discarded (no early-career signal)"
-                        )
-                    signal_filtered_jobs.extend(kept)
+                    source_platform = source_cfg.get("platform", "")
+                    if source_platform in {"oracle_hcm", "workday"} and not is_curated:
+                        # Stage-2 postfilter inside the extractor evaluated the full
+                        # unclipped description (Fix 1). Re-running filter_by_internship_signal
+                        # here would use clipped job.description — incorrect. Trust the
+                        # extractor's postfilter as authoritative for these platforms.
+                        signal_filtered_jobs.extend(source_jobs)
+                    else:
+                        kept, discarded = filter_by_internship_signal(source_jobs, source_is_curated=is_curated)
+                        if discarded:
+                            log.info(
+                                f"internship_signal filter [{source_name}]: "
+                                f"{len(kept)} kept, {discarded} discarded (no early-career signal)"
+                            )
+                        signal_filtered_jobs.extend(kept)
                 else:
                     signal_filtered_jobs.extend(source_jobs)
             # Jobs from sources not in active_sources list (shouldn't happen, but be safe)

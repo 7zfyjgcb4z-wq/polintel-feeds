@@ -72,6 +72,24 @@ def _build(term: str) -> re.Pattern:
 
 _PATTERNS: list[re.Pattern] = [_build(t) for t in _ALL_TERMS]
 
+# ── Seniority exclusion for stage-1 pre-detail prefilter ─────────────────────
+# Used by oracle_hcm/workday internship_graduate sources to drop unambiguously
+# non-early-career titles before spending the description-fetch budget.
+_SENIOR_RE = re.compile(
+    r"\b(senior|director|head|vp|vice\s+president|svp|evp|chief|"
+    r"principal|partner|managing\s+director|president|leader|lead|manager)\b",
+    re.IGNORECASE,
+)
+
+
+def is_senior_title(title: str) -> bool:
+    """True if the title contains an unambiguous seniority marker.
+
+    Only drops titles that are unambiguously NOT early-career.
+    Neutral titles like 'Research Analyst' or 'Data Associate' return False.
+    """
+    return bool(_SENIOR_RE.search(title))
+
 
 def has_internship_signal(title: str, body: str = "") -> bool:
     """True if title or body contains at least one early-career keyword."""
