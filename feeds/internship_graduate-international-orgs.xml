@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
+  <channel>
+    <title>Internship &amp; Graduate — International Organisations</title>
+    <link>/internship_graduate-international-orgs.xml</link>
+    <description>Job listings for International Organisations roles, scraped by Pol-Intel.</description>
+    <atom:link href="/internship_graduate-international-orgs.xml" rel="self" />
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 20 Jun 2026 12:31:02 +0000</lastBuildDate>
+    <item>
+      <title>Research Analyst under the Research Analyst Program (RAP)</title>
+      <link>https://imf.wd5.myworkdayjobs.com/IMF/job/USA-Washington-DC/Research-Analyst-under-the-Research-Analyst-Program--RAP-_26-R8967</link>
+      <description>Work for the IMF. Work for the World. Work for the IMF. Work for the World. The Fund is currently seeking talented and motivated individuals with strong quantitative and analytical skills to join its Research Analyst Program (RAP). This program offers a unique opportunity for recent graduates to gain useful entry-level analyst experience and contribute to the IMF's important research and analytical projects before pursuing graduate studies. The RAP is limited to a two-year contractual period. All positions are located at the IMF Headquarters in downtown Washington, D.C. with Research Analysts in the RAP hired on a wide geographical basis. Job Summary As a RAP participant, you will contribute to, and support the operational and policy work of Fund economists. RAP participants may be asked to conduct research, collect and compile information, access and manipulate macroeconomic data from a wide range of sources. The RAP candidate will be expected to maintain and update economic, financial, and statistical databases, conduct quantitative data analysis utilizing econometric and other statistical tools, evaluate economic, financial or statistical relationships in databases, analyze economic time series data, and design systems to facilitate interfaces or to transfer data between external and in-house databases. As a research analyst, you will collaborate with economists and others on various projects and stay up to date with the latest developments in economics and related topics. This opportunity may meet PREDOC requirements for applications to subsequent academic study. Minimum Qualifications: •Recent completion of a bachelor's degree in economics, computer science, statistics, mathematics, finance, data science or other related quantitative field is required. Candidates with advanced degrees in the same relevant field may be considered with limited combined professional experience. •A cumulative GPA of at least 3.5/4.0 (or equivalent for international diplomas) in bot</description>
+      <guid isPermaLink="false">https://imf.wd5.myworkdayjobs.com/IMF/job/USA-Washington-DC/Research-Analyst-under-the-Research-Analyst-Program--RAP-_26-R8967</guid>
+      <category>International Organisations</category>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <dc:creator>International Monetary Fund</dc:creator>
+    <polintel:location>USA, Washington DC</polintel:location></item>
+    <item>
+      <title>Economist/Sr. Economist (Contractual) (ICDMM)</title>
+      <link>https://imf.wd5.myworkdayjobs.com/IMF/job/USA-Washington-DC/Economist-Sr-Economist--Contractual---ICDMM-_26-R9342</link>
+      <description>Work for the IMF. Work for the World. The Macro- Modelling and Monetary Division of ICD has openings for Economist/Senior Economists positions. The selected candidate(s) will be involved in the development and delivery of capacity development (CD) in macroeconomic frameworks, focusing on topics in monetary policy, exchange rate policy, managing capital flows, forecasting and nowcasting, model-based monetary policy analysis and DSGE models. Modalities include technical assistance delivered in-country and virtually, and training conducted face-to-face and virtual at HQ and the regional CD centers. S/he will provide technical assistance (TA) in the area of macroeconomic frameworks, mainly to central banks and other macroeconomic management institutions, designed to help member countries build capacity for macroeconomic forecasting and policy analysis in support of policymaking. The emphasis will be in the use of nowcasting and near-term forecasting tools, semi-structural gap models and DSGE models, tailored to different country settings (including FCS, LICs and EMEs). In addition, the selected candidate is expected to deliver lectures and guide course participants (country officials and Fund staff) through hands-on workshops covering ICD’s training curriculum on macroeconomic and monetary policies, including analytical methods, modeling, and forecasting. The selected candidate is expected to be actively engaged in innovative ways to develop and deliver CD, including by conducting research in relevant areas, and to contribute to divisional and departmental projects as they arise. Minimum Qualifications: Educational development, including and/or supplemented by work experience, typically acquired through the completion of considerable graduate work in economics, or equivalent, is required. Additional Qualifications: The successful candidate should have strong academic and policy-oriented background in macroeconomics and modeling, good knowledge of Fund policies and pract</description>
+      <guid isPermaLink="false">https://imf.wd5.myworkdayjobs.com/IMF/job/USA-Washington-DC/Economist-Sr-Economist--Contractual---ICDMM-_26-R9342</guid>
+      <category>International Organisations</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <dc:creator>International Monetary Fund</dc:creator>
+    <polintel:location>USA, Washington DC</polintel:location></item>
+  </channel>
+</rss>

@@ -10,3 +10,6 @@ build/
 
 # Supabase project export — personal data, must not be committed
 pol-intel-dee06a09/
+
+# Supabase CLI local state (created by supabase link)
+supabase/.temp/

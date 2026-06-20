@@ -299,7 +299,7 @@ sources:
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: true   # ENABLED 2026-06-20: live verification slice. Teamtailor identifier confirmed. Internship signal filter active.
+    enabled: false  # REVERTED 2026-06-20: live-run returned 0 jobs (TeamTailor /jobs.json returned empty feed). Backlog pending investigation.
     notes: "Direct Teamtailor board at hanburystrategy.teamtailor.com. TeamTailor extractor fetches /jobs.json paginated feed. Requires intern signal filter since board posts all Hanbury roles, not only early-career."
 
   # ════════════════════════════════════════════════════════════════════════════

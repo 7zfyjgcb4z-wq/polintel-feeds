@@ -1,9 +1,11 @@
 {
-  "generated_at": "2026-06-12T21:17:00Z",
+  "generated_at": "2026-06-20T12:31:02Z",
   "alerts": [],
   "_tracking": {
     "consecutive_failures": {
-      "TestNoATS": 0
+      "Ipsos Careers": 0,
+      "IMF Careers": 0,
+      "Hanbury Strategy Careers": 0
     }
   }
 }
