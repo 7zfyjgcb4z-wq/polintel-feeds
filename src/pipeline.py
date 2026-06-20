@@ -34,6 +34,7 @@ COUNTRY_CONFIG = {
     "nordics": CONFIG_DIR / "sources-nordics.yaml",
     "cee": CONFIG_DIR / "sources-cee.yaml",
     "pan-eu": CONFIG_DIR / "sources-pan-eu.yaml",
+    "internship_graduate": CONFIG_DIR / "sources-internship-graduate.yaml",
 }
 
 # Regions that use country_code (ISO alpha-2) per source rather than a country
@@ -86,7 +87,7 @@ async def run_pipeline(
     # "all" runs each country's pipeline sequentially and returns aggregated totals
     if country == "all":
         combined: dict = {"total": 0, "new": 0, "active": 0, "failed": []}
-        for c in ["uk", "brussels", "us", "dach", "southern", "benelux", "nordics", "cee", "pan-eu"]:
+        for c in ["uk", "brussels", "us", "dach", "southern", "benelux", "nordics", "cee", "pan-eu", "internship_graduate"]:
             result = await run_pipeline(
                 country=c,
                 sources=sources,
@@ -119,7 +120,9 @@ async def run_pipeline(
     disabled = [s for s in all_sources if not s.get("enabled", True)]
 
     active_sources = [s for s in all_sources if s.get("enabled", True)]
-    if country and country != "all":
+    if country and country != "all" and country != "internship_graduate":
+        # internship_graduate sources span multiple geographic countries — don't
+        # filter by source.country; all entries in that config file are in scope.
         active_sources = [s for s in active_sources if s.get("country", "uk") == country]
     if sources:
         active_sources = [s for s in active_sources if s["name"] in sources]
@@ -329,6 +332,36 @@ async def run_pipeline(
             "skipping. Convert to selector, rss_feed, or ats_auto."
         )
 
+    # ── Internship/graduate positive signal filter (pipeline-scoped) ──────────
+    # Applied before the general relevance filter. Keeps only jobs with an
+    # early-career keyword in title/description for sources that are NOT curated
+    # dedicated boards. Curated sources (curated: true) pass through unchanged.
+    if country == "internship_graduate":
+        try:
+            from src.filters.internship_signal import filter_by_internship_signal  # noqa: PLC0415
+            signal_filtered_jobs: list[Job] = []
+            for source_cfg in active_sources:
+                source_name = source_cfg.get("name", "")
+                is_curated = source_cfg.get("curated", False)
+                require_signal = source_cfg.get("require_internship_signal", False)
+                source_jobs = [j for j in all_jobs if j.source_name == source_name]
+                if require_signal:
+                    kept, discarded = filter_by_internship_signal(source_jobs, source_is_curated=is_curated)
+                    if discarded:
+                        log.info(
+                            f"internship_signal filter [{source_name}]: "
+                            f"{len(kept)} kept, {discarded} discarded (no early-career signal)"
+                        )
+                    signal_filtered_jobs.extend(kept)
+                else:
+                    signal_filtered_jobs.extend(source_jobs)
+            # Jobs from sources not in active_sources list (shouldn't happen, but be safe)
+            active_names = {s.get("name", "") for s in active_sources}
+            signal_filtered_jobs.extend(j for j in all_jobs if j.source_name not in active_names)
+            all_jobs = signal_filtered_jobs
+        except Exception as exc:
+            log.warning(f"Internship signal filter failed (non-fatal): {exc}")
+
     # ── Relevance filter ──────────────────────────────────────────────────────
     pre_filter_total = len(all_jobs)
     pre_by_source: dict[str, int] = {}
@@ -455,14 +488,23 @@ async def run_pipeline(
     except Exception as exc:
         log.warning(f"Location extraction pass failed (non-fatal): {exc}")
 
-    # ── Store ─────────────────────────────────────────────────────────────────
-    new_count = db.upsert_jobs(all_jobs)
-    db.expire_by_closing_date()
-    db.mark_stale(days=30)
-    db.purge_old(days=90)
+    # ── Store / feed generation ───────────────────────────────────────────────
+    # internship_graduate pipeline: feeds are the canonical output. Jobs pass
+    # directly from the scrape/filter/enrich steps to the feed writer without
+    # touching the local SQLite store (data/jobs.db). The SQLite path is for
+    # the main regional pipelines only; deduplication and staleness management
+    # for these feeds is handled downstream by the fetch-rss Edge Function.
+    if country == "internship_graduate":
+        new_count = len(all_jobs)
+        active_jobs = all_jobs
+    else:
+        new_count = db.upsert_jobs(all_jobs)
+        db.expire_by_closing_date()
+        db.mark_stale(days=30)
+        db.purge_old(days=90)
+        active_jobs = db.get_active_jobs(country=country)
 
     # ── Generate feeds ────────────────────────────────────────────────────────
-    active_jobs = db.get_active_jobs(country=country)
     feed_counts = generate_feeds(active_jobs, output_dir=output_dir, base_url=base_url, country=country)
 
     # ── Per-source log summaries ──────────────────────────────────────────────
@@ -507,6 +549,18 @@ async def run_pipeline(
                 )
     except Exception as exc:
         log.warning(f"Per-source log summaries failed (non-fatal): {exc}")
+
+    # ── Cyclical metadata enrichment ──────────────────────────────────────────
+    # Annotate per-source results with cyclical scheduling metadata from source
+    # configs so generate_alerts() can suppress false alarms during off-windows.
+    source_meta_by_name = {s["name"]: s for s in all_sources}
+    for entry in per_source_results:
+        cfg = source_meta_by_name.get(entry["name"], {})
+        if cfg.get("cyclical"):
+            entry["cyclical"] = True
+            months = cfg.get("cyclical_active_months")
+            if months:
+                entry["cyclical_active_months"] = months
 
     # ── Health monitoring: alerts then status (order matters — alerts reads old status.json) ──
     total_duration = round(time.monotonic() - pipeline_start, 1)

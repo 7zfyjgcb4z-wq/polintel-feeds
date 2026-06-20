@@ -1,0 +1,348 @@
+# Pol-Intel Internship & Graduate Pipeline Sources
+#
+# Purpose: early-career roles (internships, traineeships, graduate schemes,
+# fellowships, placements, apprenticeships) in politics, policy, public affairs,
+# lobbying, diplomacy and adjacent sectors — UK, EU, US (UK/EU priority).
+#
+# Gate: ALL sources are disabled until ATS extractor Part 1 is verified.
+# Convention mirrors EU national expansion (enabled: false + notes).
+#
+# ingestion_pipeline: 'internship_graduate' on every source — documentation only.
+# Not read by the Python pipeline (Job model has no such field). Provenance at
+# the Supabase level is carried via the `source` column (= source_label in the
+# rss_sources table). See data/seeds/internship_graduate_rss_sources.sql.
+#
+# Compliance posture: green/amber/red per existing 173-source framework.
+# Red = excluded outright. Amber = disabled, flagged for manual review.
+# Green = enabled once gating condition is met.
+#
+# Staged rollout: Class A boards first, then Class B ATS-backed, then Class C.
+# Signal: sources with require_internship_signal: true apply the positive
+# early-career keyword filter (src/filters/internship_signal.py) after scraping
+# to keep only internship/graduate-relevant postings. Curated dedicated boards
+# (curated: true) are exempt — their output is already early-career by design.
+#
+# De-duplication: all EXISTING sources removed. Manifest at
+# data/seeds/internship_graduate_dedupe.md.
+
+sources:
+
+  # ════════════════════════════════════════════════════════════════════════════
+  # CLASS A — Dedicated boards (custom parser, curated, CURATED_SOURCES exempt)
+  # These boards are internship/early-career focused by design. All output is
+  # passed through without positive-signal screening.
+  # ════════════════════════════════════════════════════════════════════════════
+
+  - name: "PubAffairs Networking Jobs"
+    url: "https://www.publicaffairsnetworking.com/public-affairs-jobs.php"
+    country: uk
+    category: public-affairs
+    scraper: selector
+    selectors:
+      job_card: "div.job-snippet"
+      title: "div.job-titles h2"
+      link: "a[href*='/vacancy/']"
+      location: "div.job-titles h3"
+    org_static: "PubAffairs Networking"
+    enrich_description: true
+    curated: true
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Selector verified 2026-06-17: div.job-snippet > div.job-titles h2, 9 live jobs confirmed.
+    notes: "PHP static listing page. Selector confirmed 2026-06-17: div.job-snippet > a > div.job-titles h2. Includes GraduateForward and public affairs graduate roles. 9 live jobs on dry-run. Class A dedicated board — curated, exempt from positive signal screening."
+
+  - name: "ConservativeJobs.com"
+    url: "https://conservativejobs.com"
+    country: us
+    category: us-campaigns
+    scraper: selector
+    selectors:
+      job_card: "div.job-listing, article.job, li.job"
+      title: "h2 a, h3 a, a.job-title"
+      link: "h2 a, h3 a, a.job-title"
+    enrich_description: true
+    curated: true
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Investigate HTML structure before enabling.
+    notes: "Proprietary US political job board, intern-heavy. Class A dedicated board. Selector needs verification against live HTML structure."
+
+  - name: "Roll Call Jobs"
+    url: "https://www.rcjobs.com"
+    country: us
+    category: us-congress
+    scraper: selector
+    selectors:
+      job_card: "div.job-listing, li.job-result, article.job"
+      title: "h2 a, h3 a, a.job-title"
+      link: "h2 a, h3 a, a.job-title"
+    enrich_description: true
+    curated: true
+    ingestion_pipeline: internship_graduate
+    compliance_posture: amber
+    enabled: false  # GATED + AMBER: YourMembership platform; verify ToS and HTML access before enabling. Disabled until ATS extractor Part 1 verified.
+    notes: "YourMembership SaaS job board. Intern/grad postings. Amber: verify ToS and confirm HTML listing access is not login-gated before enabling."
+
+  - name: "Traverse Jobs"
+    url: "https://www.traversejobs.com"
+    country: us
+    category: us-campaigns
+    scraper: selector
+    selectors:
+      job_card: "div.job-listing, li.job, article.job"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    enrich_description: true
+    curated: true
+    ingestion_pipeline: internship_graduate
+    compliance_posture: amber
+    enabled: false  # GATED + AMBER: subscription model; verify ToS and confirm unauthenticated listing access before enabling.
+    notes: "Subscription job board with internship category. Amber: confirm unauthenticated access to listing pages before enabling."
+
+  - name: "Daybook"
+    url: "https://www.daybook.com"
+    country: us
+    category: general
+    scraper: selector
+    selectors:
+      job_card: "div.job, article.listing"
+      title: "h2 a, a.job-title"
+      link: "h2 a, a.job-title"
+    enrich_description: true
+    curated: true
+    ingestion_pipeline: internship_graduate
+    compliance_posture: amber
+    enabled: false  # GATED + AMBER: membership model. Likely requires login. DEFERRED until access confirmed.
+    notes: "Membership-model US political news and jobs platform. Amber: verify unauthenticated access before enabling. May be inaccessible without subscription."
+
+  # ════════════════════════════════════════════════════════════════════════════
+  # CLASS B — ATS-backed single-org (route via ats_auto)
+  # Positive signal screening applied (require_internship_signal: true) to
+  # keep only intern/grad postings from full org job feeds.
+  # ════════════════════════════════════════════════════════════════════════════
+
+  - name: "FleishmanHillard EU Careers"
+    url: "https://fleishmanhillard.eu/careers/"
+    country: brussels
+    category: public-affairs
+    scraper: ats_auto
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. ATS platform TBD — likely Greenhouse; confirm token from careers page HTML.
+    notes: "EU public affairs arm of FleishmanHillard. Seed indicates Greenhouse + iCIMS. Inspect /careers/ HTML to determine active ATS and identifier. Add platform + identifier once confirmed."
+
+  - name: "World Bank Careers"
+    url: "https://www.worldbank.org/ext/en/careers"
+    country: international
+    category: international-orgs
+    scraper: ats_auto
+    platform: cornerstone
+    identifier:
+      account: worldbank
+      site_id: "1"
+    org_static: "World Bank Group"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. site_id TBD — inspect worldbank.csod.com careersite to confirm. Cornerstone extractor added in Phase 1.
+    notes: "Cornerstone OnDemand (worldbank.csod.com). Identifier account=worldbank, site_id needs confirmation from live portal. Extractor added in this build."
+
+  - name: "Ipsos Careers"
+    url: "https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers"
+    country: uk
+    category: research
+    scraper: ats_auto
+    platform: oracle_hcm
+    identifier:
+      api_host: ecqf.fa.em2.oraclecloud.com
+      site: IpsosCareers
+    org_static: "Ipsos"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Oracle HCM identifier confirmed 2026-06-17 from ipsos.com/careers HTML. Requires internship signal filter.
+    notes: "Oracle Recruiting Cloud. api_host=ecqf.fa.em2.oraclecloud.com, site=IpsosCareers — confirmed from ipsos.com/careers source."
+
+  - name: "OECD Careers"
+    url: "https://www.oecd.org/en/about/careers/internships.html"
+    country: international
+    category: international-orgs
+    scraper: ats_auto
+    platform: smartrecruiters
+    identifier:
+      company_id: ""
+    org_static: "OECD"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. company_id TBD — inspect oecd.org/careers HTML for SmartRecruiters company ID. SmartRecruiters extractor exists.
+    notes: "SmartRecruiters platform. Needs company_id from live page (likely 'OECDOrganisationforEconomicCo-operation' or similar). Fill identifier.company_id before enabling."
+
+  - name: "IMF Careers"
+    url: "https://imf.wd5.myworkdayjobs.com/IMF"
+    country: international
+    category: international-orgs
+    scraper: ats_auto
+    platform: workday
+    identifier:
+      tenant: imf
+      dc: wd5
+      site: IMF
+    org_static: "International Monetary Fund"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Workday identifier confirmed 2026-06-17 (dry-run: 12 jobs). Requires internship signal filter to scope to early-career roles.
+    notes: "Workday wd5. Identifier confirmed live: imf/wd5/IMF. 12 jobs found in dry-run. Positive signal filter required to keep only intern/grad roles from full feed."
+
+  - name: "WTO Careers"
+    url: "https://www.wto.org/english/thewto_e/vacan_e/"
+    country: international
+    category: international-orgs
+    scraper: ats_auto
+    platform: workday
+    identifier:
+      tenant: ""
+      dc: ""
+      site: ""
+    org_static: "World Trade Organization"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. tenant/dc/site TBD — inspect wto.org/vacan_e HTML for Workday URL. Workday extractor exists.
+    notes: "Workday platform. Needs tenant/dc/site from live page. Fill identifier before enabling."
+
+  - name: "Oxera Careers"
+    url: "https://careers.oxera.com/jobs"
+    country: uk
+    category: research
+    scraper: ats_auto
+    org_static: "Oxera"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. ATS platform TBD via auto-detection. Add platform + identifier once detected.
+    notes: "Auto-discovery candidate. careers.oxera.com domain — run ATS detector to identify platform. May be Lever, Greenhouse, or custom."
+
+  - name: "YouGov Early Careers"
+    url: "https://jobs.yougov.com/early-careers"
+    country: uk
+    category: research
+    scraper: ats_auto
+    org_static: "YouGov"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: false
+    curated: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Early careers page — likely curated content. ATS platform TBD via auto-detection.
+    notes: "YouGov early careers page. If this is a filtered view (only intern/grad roles), curated=true is appropriate. Confirm ATS platform and set platform+identifier."
+
+  - name: "Savanta Careers"
+    url: "https://savanta.com/about/careers/"
+    country: uk
+    category: research
+    scraper: ats_auto
+    org_static: "Savanta"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. ATS platform TBD via auto-detection.
+    notes: "Auto-discovery candidate. Run ATS detector on /about/careers/ to identify platform."
+
+  - name: "Survation Careers"
+    url: "https://www.survation.com/careers/"
+    country: uk
+    category: research
+    scraper: ats_auto
+    org_static: "Survation"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. ATS platform TBD via auto-detection.
+    notes: "Auto-discovery candidate. Small polling firm. May not have ATS — could be static HTML page."
+
+  - name: "Public First Jobs"
+    url: "https://www.publicfirst.co.uk/jobs.html"
+    country: uk
+    category: public-affairs
+    scraper: ats_auto
+    org_static: "Public First"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. ATS platform TBD via auto-detection. Small consultancy; may have static HTML jobs page.
+    notes: "Auto-discovery candidate. /jobs.html suggests static HTML. Run ATS detector and fall back to selector if no ATS."
+
+  - name: "FTI Consulting Student Careers"
+    url: "https://fticont.referrals.selectminds.com/ftistudentcareers/"
+    country: uk
+    category: public-affairs
+    scraper: ats_auto
+    platform: taleo
+    org_static: "FTI Consulting"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. SelectMinds (Oracle Taleo Social Sourcing) student board. No Taleo/SelectMinds extractor exists in PLATFORM_EXTRACTORS — will fall through to stub/skip when ALLOW_AI_FALLBACK=0. Needs a selector scraper or dedicated extractor before enabling; see notes.
+    notes: "Taleo/SelectMinds referral board at fticont.referrals.selectminds.com/ftistudentcareers/. Separate from the blocked main FTI source (fticonsulting.com/careers, 403) which remains in sources.yaml — do not touch that entry. SelectMinds boards render server-side HTML; when ready to enable, convert to selector scraper with appropriate selectors (div.referrals-list-item h4 a or similar) or implement a SelectMinds extractor."
+
+  - name: "Hanbury Strategy Careers"
+    url: "https://hanburystrategy.teamtailor.com/jobs"
+    country: uk
+    category: public-affairs
+    scraper: ats_auto
+    platform: teamtailor
+    identifier:
+      base_url: hanburystrategy.teamtailor.com
+    org_static: "Hanbury Strategy"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    require_internship_signal: true
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Teamtailor extractor exists and is confirmed working (International IDEA, Hanbury Strategy sources). Identifier confirmed: hanburystrategy.teamtailor.com/jobs.json. Separate from the blocked generic entry in sources.yaml (hanburystrategy.com/careers, 403) — do not touch that entry.
+    notes: "Direct Teamtailor board at hanburystrategy.teamtailor.com. TeamTailor extractor fetches /jobs.json paginated feed. Requires intern signal filter since board posts all Hanbury roles, not only early-career."
+
+  # ════════════════════════════════════════════════════════════════════════════
+  # CLASS C — Institutional portals (RSS/API/scheduled fetch)
+  # These are deferred: no programmatic feed found. Listed for discovery
+  # tracking. CHCI and CBCF are application portals (SurveyMonkey Apply,
+  # AcademicWorks) — no job listing feed exists; seasonal programme pages only.
+  # ════════════════════════════════════════════════════════════════════════════
+
+  - name: "CHCI Congressional Internship"
+    url: "https://chci.org/programs/congressional-internship-program/"
+    country: us
+    category: us-fellowships
+    scraper: selector
+    selectors:
+      job_card: "div.program-item, article"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    org_static: "Congressional Hispanic Caucus Institute"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    curated: true
+    cyclical: true
+    cyclical_active_months: [9, 10, 11, 12, 1, 2]  # Spring cycle apps ~Sep-Feb; summer cycle ~Jan-Apr
+    cyclical_note: "CHCI Congressional Internship runs two cohorts (spring/summer). Application windows are seasonal. Zero results outside cohort recruitment periods is healthy."
+    enabled: false  # DEFERRED: SurveyMonkey Apply portal. No programmatic listing feed. Seasonal (spring/fall applications). Enable only if a static listing page or feed becomes available.
+    notes: "Class C institutional portal. Application via SurveyMonkey Apply — not a job board. No programmatic feed found. Kept as a tracking entry; enable manually when seasonal application window opens and a static page is available."
+
+  - name: "CBCF Internships"
+    url: "https://www.cbcfinc.org/programs/internships/"
+    country: us
+    category: us-fellowships
+    scraper: selector
+    selectors:
+      job_card: "div.program-item, article"
+      title: "h2 a, h3 a"
+      link: "h2 a, h3 a"
+    org_static: "Congressional Black Caucus Foundation"
+    ingestion_pipeline: internship_graduate
+    compliance_posture: green
+    curated: true
+    cyclical: true
+    cyclical_active_months: [10, 11, 12, 1, 2, 3]  # Fall application window approx Oct-Mar
+    cyclical_note: "CBCF internship applications are seasonal. Zero results outside the recruitment window is healthy."
+    enabled: false  # DEFERRED: AcademicWorks portal. No programmatic listing feed. Seasonal. Enable only if a static listing page becomes available.
+    notes: "Class C institutional portal. Application via AcademicWorks — not a job board. No programmatic feed found. Kept as tracking entry."

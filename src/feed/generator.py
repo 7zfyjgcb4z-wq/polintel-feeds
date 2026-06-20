@@ -45,6 +45,8 @@ CATEGORY_LABELS = {
     # EU national categories
     "national-politics": "National Politics",
     "foundations": "Political Foundations",
+    # Internship / graduate pipeline categories
+    "research": "Research & Polling",
 }
 
 FEED_META: dict[str, dict[str, str]] = {
@@ -108,6 +110,15 @@ FEED_META: dict[str, dict[str, str]] = {
         "eu-affairs": "Pan-European EU Affairs Jobs",
         "international-orgs": "Pan-European International Organisation Jobs",
     },
+    "internship_graduate": {
+        "public-affairs": "Internship & Graduate — Public Affairs & Lobbying",
+        "research": "Internship & Graduate — Research & Polling",
+        "international-orgs": "Internship & Graduate — International Organisations",
+        "us-fellowships": "Internship & Graduate — US Fellowships",
+        "us-campaigns": "Internship & Graduate — US Campaigns",
+        "us-congress": "Internship & Graduate — US Congress",
+        "general": "Internship & Graduate — General",
+    },
 }
 
 # Which categories to generate per country
@@ -137,6 +148,10 @@ COUNTRY_CATEGORIES: dict[str, list[str]] = {
     "nordics": ["think-tanks", "national-politics"],
     "cee": ["think-tanks", "national-politics"],
     "pan-eu": ["eu-affairs", "international-orgs"],
+    "internship_graduate": [
+        "public-affairs", "research", "international-orgs",
+        "us-fellowships", "us-campaigns", "us-congress", "general",
+    ],
 }
 
 
@@ -384,6 +399,8 @@ def generate_alerts(
     alerts: list[dict] = []
     tracking_out: dict[str, dict] = {"consecutive_failures": {}}
 
+    current_month = datetime.now(timezone.utc).month
+
     for entry in current_per_source:
         name = entry["name"]
         current_found = entry.get("jobs_found", 0)
@@ -391,39 +408,52 @@ def generate_alerts(
         prev = prev_by_source.get(name, {})
         prev_found = prev.get("jobs_found")  # None if source is new this run
 
+        # ── Cyclical source: suppress zero-result alerts outside active window ─
+        # Sources with cyclical: true have legitimate empty periods (e.g. Schuman
+        # traineeships, Blue Book, Fast Stream). A zero result outside the configured
+        # active months is a healthy state, not a failure.
+        is_cyclical = entry.get("cyclical", False)
+        active_months = entry.get("cyclical_active_months")  # list[int] or None
+        in_window = (not active_months) or (current_month in active_months)
+
         # ── Zero-result detection ──────────────────────────────────────────────
         if current_status == "success" and current_found == 0:
-            prev_zero_alert = prev_alerts_by_source.get(name, {})
-            had_zero_alert = prev_zero_alert.get("type") == "zero_result_after_success"
+            if is_cyclical and not in_window:
+                # Off-season zero result is healthy — silently reset any prior alert
+                # (do not carry forward a zero_result alert from a previous cycle)
+                pass
+            else:
+                prev_zero_alert = prev_alerts_by_source.get(name, {})
+                had_zero_alert = prev_zero_alert.get("type") == "zero_result_after_success"
 
-            if prev_found is not None and prev_found > 0:
-                # First zero run
-                alerts.append({
-                    "source": name,
-                    "type": "zero_result_after_success",
-                    "previous_count": prev_found,
-                    "current_count": 0,
-                    "consecutive_zeros": 1,
-                    "message": (
-                        f"{name} returned 0 jobs after previously returning {prev_found}. "
-                        "May be broken selector, site redesign, or no current vacancies."
-                    ),
-                })
-            elif had_zero_alert:
-                # Continuing zero — increment counter
-                consecutive = prev_zero_alert.get("consecutive_zeros", 0) + 1
-                original_count = prev_zero_alert.get("previous_count", 0)
-                alerts.append({
-                    "source": name,
-                    "type": "zero_result_after_success",
-                    "previous_count": original_count,
-                    "current_count": 0,
-                    "consecutive_zeros": consecutive,
-                    "message": (
-                        f"{name} returned 0 jobs (was {original_count}) for "
-                        f"{consecutive} consecutive run(s). Review selector or check for vacancies."
-                    ),
-                })
+                if prev_found is not None and prev_found > 0:
+                    # First zero run (inside window or non-cyclical)
+                    alerts.append({
+                        "source": name,
+                        "type": "zero_result_after_success",
+                        "previous_count": prev_found,
+                        "current_count": 0,
+                        "consecutive_zeros": 1,
+                        "message": (
+                            f"{name} returned 0 jobs after previously returning {prev_found}. "
+                            "May be broken selector, site redesign, or no current vacancies."
+                        ),
+                    })
+                elif had_zero_alert:
+                    # Continuing zero — increment counter
+                    consecutive = prev_zero_alert.get("consecutive_zeros", 0) + 1
+                    original_count = prev_zero_alert.get("previous_count", 0)
+                    alerts.append({
+                        "source": name,
+                        "type": "zero_result_after_success",
+                        "previous_count": original_count,
+                        "current_count": 0,
+                        "consecutive_zeros": consecutive,
+                        "message": (
+                            f"{name} returned 0 jobs (was {original_count}) for "
+                            f"{consecutive} consecutive run(s). Review selector or check for vacancies."
+                        ),
+                    })
 
         # ── Consecutive failure detection ──────────────────────────────────────
         prev_fail_counts = prev_tracking.get("consecutive_failures", {})

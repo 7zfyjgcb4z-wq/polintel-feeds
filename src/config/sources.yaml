@@ -96,6 +96,9 @@ sources:
     country: "uk"
     scraper: "generic"
     requires_js: true
+    cyclical: true
+    cyclical_active_months: [9, 10, 11]  # Autumn application window (approx Sep-Nov)
+    cyclical_note: "Fast Stream opens for applications in autumn only. Zero results outside Sep-Nov is a healthy state."
     enabled: false  # Disabled 2026-04-11: JS/React SPA — not scrapeable without Playwright
 
   - name: "FCDO"

@@ -646,6 +646,173 @@ class TeamTailorAPIExtractor(BaseATSExtractor):
         return jobs
 
 
+class ICIMSExtractor(BaseATSExtractor):
+    """iCIMS careers portal — parses the public search iframe HTML.
+    Identifier key: subdomain (e.g. 'careers-brookings' for careers-brookings.icims.com).
+    """
+
+    async def extract(self, source: dict) -> list[Job]:
+        identifier = source.get("identifier") or {}
+        subdomain = identifier.get("subdomain", "")
+        if not subdomain:
+            log.warning("iCIMS: missing identifier.subdomain for %s", source.get("name"))
+            return []
+        base = self._base(source)
+        search_url = f"https://{subdomain}.icims.com/jobs/search?searchResults=true&ss=1&in_iframe=1"
+        async with _client() as client:
+            resp = await client.get(search_url)
+            resp.raise_for_status()
+            html = resp.text
+        soup = BeautifulSoup(html, "lxml")
+        jobs = []
+        for card in soup.select("li.iCIMS_JobCardItem"):
+            title_el = card.select_one(".title h3") or card.select_one("h3")
+            link_el = card.select_one("a.iCIMS_Anchor") or card.select_one("a[href]")
+            if not title_el or not link_el:
+                continue
+            title = title_el.get_text(" ", strip=True)
+            href = link_el.get("href", "")
+            if not href:
+                continue
+            job_url = href if href.startswith("http") else f"https://{subdomain}.icims.com{href}"
+            location_el = card.select_one(".iCIMS_ListJobLocation") or card.select_one(".job-location")
+            location: str | None = location_el.get_text(" ", strip=True) if location_el else None
+            jobs.append(Job(title=title, url=job_url, description="", location=location, **base))
+        log.info("iCIMS %s: %d jobs", subdomain, len(jobs))
+        return jobs
+
+
+class CornerstoneExtractor(BaseATSExtractor):
+    """Cornerstone OnDemand (csod.com) careers site — scrapes the HTML listing page.
+    Identifier keys: account (e.g. 'worldbank'), site_id (numeric career site ID, e.g. '1').
+    """
+
+    async def extract(self, source: dict) -> list[Job]:
+        identifier = source.get("identifier") or {}
+        account = identifier.get("account", "")
+        site_id = identifier.get("site_id", "1")
+        if not account:
+            log.warning("Cornerstone: missing identifier.account for %s", source.get("name"))
+            return []
+        base = self._base(source)
+        list_url = f"https://{account}.csod.com/ux/ats/careersite/{site_id}/home"
+        async with _client() as client:
+            resp = await client.get(list_url)
+            resp.raise_for_status()
+            html = resp.text
+        soup = BeautifulSoup(html, "lxml")
+        jobs = []
+        # Cornerstone renders a JSON array in a script tag: window.__csodInitialState__
+        import json as _json
+        for script in soup.find_all("script"):
+            text = script.string or ""
+            if "__csodInitialState__" in text or "requisitions" in text.lower():
+                # Try to extract JSON
+                m = re.search(r"window\.__csodInitialState__\s*=\s*(\{.*\})", text, re.DOTALL)
+                if m:
+                    try:
+                        state = _json.loads(m.group(1))
+                        reqs = (
+                            state.get("careerSiteJobListState", {})
+                            .get("jobList", {})
+                            .get("requisitionList", [])
+                        )
+                        for req in reqs:
+                            title = (req.get("RequisitionTitle") or "").strip()
+                            req_id = req.get("RequisitionId") or req.get("Id")
+                            if not title or not req_id:
+                                continue
+                            job_url = f"https://{account}.csod.com/ux/ats/careersite/{site_id}/requisition/{req_id}"
+                            location = req.get("JobLocation") or req.get("Location") or None
+                            desc_html = req.get("JobDescription") or ""
+                            description = _clip(_strip_html(desc_html)) if desc_html else ""
+                            jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
+                        if jobs:
+                            log.info("Cornerstone %s (JSON): %d jobs", account, len(jobs))
+                            return jobs
+                    except Exception as exc:
+                        log.debug("Cornerstone JSON parse failed for %s: %s", account, exc)
+        # Fallback: try HTML cards
+        for card in soup.select(".csod-job-item, li.requisition-item, div.job-listing-item"):
+            link_el = card.select_one("a[href]")
+            if not link_el:
+                continue
+            title = link_el.get_text(" ", strip=True)
+            href = link_el.get("href", "")
+            job_url = href if href.startswith("http") else f"https://{account}.csod.com{href}"
+            jobs.append(Job(title=title, url=job_url, description="", **base))
+        log.info("Cornerstone %s (HTML): %d jobs", account, len(jobs))
+        return jobs
+
+
+class ApplicantProExtractor(BaseATSExtractor):
+    """ApplicantPro (isolved Talent Acquisition) — parses the public job listing page.
+    Identifier key: subdomain (e.g. 'carnegieendowment' for carnegieendowment.applicantpro.com).
+    """
+
+    async def extract(self, source: dict) -> list[Job]:
+        identifier = source.get("identifier") or {}
+        subdomain = identifier.get("subdomain", "")
+        if not subdomain:
+            log.warning("ApplicantPro: missing identifier.subdomain for %s", source.get("name"))
+            return []
+        base = self._base(source)
+        list_url = f"https://{subdomain}.applicantpro.com/jobs/"
+        async with _client() as client:
+            resp = await client.get(list_url)
+            resp.raise_for_status()
+            html = resp.text
+        soup = BeautifulSoup(html, "lxml")
+        jobs = []
+        for card in soup.select("li.list-group-item, div.job-item"):
+            link_el = card.select_one("h3.list-group-item-heading a, h3 a, a.job-title")
+            if not link_el:
+                continue
+            title = link_el.get_text(" ", strip=True)
+            href = link_el.get("href", "")
+            if not href:
+                continue
+            job_url = href if href.startswith("http") else f"https://{subdomain}.applicantpro.com{href}"
+            jobs.append(Job(title=title, url=job_url, description="", **base))
+        log.info("ApplicantPro %s: %d jobs", subdomain, len(jobs))
+        return jobs
+
+
+class ApplicantStackExtractor(BaseATSExtractor):
+    """ApplicantStack (WizeHire) — parses the public openings page.
+    Identifier key: subdomain (e.g. 'heritage' for heritage.applicantstack.com).
+    """
+
+    async def extract(self, source: dict) -> list[Job]:
+        identifier = source.get("identifier") or {}
+        subdomain = identifier.get("subdomain", "")
+        if not subdomain:
+            log.warning("ApplicantStack: missing identifier.subdomain for %s", source.get("name"))
+            return []
+        base = self._base(source)
+        list_url = f"https://{subdomain}.applicantstack.com/x/openings"
+        async with _client() as client:
+            resp = await client.get(list_url)
+            resp.raise_for_status()
+            html = resp.text
+        soup = BeautifulSoup(html, "lxml")
+        jobs = []
+        for row in soup.select("tr.as-job-row, div.opening-item, li.opening"):
+            link_el = row.select_one("a[href]")
+            if not link_el:
+                continue
+            title = link_el.get_text(" ", strip=True)
+            href = link_el.get("href", "")
+            if not href:
+                continue
+            job_url = href if href.startswith("http") else f"https://{subdomain}.applicantstack.com{href}"
+            location_el = row.select_one(".location, td.location-col")
+            location: str | None = location_el.get_text(" ", strip=True) if location_el else None
+            jobs.append(Job(title=title, url=job_url, description="", location=location, **base))
+        log.info("ApplicantStack %s: %d jobs", subdomain, len(jobs))
+        return jobs
+
+
 # ── Registry ──────────────────────────────────────────────────────────────────
 
 PLATFORM_EXTRACTORS: dict[str, BaseATSExtractor] = {
@@ -661,6 +828,10 @@ PLATFORM_EXTRACTORS: dict[str, BaseATSExtractor] = {
     "oracle_hcm": OracleHCMAPIExtractor(),
     "paylocity": PaylocityExtractor(),
     "teamtailor": TeamTailorAPIExtractor(),
+    "icims": ICIMSExtractor(),
+    "cornerstone": CornerstoneExtractor(),
+    "applicantpro": ApplicantProExtractor(),
+    "applicantstack": ApplicantStackExtractor(),
 }
 
 # ── URL-pattern detection (no HTTP call) ─────────────────────────────────────
@@ -687,6 +858,16 @@ _URL_PATTERNS: list[tuple[str, str]] = [
     ("fa.em1.ukg.oraclecloud.com", "oracle_hcm"),
     ("fa.em2.ukg.oraclecloud.com", "oracle_hcm"),
     ("fa.eu.oraclecloud.com", "oracle_hcm"),
+    (".icims.com", "icims"),
+    ("icims.com", "icims"),
+    (".csod.com", "cornerstone"),
+    ("csod.com", "cornerstone"),
+    (".applicantpro.com", "applicantpro"),
+    ("applicantpro.com", "applicantpro"),
+    (".applicantstack.com", "applicantstack"),
+    ("applicantstack.com", "applicantstack"),
+    (".workable.com/spi", "workable"),
+    ("apply.workable.com", "workable"),
 ]
 
 
