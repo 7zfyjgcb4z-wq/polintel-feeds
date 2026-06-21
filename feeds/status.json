@@ -1,52 +1,234 @@
 {
-  "last_run": "2026-06-20T15:12:49Z",
-  "country": "us",
-  "total_active_jobs": 1703,
-  "new_jobs_found": 7,
-  "sources_checked": 28,
-  "sources_succeeded": 26,
-  "sources_failed": 2,
-  "sources_disabled": 15,
-  "relevance_filtered": 24,
-  "descriptions_enriched": 739,
-  "feeds_generated": 7,
-  "run_duration_seconds": 617.2,
-  "failed_sources": [
-    "House Employment Bulletin",
-    "LobbyingJobs.com"
-  ],
+  "last_run": "2026-06-21T09:59:00Z",
+  "country": "uk",
+  "total_active_jobs": 2640,
+  "new_jobs_found": 3,
+  "sources_checked": 25,
+  "sources_succeeded": 25,
+  "sources_failed": 0,
+  "sources_disabled": 101,
+  "relevance_filtered": 510,
+  "descriptions_enriched": 416,
+  "feeds_generated": 8,
+  "run_duration_seconds": 1541.4,
+  "failed_sources": [],
   "per_source": [
     {
-      "name": "USAJobs Fellowships",
+      "name": "Civil Service Jobs",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 200,
-      "jobs_after_relevance_filter": 183,
+      "jobs_found": 6250,
+      "jobs_after_relevance_filter": 5775,
+      "descriptions_enriched": 0,
+      "duration_seconds": 1071.8,
+      "notes": "Description enrichment disabled for this source"
+    },
+    {
+      "name": "NICS",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 11,
+      "jobs_after_relevance_filter": 10,
       "descriptions_enriched": 9,
-      "duration_seconds": 8.6
+      "duration_seconds": 1.0
     },
     {
-      "name": "USAJobs",
+      "name": "LGA Jobs",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 188,
-      "jobs_after_relevance_filter": 188,
-      "descriptions_enriched": 7,
-      "duration_seconds": 27.8
+      "jobs_found": 10,
+      "jobs_after_relevance_filter": 10,
+      "descriptions_enriched": 10,
+      "duration_seconds": 32.0
     },
     {
-      "name": "House Employment Bulletin",
+      "name": "CharityJob",
       "scraper_type": "dedicated",
-      "status": "failed",
+      "status": "success",
+      "jobs_found": 358,
+      "jobs_after_relevance_filter": 333,
+      "descriptions_enriched": 332,
+      "duration_seconds": 85.1
+    },
+    {
+      "name": "jobs.ac.uk",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 35,
+      "jobs_after_relevance_filter": 26,
+      "descriptions_enriched": 20,
+      "duration_seconds": 7.9
+    },
+    {
+      "name": "FCA",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 27,
+      "jobs_after_relevance_filter": 27,
+      "descriptions_enriched": 0,
+      "duration_seconds": 26.9,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+    },
+    {
+      "name": "ICO",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 2,
+      "jobs_after_relevance_filter": 2,
+      "descriptions_enriched": 0,
+      "duration_seconds": 2.8,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+    },
+    {
+      "name": "Bank of England",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 13,
+      "jobs_after_relevance_filter": 13,
+      "descriptions_enriched": 0,
+      "duration_seconds": 10.2,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+    },
+    {
+      "name": "ECFR London",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 3,
+      "jobs_after_relevance_filter": 3,
+      "descriptions_enriched": 1,
+      "duration_seconds": 0.7
+    },
+    {
+      "name": "E3G",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
+      "descriptions_enriched": 0,
+      "duration_seconds": 1.8,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+    },
+    {
+      "name": "SEC Newgate",
+      "scraper_type": "ats_auto",
+      "status": "success",
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1,
-      "notes": "Client error '404 Not Found' for url 'https://api.github.com/repos/dwillis/house-jobs/contents/json_gemini_flash'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/4"
+      "duration_seconds": 0.6
     },
     {
-      "name": "Idealist",
-      "scraper_type": "dedicated",
+      "name": "National Audit Office",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 6,
+      "jobs_after_relevance_filter": 6,
+      "descriptions_enriched": 6,
+      "duration_seconds": 1.0
+    },
+    {
+      "name": "IPPR",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.4
+    },
+    {
+      "name": "Policy Exchange",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 1.5
+    },
+    {
+      "name": "Onward",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 1.4
+    },
+    {
+      "name": "NEF",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.7
+    },
+    {
+      "name": "Demos",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.1
+    },
+    {
+      "name": "Liberal Democrats",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 8,
+      "jobs_after_relevance_filter": 8,
+      "descriptions_enriched": 8,
+      "duration_seconds": 1.1
+    },
+    {
+      "name": "SNP",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.9
+    },
+    {
+      "name": "Green Party",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 4,
+      "jobs_after_relevance_filter": 4,
+      "descriptions_enriched": 4,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "Co-operative Party",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
+      "descriptions_enriched": 0,
+      "duration_seconds": 2.4,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+    },
+    {
+      "name": "Ellwood Atfield",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 14,
+      "jobs_after_relevance_filter": 14,
+      "descriptions_enriched": 14,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "Amnesty International UK",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 16,
+      "jobs_after_relevance_filter": 16,
+      "descriptions_enriched": 12,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "TUC",
+      "scraper_type": "selector",
       "status": "success",
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
@@ -54,225 +236,14 @@
       "duration_seconds": 0.0
     },
     {
-      "name": "Political Job Hunt",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 200,
-      "jobs_after_relevance_filter": 196,
-      "descriptions_enriched": 189,
-      "duration_seconds": 2.5
-    },
-    {
-      "name": "LobbyingJobs.com",
-      "scraper_type": "dedicated",
-      "status": "failed",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.1,
-      "notes": "Client error '403 Forbidden' for url 'https://lobbyingjobs.com/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "name": "RAND Corporation Careers",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 8,
-      "jobs_after_relevance_filter": 6,
-      "descriptions_enriched": 0,
-      "duration_seconds": 8.0,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "Truman National Security Project",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.1
-    },
-    {
-      "name": "Manhattan Institute",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 5,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.1,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "CNAS",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 4,
-      "jobs_after_relevance_filter": 4,
-      "descriptions_enriched": 0,
-      "duration_seconds": 3.2,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "Hudson Institute",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 17,
-      "jobs_after_relevance_filter": 17,
-      "descriptions_enriched": 17,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Brookings Institution Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 2,
-      "jobs_after_relevance_filter": 2,
-      "descriptions_enriched": 2,
-      "duration_seconds": 0.2
-    },
-    {
-      "name": "Council on Foreign Relations Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 29,
-      "jobs_after_relevance_filter": 29,
-      "descriptions_enriched": 29,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "American Enterprise Institute Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 13,
-      "jobs_after_relevance_filter": 13,
-      "descriptions_enriched": 13,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "Heritage Foundation Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 11,
-      "jobs_after_relevance_filter": 11,
-      "descriptions_enriched": 11,
-      "duration_seconds": 0.1
-    },
-    {
-      "name": "Carnegie Endowment for International Peace Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Hoover Institution Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.1
-    },
-    {
-      "name": "Wilson Center Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "New America Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 7,
-      "jobs_after_relevance_filter": 7,
-      "descriptions_enriched": 7,
-      "duration_seconds": 0.1
-    },
-    {
-      "name": "Atlantic Council Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Third Way Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 6,
-      "jobs_after_relevance_filter": 6,
-      "descriptions_enriched": 6,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "Public Affairs Council Jobs",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 438,
-      "jobs_after_relevance_filter": 438,
-      "descriptions_enriched": 438,
-      "duration_seconds": 0.5
-    },
-    {
-      "name": "R Street Institute",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.1
-    },
-    {
-      "name": "Niskanen Center",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Peterson Institute for International Economics",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 1,
-      "jobs_after_relevance_filter": 1,
-      "descriptions_enriched": 1,
-      "duration_seconds": 0.1
-    },
-    {
-      "name": "Brennan Center for Justice",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 10,
-      "jobs_after_relevance_filter": 10,
-      "descriptions_enriched": 10,
-      "duration_seconds": 0.1
-    },
-    {
-      "name": "Roosevelt Institute",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.2
-    },
-    {
-      "name": "Foundation List",
+      "name": "W4MP",
       "scraper_type": "rss_feed",
       "status": "success",
-      "jobs_found": 50,
-      "jobs_after_relevance_filter": 49,
+      "jobs_found": 148,
+      "jobs_after_relevance_filter": 148,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.5,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+      "duration_seconds": 0.8,
+      "notes": "Description enrichment disabled for this source"
     }
   ]
 }
