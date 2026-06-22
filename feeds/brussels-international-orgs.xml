@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>International Organisation Jobs (Brussels/NATO)</title>
     <link>/brussels-international-orgs.xml</link>
     <description>Job listings for International Organisations roles, scraped by Pol-Intel.</description>
-    <atom:link href="/brussels-international-orgs.xml" rel="self" />
+    <atom:link href="/brussels-international-orgs.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2026 11:21:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 13:38:44 +0000</lastBuildDate>
     <item>
       <title>Roster: Project Financial Officer, Multiple Locations</title>
       <link>https://careers.idea.int/jobs/7801001-roster-project-financial-officer-multiple-locations</link>
@@ -27,23 +27,5 @@
       <pubDate>Mon, 15 Jun 2026 13:59:00 +0000</pubDate>
       <dc:creator>International IDEA</dc:creator>
     </item>
-    <item>
-      <title>Project Associate, Guatemala</title>
-      <link>https://careers.idea.int/jobs/7817627-project-associate-guatemala</link>
-      <description>Context The International Institute for Democracy and Electoral Assistance (International IDEA) is an intergovernmental organization of 35 member states, with a mission to support sustainable democracy worldwide through policy-relevant knowledge, capacity development, advocacy, and the convening of dialogues. The Institute pursues this mission by developing, sharing and enabling the use of comparative knowledge to reform-makers, combining research, global knowledge tools, and technical assistance to support democratic reform and influence policies and politics at the national and global level. On February 1, 2021, International IDEA’s Latin America and the Caribbean Regional Office (RLAC) was established in the Republic of Panama. We work with democratic institutions throughout the Latin American and Caribbean region to strengthen the effectiveness and legitimacy of democracy and its institutions. Based on a geographic approach, the LAC Programme responds to requests from regional, sub-regional, and national actors, builds capacity through technical assistance and comparative applied knowledge, and provides spaces for dialogue. The Programme serves as an important partner and agenda setter across the region, supporting a wide range of democracy-strengthening initiatives. Following the 1996 Peace Accords, Guatemala has made progress in its democratic transition but continues to face challenges in consolidating democracy, strengthening the rule of law, and restoring public trust in institutions. The period 2026–2027 will be critical, with major institutional renewal processes, including the appointment of key oversight and justice authorities and the organization of the 2027 general elections, presenting important opportunities to strengthen democratic governance. In this context, International IDEA has entered into a Memorandum of Understanding with the Supreme Electoral Tribunal to provide technical assistance, strengthen institutional and civic capacities, promote </description>
-      <guid isPermaLink="false">https://careers.idea.int/jobs/7817627-project-associate-guatemala</guid>
-      <category>International Organisations</category>
-      <pubDate>Mon, 15 Jun 2026 13:59:00 +0000</pubDate>
-      <dc:creator>International IDEA</dc:creator>
-    <polintel:location>Guatemala City</polintel:location></item>
-    <item>
-      <title>Finance and Administrative Officer, Guatemala</title>
-      <link>https://careers.idea.int/jobs/7818182-finance-and-administrative-officer-guatemala</link>
-      <description>Context The International Institute for Democracy and Electoral Assistance (International IDEA) is an intergovernmental organization of 35 member states, with a mission to support sustainable democracy worldwide through policy-relevant knowledge, capacity development, advocacy, and the convening of dialogues. The Institute pursues this mission by developing, sharing and enabling the use of comparative knowledge to reform-makers, combining research, global knowledge tools, and technical assistance to support democratic reform and influence policies and politics at the national and global level. On February 1, 2021, International IDEA’s Latin America and the Caribbean Regional Office (RLAC) was established in the Republic of Panama. We work with democratic institutions throughout the Latin American and Caribbean region to strengthen the effectiveness and legitimacy of democracy and its institutions. Based on a geographic approach, the LAC Programme responds to requests from regional, sub-regional, and national actors, builds capacity through technical assistance and comparative applied knowledge, and provides spaces for dialogue. The Programme serves as an important partner and agenda setter across the region, supporting a wide range of democracy-strengthening initiatives. Following the 1996 Peace Accords, Guatemala has made progress in its democratic transition but continues to face challenges in consolidating democracy, strengthening the rule of law, and restoring public trust in institutions. The period 2026–2027 will be critical, with major institutional renewal processes, including the appointment of key oversight and justice authorities and the organization of the 2027 general elections, presenting important opportunities to strengthen democratic governance. In this context, International IDEA has entered into a Memorandum of Understanding with the Supreme Electoral Tribunal to provide technical assistance, strengthen institutional and civic capacities, promote </description>
-      <guid isPermaLink="false">https://careers.idea.int/jobs/7818182-finance-and-administrative-officer-guatemala</guid>
-      <category>International Organisations</category>
-      <pubDate>Mon, 15 Jun 2026 13:59:00 +0000</pubDate>
-      <dc:creator>International IDEA</dc:creator>
-    <polintel:location>Guatemala City</polintel:location></item>
   </channel>
 </rss>
