@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>UK Public Affairs &amp; Lobbying Jobs</title>
     <link>/uk-public-affairs.xml</link>
     <description>Job listings for Public Affairs roles, scraped by Pol-Intel.</description>
-    <atom:link href="/uk-public-affairs.xml" rel="self"/>
+    <atom:link href="/uk-public-affairs.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 11:57:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 09:22:31 +0000</lastBuildDate>
     <item>
       <title>Head of Advocacy</title>
       <link>https://www.ellwoodatfield.com/jobs/head-of-advocacy</link>
@@ -324,5 +324,14 @@
       <pubDate>Sat, 20 Jun 2026 08:59:36 +0000</pubDate>
       <dc:creator>Ellwood Atfield</dc:creator>
     </item>
+    <item>
+      <title>Policy Manager (Prudential Reporting and Tax)</title>
+      <link>https://www.ellwoodatfield.com/jobs/policy-manager-prudential-reporting-and-tax</link>
+      <description>The organisation ‍ Ellwood Atfield is proud to be partnering with a leading trade association which represents the interests of members across a broad spectrum of financial services. Working closely with industry leaders, government, regulators and the media, the organisation champions the developments of a thriving sector which serves society and ensuring that the UK retains its role as a global leader in financial services. ‍ The opportunity ‍ The trade association are looking for a Policy Manager to support the Prudential Reporting and Tax team in its engagement with members and external stakeholders across government, banks and regulators to lead on various area of policy development relating to prudential reporting and tax rules. ‍ ‍ The role will be involved in undertaking evidence gathering and content development contributing to reports, thought leadership and cross-cutting initiatives such as media content, blogs and online material. This will include items such as the Total Tax Contribution document, Plan for Growth documents and other reports. The role will also offer opportunities to deputise for principles where needed and run individual workstreams as required as well as briefing and drafting of related papers, media content, blogs and online material. Key Responsibilities ‍ Own relationships with subject matter experts and members on subjects relating to prudential reporting and tax. Supporting development of written responses to consultations discussion papers issued by the Prudential Regulation Authority, the Bank of England, HM Treasury, HMRC, the Department of Business and Trade and other external stakeholders. Ensuring policy proposals are supported by credible and integrated research. Working closely with media and communication teams to raise awareness of policy positions and priorities. Key skills ‍ Ability to respond to member needs whilst actively seeking opportunities to innovate and add value. A strong working knowledge of the UK banking landscape including knowledge of the challenges and opportunities impacting the future of the UK banking industry. A track record of providing strategic analysis at pace and synthesise information and complex concepts into meaningful actions or proposals. Works collaboratively across all internal departments to harness skills and experience from across the business to deliver high quality services. Excellent interpersonal skills, the ability to work, and build relationships, with various stakeholders. Strong verbal and written communication skills, clearly and accurately presents information using appropriate language to construct persuasive arguments and points of advocacy that is easy to understand. Comfortable using AI tools to enhance productivity and decision making in day-to-day work. ‍ How to apply: To apply, please submit the form below and include a copy of your CV. Closing date: Tuesday 30th June 9:00am</description>
+      <guid isPermaLink="false">https://www.ellwoodatfield.com/jobs/policy-manager-prudential-reporting-and-tax</guid>
+      <category>Public Affairs</category>
+      <pubDate>Tue, 23 Jun 2026 09:17:36 +0000</pubDate>
+      <dc:creator>Ellwood Atfield</dc:creator>
+    <polintel:location>Man</polintel:location></item>
   </channel>
 </rss>
