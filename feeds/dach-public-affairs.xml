@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 12:22:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 12:06:55 +0000</lastBuildDate>
     <item>
       <title>Public Affairs Manager:in (m/w/d)</title>
       <link>https://jobs.politik-kommunikation.de/stellenanzeigen/public-affairs-managerin-mwd-berlin-helmholtz-gemeinschaft-deutscher-forschungszentren-e-v-12974703</link>
@@ -86,6 +86,24 @@
       <category>Public Affairs</category>
       <pubDate>Thu, 18 Jun 2026 12:38:56 +0000</pubDate>
       <dc:creator>STARK</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
+    <item>
+      <title>Geschäftsführer/in (w, m, d) in Vollzeit für die VKU-Landesgruppe Rheinland-Pfalz</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/geschaftsfuhrerin-w-m-d-in-vollzeit-fur-die-vku-landesgruppe-rheinland-pfalz-mainz-verband-kommunaler-unternehmen-e-v-12974946</link>
+      <description>Ort Verband kommunaler Unternehmen e. V. Deutschhausplatz 1 55116 Mainz</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/geschaftsfuhrerin-w-m-d-in-vollzeit-fur-die-vku-landesgruppe-rheinland-pfalz-mainz-verband-kommunaler-unternehmen-e-v-12974946</guid>
+      <category>Public Affairs</category>
+      <pubDate>Wed, 24 Jun 2026 12:06:41 +0000</pubDate>
+      <dc:creator>Verband kommunaler Unternehmen e. V.</dc:creator>
+    <polintel:location>Mainz</polintel:location></item>
+    <item>
+      <title>Referent (w/m/d) Politik, Regierungs- und Parlamentsbeziehungen</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/referent-wmd-politik-regierungs-und-parlamentsbeziehungen-berlin-die-autobahn-gmbh-des-bundes-12974944</link>
+      <description>Ort Die Autobahn GmbH des Bundes Heidestraße 15 10557 Berlin</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/referent-wmd-politik-regierungs-und-parlamentsbeziehungen-berlin-die-autobahn-gmbh-des-bundes-12974944</guid>
+      <category>Public Affairs</category>
+      <pubDate>Wed, 24 Jun 2026 12:06:41 +0000</pubDate>
+      <dc:creator>Die Autobahn GmbH des Bundes</dc:creator>
     <polintel:location>Berlin</polintel:location></item>
   </channel>
 </rss>
