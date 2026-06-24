@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 15:58:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 15:44:03 +0000</lastBuildDate>
     <item>
       <title>Green &amp; Gold Congressional Aide</title>
       <link>https://www.usajobs.gov:443/job/853548900</link>
@@ -676,15 +676,6 @@
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
-      <title>Physician- Geriatrics &amp; Extended Care- Community Living Center Medical Director</title>
-      <link>https://www.usajobs.gov:443/job/868871900</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $250,000–$350,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/868871900</guid>
-      <category>US Fellowships</category>
-      <pubDate>Tue, 12 May 2026 15:39:40 +0000</pubDate>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
-    <item>
       <title>Physician- Radiologist- Mammography</title>
       <link>https://www.usajobs.gov:443/job/868830000</link>
       <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $350,000–$400,000 PA | Grade: VM</description>
@@ -1053,15 +1044,6 @@
       <pubDate>Fri, 22 May 2026 15:47:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Amarillo, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
-    <item>
-      <title>Staff Physician - Allergy</title>
-      <link>https://www.usajobs.gov:443/job/870391400</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $275,000–$375,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/870391400</guid>
-      <category>US Fellowships</category>
-      <pubDate>Fri, 22 May 2026 15:47:52 +0000</pubDate>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Salisbury, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Gastroenterologist w/Recruitment-Relocation Incentive/EDRP</title>
       <link>https://www.usajobs.gov:443/job/870351400</link>
@@ -1638,5 +1620,23 @@
       <pubDate>Tue, 23 Jun 2026 15:47:40 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Ann Arbor, Michigan</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Hematologist/Oncologist)</title>
+      <link>https://www.usajobs.gov:443/job/874031000</link>
+      <description>The Hematologist/Oncologist at Robley Rex VA Medical Center provides comprehensive care to Veterans with hematologic and oncologic disorders. The incumbent is responsible for evaluation, diagnosis, management, and follow-up of patients referred to Hematology/Oncology services, participates in teachi | Salary: $385,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/874031000</guid>
+      <category>US Fellowships</category>
+      <pubDate>Wed, 24 Jun 2026 15:32:52 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Louisville, Kentucky</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Physician (Chief Physician Gastroenterology)</title>
+      <link>https://www.usajobs.gov:443/job/873990800</link>
+      <description>The Chief of the Gastroenterology (GI) Section reports to the Chief of the Medicine Service. The Chief of Gastroenterology has a combination of administrative, clinical, research and educational roles. | Salary: $225,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/873990800</guid>
+      <category>US Fellowships</category>
+      <pubDate>Wed, 24 Jun 2026 15:32:52 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Phoenix, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
 </rss>
