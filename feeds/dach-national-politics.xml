@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 12:06:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 12:03:23 +0000</lastBuildDate>
     <item>
       <title>109 Politik-Jobs aus über 1.000 Datenquellen</title>
       <link>https://parlamentjobs.de/plus/plan-auswahl/</link>
@@ -62,6 +62,15 @@
       <category>National Politics</category>
       <pubDate>Fri, 19 Jun 2026 13:00:18 +0000</pubDate>
       <dc:creator>Fraktion Die Linke im Bundestag</dc:creator>
+    <polintel:location>Berlin</polintel:location></item>
+    <item>
+      <title>Praktikant*in</title>
+      <link>https://parlamentjobs.de/job/praktikantin-3/</link>
+      <description>Ausschreibung einer Praktikumsstelle im Bundestagsbüro Für mein Berliner Bundestagsbüro suche ich im Zeitraum vom 1. September 2026 bis zum 30. November 2026 eine Praktikantin oder einen Praktikanten zur Unterstützung meiner Abgeordnetentätigkeit. Vorzugsweise in einem Umfang von bis zu 39 Std. pro Woche . Aufgabenschwerpunkte: Allgemeine Bürotätigkeiten (z.B. Telefondienst, Bearbeitung von Posteingang und -ausgang), Beantwortung von Bürgeranliegen sowie eigenständige Bearbeitung von Vorgängen, Recherche und Aufbereitung von aktuellen politischen Themen, Mitarbeit an Veröffentlichungen, Texten, Social Media sowie an der Terminvorbereitung Anforderungsprofil: in Ausbildung oder Studium befindlich, hohes Maß an Eigeninitiative sowie sehr gute Fähigkeiten zum eigenständigen Arbeiten, sehr gute schriftliche und mündliche Ausdrucksweise sowie Kommunikationsstärke, Kenntnisse im Umgang mit E-Mail-Kommunikation und Kalenderverwaltung via MS Outlook von Vorteil, Identifizierung mit sozialdemokratischen Werten Was wir bieten: Spannendes Arbeitsumfeld im Deutschen Bundestag, einen verantwortungsvollen Aufgabenbereich mit hohem Maß an Eigenständigkeit und kreativen Gestaltungsmöglichkeiten, eine faire Vergütung und ein sympathisches Team Dich erwarten spannende Einblicke hinter die Kulissen des Deutschen Bundestages, in parlamentarische Arbeitsweisen sowie verantwortungsvolle Aufgaben im Tätigkeitsbereich des Abgeordnetenbüros. Bei Interesse sende Deine schriftlichen Bewerbungsunterlagen bitte inklusive Anschreiben, Motivationsschreiben (DIN A4-Seite oder als Kurzvideo) und Lebenslauf als zusammenhängendes PDF-Dokument bis zum 10.07.2026 per E-Mail an daniel.walter@bundestag.de . Bei Fragen zur Ausschreibung wende Dich gerne telefonisch unter 030 227 70295 an mein Büro. Wir freuen uns auf Deine Bewerbung! Mit besten Grüßen Daniel Walter, MdB E-Mail senden</description>
+      <guid isPermaLink="false">https://parlamentjobs.de/job/praktikantin-3/</guid>
+      <category>National Politics</category>
+      <pubDate>Thu, 25 Jun 2026 12:03:02 +0000</pubDate>
+      <dc:creator>Daniel Walter, MdB</dc:creator>
     <polintel:location>Berlin</polintel:location></item>
   </channel>
 </rss>
