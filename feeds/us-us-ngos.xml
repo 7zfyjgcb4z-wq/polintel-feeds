@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 15:44:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 15:53:56 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-279/</link>
@@ -95,15 +95,6 @@
       <link>https://www.foundationlist.org/job-details/youth-prevention-specialist/</link>
       <description>V2 is seeking a compassionate, energetic, and dependable Youth Specialist to support middle and high school youth participating in our afterschool prevention and wellness programs. The Youth Specialist plays a key role in creating a safe, suppo</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/youth-prevention-specialist/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Wed, 13 May 2026 15:43:57 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
-    <item>
-      <title>CCR&amp;R Services Manager</title>
-      <link>https://www.foundationlist.org/job-details/ccrr-services-manager-2/</link>
-      <description>Company Background: Community Action is a non-profit organization that provides critical services to low-income families in the areas of housing, homeless services, economic empowerment, family development, and early childhood care and education.</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/ccrr-services-manager-2/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Wed, 13 May 2026 15:43:57 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
@@ -1098,5 +1089,14 @@
       <pubDate>Wed, 24 Jun 2026 15:33:44 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Manager of Personal Giving</title>
+      <link>https://www.foundationlist.org/job-details/manager-of-personal-giving/</link>
+      <description>Leader Dogs for the Blind, an international organization based in Rochester Hills, Michigan, has been empowering individuals who are blind or low vision for over 85 years. We provide comprehensive guide dog services and orientation and mobility train</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/manager-of-personal-giving/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 25 Jun 2026 15:43:46 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>Rochester</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
 </rss>

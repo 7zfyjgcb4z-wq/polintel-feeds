@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 15:44:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 15:53:56 +0000</lastBuildDate>
     <item>
       <title>Green &amp; Gold Congressional Aide</title>
       <link>https://www.usajobs.gov:443/job/853548900</link>
@@ -1432,15 +1432,6 @@
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Charleston, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
-      <title>Physician- Pathologist</title>
-      <link>https://www.usajobs.gov:443/job/872738400</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $200,000–$275,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/872738400</guid>
-      <category>US Fellowships</category>
-      <pubDate>Fri, 12 Jun 2026 16:17:36 +0000</pubDate>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Fayetteville, Arkansas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
-    <item>
       <title>Physician-Chief Health Informatics</title>
       <link>https://www.usajobs.gov:443/job/872923600</link>
       <description>This is an Open Continuous Announcement and may be extended beyond the current closing date until the position is filled. Eligible applications will be referred at regular intervals, as additional vacancies occur and/or on an as-needed basis during the duration of the announcement. Once a selection  | Salary: $300,000–$400,000 PA | Grade: VM</description>
@@ -1549,15 +1540,6 @@
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Charleston, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
-      <title>Operations Supervisor</title>
-      <link>https://www.usajobs.gov:443/job/873383400</link>
-      <description>This position is part of the Hydrocarbons and Geothermal Energy Office, Department of Energy. As a Operations Supervisor, you will serves as principal advisor to the Program Manager on all aspects of planning/programing, budget/finance, and administration | Salary: $169,279–$197,200 PA | Grade: GS</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/873383400</guid>
-      <category>US Fellowships</category>
-      <pubDate>Thu, 18 Jun 2026 16:31:19 +0000</pubDate>
-      <dc:creator>Department of Energy - Agency Wide</dc:creator>
-    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
-    <item>
       <title>Physician- Neurologist</title>
       <link>https://www.usajobs.gov:443/job/873657400</link>
       <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $270,000–$280,000 PA | Grade: VM</description>
@@ -1638,5 +1620,14 @@
       <pubDate>Wed, 24 Jun 2026 15:32:52 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Phoenix, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Staff Psychologist (Suicide Prevention Coordinator)</title>
+      <link>https://www.usajobs.gov:443/job/874256900</link>
+      <description>The Suicide Prevention Coordinator at VA Long Beach serves Veterans at risk for suicide and supports suicide prevention initiatives across VALBHS as part of VA's public health approach to prevention. Welcome to VA Long Beach Tibor Rubin - History | Salary: $126,164–$195,037 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/874256900</guid>
+      <category>US Fellowships</category>
+      <pubDate>Thu, 25 Jun 2026 15:42:51 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Long Beach, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
 </rss>
