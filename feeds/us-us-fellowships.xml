@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 15:53:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 15:35:08 +0000</lastBuildDate>
     <item>
       <title>Green &amp; Gold Congressional Aide</title>
       <link>https://www.usajobs.gov:443/job/853548900</link>
@@ -351,15 +351,6 @@
       <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Johnson City, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
-    <item>
-      <title>Foreign Affairs Specialist (McCain Fellows)</title>
-      <link>https://www.usajobs.gov:443/job/870329200</link>
-      <description>The John S. McCain Strategic Defense Fellowship Program is a 1-year Department of War (DoW) development program for recent advanced degree program graduates from across multiple academic disciplines. While these are temporary appointments, Fellows that successfully complete this program are eligible | Salary: $77,001–$131,826 PA | Grade: GS</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/870329200</guid>
-      <category>US Fellowships</category>
-      <pubDate>Fri, 24 Apr 2026 15:04:58 +0000</pubDate>
-      <dc:creator>Washington Headquarters Services</dc:creator>
-    <polintel:location>Alexandria, Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
       <title>Public Notice for Medical Officer (Direct Hire)</title>
       <link>https://www.usajobs.gov:443/job/856925000</link>
@@ -1513,15 +1504,6 @@
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Phoenix, Arizona</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
     <item>
-      <title>Physician - Director- Oncology Cellular Therapy Program</title>
-      <link>https://www.usajobs.gov:443/job/873358400</link>
-      <description>This position is eligible for Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000) &amp; el | Salary: $200,000–$400,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/873358400</guid>
-      <category>US Fellowships</category>
-      <pubDate>Wed, 17 Jun 2026 16:38:33 +0000</pubDate>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Seattle, Washington</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
-    <item>
       <title>Physician - Pulmonologist - Critical Care</title>
       <link>https://www.usajobs.gov:443/job/873619100</link>
       <description>The Physician is assigned to the Central Texas Veterans Health Care System Pulmonary section. The physician will be on a rotating schedule covering a variety of clinical services including, but not limited to, the intensive care unit (ICU), inpatient pulmonary consultation service, outpatient pulmon | Salary: $360,000–$400,000 PA | Grade: VM</description>
@@ -1629,5 +1611,23 @@
       <pubDate>Thu, 25 Jun 2026 15:42:51 +0000</pubDate>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Long Beach, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Supervisory Psychiatrist (SUD) - Recruitment/Relocation Incentive/EDRP Authorized</title>
+      <link>https://www.usajobs.gov:443/job/874310100</link>
+      <description>This vacancy will remain open until filled. The first cut-off date is 07/02/2026. Additional applications will be referred as needed. (open continuous announcement). A Recruitment/Relocation Incentive may be authorized for a Highly Qualified Individual. | Salary: $215,000–$280,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/874310100</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 26 Jun 2026 15:23:28 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Dallas, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
+    <item>
+      <title>Endocrine and Metabolism Fellow</title>
+      <link>https://www.usajobs.gov:443/job/874435200</link>
+      <description>The Without Compensation (WOC) 3rd-year Endocrine and Metabolism Fellow will provide clinical services in the field of Endocrinology, for the inpatients at the SF VA Medical Center. Specifically, the 3rd year fellow will cover responsibilities of the 1st year fellow, during times that the latter is  | Salary: $0–$0 WC | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/874435200</guid>
+      <category>US Fellowships</category>
+      <pubDate>Fri, 26 Jun 2026 15:23:28 +0000</pubDate>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>San Francisco, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean></item>
   </channel>
 </rss>
