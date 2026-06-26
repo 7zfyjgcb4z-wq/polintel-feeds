@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 11:40:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 11:45:16 +0000</lastBuildDate>
     <item>
       <title>Management Trainee - Innovation, Mumbai</title>
       <link>https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/602</link>
@@ -234,5 +234,14 @@
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <dc:creator>Ipsos</dc:creator>
     <polintel:location>Copenhagen, Denmark</polintel:location></item>
+    <item>
+      <title>Data Analyst, Global Modeling Unit</title>
+      <link>https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/8342</link>
+      <description>What you can expect to be doing: Clean, structure, code, and summarize survey and secondary data Use statistical software (SPSS, R, etc.) and business software (Excel) to uncover and evaluate solutions, and assist project staff in running statistical analyses Apply programming skills (Excel VBA, Python, etc.) to help automate standard statistical procedures and chart creation. Demonstrate your understanding of multivariate analysis and Ipsos proprietary products, and work with Client Service from understanding business questions, to design, analysis and application Work from an analytic plan, assemble Excel outputs or PowerPoint decks to provide results and explanations for Client Service Consistently ensure the timely delivery of error free work This might be the job for you if you have: BS degree or MS degree in Quantitative Marketing or Social Sciences, Statistics, Applied Mathematics, Marketing Research, or a related field of study with an analytic/quantitative/research focus Statistical analysis background is desirable Knowledge and hands-on experience of SPSS or other statistical analysis packages Python, R, VBA coding experience a bonus Understanding of text analytics and AI in marketing research a plus Good communication skills and ability to present data findings in an easy to understand manner to internal and external clients less familiar with statistical techniques Inquisitive personality with a strong desire to learn Ability to work both independently and as part of a team Good attention to details and logical decision-making process If you don’t meet 100% of the requirements, we encourage all who feel they might be a fit for the opportunity to apply. We may consider a variety of backgrounds for a particular role and are also committed to considering candidates for available positions throughout our organization, not just the one you’re applying to! In accordance with NY/CO/CA/WA law, the estimated base salary range for this role is $59.000 to $71,000. </description>
+      <guid isPermaLink="false">https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/8342</guid>
+      <category>Research &amp; Polling</category>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Ipsos</dc:creator>
+    <polintel:location>Culver City, CA, United States</polintel:location></item>
   </channel>
 </rss>
