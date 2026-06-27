@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>International Organisation Jobs (Brussels/NATO)</title>
     <link>/brussels-international-orgs.xml</link>
     <description>Job listings for International Organisations roles, scraped by Pol-Intel.</description>
-    <atom:link href="/brussels-international-orgs.xml" rel="self"/>
+    <atom:link href="/brussels-international-orgs.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 10:55:29 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 10:13:22 +0000</lastBuildDate>
     <item>
       <title>Roster: Project Financial Officer, Multiple Locations</title>
       <link>https://careers.idea.int/jobs/7801001-roster-project-financial-officer-multiple-locations</link>
@@ -27,5 +27,23 @@
       <pubDate>Mon, 15 Jun 2026 13:59:00 +0000</pubDate>
       <dc:creator>International IDEA</dc:creator>
     </item>
+    <item>
+      <title>Associate Project Officer - Western Balkans, Albania</title>
+      <link>https://careers.idea.int/jobs/7963577-associate-project-officer-western-balkans-albania</link>
+      <description>Context The International Institute for Democracy and Electoral Assistance (International IDEA) is an intergovernmental organization composed of 35 member states that supports democracy worldwide. Headquartered in Stockholm and with field offices in 18 countries, it promotes sustainable democratic change by providing comparative knowledge, assisting in democratic reform, and influencing policies and politics. The Institute’s key impact areas are: electoral processes, digitalization and democracy, constitution-building, democracy assessments, as well as political participation and representation. International IDEA supports democratic change through its convening potential at the country, expert, and international levels. It works in the spirit of peer dialogue, nurturing an open and pluralistic understanding of democracy that is respectful of the national context. Based in Brussels, International IDEA’s Regional Europe Programme (REO) implements democracy assistance projects in young democracies across Europe and liaises with European Union institutions and Member States. With the support of its field offices in Albania, Moldova and Ukraine, the Institute supports extensively the integrity of elections in EU enlargement countries, helping national institutions to address emerging issues of digitalization and democracy, cybersecurity, foreign interference and malign information, online campaigning and impact of AI, and liaising them with EU institutions. International IDEA expands its engagement through the second phase of the project “Closing the Digital Gap on Elections in EU Accession”. Building on the Institute’s networks among electoral authorities across the EU candidate and potential candidate countries and EU policymakers in Brussels, the project seeks to foster dialogue and exchanges between stakeholders across the Western Balkans and Eastern Europe—including electoral authorities, policymakers, experts and civil society actors—and relevant EU institutions. </description>
+      <guid isPermaLink="false">https://careers.idea.int/jobs/7963577-associate-project-officer-western-balkans-albania</guid>
+      <category>International Organisations</category>
+      <pubDate>Sat, 27 Jun 2026 10:12:27 +0000</pubDate>
+      <dc:creator>International IDEA</dc:creator>
+    <polintel:location>Tirana</polintel:location></item>
+    <item>
+      <title>Project Coordinator, Albania</title>
+      <link>https://careers.idea.int/jobs/7979069-project-coordinator-albania</link>
+      <description>Context The International Institute for Democracy and Electoral Assistance (International IDEA) is an intergovernmental organization composed of 35 member states that supports democracy worldwide. Headquartered in Stockholm and with field offices in 18 countries, it promotes sustainable democratic change by providing comparative knowledge, assisting in democratic reform, and influencing policies and politics. The Institute’s key impact areas are: electoral processes, digitalization and democracy, constitution-building, democracy assessments, as well as political participation and representation. International IDEA supports democratic change through its convening potential at the country, expert, and international levels. It works in the spirit of peer dialogue, nurturing an open and pluralistic understanding of democracy that is respectful of the national context. Based in Brussels, International IDEA’s Regional Europe Programme (REP) implements democracy assistance projects in young democracies across Europe and liaises with European Union institutions and Member States. With the support of its field offices in Albania, Moldova and Ukraine, the Institute supports extensively the integrity of elections in EU enlargement countries, helping national institutions to address emerging issues of digitalization and democracy, cybersecurity, foreign interference and malign information, online campaigning and impact of AI, and liaising them with EU institutions. International IDEA expands its engagement through the second phase of the project “Closing the Digital Gap on Elections in EU Accession”. Building on the Institute’s networks among electoral authorities across the EU candidate and potential candidate countries and EU policymakers in Brussels, the project seeks to foster dialogue and exchanges between stakeholders across the Western Balkans and Eastern Europe — including electoral authorities, policymakers, experts and civil society actors—and relevant EU institutions</description>
+      <guid isPermaLink="false">https://careers.idea.int/jobs/7979069-project-coordinator-albania</guid>
+      <category>International Organisations</category>
+      <pubDate>Sat, 27 Jun 2026 10:12:27 +0000</pubDate>
+      <dc:creator>International IDEA</dc:creator>
+    <polintel:location>Tirana</polintel:location></item>
   </channel>
 </rss>
