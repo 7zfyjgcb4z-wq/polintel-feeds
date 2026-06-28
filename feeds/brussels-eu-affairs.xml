@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Jun 2026 10:13:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 10:31:00 +0000</lastBuildDate>
     <item>
       <title>IT Business Analyst</title>
       <link>https://eutraining.eu/content/it-business-analyst</link>
@@ -244,15 +244,6 @@
       <dc:creator>EIT</dc:creator>
     <polintel:location>Water Aarhus Denmark</polintel:location></item>
     <item>
-      <title>Communications Manager</title>
-      <link>https://www.eurobrussels.com/job_display/290954/Communications_Manager_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</link>
-      <description>What do you think of this job? I Applied Save This Job Not Interested</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/290954/Communications_Manager_OECD_Organisation_for_Economic_Cooperation_and_Development_Paris_France</guid>
-      <category>EU Affairs</category>
-      <pubDate>Tue, 12 May 2026 10:34:36 +0000</pubDate>
-      <dc:creator>OECD Organisation for Economic Cooperation and</dc:creator>
-    <polintel:location>Development Paris France</polintel:location></item>
-    <item>
       <title>Policy Officer (ETS/Industrial Decarbonisation/Steel Sector)</title>
       <link>https://www.eurobrussels.com/job_display/290920/Policy_Officer_ETS_Industrial_Decarbonisation_Steel_Sector_Carbon_Market_Watch_Brussels_Belgium</link>
       <description>Qualified applicants should send their motivation letter and CV, both in a single pdf document clearly marked with their name, to the link on our website. The application should outline your motivation, skills, areas of interest and availability. Deadline to submit your application: 31 May 2026 . First (online) interviews will take place in the week of 8 June. Second (in-person) interviews will take place in the week of 15 June. Only shortlisted candidates will be contacted, and applicants must refrain from contacting staff during the recruitment process unless shortlisted. Please do not use AI-generated text. Your application will be read by humans. We treat your application confidentially and respect the European General Data Protection Regulation (GDPR) in collecting your personal data. Your application will be automatically acknowledged, but we will not respond to individual enquiries and will only get back to candidates for an interview. CMW is an equal-opportunity employer. We are committed to building a diverse and inclusive workplace. We encourage all qualified candidates to apply, regardless of their race, gender, religion, sexual orientation, age, or any other dimension of diversity. We do require candidates to have the right to work in the EU (specifically in Belgium) because work permit applications are too cumbersome and unpredictable. Candidates must live in Belgium or be willing to relocate by the start date.</description>
@@ -270,15 +261,6 @@
       <pubDate>Tue, 12 May 2026 10:34:16 +0000</pubDate>
       <dc:creator>BBH Becker Bttner</dc:creator>
     <polintel:location>Held Brussels Belgium</polintel:location></item>
-    <item>
-      <title>Principal Officer - Public Health</title>
-      <link>https://www.eurobrussels.com/job_display/290972/Principal_Officer_Public_Health_Department_of_Health_Dublin_Ireland</link>
-      <description>Principal Officer - Public Health Department of Health Dublin, Ireland From € 107,081 up to € 132,450 The Department of Health works to ensure the delivery of high quality and safe health and social care for the people of Ireland. In addition, it promotes effective and efficient management of the health and social care service to ensure best value from health system resources. The Department currently has a vacancy for a Principal Officer – Public Health in the Office of the Chief Medical Officer (CMO). This senior level position offers the successful candidate a dynamic, satisfying and varied role, with competitive terms and conditions. Reporting to the CMO, the Principal Officer – Public Health will be responsible for the management of public health policy and legislation and providing expert public health advice to the CMO. In addition, they will support, lead and create intersectoral partnerships to ensure Ireland has a strong health security competency. For more information and to apply, please use the Apply Now button below. The closing date for receipt of completed applications is 3pm on Thursday, 28 th May . We are committed to a policy of equal opportunity and encourage applications under all nine grounds of the Employment Equality Acts. Apply Now Deadline 28 May Don't forget to mention EuroBrussels when applying.</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/290972/Principal_Officer_Public_Health_Department_of_Health_Dublin_Ireland</guid>
-      <category>EU Affairs</category>
-      <pubDate>Wed, 13 May 2026 10:31:38 +0000</pubDate>
-      <dc:creator>of</dc:creator>
-    <polintel:location>Health Dublin Ireland</polintel:location></item>
     <item>
       <title>Head of Communications</title>
       <link>https://www.eurobrussels.com/job_display/291008/Head_of_Communications_ZWE_Zero_Waste_Europe_Brussels_Belgium</link>
@@ -1251,5 +1233,23 @@
       <pubDate>Sat, 27 Jun 2026 10:11:58 +0000</pubDate>
       <dc:creator>EIT Urban</dc:creator>
     <polintel:location>Mobility Barcelona Spain</polintel:location></item>
+    <item>
+      <title>Communication Officer</title>
+      <link>https://eutraining.eu/content/communication-officer</link>
+      <description>Role at European Medicines Agency (EMA) Info i Amsterdam in The Netherlands. Contract: Temporary. Deadline: 31 Jul.</description>
+      <guid isPermaLink="false">https://eutraining.eu/content/communication-officer</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sun, 28 Jun 2026 10:30:10 +0000</pubDate>
+      <dc:creator>European Medicines Agency (EMA) Info i Amsterdam</dc:creator>
+    <polintel:location>The Netherlands</polintel:location></item>
+    <item>
+      <title>Document Management Officer</title>
+      <link>https://eutraining.eu/content/document-management-officer</link>
+      <description>Role at European Union Drugs Agency (EUDA) Lisbon in Portugal. Contract: Temporary. Deadline: 27 Jul.</description>
+      <guid isPermaLink="false">https://eutraining.eu/content/document-management-officer</guid>
+      <category>EU Affairs</category>
+      <pubDate>Sun, 28 Jun 2026 10:30:10 +0000</pubDate>
+      <dc:creator>European Union Drugs Agency (EUDA) Lisbon</dc:creator>
+    <polintel:location>Portugal</polintel:location></item>
   </channel>
 </rss>
