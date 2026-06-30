@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 13:06:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 11:45:37 +0000</lastBuildDate>
     <item>
       <title>Management Trainee - Innovation, Mumbai</title>
       <link>https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/602</link>
@@ -243,5 +243,14 @@
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <dc:creator>Ipsos</dc:creator>
     <polintel:location>Milano, Italy</polintel:location></item>
+    <item>
+      <title>Syndicated Research Analyst, Financial Services</title>
+      <link>https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/8834</link>
+      <description>What makes this role important at Ipsos? We are looking for someone who is passionate about market research and motivated by a fast-paced and challenging work environment. This is an excellent entry-level role for someone who is interested in starting a career in the consulting and insights industry. In this role, you will be responsible for servicing Financial Services Clients (Banks, Credit Unions, Credit Card Companies, etc.) leveraging some of the largest syndicated banking behaviour tracking studies in Canada. As a Research Analyst, you will support the Account Lead and senior team members as they work with these clients to understand their business issues and execute customized research projects to meet their needs. You will support projects from start to finish, including designing analytical plans with senior team members, extracting data through different software, analyzing said data to generate insights, assisting in developing recommendations, and creating compelling stories and presentations that help illuminate the human behaviors behind the data. You will also be responsible for ensuring the studies run smoothly from an operational standpoint. The Research Analyst will report to the Director and join a team of curious-minded researchers and client partners. What you can expect to be doing: Understand and address business needs/issues of respective clients. Manage multiple survey-based market research projects at once, within timeline, including working closely with other team members and colleagues Design plan analyses. Analyze data and draw conclusions; prepare reports and presentations; make recommendations based on the insights that address the client’s business needs. Quality check study questionnaires &amp; perform in-depth quality checks at every stage of the process Liaising with our internal data collection teams, coding &amp; data processing teams Perform data verification Identify and solve project issues as they arise This might be the job for you </description>
+      <guid isPermaLink="false">https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/8834</guid>
+      <category>Research &amp; Polling</category>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Ipsos</dc:creator>
+    <polintel:location>Toronto, ON, Canada</polintel:location></item>
   </channel>
 </rss>
