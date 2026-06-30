@@ -1,10 +1,7 @@
 {
-  "generated_at": "2026-06-30T11:45:37Z",
+  "generated_at": "2026-06-30T11:59:38Z",
   "alerts": [],
   "_tracking": {
-    "consecutive_failures": {
-      "Ipsos Careers": 0,
-      "IMF Careers": 0
-    }
+    "consecutive_failures": {}
   }
 }
