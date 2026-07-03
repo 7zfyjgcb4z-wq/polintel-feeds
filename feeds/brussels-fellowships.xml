@@ -1,22 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>EU Fellowships &amp; Traineeships</title>
     <link>/brussels-fellowships.xml</link>
     <description>Job listings for Fellowships roles, scraped by Pol-Intel.</description>
-    <atom:link href="/brussels-fellowships.xml" rel="self"/>
+    <atom:link href="/brussels-fellowships.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2026 10:40:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 15:42:03 +0000</lastBuildDate>
     <item>
       <title>Internship with the College of Europe in Natolin</title>
       <link>https://www.coleurope.eu/internship-college-europe-natolin-0</link>
       <description>The College of Europe in Natolin, with its postgraduate Master of Arts in European Interdisciplinary Studies (EIS), is at the cutting edge of the academic study of new developments in the EU and its neighbourhoods. It attracts students from all over Europe and beyond. We are seeking motivated and detail-oriented individuals to support wide range of our activities, including delivering the EIS academic programme, event production, campus maintenance, communication, marketing, ICT and multimedia development, and administration of projects of various scales. The internship will take place in one of the College of Europe in Natolin’s Offices or Units under the supervision of its Head. Main tasks may include: • Preparation of reports and analyses on delegated topics; • Gathering, organizing, and summarizing information and data; • Support in organisation of events and meetings; • Assisting students, professors, alumni, or guests of the College of Europe in Natolin; • Coordination of internal projects; • Creating and/or updating content on our websites and social media; • Technical support and servicing of the campus grounds and buildings; • Help with providing ICT assistance and developing ICT infrastructure. Qualifications: • Proficiency in either English or French or Polish (written and spoken); • Good organisational and communication skills; • Ability to work both independently and as part of a team with accuracy and attention to detail. About the position: • Duration: 1 – 6 months. • Start date: depending on activity and our agreement. • Location: onsite (Warsaw), remote, or hybrid, depending on activity and our agreement. • Modality: full-time or part-time, depending on activity and our agreement. • Type: remunerated civil law contract (umowa zlecenie) under Polish legislation. Application Please send your application in English or French or Polish comprising a detailed curriculum vitae and a motivation letter to internships.natolin@coleurope.eu . Should you require any further information on the advertised position, please write to the same address. The personal data provided in your application will only be processed to determine your qualifications for possible internship with the College of Europe in Natolin.</description>
       <guid isPermaLink="false">https://www.coleurope.eu/internship-college-europe-natolin-0</guid>
       <category>Fellowships</category>
-      <pubDate>Sat, 11 Apr 2026 20:47:15 +0000</pubDate>
       <dc:creator>College of Europe</dc:creator>
-    </item>
+    <polintel:descriptionSource>none</polintel:descriptionSource></item>
   </channel>
 </rss>
