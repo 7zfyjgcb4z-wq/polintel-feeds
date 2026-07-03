@@ -115,7 +115,7 @@ class Scraper(BaseScraper):
                     title=title,
                     url=url,
                     organisation=org,
-                    description=desc[:500],
+                    description=desc,
                     source_name=self.name,
                     category=self.category,
                     country=self.country,

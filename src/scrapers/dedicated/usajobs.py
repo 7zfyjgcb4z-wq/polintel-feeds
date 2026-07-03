@@ -110,7 +110,7 @@ def _build_job(item: dict, source_name: str, category: str, country: str,
         desc_parts.append(f"Salary: {salary_info}")
     if grade:
         desc_parts.append(f"Grade: {grade}")
-    description = " | ".join(desc_parts)[:500] or f"{org} — {title}"
+    description = " | ".join(desc_parts) or f"{org} — {title}"
 
     closing_date = _parse_iso_date(d.get("ApplicationCloseDate", ""))
 

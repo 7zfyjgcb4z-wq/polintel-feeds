@@ -86,7 +86,7 @@ async def test_enrich_description_returns_none_on_exception():
 
 @pytest.mark.asyncio
 async def test_enrich_description_truncates_long_content():
-    long_html = f"<html><body><main><p>{'word ' * 2000}</p></main></body></html>"
+    long_html = f"<html><body><main><p>{'word ' * 3000}</p></main></body></html>"
     mock_resp = _make_mock_response(long_html)
     mock_client = AsyncMock()
     mock_client.__aenter__ = AsyncMock(return_value=mock_client)
@@ -97,7 +97,7 @@ async def test_enrich_description_truncates_long_content():
         result = await enrich_description("https://example.com/jobs/1")
 
     assert result is not None
-    assert len(result) <= 5000
+    assert len(result) <= 10000
 
 
 @pytest.mark.asyncio

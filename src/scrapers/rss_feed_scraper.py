@@ -104,6 +104,12 @@ class RSSFeedScraper:
 
             needs_enrichment = _is_thin_description(description)
 
+            posted_iso = None
+            parsed = entry.get(date_field + "_parsed") or entry.get("published_parsed")
+            if parsed:
+                import time as _time
+                posted_iso = _time.strftime("%Y-%m-%d", parsed)
+
             j = Job(
                 title=title,
                 url=link,
@@ -114,6 +120,8 @@ class RSSFeedScraper:
                 country=country,
                 location=location,
                 partisan_lean=partisan_lean,
+                description_source="api" if description else "none",
+                posted_date=posted_iso,
             )
             # Tag thin descriptions for downstream enrichment
             j._needs_enrichment = needs_enrichment  # type: ignore[attr-defined]

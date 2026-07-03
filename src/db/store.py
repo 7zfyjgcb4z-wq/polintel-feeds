@@ -21,6 +21,8 @@ CREATE TABLE IF NOT EXISTS jobs (
     category TEXT NOT NULL,
     location TEXT,
     closing_date TEXT,
+    posted_date TEXT,
+    description_source TEXT DEFAULT 'none',
     date_scraped TEXT NOT NULL,
     date_first_seen TEXT NOT NULL,
     date_last_seen TEXT NOT NULL,
@@ -63,6 +65,12 @@ class JobStore:
         if "partisan_lean" not in columns:
             self._conn.execute("ALTER TABLE jobs ADD COLUMN partisan_lean TEXT")
             log.info("DB migration: added partisan_lean column to jobs table")
+        if "posted_date" not in columns:
+            self._conn.execute("ALTER TABLE jobs ADD COLUMN posted_date TEXT")
+            log.info("DB migration: added posted_date column to jobs table")
+        if "description_source" not in columns:
+            self._conn.execute("ALTER TABLE jobs ADD COLUMN description_source TEXT DEFAULT 'none'")
+            log.info("DB migration: added description_source column to jobs table")
 
     def upsert_jobs(self, jobs: list[Job]) -> int:
         """Insert or update jobs. Returns count of genuinely new jobs."""
@@ -80,6 +88,25 @@ class JobStore:
                     "UPDATE jobs SET date_last_seen = ?, is_active = 1 WHERE guid = ?",
                     (now, job.guid),
                 )
+                # Bounded self-heal: refresh content only when the incoming description
+                # is strictly longer than the stored one. Never shorten, never touch on ties.
+                row = self._conn.execute(
+                    "SELECT length(coalesce(description,'')) AS dlen, organisation, source_name FROM jobs WHERE guid = ?",
+                    (job.guid,),
+                ).fetchone()
+                new_desc = (job.description or "")[:10000]
+                if row is not None and len(new_desc) > row["dlen"]:
+                    self._conn.execute(
+                        """UPDATE jobs SET description = ?, description_source = ?,
+                           closing_date = coalesce(?, closing_date),
+                           posted_date = coalesce(?, posted_date),
+                           location = coalesce(?, location)
+                           WHERE guid = ?""",
+                        (new_desc, job.description_source, job.closing_date, job.posted_date, job.location, job.guid),
+                    )
+                # Organisation: replace only a source-name placeholder with a real value.
+                if row is not None and row["organisation"] == row["source_name"] and job.organisation and job.organisation != job.source_name:
+                    self._conn.execute("UPDATE jobs SET organisation = ? WHERE guid = ?", (job.organisation, job.guid))
                 continue
 
             # Secondary dedup: title + organisation + source_name match
@@ -100,21 +127,24 @@ class JobStore:
             self._conn.execute(
                 """INSERT INTO jobs
                    (guid, title, url, organisation, description, source_name,
-                    country, category, location, closing_date, date_scraped,
+                    country, category, location, closing_date, posted_date,
+                    description_source, date_scraped,
                     date_first_seen, date_last_seen, language, is_active,
                     partisan_lean)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?)""",
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?)""",
                 (
                     job.guid,
                     job.title,
                     job.url,
                     job.organisation,
-                    job.description[:5000] if job.description else None,
+                    job.description[:10000] if job.description else None,
                     job.source_name,
                     job.country,
                     job.category,
                     job.location,
                     job.closing_date,
+                    job.posted_date,
+                    job.description_source,
                     job.date_scraped,
                     now,
                     now,
@@ -209,6 +239,8 @@ class JobStore:
             category=row["category"],
             location=row["location"],
             closing_date=row["closing_date"],
+            posted_date=row["posted_date"],
+            description_source=row["description_source"] or "",
             date_scraped=row["date_scraped"],
             language=row["language"] or "en",
             partisan_lean=row["partisan_lean"],

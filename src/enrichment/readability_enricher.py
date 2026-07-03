@@ -130,7 +130,7 @@ def _description_from_html(html: str) -> str | None:
         text = " ".join(text.split())
         if len(text) < 50 or _looks_like_challenge(text):
             return None
-        return text[:5000]
+        return text[:10000]
     except Exception:
         return None
 
@@ -180,6 +180,7 @@ async def enrich_jobs(
             desc = _description_from_html(html)
             if desc:
                 job.description = desc
+                job.description_source = "readability"
 
             # Structured metadata from JSON-LD (no extra HTTP request)
             meta = _parse_job_ld(html)

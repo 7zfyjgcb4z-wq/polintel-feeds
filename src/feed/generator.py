@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
@@ -12,6 +13,12 @@ from src.models.job import Job
 
 
 log = logging.getLogger(__name__)
+
+
+def _xml_safe(text: str | None) -> str | None:
+    if text is None:
+        return None
+    return re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
 
 POLINTEL_NS = "https://pol-intel.com/rss-ext/1.0"
 
@@ -253,6 +260,61 @@ def _inject_partisan_lean(out_path: str, jobs: list[Job]) -> None:
         tree.write(out_path, encoding="UTF-8", xml_declaration=True)
 
 
+def _inject_contract_fields(out_path: str, jobs: list[Job]) -> None:
+    """Add <polintel:closingDate> and <polintel:descriptionSource> to items, matched by <guid>."""
+    by_url = {
+        job.url: (job.closing_date, job.description_source)
+        for job in jobs
+        if (job.closing_date and job.closing_date.strip()) or job.description_source
+    }
+    if not by_url:
+        return
+    tree = ET.parse(out_path)
+    root = tree.getroot()
+    channel = root.find("channel")
+    if channel is None:
+        return
+    modified = False
+    for item in channel.findall("item"):
+        guid_el = item.find("guid")
+        if guid_el is None or not guid_el.text:
+            continue
+        vals = by_url.get(guid_el.text.strip())
+        if not vals:
+            continue
+        closing, dsource = vals
+        if closing and closing.strip():
+            el = ET.SubElement(item, f"{{{POLINTEL_NS}}}closingDate")
+            el.text = closing.strip()[:10]
+            modified = True
+        if dsource:
+            el = ET.SubElement(item, f"{{{POLINTEL_NS}}}descriptionSource")
+            el.text = dsource
+            modified = True
+    if modified:
+        tree.write(out_path, encoding="UTF-8", xml_declaration=True)
+
+
+def _ensure_description_element(out_path: str) -> None:
+    """feedgen omits <description> entirely when the body is an empty string
+    (falsy-check in its own serialiser). The empty-description transport
+    guarantee requires every item to carry the element regardless, so
+    ingestion can distinguish 'no body' from 'item missing'."""
+    tree = ET.parse(out_path)
+    root = tree.getroot()
+    channel = root.find("channel")
+    if channel is None:
+        return
+    modified = False
+    for item in channel.findall("item"):
+        if item.find("description") is None:
+            el = ET.SubElement(item, "description")
+            el.text = ""
+            modified = True
+    if modified:
+        tree.write(out_path, encoding="UTF-8", xml_declaration=True)
+
+
 def _write_feed(
     category: str,
     jobs: list[Job],
@@ -284,39 +346,49 @@ def _write_feed(
 
         fe = fg.add_entry()
         fe.id(job.guid)
-        fe.title(job.title)
+        fe.title(_xml_safe(job.title))
         fe.link(href=job.url)
-        fe.description(job.description or "")
+        body = _xml_safe(job.description) or ""
+        if len(body) > 10000:
+            cut = body.rfind(" ", 0, 10000)
+            body = body[: cut if cut > 0 else 10000]
+        fe.description(body)
         # Write organisation as dc:creator (plain text, RSS 2.0 compatible).
         # feedgen's fe.author() only works properly in Atom; in RSS it requires
         # an email address. dc:creator is the correct field for a plain-text
         # organisation name and is what the downstream Lovable parser reads.
         if job.organisation:
-            fe.dc.dc_creator(job.organisation)
+            fe.dc.dc_creator(_xml_safe(job.organisation))
 
-        # pubDate from posted_date if available, else date_scraped
-        try:
-            pub_dt = datetime.fromisoformat(job.posted_date or job.date_scraped)
-            if pub_dt.tzinfo is None:
-                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-        except (ValueError, TypeError):
-            pub_dt = datetime.now(timezone.utc)
-        fe.published(pub_dt)
-        fe.updated(pub_dt)
+        # pubDate ONLY when a real posted date exists. Never fall back to scrape
+        # time or now(): an absent date must stay absent (ingestion stores null).
+        # Date-only values emit as midnight UTC ("date known, time unknown").
+        if job.posted_date:
+            try:
+                pub_dt = datetime.fromisoformat(job.posted_date)
+                if pub_dt.tzinfo is None:
+                    pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+                fe.published(pub_dt)
+                fe.updated(pub_dt)
+            except (ValueError, TypeError):
+                pass  # unparseable date: emit nothing rather than a fabricated value
 
         fe.category({"term": label})
 
-        if job.closing_date:
-            fe.summary(f"Closing: {job.closing_date}. {job.description or ''}"[:500])
-
     out_path = os.path.join(output_dir, f"{country}-{category}.xml")
     fg.rss_file(out_path, pretty=True)
+
+    # Guarantee: every item carries a <description> element, even when empty
+    _ensure_description_element(out_path)
 
     # Inject <polintel:location> when the extractor has populated job.location
     _inject_location(out_path, jobs)
 
     # Inject <polintel:partisanLean> for US jobs (no-op for UK/Brussels)
     _inject_partisan_lean(out_path, jobs)
+
+    # Inject <polintel:closingDate> and <polintel:descriptionSource>
+    _inject_contract_fields(out_path, jobs)
 
     # Validate the written XML parses cleanly (checks final output, post-injection)
     try:
