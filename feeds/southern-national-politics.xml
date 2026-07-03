@@ -1,58 +1,69 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>Southern Europe National Politics Jobs (FR/ES/IT/PT/GR)</title>
     <link>/southern-national-politics.xml</link>
     <description>Job listings for National Politics roles, scraped by Pol-Intel.</description>
-    <atom:link href="/southern-national-politics.xml" rel="self"/>
+    <atom:link href="/southern-national-politics.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 11:54:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 11:52:44 +0000</lastBuildDate>
     <item>
       <title>Attaché(e) parlementaire en circonscription du député Hubert Ott (Haut-Rhin)</title>
       <link>https://www.emplois-politiques.fr/post/attaché-e-parlementaire-en-circonscription-du-député-hubert-ott-haut-rhin</link>
       <description>Lieu : Permanence parlementaire, 3 rue des champs Wintzenheim-Logelbach Prise de poste : Septembre 2026 À propos du poste Dans le cadre du renforcement de son équipe de terrain, le député Hubert OTT recherche un/e collaborateur/trice parlementaire en circonscription afin de contribuer au suivi de son action locale, au développement de sa présence sur le territoire et à l'animation de son réseau d'acteurs et de soutiens. Au cœur de la vie de la circonscription, vous serez char</description>
       <guid isPermaLink="false">https://www.emplois-politiques.fr/post/attaché-e-parlementaire-en-circonscription-du-député-hubert-ott-haut-rhin</guid>
       <category>National Politics</category>
-      <pubDate>Thu, 18 Jun 2026 12:39:13 +0000</pubDate>
       <dc:creator>Emplois Politiques</dc:creator>
-    </item>
+    <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Attaché(e) parlementaire en circonscription du sénateur Olivier Jacquin</title>
       <link>https://www.emplois-politiques.fr/post/attaché-e-parlementaire-en-circonscription-du-sénateur-olivier-jacquin</link>
       <description>Olivier JACQUIN, Sénateur de Meurthe-et-Moselle recrute un.e collaborateur/collaboratrice parlementaire à temps partiel en circonscription pour compléter son équipe. Date de prise de poste : fin août 2026 Pour candidater : CV et lettre de motivation à envoyer à o.jacquin@senat.fr Cadre du travail : Vous intégrerez une équipe de deux personnes, composée d’un collaborateur au Sénat et d’une collaboratrice en circonscription. Vous serez amené.e à travailler en circonscription et</description>
       <guid isPermaLink="false">https://www.emplois-politiques.fr/post/attaché-e-parlementaire-en-circonscription-du-sénateur-olivier-jacquin</guid>
       <category>National Politics</category>
-      <pubDate>Thu, 18 Jun 2026 12:39:13 +0000</pubDate>
       <dc:creator>Emplois Politiques</dc:creator>
-    </item>
+    <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Attaché(e) parlementaire du député Marc Pena (Aix en Provence)</title>
       <link>https://www.emplois-politiques.fr/post/attaché-e-parlementaire-du-député-marc-pena-aix-en-provence</link>
       <description>Marc Pena, député socialiste de la 11ème circonscription des Bouches-du-Rhône est à la recherche de son·sa futur·e collaborateur·trice en circonscription. LE POSTE Le·a collaborateur·trice de Marc Pena sera chargé de la représentation du député au sein de sa circonscription et de son image auprès des différents acteurs qui la composent. PROFIL RECHERCHÉ Diplomé·e en droit, sciences politiques, administration publique ou parcours similaires 2 ans d’expérience souhaitée Permis</description>
       <guid isPermaLink="false">https://www.emplois-politiques.fr/post/attaché-e-parlementaire-du-député-marc-pena-aix-en-provence</guid>
       <category>National Politics</category>
-      <pubDate>Thu, 18 Jun 2026 12:39:13 +0000</pubDate>
       <dc:creator>Emplois Politiques</dc:creator>
-    </item>
+    <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Stagiaire au groupe Les Démocrates (Assemblée)</title>
       <link>https://www.emplois-politiques.fr/post/stagiaire-au-groupe-les-démocrates-assemblée</link>
       <description>Le groupe Les Démocrates recrute deux stagiaires pour accompagner les conseillers du groupe dans le travail législatif. Informations importantes : • Durée : à partir de septembre 2026 et jusqu'à décembre 2026 minimum. • Lieu du stage: Assemblée nationale - Groupe Les Démocrates - 126, Rue de l'Université - 75007 Paris Rémunération : gratification légale Missions : Sous l'autorité du Secrétariat général et la supervision des conseillers, vous êtes plus particulièrement en char</description>
       <guid isPermaLink="false">https://www.emplois-politiques.fr/post/stagiaire-au-groupe-les-démocrates-assemblée</guid>
       <category>National Politics</category>
-      <pubDate>Fri, 19 Jun 2026 13:00:43 +0000</pubDate>
       <dc:creator>Emplois Politiques</dc:creator>
-    </item>
+    <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Stagiaire au cabinet de la Présidente de l'Assemblée nationale</title>
       <link>https://www.emplois-politiques.fr/post/stagiaire-au-cabinet-de-la-présidente-de-l-assemblée-nationale</link>
       <description>Le cabinet de la Présidente de l'Assemblée nationale recherche un(e) stagiaire au sein de son équipe de communication. Auprès des conseillères presse et communication digitale, le/la stagiaire participera activement à la mise en valeur de l' action de la Présidente, dans un environnement exigeant et stimulant, au rythme de l' actualité parlementaire. LES MISSIONS : Création de contenu pour les réseaux sociaux : rédaction / tournage / montage Veille médiatique et social media</description>
       <guid isPermaLink="false">https://www.emplois-politiques.fr/post/stagiaire-au-cabinet-de-la-présidente-de-l-assemblée-nationale</guid>
       <category>National Politics</category>
-      <pubDate>Fri, 26 Jun 2026 11:59:58 +0000</pubDate>
       <dc:creator>Emplois Politiques</dc:creator>
-    </item>
+    <polintel:descriptionSource>none</polintel:descriptionSource></item>
+    <item>
+      <title>Stagiaire dans l’équipe du député Karl Olive</title>
+      <link>https://www.emplois-politiques.fr/post/stagiaire-dans-l-équipe-du-député-karl-olive-1</link>
+      <description>Karl Olive, député des Yvelines, recherche un ou une stagiaire pour l’accompagner dans le cadre d’une initiative parlementaire consacrée aux enjeux agricoles, territoriaux et de transition écologique. Début souhaité : septembre 2026 Durée : 6 mois Lieu : A l’Assemblée nationale et en circonscription Stage conventionné et gratifié Missions Le ou la stagiaire participera à la préparation et au suivi d’un travail parlementaire de fond, avec pour objectif la réalisation d’auditio</description>
+      <guid isPermaLink="false">https://www.emplois-politiques.fr/post/stagiaire-dans-l-équipe-du-député-karl-olive-1</guid>
+      <category>National Politics</category>
+      <dc:creator>Emplois Politiques</dc:creator>
+    <polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Stagiaire au sein du cabinet de la ministre Alice Rufo</title>
+      <link>https://www.emplois-politiques.fr/post/stagiaire-au-sein-du-cabinet-de-la-ministre-alice-rufo</link>
+      <description>Stage de 6 mois (temps plein) - Début le 31 août 2026 Contexte et missions : Le/la stagiaire travaillera au sein du pôle communication du cabinet de la ministre déléguée auprès de la ministre des Armées et des Anciens combattants. Ce pôle se compose de la directrice de cabinet adjointe en charge de la société civile et de la stratégie de communication, d’une chargée de communication et d’une assistante. Le poste vient en renfort de l’équipe. Il s’agira d’un poste à 360° pour</description>
+      <guid isPermaLink="false">https://www.emplois-politiques.fr/post/stagiaire-au-sein-du-cabinet-de-la-ministre-alice-rufo</guid>
+      <category>National Politics</category>
+      <dc:creator>Emplois Politiques</dc:creator>
+    <polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
