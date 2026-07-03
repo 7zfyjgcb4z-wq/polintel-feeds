@@ -75,8 +75,8 @@ sources:
     schedule: "daily"
     language: en
     partisan_lean: nonpartisan
-    enabled: true
-    notes: "Major nonprofit and NGO aggregator. Confirmed live (200). JS-rendered listings — Playwright required. Filter by US location and policy/advocacy/government-relations categories at query time. Apply post-filter to exclude direct-service roles."
+    enabled: false
+    notes: "Major nonprofit and NGO aggregator. Confirmed live (200). JS-rendered listings — Playwright required. Filter by US location and policy/advocacy/government-relations categories at query time. Apply post-filter to exclude direct-service roles. Disabled 2026-07-03: pipeline has no Playwright, so this returned 0 jobs every run behind a misleading green tick."
 
   - name: "Political Job Hunt"
     url: "https://www.politicaljobhunt.com"

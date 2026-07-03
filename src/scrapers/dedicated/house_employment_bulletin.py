@@ -55,7 +55,7 @@ from src.scrapers.base import BaseScraper, USER_AGENT, REQUEST_DELAY
 log = logging.getLogger(f"scraper.{__name__.split('.')[-1]}")
 
 GITHUB_API_DIR = (
-    "https://api.github.com/repos/dwillis/house-jobs/contents/json_gemini_flash"
+    "https://api.github.com/repos/dwillis/house-jobs/contents/json"
 )
 BULLETIN_BASE_URL = (
     "https://www.house.gov/employment/positions-with-members-and-committees"
@@ -84,6 +84,31 @@ def _parse_bulletin_date(filename: str) -> date | None:
         return None
 
 
+def _flatten_bullet(item) -> str:
+    """Normalise one responsibilities/qualifications list entry to plain text.
+
+    Most bulletins give plain strings. Some give a nested heading with its
+    own sub-bullets, e.g. {"Provide support ... including:": ["Conduct
+    research", "Attend briefings"]} — flatten that to one line rather than
+    crashing on the unexpected shape.
+    """
+    if isinstance(item, str):
+        return item.strip()
+    if isinstance(item, dict):
+        segments = []
+        for heading, sub in item.items():
+            heading = str(heading).strip()
+            if isinstance(sub, list):
+                sub_text = ", ".join(str(s).strip() for s in sub if str(s).strip())
+                segments.append(f"{heading} {sub_text}".strip())
+            elif sub:
+                segments.append(f"{heading} {str(sub).strip()}".strip())
+            else:
+                segments.append(heading)
+        return "; ".join(s for s in segments if s)
+    return str(item).strip()
+
+
 def _build_description(entry: dict) -> str:
     """Combine available fields into a human-readable description string."""
     parts: list[str] = []
@@ -94,7 +119,7 @@ def _build_description(entry: dict) -> str:
     # responsibilities is always a list per field inventory
     if resp := entry.get("responsibilities"):
         if isinstance(resp, list) and resp:
-            lines = "; ".join(r.strip() for r in resp[:6] if r.strip())
+            lines = "; ".join(t for t in (_flatten_bullet(r) for r in resp[:6]) if t)
             if lines:
                 parts.append(f"Responsibilities: {lines}")
         elif isinstance(resp, str) and resp.strip():
@@ -103,7 +128,7 @@ def _build_description(entry: dict) -> str:
     # qualifications is always a list per field inventory
     if qual := entry.get("qualifications"):
         if isinstance(qual, list) and qual:
-            lines = "; ".join(q.strip() for q in qual[:5] if q.strip())
+            lines = "; ".join(t for t in (_flatten_bullet(q) for q in qual[:5]) if t)
             if lines:
                 parts.append(f"Qualifications: {lines}")
         elif isinstance(qual, str) and qual.strip():
@@ -137,7 +162,7 @@ class Scraper(BaseScraper):
         if token := os.environ.get("GITHUB_TOKEN", "").strip():
             headers["Authorization"] = f"Bearer {token}"
 
-        # 1. List all JSON files in the json_gemini_flash directory
+        # 1. List all JSON files in the json directory
         async with httpx.AsyncClient(headers=headers, timeout=30.0) as client:
             r = await client.get(GITHUB_API_DIR)
             r.raise_for_status()
