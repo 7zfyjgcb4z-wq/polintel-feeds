@@ -42,6 +42,22 @@ COUNTRY_CONFIG = {
 # generator route jobs correctly.
 EU_NATIONAL_REGIONS = {"dach", "southern", "benelux", "nordics", "cee", "pan-eu"}
 
+# Stored descriptions matching one of these prefixes are degraded page chrome,
+# not real job content, and are re-enriched even though they are 200+ chars.
+# Kept in sync with the duplicate tuple in src/enrichment/readability_enricher.py.
+DEGRADED_PREFIXES = (
+    "To provide the best experiences, we use technologies like cookies",
+    "We're sorry, that job does not exist",
+    "What do you think of this job?",
+)
+
+
+def _needs_enrichment(desc: str | None) -> bool:
+    t = (desc or "").strip()
+    if len(t) < 200:
+        return True
+    return any(t.startswith(p) for p in DEGRADED_PREFIXES)
+
 
 def load_config(path: str | Path = CONFIG_PATH) -> dict:
     with open(path) as f:
@@ -424,7 +440,7 @@ async def run_pipeline(
     pre_enrich_len: dict[str, int] = {j.guid: len(j.description or "") for j in jobs_to_enrich}
     needs_enrich: set[str] = {
         j.guid for j in jobs_to_enrich
-        if not j.description or len(j.description.strip()) < 200
+        if _needs_enrichment(j.description)
     }
     source_needed_enrich: dict[str, int] = {}
     for j in jobs_to_enrich:
@@ -432,7 +448,8 @@ async def run_pipeline(
             source_needed_enrich[j.source_name] = source_needed_enrich.get(j.source_name, 0) + 1
 
     if jobs_to_enrich:
-        jobs_to_enrich = await enrich_jobs(jobs_to_enrich)
+        source_configs = {s["name"]: s for s in active_sources}
+        jobs_to_enrich = await enrich_jobs(jobs_to_enrich, source_configs=source_configs)
 
     enriched_by_source: dict[str, int] = {}
     for j in jobs_to_enrich:
@@ -459,6 +476,11 @@ async def run_pipeline(
         log.warning(f"Per-source enrichment tracking failed (non-fatal): {exc}")
 
     all_jobs = jobs_to_enrich + jobs_no_enrich
+
+    dead = [j for j in all_jobs if getattr(j, "_dead_page", False)]
+    if dead:
+        log.info(f"Dropping {len(dead)} job(s) whose pages are dead: " + ", ".join(j.url for j in dead[:10]))
+    all_jobs = [j for j in all_jobs if not getattr(j, "_dead_page", False)]
 
     # ── Location extraction ───────────────────────────────────────────────────
     # Fills job.location where it is not already set by a dedicated scraper.

@@ -4,8 +4,9 @@ EuroBrussels scraper.
 Uses the /api/live_search JSON endpoint. Jobs are returned as:
   {"description": "Job Title", "url_ending": "/job_display/{id}/{slug}", "type": "job"}
 
-We query with ~20 broad EU-affairs keywords to capture the full listing,
-dedup by job ID, and parse org/location from the URL slug.
+We query with ~20 broad EU-affairs keywords to capture the full listing and
+dedup by job ID. Organisation, location and dates come from the detail page
+via the enricher's org_from_page cascade (Stage 3), not from the URL slug.
 """
 from __future__ import annotations
 
@@ -28,16 +29,6 @@ QUERIES = [
     "governance", "intern", "traineeship", "analyst", "officer",
     "advisor", "manager", "coordinator", "director",
 ]
-
-# Known country names (last word of slug) — used to extract location
-_COUNTRIES = {
-    "Belgium", "Germany", "France", "Netherlands", "Luxembourg", "Austria",
-    "Italy", "Spain", "Sweden", "Denmark", "Finland", "Poland", "Hungary",
-    "Ireland", "Portugal", "Greece", "Romania", "Bulgaria", "Croatia",
-    "Czech", "Slovakia", "Slovenia", "Estonia", "Latvia", "Lithuania",
-    "Cyprus", "Malta", "Switzerland", "Norway", "Turkey", "USA", "UK",
-    "Countries", "Europe", "Worldwide", "Remote",
-}
 
 
 class Scraper(BaseScraper):
@@ -98,19 +89,17 @@ class Scraper(BaseScraper):
                         continue
 
                     url = f"{BASE}{url_ending}"
-                    slug_part = url_ending.split("/", 3)[-1]  # e.g. "Senior_Policy_Adviser_..."
-                    org, location = self._parse_slug(slug_part, title)
 
                     jobs.append(
                         Job(
                             title=title,
                             url=url,
-                            organisation=org,
-                            description=f"{org} | {location}",
+                            organisation=self.name,   # placeholder; enricher fills from the detail page
+                            description="",            # empty -> 'none' -> enrichment triggers
                             source_name=self.name,
                             category=self.category,
                             country=self.country,
-                            location=location,
+                            location=None,
                         )
                     )
 
@@ -119,39 +108,3 @@ class Scraper(BaseScraper):
 
         self.log.info(f"Total: {len(jobs)} jobs")
         return jobs
-
-    @staticmethod
-    def _parse_slug(slug: str, title: str) -> tuple[str, str]:
-        """
-        Slug format: Title_Org_Name_City_Country  (underscores, no special chars)
-        We strip the title portion, then split org from location at the end.
-        """
-        human = slug.replace("_", " ")
-
-        # The slug encodes title words with underscores (special chars stripped).
-        # Count title words and skip that many words from the slug.
-        title_word_count = len(title.split())
-        slug_words = human.split()
-        remaining_words = slug_words[title_word_count:]  # org + location
-        if not remaining_words:
-            return "EuroBrussels", "Brussels"
-
-        # Identify location: look backwards for known country/city patterns
-        location_words: list[str] = []
-        org_words = list(remaining_words)
-
-        # Take up to 3 words from end as possible location
-        for n in range(min(3, len(org_words)), 0, -1):
-            candidate = " ".join(org_words[-n:])
-            last_word = org_words[-1]
-            if last_word in _COUNTRIES:
-                location_words = org_words[-n:]
-                org_words = org_words[:-n]
-                break
-
-        location = " ".join(location_words) if location_words else "Brussels"
-        org = " ".join(org_words).strip() if org_words else "EuroBrussels"
-        if not org:
-            org = "EuroBrussels"
-
-        return org, location

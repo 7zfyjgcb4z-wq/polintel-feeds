@@ -27,7 +27,7 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 | Demos | think-tanks | selector | |
 | Liberal Democrats | political-parties | selector | |
 | SNP | political-parties | selector | NationBuilder; returns 0 when no live vacancies |
-| Green Party | political-parties | selector | Includes location and closing-date selectors |
+| Green Party | political-parties | selector | Includes location and closing-date selectors. Stage 3 (2026-07-03): method unchanged (same page, same rate); extraction now scopes to `div.entry-content` and strips the TCF consent banner, with closing date read from the visible "Closing Date" label instead of page chrome. |
 | Co-operative Party | political-parties | selector | |
 | Ellwood Atfield | public-affairs | selector | Public affairs recruitment firm |
 
@@ -144,7 +144,7 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 
 | Source | Category | Scraper | Notes |
 |--------|----------|---------|-------|
-| EuroBrussels | eu-affairs | dedicated | Main Brussels-focused job aggregator |
+| EuroBrussels | eu-affairs | dedicated | Main Brussels-focused job aggregator. Stage 3 (2026-07-03): method unchanged (same API queries, same rate); organisation, location and posted/closing dates now come from the detail page (jobs_at anchor, og:title, visible Posted/Deadline text) instead of parsing the URL slug. Expired-job pages are detected by a dead-page fingerprint and dropped rather than emitted. |
 | EU Training Jobs | eu-affairs | dedicated | Aggregates EU institution vacancies including EPSO; enrichment disabled (detail pages return only copyright footer) |
 | European External Action Service | eu-institutions | selector | `div.node--type-vacancy` cards |
 | European Policy Centre (EPC) | think-tanks | selector | `.vacancy-item` cards |
@@ -196,7 +196,7 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 | Wilson Center Careers | us-think-tanks | selector | nonpartisan | Currently no vacancies; federal roles route to USAJobs externally |
 | New America Careers | us-think-tanks | selector | centre-left | JazzHR board |
 | Third Way Careers | us-think-tanks | selector | centre-left | Recruitee ATS; styled-component class names may change after platform updates |
-| Public Affairs Council Jobs | us-government-affairs | selector | nonpartisan | Multi-employer board — org extracted per-listing, not org_static |
+| Public Affairs Council Jobs | us-government-affairs | selector | nonpartisan | Multi-employer board — org extracted per-listing, not org_static. Stage 3 (2026-07-03): method unchanged (same page, same rate); extraction now scopes to `article.pa_jobs` and strips the TCF consent banner, with organisation/location/posted date read from the visible labelled fields instead of page chrome. |
 | Foundation List | us-ngos | rss_feed | nonpartisan | Active nonprofit job aggregator RSS feed |
 
 ### Disabled

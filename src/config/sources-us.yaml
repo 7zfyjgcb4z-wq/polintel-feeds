@@ -269,6 +269,12 @@ sources:
       link: "a.job-title"
       organisation: "div.job-column-1"
       location: "div.job-column-2"
+    content_scope: "article.pa_jobs"
+    labelled_fields:
+      organisation: 'Organization'
+      location: 'Location'
+      posted_date: 'Date Posted'
+      posted_date_format: '%m/%d/%Y'
     enrich_description: true
     partisan_lean: nonpartisan
     enabled: true

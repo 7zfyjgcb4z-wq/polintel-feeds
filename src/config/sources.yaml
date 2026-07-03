@@ -817,6 +817,10 @@ sources:
       link: "div.job-card-action a"
       location: "div.job-card-meta span.meta-tag:not(.salary):not(.closing)"
       closing_date: "div.job-card-meta span.meta-tag.closing"
+    content_scope: "div.entry-content"
+    labelled_fields:
+      closing_date: 'Closing Date'
+      closing_date_format: '%d %b %Y'
     org_static: "Green Party of England and Wales"
     enrich_description: true
     enabled: true

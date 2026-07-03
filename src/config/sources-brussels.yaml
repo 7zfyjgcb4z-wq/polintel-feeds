@@ -16,6 +16,7 @@ sources:
     schedule: "*/12"
     language: "en"
     org_static: "EuroBrussels"
+    org_from_page: true
     enrich_description: true
     enabled: true
 
