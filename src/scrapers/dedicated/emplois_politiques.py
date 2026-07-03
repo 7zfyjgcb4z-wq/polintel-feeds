@@ -64,7 +64,7 @@ class Scraper(BaseScraper):
             # Description: sibling div following the title anchor (stable structure;
             # avoids dependency on WIX-hashed CSS class names in the container).
             desc_div = a.find_next_sibling("div")
-            description = desc_div.get_text(strip=True)[:500] if desc_div else ""
+            description = desc_div.get_text(strip=True) if desc_div else ""
 
             jobs.append(
                 Job(

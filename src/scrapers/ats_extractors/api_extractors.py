@@ -34,7 +34,7 @@ def _strip_html(s: str) -> str:
     return BeautifulSoup(decoded, "html.parser").get_text(" ", strip=True)
 
 
-def _clip(s: str, n: int = 2000) -> str:
+def _clip(s: str, n: int = 10000) -> str:
     return s[:n] if len(s) > n else s
 
 
@@ -89,7 +89,7 @@ class GreenhouseAPIExtractor(BaseATSExtractor):
             content = item.get("content") or ""
             description = _clip(_strip_html(content)) if content else ""
             posted_date = item.get("first_published") or item.get("updated_at")
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, **base))
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, description_source="api" if description else "none", **base))
         log.info("Greenhouse %s: %d jobs", token, len(jobs))
         return jobs
 
@@ -119,7 +119,7 @@ class LeverAPIExtractor(BaseATSExtractor):
             location = cats.get("location")
             plain = item.get("descriptionPlain") or ""
             description = _clip(plain) if plain else (cats.get("team") or "")
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Lever %s: %d jobs", company, len(jobs))
         return jobs
 
@@ -149,7 +149,7 @@ class AshbyAPIExtractor(BaseATSExtractor):
             plain = item.get("descriptionPlain") or ""
             raw_html = item.get("descriptionHtml") or ""
             description = _clip(plain or _strip_html(raw_html))
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Ashby %s: %d jobs", board, len(jobs))
         return jobs
 
@@ -201,7 +201,7 @@ class BambooHRAPIExtractor(BaseATSExtractor):
                         await asyncio.sleep(_DETAIL_DELAY)
                     except Exception as exc:
                         log.debug("BambooHR detail failed for id=%s: %s", job_id, exc)
-                jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, **base))
+                jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, description_source="api" if description else "none", **base))
         log.info("BambooHR %s: %d jobs", company, len(jobs))
         return jobs
 
@@ -250,7 +250,7 @@ class SmartRecruitersAPIExtractor(BaseATSExtractor):
                         await asyncio.sleep(_DETAIL_DELAY)
                     except Exception as exc:
                         log.debug("SmartRecruiters detail failed for %s: %s", posting_id, exc)
-                jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
+                jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("SmartRecruiters %s: %d jobs", company_id, len(jobs))
         return jobs
 
@@ -288,7 +288,7 @@ class WorkableAPIExtractor(BaseATSExtractor):
             else:
                 location = str(loc) if loc else None
             description = _clip(_strip_html(item.get("description") or ""))
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Workable %s: %d jobs", account, len(jobs))
         return jobs
 
@@ -317,7 +317,7 @@ class RecruiteeAPIExtractor(BaseATSExtractor):
             location = item.get("location") or item.get("city")
             desc_html = item.get("description") or ""
             description = _clip(_strip_html(desc_html)) if desc_html else ""
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Recruitee %s: %d jobs", company, len(jobs))
         return jobs
 
@@ -422,6 +422,7 @@ class WorkdayAPIExtractor(BaseATSExtractor):
                 jobs.append(Job(
                     title=title, url=job_url, description=description,
                     location=location, posted_date=posted_date, closing_date=closing_date,
+                    description_source="api" if description else "none",
                     **base,
                 ))
         if postfilter is not None and (_budget_dropped or _empty_at_source):
@@ -533,6 +534,7 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
                 jobs.append(Job(
                     title=title, url=job_url, description=description,
                     location=location, posted_date=posted_date, closing_date=closing_date,
+                    description_source="api" if description else "none",
                     **base,
                 ))
         if postfilter is not None and (_budget_dropped or _empty_at_source):
@@ -590,7 +592,7 @@ class PaylocityExtractor(BaseATSExtractor):
             desc_html = item.get("Description") or item.get("JobDescription") or ""
             description = _clip(_strip_html(desc_html)) if desc_html else ""
             posted_date = item.get("PublishedDate")
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, **base))
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, description_source="api" if description else "none", **base))
         log.info("Paylocity %s: %d jobs", guid[:8], len(jobs))
         return jobs
 
@@ -641,7 +643,7 @@ class PersonioAPIExtractor(BaseATSExtractor):
                     if val is not None:
                         desc_html += etree.tostring(val, encoding="unicode", method="html")
             description = _clip(_strip_html(desc_html)) if desc_html else ""
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Personio %s: %d jobs", subdomain, len(jobs))
         return jobs
 
@@ -688,6 +690,7 @@ class TeamTailorAPIExtractor(BaseATSExtractor):
             jobs.append(Job(
                 title=title, url=job_url, description=description,
                 location=location, posted_date=posted_date, closing_date=closing_date,
+                description_source="api" if description else "none",
                 **base,
             ))
         log.info("TeamTailor %s: %d jobs", base_url, len(jobs))

@@ -80,7 +80,7 @@ class SelectorScraper:
                 title=title,
                 url=link,
                 organisation=org,
-                description=description[:500],
+                description=description,
                 source_name=source_name,
                 category=category,
                 country=country,

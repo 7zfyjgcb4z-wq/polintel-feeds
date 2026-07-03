@@ -100,7 +100,7 @@ class Scraper(BaseScraper):
             location = loc_el.get_text(strip=True) if loc_el else None
 
             desc_el = card.select_one(".listing-item__desc")
-            description = desc_el.get_text(strip=True)[:500] if desc_el else ""
+            description = desc_el.get_text(strip=True) if desc_el else ""
 
             jobs.append(
                 Job(

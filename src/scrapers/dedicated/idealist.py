@@ -235,7 +235,7 @@ class Scraper(BaseScraper):
                         if funcs
                         else org_name
                     )
-                description = raw_desc[:500]
+                description = raw_desc
 
                 closing_raw = detail.get("applicationDeadline") or ""
                 closing_date = closing_raw[:10] if closing_raw else None

@@ -50,7 +50,7 @@ class Scraper(BaseScraper):
                         title=stub["title"],
                         url=stub["url"],
                         organisation="Local Government Association",
-                        description=" | ".join(desc_parts)[:500],
+                        description=" | ".join(desc_parts),
                         source_name=self.name,
                         category=self.category,
                         country=self.country,

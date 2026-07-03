@@ -142,7 +142,7 @@ class Scraper(BaseScraper):
             )
             description = ""
             if content_el:
-                description = content_el.get_text(separator=" ", strip=True)[:500]
+                description = content_el.get_text(separator=" ", strip=True)
             if not description:
                 description = f"{org} — {title}" if org else title
 
@@ -151,7 +151,7 @@ class Scraper(BaseScraper):
                     title=title,
                     url=href,
                     organisation=org,
-                    description=description[:500],
+                    description=description,
                     source_name=self.name,
                     category=self.category,
                     country=self.country,
