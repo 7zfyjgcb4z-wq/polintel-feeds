@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Jul 2026 08:25:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 14:45:35 +0000</lastBuildDate>
     <item>
       <title>PUBLIC AFFAIRS SPECIALIST (TITLE 5)</title>
       <link>https://www.usajobs.gov:443/job/867214000</link>
@@ -905,5 +905,13 @@
       <category>US Federal Government</category>
       <dc:creator>Air Force Materiel Command</dc:creator>
     <polintel:location>Langley AFB, Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Foreign Affairs Officer</title>
+      <link>https://www.usajobs.gov:443/job/873832200</link>
+      <description>The position is located in the Environmental Team, Office of Specialized and Technical Agencies, Bureau of International Organization Affairs (IO/STA). Among its responsibilities, IO/STA manages U.S. policy in the specialized and technical international agencies, organizations, and programs within i | Salary: $102,415–$158,322 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/873832200</guid>
+      <category>US Federal Government</category>
+      <dc:creator>Department of State - Agency Wide</dc:creator>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-06</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
