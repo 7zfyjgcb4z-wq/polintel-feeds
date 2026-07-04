@@ -186,7 +186,6 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 | USAJobs | us-federal | dedicated | nonpartisan | Series-code mode (0110, 0130, 0131, 0301, 0340, 0343, 1035) + keyword post-filter. Cap 500/run. Requires USAJOBS_API_KEY + USAJOBS_USER_AGENT |
 | House Employment Bulletin | us-congress | dedicated | unknown | Consumes dwillis/house-jobs JSON (MIT). Fetches 4 most recent HVAPS PDFs converted to structured JSON by Derek Willis. Staleness alert if upstream not updated in >14 days. GITHUB_TOKEN optional (<5 calls/run) |
 | Political Job Hunt | us-campaigns | dedicated | unknown | Political Wire job board. Sitemap-driven; JSON-LD on individual pages backfills org/location/closing date via enricher |
-| LobbyingJobs.com | us-government-affairs | dedicated | unknown | Dedicated lobbying/government-relations board |
 | Brookings Institution Careers | us-think-tanks | selector | centre-left | iCIMS portal |
 | Council on Foreign Relations Careers | us-think-tanks | selector | nonpartisan | iCIMS portal |
 | American Enterprise Institute Careers | us-think-tanks | selector | right | iCIMS portal |
@@ -216,6 +215,7 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 | Economic Policy Institute Careers | us-think-tanks | selector | left | 403 — entire domain blocks automated requests |
 | Center on Budget and Policy Priorities | us-think-tanks | selector | left | 403 — entire domain blocks automated requests |
 | Idealist | us-ngos | dedicated | nonpartisan | JS-rendered; requires Playwright, which the pipeline does not have. Disabled 2026-07-03 to stop masking a permanent zero-result. Re-enable only if Playwright is ever added |
+| LobbyingJobs.com | us-government-affairs | dedicated | unknown | Selectors rewritten for new Tailwind markup + fail-loud on zero cards (a04179b), verified 20/20 against a local fixture. DISABLED: CI returns 403 (local IP 200, datacenter IP blocked); no evasion. Re-enable = flip enabled: true after a CI-context 200 re-test |
 
 ---
 

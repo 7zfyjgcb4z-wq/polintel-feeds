@@ -99,8 +99,8 @@ sources:
     schedule: "daily"
     language: en
     partisan_lean: unknown
-    enabled: true
-    notes: "Dedicated board for lobbying, government relations, advocacy, public policy. Confirmed live (200) with active listings."
+    enabled: false
+    notes: "Dedicated board for lobbying, government relations, advocacy, public policy. Selectors rewritten for new Tailwind markup (a04179b), verified 20/20 against a local fixture. DISABLED: CI returns 403 (local IP 200, datacenter IP blocked); no evasion. Re-enable = flip enabled: true after a CI-context 200 re-test."
 
   # ── Tier 2: Selector scrapers — iCIMS portals ────────────────────────────
   # iCIMS is not detected by ats_detector.py; direct subdomain URLs return plain
