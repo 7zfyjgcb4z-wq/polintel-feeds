@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: scrape-uk
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -51,6 +55,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update UK feeds [skip ci]"
-            git pull --rebase origin main
             git push origin main
           fi

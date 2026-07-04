@@ -43,6 +43,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update Brussels feeds [skip ci]"
-            git pull --rebase origin main
             git push origin main
           fi
