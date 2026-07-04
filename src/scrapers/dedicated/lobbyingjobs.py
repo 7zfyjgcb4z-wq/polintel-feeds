@@ -2,7 +2,10 @@
 LobbyingJobs.com scraper.
 
 Dedicated board for lobbying, government relations, advocacy, and public policy.
-Job cards use class `article.listing-item__jobs`.  Pagination via ?page=N.
+Site was rebuilt on a Tailwind front end (re-derived 2026-07-04; the prior
+`article.listing-item__jobs` markup no longer exists). Job cards are now
+`a[href*="/job/"]` anchors; see _parse_page for the per-field selectors.
+Pagination via ?page=N.
 
 Cap: 200 jobs, max 10 pages.
 """
@@ -67,6 +70,19 @@ class Scraper(BaseScraper):
         self.log.info(f"Total: {len(jobs)} jobs")
         return jobs[:JOB_CAP]
 
+    # Card container: a[href*="/job/"] anchor (~20 per page).
+    CARD_SELECTOR = 'a[href*="/job/"]'
+    # Title: <h2 class="mt-0.5 font-semibold text-gray-900 ...">, the only h2 in the card.
+    TITLE_SELECTOR = "h2"
+    # Company: <p class="text-xs font-medium text-gray-500"> above the title.
+    COMPANY_SELECTOR = "p.text-xs.font-medium.text-gray-500"
+    # Location: first <span> in the "div.mt-2" location/tag row. Multi-location
+    # postings render as a single span with " | "-separated text (not multiple
+    # spans), so .select_one is correct here, not .select.
+    LOCATION_SELECTOR = "div.mt-2 span"
+    # No summary/description text exists on the card in the new markup — leave
+    # description empty and let Stage 3 enrichment fetch the detail page.
+
     def _parse_page(
         self,
         soup: BeautifulSoup,
@@ -75,39 +91,40 @@ class Scraper(BaseScraper):
     ) -> list[Job]:
         jobs: list[Job] = []
 
-        cards = soup.select("article.listing-item__jobs")
+        cards = soup.select(self.CARD_SELECTOR)
         if not cards:
+            self.log.warning(
+                f"{self.name}: card selector {self.CARD_SELECTOR!r} matched 0 elements — "
+                "page markup may have changed"
+            )
             return jobs
 
         for card in cards:
-            title_el = card.select_one(".listing-item__title a, .media-heading a")
-            if not title_el:
+            title_el = card.select_one(self.TITLE_SELECTOR)
+            href = card.get("href", "")
+            if not title_el or not href:
                 continue
 
             title = title_el.get_text(strip=True)
-            href = title_el.get("href", "")
-            if not title or not href:
+            if not title:
                 continue
             url = href if href.startswith("http") else f"{BASE}{href}"
             if url in seen_urls:
                 continue
             seen_urls.add(url)
 
-            org_el = card.select_one(".listing-item__info--item-company")
+            org_el = card.select_one(self.COMPANY_SELECTOR)
             org = org_el.get_text(strip=True) if org_el else self.name
 
-            loc_el = card.select_one(".listing-item__info--item-location")
+            loc_el = card.select_one(self.LOCATION_SELECTOR)
             location = loc_el.get_text(strip=True) if loc_el else None
-
-            desc_el = card.select_one(".listing-item__desc")
-            description = desc_el.get_text(strip=True) if desc_el else ""
 
             jobs.append(
                 Job(
                     title=title,
                     url=url,
                     organisation=org,
-                    description=description,
+                    description="",
                     source_name=self.name,
                     category=self.category,
                     country=self.country,
