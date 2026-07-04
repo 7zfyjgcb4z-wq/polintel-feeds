@@ -256,6 +256,29 @@ async def enrich_jobs(
             if desc is None:
                 desc = _description_from_html(html)
 
+            # Labelled fields (organisation/dates) are parsed below from the
+            # full extracted text, before body_between narrows it: on pages
+            # like W4MP's, those labels sit above the body_between start
+            # marker and would otherwise be discarded before extraction.
+            full_text = desc
+
+            between = cfg.get("body_between") or {}
+            if desc and between.get("start"):
+                start_idx = desc.find(between["start"])
+                if start_idx != -1:
+                    segment = desc[start_idx + len(between["start"]):]
+                    if between.get("end"):
+                        end_idx = segment.find(between["end"])
+                        if end_idx != -1:
+                            segment = segment[:end_idx]
+                    segment = segment.strip()
+                    if len(segment) >= 50:
+                        desc = segment
+                # start label absent on the page: fail loud, keep the RSS summary
+                # (do NOT ship the whole-page extract, which includes site chrome).
+                else:
+                    desc = None
+
             if desc:
                 job.description = desc
 
@@ -275,7 +298,7 @@ async def enrich_jobs(
                 job.closing_date = meta["closing_date"]
 
             # Per-source labelled-field extraction (deterministic 'Label: value' parsing)
-            labelled = parse_labelled_fields(desc or "", cfg.get("labelled_fields") or {})
+            labelled = parse_labelled_fields(full_text or "", cfg.get("labelled_fields") or {})
             if labelled.get("organisation") and job.organisation in (job.source_name, "", None):
                 job.organisation = labelled["organisation"]
             if labelled.get("location") and not job.location:

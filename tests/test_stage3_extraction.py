@@ -12,6 +12,9 @@ Fixture swaps from the spec's default URLs:
     paylocity_jswall.html: fetched from the spec's default URLs unchanged.
     eurobrussels_live.html captures
     /job_display/292473/Policy_Strategist_Economist_ESM_European_Stability_Mechanism_Luxembourg_Luxembourg.
+  - w4mp_job.html (E4): fetched 2026-07-04 from the first item link in
+    https://www.w4mpjobs.org/RSS.aspx
+    (JobDetails.aspx?jobid=99637, "Campaign Manager").
 """
 from __future__ import annotations
 
@@ -42,6 +45,20 @@ GREEN_PARTY_CFG = {
     },
 }
 EUROBRUSSELS_CFG = {"org_from_page": True}
+W4MP_CFG = {
+    "labelled_fields": {
+        "organisation": "Working For",
+        "location": "Location",
+        "posted_date": "Date Added",
+        "posted_date_format": "%d %B %Y",
+        "closing_date": "Closing Date",
+        "closing_date_format": "%d %B %Y",
+    },
+    "body_between": {
+        "start": "Job Details",
+        "end": "Go back to search results",
+    },
+}
 
 
 def _load(name: str) -> str:
@@ -168,6 +185,47 @@ async def test_fail_loud_never_returns_page_chrome_as_body():
 
     assert "enable javascript" not in job.description.lower()
     assert job.description == ""
+
+
+@pytest.mark.asyncio
+async def test_w4mp_body_between_and_labelled_fields():
+    job = Job(
+        title="Campaign Manager",
+        url="http://www.w4mpjobs.org/JobDetails.aspx?jobid=99637",
+        organisation="W4MP",
+        description="",
+        source_name="W4MP",
+        category="general",
+        country="uk",
+    )
+    await _enrich_one_job(job, W4MP_CFG, "w4mp_job.html")
+
+    assert len(job.description) > 1000
+    assert "Go back to search results" not in job.description
+    assert "Subscribe to our RSS feed" not in job.description
+    assert job.organisation == "Matt Vickers MP (Stockton West)"
+    assert job.posted_date == "2026-07-02"
+    assert re_matches_iso_date(job.posted_date)
+    assert job.closing_date == "2026-07-23"
+    assert re_matches_iso_date(job.closing_date)
+    assert job.description_source == "structured"
+
+
+@pytest.mark.asyncio
+async def test_w4mp_body_between_fail_loud_when_start_label_absent():
+    job = Job(
+        title="Campaign Manager",
+        url="http://www.w4mpjobs.org/JobDetails.aspx?jobid=99637",
+        organisation="W4MP",
+        description="Existing RSS summary text that is short.",
+        source_name="W4MP",
+        category="general",
+        country="uk",
+    )
+    cfg = dict(W4MP_CFG, body_between={"start": "Nonexistent Marker", "end": "Go back to search results"})
+    await _enrich_one_job(job, cfg, "w4mp_job.html")
+
+    assert job.description == "Existing RSS summary text that is short."
 
 
 def re_matches_iso_date(value: str) -> bool:

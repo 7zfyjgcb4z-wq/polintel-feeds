@@ -1064,7 +1064,17 @@ sources:
       organisation: author
       location: category
       description: description
-    enrich_description: false  # W4MP RSS provides full job descriptions
+    enrich_description: true
+    labelled_fields:
+      organisation: 'Working For'
+      location: 'Location'
+      posted_date: 'Date Added'
+      posted_date_format: '%d %B %Y'
+      closing_date: 'Closing Date'
+      closing_date_format: '%d %B %Y'
+    body_between:
+      start: 'Job Details'
+      end: 'Go back to search results'
     enabled: true
 
   - name: "UN Job Feed"

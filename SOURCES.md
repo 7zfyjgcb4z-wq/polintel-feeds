@@ -18,7 +18,7 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 | TUC | ngos | selector | Full selector including location and closing-date fields |
 | Amnesty International UK | ngos | selector | |
 | jobs.ac.uk | general | dedicated | Custom scraper for politics/government subject area |
-| W4MP | general | rss_feed | Full job descriptions in RSS; enrichment disabled |
+| W4MP | general | rss_feed | Full job descriptions in RSS. E4 (2026-07-04): detail-page enrichment enabled — one polite fetch per new listing (~3-5/day), body scoped to the "Job Details" section, organisation/location/posted/closing dates read from the page's labelled fields. Compliance ruling: **provisional PERMIT**, granted by Oliver Skinner (Orison Ltd, data controller), 2026-07-03, pending explicit confirmation requested from W4MP; revert to `enrich_description: false` if W4MP declines. |
 | UN Job Feed | general | rss_feed | Organisation extracted from description via regex |
 | IPPR | think-tanks | selector | Currently no vacancies; page structure confirmed |
 | Policy Exchange | think-tanks | selector | Elementor post grid |
