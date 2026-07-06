@@ -89,7 +89,8 @@ class GreenhouseAPIExtractor(BaseATSExtractor):
             content = item.get("content") or ""
             description = _clip(_strip_html(content)) if content else ""
             posted_date = item.get("first_published") or item.get("updated_at")
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, description_source="api" if description else "none", **base))
+            closing_date = item.get("application_deadline")
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, closing_date=closing_date, description_source="api" if description else "none", **base))
         log.info("Greenhouse %s: %d jobs", token, len(jobs))
         return jobs
 
@@ -633,6 +634,9 @@ class PersonioAPIExtractor(BaseATSExtractor):
             office_el = position.find("office")
             location: str | None = (office_el.text or "").strip() if office_el is not None else None
             location = location or None
+            created_el = position.find("createdAt")
+            posted_date = (created_el.text or "").strip() if created_el is not None else None
+            posted_date = posted_date or None
             desc_html = ""
             desc_el = position.find("description")
             if desc_el is not None:
@@ -643,7 +647,7 @@ class PersonioAPIExtractor(BaseATSExtractor):
                     if val is not None:
                         desc_html += etree.tostring(val, encoding="unicode", method="html")
             description = _clip(_strip_html(desc_html)) if desc_html else ""
-            jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
+            jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, description_source="api" if description else "none", **base))
         log.info("Personio %s: %d jobs", subdomain, len(jobs))
         return jobs
 
