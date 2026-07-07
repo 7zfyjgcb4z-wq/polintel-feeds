@@ -1,92 +1,37 @@
 {
-  "last_run": "2026-07-07T11:11:49Z",
-  "country": "brussels",
-  "total_active_jobs": 233,
-  "new_jobs_found": 8,
-  "sources_checked": 8,
-  "sources_succeeded": 8,
+  "last_run": "2026-07-07T11:48:59Z",
+  "country": "internship_graduate",
+  "total_active_jobs": 29,
+  "new_jobs_found": 29,
+  "sources_checked": 2,
+  "sources_succeeded": 2,
   "sources_failed": 0,
-  "sources_disabled": 20,
-  "relevance_filtered": 2,
-  "descriptions_enriched": 65,
-  "feeds_generated": 6,
-  "run_duration_seconds": 130.9,
+  "sources_disabled": 18,
+  "relevance_filtered": 0,
+  "descriptions_enriched": 0,
+  "feeds_generated": 7,
+  "run_duration_seconds": 66.5,
   "failed_sources": [],
   "per_source": [
     {
-      "name": "EuroBrussels",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 64,
-      "jobs_after_relevance_filter": 64,
-      "descriptions_enriched": 64,
-      "duration_seconds": 49.2
-    },
-    {
-      "name": "EU Training Jobs",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 31,
-      "jobs_after_relevance_filter": 29,
-      "descriptions_enriched": 0,
-      "duration_seconds": 13.3,
-      "notes": "Description enrichment disabled for this source"
-    },
-    {
-      "name": "ECFR",
+      "name": "Ipsos Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 2,
-      "jobs_after_relevance_filter": 2,
-      "descriptions_enriched": 1,
-      "duration_seconds": 0.9
-    },
-    {
-      "name": "German Marshall Fund",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 14,
-      "jobs_after_relevance_filter": 14,
+      "jobs_found": 26,
+      "jobs_after_relevance_filter": 26,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2,
+      "duration_seconds": 49.6,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
-      "name": "International IDEA",
+      "name": "IMF Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 2,
-      "jobs_after_relevance_filter": 2,
+      "jobs_found": 3,
+      "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 9.8,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "European External Action Service",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "European Policy Centre",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.1
-    },
-    {
-      "name": "College of Europe Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.0
     }
   ]
 }
