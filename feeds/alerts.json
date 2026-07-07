@@ -1,7 +1,42 @@
 {
-  "generated_at": "2026-07-07T12:30:49Z",
-  "alerts": [],
+  "generated_at": "2026-07-07T15:55:34Z",
+  "alerts": [
+    {
+      "source": "House Employment Bulletin",
+      "type": "upstream_stale",
+      "upstream_last_bulletin": "2026-04-27",
+      "upstream_days_since_update": 71,
+      "message": "House Employment Bulletin upstream data source has not been updated in 71 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+    }
+  ],
   "_tracking": {
-    "consecutive_failures": {}
+    "consecutive_failures": {
+      "USAJobs Fellowships": 0,
+      "USAJobs": 0,
+      "House Employment Bulletin": 0,
+      "Political Job Hunt": 0,
+      "RAND Corporation Careers": 0,
+      "Truman National Security Project": 0,
+      "Manhattan Institute": 0,
+      "CNAS": 0,
+      "Hudson Institute": 0,
+      "Brookings Institution Careers": 0,
+      "Council on Foreign Relations Careers": 0,
+      "American Enterprise Institute Careers": 0,
+      "Heritage Foundation Careers": 0,
+      "Carnegie Endowment for International Peace Careers": 0,
+      "Hoover Institution Careers": 0,
+      "Wilson Center Careers": 0,
+      "New America Careers": 0,
+      "Atlantic Council Careers": 0,
+      "Third Way Careers": 0,
+      "Public Affairs Council Jobs": 0,
+      "R Street Institute": 0,
+      "Niskanen Center": 0,
+      "Peterson Institute for International Economics": 0,
+      "Brennan Center for Justice": 0,
+      "Roosevelt Institute": 0,
+      "Foundation List": 0
+    }
   }
 }
