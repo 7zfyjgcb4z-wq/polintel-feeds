@@ -1065,6 +1065,9 @@ sources:
       location: category
       description: description
     enrich_description: true
+    # W4MP's RSS supplies ~210-246 char teasers, just above the default
+    # 200-char enrichment trigger — enrich every job below the storage cap.
+    enrich_threshold: 10000
     labelled_fields:
       organisation: 'Working For'
       location: 'Location'

@@ -13,6 +13,8 @@ log = logging.getLogger(__name__)
 
 _HTML_TAG_RE = re.compile(r"<[^>]+>")
 _PIPE_META_RE = re.compile(r"^[^|]+\|[^|]+\|")  # 3+ pipe-separated segments
+# Feed teasers say "click the link below" but no link survives HTML stripping
+_CLICK_LINK_RE = re.compile(r"click the link below for the full details", re.IGNORECASE)
 
 
 def _strip_html(text: str) -> str:
@@ -89,6 +91,7 @@ class RSSFeedScraper:
             if hasattr(entry, "content") and entry.content:
                 content = _strip_html(entry.content[0].get("value", ""))
             description = content if len(content) > len(summary) else summary
+            description = _CLICK_LINK_RE.sub("View the original listing for full details", description)
 
             # Date
             pub_date = None

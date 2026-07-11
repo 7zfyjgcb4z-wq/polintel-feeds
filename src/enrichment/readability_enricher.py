@@ -64,11 +64,18 @@ _JSON_LD_RE = re.compile(
 )
 
 
-def _needs_enrichment(desc: str | None) -> bool:
+def _needs_enrichment(desc: str | None, threshold: int = 200) -> bool:
     t = (desc or "").strip()
-    if len(t) < 200:
+    if len(t) < threshold:
         return True
     return any(t.startswith(p) for p in DEGRADED_PREFIXES)
+
+
+def enrich_threshold(source_config: dict | None) -> int:
+    """Per-source enrichment length threshold. Sources whose feed supplies
+    only a teaser (e.g. W4MP) set enrich_threshold high so every job gets
+    its full text fetched; the default keeps enrichment bounded."""
+    return int((source_config or {}).get("enrich_threshold", 200))
 
 
 def _looks_like_challenge(text: str) -> bool:
@@ -361,7 +368,10 @@ async def enrich_jobs(
 
             await asyncio.sleep(delay)
 
-    jobs_to_enrich = [j for j in jobs if _needs_enrichment(j.description)]
+    jobs_to_enrich = [
+        j for j in jobs
+        if _needs_enrichment(j.description, enrich_threshold((source_configs or {}).get(j.source_name)))
+    ]
 
     if not jobs_to_enrich:
         log.info("readability enricher: no jobs need enrichment")

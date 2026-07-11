@@ -12,7 +12,7 @@ import httpx
 import yaml
 
 from src.db.store import JobStore
-from src.enrichment.readability_enricher import enrich_jobs
+from src.enrichment.readability_enricher import enrich_jobs, enrich_threshold
 from src.feed.generator import generate_alerts, generate_feeds, generate_status
 from src.filters.relevance import filter_relevant_jobs, is_relevant
 from src.models.job import Job
@@ -52,9 +52,9 @@ DEGRADED_PREFIXES = (
 )
 
 
-def _needs_enrichment(desc: str | None) -> bool:
+def _needs_enrichment(desc: str | None, threshold: int = 200) -> bool:
     t = (desc or "").strip()
-    if len(t) < 200:
+    if len(t) < threshold:
         return True
     return any(t.startswith(p) for p in DEGRADED_PREFIXES)
 
@@ -437,10 +437,11 @@ async def run_pipeline(
     jobs_no_enrich = [j for j in all_jobs if j.source_name in no_enrich_sources]
 
     # Snapshot pre-enrichment state for per-source tracking
+    source_configs = {s["name"]: s for s in active_sources}
     pre_enrich_len: dict[str, int] = {j.guid: len(j.description or "") for j in jobs_to_enrich}
     needs_enrich: set[str] = {
         j.guid for j in jobs_to_enrich
-        if _needs_enrichment(j.description)
+        if _needs_enrichment(j.description, enrich_threshold(source_configs.get(j.source_name)))
     }
     source_needed_enrich: dict[str, int] = {}
     for j in jobs_to_enrich:
@@ -448,7 +449,6 @@ async def run_pipeline(
             source_needed_enrich[j.source_name] = source_needed_enrich.get(j.source_name, 0) + 1
 
     if jobs_to_enrich:
-        source_configs = {s["name"]: s for s in active_sources}
         jobs_to_enrich = await enrich_jobs(jobs_to_enrich, source_configs=source_configs)
 
     enriched_by_source: dict[str, int] = {}
