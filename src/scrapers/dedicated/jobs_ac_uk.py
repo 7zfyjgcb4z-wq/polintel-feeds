@@ -1,8 +1,9 @@
 """
-jobs.ac.uk scraper — Politics and Government discipline.
+jobs.ac.uk scraper — Politics & Government and Environmental Sciences disciplines.
 
 Server-rendered HTML, no JS required. No RSS feed available.
 Pagination: ?startIndex=N (increments of 25).
+Each discipline facet gets its own pagination budget; results are deduped by URL.
 """
 from __future__ import annotations
 
@@ -18,13 +19,20 @@ from src.models.job import Job
 from src.scrapers.base import BaseScraper, USER_AGENT, REQUEST_DELAY
 
 BASE = "https://www.jobs.ac.uk"
-SEARCH_PARAMS = {
+
+# International relations roles appear under politics-and-government on jobs.ac.uk
+# (no dedicated international-relations facet exists in their taxonomy, verified 2026-07-13).
+DISCIPLINE_FACETS = [
+    "politics-and-government",
+    "environmental-sciences",  # sustainability/environment roles
+]
+
+BASE_PARAMS = {
     "activeFacet": "academicDisciplineFacet",
     "sortOrder": "1",
     "pageSize": "25",
-    "academicDisciplineFacet[0]": "politics-and-government",
 }
-MAX_PAGES = 20  # 20 × 25 = 500 jobs max
+MAX_PAGES = 20  # per-facet cap: 20 × 25 = 500 jobs max per discipline
 
 MONTHS = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
@@ -34,40 +42,53 @@ MONTHS = {
 
 class Scraper(BaseScraper):
     async def scrape(self) -> list[Job]:
-        jobs: list[Job] = []
+        all_jobs: list[Job] = []
 
         async with httpx.AsyncClient(
             headers={"User-Agent": USER_AGENT},
             follow_redirects=True,
             timeout=30.0,
         ) as client:
-            start_index = 1
-            page = 0
+            for facet in DISCIPLINE_FACETS:
+                start_index = 1
+                page = 0
 
-            while page < MAX_PAGES:
-                params = {**SEARCH_PARAMS, "startIndex": str(start_index)}
-                url = f"{BASE}/search/?{urlencode(params)}"
+                while page < MAX_PAGES:
+                    params = {
+                        **BASE_PARAMS,
+                        "academicDisciplineFacet[0]": facet,
+                        "startIndex": str(start_index),
+                    }
+                    url = f"{BASE}/search/?{urlencode(params)}"
 
-                try:
-                    r = await client.get(url)
-                    r.raise_for_status()
-                    await asyncio.sleep(REQUEST_DELAY)
-                except httpx.HTTPError as e:
-                    self.log.error(f"Page error at startIndex={start_index}: {e}")
-                    break
+                    try:
+                        r = await client.get(url)
+                        r.raise_for_status()
+                        await asyncio.sleep(REQUEST_DELAY)
+                    except httpx.HTTPError as e:
+                        self.log.error(f"Page error at facet={facet} startIndex={start_index}: {e}")
+                        break
 
-                soup = BeautifulSoup(r.text, "lxml")
-                page_jobs = self._parse_jobs(soup)
-                jobs.extend(page_jobs)
-                page += 1
-                self.log.debug(f"startIndex={start_index}: {len(page_jobs)} jobs")
+                    soup = BeautifulSoup(r.text, "lxml")
+                    page_jobs = self._parse_jobs(soup)
+                    all_jobs.extend(page_jobs)
+                    page += 1
+                    self.log.debug(f"facet={facet} startIndex={start_index}: {len(page_jobs)} jobs")
 
-                if len(page_jobs) < 25:
-                    break
-                start_index += 25
+                    if len(page_jobs) < 25:
+                        break
+                    start_index += 25
 
-        self.log.info(f"Total: {len(jobs)} jobs")
-        return jobs
+        seen: set[str] = set()
+        deduped: list[Job] = []
+        for job in all_jobs:
+            if job.url in seen:
+                continue
+            seen.add(job.url)
+            deduped.append(job)
+
+        self.log.info(f"Total: {len(deduped)} jobs across {len(DISCIPLINE_FACETS)} facets")
+        return deduped
 
     def _parse_jobs(self, soup: BeautifulSoup) -> list[Job]:
         jobs: list[Job] = []

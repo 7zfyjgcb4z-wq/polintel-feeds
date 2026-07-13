@@ -1091,7 +1091,7 @@ sources:
       organisation: author
       description: description
     enrich_description: conditional
-    enabled: false  # RSS URL redirects to homepage; jobs.ac.uk subject-area feed index is JS-rendered with no extractable URLs; covered by dedicated jobs.ac.uk scraper
+    enabled: false  # Covered by the dedicated jobs.ac.uk scraper (politics-and-government + international-relations + sustainability facets, 2026-07-13). RSS URL redirects to homepage; do not re-enable as a feed.
 
   - name: "jobs.ac.uk Sustainability"
     url: "https://www.jobs.ac.uk/jobs/sustainability/rss"
@@ -1103,4 +1103,4 @@ sources:
       organisation: author
       description: description
     enrich_description: conditional
-    enabled: false  # RSS URL redirects to homepage; jobs.ac.uk subject-area feed index is JS-rendered with no extractable URLs; covered by dedicated jobs.ac.uk scraper
+    enabled: false  # Covered by the dedicated jobs.ac.uk scraper (politics-and-government + international-relations + sustainability facets, 2026-07-13). RSS URL redirects to homepage; do not re-enable as a feed.
