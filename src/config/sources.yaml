@@ -1081,18 +1081,6 @@ sources:
       end: 'Go back to search results'
     enabled: true
 
-  - name: "UN Job Feed"
-    url: "https://careers.un.org/jobfeed"
-    country: uk
-    category: general
-    scraper: rss_feed
-    field_map:
-      title: title
-      description: description
-    org_from_description_regex: "Department/Office\\s*:\\s*([^\\n]+?)(?:\\s+Duty Station|\\s*$)"
-    enrich_description: false  # UN RSS provides full descriptions; country was 'international' which excluded it from all pipelines
-    enabled: false  # UN content covered by the dedicated UNJF feed; should not appear in uk-general
-
   - name: "jobs.ac.uk International"
     url: "https://www.jobs.ac.uk/jobs/international-relations/rss"
     country: uk

@@ -31,6 +31,18 @@ sources:
 
   # ── Development/international (CONDITIONAL — Stage 3) ────────────────────
 
+  - name: "UN Job Feed"
+    url: "https://careers.un.org/jobfeed"
+    country_code: null
+    category: international-orgs
+    scraper: rss_feed
+    field_map:
+      title: title
+      description: description
+    org_from_description_regex: "Department/Office\\s*:\\s*([^\\n]+?)(?:\\s+Duty Station|\\s*$)"
+    enrich_description: false  # RSS is a metadata-header stub only (Level/Job ID/Duty Station/dates). The full body is on the JS-rendered Inspira detail page and is deliberately not fetched; the stub is accepted for discovery. Restored 2026-07-13; org/location/closing are recovered downstream by fetch-rss's UN parser.
+    enabled: true
+
   - name: "Devex"
     url: "https://www.devex.com/jobs/search"
     country_code: null
