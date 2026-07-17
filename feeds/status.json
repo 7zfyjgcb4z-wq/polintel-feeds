@@ -1,16 +1,27 @@
 {
-  "last_run": "2026-07-17T11:07:37Z",
-  "country": "cee",
-  "total_active_jobs": 0,
-  "new_jobs_found": 0,
-  "sources_checked": 0,
-  "sources_succeeded": 0,
+  "last_run": "2026-07-17T11:25:14Z",
+  "country": "pan-eu",
+  "total_active_jobs": 465,
+  "new_jobs_found": 7,
+  "sources_checked": 1,
+  "sources_succeeded": 1,
   "sources_failed": 0,
-  "sources_disabled": 7,
-  "relevance_filtered": 0,
+  "sources_disabled": 3,
+  "relevance_filtered": 10,
   "descriptions_enriched": 0,
   "feeds_generated": 2,
-  "run_duration_seconds": 0.0,
+  "run_duration_seconds": 2.6,
   "failed_sources": [],
-  "per_source": []
+  "per_source": [
+    {
+      "name": "UN Job Feed",
+      "scraper_type": "rss_feed",
+      "status": "success",
+      "jobs_found": 453,
+      "jobs_after_relevance_filter": 443,
+      "descriptions_enriched": 0,
+      "duration_seconds": 2.2,
+      "notes": "Description enrichment disabled for this source"
+    }
+  ]
 }
