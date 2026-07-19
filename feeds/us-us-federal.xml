@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 14:29:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 14:33:15 +0000</lastBuildDate>
     <item>
       <title>PUBLIC AFFAIRS SPECIALIST (TECHNICAL ADVISER) - DIRECT HIRE AUTHORITY</title>
       <link>https://www.usajobs.gov:443/job/865100700</link>
@@ -206,14 +206,6 @@ The Federal hiring process is set up to be fair and transparent. Please read the
       <category>US Federal Government</category>
       <dc:creator>Air National Guard Units</dc:creator>
     <polintel:location>Port Hueneme, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-22</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
-    <item>
-      <title>Director of International Coordination and Mission Support</title>
-      <link>https://www.usajobs.gov:443/job/873629200</link>
-      <description>Serves as the Director of International Coordination and Mission Support within OCCIP. Reporting to the Deputy Assistant Secretary for Cybersecurity and Critical Infrastructure Protection, the incumbent leads Treasury's international cybersecurity engagement with foreign governments, international o | Salary: $151,661–$228,000 PA | Grade: ES</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/873629200</guid>
-      <category>US Federal Government</category>
-      <dc:creator>Treasury, Departmental Offices</dc:creator>
-    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-18</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>SUPERVISORY MANAGEMENT ANALYST - DIRECT HIRE AUTHORITY</title>
       <link>https://www.usajobs.gov:443/job/873670600</link>
@@ -1230,5 +1222,13 @@ MR and NG technicians PPP applicants must be selected and placed at the full per
       <category>US Federal Government</category>
       <dc:creator>Citizenship and Immigration Services</dc:creator>
     <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-20</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Management and Program Analyst</title>
+      <link>https://www.usajobs.gov:443/job/876078900</link>
+      <description>Protect your homeland and defend your culture. Join USCIS, America's frontline defense against illegal foreign infiltration and fraud. As a Management and Program Analyst, you will implement, coordinate, and analyze a variety of management programs, prepare and provide briefings and presentations, a | Salary: $121,785–$187,093 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/876078900</guid>
+      <category>US Federal Government</category>
+      <dc:creator>Citizenship and Immigration Services</dc:creator>
+    <polintel:location>Arlington, Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-20</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
