@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Jul 2026 14:33:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 15:21:39 +0000</lastBuildDate>
     <item>
       <title>Green &amp; Gold Congressional Aide</title>
       <link>https://www.usajobs.gov:443/job/853548900</link>
@@ -91,9 +91,9 @@
     <polintel:location>Gainesville, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-12-31</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Physician (Neurology)</title>
-      <link>https://www.usajobs.gov:443/job/869157200</link>
+      <link>https://www.usajobs.gov:443/job/875855200</link>
       <description>Bay Pines VA Healthcare System's Specialty Care service is seeking an experienced and dynamic Neurologist. Ideal applicants are those who want to contribute to the achievement of quality care standards, as well as the growth and development of a VA academic hospital program. You must be an excellent | Salary: $300,000–$330,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/869157200</guid>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/875855200</guid>
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Bay Pines, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-12-31</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
@@ -1642,5 +1642,13 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Anywhere in the U.S. (remote job), United States</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-17</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Deputy Chief of Staff, Operations - Physician Regular Ft</title>
+      <link>https://www.usajobs.gov:443/job/876980500</link>
+      <description>The Deputy Chief of Staff, Operations is the primary backup to the Chief of Staff and provides administrative, clinical, and programmatic leadership to help ensure achievement of the Washington DC Medical Center's (DC VAMC) clinical, research, and educational goals. The incumbent reports to the Chie | Salary: $275,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/876980500</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-22</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
