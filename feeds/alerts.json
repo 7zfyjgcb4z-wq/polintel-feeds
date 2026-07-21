@@ -1,16 +1,10 @@
 {
-  "generated_at": "2026-07-21T10:29:20Z",
+  "generated_at": "2026-07-21T11:07:21Z",
   "alerts": [],
   "_tracking": {
     "consecutive_failures": {
-      "EuroBrussels": 0,
-      "EU Training Jobs": 0,
-      "ECFR": 0,
-      "German Marshall Fund": 0,
-      "International IDEA": 0,
-      "European External Action Service": 0,
-      "European Policy Centre": 0,
-      "College of Europe Careers": 0
+      "Ipsos Careers": 0,
+      "IMF Careers": 0
     }
   }
 }
