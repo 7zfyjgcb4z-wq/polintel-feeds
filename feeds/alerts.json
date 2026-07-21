@@ -1,7 +1,9 @@
 {
-  "generated_at": "2026-07-21T11:25:26Z",
+  "generated_at": "2026-07-21T11:51:30Z",
   "alerts": [],
   "_tracking": {
-    "consecutive_failures": {}
+    "consecutive_failures": {
+      "UN Job Feed": 0
+    }
   }
 }
