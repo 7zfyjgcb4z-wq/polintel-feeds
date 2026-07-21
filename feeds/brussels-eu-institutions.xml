@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 10:57:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 10:29:20 +0000</lastBuildDate>
     <item>
       <title>Funded traineeship for young graduates at the EU Delegation to Ukraine – Political Section</title>
       <link>https://www.eeas.europa.eu/delegations/ukraine/funded-traineeship-young-graduates-eu-delegation-ukraine-%E2%80%93-political-section-2_en</link>
@@ -6388,5 +6388,33 @@ More details in the attached documents:</description>
       <category>EU Institutions</category>
       <dc:creator>European External Action Service</dc:creator>
     <polintel:location>Informest, Italy</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Команда підтримки відновлення та реформ МОН оголошує конкурс на вакантну позицію експерта з реформи професійної освіти</title>
+      <link>https://www.eeas.europa.eu/delegations/ukraine/komanda-pidtrimki-vidnovlennya-ta-reform-mon-ogoloshue-konkurs-na-vakantnu-poziciyu-eksperta-z_en</link>
+      <description>Text
+Команда підтримки відновлення та реформ Міністерства освіти і науки України
+оголошує конкурс
+на вакантну позицію експерта з реформи професійної освіти та запрошує кваліфікованого/у фахівця/фахівчиню на посаду:
+Тім Ліда, старшого/ї проєктного/ї менеджера/ки зі змісту та державно-приватного партнерства (професійна освіта), Категорія 1
+Команда підтримки відновлення та реформ допомагає Міністерству освіти і науки України у впровадженні пріоритетних реформ. Команда підтримки відновлення та реформ є частиною програми «Архітектура відновлення та реформ в Україні» (URA), запровадженої Європейським банком реконструкції та розвитку (ЄБРР) у партнерстві з Європейським Союзом для підтримки важливих процесів відновлення та реформ в Україні.
+Кінцевий термін подання заявок: 23:59 (за Київським часом)
+30 липня 2026 року
+.
+Потенційні кандидати/ки мають подати:
+резюме (англійською мовою);
+заповнену
+аплікаційну форму
+(англійською мовою);
+угоду про нерозголошення
+(українською мовою);
+контактні дані трьох рекомендодавців, які зможуть підтвердити професійний досвід та/або освіту кандидата/ки.
+Документи необхідно надіслати на електронну пошту
+rstmoes.recruitment@gmail.com
+у зазначені вище строки.
+Кандидати/ки, які подали неповний пакет документів, не розглядатимуться як претенденти на посаду.</description>
+      <guid isPermaLink="false">https://www.eeas.europa.eu/delegations/ukraine/komanda-pidtrimki-vidnovlennya-ta-reform-mon-ogoloshue-konkurs-na-vakantnu-poziciyu-eksperta-z_en</guid>
+      <category>EU Institutions</category>
+      <dc:creator>European External Action Service</dc:creator>
+    <polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>

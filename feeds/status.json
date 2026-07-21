@@ -1,248 +1,91 @@
 {
-  "last_run": "2026-07-21T08:32:18Z",
-  "country": "uk",
-  "total_active_jobs": 1780,
-  "new_jobs_found": 292,
-  "sources_checked": 25,
-  "sources_succeeded": 25,
+  "last_run": "2026-07-21T10:29:20Z",
+  "country": "brussels",
+  "total_active_jobs": 307,
+  "new_jobs_found": 1,
+  "sources_checked": 8,
+  "sources_succeeded": 8,
   "sources_failed": 0,
-  "sources_disabled": 100,
-  "relevance_filtered": 1029,
-  "descriptions_enriched": 537,
-  "feeds_generated": 8,
-  "run_duration_seconds": 1648.0,
+  "sources_disabled": 20,
+  "relevance_filtered": 0,
+  "descriptions_enriched": 112,
+  "feeds_generated": 6,
+  "run_duration_seconds": 167.1,
   "failed_sources": [],
   "per_source": [
     {
-      "name": "Civil Service Jobs",
+      "name": "EuroBrussels",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 6250,
-      "jobs_after_relevance_filter": 5250,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1108.2,
-      "notes": "Description enrichment disabled for this source"
+      "jobs_found": 71,
+      "jobs_after_relevance_filter": 71,
+      "descriptions_enriched": 71,
+      "duration_seconds": 49.6
     },
     {
-      "name": "NICS",
+      "name": "EU Training Jobs",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 17,
-      "jobs_after_relevance_filter": 16,
-      "descriptions_enriched": 10,
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 5.2
+    },
+    {
+      "name": "ECFR",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
+      "descriptions_enriched": 1,
       "duration_seconds": 0.9
     },
     {
-      "name": "LGA Jobs",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 2,
-      "jobs_after_relevance_filter": 1,
-      "descriptions_enriched": 1,
-      "duration_seconds": 8.1
-    },
-    {
-      "name": "CharityJob",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 366,
-      "jobs_after_relevance_filter": 347,
-      "descriptions_enriched": 345,
-      "duration_seconds": 82.4
-    },
-    {
-      "name": "jobs.ac.uk",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 49,
-      "jobs_after_relevance_filter": 43,
-      "descriptions_enriched": 38,
-      "duration_seconds": 10.4
-    },
-    {
-      "name": "FCA",
+      "name": "German Marshall Fund",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 24,
-      "jobs_after_relevance_filter": 24,
+      "jobs_found": 12,
+      "jobs_after_relevance_filter": 12,
       "descriptions_enriched": 0,
-      "duration_seconds": 28.6,
+      "duration_seconds": 0.5,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+    },
+    {
+      "name": "International IDEA",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 6,
+      "jobs_after_relevance_filter": 6,
+      "descriptions_enriched": 0,
+      "duration_seconds": 1.1,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
-      "name": "ICO",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 3,
-      "jobs_after_relevance_filter": 3,
-      "descriptions_enriched": 0,
-      "duration_seconds": 4.0,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "Bank of England",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 14,
-      "jobs_after_relevance_filter": 14,
-      "descriptions_enriched": 0,
-      "duration_seconds": 11.7,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "ECFR London",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 1,
-      "jobs_after_relevance_filter": 1,
-      "descriptions_enriched": 1,
-      "duration_seconds": 0.6
-    },
-    {
-      "name": "E3G",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 3,
-      "jobs_after_relevance_filter": 3,
-      "descriptions_enriched": 0,
-      "duration_seconds": 3.6,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "SEC Newgate",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.6
-    },
-    {
-      "name": "National Audit Office",
+      "name": "European External Action Service",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 1,
-      "jobs_after_relevance_filter": 1,
-      "descriptions_enriched": 1,
-      "duration_seconds": 1.1
-    },
-    {
-      "name": "IPPR",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.6
-    },
-    {
-      "name": "Policy Exchange",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.0
-    },
-    {
-      "name": "Onward",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.4
-    },
-    {
-      "name": "NEF",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.7
-    },
-    {
-      "name": "Demos",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Liberal Democrats",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 9,
-      "jobs_after_relevance_filter": 9,
-      "descriptions_enriched": 9,
-      "duration_seconds": 1.0
-    },
-    {
-      "name": "SNP",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.0
-    },
-    {
-      "name": "Green Party",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 5,
-      "descriptions_enriched": 5,
+      "jobs_found": 36,
+      "jobs_after_relevance_filter": 36,
+      "descriptions_enriched": 36,
       "duration_seconds": 0.5
     },
     {
-      "name": "Co-operative Party",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 1,
-      "jobs_after_relevance_filter": 1,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.9,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "Ellwood Atfield",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 11,
-      "jobs_after_relevance_filter": 11,
-      "descriptions_enriched": 11,
-      "duration_seconds": 0.2
-    },
-    {
-      "name": "Amnesty International UK",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 5,
-      "descriptions_enriched": 4,
-      "duration_seconds": 1.2
-    },
-    {
-      "name": "TUC",
+      "name": "European Policy Centre",
       "scraper_type": "selector",
       "status": "success",
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.2
     },
     {
-      "name": "W4MP",
-      "scraper_type": "rss_feed",
+      "name": "College of Europe Careers",
+      "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 123,
-      "jobs_after_relevance_filter": 121,
-      "descriptions_enriched": 112,
-      "duration_seconds": 0.8
+      "jobs_found": 4,
+      "jobs_after_relevance_filter": 4,
+      "descriptions_enriched": 4,
+      "duration_seconds": 2.6
     }
   ]
 }
