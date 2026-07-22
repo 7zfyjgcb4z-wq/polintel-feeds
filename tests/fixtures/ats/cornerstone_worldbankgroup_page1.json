@@ -1,0 +1,32 @@
+{
+  "status": "Success",
+  "timestamp": "2026-07-22T13:33:31.055897Z",
+  "data": {
+    "totalCount": 2,
+    "requisitions": [
+      {
+        "requisitionId": 37826,
+        "postingEffectiveDate": "7/22/2026",
+        "postingExpirationDate": "8/6/2026",
+        "displayJobTitle": "WBG Pioneer - Research Intern",
+        "locations": [
+          {"city": "Washington, DC", "country": "US"}
+        ],
+        "externalDescription": "<p>Build a career with <strong>impact</strong>. Join the World Bank Group internship program.</p>"
+      },
+      {
+        "requisitionId": 37667,
+        "postingEffectiveDate": "7/10/2026",
+        "postingExpirationDate": "8/1/2026",
+        "displayJobTitle": "WBG Pioneer - Operations Analyst Intern",
+        "locations": [
+          {"city": "Bujumbura", "country": "BI"},
+          {"city": "Nairobi", "country": "KE"}
+        ],
+        "externalDescription": "<p>The WBG Pioneers internship program offers opportunities across the World Bank Group.</p>"
+      }
+    ],
+    "filters": [],
+    "customFieldFilters": []
+  }
+}

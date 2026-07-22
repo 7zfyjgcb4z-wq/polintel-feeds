@@ -155,6 +155,7 @@ _ATS_IDENTIFIER_FIELDS: dict[str, list[str]] = {
     "oracle_hcm":    ["api_host", "site"],
     "paylocity":     ["guid"],
     "teamtailor":    ["base_url"],
+    "cornerstone":   ["account", "site_id"],
 }
 
 
