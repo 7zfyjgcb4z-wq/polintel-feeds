@@ -219,6 +219,32 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 
 ---
 
+## Internship / Graduate Pipeline
+
+All sources are disabled pending ATS extractor Part 1 sign-off and owner cost decision. Track B audit below covers the five sources researched 2026-07-22 on branch `feat/intl-org-ats-identifiers`.
+
+### ATS-Verified (Disabled — awaiting owner cost decision)
+
+| Source | Config file | Category | Platform | robots.txt verdict (date) | ToS verdict (date) | Dry-run raw | Post-internship-signal | Notes |
+|--------|-------------|----------|----------|---------------------------|-------------------|-------------|------------------------|-------|
+| World Bank Careers | sources-internship-graduate.yaml | international-orgs | cornerstone (worldbankgroup, site_id=1) | worldbank.org: PERMIT — no careers-path disallow (2026-07-22); worldbankgroup.csod.com: PERMIT — Crawl-delay:10 only (2026-07-22) | No explicit scraping prohibition found; general anti-abuse language only. www.worldbank.org/en/about/legal/terms-and-conditions (2026-07-22) | 0 (extractor defect: Cornerstone portal is JS-rendered; __csodInitialState__ not in initial HTTP response — see PR notes) | N/A | **Identifier corrected**: account was `worldbank`; live portal at worldbankgroup.csod.com confirms `worldbankgroup`. site_id=1 confirmed. Extractor defect blocks dry-run count; CLI `ats cornerstone` also unsupported (cornerstone absent from `_ATS_IDENTIFIER_FIELDS`). |
+| OECD Careers | sources-internship-graduate.yaml | international-orgs | smartrecruiters (company_id=OECD) | oecd.org: PERMIT — Disallow: /content/dam/oecd/, /adobe/dynamicmedia/ only; careers API unaffected (2026-07-22) | Not verifiable — oecd.org legal pages return 403 (2026-07-22) | 21 | 3 (Internship Programme x2 (EN+FR) + Analystes juniors des politiques – Éducation via "stage" in body) | company_id confirmed 2026-07-22 via SmartRecruiters public API. OECD posts in EN and FR; bilingual duplicates counted in raw total. |
+| WTO Careers | sources-internship-graduate.yaml | international-orgs | workday (wto/wd103/External) | wto.org: BLOCKED — Disallow: * for all user-agents except Googlebot (2026-07-22); wto.wd103.myworkdayjobs.com: PERMIT — Allow: /External/ (2026-07-22) | wto.org ToS not verifiable — robots.txt blocks all automated access; manual review required (2026-07-22) | 7 | 7 (all pass — WTO job descriptions broadly reference "WTO-Interns" programme text; signal is diluted) | Identifier confirmed 2026-07-22 from wto.org/thewto_e/vacan_e: wto.wd103.myworkdayjobs.com/External. wto.org robots.txt is irrelevant to actual pipeline scraping (target is Workday portal); noted for one-time URL-lookup audit trail. |
+| FleishmanHillard EU Careers | sources-internship-graduate.yaml | public-affairs (brussels) | None — WordPress native (WP Job Manager) | fleishmanhillard.eu: PERMIT — Crawl-delay:10, no Disallow (2026-07-22) | Privacy policy only; no scraping prohibition found. fleishmanhillard.eu/privacy-policy/ (2026-07-22) | N/A — no registered extractor | N/A | ATS inspection 2026-07-22: no external ATS detected. Jobs hosted natively on WordPress at /job/<slug>. No Greenhouse, iCIMS, Lever or other registered-platform embed. No registered extractor for WP Job Manager. Entry left as-is. 3 live roles observed (2 paid internships + 1 working-student post). |
+| Open Society Foundations Careers | sources-pan-eu.yaml | international-orgs | workday (osfglobal/wd5/OSF) | opensocietyfoundations.org: PERMIT (robots.txt) — no careers-path disallow (2026-07-22); osfglobal.wd5.myworkdayjobs.com: PERMIT — Allow: /OSF/ (2026-07-22) | opensocietyfoundations.org ToS EXPLICIT PROHIBITION — "use any robot, spider, site search/retrieval application … to … scrape … Site content". opensocietyfoundations.org/policies/terms-and-conditions (2026-07-22). ATS portal (osfglobal.wd5.myworkdayjobs.com) governed by Workday ToS, not OSF site ToS — owner to judge scope. | 4 | 2 (both Program Manager roles — likely false positives; programme descriptions trigger internship keywords) | **New entry** added 2026-07-22. Workday portal confirmed live (HTTP 200). Categorisation compromise noted in YAML: OSF is a foundation, not an international organisation. OSF ToS prohibition applies to the OSF website; the scraping target is the Workday-hosted portal. Owner must decide whether to proceed. |
+
+### Not Verified / No Extractor (Disabled)
+
+| Source | Config file | Category | Status |
+|--------|-------------|----------|--------|
+| FTI Consulting Student Careers | sources-internship-graduate.yaml | public-affairs | SelectMinds/Taleo board. No registered extractor. |
+| Hanbury Strategy Careers | sources-internship-graduate.yaml | public-affairs | TeamTailor extractor exists but board returns 0 jobs. Pending investigation. |
+| Oxera, YouGov Early Careers, Savanta, Survation, Public First | sources-internship-graduate.yaml | research/public-affairs | ATS platform TBD via auto-detection. Not yet inspected. |
+| Class A boards (PubAffairs, ConservativeJobs, Roll Call, Traverse, Daybook) | sources-internship-graduate.yaml | various | Selector-based. Selectors not yet verified against live HTML. |
+| Class C portals (CHCI, CBCF) | sources-internship-graduate.yaml | us-fellowships | No programmatic feed; application portals only. |
+
+---
+
 ## Known Gaps
 
 | Gap | Reason | Status |
