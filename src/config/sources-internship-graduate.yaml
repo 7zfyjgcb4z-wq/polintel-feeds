@@ -139,14 +139,14 @@ sources:
     scraper: ats_auto
     platform: cornerstone
     identifier:
-      account: worldbank
+      account: worldbankgroup
       site_id: "1"
     org_static: "World Bank Group"
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. site_id TBD — inspect worldbank.csod.com careersite to confirm. Cornerstone extractor added in Phase 1.
-    notes: "Cornerstone OnDemand (worldbank.csod.com). Identifier account=worldbank, site_id needs confirmation from live portal. Extractor added in this build."
+    enabled: false  # GATED: disabled until enablement prompt approved. 194 live jobs confirmed via JSON API on fix/cornerstone-jsrendered-extractor.
+    notes: "Cornerstone OnDemand (worldbankgroup.csod.com). account=worldbankgroup confirmed live 2026-07-22; site_id=1 confirmed. JSON API path active."
 
   - name: "Ipsos Careers"
     url: "https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers"

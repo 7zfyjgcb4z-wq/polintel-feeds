@@ -32,6 +32,7 @@ import pytest
 
 from src.scrapers.ats_extractors.api_extractors import (
     BambooHRAPIExtractor,
+    CornerstoneExtractor,
     GreenhouseAPIExtractor,
     PersonioAPIExtractor,
     WorkdayAPIExtractor,
@@ -325,3 +326,84 @@ async def test_workday_derives_tenant_dc_site_from_url_when_identifier_absent():
             {"name": "IMF Careers", "identifier": {}, "url": "https://imf.wd5.myworkdayjobs.com/IMF"}
         )
     assert jobs == []
+
+
+# ── Cornerstone ───────────────────────────────────────────────────────────────
+# Fixtures fetched once on 2026-07-22 from worldbankgroup.csod.com:
+#   cornerstone_worldbankgroup_home.html — GET /ux/ats/careersite/1/home
+#   cornerstone_worldbankgroup_page1.json — shape of POST rec-job-search/external/jobs
+
+CORNERSTONE_SOURCE = {
+    "name": "World Bank Careers",
+    "org_static": "World Bank Group",
+    "category": "international-orgs",
+    "country": "international",
+    "identifier": {"account": "worldbankgroup", "site_id": "1"},
+}
+
+
+@pytest.mark.asyncio
+async def test_cornerstone_json_api_mapping_from_fixture():
+    home_html = _text_fixture("cornerstone_worldbankgroup_home.html")
+    search_payload = _json_fixture("cornerstone_worldbankgroup_page1.json")
+
+    async def fake_get(self, url, *args, **kwargs):
+        if "careersite" in url:
+            return _FakeResponse(status_code=200, text=home_html)
+        raise AssertionError(f"unexpected GET in test: {url}")
+
+    async def fake_post(self, url, *args, **kwargs):
+        assert "rec-job-search/external/jobs" in url
+        return _FakeResponse(status_code=200, json_data=search_payload)
+
+    with patch.object(httpx.AsyncClient, "get", fake_get), \
+         patch.object(httpx.AsyncClient, "post", fake_post):
+        jobs = await CornerstoneExtractor().extract(CORNERSTONE_SOURCE)
+
+    assert len(jobs) == 2
+
+    intern = next((j for j in jobs if "Research Intern" in j.title), None)
+    assert intern is not None
+    assert intern.title == "WBG Pioneer - Research Intern"
+    assert intern.url == "https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37826"
+    assert intern.organisation == "World Bank Group"
+    assert intern.location == "Washington, DC, US"
+    assert "impact" in intern.description
+    assert intern.description_source == "api"
+    assert intern.posted_date == "7/22/2026"
+    assert intern.closing_date == "8/6/2026"
+
+    multi_loc = next((j for j in jobs if j.title == "WBG Pioneer - Operations Analyst Intern"), None)
+    assert multi_loc is not None
+    assert multi_loc.url == "https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37667"
+    # When a requisition has multiple locations, location is taken from the first entry
+    assert multi_loc.location == "Bujumbura, BI"
+
+
+@pytest.mark.asyncio
+async def test_cornerstone_missing_account_returns_empty():
+    jobs = await CornerstoneExtractor().extract({"name": "x", "identifier": {}})
+    assert jobs == []
+
+
+@pytest.mark.asyncio
+async def test_cornerstone_falls_back_to_init_state_when_no_token():
+    """Pages without csod.context (legacy accounts) fall back to __csodInitialState__."""
+    html = """<html><body><script>
+window.__csodInitialState__ = {"careerSiteJobListState": {"jobList": {"requisitionList": [
+  {"RequisitionTitle": "Policy Analyst", "RequisitionId": 42, "JobLocation": "London"}
+]}}};</script></body></html>"""
+
+    async def fake_get(self, url, *args, **kwargs):
+        return _FakeResponse(status_code=200, text=html)
+
+    with patch.object(httpx.AsyncClient, "get", fake_get):
+        jobs = await CornerstoneExtractor().extract(
+            {"name": "Legacy Org", "org_static": "Legacy Org", "category": "think-tanks",
+             "country": "uk", "identifier": {"account": "legacyorg", "site_id": "1"}}
+        )
+
+    assert len(jobs) == 1
+    assert jobs[0].title == "Policy Analyst"
+    assert jobs[0].url == "https://legacyorg.csod.com/ux/ats/careersite/1/requisition/42"
+    assert jobs[0].location == "London"

@@ -738,56 +738,169 @@ class ICIMSExtractor(BaseATSExtractor):
 
 
 class CornerstoneExtractor(BaseATSExtractor):
-    """Cornerstone OnDemand (csod.com) careers site — scrapes the HTML listing page.
-    Identifier keys: account (e.g. 'worldbank'), site_id (numeric career site ID, e.g. '1').
+    """Cornerstone OnDemand (csod.com) careers site.
+
+    Primary path: GET the career-site home page, extract the short-lived Bearer
+    token from the csod.context JS object (embedded as plain text — no JS
+    execution needed), then POST to the cloud search API with pagination.
+
+    Fallback: scrapes window.__csodInitialState__ for accounts that still inline
+    the job list in the page HTML.
+
+    Identifier keys: account (e.g. 'worldbankgroup'), site_id (e.g. '1').
     """
 
+    _CONTEXT_RE = re.compile(r"csod\.context\s*=\s*(\{.*?\});", re.DOTALL)
+    _INIT_STATE_RE = re.compile(r"window\.__csodInitialState__\s*=\s*(\{.*\})", re.DOTALL)
+    _PAGE_SIZE = 100
+
     async def extract(self, source: dict) -> list[Job]:
+        import json as _json
+
         identifier = source.get("identifier") or {}
         account = identifier.get("account", "")
-        site_id = identifier.get("site_id", "1")
+        site_id = str(identifier.get("site_id", "1"))
         if not account:
             log.warning("Cornerstone: missing identifier.account for %s", source.get("name"))
             return []
         base = self._base(source)
-        list_url = f"https://{account}.csod.com/ux/ats/careersite/{site_id}/home"
+        home_url = f"https://{account}.csod.com/ux/ats/careersite/{site_id}/home"
         async with _client() as client:
-            resp = await client.get(list_url)
+            resp = await client.get(home_url)
             resp.raise_for_status()
             html = resp.text
+
+        # Primary: token embedded in csod.context → POST to cloud JSON search API
+        m = self._CONTEXT_RE.search(html)
+        if m:
+            try:
+                ctx = _json.loads(m.group(1))
+                token = ctx.get("token", "")
+                cloud_base = (ctx.get("endpoints") or {}).get("cloud", "https://us.api.csod.com/")
+                if token:
+                    return await self._fetch_json_api(account, site_id, token, cloud_base, home_url, base)
+            except Exception as exc:
+                log.debug("Cornerstone JSON API path failed for %s: %s", account, exc)
+
+        # Fallback: window.__csodInitialState__ inlined in page HTML
+        return self._parse_init_state(html, account, site_id, base)
+
+    async def _fetch_json_api(
+        self,
+        account: str,
+        site_id: str,
+        token: str,
+        cloud_base: str,
+        home_url: str,
+        base: dict,
+    ) -> list[Job]:
+        import json as _json
+
+        search_url = cloud_base.rstrip("/") + "/rec-job-search/external/jobs"
+        req_headers = {
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "Origin": f"https://{account}.csod.com",
+            "Referer": home_url,
+        }
+        all_reqs: list[dict] = []
+        page = 1
+        total: int | None = None
+        async with _client() as client:
+            while True:
+                payload = {
+                    "careerSiteId": site_id,
+                    "careerSitePageId": site_id,
+                    "pageNumber": page,
+                    "pageSize": self._PAGE_SIZE,
+                    "cultureId": 1,
+                    "cultureName": "en-US",
+                    "searchText": "",
+                    "states": [],
+                    "countryCodes": [],
+                    "cities": [],
+                    "placeID": "",
+                    "radius": 0,
+                    "postingsWithinDays": None,
+                    "customFieldCheckboxKeys": [],
+                    "customFieldDropdowns": [],
+                    "customFieldRadios": [],
+                }
+                resp = await client.post(search_url, json=payload, headers=req_headers)
+                resp.raise_for_status()
+                data = resp.json().get("data", {})
+                if total is None:
+                    total = data.get("totalCount", 0)
+                batch = data.get("requisitions", [])
+                all_reqs.extend(batch)
+                if not batch or len(all_reqs) >= (total or 0):
+                    break
+                page += 1
+        log.info("Cornerstone %s (JSON API): %d jobs (total=%d)", account, len(all_reqs), total or 0)
+        jobs = []
+        for req in all_reqs:
+            title = (req.get("displayJobTitle") or "").strip()
+            req_id = req.get("requisitionId")
+            if not title or not req_id:
+                continue
+            job_url = (
+                f"https://{account}.csod.com/ux/ats/careersite/{site_id}"
+                f"/home/requisition/{req_id}"
+            )
+            locs = req.get("locations") or []
+            if locs:
+                loc_parts = [p for p in [locs[0].get("city"), locs[0].get("country")] if p]
+                location: str | None = ", ".join(loc_parts) or None
+            else:
+                location = None
+            desc_html = req.get("externalDescription") or ""
+            description = _clip(_strip_html(desc_html)) if desc_html else ""
+            posted_date = req.get("postingEffectiveDate") or None
+            closing_date = req.get("postingExpirationDate") or None
+            jobs.append(Job(
+                title=title, url=job_url, description=description,
+                location=location, posted_date=posted_date, closing_date=closing_date,
+                description_source="api" if description else "none",
+                **base,
+            ))
+        return jobs
+
+    def _parse_init_state(self, html: str, account: str, site_id: str, base: dict) -> list[Job]:
+        import json as _json
+
         soup = BeautifulSoup(html, "lxml")
         jobs = []
-        # Cornerstone renders a JSON array in a script tag: window.__csodInitialState__
-        import json as _json
         for script in soup.find_all("script"):
             text = script.string or ""
-            if "__csodInitialState__" in text or "requisitions" in text.lower():
-                # Try to extract JSON
-                m = re.search(r"window\.__csodInitialState__\s*=\s*(\{.*\})", text, re.DOTALL)
-                if m:
-                    try:
-                        state = _json.loads(m.group(1))
-                        reqs = (
-                            state.get("careerSiteJobListState", {})
-                            .get("jobList", {})
-                            .get("requisitionList", [])
-                        )
-                        for req in reqs:
-                            title = (req.get("RequisitionTitle") or "").strip()
-                            req_id = req.get("RequisitionId") or req.get("Id")
-                            if not title or not req_id:
-                                continue
-                            job_url = f"https://{account}.csod.com/ux/ats/careersite/{site_id}/requisition/{req_id}"
-                            location = req.get("JobLocation") or req.get("Location") or None
-                            desc_html = req.get("JobDescription") or ""
-                            description = _clip(_strip_html(desc_html)) if desc_html else ""
-                            jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
-                        if jobs:
-                            log.info("Cornerstone %s (JSON): %d jobs", account, len(jobs))
-                            return jobs
-                    except Exception as exc:
-                        log.debug("Cornerstone JSON parse failed for %s: %s", account, exc)
-        # Fallback: try HTML cards
+            if "__csodInitialState__" not in text:
+                continue
+            m = self._INIT_STATE_RE.search(text)
+            if not m:
+                continue
+            try:
+                state = _json.loads(m.group(1))
+                reqs = (
+                    state.get("careerSiteJobListState", {})
+                    .get("jobList", {})
+                    .get("requisitionList", [])
+                )
+                for req in reqs:
+                    title = (req.get("RequisitionTitle") or "").strip()
+                    req_id = req.get("RequisitionId") or req.get("Id")
+                    if not title or not req_id:
+                        continue
+                    job_url = f"https://{account}.csod.com/ux/ats/careersite/{site_id}/requisition/{req_id}"
+                    location = req.get("JobLocation") or req.get("Location") or None
+                    desc_html = req.get("JobDescription") or ""
+                    description = _clip(_strip_html(desc_html)) if desc_html else ""
+                    jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
+                if jobs:
+                    log.info("Cornerstone %s (__csodInitialState__): %d jobs", account, len(jobs))
+                    return jobs
+            except Exception as exc:
+                log.debug("Cornerstone __csodInitialState__ parse failed for %s: %s", account, exc)
+        # Last resort: generic HTML card selectors
         for card in soup.select(".csod-job-item, li.requisition-item, div.job-listing-item"):
             link_el = card.select_one("a[href]")
             if not link_el:
@@ -796,7 +909,7 @@ class CornerstoneExtractor(BaseATSExtractor):
             href = link_el.get("href", "")
             job_url = href if href.startswith("http") else f"https://{account}.csod.com{href}"
             jobs.append(Job(title=title, url=job_url, description="", **base))
-        log.info("Cornerstone %s (HTML): %d jobs", account, len(jobs))
+        log.info("Cornerstone %s (HTML cards): %d jobs", account, len(jobs))
         return jobs
 
 
