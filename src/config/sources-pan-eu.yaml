@@ -51,3 +51,22 @@ sources:
     language: en
     enabled: false
     notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Global development; ~70% relevant after filtering for EU/policy. JS-rendered - may need Playwright or partner feed. Enable only after relevance filter confirmed."
+
+  # CATEGORISATION NOTE: OSF is a private philanthropic foundation, not an intergovernmental
+  # organisation. pan-eu has no dedicated foundations feed; this entry is placed here as the
+  # least-bad fit given current feed taxonomy. Owner should consider re-routing to a foundations
+  # feed if one is created, or splitting international-orgs into a broader international category.
+  - name: "Open Society Foundations Careers"
+    url: "https://osfglobal.wd5.myworkdayjobs.com/OSF"
+    country_code: null
+    category: international-orgs
+    scraper: ats_auto
+    platform: workday
+    identifier:
+      tenant: osfglobal
+      dc: wd5
+      site: OSF
+    org_static: "Open Society Foundations"
+    require_internship_signal: true
+    enabled: false  # GATED: new entry 2026-07-22. Workday portal confirmed live. OSF main site ToS (opensocietyfoundations.org/policies/terms-and-conditions) explicitly prohibits scraping; actual target is osfglobal.wd5.myworkdayjobs.com which robots.txt explicitly allows /OSF/. Owner cost decision and flag flip required before enabling.
+    notes: "Workday wd5. Identifier confirmed 2026-07-22: tenant=osfglobal, dc=wd5, site=OSF (osfglobal.wd5.myworkdayjobs.com/OSF returns HTTP 200). OSF main site ToS explicitly prohibits automated scraping; however the scraping target is the Workday-hosted portal (different domain, governed by Workday ToS) which explicitly allows /OSF/ in robots.txt. Flag for owner review. Positive signal filter applied — OSF posts a mix of grant, programme and operational roles."

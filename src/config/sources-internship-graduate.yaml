@@ -129,8 +129,8 @@ sources:
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. ATS platform TBD — likely Greenhouse; confirm token from careers page HTML.
-    notes: "EU public affairs arm of FleishmanHillard. Seed indicates Greenhouse + iCIMS. Inspect /careers/ HTML to determine active ATS and identifier. Add platform + identifier once confirmed."
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. ATS inspection 2026-07-22: no external ATS — WordPress-native listings (WP Job Manager) at fleishmanhillard.eu/job/<slug>. No registered extractor for this platform.
+    notes: "ATS inspection 2026-07-22: fleishmanhillard.eu/careers/ uses WordPress-native job posts (WP Job Manager), not an external ATS. Job URLs follow /job/<slug> pattern. No Greenhouse, iCIMS, Lever, or other registered-platform embed detected. No registered extractor exists for WP Job Manager. Entry left as-is per task instructions. 3 live roles observed on inspection date (2 paid internships + 1 working-student post). Re-inspect if a standard ATS is adopted."
 
   - name: "World Bank Careers"
     url: "https://www.worldbank.org/ext/en/careers"
@@ -139,14 +139,14 @@ sources:
     scraper: ats_auto
     platform: cornerstone
     identifier:
-      account: worldbank
+      account: worldbankgroup
       site_id: "1"
     org_static: "World Bank Group"
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. site_id TBD — inspect worldbank.csod.com careersite to confirm. Cornerstone extractor added in Phase 1.
-    notes: "Cornerstone OnDemand (worldbank.csod.com). Identifier account=worldbank, site_id needs confirmation from live portal. Extractor added in this build."
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Identifier confirmed 2026-07-22 from worldbankgroup.csod.com live portal: account=worldbankgroup, site_id=1.
+    notes: "Cornerstone OnDemand (worldbankgroup.csod.com). Identifier confirmed 2026-07-22: account=worldbankgroup, site_id=1. Positive signal filter required to keep only intern/grad roles from full feed."
 
   - name: "Ipsos Careers"
     url: "https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers"
@@ -172,13 +172,13 @@ sources:
     scraper: ats_auto
     platform: smartrecruiters
     identifier:
-      company_id: ""
+      company_id: "OECD"
     org_static: "OECD"
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. company_id TBD — inspect oecd.org/careers HTML for SmartRecruiters company ID. SmartRecruiters extractor exists.
-    notes: "SmartRecruiters platform. Needs company_id from live page (likely 'OECDOrganisationforEconomicCo-operation' or similar). Fill identifier.company_id before enabling."
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. company_id confirmed 2026-07-22 via SmartRecruiters public API: company_id=OECD (21 live postings).
+    notes: "SmartRecruiters platform. company_id confirmed 2026-07-22 via API: 'OECD' (21 live postings). Positive signal filter required to keep only intern/grad roles."
 
   - name: "IMF Careers"
     url: "https://imf.wd5.myworkdayjobs.com/IMF"
@@ -204,15 +204,15 @@ sources:
     scraper: ats_auto
     platform: workday
     identifier:
-      tenant: ""
-      dc: ""
-      site: ""
+      tenant: wto
+      dc: wd103
+      site: External
     org_static: "World Trade Organization"
     ingestion_pipeline: internship_graduate
     compliance_posture: green
     require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. tenant/dc/site TBD — inspect wto.org/vacan_e HTML for Workday URL. Workday extractor exists.
-    notes: "Workday platform. Needs tenant/dc/site from live page. Fill identifier before enabling."
+    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Identifier confirmed 2026-07-22 from wto.org/vacan_e: wto.wd103.myworkdayjobs.com/External.
+    notes: "Workday wd103. Identifier confirmed 2026-07-22 from wto.org vacancies page link: tenant=wto, dc=wd103, site=External. wto.org robots.txt Disallow: * (all bots) — actual scraping targets Workday portal at wto.wd103.myworkdayjobs.com which explicitly allows /External/. Positive signal filter required."
 
   - name: "Oxera Careers"
     url: "https://careers.oxera.com/jobs"
