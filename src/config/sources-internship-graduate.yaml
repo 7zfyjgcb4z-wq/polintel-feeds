@@ -48,7 +48,7 @@ sources:
     curated: true
     ingestion_pipeline: internship_graduate
     compliance_posture: green
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. Selector verified 2026-06-17: div.job-snippet > div.job-titles h2, 9 live jobs confirmed.
+    enabled: true  # ENABLED 2026-07-23: gate condition met (ATS extractor Part 1 verified). Selector confirmed live 2026-06-17: 9 jobs.
     notes: "PHP static listing page. Selector confirmed 2026-06-17: div.job-snippet > a > div.job-titles h2. Includes GraduateForward and public affairs graduate roles. 9 live jobs on dry-run. Class A dedicated board — curated, exempt from positive signal screening."
 
   - name: "ConservativeJobs.com"
