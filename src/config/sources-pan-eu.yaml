@@ -51,3 +51,56 @@ sources:
     language: en
     enabled: false
     notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. COND. Global development; ~70% relevant after filtering for EU/policy. JS-rendered - may need Playwright or partner feed. Enable only after relevance filter confirmed."
+
+  - name: "Open Society Foundations Careers"
+    url: "https://osfglobal.wd5.myworkdayjobs.com/OSF"
+    country_code: null
+    category: international-orgs
+    scraper: ats_auto
+    platform: workday
+    identifier:
+      tenant: osfglobal
+      dc: wd5
+      site: OSF
+    org_static: "Open Society Foundations"
+    enabled: false  # Pending owner ToS decision before enabling. Categorisation compromise: straddles international-orgs and ngos; international-orgs chosen for pan-eu pipeline fit.
+    notes: "Workday wd5. Identifier confirmed 2026-07-22. Categorised as international-orgs (compromise: straddles international-orgs and ngos; international-orgs chosen for pan-eu pipeline fit). DISABLED pending owner ToS decision."
+
+  - name: "World Bank Careers"
+    url: "https://www.worldbank.org/ext/en/careers"
+    country_code: null
+    category: international-orgs
+    scraper: ats_auto
+    platform: cornerstone
+    identifier:
+      account: worldbankgroup
+      site_id: "1"
+    org_static: "World Bank Group"
+    enabled: true
+    notes: "General board (intern-only filter removed) per owner decision 2026-07-22. Enable-date dry-run: 194 raw / 193 after relevance filter. Cornerstone OnDemand (worldbankgroup.csod.com). JSON API path active; account=worldbankgroup, site_id=1 confirmed."
+
+  - name: "OECD Careers"
+    url: "https://www.oecd.org/en/about/careers/internships.html"
+    country_code: null
+    category: international-orgs
+    scraper: ats_auto
+    platform: smartrecruiters
+    identifier:
+      company_id: "OECD"
+    org_static: "OECD"
+    enabled: true
+    notes: "General board (intern-only filter removed) per owner decision 2026-07-22. Enable-date dry-run: 21 raw / 20 after relevance filter. SmartRecruiters company_id=OECD confirmed 2026-07-22."
+
+  - name: "WTO Careers"
+    url: "https://www.wto.org/english/thewto_e/vacan_e/"
+    country_code: null
+    category: international-orgs
+    scraper: ats_auto
+    platform: workday
+    identifier:
+      tenant: wto
+      dc: wd103
+      site: External
+    org_static: "World Trade Organization"
+    enabled: true
+    notes: "General board (intern-only filter removed) per owner decision 2026-07-22. Enable-date dry-run: 7 raw / 6 after relevance filter. Workday wd103. Identifier confirmed 2026-07-22."
