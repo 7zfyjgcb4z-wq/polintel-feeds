@@ -174,6 +174,16 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 | Council Traineeships | fellowships | generic | 403 blocked |
 | EurActiv Jobs | eu-affairs | rss_feed | RSS feed contains career-advice articles only, not job listings |
 
+### Enabled 2026-07-22 (pan-eu international-orgs, general boards)
+
+Moved from sources-internship-graduate.yaml. Intern-only filter (require_internship_signal) removed; these are full general boards. Category: international-orgs. Pipeline: pan-eu.
+
+| Source | Category | Platform | Robots/ToS | Enable-date dry-run | Notes |
+|--------|----------|----------|------------|---------------------|-------|
+| World Bank Careers | international-orgs | Cornerstone (worldbankgroup.csod.com) | Green — public JSON API, no ToS barrier | 194 raw / 193 after relevance filter | Volume driver. Intern-only filter removed per owner decision 2026-07-22. account=worldbankgroup, site_id=1 confirmed. |
+| OECD Careers | international-orgs | SmartRecruiters (company_id=OECD) | Green — public API, no ToS barrier | 21 raw / 20 after relevance filter | Intern-only filter removed per owner decision 2026-07-22. company_id=OECD confirmed 2026-07-22. |
+| WTO Careers | international-orgs | Workday (wto/wd103/External) | Green — public API, no ToS barrier | 7 raw / 6 after relevance filter | Intern-only filter removed per owner decision 2026-07-22. tenant=wto, dc=wd103, site=External confirmed 2026-07-22. |
+
 ---
 
 ## United States

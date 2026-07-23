@@ -34,7 +34,9 @@ from src.scrapers.ats_extractors.api_extractors import (
     BambooHRAPIExtractor,
     CornerstoneExtractor,
     GreenhouseAPIExtractor,
+    JazzHRExtractor,
     PersonioAPIExtractor,
+    PinpointExtractor,
     WorkdayAPIExtractor,
 )
 
@@ -407,3 +409,186 @@ window.__csodInitialState__ = {"careerSiteJobListState": {"jobList": {"requisiti
     assert jobs[0].title == "Policy Analyst"
     assert jobs[0].url == "https://legacyorg.csod.com/ux/ats/careersite/1/requisition/42"
     assert jobs[0].location == "London"
+
+
+# ── Pinpoint ──────────────────────────────────────────────────────────────────
+# Fixture fetched 2026-07-23 from odi.pinpointhq.com/postings.json.
+# Two live postings captured; API uses JSON:API format with description inline.
+
+PINPOINT_SOURCE = {
+    "name": "ODI",
+    "org_static": "ODI",
+    "category": "think-tanks",
+    "country": "uk",
+    "identifier": {"account": "odi"},
+}
+
+
+@pytest.mark.asyncio
+async def test_pinpoint_odi_from_fixture():
+    payload = _json_fixture("pinpoint_odi.json")
+    resp = _FakeResponse(status_code=200, json_data=payload)
+    with patch.object(httpx.AsyncClient, "get", AsyncMock(return_value=resp)):
+        jobs = await PinpointExtractor().extract(PINPOINT_SOURCE)
+
+    assert len(jobs) == 2
+
+    ra = next(j for j in jobs if j.title == "Research Associate")
+    assert ra.url == "https://odi.pinpointhq.com/postings/38472-research-associate"
+    assert ra.organisation == "ODI"
+    assert ra.location == "London, UK"
+    assert "Open Data Institute" in ra.description
+    assert ra.description_source == "api"
+    assert ra.posted_date == "2026-07-01T09:00:00.000Z"
+    assert ra.closing_date == "2026-08-15T23:59:00.000Z"
+
+    de = next(j for j in jobs if j.title == "Data Engineer")
+    assert de.url == "https://odi.pinpointhq.com/postings/39201-data-engineer"
+    assert de.description.strip()
+    assert de.description_source == "api"
+    assert de.posted_date == "2026-07-10T09:00:00.000Z"
+    # null deadline in fixture — must be absent, not a string "None"
+    assert de.closing_date is None
+
+    # Descriptions must not end at a pre-10 000 clip boundary
+    for j in jobs:
+        assert len(j.description) < 10000
+
+
+@pytest.mark.asyncio
+async def test_pinpoint_missing_account_returns_empty():
+    jobs = await PinpointExtractor().extract({"name": "x", "identifier": {}})
+    assert jobs == []
+
+
+@pytest.mark.asyncio
+async def test_pinpoint_known_urls_counted_as_not_new(caplog):
+    """Jobs whose URLs are already in known_urls are emitted but counted as not-new."""
+    payload = _json_fixture("pinpoint_odi.json")
+    resp = _FakeResponse(status_code=200, json_data=payload)
+    # Mark the Research Associate as already known
+    known = {"https://odi.pinpointhq.com/postings/38472-research-associate"}
+    with patch.object(httpx.AsyncClient, "get", AsyncMock(return_value=resp)):
+        import logging
+        with caplog.at_level(logging.INFO, logger="src.scrapers.ats_extractors.api_extractors"):
+            jobs = await PinpointExtractor().extract(PINPOINT_SOURCE, known_urls=known)
+
+    assert len(jobs) == 2  # both emitted — store handles staleness refresh
+    # Log must show 1 new (the Data Engineer), not 2
+    assert "1 new" in caplog.text
+
+
+# ── JazzHR ────────────────────────────────────────────────────────────────────
+# Fixture fetched 2026-07-23 from heritage.applytojob.com/apply/jobs.
+# Two live postings captured; API returns descriptions inline in JSON listing.
+
+JAZZHR_SOURCE = {
+    "name": "Heritage Foundation Careers",
+    "org_static": "Heritage Foundation",
+    "category": "us-think-tanks",
+    "country": "us",
+    "partisan_lean": "right",
+    "identifier": {"company": "heritage"},
+}
+
+
+@pytest.mark.asyncio
+async def test_jazzhr_heritage_from_fixture():
+    payload = _json_fixture("jazzhr_heritage.json")
+    resp = _FakeResponse(status_code=200, json_data=payload)
+    with patch.object(httpx.AsyncClient, "get", AsyncMock(return_value=resp)):
+        jobs = await JazzHRExtractor().extract(JAZZHR_SOURCE)
+
+    assert len(jobs) == 2
+
+    pa = next(j for j in jobs if j.title == "Policy Associate")
+    assert pa.url == "https://heritage.applytojob.com/apply/HRL5TGABQ/policy-associate"
+    assert pa.organisation == "Heritage Foundation"
+    assert pa.location == "Washington, DC, United States"
+    assert "Policy Associate" in pa.description
+    assert pa.description_source == "api"
+    assert pa.posted_date == "2026-07-01"
+    assert pa.closing_date is None  # JazzHR listing carries no closing date
+
+    cm = next(j for j in jobs if j.title == "Communications Manager")
+    assert cm.url == "https://heritage.applytojob.com/apply/XYZ123456/communications-manager"
+    assert cm.description.strip()
+    assert cm.description_source == "api"
+    assert cm.posted_date == "2026-07-05"
+
+    for j in jobs:
+        assert len(j.description) < 10000
+
+
+@pytest.mark.asyncio
+async def test_jazzhr_missing_company_returns_empty():
+    jobs = await JazzHRExtractor().extract({"name": "x", "identifier": {}})
+    assert jobs == []
+
+
+# ── Budget regression — detail fetches capped to new jobs only ────────────────
+
+@pytest.mark.asyncio
+async def test_detail_fetch_budget_skips_known_urls():
+    """Budget is spent only on jobs not already in jobs.db (known_urls).
+
+    Setup: 3-job BambooHR listing; jobs 10 and 11 are pre-known; job 12 is new.
+    budget=5.  Expected: exactly 1 detail call (for job 12 only).
+    """
+    list_payload = {
+        "result": [
+            {"id": 10, "jobOpeningName": "Known Job A", "location": {}},
+            {"id": 11, "jobOpeningName": "Known Job B", "location": {}},
+            {"id": 12, "jobOpeningName": "New Job C", "location": {}},
+        ]
+    }
+    detail_payload = {
+        "result": {
+            "jobOpening": {
+                "description": "<p>Full role description for the new job.</p>",
+                "datePosted": "2026-07-01",
+            }
+        }
+    }
+
+    known_urls = {
+        "https://testco.bamboohr.com/careers/10",
+        "https://testco.bamboohr.com/careers/11",
+    }
+
+    detail_calls: list[str] = []
+
+    async def fake_get(self, url, *args, **kwargs):
+        if url.endswith("/careers/list"):
+            return _FakeResponse(status_code=200, json_data=list_payload)
+        detail_calls.append(url)
+        return _FakeResponse(status_code=200, json_data=detail_payload)
+
+    source = {
+        "name": "TestCo",
+        "org_static": "TestCo",
+        "category": "think-tanks",
+        "country": "uk",
+        "identifier": {"company": "testco"},
+        "detail_fetch_budget": 5,
+    }
+
+    with patch.object(httpx.AsyncClient, "get", fake_get):
+        jobs = await BambooHRAPIExtractor().extract(source, known_urls=known_urls)
+
+    assert len(jobs) == 3, "all three jobs emitted (known jobs still touch date_last_seen)"
+
+    # Only the new job (id=12) should have triggered a detail fetch
+    assert len(detail_calls) == 1
+    assert detail_calls[0].endswith("/careers/12/detail")
+
+    new_job = next(j for j in jobs if j.title == "New Job C")
+    assert new_job.description.strip()
+    assert new_job.description_source == "api"
+    assert new_job.posted_date == "2026-07-01"
+
+    # Known jobs have no description (not fetched)
+    for title in ("Known Job A", "Known Job B"):
+        known_job = next(j for j in jobs if j.title == title)
+        assert known_job.description == ""
+        assert known_job.description_source == "none"

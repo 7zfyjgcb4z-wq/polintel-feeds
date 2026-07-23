@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "id": "38472",
+      "type": "postings",
+      "attributes": {
+        "title": "Research Associate",
+        "location": "London, UK",
+        "description": "<p>The <strong>Open Data Institute</strong> (ODI) is looking for a Research Associate to join our Research team.</p><p>The role involves conducting research into the uses and impacts of data across different sectors, producing reports, blog posts, and other outputs that contribute to the ODI’s mission of open, trustworthy data for everyone.</p><p>You will work across projects examining data governance, data infrastructure, and the social and economic value of data.</p>",
+        "published_at": "2026-07-01T09:00:00.000Z",
+        "deadline": "2026-08-15T23:59:00.000Z"
+      },
+      "links": {
+        "self": "https://odi.pinpointhq.com/postings/38472-research-associate"
+      }
+    },
+    {
+      "id": "39201",
+      "type": "postings",
+      "attributes": {
+        "title": "Data Engineer",
+        "location": "London, UK",
+        "description": "<p>We are looking for a <strong>Data Engineer</strong> to support the development of our open data infrastructure and tooling.</p><p>You will work closely with the technology team to build and maintain data pipelines, APIs, and datasets that underpin ODI programmes and products.</p>",
+        "published_at": "2026-07-10T09:00:00.000Z",
+        "deadline": null
+      },
+      "links": {
+        "self": "https://odi.pinpointhq.com/postings/39201-data-engineer"
+      }
+    }
+  ],
+  "meta": {
+    "total_count": 2
+  }
+}

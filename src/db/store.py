@@ -246,6 +246,11 @@ class JobStore:
             partisan_lean=row["partisan_lean"],
         )
 
+    def get_known_urls(self) -> set[str]:
+        """Return all job guids (URLs) ever stored — active or not — for dedup."""
+        rows = self._conn.execute("SELECT guid FROM jobs").fetchall()
+        return {row[0] for row in rows}
+
     def stats(self) -> dict:
         row = self._conn.execute(
             "SELECT COUNT(*) as total, SUM(is_active) as active FROM jobs"

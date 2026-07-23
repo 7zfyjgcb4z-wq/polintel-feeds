@@ -418,7 +418,9 @@ sources:
     scraper: "ats_auto"
     platform: "pinpoint"
     org_static: "ODI"
-    enabled: false  # careers.odi.org returns Cloudflare JS challenge — cannot scrape without browser
+    identifier:
+      account: "odi"  # board at odi.pinpointhq.com; extractor calls /postings.json directly
+    enabled: false  # careers.odi.org returns Cloudflare JS challenge — use Pinpoint API when re-enabling
 
   - name: "Tony Blair Institute"
     url: "https://institute.global/who-we-are/careers"

@@ -1,0 +1,30 @@
+{
+  "jobs": [
+    {
+      "id": "HRL5TGABQ",
+      "title": "Policy Associate",
+      "city": "Washington",
+      "state": "DC",
+      "country": "United States",
+      "department": "Government Relations",
+      "type": "Full-Time",
+      "status": "Open",
+      "original_open_date": "2026-07-01",
+      "description": "<p>The <strong>Policy Associate</strong> will conduct research and analysis on a range of domestic and international policy issues, supporting senior staff in producing policy papers, testimony, and public commentary.</p><p>Responsibilities include monitoring legislative and regulatory developments, drafting briefing notes, and engaging with congressional staff and partner organisations.</p>",
+      "apply_url": "https://heritage.applytojob.com/apply/HRL5TGABQ/policy-associate"
+    },
+    {
+      "id": "XYZ123456",
+      "title": "Communications Manager",
+      "city": "Washington",
+      "state": "DC",
+      "country": "United States",
+      "department": "External Affairs",
+      "type": "Full-Time",
+      "status": "Open",
+      "original_open_date": "2026-07-05",
+      "description": "<p>The <strong>Communications Manager</strong> will lead the organisation's media relations strategy and oversee the production of digital and print communications materials.</p><p>The successful candidate will have experience managing relationships with journalists, producing press releases and op-eds, and developing content strategies for social media channels.</p>",
+      "apply_url": "https://heritage.applytojob.com/apply/XYZ123456/communications-manager"
+    }
+  ]
+}

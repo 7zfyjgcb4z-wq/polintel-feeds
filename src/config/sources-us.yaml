@@ -579,6 +579,18 @@ sources:
     enrich_description: true
     enabled: true
 
+  - name: "Brennan Center for Justice (JazzHR API)"
+    url: "https://brennancenter.applytojob.com/apply"
+    country: us
+    category: us-think-tanks
+    scraper: ats_auto
+    platform: jazzhr
+    org_static: "Brennan Center for Justice"
+    identifier:
+      company: "brennancenter"
+    partisan_lean: left
+    enabled: false  # JazzHR API extractor; disabled — parallel selector entry above is the active scraper
+
   - name: "Roosevelt Institute"
     url: "https://rooseveltinstitute.org/careers/"
     country: us

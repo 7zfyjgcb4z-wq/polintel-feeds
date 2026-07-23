@@ -132,22 +132,6 @@ sources:
     enabled: false  # GATED: disabled until ATS extractor Part 1 verified. ATS platform TBD — likely Greenhouse; confirm token from careers page HTML.
     notes: "EU public affairs arm of FleishmanHillard. Seed indicates Greenhouse + iCIMS. Inspect /careers/ HTML to determine active ATS and identifier. Add platform + identifier once confirmed."
 
-  - name: "World Bank Careers"
-    url: "https://www.worldbank.org/ext/en/careers"
-    country: international
-    category: international-orgs
-    scraper: ats_auto
-    platform: cornerstone
-    identifier:
-      account: worldbankgroup
-      site_id: "1"
-    org_static: "World Bank Group"
-    ingestion_pipeline: internship_graduate
-    compliance_posture: green
-    require_internship_signal: true
-    enabled: false  # GATED: disabled until enablement prompt approved. 194 live jobs confirmed via JSON API on fix/cornerstone-jsrendered-extractor.
-    notes: "Cornerstone OnDemand (worldbankgroup.csod.com). account=worldbankgroup confirmed live 2026-07-22; site_id=1 confirmed. JSON API path active."
-
   - name: "Ipsos Careers"
     url: "https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers"
     country: uk
@@ -165,21 +149,6 @@ sources:
     enabled: true   # ENABLED 2026-06-20: live verification slice. Oracle HCM identifier confirmed. Internship signal filter active.
     notes: "Oracle Recruiting Cloud. api_host=ecqf.fa.em2.oraclecloud.com, site=IpsosCareers — confirmed from ipsos.com/careers source."
 
-  - name: "OECD Careers"
-    url: "https://www.oecd.org/en/about/careers/internships.html"
-    country: international
-    category: international-orgs
-    scraper: ats_auto
-    platform: smartrecruiters
-    identifier:
-      company_id: ""
-    org_static: "OECD"
-    ingestion_pipeline: internship_graduate
-    compliance_posture: green
-    require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. company_id TBD — inspect oecd.org/careers HTML for SmartRecruiters company ID. SmartRecruiters extractor exists.
-    notes: "SmartRecruiters platform. Needs company_id from live page (likely 'OECDOrganisationforEconomicCo-operation' or similar). Fill identifier.company_id before enabling."
-
   - name: "IMF Careers"
     url: "https://imf.wd5.myworkdayjobs.com/IMF"
     country: international
@@ -196,23 +165,6 @@ sources:
     require_internship_signal: true
     enabled: true   # ENABLED 2026-06-20: live verification slice. Workday identifier confirmed. Internship signal filter active.
     notes: "Workday wd5. Identifier confirmed live: imf/wd5/IMF. 12 jobs found in dry-run. Positive signal filter required to keep only intern/grad roles from full feed."
-
-  - name: "WTO Careers"
-    url: "https://www.wto.org/english/thewto_e/vacan_e/"
-    country: international
-    category: international-orgs
-    scraper: ats_auto
-    platform: workday
-    identifier:
-      tenant: ""
-      dc: ""
-      site: ""
-    org_static: "World Trade Organization"
-    ingestion_pipeline: internship_graduate
-    compliance_posture: green
-    require_internship_signal: true
-    enabled: false  # GATED: disabled until ATS extractor Part 1 verified. tenant/dc/site TBD — inspect wto.org/vacan_e HTML for Workday URL. Workday extractor exists.
-    notes: "Workday platform. Needs tenant/dc/site from live page. Fill identifier before enabling."
 
   - name: "Oxera Careers"
     url: "https://careers.oxera.com/jobs"

@@ -143,6 +143,10 @@ async def run_pipeline(
     if sources:
         active_sources = [s for s in active_sources if s["name"] in sources]
 
+    # Snapshot of all URLs already in the store — used by API extractors to skip
+    # detail-endpoint fetches for jobs we have already ingested.
+    known_urls: set[str] = db.get_known_urls()
+
     all_jobs: list[Job] = []
     sources_checked = 0
     sources_succeeded = 0
@@ -242,10 +246,10 @@ async def run_pipeline(
                         _ceiling = source.get("max_detail_fetches") or 200
                         jobs = await api_extractor.extract(
                             source, prefilter=prefilter, postfilter=postfilter,
-                            detail_ceiling=_ceiling,
+                            detail_ceiling=_ceiling, known_urls=known_urls,
                         )
                     else:
-                        jobs = await api_extractor.extract(source)
+                        jobs = await api_extractor.extract(source, known_urls=known_urls)
                     elapsed = time.monotonic() - t
                     all_jobs.extend(jobs)
                     sources_succeeded += 1

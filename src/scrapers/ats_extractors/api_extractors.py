@@ -22,7 +22,11 @@ log = logging.getLogger(__name__)
 
 _TIMEOUT = httpx.Timeout(30.0)
 _DETAIL_DELAY = 0.5
-_MAX_DESCRIPTIONS = 30
+
+
+def _detail_budget(source: dict) -> int:
+    """Per-source cap on detail-endpoint fetches; default 30."""
+    return int(source.get("detail_fetch_budget", 30))
 
 
 def _strip_html(s: str) -> str:
@@ -64,7 +68,7 @@ class BaseATSExtractor:
 class GreenhouseAPIExtractor(BaseATSExtractor):
     """GET https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"""
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         token = identifier.get("token", "")
         if not token:
@@ -98,7 +102,7 @@ class GreenhouseAPIExtractor(BaseATSExtractor):
 class LeverAPIExtractor(BaseATSExtractor):
     """GET https://api.lever.co/v0/postings/{company}?mode=json"""
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         company = identifier.get("company", "")
         if not company:
@@ -128,7 +132,7 @@ class LeverAPIExtractor(BaseATSExtractor):
 class AshbyAPIExtractor(BaseATSExtractor):
     """GET https://api.ashbyhq.com/posting-api/job-board/{board}?includeCompensation=true"""
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         board = identifier.get("board", "")
         if not board:
@@ -160,20 +164,23 @@ class BambooHRAPIExtractor(BaseATSExtractor):
     Detail: GET https://{company}.bamboohr.com/careers/{id}/detail
     """
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         company = identifier.get("company", "")
         if not company:
             log.warning("BambooHR: missing identifier.company for %s", source.get("name"))
             return []
         base = self._base(source)
+        budget = _detail_budget(source)
+        _known = known_urls or set()
         list_url = f"https://{company}.bamboohr.com/careers/list"
         async with _client() as client:
             resp = await client.get(list_url)
             resp.raise_for_status()
             data = resp.json()
             jobs = []
-            fetched = 0
+            new_seen = 0
+            budget_spent = 0
             for item in data.get("result", []):
                 job_id = item.get("id")
                 title = (item.get("jobOpeningName") or "").strip()
@@ -188,7 +195,10 @@ class BambooHRAPIExtractor(BaseATSExtractor):
                     location = str(loc_obj) if loc_obj else None
                 description = ""
                 posted_date = None
-                if fetched < _MAX_DESCRIPTIONS:
+                is_new = job_url not in _known
+                if is_new:
+                    new_seen += 1
+                if is_new and budget_spent < budget:
                     try:
                         dr = await client.get(f"https://{company}.bamboohr.com/careers/{job_id}/detail")
                         if dr.status_code == 200:
@@ -198,32 +208,38 @@ class BambooHRAPIExtractor(BaseATSExtractor):
                             desc_html = job_opening.get("description") or ""
                             description = _clip(_strip_html(desc_html)) if desc_html else ""
                             posted_date = job_opening.get("datePosted")
-                        fetched += 1
+                        budget_spent += 1
                         await asyncio.sleep(_DETAIL_DELAY)
                     except Exception as exc:
                         log.debug("BambooHR detail failed for id=%s: %s", job_id, exc)
                 jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, description_source="api" if description else "none", **base))
-        log.info("BambooHR %s: %d jobs", company, len(jobs))
+        log.info(
+            "BambooHR %s: %d total, %d new, %d detail fetches (budget=%d)",
+            company, len(jobs), new_seen, budget_spent, budget,
+        )
         return jobs
 
 
 class SmartRecruitersAPIExtractor(BaseATSExtractor):
-    """GET https://api.smartrecruiters.com/v1/companies/{company_id}/postings"""
+    """GET https://api.smartrecruiters.com/v1/companies/{company_id}/postings — detail per posting."""
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         company_id = identifier.get("company_id", "")
         if not company_id:
             log.warning("SmartRecruiters: missing identifier.company_id for %s", source.get("name"))
             return []
         base = self._base(source)
+        budget = _detail_budget(source)
+        _known = known_urls or set()
         url = f"https://api.smartrecruiters.com/v1/companies/{company_id}/postings"
         async with _client() as client:
             resp = await client.get(url)
             resp.raise_for_status()
             data = resp.json()
             jobs = []
-            fetched = 0
+            new_seen = 0
+            budget_spent = 0
             for item in data.get("content", []):
                 title = (item.get("name") or "").strip()
                 posting_id = item.get("id", "")
@@ -237,7 +253,10 @@ class SmartRecruitersAPIExtractor(BaseATSExtractor):
                 else:
                     location = None
                 description = ""
-                if fetched < _MAX_DESCRIPTIONS and posting_id:
+                is_new = job_url not in _known
+                if is_new:
+                    new_seen += 1
+                if is_new and budget_spent < budget and posting_id:
                     try:
                         dr = await client.get(
                             f"https://api.smartrecruiters.com/v1/companies/{company_id}/postings/{posting_id}"
@@ -247,19 +266,22 @@ class SmartRecruitersAPIExtractor(BaseATSExtractor):
                             sections = (dd.get("jobAd") or {}).get("sections") or {}
                             desc_text = (sections.get("jobDescription") or {}).get("text", "")
                             description = _clip(_strip_html(desc_text)) if desc_text else ""
-                        fetched += 1
+                        budget_spent += 1
                         await asyncio.sleep(_DETAIL_DELAY)
                     except Exception as exc:
                         log.debug("SmartRecruiters detail failed for %s: %s", posting_id, exc)
                 jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
-        log.info("SmartRecruiters %s: %d jobs", company_id, len(jobs))
+        log.info(
+            "SmartRecruiters %s: %d total, %d new, %d detail fetches (budget=%d)",
+            company_id, len(jobs), new_seen, budget_spent, budget,
+        )
         return jobs
 
 
 class WorkableAPIExtractor(BaseATSExtractor):
     """GET https://{account}.workable.com/spi/v3/jobs; falls back to apply.workable.com on 401."""
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         account = identifier.get("account", "")
         if not account:
@@ -297,7 +319,7 @@ class WorkableAPIExtractor(BaseATSExtractor):
 class RecruiteeAPIExtractor(BaseATSExtractor):
     """GET https://{company}.recruitee.com/api/offers/"""
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         company = identifier.get("company", "")
         if not company:
@@ -336,7 +358,10 @@ class WorkdayAPIExtractor(BaseATSExtractor):
         m = self._URL_RE.match(url)
         return (m.group(1), m.group(2), m.group(3)) if m else None  # tenant, dc, site
 
-    async def extract(self, source: dict, prefilter=None, postfilter=None, detail_ceiling: int = _MAX_DESCRIPTIONS) -> list[Job]:
+    async def extract(self, source: dict, prefilter=None, postfilter=None,
+                      detail_ceiling: int | None = None, known_urls: set[str] | None = None) -> list[Job]:
+        if detail_ceiling is None:
+            detail_ceiling = _detail_budget(source)
         identifier = source.get("identifier") or {}
         tenant = identifier.get("tenant", "")
         dc = identifier.get("dc", "")
@@ -445,7 +470,10 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
         "BEREAVEMENT;FULL_PART_TIME;REGULAR_TEMPORARY;POSTING_DATES;FLEX_FIELDS"
     )
 
-    async def extract(self, source: dict, prefilter=None, postfilter=None, detail_ceiling: int = _MAX_DESCRIPTIONS) -> list[Job]:
+    async def extract(self, source: dict, prefilter=None, postfilter=None,
+                      detail_ceiling: int | None = None, known_urls: set[str] | None = None) -> list[Job]:
+        if detail_ceiling is None:
+            detail_ceiling = _detail_budget(source)
         identifier = source.get("identifier") or {}
         api_host = identifier.get("api_host", "")
         site = identifier.get("site", "")
@@ -554,7 +582,7 @@ class PaylocityExtractor(BaseATSExtractor):
 
     _PAGE_DATA_RE = re.compile(r"window\.pageData\s*=\s*(\{.*?\});", re.DOTALL)
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         guid = identifier.get("guid", "")
         slug = identifier.get("slug", "careers")
@@ -601,7 +629,7 @@ class PaylocityExtractor(BaseATSExtractor):
 class PersonioAPIExtractor(BaseATSExtractor):
     """GET https://{subdomain}.jobs.personio.de/xml (falls back to .com on 404). Parses XML with lxml."""
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         subdomain = identifier.get("subdomain", "")
         if not subdomain:
@@ -659,7 +687,7 @@ class TeamTailorAPIExtractor(BaseATSExtractor):
     Full description from _jobposting.description; location from _jobposting.jobLocation.
     """
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         base_url = identifier.get("base_url", "")
         if not base_url:
@@ -706,7 +734,7 @@ class ICIMSExtractor(BaseATSExtractor):
     Identifier key: subdomain (e.g. 'careers-brookings' for careers-brookings.icims.com).
     """
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         subdomain = identifier.get("subdomain", "")
         if not subdomain:
@@ -754,7 +782,7 @@ class CornerstoneExtractor(BaseATSExtractor):
     _INIT_STATE_RE = re.compile(r"window\.__csodInitialState__\s*=\s*(\{.*\})", re.DOTALL)
     _PAGE_SIZE = 100
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         import json as _json
 
         identifier = source.get("identifier") or {}
@@ -918,7 +946,7 @@ class ApplicantProExtractor(BaseATSExtractor):
     Identifier key: subdomain (e.g. 'carnegieendowment' for carnegieendowment.applicantpro.com).
     """
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         subdomain = identifier.get("subdomain", "")
         if not subdomain:
@@ -951,7 +979,7 @@ class ApplicantStackExtractor(BaseATSExtractor):
     Identifier key: subdomain (e.g. 'heritage' for heritage.applicantstack.com).
     """
 
-    async def extract(self, source: dict) -> list[Job]:
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
         identifier = source.get("identifier") or {}
         subdomain = identifier.get("subdomain", "")
         if not subdomain:
@@ -981,6 +1009,119 @@ class ApplicantStackExtractor(BaseATSExtractor):
         return jobs
 
 
+class PinpointExtractor(BaseATSExtractor):
+    """Pinpoint HQ job board.
+    GET https://{account}.pinpointhq.com/postings.json — JSON:API format.
+    Identifier key: account (e.g. 'odi' for odi.pinpointhq.com).
+    Descriptions are inline in the listing; no detail fetch needed.
+    posted_at and deadline mapped where the API exposes them.
+    """
+
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
+        identifier = source.get("identifier") or {}
+        account = identifier.get("account", "")
+        if not account:
+            log.warning("Pinpoint: missing identifier.account for %s", source.get("name"))
+            return []
+        base = self._base(source)
+        budget = _detail_budget(source)
+        _known = known_urls or set()
+        url = f"https://{account}.pinpointhq.com/postings.json"
+        async with _client() as client:
+            resp = await client.get(url)
+            resp.raise_for_status()
+            data = resp.json()
+        jobs = []
+        new_seen = 0
+        for item in data.get("data", []):
+            item_id = str(item.get("id") or "")
+            attrs = item.get("attributes") or {}
+            links = item.get("links") or {}
+            title = (attrs.get("title") or "").strip()
+            if not title or not item_id:
+                continue
+            job_url = (
+                links.get("self")
+                or f"https://{account}.pinpointhq.com/postings/{item_id}"
+            )
+            # Clip to shared 10 000-char limit
+            job_url = _clip(job_url, 2000)
+            location = attrs.get("location") or attrs.get("location_name") or attrs.get("location_preference")
+            desc_html = attrs.get("description") or attrs.get("job_description") or ""
+            description = _clip(_strip_html(desc_html)) if desc_html else ""
+            posted_date = attrs.get("published_at") or attrs.get("posted_at")
+            closing_date = attrs.get("deadline") or attrs.get("closing_date") or attrs.get("closes_at")
+            if job_url not in _known:
+                new_seen += 1
+            jobs.append(Job(
+                title=title, url=job_url, description=description,
+                location=location, posted_date=posted_date, closing_date=closing_date,
+                description_source="api" if description else "none",
+                **base,
+            ))
+        log.info(
+            "Pinpoint %s: %d total, %d new, 0 detail fetches (budget=%d, descriptions inline)",
+            account, len(jobs), new_seen, budget,
+        )
+        return jobs
+
+
+class JazzHRExtractor(BaseATSExtractor):
+    """JazzHR (The Resumator) public job board.
+    GET https://{company}.applytojob.com/apply/jobs — JSON listing.
+    Identifier key: company (e.g. 'heritage' for heritage.applytojob.com).
+    Descriptions are inline in the listing; no detail fetch needed.
+    original_open_date mapped to posted_date where present.
+    """
+
+    async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
+        identifier = source.get("identifier") or {}
+        company = identifier.get("company", "")
+        if not company:
+            log.warning("JazzHR: missing identifier.company for %s", source.get("name"))
+            return []
+        base = self._base(source)
+        budget = _detail_budget(source)
+        _known = known_urls or set()
+        url = f"https://{company}.applytojob.com/apply/jobs"
+        async with _client() as client:
+            resp = await client.get(url, headers={"Accept": "application/json"})
+            resp.raise_for_status()
+            data = resp.json()
+        jobs = []
+        new_seen = 0
+        for item in data.get("jobs", []):
+            job_id = str(item.get("id") or "")
+            title = (item.get("title") or "").strip()
+            if not title or not job_id:
+                continue
+            job_url = (
+                item.get("apply_url")
+                or f"https://{company}.applytojob.com/apply/{job_id}"
+            )
+            city = item.get("city") or ""
+            state = item.get("state") or ""
+            country = item.get("country") or ""
+            loc_parts = [p for p in [city, state, country] if p]
+            location: str | None = ", ".join(loc_parts) or None
+            desc_html = item.get("description") or ""
+            description = _clip(_strip_html(desc_html)) if desc_html else ""
+            posted_date = item.get("original_open_date") or item.get("date")
+            if job_url not in _known:
+                new_seen += 1
+            jobs.append(Job(
+                title=title, url=job_url, description=description,
+                location=location, posted_date=posted_date,
+                description_source="api" if description else "none",
+                **base,
+            ))
+        log.info(
+            "JazzHR %s: %d total, %d new, 0 detail fetches (budget=%d, descriptions inline)",
+            company, len(jobs), new_seen, budget,
+        )
+        return jobs
+
+
 # ── Registry ──────────────────────────────────────────────────────────────────
 
 PLATFORM_EXTRACTORS: dict[str, BaseATSExtractor] = {
@@ -1000,6 +1141,8 @@ PLATFORM_EXTRACTORS: dict[str, BaseATSExtractor] = {
     "cornerstone": CornerstoneExtractor(),
     "applicantpro": ApplicantProExtractor(),
     "applicantstack": ApplicantStackExtractor(),
+    "pinpoint": PinpointExtractor(),
+    "jazzhr": JazzHRExtractor(),
 }
 
 # ── URL-pattern detection (no HTTP call) ─────────────────────────────────────
