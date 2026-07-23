@@ -30,6 +30,7 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 | Green Party | political-parties | selector | Includes location and closing-date selectors. Stage 3 (2026-07-03): method unchanged (same page, same rate); extraction now scopes to `div.entry-content` and strips the TCF consent banner, with closing date read from the visible "Closing Date" label instead of page chrome. |
 | Co-operative Party | political-parties | selector | |
 | Ellwood Atfield | public-affairs | selector | Public affairs recruitment firm |
+| Tony Blair Institute | think-tanks | ats_auto (Workday) | ENABLED 2026-07-23. Workday tenant=tbinstitute, dc=wd3, site=TBI. Robots: Allow /TBI/ on tbinstitute.wd3.myworkdayjobs.com (2026-07-23). ToS: established in pipeline (Workday). Dry-run: 9 raw / ~4 post-filter. Mixed source; ~4 estimated daily classification calls. Feed: uk-think-tanks. Owner precondition: confirm uk-think-tanks is registered in rss_sources on project cnyjrdbbzvidcbtrwacq. |
 
 ### Disabled
 
@@ -87,7 +88,7 @@ Reference table for all configured sources. Authoritative config is in `src/conf
 | IISS | think-tanks | generic | 404 — careers page moved |
 | RUSI | think-tanks | generic | 403/404 |
 | IFS | think-tanks | generic | 403/404 |
-| Tony Blair Institute | think-tanks | generic | Salesforce/JS-rendered SPA |
+| Tony Blair Institute | think-tanks | ats_auto (Workday) | ENABLED 2026-07-23 — moved to Enabled above |
 | Institute for Government | think-tanks | generic | 403/404 |
 | Resolution Foundation | think-tanks | generic | 404 |
 | NIESR | think-tanks | generic | URL redirects to a news article |
@@ -229,12 +230,45 @@ Moved from sources-internship-graduate.yaml. Intern-only filter (require_interns
 
 ---
 
+## Internship / Graduate Pipeline
+
+Configured in `src/config/sources-internship-graduate.yaml`. All sources feed into `internship_graduate-*` RSS feeds. Curated dedicated boards are exempt from the positive internship-signal filter (`require_internship_signal`).
+
+### Enabled
+
+| Source | Category | Scraper | Robots/ToS | Dry-run | Notes |
+|--------|----------|---------|------------|---------|-------|
+| PubAffairs Networking Jobs | public-affairs | selector | Green — static PHP page, no robots restriction | 11 raw (2026-07-23; 9 on original 2026-06-17 baseline) | ENABLED 2026-07-23. Curated dedicated board — exempt from internship-signal filter. Selector: div.job-snippet / div.job-titles h2. Feed: internship_graduate-public-affairs. Owner precondition: confirm internship_graduate-public-affairs is registered in rss_sources on project cnyjrdbbzvidcbtrwacq before expecting published jobs. ~11 estimated daily classification calls (mixed downstream unless added to CURATED_SOURCES in classify-and-publish). |
+| Ipsos Careers | research | ats_auto (Oracle HCM) | Green | 68 raw (per config) | ENABLED 2026-06-20. Internship signal filter active. api_host=ecqf.fa.em2.oraclecloud.com, site=IpsosCareers. |
+| IMF Careers | international-orgs | ats_auto (Workday) | Green | 12 raw (per config) | ENABLED 2026-06-20. Internship signal filter active. tenant=imf, dc=wd5, site=IMF. |
+
+### Disabled / Gated
+
+| Source | Category | Notes |
+|--------|----------|-------|
+| Oxera Careers | research | Platform TBD → TeamTailor (careers.oxera.com). Robots PASS. ToS clean. Dry-run 2 raw / ~0 post-filter. Very low value; owner decides. |
+| Savanta Careers | research | Platform TBD → BambooHR (savanta). Robots PASS. ToS AMBER (BambooHR restricts automated access). Dry-run 10 raw / ~0 post-filter. Enable after ToS decision and filter validation. |
+| Hanbury Strategy | public-affairs | TeamTailor (hanburystrategy.teamtailor.com). 0 raw (empty board). Recheck periodically. |
+| FleishmanHillard EU | public-affairs | WP Job Manager detected — out of scope. |
+| YouGov Early Careers | research | JS-rendered Angular SPA. Playwright required. |
+| Survation | research | Static WordPress; appears empty. No ATS. |
+| Public First | public-affairs | 404. |
+| FTI Consulting Student | public-affairs | SelectMinds/Taleo — out of scope. |
+| ConservativeJobs.com | us-campaigns | GATED+AMBER: selector unverified; verify HTML structure before enabling. |
+| Roll Call Jobs | us-congress | GATED+AMBER: YourMembership SaaS; verify ToS and unauthenticated access. |
+| Traverse Jobs | us-campaigns | GATED+AMBER: subscription model; verify unauthenticated listing access. |
+| Daybook | general | GATED+AMBER: membership model; likely login-required. |
+| CHCI Congressional Internship | us-fellowships | SurveyMonkey Apply portal — no programmatic feed. Seasonal only. |
+| CBCF Internships | us-fellowships | AcademicWorks portal — no programmatic feed. Seasonal only. |
+
+---
+
 ## Known Gaps
 
 | Gap | Reason | Status |
 |-----|--------|--------|
 | **Senate employment** | Senate Employment Office HTML is 403-blocked. No maintained equivalent of `dwillis/house-jobs` exists. `c0nnortb/senate_employment` is abandoned (1 commit). | Next-session priority. Would require a maintained upstream scraper or direct Senate Employment Office contact |
-| **Workday-hosted organisations** | Workday renders job listings entirely in JS. Pipeline has no Workday extractor. Affects Urban Institute, RAND, FCA, ICO, and others. | Add extractor to `src/scrapers/ats_extractors.py` |
+| **Workday-hosted organisations (blocked)** | Workday extractor added (feat/ats-fetch-economics). Remaining blocked instances: Urban Institute (Cloudflare 500/422), RAND, FCA, ICO — all behind WAF. Tony Blair Institute enabled 2026-07-23. | Investigate WAF-bypass alternatives for Urban/RAND/FCA/ICO |
 | **Tom Manatos Jobs** | Protected by Cloudflare challenge. HTTP 200 in CI but JS challenge page served; no job cards parsed. | Re-enable once Playwright + Cloudflare solver added to pipeline |
 | **Idealist** | JS-rendered. Dedicated scraper exists but requires Playwright. | Re-enable once Playwright added to pipeline and CI workflow |
 | **BambooHR / Personio / Pinpoint / Paylocity** | ATS-auto detects these platforms but no extractors exist. Affects E3G, SEC Newgate (BambooHR), ECFR (Personio), ODI (Pinpoint), Truman (Paylocity). | Add extractors to `src/scrapers/ats_extractors.py` |

@@ -423,11 +423,17 @@ sources:
     enabled: false  # careers.odi.org returns Cloudflare JS challenge — use Pinpoint API when re-enabling
 
   - name: "Tony Blair Institute"
-    url: "https://institute.global/who-we-are/careers"
+    url: "https://tbinstitute.wd3.myworkdayjobs.com/TBI"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Disabled 2026-04-11: page renders no content (Salesforce/JS-rendered)
+    scraper: ats_auto
+    platform: workday
+    identifier:
+      tenant: tbinstitute
+      dc: wd3
+      site: TBI
+    org_static: "Tony Blair Institute for Global Change"
+    enabled: true  # ENABLED 2026-07-23: Workday tbinstitute/wd3/TBI; robots Allow /TBI/ (tbinstitute.wd3.myworkdayjobs.com); dry-run 9 raw / ~4 post-filter
 
   - name: "Institute for Government"
     url: "https://www.instituteforgovernment.org.uk/vacancies"
