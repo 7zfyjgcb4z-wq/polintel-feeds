@@ -1,56 +1,260 @@
 {
-  "last_run": "2026-07-23T11:55:14Z",
-  "country": "pan-eu",
-  "total_active_jobs": 861,
-  "new_jobs_found": 46,
-  "sources_checked": 4,
-  "sources_succeeded": 4,
+  "last_run": "2026-07-23T15:19:08Z",
+  "country": "us",
+  "total_active_jobs": 1619,
+  "new_jobs_found": 82,
+  "sources_checked": 26,
+  "sources_succeeded": 26,
   "sources_failed": 0,
-  "sources_disabled": 4,
-  "relevance_filtered": 10,
-  "descriptions_enriched": 18,
-  "feeds_generated": 2,
-  "run_duration_seconds": 26.9,
+  "sources_disabled": 18,
+  "relevance_filtered": 20,
+  "descriptions_enriched": 716,
+  "feeds_generated": 7,
+  "run_duration_seconds": 674.9,
   "failed_sources": [],
   "per_source": [
     {
-      "name": "World Bank Careers",
+      "name": "USAJobs Fellowships",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 200,
+      "jobs_after_relevance_filter": 191,
+      "descriptions_enriched": 10,
+      "duration_seconds": 6.5
+    },
+    {
+      "name": "USAJobs",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 166,
+      "jobs_after_relevance_filter": 166,
+      "descriptions_enriched": 8,
+      "duration_seconds": 28.5
+    },
+    {
+      "name": "House Employment Bulletin",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 53,
+      "jobs_after_relevance_filter": 53,
+      "descriptions_enriched": 0,
+      "duration_seconds": 10.9,
+      "upstream_stale": true,
+      "upstream_last_bulletin": "2026-04-27",
+      "upstream_days_since_update": 87,
+      "notes": "Description enrichment disabled for this source"
+    },
+    {
+      "name": "Political Job Hunt",
+      "scraper_type": "dedicated",
+      "status": "success",
+      "jobs_found": 200,
+      "jobs_after_relevance_filter": 192,
+      "descriptions_enriched": 184,
+      "duration_seconds": 2.7
+    },
+    {
+      "name": "RAND Corporation Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 196,
-      "jobs_after_relevance_filter": 195,
+      "jobs_found": 9,
+      "jobs_after_relevance_filter": 8,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.2,
+      "duration_seconds": 8.0,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
-      "name": "OECD Careers",
+      "name": "Truman National Security Project",
       "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "Manhattan Institute",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 3,
+      "jobs_after_relevance_filter": 3,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.1,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+    },
+    {
+      "name": "CNAS",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 6,
+      "jobs_after_relevance_filter": 6,
+      "descriptions_enriched": 0,
+      "duration_seconds": 1.8,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+    },
+    {
+      "name": "Hudson Institute",
+      "scraper_type": "ats_auto",
+      "status": "success",
+      "jobs_found": 14,
+      "jobs_after_relevance_filter": 14,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.2,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+    },
+    {
+      "name": "Brookings Institution Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 7,
+      "jobs_after_relevance_filter": 7,
+      "descriptions_enriched": 7,
+      "duration_seconds": 0.4
+    },
+    {
+      "name": "Council on Foreign Relations Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 23,
+      "jobs_after_relevance_filter": 23,
+      "descriptions_enriched": 23,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "American Enterprise Institute Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 13,
+      "jobs_after_relevance_filter": 13,
+      "descriptions_enriched": 13,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "Heritage Foundation Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 12,
+      "jobs_after_relevance_filter": 12,
+      "descriptions_enriched": 12,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "Carnegie Endowment for International Peace Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.6
+    },
+    {
+      "name": "Hoover Institution Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.1
+    },
+    {
+      "name": "Wilson Center Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "New America Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 6,
+      "jobs_after_relevance_filter": 6,
+      "descriptions_enriched": 6,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "Atlantic Council Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "Third Way Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 6,
+      "jobs_after_relevance_filter": 6,
+      "descriptions_enriched": 6,
+      "duration_seconds": 0.4
+    },
+    {
+      "name": "Public Affairs Council Jobs",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 421,
+      "jobs_after_relevance_filter": 421,
+      "descriptions_enriched": 421,
+      "duration_seconds": 0.5
+    },
+    {
+      "name": "R Street Institute",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 2,
+      "jobs_after_relevance_filter": 2,
+      "descriptions_enriched": 2,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "Niskanen Center",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.1
+    },
+    {
+      "name": "Peterson Institute for International Economics",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 2,
+      "jobs_after_relevance_filter": 2,
+      "descriptions_enriched": 2,
+      "duration_seconds": 0.2
+    },
+    {
+      "name": "Brennan Center for Justice",
+      "scraper_type": "selector",
       "status": "success",
       "jobs_found": 23,
       "jobs_after_relevance_filter": 22,
-      "descriptions_enriched": 18,
-      "duration_seconds": 5.4
+      "descriptions_enriched": 22,
+      "duration_seconds": 0.2
     },
     {
-      "name": "WTO Careers",
-      "scraper_type": "ats_auto",
+      "name": "Roosevelt Institute",
+      "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 4,
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 5.7,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+      "duration_seconds": 0.2
     },
     {
-      "name": "UN Job Feed",
+      "name": "Foundation List",
       "scraper_type": "rss_feed",
       "status": "success",
-      "jobs_found": 470,
-      "jobs_after_relevance_filter": 463,
+      "jobs_found": 50,
+      "jobs_after_relevance_filter": 49,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.7,
-      "notes": "Description enrichment disabled for this source"
+      "duration_seconds": 1.2,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
     }
   ]
 }
