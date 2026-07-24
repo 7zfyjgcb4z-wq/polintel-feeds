@@ -1,13 +1,329 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:polintel="https://pol-intel.com/rss-ext/1.0" version="2.0">
   <channel>
     <title>Internship &amp; Graduate — Public Affairs &amp; Lobbying</title>
     <link>/internship_graduate-public-affairs.xml</link>
     <description>Job listings for Public Affairs roles, scraped by Pol-Intel.</description>
-    <atom:link href="/internship_graduate-public-affairs.xml" rel="self"/>
+    <atom:link href="/internship_graduate-public-affairs.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2026 11:08:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 11:03:27 +0000</lastBuildDate>
+    <item>
+      <title>Account Executive (Education – PR &amp; Public Affairs)</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/account-executive-education-pr-public-affairs-188-26-pubaffairs</link>
+      <description>PLMR is a leading, fast-growing communications agency with a dynamic, vibrant team, which delivers outstanding results for clients every day. We work across a range of core sectors, including education, health and social care, technology, built environment, energy and sustainability, and professional services. We deliver public relations, public affairs, reputation management and digital strategies that play a central role in helping our clients achieve their diverse objectives.
+Key Responsibilities and Duties
+As an Account Executive, you will be a key member of PLMR’s leading Education Practice, providing a high-quality service to clients across the sector from nurseries, schools, and academy trusts, to universities, skills and training providers, businesses, start-ups, and charities. To be successful in this role, it is critical that you have a deep passion and interest in both the British media and policy landscape, as well as excellent written and verbal communication skills. As a proud B-Corp, we are also looking for someone who shares our interest in education and delivering social impact for causes that matter.
+You will be well organised, highly motivated and able to work under your own initiative to meet and drive forward activity across a range of accounts, workstreams and deadlines. In this role you will gain experience of – and exposure to – all the main disciplines of consultancy life with a priority focus on PR and media relations, public affairs and stakeholder engagement and reputation management. You will also have an interest in developing your own networks within both political, media and sector circles.
+You will engage in a variety of tasks to support PLMR’s Education Practice which may include some or all the following responsibilities:
+Drafting press releases for PLMR clients
+‘Selling in’ press releases to journalists
+Compiling media lists
+Drafting blogs, articles and thought-leadership commentary on behalf of clients
+Building stakeholder maps for political and industry figures
+Drafting letters and liaising with the office of MPs or Ministers
+Monitoring and providing briefings on political events or policies of relevance to PLMR clients
+Drafting newsletters, briefings, campaign material, and social media posts
+Monitoring, clipping and evaluating coverage for clients in a range of media outlets including newspapers, magazines, journals, broadcasts, newswires, social media channels and blogs
+Preparing regular client agendas, meeting minutes, reports, and actions lists
+Attending and contributing to client meetings, in addition to taking minutes and actions
+Liaising with clients in a confident and timely manner
+Contributing to internal PLMR account meetings or brainstorm sessions
+Attending events and conferences on behalf of PLMR and clients
+Providing colleagues with general administrative support as required
+Developing a positive professional relationship with PLMR colleagues, and contributing to a thriving day to day working environment
+Completing accurate timesheets and providing necessary information for invoicing and cost recharging
+Meeting internal deadlines, being organised and punctual, and developing a reputation as a reliable, competent consultant
+Reflecting a can-do attitude and a passion for achieving results, as well as being highly motivated and able to work under your own initiative
+Key Skills and Competencies
+Excellent written, presentation and verbal communications skills
+An understanding and interest in the media, including newspapers and online outlets and a passion for PR
+Ability to work on multiple projects with challenging deadlines
+A can-do attitude and a positive, supportive and proactive approach to work
+Prior work experience or employment in communications and/or within an agency (desirable)
+A desire to be part of a fun, close-knit and hard working team!
+Please note the role may vary slightly depending on which client accounts you will be working on and the needs of the business.
+Package:
+Competitive salary, plus a very attractive range of benefits including: outstanding training, 25 days of annual leave (plus UK Bank Holidays); enhanced pension plan; enhance maternity pay; private healthcare, gym allowance and other employee perks such as Lunch &amp; Learn sessions, year-round sports clubs, and regular social events during and after work. Hybrid working with 3 days in the office (Westminster, London).
+To Apply
+Please click on the Apply button below for more information and when applying please clearly state that you saw the role through the PubAffairs network.
+Closing date
+The closing date for applications for this post is 11:59pm on Friday 31st July 2026</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/account-executive-education-pr-public-affairs-188-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£Competitive salary, plus a very attractive range of benefits | Hybrid working with 3 days in the office (Westminster, London)</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>PR Account Executive</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/pr-account-executive-189-26-pubaffairs</link>
+      <description>Established in January 2002, PubAffairs is the premier network and leading resource for the public affairs, government relations, policy and communications industry.
+The PubAffairs network numbers over 4,000 members and is free to join. PubAffairs operates a general e-Newsletter, as well as a number of other specific group e-Newsletters which are also available to join by completing our registration form.
+The PubAffairs e-Newsletters are used to keep members informed about upcoming PubAffairs events and networking opportunities, job vacancies, public affairs news, training courses, stakeholder events, publications, discount offers and other pieces of useful information related to the public affairs and communications industry.
+Join the Network</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/pr-account-executive-189-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£Competitive, plus a very attractive range of benefits | Ipswich</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Account Manager (Education – PR &amp; Public Affairs)</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/account-manager-education-pr-public-affairs-191-26-pubaffairs</link>
+      <description>PLMR is a leading, fast-growing communications agency with a dynamic, vibrant team, which delivers outstanding results for clients every day. We work across a range of core sectors, including education, health and social care, technology, built environment, energy and sustainability, and professional services. We deliver public relations, public affairs, reputation management and digital strategies that play a central role in helping our clients achieve their diverse objectives.
+As an Account Manager, you will be a key member of PLMR’s leading Education Practice, providing a high-quality service to clients across the sector from nurseries, schools, and academy trusts, to universities, skills and training providers, trade associations, corporate organisations, start-ups, and charities. To be successful in this role, it is critical that you have a deep passion and interest in both the British media and policy landscape, as well as excellent written and verbal communication skills. As a proud B-Corp, we are also looking for someone who shares our interest in education and delivering social impact for causes that matter.
+You will have proven experience in dealing with local, trade, national and digital media for both positive media opportunities and in the context of crisis communications, and/or have strong political aptitude, with experience or understanding of engaging with political stakeholders and within complex policy environments. You will be able to demonstrate your ability to develop relationships with clients first and foremost, as well as journalists, sector and political stakeholders, and will have a proven track record in consultancy and client management.
+In this role you will progress your consultancy skills; overseeing the day to day management of a diverse array of client accounts and maintaining a positive client relationships; understanding the media landscape and identifying proactive and reactive press opportunities, including any potential reputational risks; monitoring political trends; undertaking political and sector outreach, and navigating issues which might impact client activity. You will also further develop your commercial and business skills, upselling to clients and supporting with new business proposals that meet organisations’ aims and objectives. In this role, you will manage relationships with both junior and senior colleagues, ensuring PLMR meets and exceeds client expectations at every level.
+You will have excellent written and verbal communication skills, be well organised, highly motivated and able to work under your own initiative. As an account manager, you will be a team player with excellent interpersonal skills and the ability to supervise, motivate and lead colleagues. You will have a proven ability to deliver on commitments, plan workloads, identify issues and find solutions. You will have your own networks within media circles which you will maintain and expand.
+You will engage in a variety of tasks to support PLMR’s Education Practice which may include some or all the following responsibilities:
+Leading the day-to-day management of client accounts, ensuring activity is delivered to a high standard, on time and against agreed objectives. Responsible for maintaining strong and trusted client relationships, working collaboratively with team members, proactively driving programmes forward, coordinating internal teams and workflows, identifying opportunities to maximise impact, and ensuring clients receive a responsive, organised and strategic service.
+Driving and implementing programmes of work for clients, including writing and distributing content for media (press releases, thought-leadership), drafting and stakeholder outreach, preparing briefings and strategies, and delivering and supporting on strategic and crisis communications materials (statements, scripts).
+Developing news angles, stories and pitches to raise awareness of the client’s profile, products and services.
+Drafting engagement materials including direct approaches to political or sector stakeholders in addition to development of compelling campaign materials
+Establishing, building and nurturing strong relationships with clients, key stakeholders, potential new business leads and media contacts (including journalists and industry spokespeople).
+Closely monitoring political and media developments in relevant sectors and consider how this impacts your clients, constantly looking for opportunities to add value or provide advice.
+Leading or playing a key role in client calls and meetings, providing clear and confident updates on key actions and deliverables.
+Managing and mentoring junior members of staff including on client accounts.
+Being involved in identifying new business opportunities, pitching for new business and developing proposals as well as upselling to existing clients.
+Provide leadership on accounts and act as a trusted point of contact for the client.
+Managing live tasks and ensuring deadlines are consistently met, work is delivered to a high standard and is always accurate, including through proactive internal communications, live actions, end of month notes, regular reporting.
+Attending events, seminars, and conferences, and setting up regular meetings with contacts to promote a positive, professional image of PLMR as a market leader and obvious point of call for our services.
+Preparing and delivering internal training, if required as well as presenting in team and company meetings are requested.
+Developing sectoral expertise, particularly in education and skills.
+Activities may be subject to amendment over time as the role develops and/or priorities and requirements evolve.
+Package:
+Competitive salary, plus a very attractive range of benefits including: outstanding training, 25 days of annual leave (plus UK Bank Holidays); enhanced pension plan; enhance maternity pay; private healthcare, gym allowance and other employee perks such as Lunch &amp; Learn sessions, year-round sports clubs, and regular social events during and after work. Hybrid working with 3 days in the office (Westminster, London).
+To Apply
+Please click on the Apply button below for more information and when applying please clearly state that you saw the role through the PubAffairs network.
+Closing date
+The closing date for applications for this post is 11:59pm on Friday 31st July 2026</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/account-manager-education-pr-public-affairs-191-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£Competitive salary, plus a very attractive range of benefits | Hybrid working with 3 days in the office (Westminster, London)</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Content and Communications Coordinator</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/content-and-communications-coordinator-197-26-pubaffairs</link>
+      <description>Established in January 2002, PubAffairs is the premier network and leading resource for the public affairs, government relations, policy and communications industry.
+The PubAffairs network numbers over 4,000 members and is free to join. PubAffairs operates a general e-Newsletter, as well as a number of other specific group e-Newsletters which are also available to join by completing our registration form.
+The PubAffairs e-Newsletters are used to keep members informed about upcoming PubAffairs events and networking opportunities, job vacancies, public affairs news, training courses, stakeholder events, publications, discount offers and other pieces of useful information related to the public affairs and communications industry.
+Join the Network</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/content-and-communications-coordinator-197-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£28,000   | Westminster</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Account Executive</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/account-executive-200-26-pubaffairs</link>
+      <description>We are looking for an enthusiastic and organised Account Executive to join our Cardiff team. This is a brilliant opportunity for someone with strong writing skills, an interest in politics and current affairs, and a positive can-do attitude to build a career in communications and stakeholder engagement.
+At Grasshopper, our work helps communities understand what is happening around them and gives people clear, meaningful ways to have their say. We support major infrastructure, sustainability and place-based projects across our sectors, helping clients to explain change, listen properly and make better decisions.
+Who we are
+Grasshopper is an award-winning B Corp communications agency with a creative edge and a deep commitment to community engagement. We create campaigns that change attitudes and actions in positive, lasting ways, and we help shape challenging conversations about the changing world around us - from active travel and renewable energy to zero carbon homes and coastal adaptation.
+As a team, we are united by a common goal: to get people talking and unlock social value. That makes coming to work meaningful, inspiring and fun. If you would like to work for a company with a genuine passion for communities and sustainability, we would love to hear from you.
+We can promise a warm welcome, the chance to build your skills and opportunities to make a positive impact on the world around you.
+What you’ll do
+A typical day at Grasshopper is rarely the same. You might be organising a consultation event in a community hall, monitoring what’s been discussed in thee Senedd, putting up site notices, meeting Members of the Senedd, responding to stakeholder enquiries, drafting a press release or consultation materials, analysing feedback from a public consultation, or researching who is who in a local community.
+We support projects where clear communication matters. Working collaboratively as a team we help communities, elected representatives, local organisations and other stakeholders understand what is proposed, why it matters, how they can get involved and what happens next.
+It’s a full-time role, 37 hours per week, with a flexible approach to working patterns. Some evening or weekend work may be required to support consultation events, community engagement activity or project deadlines.
+What we’re looking for
+Excellent writing skills, with the ability to turn complex information into clear, accessible and engaging copy for different audiences.
+A genuine interest in current affairs, politics, stakeholder engagement, environmental issues and sustainability.
+A confident organiser who can help plan and deliver consultation events and engagement activity, often working to tight deadlines, coordinating logistics and equipment, and keeping things moving calmly when plans change.
+A positive can-do attitude, good initiative and the ability to roll your sleeves up and manage a varied workload that can change at short notice.
+Experience of, or a strong interest in, research, analysing feedback and data, and supporting the preparation of reports.
+Confidence in building strong working relationships with clients, community representatives, elected members, local organisations and stakeholders.
+Good judgement, attention to detail and an understanding of risk, with the confidence to think through challenges, suggest solutions and challenge how things are done when there is a better way.
+Creative flair, curiosity and an appetite to continually improve how we work, communicate and engage with communities.
+Digital confidence, including an understanding of how social media and digital channels can support engagement.
+As many of our campaigns and projects are bilingual, Welsh language skills — speaking, reading and writing — are desirable.
+Rewards and benefits package
+Salary: £24,242
+24 days leave rising to 29 days with length of service (plus bank holidays)
+Hybrid working 2 to 3 days a week from our Cardiff office.
+Flexible work approach with core hours.
+Two paid volunteering days a year to help your local community.
+Two weeks paid sabbatical every three years.
+Workplace pension scheme.
+Health Cash Plan
+Training and CPD.
+Different people share different values
+At Grasshopper, we believe that when talented people collaborate, great things are possible. Grasshopper hires people with proven skills and open minds. We are taking deliberate action to create an inclusive culture grounded in our purpose to shape a better world.
+We welcome candidates from all backgrounds, regardless of age, disability, gender, gender identity, gender expression, race, religion or belief, sexual orientation, socioeconomic background, and any other protected characteristic.
+We are committed to making all stages of our recruitment process accessible to candidates with disabilities. Please speak to Hannah and she will work with you to make reasonable adjustments to ensure you can perform at your best throughout your application.
+At Grasshopper, we appreciate that everyone’s circumstances are different and that having the freedom to flex the way we work is essential to our wellbeing. If flexibility matters to you, let us know when you apply and we will discuss how this could work in your role.
+To Apply
+Please click on the Apply button below to email your CV and a short covering letter explaining your interest in the role. When applying clearly state that you saw the role through the PubAffairs network.
+The interview date is Thursday 30 July 2026. If you would like an informal chat about the role, please contact recruitment@grasshopper-comms.co.uk
+Closing date
+The closing date for applications for this post is 11:59pm on Sunday 26th July 2026</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/account-executive-200-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£25,878   | Cardiff</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Account Executive (Health Policy and Government Affairs)</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/account-executive-health-policy-and-government-affairs-201-26-pubaffairs</link>
+      <description>Established in January 2002, PubAffairs is the premier network and leading resource for the public affairs, government relations, policy and communications industry.
+The PubAffairs network numbers over 4,000 members and is free to join. PubAffairs operates a general e-Newsletter, as well as a number of other specific group e-Newsletters which are also available to join by completing our registration form.
+The PubAffairs e-Newsletters are used to keep members informed about upcoming PubAffairs events and networking opportunities, job vacancies, public affairs news, training courses, stakeholder events, publications, discount offers and other pieces of useful information related to the public affairs and communications industry.
+Join the Network</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/account-executive-health-policy-and-government-affairs-201-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£31,000 + annual bonus | Hybrid (3 days in Central London office)</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Digital Communications and Events Manager (Local Government)</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/digital-communications-and-events-manager-local-government-203-26-pubaffairs</link>
+      <description>Established in January 2002, PubAffairs is the premier network and leading resource for the public affairs, government relations, policy and communications industry.
+The PubAffairs network numbers over 4,000 members and is free to join. PubAffairs operates a general e-Newsletter, as well as a number of other specific group e-Newsletters which are also available to join by completing our registration form.
+The PubAffairs e-Newsletters are used to keep members informed about upcoming PubAffairs events and networking opportunities, job vacancies, public affairs news, training courses, stakeholder events, publications, discount offers and other pieces of useful information related to the public affairs and communications industry.
+Join the Network</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/digital-communications-and-events-manager-local-government-203-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£40,000 - £45,000 (pro rata) | London</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Associate Parliamentary and Public Affairs Officer</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/senior-associate-parliamentary-and-public-affairs-officer-472604-pubaffairs</link>
+      <description>Join Ofwat’s Communications and Engagement Team as a Senior Associate Parliamentary &amp; Public Affairs Officer.
+We have a fixed term contract until end December 2027 available, but it is also open to loans and secondments.
+*Office Location:
+London (E14 4HD) or Birmingham (B5 4UA) with hybrid working*
+About Us
+We are Ofwat, the Water Services Regulation Authority, a non-ministerial government department responsible for regulating the water sector in England and Wales. Following the Independent Water Commission’s final report, the UK government has set out a bold new direction - one that brings together expertise from across the sector to deliver better outcomes for customers and the environment.
+The Role
+We have an exciting job opportunity for a Public Affairs Senior Associate to join Ofwat’s dynamic Public Affairs function on a fixed-term contract until 31 December 2027. This role has an important and valuable contribution to enable us to deliver on our goals and regulatory commitments. You will need to establish yourself as credible and reliable with all parts of the organisation, including the leadership team. With your expert knowledge of parliament and the political environment, you will provide considered, sound advice on political engagement and handling to protect and strengthen Ofwat’s reputation. You will also be able to understand often complex, technical policy and turn it into accessible, compelling messages tailored to different audiences.
+At a crucial time for the water sector, you will contribute to, and help deliver, strategic public affairs engagement, building on our overall communications strategy and ensuring that we target stakeholders effectively, deliver the right messages across to the right audiences and strengthen our horizon scanning and issue management.
+Key deliverables
+In this role you will be expected to:
+Help develop, deliver, and implement strategic public affairs activies which stretches beyond parliament to further the aims and objectives of Ofwat.
+Recommend appropriate tactics for effective engagement to raise awareness and strengthen our regulatory reputation with key political stakeholders.
+Represent Ofwat at external meetings.
+Manage a busy portfolio of parliamentary activity, including responding to incoming enquiries, developing proactive engagement plans, and engaging with select committees and relevant All-Party Parliamentary Groups (APPGs).
+Actively contribute to wider stakeholder engagement planning and activities, including logistical and administrative coordination of site visits.
+Horizon scan and monitor developments and activities in Westminster related to our work, maintaining a public affairs schedule and providing updates to senior leaders.
+Prepare high-quality briefing materials, parliamentary updates, and other specific materials for senior colleagues.
+Identify influencing opportunities and draft responses to parliamentary, government and other consultations.
+Assist in developing and strengthening public affairs contacts in parliament and with other stakeholders, as well as maintaining our contact database to enhance Ofwat's relationships with stakeholders.
+Work closely with the relevant policy leads, to develop communications plans and build proactive opportunities for stakeholder engagement.
+Develop engaging and innovative events, both virtual and in person, utilising and experimenting with a broad range of facilitation techniques.
+Work collaboratively and develop strong working relationships with colleagues across Ofwat, particularly the Government Engagement Team, as well as externally.
+About You
+Below are some of the key essential experience, skills &amp; knowledge required for this post:
+Experience, skills and knowledge
+Lead Criterion 1:
+Expertise in and sound knowledge of parliamentary procedures and stakeholder engagement best practice.
+Lead Criterion 2
+: Experience in developing and delivering parliamentary and stakeholder engagement programmes.
+Experience in managing parliamentary activities, including responding to inquiries, developing proactive engagement plans, and engaging with relevant committees and groups.
+Strategic thinking and ability to plan ahead, anticipate challenges and identify opportunities.
+Why You Should Join Us:
+People Centric: Our people are at the heart of Ofwat and everything we do - we ensure all voices are heard and treat each other with respect; you'll be given the autonomy and the support to do your role in the best way.
+Innovative Work Environment: We embrace agile and new ways of working and have a culture build on trust, flexibility, and collaboration.
+Development Opportunities: Gain valuable experience and develop your skills in a supportive and dynamic setting.
+Work-Life Balance: Enjoy the flexibility of working from home combined with the benefits of in person collaboration in our Birmingham offices.
+Good employer pension contributions
+25 days’ annual leave, increasing to 30 with each year of service, plus bank holidays and an extra 2.5 days of privilege leave.
+Access to exclusive discounts on a variety of goods and services, including retail outlets, theatre tickets, holidays, insurance, and a gym membership.
+Fees paid for membership of relevant professional bodies.
+Up to 3 volunteering days per year.
+Recognition vouchers scheme rewarding your hard work.
+Generous shared parental leave and pay supporting your family life.
+To Apply
+Please click on the Apply button below for more information and to download the Candidate Pack, and when applying please clearly state that you saw the role through the PubAffairs network.
+Closing date
+The closing date for applications for this post is 11:55pm on Monday 3rd August 2026</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/senior-associate-parliamentary-and-public-affairs-officer-472604-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£40,024 - £49,500  | Birmingham or London with hybrid working</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Account Director (Education – PR &amp; Public Affairs)</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/account-director-education-pr-public-affairs-192-26-pubaffairs</link>
+      <description>PLMR is a leading, fast-growing communications agency with a dynamic, vibrant team, which delivers outstanding results for clients every day. We work across a range of core sectors, including education, health and social care, technology, built environment, energy and sustainability, and professional services to deliver public relations, public affairs, reputation management and digital strategies that play a central role in helping our clients achieve their diverse objectives.
+As an Account Director you will be a leading member of the PLMR Education practice, overseeing and working across client accounts to ensure high-quality support is delivered at all times. You will be responsible for delivering high-level output across PR, public affairs, reputation management and stakeholder engagement, alongside developing overarching communications and campaign strategies, providing strategic counsel, and confidently leading client communications and decision-making. Internally, you will support the Education Practice’s senior leadership team by leading by example, supporting junior colleagues and contributing to new business, networking and marketing efforts.
+You will have significant experience working within communications, including agency settings, spanning all levels of traditional and new media, public affairs and stakeholder engagement and crisis communications. You will also be able to demonstrate your ability to develop a wide network of journalists, clients and political stakeholders and will have a proven aptitude for consultancy and management. As a proud B-Corp, we are also looking for someone who shares our interest in education and delivering social impact for causes that matter.
+In this role, you will work on an array of clients within education, spanning nurseries, schools, and academy trusts, to universities, skills and training providers, trade associations, corporate organisations, start-ups, and charities. You will be accountable for seamless and high-quality work, internally and externally, and will have excellent leadership skills that bring the best out of your team. You will have a passion for working across accounts that have positive social impact and be ambitious for your career and for PLMR.
+The ideal candidate will have the following:
+Significant experience in communications, including time working within an agency setting.
+A strong track record of account leadership – motivating and coordinating account teams, working efficiently and to a high-standard and successfully managing multiple projects with challenging deadlines.
+Excellent written, presentation and verbal communications skills.
+Experience leading reputation management and crisis communications, including providing strategic advice and developing effective and considered communications materials.
+A proven ability to be a self-starter, critical thinker and solutions-driven consultant.
+Experience with line management and a can-do attitude and a positive, supportive and engaging approach to work.
+Experience leading on successful new business proposals and pitches, coordinating a support team and quickly developing positive relationships with prospective clients as part of this process.
+An expert understanding of the British media and political system. You will have an established network of journalists and wider contacts, even if outside of education.
+A proven ability to deliver successful client work with meaningful outcomes.
+Knowledge of the education sector is advantageous, but not essential.
+A desire to be part of a fun, close-knit and hard working team.
+Main responsibilities:
+Leading the development and delivery of strategic communications, public affairs, reputation management and stakeholder engagement programmes for a wide range of education clients.
+Acting as a senior adviser to clients, providing strategic counsel on communications, media, political and reputational issues, and supporting decision-making during complex or high-profile situations.
+Leading on reputation management and crisis communications activity, providing advice, support and strategic direction to clients facing sensitive issues.
+Identifying, developing and securing impactful media opportunities, including leading on story development, media strategy, messaging and the drafting of high-profile communications materials.
+Devising and delivering public affairs campaigns, including developing key messaging and briefings, gathering political intelligence, and directing engagement with policymakers and sector stakeholders.
+Overseeing account teams to ensure client activity is delivered to a consistently high standard, on time, within budget and aligned with agreed objectives.
+Building and maintaining strong relationships with clients, journalists, policymakers and sector stakeholders, while identifying opportunities to strengthen and grow client accounts.
+Leading new business activity, including identifying opportunities, developing proposals, coordinating pitch activity and presenting to prospective clients.
+Managing, mentoring and developing junior colleagues, providing leadership, support and quality assurance across client work.
+Contributing to the growth and profile of PLMR through networking, thought leadership, marketing activity and active participation in the development of the Education Practice.
+Activities may be subject to amendment over time as the role develops and/or priorities and requirements evolve.
+Salary:
+Competitive, plus a very attractive range of benefits including: outstanding training, 25 days of annual leave (plus UK Bank Holidays); enhanced pension plan; enhance maternity pay; private healthcare, gym allowance and other employee perks such as Lunch &amp; Learn sessions, year-round sports clubs, regular social events.
+To Apply
+Please click on the Apply button below for more information and when applying please clearly state that you saw the role through the PubAffairs network.
+Closing date
+The closing date for applications for this post is 11:59pm on Friday 31st July 2026</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/account-director-education-pr-public-affairs-192-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£Competitive salary, plus a very attractive range of benefits | Hybrid working with 3 days in the office (Westminster, London)</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Policy Analyst</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/policy-analyst-195-26-pubaffairs</link>
+      <description>Established in January 2002, PubAffairs is the premier network and leading resource for the public affairs, government relations, policy and communications industry.
+The PubAffairs network numbers over 4,000 members and is free to join. PubAffairs operates a general e-Newsletter, as well as a number of other specific group e-Newsletters which are also available to join by completing our registration form.
+The PubAffairs e-Newsletters are used to keep members informed about upcoming PubAffairs events and networking opportunities, job vacancies, public affairs news, training courses, stakeholder events, publications, discount offers and other pieces of useful information related to the public affairs and communications industry.
+Join the Network</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/policy-analyst-195-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>From £27,500 FTE | Cambridge</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Account Manager (Health Policy and Government Affairs)</title>
+      <link>https://www.publicaffairsnetworking.com/vacancy/account-manager-health-policy-and-government-affairs-202-26-pubaffairs</link>
+      <description>Hinton Advisers is seeking an experienced, confident and strategically minded Account Manager to play a leading role in client work across the UK and global health policy landscapes. This is a pivotal role within our growing team, offering the chance to shape high-impact public affairs programmes and guide clients through complex political and policy environments.
+Hinton Advisers is a small independent agency offering specialist health policy and public affairs advice to clients across the life science ecosystem. This is an exciting opportunity to be part of a dynamic team and build your career with an agency that’s investing in its people from the start.
+What you'll do
+As an Account Manager, you’ll take ownership of client relationships and delivery, acting as a trusted adviser across a range of health policy, public and government affairs briefs. Your responsibilities will include:
+Leading day-to-day client engagement and managing both specific components of accounts as well as full account management;
+Developing policy briefings, reports, and strategy documents;
+Providing political and policy insight across UK and international health systems to clients in a clear and impactful manner;
+Designing and delivering stakeholder engagement strategies;
+Supporting new business development, including proposal writing and playing a central role in pitches.
+What we're looking for
+We are seeking someone to join the team in early Q4 2026, with proven experience in health policy, public affairs or a related field, with the ability to step confidently into a client-facing role.
+We are looking for someone who is keen to roll up their sleeves and help us to continue to grow at pace. You will have a start-up ‘can do’ attitude and be:
+Interested in offering new and creative ideas;
+Enthusiastic to develop leadership kills and take your career to the next level;
+Ambitious, conscientious and keen to shape your work as your own.
+We are a team that supports each other across all projects and is consistently looking for new ways to improve.
+What we offer
+We provide a competitive package designed to reward and support our people, including:
+£41,000 to £49.000 salary DOE, plus an annual performance bonus;
+6% employer pension contribution;
+Private medical care, life assurance and critical illness cover;
+Hybrid working (3 days a week in our central London office) and option to be fully remote in August;
+25 days holiday plus an additional day for your birthday;
+Christmas to New Year office closure (in addition to annual leave entitlement);
+09:00 – 17:30 office hours, with an early finish on Fridays.
+To Apply
+Please click on the Apply button below to email your CV and a cover letter of no more than one page outlining your experience, your interest in this opportunity and why you’re the right fit for this role. In your cover letter, we’d also like you to share your perspectives on the key challenges and opportunities for the global pharmaceutical industry in 2026/27.
+When applying clearly state that you saw the role through the PubAffairs network.
+Applications will be reviewed on a rolling basis, and we may close the process early if we find the right candidate – so we encourage early submissions. First stage interviews will be held virtually in the w/c 31 August and final in-person interviews held the w/c 7 September in central London.
+Closing date
+The closing date for applications for this post is 5:00pm on Monday 17th August 2026</description>
+      <guid isPermaLink="false">https://www.publicaffairsnetworking.com/vacancy/account-manager-health-policy-and-government-affairs-202-26-pubaffairs</guid>
+      <category>Public Affairs</category>
+      <dc:creator>PubAffairs Networking</dc:creator>
+    <polintel:location>£41,000 - £49,000 (salary based on experience) + annual bonus | Hybrid (3 days in Central London office)</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>
