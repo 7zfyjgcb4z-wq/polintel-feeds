@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 15:07:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 14:48:51 +0000</lastBuildDate>
     <item>
       <title>Green &amp; Gold Congressional Aide</title>
       <link>https://www.usajobs.gov:443/job/853548900</link>
@@ -1200,14 +1200,6 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Martinsburg, West Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-10</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Physician (Diagnostic Radiologist)</title>
-      <link>https://www.usajobs.gov:443/job/869017400</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $124,308–$400,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/869017400</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Asheville, North Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Physician (Regular Ft)-Hematology-Oncology</title>
       <link>https://www.usajobs.gov:443/job/876246100</link>
       <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $330,000–$400,000 PA | Grade: VM</description>
@@ -1223,14 +1215,6 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Aurora, Colorado</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-12-31</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Physician (Regular Ft) - Gastroenterology/Hepatology</title>
-      <link>https://www.usajobs.gov:443/job/876512500</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program, must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000) &amp; el | Salary: $300,000–$400,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/876512500</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Physician - Ophthalmologist (Open Continuous)</title>
       <link>https://www.usajobs.gov:443/job/876504400</link>
@@ -1700,5 +1684,21 @@ pol</description>
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Chillicothe, Ohio</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-03</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician - Pain Medicine Specialist</title>
+      <link>https://www.usajobs.gov:443/job/878021400</link>
+      <description>This Pain Medicine Specialist position requires the incumbent to provide patient care, direction, oversight, administration and leadership in the management of Chronic Pain and Opioid Use Disorder (OUD). The VA Puget Sound Health Care System has an academic affiliation with the University of Washing | Salary: $200,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/878021400</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Seattle, Washington</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-03</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Staff Psychologist (Behavioral Health Interdisciplinary Program) - EDRP Authorized</title>
+      <link>https://www.usajobs.gov:443/job/878013300</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific individual eligibility requirements in accordance with VHA policy and submit your EDRP application within four months of appointment. Program Approval, awar | Salary: $94,397–$174,906 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/878013300</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Kerrville, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-03</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
