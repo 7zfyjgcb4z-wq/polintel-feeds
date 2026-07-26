@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jul 2026 14:48:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 14:37:30 +0000</lastBuildDate>
     <item>
       <title>PUBLIC AFFAIRS SPECIALIST (TECHNICAL ADVISER) - DIRECT HIRE AUTHORITY</title>
       <link>https://www.usajobs.gov:443/job/865100700</link>
@@ -1074,9 +1074,9 @@ Use plain language. Avoid using acronyms and terms that are not</description>
     <polintel:location>Washington Navy Yard, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-31</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Foreign Affairs Officer</title>
-      <link>https://www.usajobs.gov:443/job/877174000</link>
+      <link>https://www.usajobs.gov:443/job/877265000</link>
       <description>Located in the Bureau of Economic, Energy, and Business Affairs, under the Deputy Assistant Secretary for Energy and Critical Minerals, Office of Critical Minerals (EEB/ECM/EM). Provides strategic and tactical advice on issues relating to critical mineral mining, processing, refining, and recycling; | Salary: $143,913–$187,093 PA | Grade: GS</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/877174000</guid>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/877265000</guid>
       <category>US Federal Government</category>
       <dc:creator>Department of State - Agency Wide</dc:creator>
     <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-27</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
@@ -1330,5 +1330,13 @@ Your qualifications will be evaluated on the basis of your level of knowledge, s
       <category>US Federal Government</category>
       <dc:creator>Joint Activities</dc:creator>
     <polintel:location>Brussels, Belgium</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-07</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Public Affairs Specialist</title>
+      <link>https://www.usajobs.gov:443/job/877520600</link>
+      <description>Public Affairs Specialist (GS-1035-11) located in West Palm Beach, this role serves as the official spokesperson, facilitator, and coordinator for the media, congressional staff, veterans service organizations, and governmental officials. The incumbent designs campaigns, communication strategies, an | Salary: $79,533–$103,399 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/877520600</guid>
+      <category>US Federal Government</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>West Palm Beach, Florida</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-27</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
