@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jul 2026 11:24:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 13:15:37 +0000</lastBuildDate>
     <item>
       <title>ADMINISTRATIVE OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/279955?language=en</link>
@@ -643,9 +643,9 @@
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Senior Ethics Officer</title>
-      <link>https://careers.un.org/jobSearchDescription/279366?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/279362?language=en</link>
       <description>Level : P-5 Job ID : 279362 Job Network : Management and Administration Job Family : Ethics Department/Office : Ethics Office Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/01/2026 00:00:00 AM (New York time) Deadline : 08/14/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/279366?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/279362?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>Ethics Office</dc:creator>
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -4140,11 +4140,11 @@
     <item>
       <title>EXECUTIVE ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/281501?language=en</link>
-      <description>Level : G-6 Job ID : 280902 Job Network : Management and Administration Job Family : Administration Department/Office : Resident Coordinator System Duty Station : AMMAN Staffing Exercise : undefined Posted Date : 07/20/2026 00:00:00 AM (New York time) Deadline : 07/26/2026 23:59:59 PM (New York time)</description>
+      <description>Level : G-6 Job ID : 281501 Job Network : Management and Administration Job Family : Administration Department/Office : Resident Coordinator System Duty Station : RIYADH Staffing Exercise : undefined Posted Date : 07/24/2026 00:00:00 AM (New York time) Deadline : 08/07/2026 23:59:59 PM (New York time)</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281501?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>Resident Coordinator System</dc:creator>
-    <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <polintel:location>Riyadh, Saudi Arabia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Senior Technical Consultant for the Brazilian Emissions Trading</title>
       <link>https://careers.un.org/jobSearchDescription/281348?language=en</link>
@@ -4155,17 +4155,17 @@
     <polintel:location>Panama City, Panama</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Public Information Intern</title>
-      <link>https://careers.un.org/jobSearchDescription/280864?language=en</link>
-      <description>Level : I-1 Job ID : 280491 Job Network : Job Family : Public Information Department/Office : Department of Global Communications Duty Station : BEIRUT Staffing Exercise : undefined Posted Date : 07/20/2026 00:00:00 AM (New York time) Deadline : 08/02/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/280864?language=en</guid>
+      <link>https://careers.un.org/jobSearchDescription/280491?language=en</link>
+      <description>Level : I-1 Job ID : 280864 Job Network : Job Family : Public Information Department/Office : Department of Global Communications Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/24/2026 00:00:00 AM (New York time) Deadline : 07/30/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/280491?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>Department of Global Communications</dc:creator>
-    <polintel:location>Beirut, Lebanon</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>UNCTAD Internship in the Division on International Trade and Commodities</title>
-      <link>https://careers.un.org/jobSearchDescription/281304?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/281355?language=en</link>
       <description>Level : I-1 Job ID : 281304 Job Network : Job Family : Economic Affairs Department/Office : United Nations Conference on Trade and Development Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 07/20/2026 00:00:00 AM (New York time) Deadline : 08/02/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281304?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281355?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>United Nations Conference on Trade and Development</dc:creator>
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -8992,5 +8992,117 @@ The OECD promotes an optimal use of resources in order to improve its efficiency
       <category>International Organisations</category>
       <dc:creator>Office of the Special Envoy of the Secretary General for Yemen</dc:creator>
     <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>PROGRAMME MANAGEMENT OFFICER</title>
+      <link>https://careers.un.org/jobSearchDescription/281830?language=en</link>
+      <description>Level : P-4 Job ID : 281830 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : United Nations Assistance Mission in Afghanistan Duty Station : KABUL Staffing Exercise : undefined Posted Date : 07/26/2026 00:00:00 AM (New York time) Deadline : 08/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281830?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Assistance Mission in Afghanistan</dc:creator>
+    <polintel:location>Kabul, Afghanistan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Relief Worker- Relief &amp; Social Services Programme - Daily Paid Opportunity (to create a roster on Daily Paid contract) - all areas - Grade</title>
+      <link>https://careers.un.org/jobSearchDescription/281827?language=en</link>
+      <description>Level : Job ID : 281827 Job Network : Political, Peace and Humanitarian Job Family : Humanitarian Affairs Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO Syria Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281827?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO Syria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Area Relief and Social Services Officer- Fixed Term-Programme Relief &amp; Social Services- Area Office Jerusalem-For Internal Candidates only</title>
+      <link>https://careers.un.org/jobSearchDescription/281709?language=en</link>
+      <description>Level : Job ID : 281709 Job Network : Management and Administration Job Family : Administration Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : RAMALLAH Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281709?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>Ramallah, Palestinian Territories</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>HUMAN RESOURCES ASSISTANT</title>
+      <link>https://careers.un.org/jobSearchDescription/281769?language=en</link>
+      <description>Level : G-5 Job ID : 281769 Job Network : Management and Administration Job Family : Human Resources Department/Office : United Nations Office at Geneva Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/10/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281769?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Office at Geneva</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Project Evaluation Consultant</title>
+      <link>https://careers.un.org/jobSearchDescription/281831?language=en</link>
+      <description>Level : CON Job ID : 281831 Job Network : Job Family : HST Department/Office : United Nations Human Settlements Programme Duty Station : AMMAN Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/05/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281831?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Information Systems Officer (temporary)</title>
+      <link>https://careers.un.org/jobSearchDescription/281252?language=en</link>
+      <description>Level : P-3 Job ID : 281252 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : United Nations Office at Vienna Duty Station : VIENNA Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/03/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281252?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Office at Vienna</dc:creator>
+    <polintel:location>Vienna, Austria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>International Consultant (Expert in trafficking in persons for forced labour in supply chains)</title>
+      <link>https://careers.un.org/jobSearchDescription/281813?language=en</link>
+      <description>Level : CON Job ID : 281813 Job Network : Job Family : Drug Control and Crime Prevention Department/Office : United Nations Office on Drugs and Crime Duty Station : VIENNA Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281813?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Office on Drugs and Crime</dc:creator>
+    <polintel:location>Vienna, Austria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Midterm Review Expert - GEF Enhancing Land Management and Strengthening Ecosystem Resilience for Integrated Landscape Restoration and Climate-Resilient Food Systems in Carriacou, Grenada</title>
+      <link>https://careers.un.org/jobSearchDescription/281819?language=en</link>
+      <description>Level : CON Job ID : 281819 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : PANAMA CITY Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/05/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281819?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Environment Programme</dc:creator>
+    <polintel:location>Panama City, Panama</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Advocacy and Outreach Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/281522?language=en</link>
+      <description>Level : I-1 Job ID : 281522 Job Network : Job Family : Conference Services Department/Office : United Nations Interregional Crime and Justice Research Institute Duty Station : ROME Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281522?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Interregional Crime and Justice Research Institute</dc:creator>
+    <polintel:location>Rome, Italy</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Assistant Projects Officer- Fixed Term- Projects Office- Field Office West Bank- For Internal Candidates ONLY- Grade</title>
+      <link>https://careers.un.org/jobSearchDescription/280164?language=en</link>
+      <description>Level : Job ID : 280164 Job Network : Economic, Social and Development Job Family : Public Administration Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO West Bank Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/280164?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO West Bank</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>FINANCE ASSISTANT</title>
+      <link>https://careers.un.org/jobSearchDescription/281829?language=en</link>
+      <description>Level : G-5 Job ID : 281829 Job Network : Management and Administration Job Family : Finance Department/Office : Office of the Special Envoy of the Secretary General for Yemen Duty Station : SANA'A Staffing Exercise : undefined Posted Date : 07/26/2026 00:00:00 AM (New York time) Deadline : 08/01/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281829?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the Special Envoy of the Secretary General for Yemen</dc:creator>
+    <polintel:location>Sana'a</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>UNEP Finance Initiative (UNEP FI) Climate Adaptation and Resilience Internship</title>
+      <link>https://careers.un.org/jobSearchDescription/281587?language=en</link>
+      <description>Level : I-1 Job ID : 281587 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/14/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281587?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Environment Programme</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Consultant on TEEB National Implementation</title>
+      <link>https://careers.un.org/jobSearchDescription/281626?language=en</link>
+      <description>Level : CON Job ID : 281626 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 07/27/2026 00:00:00 AM (New York time) Deadline : 08/05/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281626?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Environment Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Principal Investment Officer, Financial Institutions Group</title>
+      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37860</link>
+      <description>Build a career with impact. Working at the World Bank Group (WBG) provides a unique opportunity to help countries solve their greatest development challenges. As one of the largest sources of funding and knowledge for developing countries, the WBG is a unique partnership of five global institutions dedicated to ending poverty, increasing shared prosperity, and promoting sustainable development. With 189 member countries and more than 120 offices worldwide, the WBG works with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. The International Finance Corporation (IFC), a member of the World Bank Group, is the largest global development institution focused on the private sector in emerging markets. We work in more than 100 countries, using our capital, expertise, and influence to create markets and opportunities in developing countries. In fiscal year 2025, IFC committed a record $71.7 billion to private companies and financial institutions in developing countries, leveraging private sector solutions, and mobilizing private capital to create a world free of poverty on a livable planet. For more information, visit www.ifc.org . The Financial Institution Group (FIG) is one of IFC’s key Departments responsible for a significant portion of IFC’s business volume, profitability, and development reach, approximately 40%. FIG engages in a wide range of sub-sectors including Microfinance, SME, Gender, Climate, Insurance, Capital Markets, Housing, Distressed Assets, and other areas, with both investment and advisory services delivered globally to IFC’s clients through IFC’s global network. FIG has three main objectives: 1) financial inclusion 2) servicing the real economy and 3) mobilizing third-party resources. FIG’s Europe team is based across the region with main offices in Vienna, Bucharest, Warsaw and Belgrade, as well as other offices across the region. The team members work on both new business development (including transaction processing) and portfolio supervision/client relationship management across the region. Both new business and portfolio supervision activity of the FIG team entails engagement with all types of Financial Intermediaries (e.g. commercial banks, microfinance companies, insurance companies, NBFIs, etc.) across multiple products ranging from senior debt to straight equity investments. IFC is seeking a highly motivated and experienced Principal Investment Officer to be based in Kyiv, Ukraine. This is a high-impact leadership role at the forefront of the World Bank Group's crisis response and reconstruction efforts for Ukraine. The selected candidate will lead and coordinate FIG’s investment and advisory operations on the ground, playing a pivotal role in designing complex financial structures, engaging with key public and private stakeholders, and deploying blended finance to unlock private investment where it is needed most. Duties and Accountabilities: The duties and accountabilities of the role include but are not limited to: • Lead and coordinate all FIG activities in Ukraine, acting as the primary focal point. Ensure seamless integration between investment and advisory operations to drive comprehensive solutions that support the resilience and reconstruction of the Ukrainian financial sector. • Drive business development and oversee the full transaction lifecycle. Originate, structure, negotiate, and close complex financial sector transactions (debt, equity, guarantees). Oversee portfolio management, including loan restructurings, rescheduling, and capital optimization strategies. • Lead engagements with blended finance providers and development partners. Design and negotiate de-risking structures and co-financing arrangements essential for deploying capital and maximizing development impact. • Build and maintain critical, high-level relationships. Act as a senior representative to engage with public sector stakeholders, government officials, regulators, and C-suite executives to support WBG sector reform efforts, align on strategic priorities, and unlock new investment opportunities. • Champion integrated value propositions. Coordinate closely with the regional and country team, MAS, Infra, E S, CAE, CRG, and other teams to deliver holistic, pragmatic solutions to clients, mitigating risks and achieving sustainable development impact. • Supervise, mentor, and coach less-experienced investment and advisory staff. Foster a high-performing, resilient team culture capable of delivering high-quality projects and meeting regional FIG targets under pressure and in a dynamic environment. • Drive regional knowledge management. Continuously monitor geopolitical and market trends in Ukraine to adapt FIG’s strategy, contributing to institutional thought leadership on crisis response and financial sector rebuilding.</description>
+      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37860</guid>
+      <category>International Organisations</category>
+      <dc:creator>World Bank Group</dc:creator>
+    <polintel:location>Kyiv, UA</polintel:location><polintel:closingDate>8/3/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
