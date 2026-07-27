@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jul 2026 14:37:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 15:52:30 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-281/</link>
@@ -48,30 +48,6 @@
       <link>https://www.foundationlist.org/job-details/chief-executive-officer-ceo-13/</link>
       <description>West Houston Assistance Ministries (WHAM) is seeking a visionary, mission-driven, and collaborative CEO to lead our organization into the future. The CEO position will hold overall management responsibility for our strategy, staff, financial health,</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-executive-officer-ceo-13/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Chief Advancement Officer</title>
-      <link>https://www.foundationlist.org/job-details/chief-advancement-officer-22/</link>
-      <description>About MFAN The Military Family Advisory Network (MFAN) is a national nonprofit dedicated to understanding and serving the modern military family. We bring together research, data, and real-life stories to inform decision-makers, create community con</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-advancement-officer-22/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>US Healthcare Manager</title>
-      <link>https://www.foundationlist.org/job-details/us-healthcare-manager/</link>
-      <description>US Healthcare Manager Job Description PLEASE FILL OUT THIS FORM BY JUNE 26, 2026 TO APPLY. At Greener by Default, you will be working towards the ambitious goal of completely transforming institutional foodservice - and the food system as a who</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/us-healthcare-manager/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Program &amp; Strategy Officer</title>
-      <link>https://www.foundationlist.org/job-details/senior-program-strategy-officer/</link>
-      <description>Senior Program &amp;amp;amp; Strategy Officer ABOUT DOGWOOD HEALTH TRUST Founded in 2018, Dogwood Health Trust (Dogwood) is a private foundation based in Asheville, North Carolina. Its sole purpose is to dramatically improve the health and wellbeing of</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-program-strategy-officer/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
@@ -1020,6 +996,15 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-coordinator-55/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Regional Development Director</title>
+      <link>https://www.foundationlist.org/job-details/regional-development-director/</link>
+      <description>What We Do Teach Plus is a national nonprofit whose mission is to empower excellent, experienced, and diverse teachers to take leadership over key policy and practice issues that advance equity, opportunity, and student success. At the heart of our</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/regional-development-director/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
