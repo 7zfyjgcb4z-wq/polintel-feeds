@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 12:06:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 11:56:22 +0000</lastBuildDate>
     <item>
       <title>ADMINISTRATIVE OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/279955?language=en</link>
@@ -4147,9 +4147,9 @@
     <polintel:location>Riyadh, Saudi Arabia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Senior Technical Consultant for the Brazilian Emissions Trading</title>
-      <link>https://careers.un.org/jobSearchDescription/281348?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/281223?language=en</link>
       <description>Level : CON Job ID : 281348 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : PANAMA CITY Staffing Exercise : undefined Posted Date : 07/20/2026 00:00:00 AM (New York time) Deadline : 07/29/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281348?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281223?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>United Nations Environment Programme</dc:creator>
     <polintel:location>Panama City, Panama</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -4523,9 +4523,9 @@
     <polintel:location>Port-Au-Prince, Haiti</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Nature for Health Systems Approach Facilitator and Project Development Specialist</title>
-      <link>https://careers.un.org/jobSearchDescription/274576?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/281992?language=en</link>
       <description>Level : CON Job ID : 274576 Job Network : Job Family : Programme Management Department/Office : United Nations Environment Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 07/22/2026 00:00:00 AM (New York time) Deadline : 08/11/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/274576?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281992?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>United Nations Environment Programme</dc:creator>
     <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -9258,9 +9258,9 @@ The OECD promotes an optimal use of resources in order to improve its efficiency
     <polintel:location>Bishkek, Kyrgyzstan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>PARTNERSHIPS OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/281462?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/281772?language=en</link>
       <description>Level : NO-C Job ID : 281462 Job Network : Economic, Social and Development Job Family : Sustainable Development Department/Office : Resident Coordinator System Duty Station : LOME Staffing Exercise : undefined Posted Date : 07/28/2026 00:00:00 AM (New York time) Deadline : 08/11/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281462?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281772?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>Resident Coordinator System</dc:creator>
     <polintel:location>Lome, Togo</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -9635,19 +9635,148 @@ The OECD promotes an optimal use of resources in order to improve its efficiency
     <item>
       <title>Communications Officer</title>
       <link>https://api.smartrecruiters.com/v1/companies/OECD/postings/744000140270879</link>
-      <description>Main Responsibilities Publications Work with the Division’s analysts on preparing publications (reports, papers, policy briefs, etc.), advising them throughout the publishing process. Copyedit, format and proofread manuscripts to ensure clarity and consistency of messaging and applying all OECD style rules and conventions. Draft short materials (articles, blog posts, etc.) to promote publications. Promote publications through multiple channels (web, social media, events, etc.) and identify opportunities to increase visibility across platforms and audiences. Media Develop social media campaigns for key events (publication launches, etc.) and regularly draft content for various platforms (e.g. LinkedIn, X, WhatsApp) to promote outputs. Monitor social media to evaluate the impact of campaigns. Support work with traditional media, including in the preparation of materials (draft press releases, etc.) and monitoring of media coverage. Web Update and maintain CM web pages, following corporate web rules and best practices, and ensure maximum visibility and discoverability of information. Draft original web content and adapt texts for the web, following best practices for SEO and GEO. Design &amp; multimedia Design high-quality communication materials targeted at a variety of stakeholders (e.g. flyers, brochures, videos, infographics). Propose new promotional approaches, aligned with corporate rules and tools, and keep abreast of best practices and innovations at the OECD and externally. Events Manage the communication needs of events (e.g. conferences, workshops, webinars), including through the development of dedicated websites or webpages, visual signatures following OECD branding rules, agendas, and other promotional activities. Strategic planning &amp; Internal communications Contribute to DAF’s annual communications plan and ensure that CM communications activities support the delivery of this plan as well as the DAF Director’s communications priorities. Work collaboratively with the Division’s other Communications Officers and provide support and back-up when needed. Coordinate with the DAF DO Communications Unit and COM in planning communications activities. Support impact monitoring and knowledge-sharing within the Division to maximise outreach efforts and exchange best practices.</description>
+      <description>{"id":"744000140270879","name":"Communications Officer","uuid":"0f10fc52-42c1-4e63-b5f9-c3eb2c98e3f1","jobId":"4c88b411-04de-4e1b-af76-9b06584714e6","jobAdId":"706d07c7-6773-47a8-a41b-6ddb7ef982fd","defaultJobAd":true,"refNumber":"REF3322A","company":{"name":"OECD","identifier":"OECD"},"location":{"city":"Paris","region":"Île-de-France Region","country":"fr","remote":false,"hybrid":true,"hybridDescription":"Teleworking available, subject to manager approval.","fullLocation":"Paris, Île-de-France Region, France"},"customField":[{"fieldId":"648821a3b6b69322b51f3093","fieldLabel":"Directorate","valueId":"10000281","valueLabel":"DAF"},{"fieldId":"COUNTRY","fieldLabel":"Country/Region","valueId":"fr","valueLabel":"France"},{"fieldId":"633d99302e608549cea4cccb","fieldLabel":"Department","valueId":"7038908","valueLabel":"General Administration"},{"fieldId":"633d99302e608549cea4ccca","fieldLabel":"Brands","valueId":"default","valueLabel":"OECD"},{"fieldId":"64882104a519d256d6751438","fieldLabel":"Grade","valueId":"GA4","valueLabel":"GA4"}],"releasedDate":"2026-07-28T15:11:40.824Z","creator":{"name":"","avatarUrl":""},"postingUrl":"https://jobs.smartrecruiters.com/OECD/744000140270879-communications-officer","applyUrl":"https://jobs.smartrecruiters.com/OECD/744000140270879-communications-officer?oga=true","referralUrl":"https://jobs.smartrecruiters.com/external-referrals/company/OECD/publication/0f10fc52-42c1-4e63-b5f9-c3eb2c98e3f1?dcr_ci=OECD","jobAd":{"sections":{"companyDescription":{"title":"Company Description","text":"
+The Organisation for Economic Co-operation and Development (
+OECD
+) is an international organisation composed of 38 member countries, that works to build better policies for better lives. Our mission is to promote policies that will improve the economic and social well-being of people around the world. Together with governments, policy makers and citizens, we work on establishing evidence-based international standards, and finding solutions to a range of social, economic and environmental challenges. From improving economic performance and creating jobs to fostering strong education and fighting international tax evasion, we provide a unique forum and knowledge hub for data and analysis, exchange of experiences, best-practice sharing, and advice on public policies and international standard-setting.
+The OECD has earned a leading role in financial and business issues. The core mission of the Directorate for Financial and Enterprise Affairs (
+DAF
+) is to assist markets to fund inclusive economic growth, and in turn Better Lives, through setting and implementing standards, providing capacity building and technical assistance, acting as a forum for co-operation and collaboration across the OECD Directorates, external stakeholders and International Organisations. DAF's mission is pursued through five substantive divisions whose teams provide member and partner countries with policy guidance, analysis and support in the areas of competition, anti-corruption, corporate governance, financial markets, insurance and pensions, consumer finance, responsible business conduct and international investment. DAF currently employs about 300 staff members (economists, lawyers, statisticians, support staff, consultants, and trainees), who support work across a broad range of policy areas.
+The DAF/CM Division is looking for a Communications Officer to plan and conduct a wide range of communication tasks to enhance the relevance, visibility, and impact of the Division’s work on policymakers, stakeholders, and the general public. This includes working on publications, the web, traditional and social media, design, and events, in line with OECD corporate communications priorities, rules and best practices. The selected candidate will work under the supervision of CM’s head of communications and in close co-operation with the Communications Unit in the Director’s Office (DO) and the OECD Communications Directorate (COM).
+"},"jobDescription":{"title":"Job Description","text":"
+Main Responsibilities
+Publications
+Work with the Division’s analysts on preparing publications (reports, papers, policy briefs, etc.), advising them throughout the publishing process.
+Copyedit, format and proofread manuscripts to ensure clarity and consistency of messaging and applying all OECD style rules and conventions.
+Draft short materials (articles, blog posts, etc.) to promote publications.
+Promote publications through multiple channels (web, social media, events, etc.) and identify opportunities to increase visibility across platforms and audiences.
+Media
+Develop social media campaigns for key events (publication launches, etc.) and regularly draft content for various platforms (e.g. LinkedIn, X, WhatsApp) to promote outputs.
+Monitor social media to evaluate the impact of campaigns.
+Support work with traditional media, including in the preparation of materials (draft press releases, etc.) and monitoring of media coverage.
+Web
+Update and maintain CM web pages, following corporate web rules and best practices, and ensure maximum visibility and discoverability of information.
+Draft original web content and adapt texts for the web, following best practices for SEO and GEO.
+Design &amp; multimedia
+Design high-quality communication materials targeted at a variety of stakeholders (e.g. flyers, brochures, videos, infographics).
+Propose new promotional approaches, aligned with corporate rules and tools, and keep abreast of best practices and innovations at the OECD and externally.
+Events
+Manage the communication needs of events (e.g. conferences, workshops, webinars), including through the development of dedicated websites or webpages, visual signatures following OECD branding rules, agendas, and other promotional activities.
+Strategic planning &amp; Internal communications
+Contribute to DAF’s annual communications plan and ensure that CM communications activities support the delivery of this plan as well as the DAF Director’s communications priorities.
+Work collaboratively with the Division’s other Communications Officers and provide support and back-up when needed.
+Coordinate with the DAF DO Communications Unit and COM in planning communications activities.
+Support impact monitoring and knowledge-sharing within the Division to maximise outreach efforts and exchange best practices.
+"},"qualifications":{"title":"Qualifications","text":"
+Ideal Candidate Profile
+Academic Background
+Bachelor’s degree, preferably in communications, journalism or public affairs.
+Professional Background
+At least three years of experience working in the field of communications, journalism or public affairs.
+Excellent writing skills with proven experience in producing high-quality content for diverse audiences, and ability to make complex issues accessible to a broad range of audiences.
+Very good proficiency in publication, social media and new communications tools.
+Strong experience with graphic design tools and website content management programmes.
+Excellent innovation skills and attention to detail.
+Previous experience working in the financial sector would be an advantage.
+"},"additionalInformation":{"title":"Additional Information","text":"
+Core Competencies
+OECD staff are expected to demonstrate behaviours aligned with six core competencies which will be assessed as part of this hiring processes: Vision and Strategy (Level 1); Enable People (Level 1); Ethics and Integrity (Level 1); Collaboration and Horizontality (Level 2); Achieve Results (Level 1); Innovate and Embrace Change (Level 1).
+There are three possible levels for each competency. The level for each competency is determined according to the specific needs of each job role and its associated grade.
+To learn more about the definitions for each competency for levels 1-3, please refer to
+OECD Core Competencies
+.
+Languages
+Fluency in one of the two OECD official languages (English and French) and knowledge of the other, with a commitment to reach a good working level.
+Closing Date
+This vacancy should be filled as soon as possible, and applications should reach us no later than 1 August 2026 at 23:59 (Paris time).
+Contract
+Duration
+12-month fixed-term appointment, with the possibility of renewal to a maximum of 36 months.
+Please note that our Rules and Regulations stipulate that the mandatory retirement age is 67.
+What the OECD offers
+Monthly salary starts at 4 502.33 EUR, plus allowances based on eligibility, exempt of French income tax.
+Click here
+to visit our Salary and Allowances Calculator.
+Click here
+to consult the Staff Regulations applicable to officials of the OECD. Please note that from 1 July 2025, all Official appointments will be made under the
+OECD’s new contractual modalities
+.
+Click here
+to learn more about what we offer and why the OECD is a great place to work.
+Click here
+to browse our People Management Guidebook and learn more about all aspects relating to people at the OECD, our workplace environment and many other policies supporting staff in their daily life.
+Please note that the appointment may be made at one grade lower in the specified job family, based on the qualifications and professional experience of the selected applicant.
+This vacancy may be used to create a pool of candidates for comparable positions, both for open-ended and fixed-term functions.
+Selection Process
+The recruitment process may entail an aptitude test, including activities designed to evaluate cognitive abilities such as problem-solving and logical reasoning, as well as analytical thinking and transferable skills aligned with our Core Competencies Framework. Please refer to the
+aptitude test guidelines
+to help you prepare.
+For further retained candidates, the selection process may include a video-recorded interview, written assessment and a panel interview.
+We highly encourage candidates to monitor their inbox, including spam and junk folders, for updates regarding the application status.
+The OECD is an equal opportunity emplo</description>
       <guid isPermaLink="false">https://api.smartrecruiters.com/v1/companies/OECD/postings/744000140270879</guid>
       <category>International Organisations</category>
       <dc:creator>OECD</dc:creator>
-    <polintel:location>Paris, Île-de-France Region, fr</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <polintel:location>Paris, Île-de-France Region, fr</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
     <item>
       <title>Chargé(e) de communication</title>
       <link>https://api.smartrecruiters.com/v1/companies/OECD/postings/744000140271619</link>
-      <description>Responsabilités principales Publications •            Collaborer avec les analystes de la Division à l’élaboration de publications (rapports, documents d’analyse, notes d’orientation, etc.) et les conseiller tout au long du processus de publication. •            Réviser, mettre en forme et relire les manuscrits afin de garantir la clarté et la cohérence du message et en appliquant toutes les règles et conventions de style de l'OCDE. •            Rédiger des contenus courts (articles, billets de blog, etc.) pour promouvoir les publications. •            Assurer la promotion des publications via divers canaux (Web, réseaux sociaux, événements, etc.) et identifier des opportunités d’accroître leur visibilité auprès de différents publics et sur diverses plateformes. Médias •            Élaborer des campagnes sur les réseaux sociaux pour des événements clés (lancements de publications, etc.) et rédiger régulièrement du contenu pour diverses plateformes (par ex. LinkedIn, X, WhatsApp) afin de promouvoir les réalisations. •            Assurer une veille sur les réseaux sociaux pour évaluer l'impact des campagnes. •            Appuyer les relations avec les médias traditionnels, notamment en préparant des supports (projets de communiqués de presse, etc.) et en assurant le suivi de la couverture médiatique. Web •            Mettre à jour et assurer la maintenance des pages web CM en respectant les règles et les meilleures pratiques de l'entreprise en matière de web, et garantir une visibilité ainsi qu'une découvrabilité optimales des informations. •            Rédiger du contenu web original et adapter des textes pour le web, en respectant les meilleures pratiques en matière de SEO et de GEO. Design et multimédia •            Concevoir des supports de communication de haute qualité destinés à diverses parties prenantes (par ex. dépliants, brochures, vidéos, infographies). •            Proposer de nouvelles approches et de nouveaux outils promotionnels, conformes aux règles et aux outils de l’Organisation, et se tenir au fait des meilleures pratiques et des innovations au sein de l’OCDE ainsi qu’à l’extérieur. Événements •            Gérer les besoins en communication liés aux événements (par ex. conférences, ateliers, webinaires), notamment par la création de sites web ou de pages web dédiés, d'identités visuelles conformément aux règles de l'OCDE en matière de marques, de programmes et d'autres activités promotionnelles. Planification stratégique et communication interne •            Contribuer au plan de communication annuel de la DAF et veiller à ce que les activités de communication de CM soutiennent la mise en œuvre de ce plan ainsi que les priorités de communication du Directeur de la DAF. •            Collaborer avec les autres chargés de communication de la Division et apporter soutien et renfort en cas de besoin. •            Assurer la coordination avec l'unité de communication du bureau du Directeur de la DAF et COM pour la planification des activités de communication. •            Soutenir le suivi de l'impact et le partage des connaissances au sein de la Division afin d'optimiser la portée des actions et de favoriser l'échange de bonnes pratiques.</description>
+      <description>{"id":"744000140271619","name":"Chargé(e) de communication ","uuid":"792bf6b3-2f0b-4cc4-8784-eaa305c86535","jobId":"4c88b411-04de-4e1b-af76-9b06584714e6","jobAdId":"38681ff4-43ae-4738-97e7-a060b8e0a5f8","defaultJobAd":false,"refNumber":"REF3322A","company":{"name":"OECD","identifier":"OECD"},"location":{"city":"Paris","region":"Île-de-France Region","country":"fr","remote":false,"hybrid":true,"fullLocation":"Paris, Île-de-France Region, France"},"customField":[{"fieldId":"648821a3b6b69322b51f3093","fieldLabel":"Directorate","valueId":"10000281","valueLabel":"DAF"},{"fieldId":"COUNTRY","fieldLabel":"Country/Region","valueId":"fr","valueLabel":"France"},{"fieldId":"633d99302e608549cea4cccb","fieldLabel":"Department","valueId":"7038908","valueLabel":"General Administration"},{"fieldId":"633d99302e608549cea4ccca","fieldLabel":"Brands","valueId":"default","valueLabel":"OECD"},{"fieldId":"64882104a519d256d6751438","fieldLabel":"Grade","valueId":"GA4","valueLabel":"GA4"}],"releasedDate":"2026-07-28T15:14:47.031Z","creator":{"name":"","avatarUrl":""},"postingUrl":"https://jobs.smartrecruiters.com/OECD/744000140271619-charge-e-de-communication-","applyUrl":"https://jobs.smartrecruiters.com/OECD/744000140271619-charge-e-de-communication-?oga=true","referralUrl":"https://jobs.smartrecruiters.com/external-referrals/company/OECD/publication/792bf6b3-2f0b-4cc4-8784-eaa305c86535?dcr_ci=OECD","jobAd":{"sections":{"companyDescription":{"title":"Description de l'entreprise","text":"
+L’Organisation de coopération et de développement économiques (
+OCDE
+) est une organisation internationale regroupant 38 pays Membres, qui œuvre pour la mise en place de politiques meilleures pour une vie meilleure. Notre mission consiste à promouvoir des politiques de nature à améliorer le bien-être économique et social des populations du monde entier. Aux côtés des gouvernants, des responsables publics et des citoyens, nous nous employons à établir des normes internationales fondées sur des éléments probants et à trouver des solutions à un large éventail de défis sociaux, économiques et environnementaux. Qu’il s’agisse d’améliorer les performances économiques, de créer des emplois, de renforcer les systèmes éducatifs ou encore de lutter contre la fraude fiscale internationale, nous proposons un forum et une plateforme de connaissances sans équivalent, qui permettent aux parties intéressées de trouver des données et des analyses, de partager des expériences, de mutualiser des bonnes pratiques, et d’obtenir des conseils sur les politiques publiques et l’établissement de normes internationales.
+L'OCDE a acquis un rôle de premier plan sur les questions financières et commerciales. La mission principale de la Direction des affaires financières et des entreprises (
+DAF
+) est d'aider les marchés à financer une croissance économique inclusive et, par conséquent, une vie meilleure, en établissant et en mettant en œuvre des normes, en fournissant un renforcement des capacités et une assistance technique, et en servant de forum de coopération et de collaboration entre les directions de l'OCDE, les parties prenantes externes et les organisations internationales. La mission de la DAF s'exerce par l'intermédiaire de cinq divisions fonctionnelles dont les équipes fournissent aux pays membres et partenaires des orientations, des analyses et un soutien en matière de politiques publiques dans les domaines de la concurrence, de la lutte contre la corruption, de la gouvernance d'entreprise, des marchés financiers, des assurances et des retraites, du crédit à la consommation, de la conduite responsable des entreprises et de l'investissement international. La DAF emploie actuellement environ 350 personnes (économistes, juristes, statisticiens, personnel de soutien, consultants et stagiaires), qui contribuent à des travaux dans un large éventail de domaines politiques.
+La Division des marchés de capitaux et des institutions financières (CM) se concentre sur les domaines thématiques suivants : marchés financiers et économie financière, assurances et retraites, éducation financière et protection des consommateurs, gouvernance d’entreprise et entreprises publiques. Ces travaux sont menés sous la direction du Comité des marchés financiers et du Comité de gouvernance d’entreprise, et leurs sous-comités respectifs.
+La Division DAF/CM recherche un(e) chargé(e) de communication pour planifier et mener à bien un large éventail d'activités visant à renforcer la pertinence, la visibilité et l'impact des travaux de la Division auprès des décideurs, des parties prenantes et du grand public. Ces activités englobent notamment les publications, le web, les médias traditionnels et les réseaux sociaux, le graphisme ainsi que l'organisation d'événements conformément aux priorités, aux règles et aux meilleures pratiques de l'OCDE en matière de communication d'entreprise.
+Le/la candidat(e) retenu(e) travaillera sous la supervision du responsable de la communication de CM et en étroite collaboration avec l'unité de communication du Cabinet du Directeur (DO) ainsi qu'avec la Direction de la communication de l'OCDE (COM).
+"},"jobDescription":{"title":"Description du poste","text":"
+Responsabilités principales
+Publications
+• Collaborer avec les analystes de la Division à l’élaboration de publications (rapports, documents d’analyse, notes d’orientation, etc.) et les conseiller tout au long du processus de publication.
+• Réviser, mettre en forme et relire les manuscrits afin de garantir la clarté et la cohérence du message et en appliquant toutes les règles et conventions de style de l'OCDE.
+• Rédiger des contenus courts (articles, billets de blog, etc.) pour promouvoir les publications.
+• Assurer la promotion des publications via divers canaux (Web, réseaux sociaux, événements, etc.) et identifier des opportunités d’accroître leur visibilité auprès de différents publics et sur diverses plateformes.
+Médias
+• Élaborer des campagnes sur les réseaux sociaux pour des événements clés (lancements de publications, etc.) et rédiger régulièrement du contenu pour diverses plateformes (par ex. LinkedIn, X, WhatsApp) afin de promouvoir les réalisations.
+• Assurer une veille sur les réseaux sociaux pour évaluer l'impact des campagnes.
+• Appuyer les relations avec les médias traditionnels, notamment en préparant des supports (projets de communiqués de presse, etc.) et en assurant le suivi de la couverture médiatique.
+Web
+• Mettre à jour et assurer la maintenance des pages web CM en respectant les règles et les meilleures pratiques de l'entreprise en matière de web, et garantir une visibilité ainsi qu'une découvrabilité optimales des informations.
+• Rédiger du contenu web original et adapter des textes pour le web, en respectant les meilleures pratiques en matière de SEO et de GEO.
+Design et multimédia
+• Concevoir des supports de communication de haute qualité destinés à diverses parties prenantes (par ex. dépliants, brochures, vidéos, infographies).
+• Proposer de nouvelles approches et de nouveaux outils promotionnels, conformes aux règles et aux outils de l’Organisation, et se tenir au fait des meilleures pratiques et des innovations au sein de l’OCDE ainsi qu’à l’extérieur.
+Événements
+• Gérer les besoins en communication liés aux événements (par ex. conférences, ateliers, webinaires), notamment par la création de sites web ou de pages web dédiés, d'identités visuelles conformément aux règles de l'OCDE en matière de marques, de programmes et d'autres activités promotionnelles.
+Planification stratégique et communication interne
+• Contribuer au plan de communication annuel de la DAF et veiller à ce que les activités de communication de CM soutiennent la mise en œuvre de ce plan ainsi que les priorités de communication du Directeur de la DAF.
+• Collaborer avec les autres chargés de communication de la Division et apporter soutien et renfort en cas de besoin.
+• Assurer la coordination avec l'unité de communication du bureau du Directeur de la DAF et COM pour la planification des activités de communication.
+• Soutenir le suivi de l'impact et le partage des connaissances au sein de la Division afin d'optimiser la portée des actions et de favoriser l'échange de bonnes pratiques.
+"},"qualifications":{"title":"Qualifications","text":"
+Profil du/de la candidat(e) idéal(e)
+Formation
+Diplôme universitaire de premier cycle (licence) de préférence en communication, en journalisme ou en affaires publiques.
+Expérience professionnelle
+Un minimum de trois années d’expérience professionnelle dans les domaines de la communication, du journalisme ou des affaires publiques.
+Excellentes compétences rédactionnelles, avec une expérience confirmée dans la production de contenus de haute qualité destinés à des publics variés, ainsi qu'une capacité à rendre des sujets complexes accessibles à un large public.
+Très bonne maîtrise des publications, des réseaux sociaux et des nouveaux outils de communication.
+Solide expérience des outils de conception graphique et des systèmes de gestion de contenu (CMS) pour sites web.
+Excellente capacité d'innovation et souci du détail.
+Une expérience préalable dans le secteur financier constituerait un atout.
+"},"additionalInformation":{"title":"Informations supplémentaires","text":"
+Compétences clés
+Les membres du personnel de l’OCDE sont censés faire preuve d’un comportement conforme aux six compétences clés qui seront évaluées dans le cadre de la procédure de recrutement organisée au titre de la présente offre d’emploi : Vision et stratégie (niveau 1) ; Renforcement des capacités des personnes (niveau 1) ; Éthique et intégrité (niveau 1) ; Collaboration et horizontalité (niveau 2) ; Obtention de résultats (niveau 1) ; Innovation et acceptation du changement (niveau 1).
+Langues
+Parfaite maîtrise d’une des deux langues officielles de l’OCDE (le français et l’anglais) et connaissance de l’autre langue, ou disposition à l’apprendre.
+Date de clôture
+Les fonctions décrites ci-dessus seront pourvues dès que</description>
       <guid isPermaLink="false">https://api.smartrecruiters.com/v1/companies/OECD/postings/744000140271619</guid>
       <category>International Organisations</category>
       <dc:creator>OECD</dc:creator>
-    <polintel:location>Paris, Île-de-France Region, fr</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <polintel:location>Paris, Île-de-France Region, fr</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
     <item>
       <title>Extended Term Temporary (ETT)</title>
       <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37876</link>
@@ -9720,5 +9849,278 @@ The OECD promotes an optimal use of resources in order to improve its efficiency
       <category>International Organisations</category>
       <dc:creator>World Bank Group</dc:creator>
     <polintel:location>Washington, DC, US</polintel:location><polintel:closingDate>8/19/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Intern on Environmental Governnance</title>
+      <link>https://careers.un.org/jobSearchDescription/281797?language=en</link>
+      <description>Level : I-1 Job ID : 281797 Job Network : Job Family : Legal Affairs Department/Office : United Nations Environment Programme Duty Station : PANAMA CITY Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281797?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Environment Programme</dc:creator>
+    <polintel:location>Panama City, Panama</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>TRAVEL ASSISTANT</title>
+      <link>https://careers.un.org/jobSearchDescription/281955?language=en</link>
+      <description>Level : G-6 Job ID : 281955 Job Network : Management and Administration Job Family : Administration Department/Office : Office of the High Commissioner for Human Rights Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/13/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281955?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Human Rights Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/280885?language=en</link>
+      <description>Level : I-1 Job ID : 280885 Job Network : Job Family : Human Rights Affairs Department/Office : Office of the Victims’ Rights Advocate Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/28/2026 00:00:00 AM (New York time) Deadline : 08/07/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/280885?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the Victims’ Rights Advocate</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Database Manager</title>
+      <link>https://careers.un.org/jobSearchDescription/282039?language=en</link>
+      <description>Level : P-3 Job ID : 282039 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : International Seabed Authority Duty Station : KINGSTON Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 09/11/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282039?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>International Seabed Authority</dc:creator>
+    <polintel:location>Kingston, Jamaica</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>GEF Chemicals and Waste Technical Support Consultant</title>
+      <link>https://careers.un.org/jobSearchDescription/281172?language=en</link>
+      <description>Level : CON Job ID : 281172 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/10/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281172?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Environment Programme</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Data Visualization and Database Management Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/281973?language=en</link>
+      <description>Level : I-1 Job ID : 281973 Job Network : Job Family : Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281973?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Department of Operational Support</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Strengthening the migration-development nexus in Africa (Consultant for Ghana)</title>
+      <link>https://careers.un.org/jobSearchDescription/281783?language=en</link>
+      <description>Level : CON Job ID : 281783 Job Network : Job Family : Economic Affairs Department/Office : Economic Commission for Africa Duty Station : RABAT Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/05/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281783?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic Commission for Africa</dc:creator>
+    <polintel:location>Rabat, Morocco</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Legal Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/282043?language=en</link>
+      <description>Level : I-1 Job ID : 282043 Job Network : Job Family : Legal Affairs Department/Office : Counter-Terrorism Committee Executive Directorate Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282043?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Counter-Terrorism Committee Executive Directorate</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>PROGRAMME MANAGEMENT OFFICER (Temporary Job Opening)</title>
+      <link>https://careers.un.org/jobSearchDescription/282035?language=en</link>
+      <description>Level : P-3 Job ID : 282035 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : Independent Institution on Missing Persons in the Syrian Arab Republic (IIMP) Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/04/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282035?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Independent Institution on Missing Persons in the Syrian Arab Republic (IIMP)</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Intern – Communications (Videography and Digital Media)</title>
+      <link>https://careers.un.org/jobSearchDescription/281642?language=en</link>
+      <description>Level : I-1 Job ID : 281642 Job Network : Job Family : Programme Management Department/Office : Office of the Secretary-General’s Envoy on Technology Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/10/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281642?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the Secretary-General’s Envoy on Technology</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Logistics Officer- Fixed Term- Procurement and Logistics Department- Field Office West Bank- For Internal Candidates only- Grade</title>
+      <link>https://careers.un.org/jobSearchDescription/282019?language=en</link>
+      <description>Level : Job ID : 282019 Job Network : Logistics, Transportation and Supply Chain Job Family : Procurement Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO West Bank Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282019?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO West Bank</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>SENIOR ADMINISTRATIVE OFFICER</title>
+      <link>https://careers.un.org/jobSearchDescription/282042?language=en</link>
+      <description>Level : P-5 Job ID : 282042 Job Network : Management and Administration Job Family : Administration Department/Office : UN Support Office in Haiti Duty Station : PORT-AU-PRINCE Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282042?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>UN Support Office in Haiti</dc:creator>
+    <polintel:location>Port-Au-Prince, Haiti</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Software Developer</title>
+      <link>https://careers.un.org/jobSearchDescription/281929?language=en</link>
+      <description>Level : CON Job ID : 281929 Job Network : Job Family : Department/Office : United Nations Human Settlements Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281929?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Intern - Programme Management (Data Analytics and Process Innovation)</title>
+      <link>https://careers.un.org/jobSearchDescription/281645?language=en</link>
+      <description>Level : I-1 Job ID : 281645 Job Network : Job Family : Programme Management Department/Office : Office of the Secretary-General’s Envoy on Technology Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/11/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281645?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the Secretary-General’s Envoy on Technology</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Geospatial Information: Earth Observation Analytics</title>
+      <link>https://careers.un.org/jobSearchDescription/282023?language=en</link>
+      <description>Level : I-1 Job ID : 282023 Job Network : Job Family : Information Management Systems and Technology Department/Office : United Nations Logistic Base Duty Station : VALENCIA Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282023?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Logistic Base</dc:creator>
+    <polintel:location>Valencia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>AIR OPERATIONS OFFICER</title>
+      <link>https://careers.un.org/jobSearchDescription/281917?language=en</link>
+      <description>Level : P-3 Job ID : 281917 Job Network : Logistics, Transportation and Supply Chain Job Family : Transportation Department/Office : United Nations Support Office in Somalia Duty Station : BAIDOA (BAYDHABO) Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/04/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281917?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Support Office in Somalia</dc:creator>
+    <polintel:location>Baidoa (baydhabo)</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Local Community Engagement Expert</title>
+      <link>https://careers.un.org/jobSearchDescription/282016?language=en</link>
+      <description>Level : CON Job ID : 282014 Job Network : Job Family : HST Department/Office : United Nations Human Settlements Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282016?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Visualization Consultant for Jordan’s Voluntary National Review</title>
+      <link>https://careers.un.org/jobSearchDescription/282087?language=en</link>
+      <description>Level : CON Job ID : 282087 Job Network : Job Family : Department/Office : Resident Coordinator System Duty Station : AMMAN Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/05/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282087?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Resident Coordinator System</dc:creator>
+    <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Intern - Journal of the United Nations</title>
+      <link>https://careers.un.org/jobSearchDescription/281752?language=en</link>
+      <description>Level : I-1 Job ID : 281752 Job Network : Job Family : Department/Office : Department for General Assembly and Conference Management Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/15/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281752?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Department for General Assembly and Conference Management</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>ADMINISTRATIVE OFFICER</title>
+      <link>https://careers.un.org/jobSearchDescription/279991?language=en</link>
+      <description>Level : P-4 Job ID : 279991 Job Network : Management and Administration Job Family : Administration Department/Office : Secretariat of the Advisory Committee on Administrative and Budgetary Questions Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 09/11/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/279991?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Secretariat of the Advisory Committee on Administrative and Budgetary Questions</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Strengthening the migration-development nexus in Africa. Consultant for Egypt</title>
+      <link>https://careers.un.org/jobSearchDescription/281612?language=en</link>
+      <description>Level : CON Job ID : 281612 Job Network : Job Family : Economic Affairs Department/Office : Economic Commission for Africa Duty Station : RABAT Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/05/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281612?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic Commission for Africa</dc:creator>
+    <polintel:location>Rabat, Morocco</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Communications Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/281791?language=en</link>
+      <description>Level : I-1 Job ID : 281791 Job Network : Job Family : Public Information Department/Office : Economic Commission for Africa Duty Station : RABAT Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/28/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281791?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic Commission for Africa</dc:creator>
+    <polintel:location>Rabat, Morocco</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>LEGAL ASSISTANT  (Personal Assistant to the Under-Secretary-General)</title>
+      <link>https://careers.un.org/jobSearchDescription/281282?language=en</link>
+      <description>Level : G-6 Job ID : 281282 Job Network : Legal Job Family : Legal Affairs Department/Office : Office of Legal Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281282?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of Legal Affairs</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Assistant Programme Officer</title>
+      <link>https://careers.un.org/jobSearchDescription/281760?language=en</link>
+      <description>Level : NO-A Job ID : 281760 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : United Nations Office on Drugs and Crime Duty Station : BRASILIA Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281760?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Office on Drugs and Crime</dc:creator>
+    <polintel:location>Brasilia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Director, Corporate Management Division</title>
+      <link>https://careers.un.org/jobSearchDescription/281516?language=en</link>
+      <description>Level : D-1 Job ID : 281516 Job Network : Management and Administration Job Family : Management and Analysis Department/Office : United Nations Human Settlements Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 09/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281516?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Budget and Finance Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/281693?language=en</link>
+      <description>Level : I-1 Job ID : 281693 Job Network : Job Family : Administration Department/Office : United Nations Human Settlements Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/05/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281693?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Consultant – Ground Transportation Expert</title>
+      <link>https://careers.un.org/jobSearchDescription/281453?language=en</link>
+      <description>Level : CON Job ID : 281453 Job Network : Job Family : Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/11/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281453?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Department of Operational Support</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Deputy Field Pharmaceutical Services Officer- Fixed Term Programme Health- FO West Bank- For Internal Candidates  only</title>
+      <link>https://careers.un.org/jobSearchDescription/281863?language=en</link>
+      <description>Level : Job ID : 281863 Job Network : Science Job Family : Medical Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO West Bank Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/11/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281863?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO West Bank</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>ASSISTANT HUMAN RIGHTS OFFICER (TJO)</title>
+      <link>https://careers.un.org/jobSearchDescription/281998?language=en</link>
+      <description>Level : NO-A Job ID : 281998 Job Network : Political, Peace and Humanitarian Job Family : Human Rights Affairs Department/Office : Office of the High Commissioner for Human Rights Duty Station : Odesa Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/11/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281998?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
+    <polintel:location>Odesa</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Principal Training Centre (Fixed Term) - Programme of Education - Ramallah Women Training Center (RWTC) - For Internal Candidates Only</title>
+      <link>https://careers.un.org/jobSearchDescription/281920?language=en</link>
+      <description>Level : Job ID : 281920 Job Network : Economic, Social and Development Job Family : Education Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : RAMALLAH Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 08/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281920?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>Ramallah, Palestinian Territories</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Chief of Section (Quantitative and Economic Research)</title>
+      <link>https://wto.wd103.myworkdayjobs.com/External/job/CWR/Chief-of-Section--Quantitative-and-Economic-Research-_JR104291</link>
+      <description>VN Category (INT / EXT / EOI): External Application Deadline: 26-08-2026 Grade: Grade 10 Job Category: Professional Contract Type: Fixed-term Annual Salary: CHF171,002.00 This is an external vacancy notice open to external candidates and WTO staff. It is posted on the WTO internal as well as external career site. Eligible WTO staff on short-term, fixed-term or regular contracts and interns must apply through the Workday internal career site. This is a Fixed-term contract funded through the regular budget. The duration will be two years with the possibility of extension, unless specified in the vacancy notice. The WTO seeks to attract and retain staff members offering the highest standards of competence, efficiency and integrity and to build an organization that is representative of the Members and People it serves. As an equal opportunity and inclusive employer, the WTO gives full regard to competence and welcome applications from qualified candidates irrespective of age, disability status, gender, nationality, race, religion, sexual orientation, social origin or any other characteristic. Applications from non-represented Members ( link ) are particularly encouraged for all positions. . The Secretariat of the WTO is seeking to fill the position of Chief of the Quantitative Economic Research Section in the Economic Research and Statistics Division. General Functions Reporting to the Director of Economic Research and Statistics Division (ERSD), the incumbent will be expected to lead the Quantitative Economic Research Section. More specifically, functions include the following: 1. Establish a forward-looking and strategic roadmap for the section, underlining how the unique skill sets and expertise within the team can significantly contribute to the division's goals and to the overall success of the Secretariat. 2. Lead a proficient team of economists ensuring well-defined objectives and equitable workloads are maintained, fostering a conducive working environment. Ensure continuous coaching and training for the team. 3. Jointly with the Director and the other section chiefs, establish a publication strategy to increase visibility and relevance of ERSD research and oversee the production and dissemination of research outputs, currently including: The World Trade Report Ad hoc reports for DGO and WTO committees Staff Working Papers. 4. Lead the CGE modelling and simulation work which involves updating and extending the WTO's global trade model, producing insightful analyses and identifying new trends to inform the policy debate on key trade issues. 5. In collaboration with other sections chiefs, support the Director of the Division by: contributing to tasks related to HR, the implementation of the Strategy 2030 and other managerial tasks as well as overseeing the coordination and preparation of DG and DDG briefings and speeches. 6. Coordinate and contribute to critical divisional projects, including in collaboration with other international organizations. 7. Conduct research and write reports and papers on topics relevant for ERSD, in cooperation with colleagues inside and outside the Division and the Secretariat. 8. Foster collaboration with other international organizations and with academic and research institutions on modelling and research more generally. 9. Represent the WTO in relevant fora, showcasing leadership and fostering partnerships to advance shared objectives. 10. Contribute to technical assistance and capacity building. REQUIRED QUALIFICATIONS Education: A PhD in Economics with excellent knowledge of the economics of trade and trade policy is required. Knowledge and Skills: Technical Knowledge and Skills: Extensive knowledge, strong technical expertise and hands-on experience in trade policy modelling and quantitative economic research. Proficient understanding of trade and trade policy matters as well as good knowledge of the WTO agreements, concepts, and associated issues. Experience in devising innovative strategies for applied economic analysis, economic research and dissemination of analysis and research products. Knowledge of software such as STATA, R, Python, or similar ones. Digital Proficiency: ability to navigate digital tools and AI and to embrace new technologies. Effective drafting skills in English, with the ability to convey information accurately and concisely. Behavioural Skills: Experience in managing a diverse team, including motivating team members, setting clear objectives, and overseeing performance. Strong leadership skills emphasizing collective decision making and the well-being, development and empowerment of all those in the team. Collaborative mindset, valuing support from and providing support to team members in achieving individual and collective objectives; strong capacity to cooperate with other sections to achieve divisional objectives. Ability to initiate and nurture professional relationships with a diverse range of individuals both within and outside the organization. Demonstrated aptitude to manage political sensitivities. Aptitude for resolving conflicts in a constructive manner. Capacity to articulate complex, abstract ideas to informed audiences, and comprehend ideas communicated by others. Proficiency in delivering presentations on a variety of topics to a broad spectrum of audiences, ensuring key messages and concepts are clearly understood. Work Experience: A minimum of ten years of relevant professional experience with a progressively higher degree of responsibility, including experience in supervisory roles or leading large-scale projects is required, preferably within a multicultural setting. Languages: Proficiency in both oral and written English is mandatory. A good working knowledge of French and/or Spanish is considered advantageous. Organizational Competencies Core Competencies: •          Communicating for Results •          Effective Collaboration •          Cultivating Progressive Growth •          Professional Accountability •          Relevant Digital Proficiency •          Diversity, Equity and Inclusion Managerial Competencies: •          Talent Centred Leadership •          Coordinated Cross Functional Leadership •          Self Aware Leadership •          Strategic Leadership Additional Information: Only applications from nationals of WTO Members will be accepted. The recruitment process will be undertaken as per Administrative Memorandum No. 976 (OFFICE(16)/15) on Staff Promotions and external recruitment through Vacancy Notices. The initial fixed-term contract for positions up to grade 10 shall normally be two years, which shall be probationary, as per Administrative Memorandum No. 997 (OFFICE(23)/4) on Probation Policy. For Director positions, the Policy on evaluation of directors apply as per Administrative Memorandum No. 978 (OFFICE(17)/29). The WTO may use various communication technologies such as video or teleconference for the assessment and evaluation of candidates. The recruitment process may also involve the use of various forms of testing, assessment centres, interviews and reference checks. Applicants may be required to sit a written examination. Applicants will be contacted directly if selected for an interview. Candidates not selected whose performance in the selection process nevertheless shows them to be suitable for a similar position may be kept on a roster for up to 24 months, and may subsequently be called upon as and when the need arises for additional resources. All applicants are encouraged to apply online as soon as possible after the vacancy has been posted and well before the closing date – Geneva (Switzerland) time – stated in the vacancy announcement. PLEASE NOTE THAT APPLICATIONS RECEIVED AFTER THE CLOSING DATE WILL NOT BE ACCEPTED. The WTO is a non-smoking environment.</description>
+      <guid isPermaLink="false">https://wto.wd103.myworkdayjobs.com/External/job/CWR/Chief-of-Section--Quantitative-and-Economic-Research-_JR104291</guid>
+      <category>International Organisations</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <dc:creator>World Trade Organization</dc:creator>
+    <polintel:location>CWR</polintel:location><polintel:closingDate>2026-08-27</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>E T Consultant - Operations Officer</title>
+      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37437</link>
+      <description>Build a career with impact. Working at the World Bank Group (WBG) provides a unique opportunity to help countries solve their greatest development challenges. As one of the largest sources of funding and knowledge for developing countries, the WBG is a unique partnership of five global institutions dedicated to ending poverty, increasing shared prosperity, and promoting sustainable development. With 189 member countries and more than 120 offices worldwide, the WBG works with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. The International Finance Corporation (IFC), a member of the World Bank Group, is the largest global development institution focused on the private sector in emerging markets. We work in more than 100 countries, using our capital, expertise, and influence to create markets and opportunities in developing countries. In fiscal year 2025, IFC committed a record $71.7 billion to private companies and financial institutions in developing countries, leveraging private sector solutions, and mobilizing private capital to create a world free of poverty on a livable planet. For more information, visit www.ifc.org . The IFC Country Office in Guinea is seeking a qualified Extended Term Consultant - Operations Officer to join its team in Guinea. Reporting to the World Bank Group Country Manager, the Operations Officer will conduct a wide variety of corporate and project finance activities including projects generation and supervision. This involves the preparation of presentations and pitch books for IFC’s participation in workshops, conferences, and high-level meetings; intensive relationship management with government and business representatives; contribution to strategy formulation, as well as data management and knowledge dissemination. Role Responsibilities: • Proactively develop a strong pipeline of good quality investment opportunities through origination and business development anticipating market trends and employing sector/country knowledge. Coordinate closely with WB and MIGA teams. • Develop market knowledge to ensure that IFC is working with the development partners and sponsors. • Take accountability for client selection and conduct the integrity due diligence of potential sponsors. Develop and maintain relationships with potential clients and identify business opportunities, while considering IFC’s strategy, priorities, and products. • Demonstrate or quickly acquire a thorough understanding of the countries, provide market intelligence and analysis, and develop strong business networks. • Build and maintain strong relationships with portfolio clients, in coordination with the Country Officer, global and regional private businesses (in financial and real sectors), multilateral partners, and government officials to further develop investment opportunities in economic sectors with high developmental impact. • Strategy formulation in collaboration with the WBG Country Manager and maintain collaborative working relationships across the WBG. • Monitoring portfolio projects in collaboration with the country Officer and Industries teams. • Develop a strong understanding, and actively market and utilize IFC’s Advisory Services’ offering (AS). • Prepare relevant strategy papers, briefs, summaries, working papers, reports, and promotional materials for internal and external users, in support of country and industry priorities, in coordination with the Country Officer and the Communications Team. • Facilitate information flow from Managers, Country Officers to the WBG Country Manager ensure consistent resolution of administrative issues. • Support office administration as needed. • Provide in-country support, and subsequent follow-up to IFC visiting missions as needed. • Perform other such duties as may be required from time to time to meet emerging, ad-hoc corporate requirements, and/or respond to internal or external requests.</description>
+      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37437</guid>
+      <category>International Organisations</category>
+      <dc:creator>World Bank Group</dc:creator>
+    <polintel:location>Conakry, GN</polintel:location><polintel:closingDate>8/8/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Lead Economist</title>
+      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37907</link>
+      <description>Do you want to build a career that is truly worthwhile? The World Bank Group is one of the largest sources of funding and knowledge for developing countries; a unique global partnership of five institutions dedicated to ending extreme poverty and promoting shared prosperity. With 189 member countries and more than 120 offices worldwide, we work with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. https://ww.worldbank.org . East Asia and the Pacific (EAP) Region EAP is a large and diverse region. Despite substantial economic growth and poverty reduction, the EAP region faces huge development challenges. Growth has been uneven across and within countries, institutions still need strengthening, and most countries are heavily affected by climate change. The Bank plays a significant role on global public goods, including climate, biodiversity, water pollution, and health. The COVID pandemic, and more recently food and energy price increases are compounding the impact of the global economic slowdown. The World Bank Group is seen as a premier development institution in the Region, with a leadership role on analytical and advisory services as well as financing. East Asia and the Pacific Region: https://www.worldbank.org/en/region/ea The World Bank's Fiscal Policy and Growth (FPG) Global Practice supports client countries in achieving sustainable, inclusive, and resilient growth through macroeconomic and fiscal policy advice, analytical work, and lending operations. The East Asia and Pacific (EAP) region encompasses some of the world's most dynamic economies, including the Philippines, Malaysia, and Brunei Darussalam — each at a distinct stage of development but sharing common challenges around fiscal sustainability, private sector-led growth, and job creation. The Philippines is one of the region's fastest-growing economies, yet faces persistent structural constraints including limited fiscal space, infrastructure gaps, and labor market informality. Malaysia, an upper-middle-income economy, is actively pursuing high-income status and requires continued reform of its fiscal framework and growth model. Brunei, a high-income hydrocarbon-dependent economy, is navigating an ambitious economic diversification agenda. The World Bank is seeking a Lead Economist to provide intellectual leadership and strategic oversight of its economic and policy engagement across these three countries. The Lead Economist will serve as the primary economic interlocutor for the Philippines and support FPG teams in Malaysia and Brunei, leading the Bank's analytical and advisory work on macroeconomic policy, growth, and fiscal and structural reform. The role combines high-quality economic research, policy dialogue at the highest levels of government, and cross-country knowledge synthesis to generate impact on development outcomes. The Lead Economist will report to the Practice Manager for Fiscal Policy and Growth in the East Asia and Pacific region. Job duties and accountabilities 1. Intellectual Leadership and Economic Analysis Lead and oversee the preparation of flagship analytical products, including core economic diagnostics. Develop and apply rigorous quantitative and qualitative analytical frameworks to assess macroeconomic trends, fiscal sustainability, structural transformation, and productivity dynamics. Synthesize cross-country lessons and global knowledge to inform country-level policy recommendations. Contribute to regional and global knowledge products, including the EAP Economic Update and FPG flagship publications. 2. Policy Dialogue and Client Engagement Serve as the Bank's primary economic spokesperson and trusted advisor to senior government counterparts, including Ministries of Finance, central banks, and planning agencies. Lead high-level policy dialogue on fiscal reform, growth strategy, and job creation, translating analytical findings into actionable policy recommendations. Represent the World Bank in senior-level forums, including meetings with policy makers, technical counterparts, and international conferences. Build and maintain strong relationships with a wide range of stakeholders, including government, the private sector, academia, civil society, and development partners. 3. Operational Support and Program Development Provide economic leadership and quality assurance for lending operations, including Development Policy Loans, Investment Project Financing, and Program-for-Results instruments, ensuring that operations are grounded in robust macroeconomic and fiscal analysis. Contribute to Country Partnership Frameworks and Systematic Country Diagnostics by providing high-quality economic inputs and strategic direction. Support the design and implementation of technical assistance and capacity-building programs in fiscal policy, economic statistics, and growth analytics. 4. Team Leadership and Mentoring Lead and manage a team of economists and researchers, providing strategic direction, quality oversight, and professional mentoring. Foster a collaborative, inclusive, and high-performance team culture. Contribute to the recruitment, onboarding, and professional development of junior staff. 5. Knowledge Management and External Visibility Disseminate research findings through publications, policy briefs, blogs, and public events to maximize development impact. Engage proactively with media, think tanks, and the broader research community to raise the visibility of the Bank's analytical work in the three countries. Contribute to MTI and EAP knowledge-sharing platforms and communities of practice.</description>
+      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37907</guid>
+      <category>International Organisations</category>
+      <dc:creator>World Bank Group</dc:creator>
+    <polintel:location>Manila, PH</polintel:location><polintel:closingDate>8/15/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>ET Consultant - Investment Accounting</title>
+      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37921</link>
+      <description>Build a career with impact. Working at the World Bank Group (WBG) provides a unique opportunity to help countries solve their greatest development challenges. As one of the largest sources of funding and knowledge for developing countries, the WBG is a unique partnership of five global institutions dedicated to ending poverty, increasing shared prosperity, and promoting sustainable development. With 189 member countries and more than 120 offices worldwide, the WBG works with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. The International Finance Corporation (IFC), a member of the World Bank Group, is the largest global development institution focused on the private sector in emerging markets. We work in more than 100 countries, using our capital, expertise, and influence to create markets and opportunities in developing countries. In fiscal year 2025, IFC committed a record $71.7 billion to private companies and financial institutions in developing countries, leveraging private sector solutions, and mobilizing private capital to create a world free of poverty on a livable planet. For more information, visit www.ifc.org . The Policy Implementation - Investment Accounting sub team (CTRPI- IA) within the WBG Controllers (CTR) has overall responsibility for the accounting analysis, evaluation and implementation for IFC’s complex loan, equity and guarantee transactions, working extensively with IFC’s investment officers and other staff in CTR. This position reports directly to and assists the CTRPI-Investment Accounting Supervisor. CTRPI- IA is seeking an ET Consultant (ETC) staff for one year to support and contribute the teams work program which includes: the accounting implementation of complex loan, equity and guarantee transactions and work extensively with Investment Officers and CTR staff. The individual will identify transactions to be scoped in for review by the unit on a daily basis and allocate scope in transactions to the team. The individual will also assemble documents and information on projects selected for accounting review, document the fact pattern summarizing the project and investment structure and, for simple investment transactions, compare the legal agreement to the accounting standards and provide accounting conclusions relative to the applicable accounting treatment of the investment. The individual will be required to perform these duties leveraging on the A.I. tools used by the team. The individual will have basic technical accounting knowledge of US GAAP and/or IFRS guidance for loan/equity/guarantee investments, particularly with respect to Consolidation and / or identification of Derivatives. A self-starter, the candidate will be a highly disciplined individual with excellent accounting/auditing and strong interpersonal skills. S/he must be able to gain the cooperation of technical and business staff at all levels and across departmental boundaries. In addition, the individual must have a keen interest in technology and leveraging on A.I. to complete the tasks assigned to them Roles and Responsibilities The individual’s responsibilities will include: • Leverage on A.I tools to identify transactions to be scoped in for review and assign these reviews to members of the unit. • On an ongoing basis, prepare and document the investment structures and background facts for scoped-in transactions and perform accounting analyses for simple investment transactions. This task should leverage use of A.I tools as much as possible. • Undertake frequent discussions with Investment Officers and Investment Accounting team members to clarify information or obtain additional information. • Participate in the continuous process improvement and efficiencies. Document and update the Investment Accounting procedures for monitoring and assessing significant influence factors, Consolidation, Debt Securities, and other related accounting areas. • Regularly share key information on processes, timelines, responsibilities, expectations and potential problems with supervisors and team members and seek their input. • Assist in various compliance testing and other compliance activities as assigned. • Perform other duties as assigned from time to time.</description>
+      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37921</guid>
+      <category>International Organisations</category>
+      <dc:creator>World Bank Group</dc:creator>
+    <polintel:location>Chennai, IN</polintel:location><polintel:closingDate>8/14/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
