@@ -1,260 +1,91 @@
 {
-  "last_run": "2026-07-29T15:19:57Z",
-  "country": "us",
-  "total_active_jobs": 1638,
-  "new_jobs_found": 43,
-  "sources_checked": 26,
-  "sources_succeeded": 26,
+  "last_run": "2026-07-30T10:29:21Z",
+  "country": "brussels",
+  "total_active_jobs": 286,
+  "new_jobs_found": 4,
+  "sources_checked": 8,
+  "sources_succeeded": 8,
   "sources_failed": 0,
-  "sources_disabled": 18,
-  "relevance_filtered": 20,
-  "descriptions_enriched": 684,
-  "feeds_generated": 7,
-  "run_duration_seconds": 741.6,
+  "sources_disabled": 20,
+  "relevance_filtered": 1,
+  "descriptions_enriched": 121,
+  "feeds_generated": 6,
+  "run_duration_seconds": 169.0,
   "failed_sources": [],
   "per_source": [
     {
-      "name": "USAJobs Fellowships",
+      "name": "EuroBrussels",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 200,
-      "jobs_after_relevance_filter": 190,
-      "descriptions_enriched": 9,
-      "duration_seconds": 7.5
+      "jobs_found": 80,
+      "jobs_after_relevance_filter": 80,
+      "descriptions_enriched": 80,
+      "duration_seconds": 48.0
     },
     {
-      "name": "USAJobs",
+      "name": "EU Training Jobs",
       "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 171,
-      "jobs_after_relevance_filter": 171,
-      "descriptions_enriched": 6,
-      "duration_seconds": 30.2
-    },
-    {
-      "name": "House Employment Bulletin",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 53,
-      "jobs_after_relevance_filter": 53,
-      "descriptions_enriched": 0,
-      "duration_seconds": 11.3,
-      "upstream_stale": true,
-      "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 93,
-      "notes": "Description enrichment disabled for this source"
-    },
-    {
-      "name": "Political Job Hunt",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 200,
-      "jobs_after_relevance_filter": 193,
-      "descriptions_enriched": 181,
-      "duration_seconds": 2.9
-    },
-    {
-      "name": "RAND Corporation Careers",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 10,
-      "jobs_after_relevance_filter": 10,
-      "descriptions_enriched": 0,
-      "duration_seconds": 10.1,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "Truman National Security Project",
-      "scraper_type": "ats_auto",
       "status": "success",
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2
+      "duration_seconds": 2.9
     },
     {
-      "name": "Manhattan Institute",
+      "name": "ECFR",
       "scraper_type": "ats_auto",
       "status": "success",
       "jobs_found": 3,
-      "jobs_after_relevance_filter": 3,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.2,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
+      "jobs_after_relevance_filter": 2,
+      "descriptions_enriched": 1,
+      "duration_seconds": 0.9
     },
     {
-      "name": "CNAS",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 5,
-      "descriptions_enriched": 0,
-      "duration_seconds": 3.3,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
-    },
-    {
-      "name": "Hudson Institute",
+      "name": "German Marshall Fund",
       "scraper_type": "ats_auto",
       "status": "success",
       "jobs_found": 14,
       "jobs_after_relevance_filter": 14,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
-      "name": "Brookings Institution Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 8,
-      "jobs_after_relevance_filter": 8,
-      "descriptions_enriched": 8,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Council on Foreign Relations Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 24,
-      "jobs_after_relevance_filter": 24,
-      "descriptions_enriched": 24,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "American Enterprise Institute Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 11,
-      "jobs_after_relevance_filter": 11,
-      "descriptions_enriched": 11,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "Heritage Foundation Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 11,
-      "jobs_after_relevance_filter": 11,
-      "descriptions_enriched": 11,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "Carnegie Endowment for International Peace Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.5
-    },
-    {
-      "name": "Hoover Institution Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.2
-    },
-    {
-      "name": "Wilson Center Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "New America Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 5,
-      "descriptions_enriched": 5,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Atlantic Council Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Third Way Careers",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 7,
-      "jobs_after_relevance_filter": 7,
-      "descriptions_enriched": 7,
-      "duration_seconds": 0.5
-    },
-    {
-      "name": "Public Affairs Council Jobs",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 409,
-      "jobs_after_relevance_filter": 409,
-      "descriptions_enriched": 409,
-      "duration_seconds": 1.3
-    },
-    {
-      "name": "R Street Institute",
-      "scraper_type": "selector",
+      "name": "International IDEA",
+      "scraper_type": "ats_auto",
       "status": "success",
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
-      "descriptions_enriched": 3,
-      "duration_seconds": 1.0
-    },
-    {
-      "name": "Niskanen Center",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 4.2
-    },
-    {
-      "name": "Peterson Institute for International Economics",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 2,
-      "jobs_after_relevance_filter": 2,
-      "descriptions_enriched": 2,
-      "duration_seconds": 0.2
-    },
-    {
-      "name": "Brennan Center for Justice",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 9,
-      "jobs_after_relevance_filter": 8,
-      "descriptions_enriched": 8,
-      "duration_seconds": 0.2
-    },
-    {
-      "name": "Roosevelt Institute",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.4
-    },
-    {
-      "name": "Foundation List",
-      "scraper_type": "rss_feed",
-      "status": "success",
-      "jobs_found": 50,
-      "jobs_after_relevance_filter": 48,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.3,
+      "duration_seconds": 0.7,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
+    },
+    {
+      "name": "European External Action Service",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 36,
+      "jobs_after_relevance_filter": 36,
+      "descriptions_enriched": 36,
+      "duration_seconds": 0.3
+    },
+    {
+      "name": "European Policy Centre",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.1
+    },
+    {
+      "name": "College of Europe Careers",
+      "scraper_type": "selector",
+      "status": "success",
+      "jobs_found": 4,
+      "jobs_after_relevance_filter": 4,
+      "descriptions_enriched": 4,
+      "duration_seconds": 0.8
     }
   ]
 }
