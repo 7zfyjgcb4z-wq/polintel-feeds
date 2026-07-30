@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 15:19:57 +0000</lastBuildDate>
-    <item>
-      <title>Green &amp; Gold Congressional Aide</title>
-      <link>https://www.usajobs.gov:443/job/853548900</link>
-      <description>This position is limited to Veterans, Gold Star family members and Active-duty spouses desiring to serve a two-year paid Congressional Fellowship as part of the House of Representatives. Selected Fellows will work directly for a Member of Congress or other House officer as part of an office team. | Salary: $56,000–$68,000 PA | Grade: HS</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/853548900</guid>
-      <category>US Fellowships</category>
-      <dc:creator>House of Representatives</dc:creator>
-    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
+    <lastBuildDate>Thu, 30 Jul 2026 15:21:21 +0000</lastBuildDate>
     <item>
       <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
       <link>https://www.usajobs.gov:443/job/856552700</link>
@@ -417,14 +409,6 @@
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Syracuse, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Physician- Pulmonary Diseases</title>
-      <link>https://www.usajobs.gov:443/job/868828400</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $260,000–$400,000 PA | Grade: AD</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/868828400</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-07-29</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Physician - Hospitalist</title>
       <link>https://www.usajobs.gov:443/job/869321900</link>
@@ -1732,5 +1716,29 @@ pol</description>
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2027-07-27</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician - Chief of Radiology</title>
+      <link>https://www.usajobs.gov:443/job/878564300</link>
+      <description>The position will provide leadership and direction for the Radiology staff and its programs, to include, Diagnostic Radiology, Nuclear Medicine, Radiation Oncology, MRI, CT, Ultrasound and Interventional Radiology. The incumbent must possess a clinical knowledge that provides the ability to manage t | Salary: $300,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/878564300</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Washington, District of Columbia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-10</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician (Gastroenterologist)</title>
+      <link>https://www.usajobs.gov:443/job/878589500</link>
+      <description>The Millington VA Community Based Outpatient Clinic, Millington, TN is recruiting for a Gastroenterologist Physician to serve as a full-time Specialty Care physician. The position is accountable to the Chief of Specialty Care, for assuring the most effective delivery of state-of-the-art care by meet | Salary: $350,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/878589500</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Millington, Tennessee</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician -  Cardiology - Advanced Heart Failure and Transplant</title>
+      <link>https://www.usajobs.gov:443/job/878485700</link>
+      <description>Medicine Services at the VA San Diego Healthcare System (VASDHS) is recruiting for a Full-Time Advanced Heart Failure and Transplant Cardiologist located in San Diego, CA. | Salary: $275,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/878485700</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>San Diego, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-17</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
