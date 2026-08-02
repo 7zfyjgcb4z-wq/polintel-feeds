@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Aug 2026 10:04:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 10:02:48 +0000</lastBuildDate>
     <item>
       <title>IT Business Analyst</title>
       <link>https://eutraining.eu/content/it-business-analyst</link>
@@ -102,14 +102,6 @@ Don't forget to mention EuroBrussels when applying.</description>
       <category>EU Affairs</category>
       <dc:creator>ITI Information Technology Industry</dc:creator>
     <polintel:location>Brussels</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
-    <item>
-      <title>Policy Assistant</title>
-      <link>https://www.eurobrussels.com/job_display/291809/Policy_Assistant_LLLP_The_Lifelong_Learning_Platform_Brussels_Belgium</link>
-      <description>What do you think of this job? I Applied Save This Job Not Interested</description>
-      <guid isPermaLink="false">https://www.eurobrussels.com/job_display/291809/Policy_Assistant_LLLP_The_Lifelong_Learning_Platform_Brussels_Belgium</guid>
-      <category>EU Affairs</category>
-      <dc:creator>LLLP The Lifelong Learning</dc:creator>
-    <polintel:location>Platform Brussels Belgium</polintel:location><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Chief Operating Officer (COO)</title>
       <link>https://www.eurobrussels.com/job_display/291937/Chief_Operating_Officer_COO_Philea_Philanthropy_Europe_Association_Brussels_Belgium</link>
