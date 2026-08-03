@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Aug 2026 14:37:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 15:52:45 +0000</lastBuildDate>
     <item>
       <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
       <link>https://www.usajobs.gov:443/job/856552700</link>
@@ -1594,5 +1594,13 @@ pol</description>
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Los Angeles, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Director Office of Coastal Management</title>
+      <link>https://www.usajobs.gov:443/job/878819000</link>
+      <description>The position is located within the National Ocean Service (NOS) whose mission is to provide science-based solutions through collaborative partnerships to address evolving economic, environmental, and social pressures on our Great Lakes, ocean, and coasts, supporting the broader strategic goals of th | Salary: $151,661–$228,000 PA | Grade: ES</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/878819000</guid>
+      <category>US Fellowships</category>
+      <dc:creator>National Oceanic and Atmospheric Administration</dc:creator>
+    <polintel:location>Silver Spring, Maryland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-17</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
