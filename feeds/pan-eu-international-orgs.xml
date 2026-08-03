@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Aug 2026 11:21:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 12:57:59 +0000</lastBuildDate>
     <item>
       <title>ADMINISTRATIVE OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/279955?language=en</link>
@@ -3659,9 +3659,9 @@
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>ADMINISTRATIVE ASSISTANT</title>
-      <link>https://careers.un.org/jobSearchDescription/281021?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/282192?language=en</link>
       <description>Level : FS-5 Job ID : 281021 Job Network : Management and Administration Job Family : Administration Department/Office : UN Support Office in Haiti Duty Station : PORT-AU-PRINCE Staffing Exercise : undefined Posted Date : 07/15/2026 00:00:00 AM (New York time) Deadline : 07/29/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281021?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282192?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>UN Support Office in Haiti</dc:creator>
     <polintel:location>Port-Au-Prince, Haiti</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -7723,11 +7723,11 @@ For retained candidates, the selection process may include a video-recorded inte
     <item>
       <title>SENIOR POLITICAL AFFAIRS OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/278947?language=en</link>
-      <description>Level : P-5 Job ID : 281221 Job Network : Political, Peace and Humanitarian Job Family : Political Affairs Department/Office : Department of Political and Peacebuilding Affairs-Department of Peace Operations-Shared Structure Duty Station : KYIV Staffing Exercise : undefined Posted Date : 07/22/2026 00:00:00 AM (New York time) Deadline : 07/28/2026 23:59:59 PM (New York time)</description>
+      <description>Level : P-5 Job ID : 278947 Job Network : Political, Peace and Humanitarian Job Family : Political Affairs Department/Office : Department of Political and Peacebuilding Affairs-Department of Peace Operations-Shared Structure Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/01/2026 00:00:00 AM (New York time) Deadline : 09/14/2026 23:59:59 PM (New York time)</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278947?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>Department of Political and Peacebuilding Affairs-Department of Peace Operations-Shared Structure</dc:creator>
-    <polintel:location>Kyiv, Ukraine</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>International Consultant for Strategic Design and Development of the United Nations Sustainable Development Cooperation Framework (UNSDCF) 2028-2032 for Mongolia</title>
       <link>https://careers.un.org/jobSearchDescription/281566?language=en</link>
@@ -11158,5 +11158,173 @@ Pour les personnes retenue</description>
       <category>International Organisations</category>
       <dc:creator>United Nations Environment Programme</dc:creator>
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Videographer – COP17</title>
+      <link>https://careers.un.org/jobSearchDescription/282193?language=en</link>
+      <description>Level : CON Job ID : 282193 Job Network : Job Family : Department/Office : Convention to Combat Desertification Duty Station : BONN Staffing Exercise : undefined Posted Date : 08/01/2026 00:00:00 AM (New York time) Deadline : 08/08/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282193?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Convention to Combat Desertification</dc:creator>
+    <polintel:location>Bonn</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Meeting Analysis and Knowledge Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/282065?language=en</link>
+      <description>Level : I-1 Job ID : 282065 Job Network : Job Family : Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/21/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282065?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
+    <polintel:location>Bangkok, Thailand</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Chief of Strategic Planning and Monitoring Unit</title>
+      <link>https://careers.un.org/jobSearchDescription/281941?language=en</link>
+      <description>Level : P-4 Job ID : 281941 Job Network : Political, Peace and Humanitarian Job Family : Political Affairs Department/Office : United Nations Human Settlements Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281941?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>AI Automation and NLP Engineering Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/282064?language=en</link>
+      <description>Level : I-1 Job ID : 282064 Job Network : Job Family : Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/21/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282064?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
+    <polintel:location>Bangkok, Thailand</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Protocol Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/282059?language=en</link>
+      <description>Level : I-1 Job ID : 282059 Job Network : Job Family : Protocol Department/Office : Resident Coordinator System Duty Station : BEIJING Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282059?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Resident Coordinator System</dc:creator>
+    <polintel:location>Beijing, China</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Recruitment Officer- Fixed term- Human Resources Department - Career Management Division - FO West Bank -For Internal Candidates Only- Grade</title>
+      <link>https://careers.un.org/jobSearchDescription/282075?language=en</link>
+      <description>Level : Job ID : 282075 Job Network : Management and Administration Job Family : Human Resources Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO West Bank Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282075?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO West Bank</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Partnership Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/282061?language=en</link>
+      <description>Level : I-1 Job ID : 282061 Job Network : Job Family : Public Information Department/Office : Resident Coordinator System Duty Station : BEIJING Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/13/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282061?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Resident Coordinator System</dc:creator>
+    <polintel:location>Beijing, China</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Communications and Digital Content Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/282066?language=en</link>
+      <description>Level : I-1 Job ID : 282066 Job Network : Job Family : Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/21/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282066?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
+    <polintel:location>Bangkok, Thailand</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>SUPPLY OFFICER</title>
+      <link>https://careers.un.org/jobSearchDescription/282076?language=en</link>
+      <description>Level : FS-6 Job ID : 282076 Job Network : Logistics, Transportation and Supply Chain Job Family : Logistics and Supply Chain Department/Office : Office of the Special Envoy of the Secretary General for Yemen Duty Station : AMMAN Staffing Exercise : undefined Posted Date : 08/02/2026 00:00:00 AM (New York time) Deadline : 08/08/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282076?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the Special Envoy of the Secretary General for Yemen</dc:creator>
+    <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Consultant - Data Management</title>
+      <link>https://careers.un.org/jobSearchDescription/282184?language=en</link>
+      <description>Level : CON Job ID : 282184 Job Network : Job Family : Statistics Department/Office : Department of Economic and Social Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/13/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282184?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Department of Economic and Social Affairs</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>ASP.net Developer (HQA-LOCAL)</title>
+      <link>https://careers.un.org/jobSearchDescription/282199?language=en</link>
+      <description>Level : CON Job ID : 282199 Job Network : Job Family : Department/Office : UNRWA - Information Management - Headquarters Amman Duty Station : AMMAN Staffing Exercise : undefined Posted Date : 08/02/2026 00:00:00 AM (New York time) Deadline : 08/15/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282199?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>UNRWA - Information Management - Headquarters Amman</dc:creator>
+    <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>HUMAN RIGHTS OFFICER / INVESTIGATOR P3 - Five positions - (Temporary Job Opening)</title>
+      <link>https://careers.un.org/jobSearchDescription/282133?language=en</link>
+      <description>Level : P-3 Job ID : 282133 Job Network : Political, Peace and Humanitarian Job Family : Human Rights Affairs Department/Office : Office of the High Commissioner for Human Rights Duty Station : VIENNA Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282133?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
+    <polintel:location>Vienna, Austria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Geospatial and Earth-Observation Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/282063?language=en</link>
+      <description>Level : I-1 Job ID : 282063 Job Network : Job Family : Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/21/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282063?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
+    <polintel:location>Bangkok, Thailand</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Environmental Project Affairs Intern</title>
+      <link>https://careers.un.org/jobSearchDescription/281029?language=en</link>
+      <description>Level : I-1 Job ID : 281029 Job Network : Job Family : Environmental Affairs Department/Office : Economic Commission for Europe Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281029?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic Commission for Europe</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>TEM and TER Project Assistant</title>
+      <link>https://careers.un.org/jobSearchDescription/281456?language=en</link>
+      <description>Level : CON Job ID : 281456 Job Network : Job Family : Programme Management Department/Office : Economic Commission for Europe Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 09/14/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281456?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic Commission for Europe</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Specialist, Global Funds Mitigation and Transparency</title>
+      <link>https://careers.un.org/jobSearchDescription/282090?language=en</link>
+      <description>Level : CON Job ID : 282090 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 08/03/2026 00:00:00 AM (New York time) Deadline : 08/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282090?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Environment Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Interoperability Assessment between UNRWA Digital Health System and Jordan Health Information Systems</title>
+      <link>https://careers.un.org/jobSearchDescription/282109?language=en</link>
+      <description>Level : CON Job ID : 282109 Job Network : Job Family : Information Management Systems and Technology Department/Office : UNRWA - Information Management - Headquarters Amman Duty Station : AMMAN Staffing Exercise : undefined Posted Date : 08/02/2026 00:00:00 AM (New York time) Deadline : 08/15/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282109?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>UNRWA - Information Management - Headquarters Amman</dc:creator>
+    <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Technical business analysis and Agile delivery support - HQA (Local)</title>
+      <link>https://careers.un.org/jobSearchDescription/282113?language=en</link>
+      <description>Level : CON Job ID : 282113 Job Network : Job Family : Information Management Systems and Technology Department/Office : UNRWA - Information Management - Headquarters Amman Duty Station : AMMAN Staffing Exercise : undefined Posted Date : 08/02/2026 00:00:00 AM (New York time) Deadline : 08/15/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282113?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>UNRWA - Information Management - Headquarters Amman</dc:creator>
+    <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>HR Coordinator and Project Manager</title>
+      <link>https://api.smartrecruiters.com/v1/companies/OECD/postings/744000141256389</link>
+      <description>Main responsibilities Project Management of Talent Management and Organisational Efficiency initiatives Design, implement and monitor the IEA’s projects such as learning and change management programmes, ensuring alignment with organisational priorities and delivering measurable impact. Autonomously manage the project planning and coordination of training and coaching initiatives, ensuring effective delivery and stakeholder engagement across the Agency. Contribute to the IEA’s implementation and continuous improvement of HR guidelines and  tools, in close coordination with the Senior staff Resources Advisor and relevant HR teams. Oversee the design and delivery of talent attraction and generic recruitment campaigns in the IEA where needed, ensuring timelines, requirements and expected outcomes are met in close, coordination with HR officers. Co-ordinate talent initiatives within the OMA/HR team, supporting and driving projects aimed at improving talent management efficiency across the Agency in collaboration with the Senior Staff Resources Advisor. Contribute to the delivery of HR reform initiatives, ensuring alignment with organisational objectives, as necessary. HR Co-ordination and Advisory Services Lead and co-ordinate IEA staff-related actions (contracts, staff mobility, career development, teleworking arrangements, absences, follow up of probationary period reports, etc.) across OMA/HR team, ensuring timely delivery, quality and compliance to policy and providing guidance to team members when required. Analyse and lead HR process improvement initiatives, redesigning workflows to enhance efficiency, streamline operations and accelerate service delivery in the area of staff administration activities. Monitor and support the implementation of corporate HR policies, reforms, guidelines and best practices, ensuring effective adoption and alignment within the Agency, by providing regular capacity building and as needed. Ensure capacity building and provide regular HR efficiency and reform projects updates to different stakeholders, as needed. Act as key advisor to staff and internal clients on HR policies, operational procedures and best practices, ensuring clear communication and guidance. Manage HR coordination for the Young Associates Programme (YAP) &amp; Junior Proffessional Officer (JPO) programmes as dedicated project manager, including application pre-screening, supporting assessment processes (testing and review). Oversee day-to-day HR operational coordination, including weekly reporting and liaising with OECD HRM. Apply and develop in-depth knowledge of the OECD’s human resources management frameworks, ensuring all activities, projects, and processes are aligned with OECD policies and practices.</description>
+      <guid isPermaLink="false">https://api.smartrecruiters.com/v1/companies/OECD/postings/744000141256389</guid>
+      <category>International Organisations</category>
+      <dc:creator>OECD</dc:creator>
+    <polintel:location>Paris, Île-de-France Region, fr</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>ETC - Disaster Risk Finance /Insurance and Modeling Expert</title>
+      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37933</link>
+      <description>Working at the World Bank Group provides a unique opportunity for you to help our clients solve their greatest development challenges. The World Bank Group is one of the largest sources of funding and knowledge for developing countries; a unique global partnership of five institutions dedicated to ending extreme poverty on a livable planet, increasing shared prosperity and promoting sustainable development. With 189 member countries and more than 120 offices worldwide, we work with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. For more information, visit www.worldbank.org . Prosperity Vice Presidency The WBG Prosperity Vice Presidency is responsible for getting the right public and private sector solutions to our operational teams and to our clients, and to produce scalable impact. It l eads the WBG’s key global engagements in support of: Growth and jobs (including supporting teams across the WBG on the jobs agenda); debt sustainability and debt management; improved domestic resource mobilization and expenditure efficiency; a resilient and inclusive financial sector; business-enabling policies and regulations; trade policy and facilitation; and transparent, effective, and accountable government institutions world-wide. Its mandate is to deliver knowledge for impact to enable and support the WBG to achieve its goals in support of our mission. Financial Services Sector (FSS) I Department The FSS Global Department is comprised of two directorates: FSS I covers financial resilience and integrity, financial inclusion, capital market development and disaster risk finance, while FSS II covers SME finance, Banking, Housing, Leasing and Insurance, as well as Sustainable Finance. Disaster Risk Finance Unit The Disaster Risk Finance (DRF) team in FSS1 helps client governments strengthen financial resilience to disaster shocks. Through the Disaster Risk Financing and Insurance Program (DRFIP), the team delivers technical assistance, analytical work, and advisory support, drawing on the World Bank’s crisis preparedness and response toolkit and other financial instruments. It works closely with regional and country teams, government counterparts, private sector, development partners to design and implement solutions tailored to each country’s risk profile and institutional context. The DRF team also contributes to global efforts to close insurance protection gaps, including through engagement with the G7, G20, the International Association of Insurance Supervisors, and the Network for Greening the Financial System (NGFS), among others. Against this background, the DRF team seeks an Extended Term Consultant (ETC) to provide senior-level technical advice and engagement support for the Unit’s work program on DRFI, insurance market development, and risk modeling. The position is based in London, United Kingdom, and requires frequent travel. Duties and Responsibilities The ETC will be responsible for the following: • Lead the delivery of disaster risk finance instruments and mechanisms in countries, including sovereign risk transfer products such as parametric insurance, catastrophe bonds, and risk pooling arrangements, as well as contingent financing facilities, disaster reserve funds, and risk-based public financial management frameworks. • Provide ad hoc actuarial and quantitative analysis to support client engagement, policy dialogue, and internal decision-making, including identifying options to strengthen financial protection across risk layers undertaking value for money analysis. • Review and quality-assure technical outputs prepared by others, including diagnostic reports, strategy documents, financial models, and presentations. • Curate and share knowledge on insurance market development, including key bottlenecks, global trends, insurance technology, the integration of insurance into climate risk management, relevant case studies, and financial innovations for client countries. This may include co-authoring policy and research notes, preparing internal guidance, developing policy and industry toolkits, and organizing seminars and workshops. • Collaborate with internal stakeholders such as IFC, MIGA, Treasury, and external stakeholders, including the Insurance Development Forum (IDF). • Represent the CDRFI team in stakeholder consultations, interagency coordination forums, workshops, and donor dialogues, as needed. • Perform other duties and tasks assigned by the Unit Manager. The initial appointment will be for one year, with possible renewal for up to two additional years, subject to business needs, funding availability, and satisfactory performance. Under World Bank Group policy, Extended Term appointments are limited to a lifetime maximum of three years.</description>
+      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37933</guid>
+      <category>International Organisations</category>
+      <dc:creator>World Bank Group</dc:creator>
+    <polintel:location>London, GB</polintel:location><polintel:closingDate>8/15/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>ETC - Insurance Regulatory Expert</title>
+      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37934</link>
+      <description>Working at the World Bank Group provides a unique opportunity for you to help our clients solve their greatest development challenges. The World Bank Group is one of the largest sources of funding and knowledge for developing countries; a unique global partnership of five institutions dedicated to ending extreme poverty on a livable planet, increasing shared prosperity and promoting sustainable development. With 189 member countries and more than 120 offices worldwide, we work with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. For more information, visit www.worldbank.org . Prosperity Vice Presidency The WBG Prosperity Vice Presidency is responsible for getting the right public and private sector solutions to our operational teams and to our clients, and to produce scalable impact. It leads the WBG’s key global engagements in support of: Growth and jobs (including supporting teams across the WBG on the jobs agenda); debt sustainability and debt management; improved domestic resource mobilization and expenditure efficiency; a resilient and inclusive financial sector; business-enabling policies and regulations; trade policy and facilitation; and transparent, effective, and accountable government institutions world-wide. Its mandate is to deliver knowledge for impact to enable and support the WBG to achieve its goals in support of our mission. Financial Services Sector (FSS) I Department The FSS Global Department is comprised of two directorates: FSS I covers financial resilience and integrity, financial inclusion, capital market development and disaster risk finance, while FSS II covers SME finance, Banking, Housing, Leasing and Insurance, as well as Sustainable Finance. Disaster Risk Finance Unit The Disaster Risk Finance (DRF) team in FSS1 helps client governments strengthen financial resilience to disaster shocks. Through the Disaster Risk Financing and Insurance Program (DRFIP), the team delivers technical assistance, analytical work, and advisory support, drawing on the World Bank’s crisis preparedness and response toolkit and other financial instruments. It works closely with regional and country teams, government counterparts, private sector, development partners to design and implement solutions tailored to each country’s risk profile and institutional context. The DRF team also contributes to international regulatory discussions through the G7, G20, the International Association of Insurance Supervisors, and the Network for Greening the Financial System (NGFS). In this context, the team is seeking an Extended Term Consultant (ETC) to provide senior-level technical advice and engagement in support of the Unit’s work on insurance regulatory and supervisory approaches and insurance market development. The position is based in London, UK, and requires frequent travel. Duties Responsibilities: The ETC will be responsible for the following: • Lead or contribute to work on insurance regulatory, supervisory, and market practices, including supporting or leading country-level engagements through relevant financing operations and advisory and knowledge activities; • Develop, curate, and share knowledge on insurance market development, including key bottlenecks, emerging global trends, the integration of insurance into climate risk management, insurance technology, relevant case studies, and financial innovations for client countries. This may include co-authoring policy and research notes, preparing internal guidance, developing policy and industry toolkits, and organizing seminars and workshops; • Participate in Financial Sector Assessment Programs (FSAPs) and prepare Insurance Core Principle (ICP) reviews, technical notes, and other policy notes as needed; • Collaborate with international insurance organizations, including the International Association of Insurance Supervisors (IAIS), Sustainable Insurance Forum (SIF), European Insurance and Occupational Pensions Authority (EIOPA), Organization for Economic Co-operation and Development (OECD), Insurance Development Forum (IDF), and others; • Represent the CDRFI team in stakeholder consultations, interagency coordination forums, workshops, and donor dialogues, as needed. • Perform other duties and tasks assigned by the unit manager. The initial appointment will be for one year, with the possibility of renewal for up to an additional two years, subject to business needs, funding availability, and satisfactory performance. As per World Bank Group policy, Extended Term appointments are subject to a lifetime maximum of three (3) years.</description>
+      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37934</guid>
+      <category>International Organisations</category>
+      <dc:creator>World Bank Group</dc:creator>
+    <polintel:location>London, GB</polintel:location><polintel:closingDate>8/15/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
