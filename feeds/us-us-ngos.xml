@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 15:52:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 15:34:18 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-283/</link>
@@ -28,9 +28,9 @@
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Executive Director</title>
-      <link>https://www.foundationlist.org/job-details/executive-director-402-484/</link>
+      <link>https://www.foundationlist.org/job-details/executive-director-402-486/</link>
       <description>Executive Director Temple Israel Omaha, Nebraska &amp;amp;nbsp; The Moran Company [https://morancompany.com/] is pleased to partner with Temple Israel to recruit the organization's next Executive Director. &amp;amp;nbsp; Founded in January 1871 as</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/executive-director-402-484/</guid>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/executive-director-402-486/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
@@ -1042,5 +1042,50 @@ Collaboration with Board members, senior leadership, Development colleagues, and
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>Augsburg</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Building Manager</title>
+      <link>https://www.foundationlist.org/job-details/building-manager/</link>
+      <description>Meals on Wheels People is an organization founded in and by the community! Over the past 50 years, our non-profit has helped thousands of older adults in the Portland Metro area keep their independence through weekly meal delivery and social connecti</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/building-manager/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Virtual AI Data Entry Specialist - Flexible Hours</title>
+      <link>https://www.foundationlist.org/job-details/virtual-ai-data-entry-specialist-flexible-hours/</link>
+      <description>Are you a detail-oriented and organized individual with a passion for data entry? Do you thrive in a remote work environment and enjoy working independently? Look no further than INNODATA INC, a dynamic and innovative company that's revolutionizing t</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/virtual-ai-data-entry-specialist-flexible-hours/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>After-School Student Activities Lead</title>
+      <link>https://www.foundationlist.org/job-details/after-school-student-activities-lead/</link>
+      <description>The After-School Program Coordinator is responsible for all aspects of an after-school educational and recreational program that offers age-appropriate activities for youth in care. The program includes, but is not limited to, theatre, choir, drum li</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/after-school-student-activities-lead/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Civic Engagement Coordinator</title>
+      <link>https://www.foundationlist.org/job-details/civic-engagement-coordinator/</link>
+      <description>Make the Road Michigan (MRMI), builds power for justice in Latinx and immigrant communities and working-class communities of color. We believe in a transformational theory of change that seeks to empower community members to be the principal agents a</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/civic-engagement-coordinator/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Human Resources Manager - Employee Relations</title>
+      <link>https://www.foundationlist.org/job-details/human-resources-manager-employee-relations/</link>
+      <description>Make the Road States (MRstates) is the national home for the second-generation Make the Road family of organizations in Connecticut, New Jersey, Pennsylvania and Nevada, this in addition to New York, that serves to uplift the voices of working-class,</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/human-resources-manager-employee-relations/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
