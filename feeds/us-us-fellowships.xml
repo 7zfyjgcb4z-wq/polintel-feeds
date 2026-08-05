@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 15:34:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 15:24:52 +0000</lastBuildDate>
     <item>
       <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
       <link>https://www.usajobs.gov:443/job/856552700</link>
@@ -289,14 +289,6 @@
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Jamaica Plain, Massachusetts</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Physician- Gastroenterology/Hepatology</title>
-      <link>https://www.usajobs.gov:443/job/872752200</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $240,000–$400,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/872752200</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Salt Lake City, Utah</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-04</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Physician (PACT) Green Valley AZ</title>
       <link>https://www.usajobs.gov:443/job/868655200</link>
@@ -1554,5 +1546,13 @@ pol</description>
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Jamaica Plain, Massachusetts</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-03</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician - Women Health Primary Care</title>
+      <link>https://www.usajobs.gov:443/job/879267900</link>
+      <description>This position may be eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy &amp; submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000 | Salary: $200,000–$210,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/879267900</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Bronx, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-11-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
