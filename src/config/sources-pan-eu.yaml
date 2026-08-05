@@ -17,7 +17,7 @@ sources:
     scraper: ats_auto
     language: en
     enabled: false
-    notes: "KEEP. ~100% relevant. DEFERRED: WP Job Manager site, no valid jobs RSS or API. /rss/ and /feed/ return career-advice articles only (same issue as disabled 'EurActiv Jobs' entry in sources-brussels.yaml). Needs a selector scraper once DOM structure is confirmed, or AI on rendered HTML. Do not duplicate the sources-brussels.yaml entry."
+    notes: "KEEP. ~100% relevant. DEFERRED: WP Job Manager site, no valid jobs RSS or API. /rss/ and /feed/ return career-advice articles only (confirmed 2026-08-05: 10 RSS items all career-advice, 0 job listings). DUPLICATE of 'EurActiv Jobs' (rss_feed, sources-brussels.yaml) — that entry is the designated survivor; do not enable both simultaneously. Needs a selector scraper once DOM structure is confirmed."
 
   - name: "EUJobs.co"
     url: "https://www.eujobs.co/"
@@ -63,8 +63,8 @@ sources:
       dc: wd5
       site: OSF
     org_static: "Open Society Foundations"
-    enabled: false  # Pending owner ToS decision before enabling. Categorisation compromise: straddles international-orgs and ngos; international-orgs chosen for pan-eu pipeline fit.
-    notes: "Workday wd5. Identifier confirmed 2026-07-22. Categorised as international-orgs (compromise: straddles international-orgs and ngos; international-orgs chosen for pan-eu pipeline fit). DISABLED pending owner ToS decision."
+    enabled: false  # ToS prohibition confirmed 2026-08-05. Do not enable without owner written consent overriding this finding.
+    notes: "Workday wd5. Identifier confirmed 2026-07-22. ToS prohibits automated scraping: opensocietyfoundations.org/policies/terms-and-conditions explicitly bans robots, spiders, scraping, and systematic data collection (confirmed 2026-08-05). Workday portal technically reachable (2 live jobs, mean body 6772 chars) but ToS applies. Do not enable without owner decision."
 
   - name: "World Bank Careers"
     url: "https://www.worldbank.org/ext/en/careers"

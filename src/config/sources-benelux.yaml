@@ -18,13 +18,16 @@ sources:
     notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. Target national path only — skip regional /amsterdam etc. Enable Stage 3 behind relevance filter."
 
   - name: "VVD"
-    url: "https://www.vvd.nl/vacatures/"
+    url: "https://www.vvd.nl/vacatures/feed/"
     country_code: NL
     category: political-parties
-    scraper: ats_auto
+    scraper: rss_feed
+    field_map:
+      title: title
+      description: description
     language: nl
-    enabled: false
-    notes: "AI-only extraction — deactivated under zero-API policy; revisit via per-site selector or deliberate AI re-enable. KEEP. National vacancies only."
+    enabled: true
+    notes: "enabled 2026-08-05, bucket B, RSS feed (content:encoded). 6 vacancies confirmed, mean body 2712 chars via feedparser. Discovery audit 2026-08-05."
 
   - name: "GroenLinks-PvdA"
     url: "https://groenlinkspvda.nl/vacatures/"
