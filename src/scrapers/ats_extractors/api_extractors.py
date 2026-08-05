@@ -20,6 +20,18 @@ from src.scrapers.base import USER_AGENT
 
 log = logging.getLogger(__name__)
 
+# Shape-mismatch event accumulator.  Each extractor appends here when it parsed
+# N > 0 raw API items but yielded 0 Job objects.  generate_alerts() drains this
+# list once per pipeline run and converts entries to alerts.json records.
+_shape_events: list[dict] = []
+
+
+def drain_shape_events() -> list[dict]:
+    """Return and clear pending shape-mismatch events; called once per pipeline run."""
+    events, _shape_events[:] = list(_shape_events), []
+    return events
+
+
 _TIMEOUT = httpx.Timeout(30.0)
 _DETAIL_DELAY = 0.5
 
@@ -64,6 +76,44 @@ class BaseATSExtractor:
             partisan_lean=source.get("partisan_lean"),
         )
 
+    def _check_shape_guard(
+        self,
+        source_name: str,
+        platform: str,
+        identifier: str,
+        raw_count: int,
+        yield_count: int,
+    ) -> None:
+        """Detect shape mismatches between raw API items and yielded Job objects.
+
+        raw > 0, yield == 0  → WARNING + alert event (shape mismatch)
+        raw > 0, yield < 50% → INFO (partial mapping failure)
+        raw == 0, yield == 0 → silent (empty board is normal)
+        """
+        if raw_count == 0:
+            return
+        if yield_count == 0:
+            msg = (
+                f"{platform}/{identifier} parsed {raw_count} raw items but yielded 0 jobs "
+                "— likely shape or field change (shape mismatch)"
+            )
+            log.warning("Shape mismatch: %s", msg)
+            _shape_events.append({
+                "source": source_name,
+                "platform": platform,
+                "identifier": identifier,
+                "raw_count": raw_count,
+                "yield_count": 0,
+                "message": f"[shape_mismatch] {msg}",
+            })
+        elif yield_count < raw_count * 0.5:
+            log.info(
+                "Partial yield: %s/%s parsed %d raw items, yielded %d jobs (%.0f%%) "
+                "— possible partial field mapping",
+                platform, identifier, raw_count, yield_count,
+                100.0 * yield_count / raw_count,
+            )
+
 
 class GreenhouseAPIExtractor(BaseATSExtractor):
     """GET https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"""
@@ -83,8 +133,10 @@ class GreenhouseAPIExtractor(BaseATSExtractor):
                 return []
             resp.raise_for_status()
             data = resp.json()
+        raw_items = data.get("jobs", [])
+        raw_count = len(raw_items)
         jobs = []
-        for item in data.get("jobs", []):
+        for item in raw_items:
             title = (item.get("title") or "").strip()
             job_url = item.get("absolute_url", "")
             if not title or not job_url:
@@ -96,6 +148,7 @@ class GreenhouseAPIExtractor(BaseATSExtractor):
             closing_date = item.get("application_deadline")
             jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, closing_date=closing_date, description_source="api" if description else "none", **base))
         log.info("Greenhouse %s: %d jobs", token, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "greenhouse", token, raw_count, len(jobs))
         return jobs
 
 
@@ -114,6 +167,7 @@ class LeverAPIExtractor(BaseATSExtractor):
             resp = await client.get(url)
             resp.raise_for_status()
             data = resp.json()
+        raw_count = len(data)
         jobs = []
         for item in data:
             title = (item.get("text") or "").strip()
@@ -126,6 +180,7 @@ class LeverAPIExtractor(BaseATSExtractor):
             description = _clip(plain) if plain else (cats.get("team") or "")
             jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Lever %s: %d jobs", company, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "lever", company, raw_count, len(jobs))
         return jobs
 
 
@@ -144,8 +199,10 @@ class AshbyAPIExtractor(BaseATSExtractor):
             resp = await client.get(url)
             resp.raise_for_status()
             data = resp.json()
+        raw_items = data.get("jobs", [])
+        raw_count = len(raw_items)
         jobs = []
-        for item in data.get("jobs", []):
+        for item in raw_items:
             title = (item.get("title") or "").strip()
             job_url = item.get("jobUrl", "")
             if not title or not job_url:
@@ -156,6 +213,7 @@ class AshbyAPIExtractor(BaseATSExtractor):
             description = _clip(plain or _strip_html(raw_html))
             jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Ashby %s: %d jobs", board, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "ashby", board, raw_count, len(jobs))
         return jobs
 
 
@@ -178,10 +236,12 @@ class BambooHRAPIExtractor(BaseATSExtractor):
             resp = await client.get(list_url)
             resp.raise_for_status()
             data = resp.json()
+            raw_items = data.get("result", [])
+            raw_count = len(raw_items)
             jobs = []
             new_seen = 0
             budget_spent = 0
-            for item in data.get("result", []):
+            for item in raw_items:
                 job_id = item.get("id")
                 title = (item.get("jobOpeningName") or "").strip()
                 if not title or not job_id:
@@ -217,6 +277,7 @@ class BambooHRAPIExtractor(BaseATSExtractor):
             "BambooHR %s: %d total, %d new, %d detail fetches (budget=%d)",
             company, len(jobs), new_seen, budget_spent, budget,
         )
+        self._check_shape_guard(source.get("name", ""), "bamboohr", company, raw_count, len(jobs))
         return jobs
 
 
@@ -237,10 +298,12 @@ class SmartRecruitersAPIExtractor(BaseATSExtractor):
             resp = await client.get(url)
             resp.raise_for_status()
             data = resp.json()
+            raw_items = data.get("content", [])
+            raw_count = len(raw_items)
             jobs = []
             new_seen = 0
             budget_spent = 0
-            for item in data.get("content", []):
+            for item in raw_items:
                 title = (item.get("name") or "").strip()
                 posting_id = item.get("id", "")
                 if not title:
@@ -275,6 +338,7 @@ class SmartRecruitersAPIExtractor(BaseATSExtractor):
             "SmartRecruiters %s: %d total, %d new, %d detail fetches (budget=%d)",
             company_id, len(jobs), new_seen, budget_spent, budget,
         )
+        self._check_shape_guard(source.get("name", ""), "smartrecruiters", company_id, raw_count, len(jobs))
         return jobs
 
 
@@ -299,8 +363,10 @@ class WorkableAPIExtractor(BaseATSExtractor):
             else:
                 resp.raise_for_status()
             data = resp.json()
+        raw_items = data.get("results", [])
+        raw_count = len(raw_items)
         jobs = []
-        for item in data.get("results", []):
+        for item in raw_items:
             title = (item.get("title") or "").strip()
             if not title:
                 continue
@@ -313,6 +379,7 @@ class WorkableAPIExtractor(BaseATSExtractor):
             description = _clip(_strip_html(item.get("description") or ""))
             jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Workable %s: %d jobs", account, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "workable", account, raw_count, len(jobs))
         return jobs
 
 
@@ -331,8 +398,10 @@ class RecruiteeAPIExtractor(BaseATSExtractor):
             resp = await client.get(url)
             resp.raise_for_status()
             data = resp.json()
+        raw_items = data.get("offers", [])
+        raw_count = len(raw_items)
         jobs = []
-        for item in data.get("offers", []):
+        for item in raw_items:
             title = (item.get("title") or "").strip()
             job_url = item.get("careers_url", "")
             if not title or not job_url:
@@ -342,6 +411,7 @@ class RecruiteeAPIExtractor(BaseATSExtractor):
             description = _clip(_strip_html(desc_html)) if desc_html else ""
             jobs.append(Job(title=title, url=job_url, description=description, location=location, description_source="api" if description else "none", **base))
         log.info("Recruitee %s: %d jobs", company, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "recruitee", company, raw_count, len(jobs))
         return jobs
 
 
@@ -456,6 +526,9 @@ class WorkdayAPIExtractor(BaseATSExtractor):
                 "Workday %s/%s: dropped budget=%d empty-at-source=%d",
                 tenant, site, _budget_dropped, _empty_at_source,
             )
+        # Shape guard: skip when postfilter is active (internship filter legitimately drops most jobs).
+        if postfilter is None:
+            self._check_shape_guard(source.get("name", ""), "workday", f"{tenant}/{site}", len(all_postings), len(jobs))
         return jobs
 
 
@@ -571,6 +644,9 @@ class OracleHCMAPIExtractor(BaseATSExtractor):
                 "OracleHCM %s/%s: dropped budget=%d empty-at-source=%d",
                 api_host, site, _budget_dropped, _empty_at_source,
             )
+        # Shape guard: skip when postfilter is active (internship filter legitimately drops most jobs).
+        if postfilter is None:
+            self._check_shape_guard(source.get("name", ""), "oracle_hcm", f"{api_host}/{site}", len(all_reqs), len(jobs))
         return jobs
 
 
@@ -605,6 +681,7 @@ class PaylocityExtractor(BaseATSExtractor):
             log.warning("Paylocity: failed to parse pageData for %s: %s", source.get("name"), exc)
             return []
         raw_jobs = page_data.get("Jobs") or []
+        raw_count = len(raw_jobs)
         jobs = []
         for item in raw_jobs:
             title = (item.get("JobTitle") or "").strip()
@@ -623,6 +700,7 @@ class PaylocityExtractor(BaseATSExtractor):
             posted_date = item.get("PublishedDate")
             jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, description_source="api" if description else "none", **base))
         log.info("Paylocity %s: %d jobs", guid[:8], len(jobs))
+        self._check_shape_guard(source.get("name", ""), "paylocity", guid[:8], raw_count, len(jobs))
         return jobs
 
 
@@ -648,8 +726,10 @@ class PersonioAPIExtractor(BaseATSExtractor):
             root = etree.fromstring(xml_bytes)
         except etree.XMLSyntaxError:
             root = etree.fromstring(xml_bytes, parser=etree.XMLParser(recover=True))
+        positions = list(root.iter("position"))
+        raw_count = len(positions)
         jobs = []
-        for position in root.iter("position"):
+        for position in positions:
             title_el = position.find("name")
             title = (title_el.text or "").strip() if title_el is not None else ""
             if not title:
@@ -677,6 +757,7 @@ class PersonioAPIExtractor(BaseATSExtractor):
             description = _clip(_strip_html(desc_html)) if desc_html else ""
             jobs.append(Job(title=title, url=job_url, description=description, location=location, posted_date=posted_date, description_source="api" if description else "none", **base))
         log.info("Personio %s: %d jobs", subdomain, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "personio", subdomain, raw_count, len(jobs))
         return jobs
 
 
@@ -703,6 +784,7 @@ class TeamTailorAPIExtractor(BaseATSExtractor):
                 data = resp.json()
                 all_items.extend(data.get("items", []))
                 feed_url = data.get("next_url")
+        raw_count = len(all_items)
         jobs = []
         for item in all_items:
             title = (item.get("title") or "").strip()
@@ -726,6 +808,7 @@ class TeamTailorAPIExtractor(BaseATSExtractor):
                 **base,
             ))
         log.info("TeamTailor %s: %d jobs", base_url, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "teamtailor", base_url, raw_count, len(jobs))
         return jobs
 
 
@@ -747,8 +830,10 @@ class ICIMSExtractor(BaseATSExtractor):
             resp.raise_for_status()
             html = resp.text
         soup = BeautifulSoup(html, "lxml")
+        raw_cards = soup.select("li.iCIMS_JobCardItem")
+        raw_count = len(raw_cards)
         jobs = []
-        for card in soup.select("li.iCIMS_JobCardItem"):
+        for card in raw_cards:
             title_el = card.select_one(".title h3") or card.select_one("h3")
             link_el = card.select_one("a.iCIMS_Anchor") or card.select_one("a[href]")
             if not title_el or not link_el:
@@ -762,6 +847,7 @@ class ICIMSExtractor(BaseATSExtractor):
             location: str | None = location_el.get_text(" ", strip=True) if location_el else None
             jobs.append(Job(title=title, url=job_url, description="", location=location, **base))
         log.info("iCIMS %s: %d jobs", subdomain, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "icims", subdomain, raw_count, len(jobs))
         return jobs
 
 
@@ -806,12 +892,12 @@ class CornerstoneExtractor(BaseATSExtractor):
                 token = ctx.get("token", "")
                 cloud_base = (ctx.get("endpoints") or {}).get("cloud", "https://us.api.csod.com/")
                 if token:
-                    return await self._fetch_json_api(account, site_id, token, cloud_base, home_url, base)
+                    return await self._fetch_json_api(account, site_id, token, cloud_base, home_url, base, source_name=source.get("name", ""))
             except Exception as exc:
                 log.debug("Cornerstone JSON API path failed for %s: %s", account, exc)
 
         # Fallback: window.__csodInitialState__ inlined in page HTML
-        return self._parse_init_state(html, account, site_id, base)
+        return self._parse_init_state(html, account, site_id, base, source_name=source.get("name", ""))
 
     async def _fetch_json_api(
         self,
@@ -821,6 +907,7 @@ class CornerstoneExtractor(BaseATSExtractor):
         cloud_base: str,
         home_url: str,
         base: dict,
+        source_name: str = "",
     ) -> list[Job]:
         import json as _json
 
@@ -866,6 +953,7 @@ class CornerstoneExtractor(BaseATSExtractor):
                     break
                 page += 1
         log.info("Cornerstone %s (JSON API): %d jobs (total=%d)", account, len(all_reqs), total or 0)
+        raw_count = len(all_reqs)
         jobs = []
         for req in all_reqs:
             title = (req.get("displayJobTitle") or "").strip()
@@ -892,9 +980,10 @@ class CornerstoneExtractor(BaseATSExtractor):
                 description_source="api" if description else "none",
                 **base,
             ))
+        self._check_shape_guard(source_name, "cornerstone", account, raw_count, len(jobs))
         return jobs
 
-    def _parse_init_state(self, html: str, account: str, site_id: str, base: dict) -> list[Job]:
+    def _parse_init_state(self, html: str, account: str, site_id: str, base: dict, source_name: str = "") -> list[Job]:
         import json as _json
 
         soup = BeautifulSoup(html, "lxml")
@@ -913,6 +1002,7 @@ class CornerstoneExtractor(BaseATSExtractor):
                     .get("jobList", {})
                     .get("requisitionList", [])
                 )
+                raw_count = len(reqs)
                 for req in reqs:
                     title = (req.get("RequisitionTitle") or "").strip()
                     req_id = req.get("RequisitionId") or req.get("Id")
@@ -925,11 +1015,13 @@ class CornerstoneExtractor(BaseATSExtractor):
                     jobs.append(Job(title=title, url=job_url, description=description, location=location, **base))
                 if jobs:
                     log.info("Cornerstone %s (__csodInitialState__): %d jobs", account, len(jobs))
+                    self._check_shape_guard(source_name, "cornerstone", account, raw_count, len(jobs))
                     return jobs
             except Exception as exc:
                 log.debug("Cornerstone __csodInitialState__ parse failed for %s: %s", account, exc)
         # Last resort: generic HTML card selectors
-        for card in soup.select(".csod-job-item, li.requisition-item, div.job-listing-item"):
+        card_candidates = soup.select(".csod-job-item, li.requisition-item, div.job-listing-item")
+        for card in card_candidates:
             link_el = card.select_one("a[href]")
             if not link_el:
                 continue
@@ -938,6 +1030,7 @@ class CornerstoneExtractor(BaseATSExtractor):
             job_url = href if href.startswith("http") else f"https://{account}.csod.com{href}"
             jobs.append(Job(title=title, url=job_url, description="", **base))
         log.info("Cornerstone %s (HTML cards): %d jobs", account, len(jobs))
+        self._check_shape_guard(source_name, "cornerstone", account, len(card_candidates), len(jobs))
         return jobs
 
 
@@ -959,8 +1052,10 @@ class ApplicantProExtractor(BaseATSExtractor):
             resp.raise_for_status()
             html = resp.text
         soup = BeautifulSoup(html, "lxml")
+        raw_cards = soup.select("li.list-group-item, div.job-item")
+        raw_count = len(raw_cards)
         jobs = []
-        for card in soup.select("li.list-group-item, div.job-item"):
+        for card in raw_cards:
             link_el = card.select_one("h3.list-group-item-heading a, h3 a, a.job-title")
             if not link_el:
                 continue
@@ -971,6 +1066,7 @@ class ApplicantProExtractor(BaseATSExtractor):
             job_url = href if href.startswith("http") else f"https://{subdomain}.applicantpro.com{href}"
             jobs.append(Job(title=title, url=job_url, description="", **base))
         log.info("ApplicantPro %s: %d jobs", subdomain, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "applicantpro", subdomain, raw_count, len(jobs))
         return jobs
 
 
@@ -992,8 +1088,10 @@ class ApplicantStackExtractor(BaseATSExtractor):
             resp.raise_for_status()
             html = resp.text
         soup = BeautifulSoup(html, "lxml")
+        raw_rows = soup.select("tr.as-job-row, div.opening-item, li.opening")
+        raw_count = len(raw_rows)
         jobs = []
-        for row in soup.select("tr.as-job-row, div.opening-item, li.opening"):
+        for row in raw_rows:
             link_el = row.select_one("a[href]")
             if not link_el:
                 continue
@@ -1006,15 +1104,23 @@ class ApplicantStackExtractor(BaseATSExtractor):
             location: str | None = location_el.get_text(" ", strip=True) if location_el else None
             jobs.append(Job(title=title, url=job_url, description="", location=location, **base))
         log.info("ApplicantStack %s: %d jobs", subdomain, len(jobs))
+        self._check_shape_guard(source.get("name", ""), "applicantstack", subdomain, raw_count, len(jobs))
         return jobs
 
 
 class PinpointExtractor(BaseATSExtractor):
     """Pinpoint HQ job board.
-    GET https://{account}.pinpointhq.com/postings.json — JSON:API format.
-    Identifier key: account (e.g. 'odi' for odi.pinpointhq.com).
-    Descriptions are inline in the listing; no detail fetch needed.
-    posted_at and deadline mapped where the API exposes them.
+    GET https://{account}.pinpointhq.com/postings.json
+
+    Handles two response shapes:
+    - JSON:API: {"data": [{"id":..., "attributes":{...}, "links":{...}}, ...]}
+    - Flat:     {"data": [{"id":..., "title":..., "description":..., "url":..., ...}]}
+    Also tolerates a bare list response (no {"data":[...]} wrapper).
+
+    Live key mapping (verified 2026-08-05 against odi.pinpointhq.com):
+    - JSON:API keys: attributes.published_at, attributes.deadline
+    - Flat keys: deadline_at (no posted_at exposed in flat format)
+    - location in flat format is a dict with "name" and "city" keys
     """
 
     async def extract(self, source: dict, known_urls: set[str] | None = None) -> list[Job]:
@@ -1031,26 +1137,43 @@ class PinpointExtractor(BaseATSExtractor):
             resp = await client.get(url)
             resp.raise_for_status()
             data = resp.json()
+        # Tolerate both {"data": [...]} and bare list responses.
+        items: list = data if isinstance(data, list) else data.get("data", [])
+        raw_count = len(items)
         jobs = []
         new_seen = 0
-        for item in data.get("data", []):
+        for item in items:
             item_id = str(item.get("id") or "")
-            attrs = item.get("attributes") or {}
+            # JSON:API shape has attributes sub-object; flat shape puts fields at root.
+            attrs = item.get("attributes") or item
             links = item.get("links") or {}
             title = (attrs.get("title") or "").strip()
             if not title or not item_id:
                 continue
             job_url = (
                 links.get("self")
+                or attrs.get("url")
+                or (f"https://{account}.pinpointhq.com{attrs['path']}" if attrs.get("path") else None)
                 or f"https://{account}.pinpointhq.com/postings/{item_id}"
             )
             # Clip to shared 10 000-char limit
             job_url = _clip(job_url, 2000)
-            location = attrs.get("location") or attrs.get("location_name") or attrs.get("location_preference")
+            # location may be a string (JSON:API) or a dict with "name"/"city" keys (flat)
+            location_raw = attrs.get("location") or attrs.get("location_name") or attrs.get("location_preference")
+            if isinstance(location_raw, dict):
+                location: str | None = location_raw.get("name") or location_raw.get("city") or None
+            else:
+                location = location_raw or None
             desc_html = attrs.get("description") or attrs.get("job_description") or ""
             description = _clip(_strip_html(desc_html)) if desc_html else ""
+            # Date fields: JSON:API exposes published_at/deadline; flat exposes deadline_at
             posted_date = attrs.get("published_at") or attrs.get("posted_at")
-            closing_date = attrs.get("deadline") or attrs.get("closing_date") or attrs.get("closes_at")
+            closing_date = (
+                attrs.get("deadline")
+                or attrs.get("closing_date")
+                or attrs.get("closes_at")
+                or attrs.get("deadline_at")
+            )
             if job_url not in _known:
                 new_seen += 1
             jobs.append(Job(
@@ -1063,6 +1186,7 @@ class PinpointExtractor(BaseATSExtractor):
             "Pinpoint %s: %d total, %d new, 0 detail fetches (budget=%d, descriptions inline)",
             account, len(jobs), new_seen, budget,
         )
+        self._check_shape_guard(source.get("name", ""), "pinpoint", account, raw_count, len(jobs))
         return jobs
 
 
@@ -1088,9 +1212,11 @@ class JazzHRExtractor(BaseATSExtractor):
             resp = await client.get(url, headers={"Accept": "application/json"})
             resp.raise_for_status()
             data = resp.json()
+        raw_items = data.get("jobs", [])
+        raw_count = len(raw_items)
         jobs = []
         new_seen = 0
-        for item in data.get("jobs", []):
+        for item in raw_items:
             job_id = str(item.get("id") or "")
             title = (item.get("title") or "").strip()
             if not title or not job_id:
@@ -1119,6 +1245,7 @@ class JazzHRExtractor(BaseATSExtractor):
             "JazzHR %s: %d total, %d new, 0 detail fetches (budget=%d, descriptions inline)",
             company, len(jobs), new_seen, budget,
         )
+        self._check_shape_guard(source.get("name", ""), "jazzhr", company, raw_count, len(jobs))
         return jobs
 
 

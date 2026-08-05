@@ -563,6 +563,25 @@ def generate_alerts(
                 ),
             })
 
+    # Shape-mismatch events emitted by ATS extractors during this run.
+    # Imported lazily to avoid coupling the feed module to scraper internals at
+    # module load time; the try/except ensures a missing import never silences
+    # the existing alerts.
+    try:
+        from src.scrapers.ats_extractors.api_extractors import drain_shape_events  # noqa: PLC0415
+        for event in drain_shape_events():
+            alerts.append({
+                "source": event["source"],
+                "type": "shape_mismatch",
+                "platform": event["platform"],
+                "identifier": event["identifier"],
+                "raw_count": event["raw_count"],
+                "yield_count": event["yield_count"],
+                "message": event["message"],
+            })
+    except Exception as _exc:
+        log.debug("Shape event drain failed (non-fatal): %s", _exc)
+
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "alerts": alerts,
