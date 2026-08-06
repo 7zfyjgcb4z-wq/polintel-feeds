@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 15:24:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 15:24:59 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-283/</link>
@@ -60,30 +60,6 @@
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
-      <title>VP Development - Okoa Refuge</title>
-      <link>https://www.foundationlist.org/job-details/vp-development-okoa-refuge/</link>
-      <description>Executive Recruitment Opportunity Remote | Strategic Fundraising | Kingdom Impact Vice President of Development Build a legacy that outlives you. Help scale a proven Christian humanitarian ministry rescuing children, restoring families, expandi</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/vp-development-okoa-refuge/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Development Associate, Mid-Level Giving</title>
-      <link>https://www.foundationlist.org/job-details/development-associate-mid-level-giving/</link>
-      <description>The Brennan Center for Justice at NYU School of Law is a nonpartisan law and policy institute that seeks to improve the systems of democracy and justice in the United States. We work to hold our political institutions and laws accountable to the twin</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-associate-mid-level-giving/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:location>United States</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Development Associate, Major Donor Relations</title>
-      <link>https://www.foundationlist.org/job-details/development-associate-major-donor-relations/</link>
-      <description>The Brennan Center for Justice at NYU School of Law is a nonpartisan law and policy institute that seeks to improve the systems of democracy and justice in the United States. We work to hold our political institutions and laws accountable to the twin</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-associate-major-donor-relations/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:location>United States</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>Executive and Engagement Assistant</title>
       <link>https://www.foundationlist.org/job-details/executive-and-engagement-assistant-2/</link>
       <description>Are you passionate about making a positive impact? Join a mission-driven team turning today’s energy challenges into opportunities by cutting waste, lowering bills, and building an economy that benefits all. The American Council for an Energy-Efficie</description>
@@ -99,14 +75,6 @@
       <category>US NGOs &amp; Advocacy</category>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Development Officer</title>
-      <link>https://www.foundationlist.org/job-details/senior-development-officer-9/</link>
-      <description>POSITION TITLE: Senior Development Officer LOCATION: Remote, USA (specific states listed below); Washington DC; or Geneva, Switzerland. Must possess valid work authorization. SALARY RANGE: $75,000-$90,000 (12.5% increase applies in Switzerland)</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-development-officer-9/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:location>Remote, USA</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Director of Marketing &amp; Communications</title>
       <link>https://www.foundationlist.org/job-details/director-of-marketing-communications-5/</link>
@@ -1195,6 +1163,51 @@ https://allstars.org/careers/
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/vp-philanthropy/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Manager, Marketing Strategy</title>
+      <link>https://www.foundationlist.org/job-details/senior-manager-marketing-strategy/</link>
+      <description>The MLA is expanding its range of membership offerings, including institutional memberships and a new undergraduate affiliate membership, and we’re seeking a creative and experienced marketing leader to help guide our outreach strategy. If you have a</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-manager-marketing-strategy/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Accounting and Budget Manager</title>
+      <link>https://www.foundationlist.org/job-details/senior-accounting-and-budget-manager/</link>
+      <description>THE ROLE Your role stands at the intersection of providing support to our affiliates and the effort for educational success and social progress as a key member of Stand’s Finance team. Through your dedication and passionate approach to the role, you</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-accounting-and-budget-manager/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Growth &amp; Community Development Lead</title>
+      <link>https://www.foundationlist.org/job-details/growth-community-development-lead/</link>
+      <description>About Pursuit Pursuit is a social impact organization building the future of economic mobility in the age of AI. For over a decade, we've created life-changing outcomes through training programs for adults from low-income backgrounds—especially</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/growth-community-development-lead/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Instructor &amp; Program Manager</title>
+      <link>https://www.foundationlist.org/job-details/instructor-program-manager/</link>
+      <description>About Pursuit Pursuit is a social impact organization building the future of economic mobility in the age of AI. For over a decade, Pursuit has created life-changing outcomes through training programs for adults from low-income backgrounds, especi</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/instructor-program-manager/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Director of Knowledge Management</title>
+      <link>https://www.foundationlist.org/job-details/director-of-knowledge-management/</link>
+      <description>This is a REMOTE position and will require travel to our hospitals. POSITION OVERVIEW: The Director of Knowledge Management is responsible for helping CURE International scale consistent, high-quality operations across its global network by ens</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-of-knowledge-management/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
