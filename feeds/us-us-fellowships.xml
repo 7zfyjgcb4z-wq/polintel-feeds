@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2026 15:24:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 14:22:21 +0000</lastBuildDate>
     <item>
       <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
       <link>https://www.usajobs.gov:443/job/856552700</link>
@@ -976,14 +976,6 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Fort Worth, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-12-15</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
-      <title>Physician _ Womens Health</title>
-      <link>https://www.usajobs.gov:443/job/869562200</link>
-      <description>This position is eligible for the Education Debt Reduction Program and our Contract Buy Out Program The Bath, NY Veterans Affairs Medical Center serves the Southern Tier of New York state, located southwest of the beautiful Finger Lakes. With a primarily rural, small town setting, Bath can be a grea | Salary: $230,000–$260,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/869562200</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Bath, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-28</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>PHYSICIAN-CARDIOLOGIST</title>
       <link>https://www.usajobs.gov:443/job/869549300</link>
       <description>This is an open continuous announcement until September 30, 2026. Qualified applicants will be considered and referred as vacancies become available This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibi | Salary: $250,000–$315,000 PA | Grade: VM</description>
@@ -1503,5 +1495,13 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Mather AFB, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-18</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Psychology Program Manager, Psychology Training Program Director</title>
+      <link>https://www.usajobs.gov:443/job/879592600</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific individual eligibility requirements in accordance with VHA policy and submit your EDRP application within four months of appointment. Program Approval, awar | Salary: $159,322–$207,137 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/879592600</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Las Vegas, Nevada</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-17</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
