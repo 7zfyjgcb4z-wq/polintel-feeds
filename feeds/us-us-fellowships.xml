@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 14:30:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 14:30:18 +0000</lastBuildDate>
     <item>
       <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
       <link>https://www.usajobs.gov:443/job/856552700</link>
@@ -768,14 +768,6 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Charleston, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
-      <title>Physician - Anesthesiologist</title>
-      <link>https://www.usajobs.gov:443/job/868789800</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $350,000–$400,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/868789800</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>San Francisco, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-11</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>Physician - Psychiatrist</title>
       <link>https://www.usajobs.gov:443/job/872285800</link>
       <description>The 2-page Resume requirement does not apply to this occupational series. For more information, refer to Required Documents below. This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements  | Salary: $250,000–$265,000 PA | Grade: VM</description>
@@ -1423,5 +1415,45 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Omaha, Nebraska</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician- Cardiologist (Heart Failure Specialist)</title>
+      <link>https://www.usajobs.gov:443/job/880165800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $250,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/880165800</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-31</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician - Physical, Medicine and Rehabilitation (Pain Management) - PMR (Redding)</title>
+      <link>https://www.usajobs.gov:443/job/880079800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount up to $200,000 &amp;  | Salary: $290,000–$320,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/880079800</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Redding, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician - Anesthesiologist</title>
+      <link>https://www.usajobs.gov:443/job/879099800</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $360,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/879099800</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>West Roxbury, Massachusetts</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician - Spinal Cord Injury - EDRP Eligible</title>
+      <link>https://www.usajobs.gov:443/job/880083200</link>
+      <description>The Minneapolis VA Health Care System is seeking a Board Eligible/Board Certified Physical Medicine and Rehabilitation (PM&amp;R) physician to work within the Spinal Cord Injury/Disorders (SCI/D) Center. This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment re | Salary: $250,000–$300,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/880083200</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Minneapolis, Minnesota</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician (Chief of Hematology/Oncology)</title>
+      <link>https://www.usajobs.gov:443/job/869757300</link>
+      <description>The New Mexico VA Health Care System (NMVAHCS) is seeking applications for the position of Hematology/Oncology Physician at the NMVAHCS. The NMVAHCS Hematology/Oncology program is the major academic affiliate of the UNM Division of Hematology/Oncology and the UNM Comprehensive Cancer Center. | Salary: $385,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/869757300</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Albuquerque, New Mexico</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-20</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
