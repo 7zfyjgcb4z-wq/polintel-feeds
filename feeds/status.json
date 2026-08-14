@@ -1,46 +1,16 @@
 {
-  "last_run": "2026-08-14T09:58:44Z",
-  "country": "internship_graduate",
-  "total_active_jobs": 30,
-  "new_jobs_found": 30,
-  "sources_checked": 3,
-  "sources_succeeded": 3,
+  "last_run": "2026-08-14T10:34:39Z",
+  "country": "cee",
+  "total_active_jobs": 0,
+  "new_jobs_found": 0,
+  "sources_checked": 0,
+  "sources_succeeded": 0,
   "sources_failed": 0,
-  "sources_disabled": 14,
+  "sources_disabled": 7,
   "relevance_filtered": 0,
-  "descriptions_enriched": 7,
-  "feeds_generated": 7,
-  "run_duration_seconds": 65.9,
+  "descriptions_enriched": 0,
+  "feeds_generated": 2,
+  "run_duration_seconds": 0.0,
   "failed_sources": [],
-  "per_source": [
-    {
-      "name": "Ipsos Careers",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 18,
-      "jobs_after_relevance_filter": 18,
-      "descriptions_enriched": 0,
-      "duration_seconds": 44.0,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
-    },
-    {
-      "name": "IMF Careers",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 5,
-      "descriptions_enriched": 0,
-      "duration_seconds": 7.9,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "PubAffairs Networking Jobs",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 7,
-      "jobs_after_relevance_filter": 7,
-      "descriptions_enriched": 7,
-      "duration_seconds": 0.8
-    }
-  ]
+  "per_source": []
 }
