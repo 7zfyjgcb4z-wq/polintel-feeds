@@ -44,6 +44,13 @@ DEAD_PAGE_SIGNATURES = (
                                                    # Paylocity expired-job page ("We're sorry, that job
                                                    # does not exist or is not currently active."),
                                                    # recruiting.paylocity.com
+    # Generic ATS closed-posting pages (freshness-gate complement, added 2026-08-17):
+    # If a job in the current listing has its detail URL close between listing-fetch
+    # and detail-fetch, these patterns catch the error body before it can be stored.
+    "this job is no longer available",            # common cross-ATS closed-job message
+    "this job no longer exists",                  # variant
+    "this position is no longer available",       # variant
+    "this vacancy is now closed",                 # common on direct org career pages
 )
 UNREADABLE_PAGE_SIGNATURES = (
     "in order to use this site, it is necessary to enable javascript",  # Paylocity JS wall, verified live 2026-07-02
@@ -87,14 +94,32 @@ def _parse_job_ld(html: str) -> dict:
     """Extract hiringOrganization, jobLocation, and validThrough from a
     JobPosting JSON-LD block.  Returns a dict with keys 'organisation',
     'location', 'closing_date' — any of which may be None.
+
+    Traverses ``@graph`` arrays (Yoast SEO, Rank Math, myjobscotland) so
+    that a JobPosting nested under a WebPage/@graph wrapper is found.
+    Verified against a live myjobscotland fixture 2026-08-17.
     """
     for raw in _JSON_LD_RE.findall(html):
         try:
             data = json.loads(raw.strip())
         except (json.JSONDecodeError, ValueError):
             continue
-        if not isinstance(data, dict) or data.get("@type") != "JobPosting":
+        if not isinstance(data, dict):
             continue
+
+        # Unwrap @graph array — find the first object with @type == "JobPosting"
+        if data.get("@type") != "JobPosting":
+            graph = data.get("@graph")
+            if not isinstance(graph, list):
+                continue
+            job_node = next(
+                (node for node in graph
+                 if isinstance(node, dict) and node.get("@type") == "JobPosting"),
+                None,
+            )
+            if job_node is None:
+                continue
+            data = job_node
 
         # Organisation
         org: str | None = None
@@ -211,6 +236,7 @@ async def enrich_jobs(
     concurrency: int = 3,
     delay: float = 1.5,
     source_configs: dict[str, dict] | None = None,
+    known_urls: set[str] | None = None,
 ) -> List[Job]:
     """Enriches descriptions for jobs that need it, with concurrency limits and
     polite delays.
@@ -226,12 +252,26 @@ async def enrich_jobs(
       5. Parses per-source labelled fields (organisation/location/dates) from
          the extracted text.
       6. Parses any JobPosting JSON-LD on the same page as a gap-filler.
+
+    ``known_urls`` is the freshness gate (added 2026-08-17).  When a job URL
+    is already in ``known_urls``, its detail page is not re-fetched even if the
+    description is short or empty.  This prevents storing ATS error pages for
+    postings that closed since the previous run but whose listing URL has not
+    yet been removed from the source's vacancies page (verified as the failure
+    mode for PI EU TT sources, 2026-08-17).
     """
+    _known = known_urls or set()
     sem = asyncio.Semaphore(concurrency)
 
     async def _enrich_one(job: Job) -> None:
         async with sem:
             if not job.url:
+                return
+
+            # Freshness gate: skip detail-page fetch for previously-seen URLs.
+            # The DB already holds their description; re-fetching risks capturing
+            # an ATS closed-job error page as a description.
+            if job.url in _known:
                 return
 
             html = await _fetch_html(job.url)

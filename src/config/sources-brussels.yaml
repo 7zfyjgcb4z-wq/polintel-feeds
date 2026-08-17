@@ -18,6 +18,14 @@ sources:
     org_static: "EuroBrussels"
     org_from_page: true
     enrich_description: true
+    # content_scope added 2026-08-17 (fix/degraded-extractors): the EuroBrussels
+    # job detail page carries sidebar .widget blocks (Top Jobs, Education, Search,
+    # etc.) and a hidden modal-body.widget ("What do you think of this job?").
+    # On short job descriptions (e.g. OECD, CEPS aggregated via EuroBrussels),
+    # readability scores these widget divs above the actual body. div.jobDisplay
+    # is the verified container for the job description (confirmed against live
+    # fixture eurobrussels_live.html, 2026-07-02 audit).
+    content_scope: "div.jobDisplay"
     enabled: true
 
   - name: "EU Careers (EPSO)"
