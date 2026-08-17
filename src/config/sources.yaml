@@ -432,6 +432,12 @@ sources:
       tenant: tbinstitute
       dc: wd3
       site: TBI
+      # TBI Workday prepends a shared org boilerplate (~600 chars, "We don't just
+      # talk, we do. Lead the change with us.") to every jobDescription before the
+      # role-specific "Role Summary" section. description_strip_prefix_to removes
+      # everything before this marker so each body is role-specific and distinct.
+      # Verified against live API 2026-08-17; fix/degraded-extractors.
+      description_strip_prefix_to: "Role Summary"
     org_static: "Tony Blair Institute for Global Change"
     enabled: true  # ENABLED 2026-07-23: Workday tbinstitute/wd3/TBI; robots Allow /TBI/ (tbinstitute.wd3.myworkdayjobs.com); dry-run 9 raw / ~4 post-filter
 

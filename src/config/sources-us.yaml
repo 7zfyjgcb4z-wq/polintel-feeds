@@ -578,6 +578,11 @@ sources:
     partisan_lean: left
     enrich_description: true
     enabled: true
+    # source_constraint 2026-08-17: platform is JazzHR but /apply/jobs returns HTML (not JSON) regardless
+    # of Accept header — the JazzHR JSON API is not supported on this board. Selector scraper on /apply
+    # returns 7 jobs with correct selectors (li.list-group-item / h3.list-group-item-heading a).
+    # JazzHR API reclassification attempted fix/degraded-extractors; reverted because API would raise
+    # JSONDecodeError at runtime.
 
   - name: "Brennan Center for Justice (JazzHR API)"
     url: "https://brennancenter.applytojob.com/apply"
@@ -589,7 +594,9 @@ sources:
     identifier:
       company: "brennancenter"
     partisan_lean: left
-    enabled: false  # JazzHR API extractor; disabled — parallel selector entry above is the active scraper
+    enabled: false  # DISABLED 2026-08-17: JazzHR JSON API not supported on this board (/apply/jobs returns
+                    # HTML, not JSON; resp.json() would raise JSONDecodeError). Selector entry above is the
+                    # active route. Constraint recorded 2026-08-17.
 
   - name: "Roosevelt Institute"
     url: "https://rooseveltinstitute.org/careers/"

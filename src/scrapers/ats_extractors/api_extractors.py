@@ -499,6 +499,16 @@ class WorkdayAPIExtractor(BaseATSExtractor):
                             info = dd.get("jobPostingInfo", {})
                             desc_html = info.get("jobDescription") or ""
                             description_full = _strip_html(desc_html) if desc_html else ""
+                            # description_strip_prefix_to (e.g. TBI): the Workday tenant
+                            # prepends a shared org boilerplate to every jobDescription.
+                            # When this key is set, find the marker and keep only the
+                            # content from that point on, yielding distinct bodies.
+                            # Verified against tbinstitute.wd3.myworkdayjobs.com 2026-08-17.
+                            strip_to = identifier.get("description_strip_prefix_to", "")
+                            if strip_to and description_full:
+                                idx = description_full.find(strip_to)
+                                if idx != -1:
+                                    description_full = description_full[idx:].strip()
                             description = _clip(description_full) if description_full else ""
                             posted_date = info.get("startDate")
                             closing_date = info.get("endDate")

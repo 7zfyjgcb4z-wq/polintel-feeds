@@ -453,7 +453,11 @@ async def run_pipeline(
             source_needed_enrich[j.source_name] = source_needed_enrich.get(j.source_name, 0) + 1
 
     if jobs_to_enrich:
-        jobs_to_enrich = await enrich_jobs(jobs_to_enrich, source_configs=source_configs)
+        jobs_to_enrich = await enrich_jobs(
+            jobs_to_enrich,
+            source_configs=source_configs,
+            known_urls=known_urls,  # freshness gate: skip detail fetches for previously-seen URLs
+        )
 
     enriched_by_source: dict[str, int] = {}
     for j in jobs_to_enrich:
