@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 13:40:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 13:43:19 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-284/</link>
@@ -779,9 +779,9 @@ Collaboration with Board members, senior leadership, Development colleagues, and
     <polintel:location>New York, NY</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
     <item>
       <title>Accounting Manager</title>
-      <link>https://www.foundationlist.org/job-details/accounting-manager-18/</link>
+      <link>https://www.foundationlist.org/job-details/accounting-manager-19/</link>
       <description>Apply for our Accounting Manager position here. About Statewide California Electronic Library Consortium SCELC represents a diverse community of 110+ Member and 230+ Affiliate institutions and organizations across multiple states, and is</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/accounting-manager-18/</guid>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/accounting-manager-19/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
@@ -1146,6 +1146,33 @@ https://allstars.org/careers/
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-director-foundation-operations/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Director, Hospital Development</title>
+      <link>https://www.foundationlist.org/job-details/director-hospital-development/</link>
+      <description>Join LifeLink — Join a Life Saving Team! About LifeLink More than four decades ago, a visionary group of innovators, led by renowned nephrologist Dr. Dana Shires, made a life-changing commitment—to save lives through organ and tissue donation. Fr</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-hospital-development/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Programs Assistant_Cedar Evergreen</title>
+      <link>https://www.foundationlist.org/job-details/programs-assistant_cedar-evergreen/</link>
+      <description>ORGANIZATION KidWorks, a well-respected community development organization located in central Santa Ana, exists to unleash youth potential. KidWorks serves over 800 children, youth, and parents every week through preschool, after-school tutoring and</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/programs-assistant_cedar-evergreen/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>Santa Ana</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Campaign Fundraising Manager - Student Visionaries of the Year - Indianapolis</title>
+      <link>https://www.foundationlist.org/job-details/senior-campaign-fundraising-manager-student-visionaries-of-the-year-indianapolis/</link>
+      <description>How many people can answer the question, &amp;quot;What do you do for a living?&amp;quot; with the answer, &amp;quot;I help find cures for cancer.&amp;quot; At Blood Cancer United, employees take our mission seriously. Whether you work in one of our regions, are an accountant at the na</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-campaign-fundraising-manager-student-visionaries-of-the-year-indianapolis/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
