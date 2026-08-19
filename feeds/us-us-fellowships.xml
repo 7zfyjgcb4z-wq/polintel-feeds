@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 13:43:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 13:44:36 +0000</lastBuildDate>
     <item>
       <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
       <link>https://www.usajobs.gov:443/job/856552700</link>
@@ -433,14 +433,6 @@
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Cleveland, Ohio</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-10-30</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Physician (Breast Imaging Radiologist) - Recruitment/Relocation Incentive Authorized</title>
-      <link>https://www.usajobs.gov:443/job/869503500</link>
-      <description>The Iowa City Veterans Affairs Health Care System (ICVAHCS) is seeking a full-time Physician (Breast Imaging Radiologist) to join the Imaging Service Line at the VAMC in Iowa City, Iowa. Note: This is an OPEN CONTINUOUS ANNOUNCEMENT through August 18, 2026. The first referral cut-off is June 15, 202 | Salary: $385,000–$400,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/869503500</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Iowa City, Iowa</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-18</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Physician, Otolaryngology</title>
       <link>https://www.usajobs.gov:443/job/869032900</link>
@@ -1216,14 +1208,6 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Bronx, New York</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-11-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Physician - Hospital Medicine (Mather)</title>
-      <link>https://www.usajobs.gov:443/job/879412200</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $242,000–$340,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/879412200</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>Mather AFB, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-18</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Physician (Gynecologist)</title>
       <link>https://www.usajobs.gov:443/job/878013200</link>
       <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $250,000–$400,000 PA | Grade: VM</description>
@@ -1479,5 +1463,13 @@ NOTE: The Under Secretary of Health or designee in the VHA Central Office may ap
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>West Roxbury, Massachusetts</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-02</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician - Diagnostic Radiologist</title>
+      <link>https://www.usajobs.gov:443/job/881048000</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $350,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/881048000</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Oklahoma City, Oklahoma</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-28</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
