@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 06:45:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 06:51:43 +0000</lastBuildDate>
     <item>
       <title>Internet Resources Intern (Publication for roster purposes)</title>
       <link>https://careers.un.org/jobSearchDescription/273246?language=en</link>
@@ -163,9 +163,9 @@
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Intern</title>
-      <link>https://careers.un.org/jobSearchDescription/280461?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/283146?language=en</link>
       <description>Level : I-1 Job ID : 280461 Job Network : Job Family : Social Affairs Department/Office : Department of Economic and Social Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/06/2026 00:00:00 AM (New York time) Deadline : 08/04/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/280461?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283146?language=en</guid>
       <category>General</category>
       <dc:creator>Department of Economic and Social Affairs</dc:creator>
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -363,14 +363,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <dc:creator>United Nations Human Settlements Programme</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
-      <title>CHIEF, INFORMATION MANAGEMENT SYSTEMS SERVICE</title>
-      <link>https://careers.un.org/jobSearchDescription/278784?language=en</link>
-      <description>Level : D-1 Job ID : 278784 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : United Nations Joint Staff Pension Fund - Pension Administration Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 06/05/2026 00:00:00 AM (New York time) Deadline : 07/19/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278784?language=en</guid>
-      <category>General</category>
-      <dc:creator>United Nations Joint Staff Pension Fund - Pension Administration</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>ADMINISTRATIVE ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/280572?language=en</link>
       <description>Level : G-6 Job ID : 280572 Job Network : Management and Administration Job Family : Administration Department/Office : Office of the High Commissioner for Human Rights Duty Station : TBILISI Staffing Exercise : undefined Posted Date : 07/06/2026 00:00:00 AM (New York time) Deadline : 07/20/2026 23:59:59 PM (New York time)</description>
@@ -379,28 +371,12 @@ https://www.westminsterforumprojects.co.uk/</description>
       <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
     <polintel:location>Tbilisi, Georgia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>SOCIAL AFFAIRS OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/278519?language=en</link>
-      <description>Level : P-3 Job ID : 278519 Job Network : Economic, Social and Development Job Family : Social Affairs Department/Office : Economic Commission for Latin America and the Caribbean Duty Station : SANTIAGO Staffing Exercise : undefined Posted Date : 06/05/2026 00:00:00 AM (New York time) Deadline : 07/19/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278519?language=en</guid>
-      <category>General</category>
-      <dc:creator>Economic Commission for Latin America and the Caribbean</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>INTERN – COMMUNICATION AFFAIRS</title>
       <link>https://careers.un.org/jobSearchDescription/278761?language=en</link>
       <description>Level : I-1 Job ID : 278761 Job Network : Job Family : Economic Affairs Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : NEW DELHI Staffing Exercise : undefined Posted Date : 06/08/2026 00:00:00 AM (New York time) Deadline : 07/22/2026 23:59:59 PM (New York time)</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278761?language=en</guid>
       <category>General</category>
       <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Coordinator, Remuneration Governance and Integration</title>
-      <link>https://careers.un.org/jobSearchDescription/278752?language=en</link>
-      <description>Level : P-5 Job ID : 278752 Job Network : Economic, Social and Development Job Family : Public Administration Department/Office : Universal Postal Union(UPU) Duty Station : BERN Staffing Exercise : undefined Posted Date : 06/08/2026 00:00:00 AM (New York time) Deadline : 07/19/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278752?language=en</guid>
-      <category>General</category>
-      <dc:creator>Universal Postal Union(UPU)</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>CHIEF OF SECTION, INFORMATION SYSTEMS AND TELECOMMUNICATIONS</title>
@@ -467,14 +443,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <dc:creator>United Nations Logistic Base</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
-      <title>Research Intern</title>
-      <link>https://careers.un.org/jobSearchDescription/278801?language=en</link>
-      <description>Level : I-1 Job ID : 278801 Job Network : Job Family : Economic Affairs Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : NEW DELHI Staffing Exercise : undefined Posted Date : 06/05/2026 00:00:00 AM (New York time) Deadline : 07/19/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278801?language=en</guid>
-      <category>General</category>
-      <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>Chief of Service (Chief, Specialized Desks)</title>
       <link>https://careers.un.org/jobSearchDescription/277703?language=en</link>
       <description>Level : D-1 Job ID : 277703 Job Network : Management and Administration Job Family : Administration Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 06/08/2026 00:00:00 AM (New York time) Deadline : 07/22/2026 23:59:59 PM (New York time)</description>
@@ -489,14 +457,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278966?language=en</guid>
       <category>General</category>
       <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Project Director, Headquarters Building Renovation</title>
-      <link>https://careers.un.org/jobSearchDescription/278883?language=en</link>
-      <description>Level : D-1 Job ID : 278883 Job Network : Logistics, Transportation and Supply Chain Job Family : Property and Asset Management Department/Office : Universal Postal Union(UPU) Duty Station : BERN Staffing Exercise : undefined Posted Date : 06/08/2026 00:00:00 AM (New York time) Deadline : 07/19/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278883?language=en</guid>
-      <category>General</category>
-      <dc:creator>Universal Postal Union(UPU)</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>AI Developer</title>
@@ -563,14 +523,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <dc:creator>Universal Postal Union(UPU)</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
-      <title>Strategic Urban Governance Consultant</title>
-      <link>https://careers.un.org/jobSearchDescription/279201?language=en</link>
-      <description>Level : CON Job ID : 279201 Job Network : Job Family : HST Department/Office : United Nations Human Settlements Programme Duty Station : RIO DE JANEIRO Staffing Exercise : undefined Posted Date : 06/11/2026 00:00:00 AM (New York time) Deadline : 06/25/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/279201?language=en</guid>
-      <category>General</category>
-      <dc:creator>United Nations Human Settlements Programme</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>SENIOR PROGRAMME MANAGEMENT OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/277808?language=en</link>
       <description>Level : P-5 Job ID : 277808 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : Office of Counter-Terrorism Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 06/12/2026 00:00:00 AM (New York time) Deadline : 07/26/2026 23:59:59 PM (New York time)</description>
@@ -601,14 +553,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/279120?language=en</guid>
       <category>General</category>
       <dc:creator>Economic and Social Commission for Western Asia</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Collaborative Urban Governance Consultant</title>
-      <link>https://careers.un.org/jobSearchDescription/279204?language=en</link>
-      <description>Level : CON Job ID : 279204 Job Network : Job Family : HST Department/Office : United Nations Human Settlements Programme Duty Station : RIO DE JANEIRO Staffing Exercise : undefined Posted Date : 06/11/2026 00:00:00 AM (New York time) Deadline : 06/25/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/279204?language=en</guid>
-      <category>General</category>
-      <dc:creator>United Nations Human Settlements Programme</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>POLITICAL AFFAIRS OFFICER</title>
@@ -674,37 +618,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <category>General</category>
       <dc:creator>University of Oslo</dc:creator>
     <polintel:location>Oslo</polintel:location><polintel:closingDate>2026-09-01</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
-    <item>
-      <title>LabourList Freelance Reporter</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99508</link>
-      <description>About LabourList and the Opportunity
-LabourList is the leading dedicated media platform covering Labour politics, providing breaking news, insider analysis and robust party debate through our website, daily newsletter and events programme.
-Supportive but independent of Labour, we help readers understand not just what is happening in the party, but why it matters. Our audience includes everyone from ministers and MPs to members, activists, policy experts and political professionals.
-We are looking to expand our pool of talented freelance journalists who can contribute original reporting, analysis and multimedia content on a flexible basis.
-We're looking for reporters who can write quick, clean and engaging copy, spot stories others miss, and bring fresh ideas to our coverage. You'll need to be itching to report on and analyse the Labour stories everyone is talking about, uncover stories no one else knows about, and explain clearly why they matter across a range of formats and platforms. As LabourList increases our video output, we are particularly keen to hear from journalists who can balance written journalism with video and audio content.
-Assignments may include written articles, newsletters, live reporting, video and audio content, interviews and analysis. Work can be carried out remotely, although occasional attendance at Westminster, Labour Party Conference, elections and other political events may be required.
-You can read more here:
-https://labourlist.org/2026/06/do-you-want-to-work-for-labourlist-2/
-Closing Date
-: 18 August 2026
-Interview/Start Dates
-NA - we will accept applications on a rolling basis
-Application Details
-To apply, please send:
-Your CV
-A cover letter (maximum two pages)
-Three examples of your previous work (preferably in more than one format).
-Three story ideas (no more than 50 words each) that you believe would make compelling LabourList coverage.
-Your application should outline how your skills and experience match the requirements below and highlight any relevant political journalism work.
-Applications should be sent to ellie.ormsby@labourlist.org.
-Website
-:
-https://labourlist.org/</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99508</guid>
-      <category>General</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-      <dc:creator>LabourList</dc:creator>
-    <polintel:location>Remote</polintel:location><polintel:closingDate>2026-08-18</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Account Executive (Education – PR &amp; Public Affairs)</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99541</link>
@@ -859,15 +772,6 @@ phd@eruni.org</description>
       <category>General</category>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Mattison PR</dc:creator>
-    <polintel:location>London</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Group Support Officer (Labour Office)</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99651</link>
-      <description>About the role This is a varied support role working in the Labour Group Office. Reporting to the Political Officer, you&amp;rsquo;ll work closely with elected members and council colleagues to make sure the Group Office runs ...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99651</guid>
-      <category>General</category>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Southwark Council</dc:creator>
     <polintel:location>London</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Intern, Public Affairs</title>
@@ -1028,45 +932,6 @@ an interview and / or extended interview.
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>The British Academy</dc:creator>
     <polintel:location>London</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Content Manager - Local Government</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99718</link>
-      <description>https://ckrecruit.co.uk/job/content-manager-local-government/
-Make an impact through communications that shape the future of public services.
-This is an exciting opportunity for a strategic yet hands-on communications professional who thrives on delivering engaging campaigns, managing high-profile events, and building meaningful stakeholder engagement.
-Working closely with the Communications Director, you'll play a pivotal role in strengthening the organisations brand, leading integrated communications activity, and delivering a varied programme of in-person and digital events.
-This is a varied role that combines strategic planning with practical delivery, including supporting events on-site and producing high-quality communications that enhance our profile and impact.
-What you'll be doing
-Lead integrated communications and marketing campaigns.
-Manage the organisation's programme of conferences, stakeholder events, webinars and launches.
-Create engaging content for websites, newsletters, social media, articles and press releases.
-Build strong relationships with senior stakeholders, partners and government organisations.
-Coordinate suppliers, venues, logistics and digital event platforms.
-Identify opportunities to improve communications, engagement and organisational impact.
-About you
-You'll be an experienced communications, marketing or events professional who enjoys balancing strategic thinking with practical delivery.
-You'll have:
-Significant experience delivering integrated communications and marketing campaigns.
-Outstanding writing and editing skills.
-Experience managing websites, social media, CMS and CRM platforms.
-Excellent organisational skills with the ability to manage multiple priorities.
-Confidence working with senior stakeholders and external partners.
-A proactive, collaborative and solutions-focused approach.
-If you're an organised, creative communications professional who enjoys delivering high-quality campaigns and events get in touch! Carolyn@ckrecruit.co.uk
-Closing Date
-: 18 August 2026
-Interview/Start Dates
-N/A
-Application Details
-https://ckrecruit.co.uk/job/content-manager-local-government/
-Website
-:
-http://ckrecruit.co.uk</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99718</guid>
-      <category>General</category>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>A client of CK Recruit</dc:creator>
-    <polintel:location>London</polintel:location><polintel:closingDate>2026-08-18</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Director, Global Governance and Strategic Engagement</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99722</link>
@@ -2360,24 +2225,6 @@ martin.seeleib-kaiser@uni-tuebingen.de</description>
       <category>General</category>
       <dc:creator>Universität Tübingen</dc:creator>
     <polintel:location>Tübingen</polintel:location><polintel:closingDate>2026-08-24</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
-    <item>
-      <title>Post-doctoral Research Fellow Level 2 - Temporary Fixed Term up to March 2030 (Part-Time 0.6FTE)</title>
-      <link>https://www.jobs.ac.uk/job/DSK549/post-doctoral-research-fellow-level-2-temporary-fixed-term-up-to-march-2030-part-time-06fte</link>
-      <description>Applications are invited for a temporary part-time (0.6FTE) post of a UCD Post-doctoral Research Fellow Level 2 within UCD School of Politics and International Relations.
-The School of Politics and International Relations at University College Dublin invites applications for a Senior Postdoctoral Research Fellow Level 2 position on the Horizon Europe-funded project QUEST: The European Union's Quest for a Relational Open Strategic Autonomy. The successful candidate will contribute primarily to Work Package 10 (Defence Policy and Procurement) and associated cross-project activities examining the European Union's pursuit of Open Strategic Autonomy (OSA) in the fields of defence industrial policy, defence procurement and security governance.
-The postholder will undertake original research on EU defence policy instruments, defence-industrial cooperation, procurement frameworks, and the evolving relationship between strategic autonomy, economic security and European defence integration. Working under the supervision of the Principal Investigator, the researcher will contribute to comparative case studies, stakeholder engagement, academic publications, policy outputs and consortium-wide analytical activities.
-Closing date: 12:00 noon (local Irish time) on 18
-th
-August 2026.
-Applications must be submitted by the closing date and time specified. Any applications which are still in progress at the closing time of 12:00 noon (Local Irish Time) on the specified closing date will be cancelled automatically by the system. UCD are unable to accept late applications.
-UCD do not require assistance from Recruitment Agencies. Any CVs submitted by Recruitment Agencies will be returned.
-The PD2 post is intended for researchers who have completed PD1. As with the PD1, if you have already completed your PD2 stage in UCD or will soon complete a PD2, or your total Postdoctoral experience, inclusive of the duration of the advertised post, would exceed 6 years, you should not apply and should refer to Research Fellow posts instead.
-Prior to application, further information (including application procedure) should be obtained from the Work at UCD website:
-www.ucd.ie/workatucd/jobs</description>
-      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DSK549/post-doctoral-research-fellow-level-2-temporary-fixed-term-up-to-march-2030-part-time-06fte</guid>
-      <category>General</category>
-      <dc:creator>University College Dublin</dc:creator>
-    <polintel:location>Dublin</polintel:location><polintel:closingDate>2026-08-18</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
     <item>
       <title>Researcher</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99859</link>
@@ -7369,5 +7216,356 @@ We offer family friendly, flexible working arrangements, with forums and inclusi
       <category>General</category>
       <dc:creator>University of York</dc:creator>
     <polintel:location>York, Hybrid</polintel:location><polintel:closingDate>2026-08-30</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Civic Engagement Manager</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100024</link>
+      <description>We are seeking a temporary Civic Engagement Manager to support the Speaker of Hackney, to cover a vacancy in the team. The role is responsible for:
+Managing all aspects of the Speaker’s Office, including providing effective and proactive day to day support to the Speaker of Hackney
+Leading on planning and delivery of civic and ceremonial engagements and events for the Speaker of Hackney
+Support the planning and delivery of core civic events for the Council, to include Remembrance Sunday and Holocaust Memorial Day
+Promoting civic engagement, local democracy and the role and profile of the Speaker
+You will work closely with the Speaker of Hackney, Cllr Antoinette Fernandez, to ensure that her civic responsibilities and priorities are delivered effectively. This will include diary and administrative support, as well as support organising her civic and fundraising events calendar. You will also work flexibly across the service, including the provision of support to the elected Mayor and Cabinet.
+You will have the following skills and abilities:
+Ability to organise own workload to meet deadlines and agreed targets/standards
+Ability to manage a diversity of projects
+Ability to communicate effectively, orally and in writing, with a diversity of audiences
+Ability to be self-supporting in administrative tasks
+Ability to work with drive and enthusiasm
+Ability to work flexibly and as part of a team
+You will ideally have some experience of event organisation, an understanding of the role of Speaker of Hackney, and political awareness and sensitivity.
+The role is currently confirmed until 2 October to cover a short term vacancy within the office, but may be extended beyond this.
+Closing Date
+: 23 August 2026
+Interview/Start Dates
+Due to the short term nature of this role, we are seeking to recruit as soon as a suitable candidate is identified. The suitable candidate will need to register with the Connect2Hackney recruitment agency.
+Application Details
+To apply for the role, please send your CV and cover email to
+ben.bradley@hackney.gov.uk.
+Information on the Speaker of Hackney can be found at
+https://www.hackney.gov.uk/council-and-elections/mayor-cabinet-and-councillors/speaker.
+Website
+:
+http://www.hackney.gov.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100024</guid>
+      <category>General</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>London Borough of Hackney</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-08-23</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Digital and Media Communications Officer</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100025</link>
+      <description>The successful candidate be responsible for managing Robbie’s external communications and social media presence. This will involve building a relationship with local and national media, and trade press.
+This role is ideal for someone with strong creative instincts and a passion for digital content creation. The candidate will have proven experience creating high impact digital content, including video content, graphic design and a strong ability to grow social media channels. The candidate must be familiar with using design programmes such as Adobe Photoshop and Adobe InDesign, Captions, and FinalCut, or similar.
+The candidate must also have a proven track record of writing press releases, opinion articles and op-ed's to help best communicate and support Robbie's work.
+Main duties include, but are not limited to:
+• Lead the management and development of the MP’s communications presence, including with local and national press.
+• Create high-quality, targeted content across social media, web and email.
+• Manage and grow the MP’s social media channels, ensuring content is platform-native and impactful.
+• Oversee content for MP's website, newsletter, letters to residents and other communications as required.
+• Draft press releases and briefings on constituency and national issues.
+• Build and maintain relationships with local media and stakeholders, liaise with local and national media, monitor media.
+• Experience developing digital campaigns or audience growth strategies.
+Candidates should have the following skills and qualities:
+• Strong experience in a creative, communications, PR, media or political role.
+• Proven ability to create compelling content across digital platforms, particularly video.
+• Excellent written and verbal communication skills, with the ability to adapt tone for different audiences.
+• Demonstrable experience managing and growing social media accounts, including use of analytics.
+• Strong understanding of the media landscape, including local and national press.
+• Highly organised, with the ability to manage competing priorities in a fast-paced environment.
+• Creative, proactive and ideas-driven, with a strong eye for engaging content.
+• Good political judgement.
+• Sympathetic to the aims and values of the Conservative Party.
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
+Members’ Staff Verification Office (MSVO)
+page for further info. MPs generally pay staff in accordance with
+IPSA guidelines
+.
+Closing Date
+: 4 September 2026
+Interview/Start Dates
+The application window may close early once the best candidate has been chosen.
+Interviews will take place as soon as possible with a start date commencing as soon as possible thereafter.
+Application Details
+Please email your CV and covering letter to
+keighleyandilkley@parliament.uk
+Your covering letter should set out why you believe this job is best suited to you.
+Please also include examples of digital content you have previously produced and explain which platforms the content has been produced on.
+Website
+:
+http://www.robbiemoore.org.uk/Join</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100025</guid>
+      <category>General</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Robbie Moore MP (Keighley and Ilkley)</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-04</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Account Executive</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100026</link>
+      <description>Arden Strategies is a fast-growing public affairs and strategic communications consultancy that supports clients to understand and navigate the worlds of politics, policy, and the media.
+Our clients span a wide range of sectors and range in size from FTSE100 industry leaders to agile and ambitious start-ups.
+Our Account Executives are an essential part of our team of highly skilled client advisors and are responsible for providing research and analysis, monitoring developments using the most up-to-date technology and project management.
+This role is ideal for a recent graduate motivated to begin their career in consultancy, with up to a year of previous work experience.
+Key responsibilities:
+• Research and analysis of complex technical and policy information, producing high-quality written summaries and verbal briefings
+• Managing projects, often working on high profile issues to tight deadlines
+• Providing timely updates and insights on political and policy developments
+• Using cutting-edge technology to deliver high quality, timely monitoring for clients
+Essential skills:
+• An understanding of UK political institutions and processes
+• Strong research skills
+• Self-motivated and comfortable working independently and as part of a team
+• Excellent written and verbal communication skills
+• Strong presentation skills
+Closing Date
+: 8 September 2026
+Interview/Start Dates
+Interviews will commence the week beginning 14 September
+Application Details
+To apply for this position please email your CV to
+careers@ardenstrategies.com
+Website
+:
+http://www.ardenstrategies.com</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100026</guid>
+      <category>General</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Arden Strategies</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-08</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Head - Data Centres Programme</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100027</link>
+      <description>Leading techUK’s work as a champion for the UK data centre sector as a foundational component of the nation’s digital, economic and strategic infrastructure. Acting as a senior advocate for the sector across government, regulators and industry, the postholder will represent and support a discerning and high-profile membership spanning the full breadth of the data centre ecosystem, from wholesale colocation and hyperscale cloud providers to telecoms operators, technology partners and professional services. The role requires authority across a wide and evolving policy landscape - including energy, sustainability, resilience, security, AI infrastructure and digital sovereignty - alongside a strong commitment to delivering an exemplary member experience through high-quality insight, responsive engagement and effective representation. As the focal point for techUK’s activity in this area, the role is responsible for shaping policy and media positions, strengthening industry influence, convening senior stakeholders and ensuring the sector’s priorities are understood and reflected in national policy, press and industry debate, while delivering against commercial, membership and programme objectives.
+Key Responsibilities
+Being a trusted, knowledgeable and influential spokesperson and interlocutor across government, industry and press.
+Identifying emerging public policy issues relevant to data infrastructure, prioritising and acting on them appropriately.
+Alerting the industry to new policy and market developments, researching implications and collating evidence of potential impacts.
+Producing externally-facing explanatory material for non-technical readers and industry-facing explanatory materials to clarify complex policy instruments for the sector.
+Ensuring techUK is seen as a trusted and key champion for the sector in the media.
+Secretariat function for the Data Centres Council – this group is the senior sector representation and Council meetings provide the forum for strategic discussions on issues facing the sector.
+As Head of the Data Centres Programme at techUK, you will also be the Sector association lead for the Climate Change Agreement (CCA) scheme, holding the relationship between the sector, the Environment Agency and the UK Government.
+A full version of the job role can be found on our website linked below.
+Closing Date
+: 18 September 2026
+Interview/Start Dates
+Candidates who are shortlisted will be contacted promptly to arrange an interview.
+Application Details
+Apply for the role by clicking on the below link and submitting your CV for consideration:
+https://careers.techuk.org/postings/5234041b-a1f0-4ebd-b940-0647b5e37aa3?utm_medium=job_board&amp;utm_source=W4MP
+Website
+:
+http://techuk.org</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100027</guid>
+      <category>General</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>techUK</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-18</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Constituency Support Officer</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100028</link>
+      <description>Ellie is seeking an enthusiastic and highly organised Constituency Support Officer to join her team.
+Key Responsibilities:
+Provide high-quality support to constituents by responding to enquiries and progressing casework
+Deal with large numbers of standard queries, as well as assisting on more complex cases from members of the public by phone, email, social media, or face to face
+Support the smooth day-to-day running of the constituency office, including ad-hoc administrative tasks and data entry
+Build and maintain positive working relationships with local organisations, public bodies and community groups
+Provide flexible support across the office and help wherever required
+Skills and Experience:
+Excellent organisation and administration skills
+Strong written and verbal communication skills
+Able to manage competing priorities and remain calm under pressure
+Passionate about delivering excellent service to constituents and supporting local communities
+Proficiency in Microsoft Office and digital tools
+Sympathetic to the aims and values of the Labour party
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
+Members’ Staff Verification Office (MSVO)
+page for further info. MPs generally pay staff in accordance with
+IPSA guidelines
+.
+Closing Date
+: 30 August 2026
+Interview/Start Dates
+Interview dates: early September
+Shortlisted candidates will be contacted and invited to interview.
+Application Details
+To apply, please email a CV and 1 page covering letter to
+ellie.reeves.mp@parliament.uk
+with the subject line 'Constituency Support Officer Application'.
+Website
+:
+http://elliereeves.com</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100028</guid>
+      <category>General</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Ellie Reeves MP (Lewisham West and East Dulwich)</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-08-30</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Project support officer - Equality, Diversity &amp; Inclusion</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100029</link>
+      <description>We’re recruiting a Project Support Officer (Equality, Diversity &amp; Inclusion) to join Solace on a fixed-term contract until March 2027, working 35 hours per week with possible hybrid/remote working.
+This is an exciting opportunity to support the delivery of Solace’s Equality, Diversity &amp; Inclusion (EDI) programme and contribute to work that promotes inclusive leadership across local government.
+Working closely with our Programme Manager – Equality, Diversity &amp; Inclusion Lead, the postholder will provide additional project capacity across a range of initiatives. This will include coordinating projects and activities, engaging with stakeholders, monitoring progress, supporting communications and helping to ensure key milestones are delivered effectively.
+As a short-term, capacity-building role, this is an excellent opportunity for someone looking to develop their project management experience and gain valuable insight into the local government sector. It could suit someone at an early stage of their career, a recent graduate, or an experienced project support professional looking for a fixed-term or secondment opportunity.
+We’re looking for someone who is organised, collaborative and passionate about equality, diversity and inclusion, with the ability to build positive relationships, manage competing priorities and support the successful delivery of projects.
+The successful candidate will be responsible for:
+Providing effective project coordination, maintaining accurate documentation and supporting clear, timely communication across projects and activities.
+Working collaboratively with colleagues and stakeholders to coordinate project activity, monitor actions and support the delivery of key milestones and outcomes.
+Tracking project progress, identifying potential risks and issues, evaluating their impact and preparing clear updates and reports for relevant stakeholders.
+Supporting communications and engagement, helping to plan and deliver communications that raise awareness of EDI initiatives and encourage the sharing of learning, insight and good practice.
+Supporting the wider EDI programme, contributing to a range of activities that help strengthen inclusive leadership and promote equality, diversity and inclusion across local government.
+Closing Date
+: 25 August 2026
+Interview/Start Dates
+Interviews are expected to take place in early September. We are looking for the successful candidate to start as soon as possible, subject to the required recruitment and onboarding processes. We may appoint before the closing date if a suitable candidate is identified.
+Application Details
+This is a great opportunity to play a key role in supporting EDI work, while developing your project coordination and stakeholder management experience in a local government environment.
+To apply, please send a current CV and covering statement outlining your interest in the role and relevant experience to
+mae.wilson@solace.org.uk
+. Mae Wilson is the hiring lead for this position and will also be happy to provide further information or answer any questions about the role. Please contact Mae directly using the email address above if you would like to discuss the opportunity before applying.
+Website
+:
+http://solace.org.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100029</guid>
+      <category>General</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Solace</dc:creator>
+    <polintel:location>Wakefield - but suitable for hybrid working or remote</polintel:location><polintel:closingDate>2026-08-25</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Parliamentary Assistant &amp; Communications Officer</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100030</link>
+      <description>Emma Reynolds MP is seeking a proactive, politically engaged Senior Parliamentary Assistant &amp; Communications Officer to support her parliamentary and constituency work. The successful candidate will be highly motivated, possess excellent communication skills, and thrive in a fast-paced environment.
+Key Responsibilities
+• Handle complex policy casework and queries, providing policy advice, research and briefings.
+• Lead and deliver the MP’s digital and print communications strategy/grid, including content planning and audience engagement across multiple channels.
+• Create high-quality video and digital content, from concept development through to filming, editing and publication.
+• Accompany the MP to visits, meetings &amp; events, capturing and producing engaging content.
+• Support local campaigns and communications activity in collaboration with the wider team.
+• Supervise junior staff in Westminster.
+• Attend and support meetings and events, including occasional work outside normal office hours.
+• Undertake additional duties as required in support of the MP’s parliamentary responsibilities.
+Skills and Experience
+• Ability to respond quickly and effectively to news developments and announcements.
+• Strong organisational skills, with the ability to manage competing priorities, work independently and maintain attention to detail under pressure.
+• Excellent written and verbal communication skills, with the ability to translate complex policy issues into clear and engaging content.
+• Strong research and analytical skills, with experience interpreting complex information.
+• Experience in digital content creation, social media management and drafting press releases.
+• Knowledge and experience of UK parliamentary procedures and the political landscape.
+• Proficiency in Microsoft 365 and relevant digital tools.
+• Sympathetic to the aims and values of the Labour Party.
+Location and Working Arrangements
+This is a full-time role based in Parliament. The position is not offered on a home-working basis. The expectation is a minimum of four days per week working from the parliamentary office or constituency, with flexibility for an average of one home-working day per week. Frequent travel to Wycombe will be required.
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
+Members’ Staff Verification Office (MSVO)
+page for further info. MPs generally pay staff in accordance with
+IPSA guidelines
+.
+Closing Date
+: 4 September 2026
+Interview/Start Dates
+Closing time: 9am
+Interviews are planned to take place on Wednesday 9 September and Friday 11 September 2026.
+Start date as soon as possible.
+Please note, the process may close early if deemed appropriate.
+Application Details
+Please send a CV and a one-page cover letter setting out how your skills and experience match the job description, to Emma’s Office Manager:
+ruth.lethem@parliament.uk.
+Applicants are encouraged to provide examples of relevant written, digital or video content they have produced. This could be a social post or a release or video content.
+Please use "
+Senior Parliamentary Assistant / Communications Officer – [First Name Last Name]
+" in the subject line.
+Please note that due to the high volume of applications expected we are only able to contact you if you have been shortlisted.
+Website
+:
+https://emmaforwycombe.org.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100030</guid>
+      <category>General</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Emma Reynolds MP (Wycombe)</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-04</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Press &amp; Communications Manager</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100031</link>
+      <description>Do you want to help make Britain the best place for children and young people to grow up? Are you excited by the opportunity to join a fast-growing, influential think tank that champions vulnerable children and campaigns for lasting change? We're looking for an ambitious comms professional to lead and shape how we communicate our work, build our profile, and inspire action to improve children's lives.
+Reporting to the Director of Communications and Strategy, you will lead proactive and reactive media activity, and deliver high-impact strategies that raise awareness, influence policy debates, and secure high-quality coverage.
+You will develop compelling narratives from complex policy, research, and data, ensuring they connect with priority audiences across national, regional, and digital media.
+Working closely with colleagues across the organisation, you will also identify potential comms opportunities, produce standout content, and brief senior leaders for media engagement.
+What We’re Looking For
+We’re looking for a driven and purpose-led communications professional who thrives in a fast-paced environment and is motivated to make a meaningful impact for children and young people. You will bring strong news instinct and creativity, with the ability to spot and shape compelling stories quickly and effectively.
+You are a confident and credible communicator, comfortable advising senior leaders and representing the organisation with external stakeholders. You remain calm under pressure, exercising sound judgement in high-profile or time-sensitive situations.
+Collaborative by nature, you build strong relationships across teams and with external stakeholders, while staying adaptable and agile as priorities shift. Above all, you bring energy, determination, and a ‘can-do’ mindset, and you are relentlessly focused on securing impactful media coverage and driving positive change.
+Closing Date
+: 31 August 2026
+Interview/Start Dates
+Start date: Immediate
+This role may close early if the right candidate is found, so early applications are encouraged.
+Application Details
+To find out more please visit our website for further information, including job description, interview dates, and application details:
+https://www.centreforyounglives.org.uk/about-us/job/press-communications-manager
+Website
+:
+https://www.centreforyounglives.org.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100031</guid>
+      <category>General</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Centre for Young Lives</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-08-31</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Research Fellow in Anti-Autocratic Messaging</title>
+      <link>https://www.jobs.ac.uk/job/DSQ452/research-fellow-in-anti-autocratic-messaging</link>
+      <description>University of Sussex | School of Law, Politics and Sociology | Brighton, East Sussex, Falmer, Hybrid | Salary: Salary:£38,784 to £46,049
+                                    Grade 7, pro rata if part time | Closes: 2026-09-03</description>
+      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DSQ452/research-fellow-in-anti-autocratic-messaging</guid>
+      <category>General</category>
+      <dc:creator>University of Sussex</dc:creator>
+    <polintel:location>Brighton, East Sussex, Falmer, Hybrid</polintel:location><polintel:closingDate>2026-09-03</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Research Fellow</title>
+      <link>https://www.jobs.ac.uk/job/DSQ471/research-fellow</link>
+      <description>Full Time Fixed Term for 2 years
+We are delighted to welcome applications for the position of Research Fellow within a new ESRC-funded research project led by Prof Elizabeth Evans and Dr Stefanie Reher (Strathclyde) on Disability and Political Parties in Europe (DISPOP).
+Despite reporting high levels of interest in electoral politics, disabled people have lower voter turnout rates and are under-represented in legislatures around the world. To understand why these patterns occur, what barriers exist, and how to redress these inequalities, we need to study the relationship between disability and political parties - the key institution linking citizens and electoral politics. Political parties are important vehicles for mobilising and organising groups of citizens with an interest in politics; yet there are no studies focused on how disabled people experience and perceive political parties, nor whether, when, and how parties think about disability, accessibility and inclusion.
+DISPOP aims to:
+identify, analyse, and compare barriers experienced by disabled people,
+map and evaluate existing party initiatives and best practices,
+explore to what extent formal rules and informal norms render parties ableist institutions, and
+co-produce recommendations with disabled people to make politics more accessible.
+The post holder will take a prominent role in developing the conceptual and methodological innovations to study disability and political parties across four cases: Denmark, Germany, Spain and the UK. The role will require using qualitative and mixed methods, for instance; interviews, focus groups, and ethnographic methods. It may also include quantitative data analysis. The post-holder will take a role in all stages of this process, from conceptualisation to data collection and analysis, as well as writing up and presenting the findings. As such, there is scope for the post-holder to bring their own skills and interests to influence the study design.
+This research position will be based in the Department of Politics and International Relations within the Faculty of Social Sciences, at the University of Southampton, and the work will be carried out under the supervision of Elizabeth Evans. You will join a vibrant and growing Department with a concentration of scholars researching related themes in the Public Opinion Research Network and the Gender and Inequalities Centre.
+To be successful you will have completed your PhD in a relevant discipline before May 2026 (or equivalent professional qualifications). You will have: a demonstrated interest in mixed methods approach to researching political attitudes of the public and/or other key political actors and/or political parties; a facility for solving conceptual and methodological problems; the ability to plan and organise work independently and as part of a team; the ability to write research presentations and papers for peer review publication; the ability to conduct research in either Danish or Spanish is essential. Knowledge and experience of focus groups, cognitive interviewing and/or ethnographic methods is desirable. Qualitative skills are essential but experience of using mixed methods would be ideal.
+The Research Fellow post is full-time for a fixed term of 2 years with an anticipated start date of October 2026.
+The University of Southampton holds an Athena SWAN Silver Award demonstrating commitment to equal opportunities in the workplace.
+Informal enquiries may be addressed to Elizabeth Evans,
+e.j.evans@soton.ac.uk
+Further details:</description>
+      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DSQ471/research-fellow</guid>
+      <category>General</category>
+      <dc:creator>University of Southampton</dc:creator>
+    <polintel:location>Southampton</polintel:location><polintel:closingDate>2026-09-14</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Post-doctoral Research Associate DISPOP</title>
+      <link>https://www.jobs.ac.uk/job/DSQ462/post-doctoral-research-associate-dispop</link>
+      <description>The Department of Government and Public Policy invites applications from emerging scholars for a Postdoctoral Research Associate to support and contribute to the Economic and Social Research Council (ESRC) Responsive Mode project Disability and Political Parties (DISPOP). DISPOP is a collaborative project led by Professor Elizabeth Evans (University of Southampton) and Professor Stefanie Reher (University of Strathclyde).
+Despite reporting high levels of interest in electoral politics, disabled people are under-represented in legislatures around the world. To understand why these patterns occur, what barriers exist, and how to redress these inequalities, we need to study the relationship between disability and political parties - the key institution linking citizens and electoral politics. Political parties are important vehicles for mobilising and organising groups of citizens with an interest in politics; yet there are no studies focussed on how disabled people experience and perceive political parties, nor whether, when, and how parties think about disability, accessibility and inclusion.
+DISPOP aims to:
+(1) identify, analyse, and compare barriers experienced by disabled people
+(2) map and evaluate existing party initiatives and best practices
+(3) explore to what extent formal rules and informal norms render parties ableist institutions
+4) co-produce recommendations with Disabled People’s Organisations to make politics more accessible.
+The University of Strathclyde is a leading, multi award-winning technological university in the heart of Glasgow, one of the UK’s most exciting student cities. Rated by the Daily Mail as University of the Year 2026, research is central to everything we do. It informs our teaching and helps us make a difference to business, industry and society. Almost 90% of research produced by the University of Strathclyde was rated ‘world-leading’ or ‘internationally excellent’ in the UK Research Excellence Framework (REF) 2021.
+The Department of Government and Public Policy combines world-class teaching and research exploring political systems and institutions worldwide. The Department has particular strength in the study of political representation of under-represented groups and quantitative methods. Our Research Excellence Framework 2021 submission was the highest-rated in the UK, with 62% of research rated world-leading and 100% of impact rated outstanding. The post holder will play a prominent role in developing conceptual and methodological innovations to study disability and political parties across Denmark, Germany, Spain and the UK.
+The role will require using quantitative, qualitative, and mixed methods, including survey design and analysis, survey experiments, interviews, and ethnographic methods. The post holder will take a role in all stages of the research process, from conceptualisation to data collection and analysis, as well as writing up and presenting findings, including attending international and domestic conferences and co-authoring publications. There is scope for the post holder to bring their own skills and interests to the study design. The post holder will work under the supervision of Professor Stefanie Reher and in close collaboration with Professor Elizabeth Evans and a postdoctoral research associate at the University of Southampton. The post holder will be the main point of contact for either the Danish or Spanish case.
+Therefore, it is a strong advantage for applicants to be familiar with the political party system in either Denmark or Spain, and have good writing and conversation skills in either Danish or Spanish, in addition to having a keen interest in the role of disability in politics.</description>
+      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DSQ462/post-doctoral-research-associate-dispop</guid>
+      <category>General</category>
+      <dc:creator>University of Strathclyde</dc:creator>
+    <polintel:location>Glasgow</polintel:location><polintel:closingDate>2026-09-14</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Policy Analyst (Transition Finance)</title>
+      <link>https://www.jobs.ac.uk/job/DSQ599/policy-analyst-transition-finance</link>
+      <description>London School of Economics and Political Science | Centre for Economic Transition Expertise (CETEx) | London | Salary: Salary:£43,277 to £51,714
+                                    per annum inclusive with potential to progress to £55,497 pa inclusive of London allowance | Closes: 2026-09-01</description>
+      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DSQ599/policy-analyst-transition-finance</guid>
+      <category>General</category>
+      <dc:creator>London School of Economics and Political Science</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-01</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
