@@ -1,11 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:34:57Z",
+  "generated_at": "2026-08-21T10:02:56Z",
   "alerts": [],
   "_tracking": {
-    "consecutive_failures": {
-      "Ipsos Careers": 0,
-      "IMF Careers": 0,
-      "PubAffairs Networking Jobs": 0
-    }
+    "consecutive_failures": {}
   }
 }
