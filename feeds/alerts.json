@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-08-22T09:53:08Z",
+  "generated_at": "2026-08-22T10:30:01Z",
   "alerts": [],
   "_tracking": {
-    "consecutive_failures": {}
+    "consecutive_failures": {
+      "World Bank Careers": 0,
+      "OECD Careers": 0,
+      "WTO Careers": 0,
+      "UN Job Feed": 0
+    }
   }
 }
