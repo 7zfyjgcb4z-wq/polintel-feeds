@@ -14,6 +14,7 @@ import json
 import logging
 import re
 from datetime import datetime
+from urllib.parse import parse_qs, urlencode, urlparse
 
 import httpx
 from bs4 import BeautifulSoup
@@ -54,6 +55,64 @@ SEARCH_KEYWORDS = [
     "cyber security",
     "behavioural science",
 ]
+
+
+# Parameters within the decoded SID blob that identify a specific vacancy.
+# All other inner params are either session-bound or navigational.
+_CSJ_VACANCY_PARAMS = frozenset({"joblist_view_vac", "jcode"})
+
+# Parameters that are session-bound at the top-level query string (non-SID URLs).
+_CSJ_SESSION_PARAMS = frozenset({
+    "SID", "usersearchcontext", "reqsig", "csession", "lastpage",
+    "searchpage", "id_postcodeselectorid",
+})
+
+# Inner params (inside the decoded SID blob) that are session-bound and vary per ALTCHA solve.
+_CSJ_SESSION_INNER_PARAMS = frozenset({
+    "usersearchcontext", "reqsig", "csession", "lastpage",
+    "searchpage", "id_postcodeselectorid",
+})
+
+
+def _canonical_csj_url(raw_url: str) -> str:
+    """
+    Return a stable canonical URL for a CSJ vacancy.
+
+    CSJ vacancy URLs use a single ``SID`` query parameter that is a base64-encoded
+    query string containing both the stable vacancy identifier (``joblist_view_vac``)
+    and session-bound values (``usersearchcontext``, ``reqsig``) that change with
+    every ALTCHA solve.  The canonical form decodes the blob and retains only the
+    vacancy identifier, yielding a URL that is stable across scraper runs.
+
+    Falls back to the raw URL unchanged if decoding fails or no vacancy identifier
+    can be extracted.
+    """
+    parsed = urlparse(raw_url)
+    qs = parse_qs(parsed.query, keep_blank_values=False)
+
+    if "SID" in qs:
+        # The SID value is a base64-encoded inner query string.
+        try:
+            sid_raw = qs["SID"][0]
+            # Pad to a valid base64 length before decoding.
+            inner_qs_str = base64.b64decode(sid_raw + "==").decode("utf-8", errors="replace")
+            inner_params = parse_qs(inner_qs_str, keep_blank_values=False)
+            stable = {k: v for k, v in inner_params.items() if k in _CSJ_VACANCY_PARAMS}
+            if stable:
+                # Sort for deterministic ordering across runs.
+                canonical_query = urlencode(sorted(stable.items()), doseq=True)
+                return parsed._replace(query=canonical_query).geturl()
+        except Exception:
+            pass
+        # Could not extract a vacancy identifier; return the original URL unchanged.
+        return raw_url
+
+    # Non-SID URL (e.g. a direct jobs.cgi?jcode=... link): strip session-bound params.
+    stable = {k: v for k, v in qs.items() if k not in _CSJ_SESSION_PARAMS}
+    if stable:
+        canonical_query = urlencode(sorted(stable.items()), doseq=True)
+        return parsed._replace(query=canonical_query).geturl()
+    return raw_url
 
 
 class Scraper(BaseScraper):
@@ -247,6 +306,7 @@ class Scraper(BaseScraper):
 
     def _parse_jobs(self, soup: BeautifulSoup) -> list[Job]:
         jobs: list[Job] = []
+        _logged_samples = 0  # Log up to 5 before/after URL pairs per call for verification.
         for li in soup.select("li.search-results-job-box"):
             title_el = li.select_one(".search-results-job-box-title a")
             if not title_el:
@@ -254,7 +314,14 @@ class Scraper(BaseScraper):
 
             title = title_el.get_text(strip=True)
             href = title_el.get("href", "")
-            url = href if href.startswith("http") else f"{BASE}/csr/{href}"
+            raw_url = href if href.startswith("http") else f"{BASE}/csr/{href}"
+            url = _canonical_csj_url(raw_url)
+            if _logged_samples < 5:
+                self.log.info(
+                    "CSJ URL canonical sample %d:\n  raw: %s\n  canonical: %s",
+                    _logged_samples + 1, raw_url, url,
+                )
+                _logged_samples += 1
 
             org_el = li.select_one(".search-results-job-box-department")
             org = self._content_text(org_el) if org_el else "Civil Service"
