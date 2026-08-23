@@ -2,7 +2,7 @@ name: Scrape EU National Sources
 
 on:
   schedule:
-    - cron: "30 9 * * *"   # 09:30 UTC daily — after Brussels (08:00) finishes
+    - cron: "0 12 * * *"   # 12:00 UTC daily
   workflow_dispatch:
 
 permissions:

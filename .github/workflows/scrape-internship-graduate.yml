@@ -2,7 +2,7 @@ name: Scrape Internship & Graduate Sources
 
 on:
   schedule:
-    - cron: "0 9 * * *"      # Daily at 09:00 UTC (after UK/Brussels runs)
+    - cron: "0 10 * * *"     # Daily at 10:00 UTC
   workflow_dispatch:           # Manual trigger
 
 permissions:

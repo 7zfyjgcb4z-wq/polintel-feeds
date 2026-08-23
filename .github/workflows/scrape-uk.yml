@@ -2,7 +2,7 @@ name: Scrape UK Sources
 
 on:
   schedule:
-    - cron: "0 6 * * *"      # Daily at 06:00 UTC
+    - cron: "0 5 * * *"      # Daily at 05:00 UTC
   workflow_dispatch:           # Manual trigger
 
 permissions:

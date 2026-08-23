@@ -1,7 +1,7 @@
 name: Scrape Brussels/EU
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "30 7 * * *"
   workflow_dispatch:
 
 permissions:
