@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 06:41:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 05:43:40 +0000</lastBuildDate>
     <item>
       <title>Internet Resources Intern (Publication for roster purposes)</title>
       <link>https://careers.un.org/jobSearchDescription/273246?language=en</link>
@@ -163,9 +163,9 @@
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Intern</title>
-      <link>https://careers.un.org/jobSearchDescription/283146?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/283376?language=en</link>
       <description>Level : I-1 Job ID : 280461 Job Network : Job Family : Social Affairs Department/Office : Department of Economic and Social Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/06/2026 00:00:00 AM (New York time) Deadline : 08/04/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283146?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283376?language=en</guid>
       <category>General</category>
       <dc:creator>Department of Economic and Social Affairs</dc:creator>
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -371,14 +371,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <dc:creator>Department of Management Strategy, Policy and Compliance Office of Programme Planning, Finance and Budget</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
-      <title>INFORMATION SYSTEMS OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/278966?language=en</link>
-      <description>Level : P-3 Job ID : 278966 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : Office of the High Commissioner for Human Rights Duty Station : PANAMA CITY Staffing Exercise : undefined Posted Date : 06/09/2026 00:00:00 AM (New York time) Deadline : 07/23/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278966?language=en</guid>
-      <category>General</category>
-      <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>AI Developer</title>
       <link>https://careers.un.org/jobSearchDescription/283046?language=en</link>
       <description>Level : CON Job ID : 283046 Job Network : Job Family : Information Management Systems and Technology Department/Office : Office of Information and Communications Technology Duty Station : Huzhou (Deqing) Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 09/27/2026 23:59:59 PM (New York time)</description>
@@ -397,11 +389,11 @@ https://www.westminsterforumprojects.co.uk/</description>
     <item>
       <title>Full-stack .NET/React developer</title>
       <link>https://careers.un.org/jobSearchDescription/283358?language=en</link>
-      <description>Level : CON Job ID : 278769 Job Network : Job Family : Department/Office : Office of Information and Communications Technology Duty Station : OTHER Staffing Exercise : undefined Posted Date : 06/08/2026 00:00:00 AM (New York time) Deadline : 07/08/2026 23:59:59 PM (New York time)</description>
+      <description>Level : CON Job ID : 283358 Job Network : Job Family : Department/Office : Office of Information and Communications Technology Duty Station : Huzhou (Deqing) Staffing Exercise : undefined Posted Date : 08/20/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283358?language=en</guid>
       <category>General</category>
       <dc:creator>Office of Information and Communications Technology</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
+    <polintel:location>Huzhou (Deqing)</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>SharePoint Online/M365 developer</title>
       <link>https://careers.un.org/jobSearchDescription/278771?language=en</link>
@@ -409,14 +401,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278771?language=en</guid>
       <category>General</category>
       <dc:creator>Office of Information and Communications Technology</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>SENIOR PROGRAMME MANAGEMENT OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/278838?language=en</link>
-      <description>Level : P-5 Job ID : 278838 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : Economic Commission for Latin America and the Caribbean Duty Station : SANTIAGO Staffing Exercise : undefined Posted Date : 06/09/2026 00:00:00 AM (New York time) Deadline : 07/23/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278838?language=en</guid>
-      <category>General</category>
-      <dc:creator>Economic Commission for Latin America and the Caribbean</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>PhD Research Fellowship in Political Science</title>
@@ -441,14 +425,6 @@ https://www.westminsterforumprojects.co.uk/</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/277808?language=en</guid>
       <category>General</category>
       <dc:creator>Office of Counter-Terrorism</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Intern Infographie/Design, Photographie/Vidéo</title>
-      <link>https://careers.un.org/jobSearchDescription/280704?language=en</link>
-      <description>Level : I-1 Job ID : 278755 Job Network : Job Family : Public Information Department/Office : Department of Global Communications Duty Station : ALGIERS Staffing Exercise : undefined Posted Date : 06/11/2026 00:00:00 AM (New York time) Deadline : 06/25/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/280704?language=en</guid>
-      <category>General</category>
-      <dc:creator>Department of Global Communications</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Consultant (HPMP desk study)</title>
@@ -2495,37 +2471,6 @@ https://www.electoralcommission.org.uk/</description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Electoral Commission</dc:creator>
     <polintel:location>Cardiff</polintel:location><polintel:closingDate>2026-08-24</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
-    <item>
-      <title>Junior Programme Manager - Health and Social Care</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99901</link>
-      <description>Overview of techUK’s Health &amp; Social Care Programme:
-With health and care systems around the globe facing increasing pressures, the use of digital technology has never been more important. techUK’s Health &amp; Social Care Programme supports the digital health and care supplier community, representing our members to the public sector and fostering a vibrant ecosystem. techUK helps members navigate the complex space of digital health and care in the UK and ensure our NHS and care services are prepared for the challenges of the future.
-Role Purpose:
-The purpose of this role is to support techUK’s Health &amp; Social Care Programme team, as well as developing key workstreams independently.
-This position provides an opportunity to work with senior level representatives from across the health, social care and life sciences sectors, to support the delivery of policy and market engagement opportunities for our members. This role would suit an articulate and enthusiastic learner, with the ability to support the development of new policy and the delivery of projects and events. The role will encompass the development the programme’s work in health, social care and life sciences, exploring the role of digital health and technology in improving these sectors. Experience organising events, analysing policy, or working with one or more of the following is desirable: the UK technology sector, NHS, government, or policy makers.
-The successful candidate will demonstrate the capability to work across multiple workstreams, engaging with a variety of industry and government stakeholders, and will develop a good understanding of the opportunities and challenges facing the health technology sector.
-Key Responsibilities:
-Support the development, implementation and communication of techUK activities to deliver value for member companies;
-Support the development, implementation and management of the programme’s work across the health and social care sectors, developing expertise in key areas;
-Support with the set-up and execution of in-person and virtual events, briefings and meetings;
-Promote techUK activities through written insights, social media engagement and PR/media activities;
-Support the team to bring new companies into techUK membership.
-A full version of the job role can be found on our website linked below.
-Closing Date
-: 22 August 2026
-Interview/Start Dates
-Candidates who are shortlisted will be contacted promptly to arrange an interview.
-Application Details
-Apply for the role by clicking on the below link and submitting your CV for consideration:
-https://careers.techuk.org/postings/2f302aa5-1681-4d4e-9685-c24545c6f0ee?utm_medium=job_board&amp;utm_source=W4MP
-Website
-:
-http://techuk.org</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99901</guid>
-      <category>General</category>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>techUK</dc:creator>
-    <polintel:location>London</polintel:location><polintel:closingDate>2026-08-22</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Senior Communications Officer</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99902</link>
