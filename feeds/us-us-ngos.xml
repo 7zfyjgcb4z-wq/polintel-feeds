@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Aug 2026 16:19:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 16:31:07 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-284/</link>
@@ -78,24 +78,6 @@
       <category>US NGOs &amp; Advocacy</category>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Development Operations &amp; Administrative Coordinator</title>
-      <link>https://www.foundationlist.org/job-details/development-operations-administrative-coordinator/</link>
-      <description>Who We Are Kakenya’s Dream invests in girls and young women from rural communities as agents of change through education, health, and skills development. Guided by the belief that every girl deserves the opportunity to realize her full potential, we</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-operations-administrative-coordinator/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Human Resources Benefits and Risk Manager</title>
-      <link>https://www.foundationlist.org/job-details/benefits-and-risk-manager-human-resources/</link>
-      <description>Position Title: Benefits &amp;amp;amp; Risk Manager Non Exempt Location: District Office Direct Supervisor: Director of Human Resources Contracted Length Term: 12 month position, 252 days Salary Schedule: A competitive salary commensurate with educatio</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/benefits-and-risk-manager-human-resources/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Director, Federal Policy</title>
       <link>https://www.foundationlist.org/job-details/director-federal-policy-2/</link>
@@ -1056,6 +1038,15 @@ info@elmuseolatino.org</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/operations-manager-41/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Program Coordinator, High School Workforce Pathways</title>
+      <link>https://www.foundationlist.org/job-details/program-coordinator-high-school-workforce-pathways-2/</link>
+      <description>Position Summary Urban Alliance Baltimore is seeking an experienced youth development professional to serve as a Program Coordinator supporting high school students participating in paid internship and apprenticeship pathways. The</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/program-coordinator-high-school-workforce-pathways-2/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
