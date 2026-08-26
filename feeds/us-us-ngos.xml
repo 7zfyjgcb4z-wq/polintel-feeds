@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 16:31:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 16:45:36 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-286/</link>
@@ -29,9 +29,9 @@
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Executive Director</title>
-      <link>https://www.foundationlist.org/job-details/executive-director-402-491/</link>
+      <link>https://www.foundationlist.org/job-details/executive-director-402-492/</link>
       <description>Executive Director Temple Israel Omaha, Nebraska &amp;amp;nbsp; The Moran Company [https://morancompany.com/] is pleased to partner with Temple Israel to recruit the organization's next Executive Director. &amp;amp;nbsp; Founded in January 1871 as</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/executive-director-402-491/</guid>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/executive-director-402-492/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
@@ -78,15 +78,6 @@
       <category>US NGOs &amp; Advocacy</category>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Director, Federal Policy</title>
-      <link>https://www.foundationlist.org/job-details/director-federal-policy-2/</link>
-      <description>How to Apply To be considered for this position, all applicants must apply through our official recruitment website using the link provided below. &amp;amp;nbsp; Applications submitted through Indeed will not be reviewed or considered, and we will n</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-federal-policy-2/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Senior Director of Communications</title>
       <link>https://www.foundationlist.org/job-details/senior-director-of-communications-4/</link>
@@ -1076,5 +1067,32 @@ info@elmuseolatino.org</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>New York, NY (Midtown Manhattan) Compensation: $</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Development and Grants Director</title>
+      <link>https://www.foundationlist.org/job-details/development-and-grants-director/</link>
+      <description>Development and Grants Director About the Indiana Blind Children's Foundation The Indiana Blind Children's Foundation (IBCF) is the philanthropic partner of the Indiana School for the Blind and Visually Impaired (ISBVI). Through fundraising, co</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-and-grants-director/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Executive and Volunteer Support Staff</title>
+      <link>https://www.foundationlist.org/job-details/executive-and-volunteer-support-staff/</link>
+      <description>The GreenHouse is a faithbased nonprofit dedicated to nurturing the emotional, spiritual, intellectual, and physical development of youth in our community. We are seeking an organized, relational, and mission aligned Executive and Volunteer Support S</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/executive-and-volunteer-support-staff/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Controller - Own the financial infrastructure behind $300M+ in annual global charitable giving</title>
+      <link>https://www.foundationlist.org/job-details/controller-own-the-financial-infrastructure-behind-300m-in-annual-global-charitable-giving/</link>
+      <description>The hiring organization is a donor-advised fund sponsor that enables U.S. donors to support charitable causes internationally. They hold approximately $210 million in assets, process roughly $290 - $310 million in gifts and grants annually across sev</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/controller-own-the-financial-infrastructure-behind-300m-in-annual-global-charitable-giving/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
