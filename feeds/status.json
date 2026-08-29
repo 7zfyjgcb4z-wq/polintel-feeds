@@ -1,109 +1,39 @@
 {
-  "last_run": "2026-08-29T11:47:24Z",
-  "country": "uk",
-  "total_active_jobs": 1810,
-  "new_jobs_found": 73,
-  "sources_checked": 26,
-  "sources_succeeded": 26,
+  "last_run": "2026-08-29T13:14:11Z",
+  "country": "brussels",
+  "total_active_jobs": 159,
+  "new_jobs_found": 0,
+  "sources_checked": 8,
+  "sources_succeeded": 8,
   "sources_failed": 0,
-  "sources_disabled": 99,
-  "relevance_filtered": 47,
-  "descriptions_enriched": 13,
-  "feeds_generated": 8,
-  "run_duration_seconds": 1258.4,
+  "sources_disabled": 20,
+  "relevance_filtered": 1,
+  "descriptions_enriched": 1,
+  "feeds_generated": 6,
+  "run_duration_seconds": 58.2,
   "failed_sources": [],
   "per_source": [
     {
-      "name": "Civil Service Jobs",
+      "name": "EuroBrussels",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 250,
-      "jobs_after_relevance_filter": 229,
+      "jobs_found": 51,
+      "jobs_after_relevance_filter": 51,
       "descriptions_enriched": 0,
-      "duration_seconds": 1079.1,
-      "notes": "Description enrichment disabled for this source"
-    },
-    {
-      "name": "NICS",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 13,
-      "jobs_after_relevance_filter": 11,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.9,
+      "duration_seconds": 49.0,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
-      "name": "LGA Jobs",
+      "name": "EU Training Jobs",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 1,
-      "jobs_after_relevance_filter": 1,
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 5.8,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+      "duration_seconds": 2.8
     },
     {
-      "name": "CharityJob",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 385,
-      "jobs_after_relevance_filter": 368,
-      "descriptions_enriched": 12,
-      "duration_seconds": 85.7
-    },
-    {
-      "name": "jobs.ac.uk",
-      "scraper_type": "dedicated",
-      "status": "success",
-      "jobs_found": 62,
-      "jobs_after_relevance_filter": 57,
-      "descriptions_enriched": 0,
-      "duration_seconds": 13.9,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
-    },
-    {
-      "name": "FCA",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 22,
-      "jobs_after_relevance_filter": 21,
-      "descriptions_enriched": 0,
-      "duration_seconds": 21.3,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "ICO",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 1,
-      "jobs_after_relevance_filter": 1,
-      "descriptions_enriched": 0,
-      "duration_seconds": 2.2,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "Bank of England",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 27,
-      "jobs_after_relevance_filter": 27,
-      "descriptions_enriched": 0,
-      "duration_seconds": 20.7,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "Tony Blair Institute",
-      "scraper_type": "ats_auto",
-      "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 5,
-      "descriptions_enriched": 0,
-      "duration_seconds": 5.6,
-      "notes": "Descriptions already substantive \u2014 enrichment skipped"
-    },
-    {
-      "name": "ECFR London",
+      "name": "ECFR",
       "scraper_type": "ats_auto",
       "status": "success",
       "jobs_found": 1,
@@ -113,111 +43,36 @@
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
-      "name": "E3G",
+      "name": "German Marshall Fund",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 5,
-      "jobs_after_relevance_filter": 5,
+      "jobs_found": 8,
+      "jobs_after_relevance_filter": 8,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.6,
+      "duration_seconds": 0.2,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
-      "name": "SEC Newgate",
+      "name": "International IDEA",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
+      "jobs_found": 2,
+      "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.6
+      "duration_seconds": 0.4,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
-      "name": "National Audit Office",
+      "name": "European External Action Service",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 3,
-      "jobs_after_relevance_filter": 3,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.9,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+      "jobs_found": 36,
+      "jobs_after_relevance_filter": 35,
+      "descriptions_enriched": 1,
+      "duration_seconds": 0.4
     },
     {
-      "name": "IPPR",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.5
-    },
-    {
-      "name": "Policy Exchange",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.2
-    },
-    {
-      "name": "Onward",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.6
-    },
-    {
-      "name": "NEF",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 4,
-      "jobs_after_relevance_filter": 4,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.7,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
-    },
-    {
-      "name": "Demos",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.2
-    },
-    {
-      "name": "Liberal Democrats",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 11,
-      "jobs_after_relevance_filter": 11,
-      "descriptions_enriched": 0,
-      "duration_seconds": 1.6,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
-    },
-    {
-      "name": "SNP",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.7
-    },
-    {
-      "name": "Green Party",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 4,
-      "jobs_after_relevance_filter": 4,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
-    },
-    {
-      "name": "Co-operative Party",
+      "name": "European Policy Centre",
       "scraper_type": "selector",
       "status": "success",
       "jobs_found": 0,
@@ -226,41 +81,13 @@
       "duration_seconds": 0.1
     },
     {
-      "name": "Ellwood Atfield",
+      "name": "College of Europe Careers",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 19,
-      "jobs_after_relevance_filter": 19,
-      "descriptions_enriched": 1,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "Amnesty International UK",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 6,
-      "jobs_after_relevance_filter": 6,
+      "jobs_found": 3,
+      "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.4,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
-    },
-    {
-      "name": "TUC",
-      "scraper_type": "selector",
-      "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.3
-    },
-    {
-      "name": "W4MP",
-      "scraper_type": "rss_feed",
-      "status": "success",
-      "jobs_found": 147,
-      "jobs_after_relevance_filter": 146,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.8,
+      "duration_seconds": 0.6,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     }
   ]
