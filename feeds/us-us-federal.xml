@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2026 19:06:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 19:01:13 +0000</lastBuildDate>
     <item>
       <title>PUBLIC AFFAIRS SPECIALIST</title>
       <link>https://www.usajobs.gov:443/job/850129300</link>
@@ -193,14 +193,6 @@
       <category>US Federal Government</category>
       <dc:creator>Office of the Director of National Intelligence</dc:creator>
     <polintel:location>Bethesda, Maryland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-03</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Insurance Specialist</title>
-      <link>https://www.usajobs.gov:443/job/881283600</link>
-      <description>The incumbent serves as a Senior Insurance Specialist with the Program Administration Division, including, but not limited to, the Policy and Procedures staff in the Insurance Service, Philadelphia, PA, dealing with both the Veterans Affairs (VA) - administered and supervised insurance programs. | Salary: $117,284–$152,471 PA | Grade: GS</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/881283600</guid>
-      <category>US Federal Government</category>
-      <dc:creator>Veterans Benefits Administration</dc:creator>
-    <polintel:location>Philadelphia, Pennsylvania</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-08-29</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Director, Officer and Enlisted Personnel Management</title>
       <link>https://www.usajobs.gov:443/job/881206900</link>
@@ -1485,5 +1477,13 @@ Merit promotion applicants must meet applicable time-in-grade requirements to be
       <category>US Federal Government</category>
       <dc:creator>HQ USAF and Support Elements</dc:creator>
     <polintel:location>Pentagon, Arlington, Virginia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-09</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Management and Program Analyst</title>
+      <link>https://www.usajobs.gov:443/job/882357300</link>
+      <description>WHAT IS LARGE BUSINESS &amp; INTERNATIONAL? A description of the business units can be found at: https://www.jobs.irs.gov/about/who/business-divisions Position to be filled in following area: LBI - Director Withholding Exchange/International Individual Compliance - Withholding Exchange and International | Salary: $89,508–$137,128 PA | Grade: GS</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/882357300</guid>
+      <category>US Federal Government</category>
+      <dc:creator>Internal Revenue Service</dc:creator>
+    <polintel:location>Anchorage, Alaska</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-02</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>

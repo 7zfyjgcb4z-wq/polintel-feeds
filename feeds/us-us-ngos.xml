@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2026 19:06:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 19:01:13 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-286/</link>
@@ -85,15 +85,6 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/grants-manager-79/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Development Senior Manager</title>
-      <link>https://www.foundationlist.org/job-details/development-senior-manager/</link>
-      <description>The Development Senior Manager (DSM) at Breakthrough T1D is integral in the day-to-day execution of integrated fundraising efforts to support our organizational strategy and mission. Their relationships with constituents and donors on behalf of Break</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-senior-manager/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
@@ -1058,5 +1049,14 @@ info@elmuseolatino.org</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Front-end developer</title>
+      <link>https://www.foundationlist.org/job-details/front-end-developer/</link>
+      <description>&amp;amp;nbsp; POSITION TITLE: Pro Bono Front-End PWA Developer – Audio-Guided Payment Kiosk (Haiti Solar Initiative) ORGANIZATION TYPE: Non-Profit / International Development &amp;amp;amp; Renewable Energy EMPLOYMENT / POSITION TYPE: Pro Bono / Volunteer (</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/front-end-developer/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>Haiti</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
