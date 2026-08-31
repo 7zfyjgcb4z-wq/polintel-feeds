@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Aug 2026 19:01:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 21:17:54 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-286/</link>
@@ -105,15 +105,6 @@
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>Lakeland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Non-profit Board Member</title>
-      <link>https://www.foundationlist.org/job-details/non-profit-board-member/</link>
-      <description>High Desert Heritage and Research (HDHR) is growing and we are expanding our board to meet the needs of our ambitious organization. We are looking for four motivated people who can help us in the next chapter of our organization. &amp;amp;nbsp; Our Missi</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/non-profit-board-member/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Governance &amp; Foundation Operations Coordinator</title>
       <link>https://www.foundationlist.org/job-details/governance-foundation-operations-coordinator/</link>
@@ -1058,5 +1049,41 @@ info@elmuseolatino.org</description>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>Haiti</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>President &amp; Chief Executive Officer</title>
+      <link>https://www.foundationlist.org/job-details/president-chief-executive-officer-10/</link>
+      <description>Mission Statement: We provide essential services that remove barriers, strengthen families, and promote healing when children need healthcare. Purpose and Scope The President &amp;amp;amp; Chief Executive Officer (CEO) oversees a three-person managemen</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/president-chief-executive-officer-10/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Grants &amp; Operations Manager</title>
+      <link>https://www.foundationlist.org/job-details/grants-operations-manager/</link>
+      <description>ABOUT THE WOODCOCK FOUNDATION The Woodcock Foundation is a family foundation committed to working toward a more equitable and sustainable world through strengthening our democracy, advancing educational and economic opportunity, and protecting our</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/grants-operations-manager/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Director Growth &amp; Gift and Estate Planning</title>
+      <link>https://www.foundationlist.org/job-details/senior-director-growth-gift-and-estate-planning/</link>
+      <description>Thank you for your interest in joining the Coastal Community Foundation team. Coastal Community Foundation of South Carolina, a 501(c)(3) nonprofit organization, is an Equal Opportunity Employer with offices in North Charleston and Beaufort, as well</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-director-growth-gift-and-estate-planning/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>North Charleston</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Vice President of Finance and Operations</title>
+      <link>https://www.foundationlist.org/job-details/vice-president-of-finance-and-operations-3/</link>
+      <description>ABOUT FOREST SOCIETY OF MAINE Forest Society of Maine (FSM) is a statewide land trust with the mission to conserve Maine's forestlands to sustain their ecological, economic, cultural and recreational values. We have conserved approximately one mil</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/vice-president-of-finance-and-operations-3/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>

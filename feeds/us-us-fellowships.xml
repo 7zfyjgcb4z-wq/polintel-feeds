@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Aug 2026 19:01:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 21:17:54 +0000</lastBuildDate>
     <item>
       <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
       <link>https://www.usajobs.gov:443/job/856552700</link>
@@ -1510,5 +1510,21 @@ For foreign med</description>
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Los Angeles, California</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician (Regular Ft)</title>
+      <link>https://www.usajobs.gov:443/job/882896700</link>
+      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $400,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/882896700</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Salt Lake City, Utah</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Section Chief of Pain Medicine (Physical Integrated Medicine Service)</title>
+      <link>https://www.usajobs.gov:443/job/879147900</link>
+      <description>This position is eligible for the Education Debt Reduction Program, a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000) &amp; eligi | Salary: $200,000–$400,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/879147900</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Charleston, South Carolina</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
