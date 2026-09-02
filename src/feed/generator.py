@@ -42,7 +42,6 @@ CATEGORY_LABELS = {
     "eu-affairs": "EU Affairs",
     "international-orgs": "International Organisations",
     # US categories
-    "us-federal": "US Federal Government",
     "us-congress": "US Congress",
     "us-think-tanks": "US Think Tanks",
     "us-government-affairs": "US Government Affairs",
@@ -76,7 +75,6 @@ FEED_META: dict[str, dict[str, str]] = {
         "international-orgs": "International Organisation Jobs (Brussels/NATO)",
     },
     "us": {
-        "us-federal": "US Federal Government Jobs",
         "us-congress": "US Congress & Capitol Hill Jobs",
         "us-think-tanks": "US Think Tank Jobs",
         "us-government-affairs": "US Government Affairs & Lobbying Jobs",
@@ -139,7 +137,7 @@ COUNTRY_CATEGORIES: dict[str, list[str]] = {
         "fellowships", "international-orgs",
     ],
     "us": [
-        "us-federal", "us-congress", "us-think-tanks", "us-government-affairs",
+        "us-congress", "us-think-tanks", "us-government-affairs",
         "us-ngos", "us-fellowships", "us-campaigns",
     ],
     # EU national regions

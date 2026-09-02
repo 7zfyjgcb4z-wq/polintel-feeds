@@ -11,36 +11,6 @@ sources:
 
   # ── Tier 1: Dedicated scrapers ─────────────────────────────────────────────
 
-  - name: "USAJobs Fellowships"
-    url: "https://data.usajobs.gov/api/Search"
-    country: us
-    category: us-fellowships
-    scraper: dedicated
-    module: usajobs
-    language: en
-    partisan_lean: nonpartisan
-    enabled: true
-    keyword_queries:
-      - "presidential management fellow"
-      - "policy fellowship"
-      - "congressional fellowship"
-      - "government fellowship"
-      - "pathways intern"
-    total_cap: 200
-    notes: "Uses USAJobs Keyword API parameter (not JobCategoryCode) to find fellowship programs: PMF, policy fellowships, congressional fellowships, Pathways internships. Keyword mode bypasses the standard relevance post-filter since the query term is itself the signal. Runs before the main USAJobs source so that fellowship jobs are categorised us-fellowships if the same job_id appears in both queries. Requires USAJOBS_API_KEY and USAJOBS_USER_AGENT."
-
-  - name: "USAJobs"
-    url: "https://data.usajobs.gov/api/Search"
-    country: us
-    category: us-federal
-    scraper: dedicated
-    module: usajobs
-    schedule: "*/12"
-    language: en
-    partisan_lean: nonpartisan
-    enabled: true
-    notes: "Official federal government REST API. Free developer key from developer.usajobs.gov. Hybrid filter: query by series codes (0110, 0130, 0131, 0301, 0340, 0343, 1035), keyword post-filter, hard cap 500 per run. Requires env vars USAJOBS_USER_AGENT and USAJOBS_API_KEY."
-
   - name: "House Employment Bulletin"
     url: "https://www.house.gov/employment/positions-with-members-and-committees"
     country: us
@@ -211,7 +181,7 @@ sources:
     enrich_description: true
     partisan_lean: nonpartisan
     enabled: true
-    notes: "Static HTML listing page. Currently shows 'no open positions' — federal/civil service roles are routed to USAJobs externally. Keep enabled: page is structurally scrapable and will return jobs when hiring opens. wilsoncenter.org/about/careers redirects here."
+    notes: "Static HTML listing page. Currently shows 'no open positions' — federal/civil service roles are advertised via the federal government jobs portal. Keep enabled: page is structurally scrapable and will return jobs when hiring opens. wilsoncenter.org/about/careers redirects here."
 
   - name: "New America Careers"
     url: "https://newamerica.applytojob.com/apply"
