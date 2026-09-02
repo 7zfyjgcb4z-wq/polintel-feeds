@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 19:10:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 19:11:15 +0000</lastBuildDate>
     <item>
       <title>Physician (Radiologist) - Body Imaging/Chest Imaging</title>
       <link>https://www.usajobs.gov:443/job/856552700</link>
@@ -97,14 +97,6 @@
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Kansas City, Missouri</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-11-11</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
-      <title>Physician, Chief, Imaging Service with EDRP &amp; Recruitment/Relocation Incentive</title>
-      <link>https://www.usajobs.gov:443/job/868625100</link>
-      <description>This position is eligible for the Education Debt Reduction Program (EDRP), a student loan payment reimbursement program. You must meet specific eligibility requirements per VHA policy and submit your EDRP application within four months of appointment. Program Approval, award amount (up to $200,000)  | Salary: $399,999–$400,000 PA | Grade: VM</description>
-      <guid isPermaLink="false">https://www.usajobs.gov:443/job/868625100</guid>
-      <category>US Fellowships</category>
-      <dc:creator>Veterans Health Administration</dc:creator>
-    <polintel:location>San Antonio, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-01</polintel:closingDate><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Physician (Pulmonary Medicine)</title>
       <link>https://www.usajobs.gov:443/job/869156300</link>
@@ -1572,5 +1564,21 @@ Lifting up to 35 pounds, intermittently; moderate carrying (15-35 pounds), inter
       <category>US Fellowships</category>
       <dc:creator>Veterans Health Administration</dc:creator>
     <polintel:location>Manchester, New Hampshire</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Physician- Assistant Chief of Ambulatory Care Operations</title>
+      <link>https://www.usajobs.gov:443/job/883115000</link>
+      <description>The incumbent serves as the Assistant Chief of Ambulatory Care Operations Executive at the Michael E. DeBakey VA Medical Center (MEDVAMC), one of the most complex IA VA facilities in the nation with eleven associated CBOCs, affiliated with Baylor College of Medicine, and member of the Texas Medical  | Salary: $250,000–$350,000 PA | Grade: VM</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/883115000</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Veterans Health Administration</dc:creator>
+    <polintel:location>Houston, Texas</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-14</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Professor of International Security</title>
+      <link>https://www.usajobs.gov:443/job/883151300</link>
+      <description>The Center for Strategy and Technology seeks a Professor of International Security. This role involves developing graduate curricula and teaching military competition/strategy for the USAF Chief of Staff Fellowship. Responsibilities include handling classified material, funded travel, project advisi | Salary: $79,039–$123,440 PA | Grade: AD</description>
+      <guid isPermaLink="false">https://www.usajobs.gov:443/job/883151300</guid>
+      <category>US Fellowships</category>
+      <dc:creator>Air Education and Training Command</dc:creator>
+    <polintel:location>Maxwell AFB, Alabama</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:closingDate>2026-09-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
