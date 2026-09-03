@@ -31,7 +31,6 @@ These sources overlap with current config; do not add to the new pipeline.
 | UK Civil Service Fast Stream | "Civil Service Fast Stream" | sources.yaml | disabled (JS/React) |
 | UK Parliament careers | "UK Parliament" | sources.yaml | disabled (403) |
 | Working for an MP | Deduplicated to W4MP RSS feed | sources.yaml | — |
-| USAJOBS | "USAJobs" + "USAJobs Fellowships" | sources-us.yaml | enabled |
 | UN careers / Inspira | "UN Job Feed" RSS | sources.yaml | disabled |
 
 ---

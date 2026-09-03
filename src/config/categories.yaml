@@ -114,16 +114,6 @@ categories:
 
   # ── US categories ────────────────────────────────────────────────────────────
 
-  us-federal:
-    label: "US Federal Government"
-    feed: "us-us-federal"
-    keywords:
-      - federal agency
-      - usajobs
-      - executive branch
-      - department of state
-      - department of defense
-
   us-congress:
     label: "US Congress"
     feed: "us-us-congress"

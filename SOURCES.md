@@ -193,8 +193,6 @@ Moved from sources-internship-graduate.yaml. Intern-only filter (require_interns
 
 | Source | Category | Scraper | Partisan Lean | Notes |
 |--------|----------|---------|---------------|-------|
-| USAJobs Fellowships | us-fellowships | dedicated | nonpartisan | Keyword API mode: PMF, policy/congressional/government fellowships, Pathways internships. Runs before main USAJobs to win category dedup. Requires USAJOBS_API_KEY + USAJOBS_USER_AGENT |
-| USAJobs | us-federal | dedicated | nonpartisan | Series-code mode (0110, 0130, 0131, 0301, 0340, 0343, 1035) + keyword post-filter. Cap 500/run. Requires USAJOBS_API_KEY + USAJOBS_USER_AGENT |
 | House Employment Bulletin | us-congress | dedicated | unknown | Consumes dwillis/house-jobs JSON (MIT). Fetches 4 most recent HVAPS PDFs converted to structured JSON by Derek Willis. Staleness alert if upstream not updated in >14 days. GITHUB_TOKEN optional (<5 calls/run) |
 | Political Job Hunt | us-campaigns | dedicated | unknown | Political Wire job board. Sitemap-driven; JSON-LD on individual pages backfills org/location/closing date via enricher |
 | Brookings Institution Careers | us-think-tanks | selector | centre-left | iCIMS portal |
@@ -203,7 +201,7 @@ Moved from sources-internship-graduate.yaml. Intern-only filter (require_interns
 | Heritage Foundation Careers | us-think-tanks | selector | right | JazzHR (applytojob.com) board |
 | Carnegie Endowment for International Peace | us-think-tanks | selector | nonpartisan | isolved Talent Acquisition ATS; same structure as JazzHR |
 | Hoover Institution Careers | us-think-tanks | selector | right | Stanford centralised careers portal (Taleo). macOS LibreSSL causes TLS error; works on Ubuntu/CI |
-| Wilson Center Careers | us-think-tanks | selector | nonpartisan | Currently no vacancies; federal roles route to USAJobs externally |
+| Wilson Center Careers | us-think-tanks | selector | nonpartisan | Currently no vacancies; federal roles are advertised via the federal government jobs portal |
 | New America Careers | us-think-tanks | selector | centre-left | JazzHR board |
 | Third Way Careers | us-think-tanks | selector | centre-left | Recruitee ATS; styled-component class names may change after platform updates |
 | Public Affairs Council Jobs | us-government-affairs | selector | nonpartisan | Multi-employer board — org extracted per-listing, not org_static. Stage 3 (2026-07-03): method unchanged (same page, same rate); extraction now scopes to `article.pa_jobs` and strips the TCF consent banner, with organisation/location/posted date read from the visible labelled fields instead of page chrome. |

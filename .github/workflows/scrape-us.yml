@@ -32,8 +32,6 @@ jobs:
       - name: Run US scrapers
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
-          USAJOBS_USER_AGENT: ${{ secrets.USAJOBS_USER_AGENT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -m src.cli run --country us
         timeout-minutes: 25

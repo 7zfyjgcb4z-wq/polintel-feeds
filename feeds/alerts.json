@@ -1,18 +1,16 @@
 {
-  "generated_at": "2026-08-22T13:32:58Z",
+  "generated_at": "2026-09-02T03:09:03Z",
   "alerts": [
     {
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 117,
-      "message": "House Employment Bulletin upstream data source has not been updated in 117 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+      "upstream_days_since_update": 128,
+      "message": "House Employment Bulletin upstream data source has not been updated in 128 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
     }
   ],
   "_tracking": {
     "consecutive_failures": {
-      "USAJobs Fellowships": 0,
-      "USAJobs": 0,
       "House Employment Bulletin": 0,
       "Political Job Hunt": 0,
       "RAND Corporation Careers": 0,

@@ -34,7 +34,6 @@ Live feeds at `https://7zfyjgcb4z-wq.github.io/polintel-feeds/`:
 
 | Feed | File |
 |------|------|
-| Federal Government | `us-us-federal.xml` |
 | Congress & Capitol Hill | `us-us-congress.xml` |
 | Think Tanks | `us-us-think-tanks.xml` |
 | Government Affairs & Lobbying | `us-us-government-affairs.xml` |
@@ -166,8 +165,6 @@ UK and Brussels feeds do not include this element. The field is omitted entirely
 | Variable | Required for | Description |
 |----------|-------------|-------------|
 | `ANTHROPIC_API_KEY` | UK Tier 2 generic scrapers | Claude API key for AI-based extraction. Not needed if running `--skip-ai`. |
-| `USAJOBS_API_KEY` | US federal jobs (`us-us-federal.xml`, `us-us-fellowships.xml`) | Free API key from [developer.usajobs.gov](https://developer.usajobs.gov/APIRequest/Index). |
-| `USAJOBS_USER_AGENT` | US federal jobs | Registrant email address, passed as the USAJobs API `User-Agent`. |
 | `GITHUB_TOKEN` | US Congress feed (`us-us-congress.xml`) | Passed to the GitHub API when fetching `dwillis/house-jobs` JSON. Available automatically in GitHub Actions; optional locally (unauthenticated calls are sufficient for the small number of requests made). |
 
 ## Running locally
@@ -187,7 +184,7 @@ python3 -m src.cli run --country uk
 # Run Brussels scrapers
 python3 -m src.cli run --country brussels
 
-# Run US scrapers (requires USAJOBS_API_KEY + USAJOBS_USER_AGENT)
+# Run US scrapers
 python3 -m src.cli run --country us
 
 # Run EU national regions
@@ -260,7 +257,6 @@ Output: `data/jobs.db` (SQLite), `feeds/` (RSS XML files), `feeds/status.json`, 
 
 | Slug | Description |
 |------|-------------|
-| `us-federal` | Federal government jobs via USAJobs API |
 | `us-congress` | Congressional member and committee office jobs (HVAPS bulletin) |
 | `us-think-tanks` | Washington DC think tanks and policy institutes |
 | `us-government-affairs` | Government affairs, lobbying, and public affairs firms |
@@ -298,8 +294,6 @@ Results are committed back to the repository with `[skip ci]` in the message and
 | Secret | Used by |
 |--------|---------|
 | `ANTHROPIC_API_KEY` | `scrape-uk.yml`, `scrape-eu-national.yml`, `scrape-pan-eu.yml` |
-| `USAJOBS_API_KEY` | `scrape-us.yml` |
-| `USAJOBS_USER_AGENT` | `scrape-us.yml` |
 
 `GITHUB_TOKEN` is provided automatically by GitHub Actions and does not need to be set as a secret.
 
