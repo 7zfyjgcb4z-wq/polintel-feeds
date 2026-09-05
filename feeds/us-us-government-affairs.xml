@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 18:46:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 17:52:36 +0000</lastBuildDate>
     <item>
       <title>Senior Director of Federal Relations</title>
       <link>https://pac.org/job/senior-director-of-federal-relations</link>
@@ -37517,7 +37517,7 @@ Learn More</description>
     <polintel:location>Bethesda, MD</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Managing Director and Head of Brussels Office</title>
-      <link>https://pac.org/job/managing-director-and-head-of-brussels-office</link>
+      <link>https://pac.org/job/managing-director-and-head-of-brussels-office-2</link>
       <description>Managing Director and Head of Brussels Office
 Organization: Investment Company Institute (ICI)
 Location: Brussels, BE
@@ -37614,14 +37614,14 @@ Back to Jobs
 Government Relations &amp; Policy Conference
 We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
 Learn More</description>
-      <guid isPermaLink="false">https://pac.org/job/managing-director-and-head-of-brussels-office</guid>
+      <guid isPermaLink="false">https://pac.org/job/managing-director-and-head-of-brussels-office-2</guid>
       <category>US Government Affairs</category>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Investment Company Institute (ICI)</dc:creator>
     <polintel:location>Brussels, BE</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Director, Public Affairs</title>
-      <link>https://pac.org/job/director-public-affairs-36</link>
+      <link>https://pac.org/job/director-public-affairs-39</link>
       <description>Director, Public Affairs
 Organization: Investment Company Institute (ICI)
 Location: Washington, DC
@@ -37712,7 +37712,7 @@ Back to Jobs
 Government Relations &amp; Policy Conference
 We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
 Learn More</description>
-      <guid isPermaLink="false">https://pac.org/job/director-public-affairs-36</guid>
+      <guid isPermaLink="false">https://pac.org/job/director-public-affairs-39</guid>
       <category>US Government Affairs</category>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Investment Company Institute (ICI)</dc:creator>
@@ -97058,5 +97058,2037 @@ Learn More</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>American Academy of Dermatology (AAD)</dc:creator>
     <polintel:location>Washington, DC</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Model Policy Manager</title>
+      <link>https://pac.org/job/model-policy-manager</link>
+      <description>Model Policy Manager
+Organization: OpenAI
+Location: San Francisco, CA
+Date Posted: 09/05/2026
+## About the Team
+The Safety Systems team is at the forefront of OpenAI’s mission to build and deploy safe AGI, driving our commitment to AI safety and fostering a culture of trust and transparency.
+The Model Policy team aligns model behavior with desired human values and norms. We co‑design policy with models and for models by driving rapid policy taxonomy iteration based on data and defining evaluation criteria for foundational models’ ability to reason about safety. Key focus areas include: catastrophic risk, mental health, teen safety, and multimodal safety.
+## About the Role
+Providing access to frontier AI systems raises complex questions around dual‑use science and catastrophic risk. How should models respond to requests involving chemical synthesis, biological experimentation, or pathogen research? Where is the boundary between legitimate scientific inquiry and information that could enable misuse? How do we design policies that meaningfully reduce risk without unnecessarily restricting beneficial research?
+This is a senior role in which you’ll help shape policy creation and development at OpenAI for addressing biological and chemical risks. You will develop structured policy frameworks and taxonomies to guide safe model behavior. This role sits at the intersection of biosecurity expertise, AI safety research, and policy design. You will help ensure that frontier AI systems can support beneficial life sciences research, such as drug discovery, public health, and biosafety, while reducing the risk that these capabilities could be misused.
+This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.
+## In this role, you’ll:
+– Design and maintain model policies governing chemical and biological risk, defining how models should safely handle dual‑use scenarios.
+– Develop structured taxonomies of chemical and biological risk that inform model training data, evaluation benchmarks, and safety monitoring systems.
+– Translate biosecurity and chemical security expertise into actionable model behavior, working closely with research and engineering teams to operationalize policy in training and evaluation pipelines.
+– Develop a broad range of subject matter expertise while maintaining agility across topics.
+– Identify emerging risk vectors where frontier AI capabilities could meaningfully lower barriers to harmful activity and develop mitigation strategies.
+– Engage with internal and external subject‑matter experts in biosecurity, biodefense, and chemical safety to ensure policies reflect real‑world risk landscapes.
+## You might thrive in this role if you:
+– Have strong domain expertise in chemistry, biology, biosecurity, or related fields and are motivated to translate that expertise into principled, operational policies that scale to Frontier AI systems.
+– Have experience researching LLMs, ML, AI, tech policy, moral reasoning, and/or enjoy classification problems.
+– Have extensive experience defining, refining, and enforcing policies for ML models across training, evaluation, and deployment.
+– Are comfortable navigating ambiguous, high‑stakes problem spaces, balancing risk reduction with the benefits of scientific openness and innovation.
+– Can reason about the benefits and risks of open‑ended problem spaces, generate novel approaches under ambiguity, and take full ownership of end‑to‑end solutions from concept through execution.
+– Have experience working at the intersection of science, policy, or emerging technology, such as in life sciences research, national security, risk analysis, technology policy, or AI safety.
+## Most relevant publications:
+– Introducing HealthBench
+– Preparing for future AI capabilities in biology
+– Safety evaluations hub
+– OpenAI GPT5 System Card
+– Evaluating Fairness in ChatGPT
+– Improving Model Safety Behavior with Rule‑Based Rewards
+– OpenAI Model Spec
+## About OpenAI
+OpenAI is an AI research and deployment company dedicated to ensuring that general‑purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.
+We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.
+For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement.
+Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US‑based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non‑public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.
+To notify OpenAI that you believe this job posting is non‑compliant, please submit a report. No response will be provided to inquiries unrelated to job posting compliance.
+OpenAI Global Applicant Privacy Policy
+At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.
+## Compensation
+$207K – $295K + Offers Equity
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Leveraging Your Leadership for PAC Success
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Webinar: International Membership Orientation
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/model-policy-manager</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>OpenAI</dc:creator>
+    <polintel:location>San Francisco, CA</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Government Partnerships Communications Lead</title>
+      <link>https://pac.org/job/government-partnerships-communications-lead</link>
+      <description>Government Partnerships Communications Lead
+Organization: OpenAI
+Location: Washington, DC
+Date Posted: 09/05/2026
+## About the Team
+OpenAI’s mission is to ensure that general‑purpose artificial intelligence benefits all of humanity.
+Our Communications team includes External Communications, Internal Communications, and other strategic communications functions. The team’s role is to clearly and authentically explain our technology, values, and approach to safely building powerful AI.
+## About the Role
+We are seeking an exceptional communications professional to lead communications support for OpenAI’s partnerships with federal, state, and local governments and our broader public‑sector enterprise work. This person will help tell the story of how governments are using AI, support major customer and partner moments, and communicate about government work happening across priority areas including cybersecurity, biodefense, national security, and science.
+This role will partner closely with public‑sector go‑to‑market and partnerships, Global Affairs, legal, product, research, safety, and security teams to develop clear external communications for the public, media, policymakers, and customers. The ideal candidate will bring strong strategic and tactical communications judgment, move quickly and collaboratively on complex issues, and have a passion for technology and storytelling.
+## In This Role, You Will
+– **Develop communications plans** that educate press, policymakers, customers, and the public about OpenAI’s government partnerships and public‑sector work.
+– **Build proactive campaigns** and customer stories that demonstrate how AI can improve public services, strengthen government workforces, and support critical missions.
+– **Support communications** across priority areas including cybersecurity, biodefense, national security, and science.
+– **Build media relationships** with national, state, local, technology, policy, and enterprise outlets and manage inbound requests.
+– **Partner cross‑functionally** with Global Affairs, public‑sector go‑to‑market, legal, product, research, safety, security, and other teams.
+– **Provide counsel** and communications support to senior leaders and partners across interviews, speeches, events, and other public moments.
+– **Anticipate communications risks** and develop thoughtful mitigation and response strategies.
+## You Might Thrive in This Role If You Have
+– 7+ years of professional communications and media relations experience, including work on government, enterprise technology, national security, cybersecurity, biodefense, or other highly scrutinized issues.
+– A strong track record of driving media campaigns in support of policy, partnership, or business priorities.
+– Experience translating complex technical and policy work into clear, credible external narratives.
+– Proven success building relationships and collaborating with press, executives, government partners, and cross‑functional teams.
+– Strong political and policy judgment, high ownership, and comfort operating quickly in an environment with limited structure.
+## Workplace &amp; Location
+This role is based in Washington, DC, and will require occasional travel.
+## About OpenAI
+OpenAI is an AI research and deployment company dedicated to ensuring that general‑purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.
+We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.
+For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement.
+Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US‑based candidates.
+For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse, and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss, or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non‑public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.
+To notify OpenAI that you believe this job posting is non‑compliant, please submit a report. No response will be provided to inquiries unrelated to job posting compliance.
+## OpenAI Global Applicant Privacy Policy
+At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.
+## Compensation
+$187K – $266K + Offers Equity
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Conference
+Government Relations and Policy Conference
+September 9, 2026
+Report
+AI in Public Affairs: 2026 AI Benchmarking Report
+September 1, 2026
+Report
+2026 Government Relations Benchmarking Survey for Associations
+August 18, 2026
+Conference
+Legal Seminar: Political Compliance Summit
+October 15, 2026
+Virtual Workshop
+Post-Election Roundup: What Happened and What’s Next
+November 10, 2026
+Webinar
+2026 Election Update
+September 15, 2026
+Report
+2025 Salary Surveys
+June 23, 2025
+Slide Deck
+Inside Elections Slide Deck September 2025
+September 17, 2025
+Article
+Election Impact: Three States That Will Decide the 2026 Midterm Elections
+July 31, 2025
+Slide Deck
+Inside Elections Slide Deck July 2025
+July 15, 2025
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/government-partnerships-communications-lead</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>OpenAI</dc:creator>
+    <polintel:location>Washington, DC</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Associate Director, Global Intranet Communications and Change</title>
+      <link>https://pac.org/job/associate-director-global-intranet-communications-and-change</link>
+      <description>Associate Director, Global Intranet Communications and Change
+Organization: Eli Lilly &amp; Co.
+Location: Indianapolis, IN
+Date Posted: 09/05/2026
+At Lilly, the work is demanding because patients are waiting. We unite caring with discovery to help make life better for people around the world, knowing that every decision, every detail, and every day matters. Headquartered in Indianapolis, Indiana, our over 50,000 employees around the globe take on complex challenges to discover and deliver life‑changing medicines, strengthen how health is understood and managed, and support the communities we serve. This is hard, urgent, selfless work — but it’s work worth doing. If you’re driven by purpose and ready to bring your best to work that truly matters for patients, we invite you to join us.
+At Lilly, we unite caring with discovery to make life better for people around the world. We are a global healthcare leader headquartered in Indianapolis, Indiana. Our employees around the world work to discover and bring life‑changing medicines to those who need them, improve the understanding and management of disease, and give back to our communities through philanthropy and volunteerism. We give our best effort to our work, and we put people first. We’re looking for people who are determined to make life better for people around the world.
+This is a rare seat at the table — shape a global employee intranet from the ground up. The Associate Director, Global Intranet Communications and Change leads the communications and change communications strategy for the transformation of Lilly’s global employee intranet, which serves more than 50,000 employees across 70 countries. This is a fixed‑duration, two‑year assignment that begins as the platform vendor is selected and guides the program through platform design and build to a metrics‑driven global launch.
+This role owns the end‑to‑end communications approach for the program. It shapes the employee experience from the communications side of platform design, leads the change communications that build organizational readiness across leaders and stakeholders, drives adoption among the employees who will use the platform every day, and ensures a seamless launch measured against clear success metrics. Reporting to the Executive Director of Internal Communications, the Associate Director serves as the dedicated communications and change communications lead on the core program team, working at the intersection of communications, human resources, technology, and user experience, and collaborating closely across Lilly’s global communications teams to translate a complex technology transformation into a clear, motivating story for the enterprise. A faster, better‑connected global workforce means faster, clearer decisions in service of the patients Lilly’s work ultimately reaches.
+—
+### Key Objectives / Deliverables
+#### Communications Strategy and Platform Design Partnership
+Own the overall communications strategy for the new global intranet, defining the narrative, audience approach, and channel plan from platform design through launch and into early operations.
+Serve as the communications and employee‑experience voice in platform design and configuration, translating the program’s design principles into practical requirements and advocating for a global workforce before adoption barriers emerge.
+Partner with the program manager, business owner, technology, user experience, and the selected vendor and implementation partner to align communications and change milestones with the technical delivery plan.
+#### Change Management Communications
+Own the enterprise change communications strategy, developing the messages, campaigns, and content that prepare leaders, the 200‑plus editor community, and employees for new ways of working, new governance, and a new platform, and keeping the program sponsors aligned through key decision points.
+Lead the change management program for the global communications team, guiding communicators through the new platform, editorial tools, workflows, and ways of working so the team is ready to operate confidently at launch and beyond.
+Partner with the program’s organizational change management resource to turn the change plan and readiness milestones into clear, well‑timed communications for each audience, owning the communications discipline that supports the broader change management approach.
+#### User Adoption and Engagement
+Design and lead the adoption strategy for everyone who will use the intranet, from knowledge workers to frontline and deskless colleagues, with campaigns that drive sustained use of its news, search, personalization, and artificial intelligence capabilities.
+Establish refreshed editorial and publishing guidelines and a refined playbook, alongside plain‑language onboarding and training, that set content editors and employees up to succeed in a new era of technology and ways of working, in partnership with the training lead.
+Build feedback loops that capture employee and editor signals before, during, and after launch to continuously improve adoption, accounting for accessibility, language, and local needs across Lilly’s global affiliates and multilingual translation model.
+#### Launch Readiness and Measurement
+Own the communications and change dimensions of launch readiness, coordinating a seamless go‑live so every audience knows what is changing and how to be successful day one.
+Define and own the measurement framework, establishing baselines, metrics, and reporting cadences for awareness, adoption, engagement, and satisfaction, in partnership with technology, human resources analytics, and platform owners, and translate the data into clear insights for the program team and governance.
+Support a clean transition to the ongoing support model at the close of the assignment, handing off the measurement framework, adoption playbook, and editor engagement approach to Enterprise Communications and the business owner.
+—
+### Basic Qualifications
+Bachelor’s degree in Communications, Public Relations, Marketing, Organizational Change, or a related field.
+7 years of experience in internal or employee communications, change management, or a combination of the two, including demonstrated experience leading communications or change for a large‑scale technology, platform, or digital transformation.
+Qualified applicants must be authorized to work in the United States on a full‑time basis. Lilly will not provide support for or sponsor work authorization or visas for this role, including but not limited to F‑1 CPT, F‑1 OPT, F‑1 STEM OPT, J‑1, H‑1B, TN, O‑1, E‑3, H‑1B1, or L‑1.
+—
+### Other Qualifications
+Demonstrated experience leading change communications for enterprise programs, including familiarity with established change management frameworks and the ability to partner effectively with a dedicated change management function.
+Experience leading technology or platform adoption communications, including change management and employee‑facing rollout programs at scale.
+Demonstrated ability to build and manage communications and adoption measurement frameworks, including familiarity with digital analytics platforms and employee listening tools.
+Experience partnering across communications, human resources, and information technology functions in a large, matrixed, global organization.
+Familiarity with intranet, employee experience, or enterprise content platforms, and with the realities of global rollouts across multiple languages and geographies.
+Familiarity with life sciences or pharmaceutical environments strongly preferred.
+This is a fixed‑duration, two‑year employee assignment, scoped through go‑live and an initial post‑launch stabilization period.
+Qualified candidates must be legally authorized to be employed in the United States. Lilly does not anticipate providing sponsorship for employment visa status (for example, H‑1B or TN status) for this employment position.
+—
+### Additional Skills / Preferences
+Change Communications Expertise: Deep experience with the communications discipline of change management, with the judgment to sequence, pace, and land change messages across many audiences at once.
+Digital Platform Partnership: Ability to act as the communications and employee‑experience voice in platform design and vendor conversations, simplifying complex technology into clear value for non‑technical audiences.
+User Adoption and Engagement: Proven track record designing adoption strategies that move employees from awareness to sustained use, including hard‑to‑reach frontline and deskless populations.
+Measurement and Analytics: Comfortable building measurement frameworks from the ground up, working across multiple data sources, and translating metrics into clear stories for leadership.
+Editorial and Communications Craft: Strong writer with the range to move between employee‑facing content, change and readiness materials, and executive and governance reporting without losing quality or clarity.
+Cross‑Functional Collaboration: Demonstrated ability to build alignment across communications, human resources, Tech@Lilly, and user experience, functions that do not always share the same priorities or timelines.
+Global and Matrixed Agility: Comfortable operating across a distributed, multi‑country organization, with the discipline to prioritize and execute in a fast‑moving program environment.
+Platform Fluency: Proficiency with modern intranet and internal communications platforms, including Viva Engage, Microsoft Teams, and enterprise email; familiarity with content management, translation, and analytics tools a plus.
+—
+Lilly is dedicated to helping individuals with disabilities to actively engage in the workforce, ensuring equal opportunities when vying for positions. If you require accommodation to submit a resume for a position at Lilly, please complete the accommodation request form [https://careers.lilly.com/us/en/workplace-accommodation] for further assistance.</description>
+      <guid isPermaLink="false">https://pac.org/job/associate-director-global-intranet-communications-and-change</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Eli Lilly &amp; Co.</dc:creator>
+    <polintel:location>Indianapolis, IN</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Manager, Regulatory Affairs, Advertising &amp; Promotion</title>
+      <link>https://pac.org/job/senior-manager-regulatory-affairs-advertising-promotion</link>
+      <description>Senior Manager, Regulatory Affairs, Advertising &amp; Promotion
+Organization: Regeneron Pharmaceuticals
+Location: Sleepy Hollow, NY | Warren, NJ
+Date Posted: 09/05/2026
+**Build Our Future Together**
+At Regeneron, we use science and innovation to develop life‑changing medicines for people with serious diseases. We are seeking a Senior Manager to join our Regulatory Affairs Advertising and Promotion team. This position requires the ability to apply clinical development knowledge in concert with experienced understanding of advertising and promotion regulations/guidance to the development of key product messages presented in Biologic License Applications (BLAs) and Marketing Authorization Applications (MAAs). They will provide regulatory advertising and promotion expertise to relevant stakeholders, typically carrying out the responsibilities with minimal guidance from the Regulatory Affairs, Advertising and Promotion Director. The Senior Manager Regulatory Affairs, Advertising and Promotion will oversee therapeutic area(s) and ensure that messages are translated into advertising and promotion initiatives that meet the commercial team’s objectives, while maintaining the necessary state of compliance and corporate integrity.
+—
+### When &amp; where
+Work Location: Sleepy Hollow, NY or Warren, NJ
+4 days per week on site
+—
+### Discover your role
+– **Regulatory activities** — Management of US and Global (if applicable) regulatory activities associated with advertising and promotion of the company’s marketed products, as well as commercial development of pipeline products. Manages commercial activities from a regulatory advertising and promotion perspective with minimal guidance from the Regulatory Affairs, Advertising &amp; Promotion Director.
+– **Product messaging** — Creatively advise on the development of product messages and materials across multiple functional areas.
+– **Regulatory guidance** — Provide timely regulatory advice and guidance, with minimal guidance from Regulatory Affairs, Advertising &amp; Promotion Director, to Commercial teams and Medical Affairs with respect to conference exhibit activities, disease awareness and speaker programs.
+– **Material review** — Provide review of US and Global (if applicable) product and disease state materials/communications, with minimal guidance from Regulatory Affairs, Advertising &amp; Promotion Director, to support corporate goals and comply with applicable laws, regulations, and guidance.
+– **Cross‑functional collaboration** — Collaborate cross‑functionally with key stakeholders in areas such as Marketing, Medical Affairs, and Legal.
+– **Partner communication** — Responsible for establishing working relationships and managing communication with regulatory advertising and promotion professionals at co‑promote partner companies.
+– **FDA OPDP interactions** — Help lead and assist in all interactions with the FDA Office of Prescription Drug Promotion (OPDP) for assigned company products, responsible for helping to maintain working relationship and effective communication with FDA OPDP reviewers with respect to advertising and promotion matters, including requests for advisory submissions.
+– **Form 2253 compliance** — Responsible for compliance with promotional material submissions to FDA on Form 2253.
+– **Regulatory monitoring** — Monitor the external environment to advise product teams on evolving regulatory requirements related to product and disease state communications.
+– **Enforcement vigilance** — Maintain vigilance with respect to FDA promotional enforcement activities; provide stakeholders with updates on a regular basis; provide guidance to stakeholders with respect to impact of enforcement activities on the company policies.
+– **Process improvement** — Provide input to direct management with respect to process improvement for promotional review activities and establishment of portfolio‑wide standardization of policies.
+– **Cross‑training** — Ability to cross‑train across products/indications to ensure continuous Regulatory A&amp;P support is provided to stakeholders.
+– **Therapeutic area collaboration** — Collaboration with Regulatory Therapeutic Area Leads to review key marketing application summary documents and study reports.
+– **Submission input** — With minimal guidance from management, help provide input during review cycles to reflect commercialization objectives and messages in the submission documents/reports that are submitted to health authorities.
+– **Labeling development** — Provide input to management during labeling development and negotiation to reflect commercialization objectives and messages that impact promotion and advertising.
+—
+### This role requires
+– **A minimum of 3 to 4 years** within regulatory affairs, preferably within advertising and promotion.
+– **Bachelor’s degree (BS)** in Life Sciences; advanced degree preferred (Masters, PharmD, PhD, MD, DO). Regulatory experience can offset education requirements.
+– **Advanced knowledge** of regulations, guidelines and precedents related to pharmaceutical product development and marketing, with focus in advertising and promotion.
+– **Experience with pharmaceutical products** required; biologics experience is a plus.
+– **Experience with FDA OPDP/APLB** preferred.
+– **Ability to review promotional materials**, interact with FDA OPDP/APLB, and manage launch products/campaigns while maintaining excellent written/verbal communication skills.
+– **Ability to support global promotional review**, understanding of clinical trial recruitment materials, and familiarity with labeling regulations.
+– **Ability to influence cross‑functional teams** and interact with senior management.
+#GDRAJobs
+—
+Does this sound like you? Apply now to take your first step towards living the Regeneron Way! We are committed to building a workplace with an inclusive culture. Regeneron is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion or belief (or lack thereof), sex, sexual orientation, gender identity or expression, gender reassignment, marital or civil partnership status, civil status, pregnancy or parental status, age, disability, nationality, citizenship status, ethnic or national origin, membership of the Traveler community, familial status, genetic information, military or veteran status, or any other characteristic protected under applicable law. Where required, we will provide reasonable accommodation to applicants with known disabilities or chronic illnesses during the recruitment process, unless such accommodation would impose undue hardship.
+Where necessary, we disclose salary ranges for roles in all countries in which we operate. The final offer will be determined within the relevant range based on the country of employment, specific role level, and your skills and experience. In some countries, collective bargaining agreements (CBAs) may apply and influence certain elements of pay or benefits. Regeneron offers a competitive and comprehensive total rewards package which may include, depending on country and role: annual bonuses or other incentive plans, equity awards, pension or retirement benefits, 401(k) company match, health and wellness programs, fitness centers, insurance benefits (e.g. medical, dental, vision, life and disability), paid time off, and family support benefits. For additional information about Regeneron benefits in the U.S., please visit [https://careers.regeneron.com/en/working-at-regeneron/total-rewards/]. For other locations, additional information will be provided during the recruitment process. If you have any questions, please speak with your recruiter.
+Please be advised that at Regeneron, we believe we do our best work when we are together. For that reason, many roles are required to be performed on‑site. Please speak with your recruiter and hiring manager for more information about on‑site expectations for your role and location.
+As part of the recruitment process, certain background checks may be conducted in accordance with the laws of the country where the position is based. The purpose of such checks is to verify certain information prior to the commencement of employment such as identity, right to work and educational qualifications.
+—
+### Salary Range (annually)
+$150,500.00 – $245,500.00
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Leveraging Your Leadership for PAC Success
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Webinar: International Membership Orientation
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across</description>
+      <guid isPermaLink="false">https://pac.org/job/senior-manager-regulatory-affairs-advertising-promotion</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Regeneron Pharmaceuticals</dc:creator>
+    <polintel:location>Sleepy Hollow, NY | Warren, NJ</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Associate Director Compliance Counsel</title>
+      <link>https://pac.org/job/associate-director-compliance-counsel</link>
+      <description>Associate Director Compliance Counsel
+Organization: Regeneron Pharmaceuticals
+Location: Sleepy Hollow, NY
+Date Posted: 09/05/2026
+## Build our future together
+In this role at Regeneron, the Associate Director, Compliance Counsel will work on investigations to ensure compliance with all laws, regulations, and company policies. This role will coordinate and conduct compliance investigations and provide guidance to internal stakeholders on addressing risks associated with conducting business in global markets. The successful attorney will be able to work across the organization, establish positive relationships, and provide a neutral and informed perspective.
+## When &amp; where
+**Location:** Sleepy Hollow, NY
+**Work model/flexibility:** 4 days onsite
+## Discover your role
+– Responding to alleged violations of policies, procedures, and standards of Regeneron’s Code of Business Conduct and Ethics by evaluating or recommending the initiation of investigative procedures
+– Lead investigations of allegations of violations of law or policy, as may be needed, from various countries worldwide
+– Provide support to partners on risks emanating from laws, codes and regulations
+– Provide input into and develop policies, procedures and guidance documents
+– Stay on top of legislative and regulatory developments impacting Regeneron’s global operations
+– Liaise with other Compliance or Law Department functions both in the US and globally to ensure integrated support and timely updates
+– Provide guidance to internal stakeholders on risks emanating from international laws, codes and regulations
+– Monitor and assess legislative and regulatory developments impacting Regeneron’s global operations
+## This role requires
+– You must have a JD with 4+ years of validated experience, with at least 2 years working in or with pharmaceutical companies on healthcare compliance‑related activities
+– You are licensed to practice law in New York or eligible for licensure as a registered in‑house counsel
+– You have experience conducting internal, compliance, and/or government investigations
+– You possess a high level of influencing skills and the ability to inspire change as it relates to implementing remedial actions
+– Knowledge of anti‑kickback and anti‑bribery prohibitions as they apply to pharmaceutical sales, off‑label/inappropriate promotion issues, Open Payments Act reporting obligations, and other primary laws governing key pharmaceutical compliance areas is helpful
+Does this sound like you? Apply now to take your first step towards living the Regeneron Way! We are committed to building a workplace with an inclusive culture. Regeneron is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion or belief (or lack thereof), sex, sexual orientation, gender identity or expression, gender reassignment, marital or civil partnership status, civil status, pregnancy or parental status, age, disability, nationality, citizenship status, ethnic or national origin, membership of the Traveler community, familial status, genetic information, military or veteran status, or any other characteristic protected under applicable law. Where required, we will provide reasonable accommodation to applicants with known disabilities or chronic illnesses during the recruitment process, unless such accommodation would impose undue hardship.
+Where necessary, we disclose salary ranges for roles in all countries in which we operate. The final offer will be determined within the relevant range based on the country of employment, specific role level, and your skills and experience. In some countries, collective bargaining agreements (CBAs) may apply and influence certain elements of pay or benefits. Regeneron offers a competitive and comprehensive total rewards package which may include, depending on country and role: annual bonuses or other incentive plans, equity awards, pension or retirement benefits, 401(k) company match, health and wellness programs, fitness centers, insurance benefits (e.g., medical, dental, vision, life and disability), paid time off, and family support benefits. For additional information about Regeneron benefits in the U.S., please visit [https://careers.regeneron.com/en/working-at-regeneron/total-rewards/]. For other locations, additional information will be provided during the recruitment process. If you have any questions, please speak with your recruiter.
+Please be advised that at Regeneron, we believe we do our best work when we are together. For that reason, many roles are required to be performed on‑site. Please speak with your recruiter and hiring manager for more information about on‑site expectations for your role and location.
+As part of the recruitment process, certain background checks may be conducted in accordance with the laws of the country where the position is based. The purpose of such checks is to verify certain information prior to the commencement of employment such as identity, right to work and educational qualifications.
+## Salary Range (annually)
+$176,100.00 – $287,300.00
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Leveraging Your Leadership for PAC Success
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Webinar: International Membership Orientation
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/associate-director-compliance-counsel</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Regeneron Pharmaceuticals</dc:creator>
+    <polintel:location>Sleepy Hollow, NY</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Director, Federal Government Affairs</title>
+      <link>https://pac.org/job/senior-director-federal-government-affairs-10</link>
+      <description>Senior Director, Federal Government Affairs
+Organization: Regeneron Pharmaceuticals
+Location: Washington, DC
+Date Posted: 09/05/2026
+**Build Our Future Together**
+The Senior Director, Federal Government Affairs at Regeneron is responsible for advancing the company’s public policy priorities through strategic engagement with U.S. federal policymakers. In close partnership with internal stakeholders, this role cultivates relationships and engages with federal legislators, congressional staff, administration officials, and regulators to advance Regeneron’s patient‑centered, science‑driven mission.
+**When &amp; where:**
+Work Location: Washington, D.C.
+Hybrid: 4 days per week on site
+**Discover your role:**
+Develop and execute strategic federal advocacy plans to advance Regeneron’s public policy priorities and initiatives, with a focus on patient access and innovation issues.
+Lead engagement with federal legislators, administration officials, and regulators to proactively shape policy outcomes, serving as a key advocate to House Democratic members and staff, including the Energy &amp; Commerce Committee.
+Monitor and analyze relevant policy developments to provide strategic guidance and updates to internal stakeholders, leveraging strong knowledge of issues affecting the biopharmaceutical industry and policymaking processes.
+Partner with Regeneron Policy and Alliance leads to help internal stakeholders incorporate federal policy implications into business and corporate objectives.
+Engage with trade associations, various organizations, and policy influencers to shape the external environment and elevate Regeneron’s policy perspectives in collective advocacy efforts.
+Support development of advocacy materials, including policy content and talking points, in partnership with cross‑functional teams, as well as memoranda for senior leaders and internal stakeholders.
+**This role requires:**
+Must have a bachelor’s degree or higher in public policy, law, political science, or a related field, or equivalent relevant experience.
+Minimum of 10 years relevant experience in Congress, a regulatory or policy advocacy organization, or government relations.
+A strong understanding of government affairs, public policy, and the patient, provider, and health care organization landscape is essential, as is knowledge of the health care system and key policies affecting the biopharmaceutical sector.
+Excellent communication and presentation skills, with the ability to convey complex and changing policy and business issues to internal and external stakeholders.
+Strong strategy and execution skills with a proven track record of working collaboratively to advance policy objectives.
+Does this sound like you? Apply now to take your first step towards living the Regeneron Way! We are committed to building a workplace with an inclusive culture. Regeneron is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion or belief (or lack thereof), sex, sexual orientation, gender identity or expression, gender reassignment, marital or civil partnership status, civil status, pregnancy or parental status, age, disability, nationality, citizenship status, ethnic or national origin, membership of the Traveler community, familial status, genetic information, military or veteran status, or any other characteristic protected under applicable law. Where required, we will provide reasonable accommodation to applicants with known disabilities or chronic illnesses during the recruitment process, unless such accommodation would impose undue hardship.
+Where necessary, we disclose salary ranges for roles in all countries in which we operate. The final offer will be determined within the relevant range based on the country of employment, specific role level, and your skills and experience. In some countries, collective bargaining agreements (CBAs) may apply and influence certain elements of pay or benefits. Regeneron offers a competitive and comprehensive total rewards package which may include, depending on country and role: annual bonuses or other incentive plans, equity awards, pension or retirement benefits, 401(k) company match, health and wellness programs, fitness centers, insurance benefits (e.g., medical, dental, vision, life and disability), paid time off, and family support benefits. For additional information about Regeneron benefits in the U.S., please visit [https://careers.regeneron.com/en/working-at-regeneron/total-rewards/]. For other locations, additional information will be provided during the recruitment process. If you have any questions, please speak with your recruiter.
+Please be advised that at Regeneron, we believe we do our best work when we are together. For that reason, many roles are required to be performed on‑site. Please speak with your recruiter and hiring manager for more information about on‑site expectations for your role and location.
+As part of the recruitment process, certain background checks may be conducted in accordance with the laws of the country where the position is based. The purpose of such checks is to verify certain information prior to the commencement of employment such as identity, right to work and educational qualifications.
+**Salary Range (annually)**
+$216,100.00 – $360,200.00
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Conference
+Government Relations and Policy Conference
+September 9, 2026
+Report
+AI in Public Affairs: 2026 AI Benchmarking Report
+September 1, 2026
+Report
+2026 Government Relations Benchmarking Survey for Associations
+August 18, 2026
+Conference
+Legal Seminar: Political Compliance Summit
+October 15, 2026
+Virtual Workshop
+Post-Election Roundup: What Happened and What’s Next
+November 10, 2026
+Webinar
+2026 Election Update
+September 15, 2026
+Report
+2025 Salary Surveys
+June 23, 2025
+Slide Deck
+Inside Elections Slide Deck September 2025
+September 17, 2025
+Article
+Election Impact: Three States That Will Decide the 2026 Midterm Elections
+July 31, 2025
+Slide Deck
+Inside Elections Slide Deck July 2025
+July 15, 2025
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/senior-director-federal-government-affairs-10</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Regeneron Pharmaceuticals</dc:creator>
+    <polintel:location>Washington, DC</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Director, Corporate Counsel- Corporate and Securities</title>
+      <link>https://pac.org/job/director-corporate-counsel-corporate-and-securities-3</link>
+      <description>Director, Corporate Counsel- Corporate and Securities
+Organization: Jazz Pharmaceuticals
+Location: Palo Alto, CA | Philadelphia, PA
+Date Posted: 09/05/2026
+Jazz Pharmaceuticals is a global biopharma company whose purpose is to innovate to transform the lives of patients and their families. We are dedicated to developing life‑changing medicines for people with serious diseases — often with limited or no therapeutic options. We have a diverse portfolio of marketed medicines, including leading therapies for sleep disorders and epilepsy, and a growing portfolio of cancer treatments. Our patient‑focused and science‑driven approach powers pioneering research and development advancements across our robust pipeline of innovative therapeutics in oncology and neuroscience. Jazz is headquartered in Dublin, Ireland with research and development laboratories, manufacturing facilities and employees in multiple countries committed to serving patients worldwide. Please visit [www.jazzpharmaceuticals.com] for more information.
+## Brief Description
+The Director, Corporate and Securities reports to the Executive Director, Corporate and Securities, and is a key member of the team for the Legal department. The Director, Corporate and Securities will provide leadership on a wide range of corporate, securities, and governance matters. The responsibilities will include all securities matters for a publicly traded company, including ensuring compliance with SEC and Nasdaq rules and regulations; preparing and reviewing SEC filings; assisting with matters related to the board of directors; and advising on corporate governance, investor relations, and executive compensation.
+## Essential Functions / Responsibilities
+### Securities and Corporate Governance
+Ensure compliance with federal and state securities laws, with focus on ’34 Act and ’33 Act reporting, Nasdaq compliance, Regulation FD and insider trading.
+Prepare and/or review all SEC filings, including Form 10‑Ks, Form 10‑Qs, Form 8‑Ks, proxy statements and Section 16 filings, as well as registration statements.
+Maintain governance policies and practices, including corporate governance guidelines, committee charters and other governing documents.
+### Investor Relations and Executive Compensation
+Review, advise and assist with quarterly earnings releases, investor presentations, quarterly and annual reports, sustainability reports and other external communications.
+Advise on all executive compensation activities, and maintain and update form equity award agreements as well as other related activities.
+Support the Total Rewards team in their administration of employee compensation benefits programs.
+### Other
+Collaborate with, advise and support a broad range of departments and functions, including finance, accounting, tax, internal audit and others as necessary.
+Assist with secondary support for capital markets transactions activities, including debt offerings, credit agreements, other treasury‑related matters, strategic transaction initiatives, including mergers and acquisitions support, dispositions, joint ventures and investments.
+Corporate governance support, including Corporate Sustainability and Social Impact / ESG.
+Perform additional functions and projects as assigned.
+## Required Knowledge, Skills, and Abilities
+Juris Doctorate (J.D.) from accredited law school; licensed to practice law in the U.S.
+Membership in good standing in a state bar with no prior suspensions or disciplinary history.
+## Required / Preferred Education and Licenses
+Minimum 7 years of combined experience in‑house and/or with a law firm. Experience with a biotech or pharmaceutical company preferred.
+Must be self‑motivated, proactive, strategic, and exhibit excellent judgment.
+Ability to multi‑task, be flexible and quickly pivot in a fast‑moving/changing environment.
+Possess the ability and willingness to advance new ideas and recognize when decisions may have a broad impact on the global organization.
+Consistently take action and drive issues to closure and hold self and others accountable for achieving results.
+Legal analysis and advice are well thought out and accurate; potential legal and compliance issues are consistently identified.
+Ability to create and deliver effective oral presentations, train, and educate stakeholders and members of the department on legal topics and issues.
+Strong organizational and project management skills.
+Strategic, innovative and independent thinker who is action‑oriented and a driver of change, with strong leadership and communication skills and strong interpersonal skills. Ability to look ahead to future possibilities and translate them into breakthrough strategies.
+Cultivate innovation by creating new and better ways for the organization to be successful.
+Strong and effective communication skills, developing and delivering multi‑mode communications that convey a clear understanding of the unique needs of different audiences. Strong ability to communicate effectively and get along well with different personality types across all levels of the Company.
+Drive engagement by creating a climate where people are motivated to do their best to help the organization achieve its objectives.
+Drive results by consistently achieving results, even under tough circumstances.
+Instill trust by gaining the confidence and trust of others through honesty, integrity, and authenticity.
+#LI‑Remote
+Jazz Pharmaceuticals is an equal opportunity/affirmative action employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, or any characteristic protected by law.
+## For U.S. Based Candidates Only
+Jazz Pharmaceuticals, Inc. is committed to fair and equitable compensation practices and we strive to provide employees with total compensation packages that are market competitive. For this role, the full and complete base pay range is: $224,000.00 – $336,000.00.
+Individual compensation paid within this range will depend on many factors, including qualifications, skills, relevant experience, job knowledge, and other pertinent factors. The goal is to ensure fair and competitive compensation aligned with the candidate’s expertise and contributions, within the established pay framework and our Total Compensation philosophy. Internal equity considerations will also influence individual base pay decisions. This range will be reviewed on a regular basis.
+At Jazz, your base pay is only one part of your total compensation package. The successful candidate may also be eligible for a discretionary annual cash bonus or incentive compensation (depending on the role), in accordance with the terms of the Company’s Global Cash Bonus Plan or Incentive Compensation Plan, as well as discretionary equity grants in accordance with Jazz’s Long Term Equity Incentive Plan.
+The successful candidate will also be eligible to participate in various benefits offerings, including, but not limited to, medical, dental and vision insurance, 401k retirement savings plan, and flexible paid vacation. For more information on our Benefits offerings please click here: [https://careers.jazzpharma.com/benefits.html]
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Leveraging Your Leadership for PAC Success
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Webinar: International Membership Orientation
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/director-corporate-counsel-corporate-and-securities-3</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Jazz Pharmaceuticals</dc:creator>
+    <polintel:location>Palo Alto, CA | Philadelphia, PA</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Director, Sr. Corporate Counsel, IP</title>
+      <link>https://pac.org/job/senior-director-sr-corporate-counsel-ip</link>
+      <description>Senior Director, Sr. Corporate Counsel, IP
+Organization: Jazz Pharmaceuticals
+Location: Palo Alto, CA | Philadelphia, PA
+Date Posted: 09/05/2026
+Jazz Pharmaceuticals is a global biopharma company whose purpose is to innovate to transform the lives of patients and their families. We are dedicated to developing life‑changing medicines for people with serious diseases — often with limited or no therapeutic options. We have a diverse portfolio of marketed medicines, including leading therapies for sleep disorders and epilepsy, and a growing portfolio of cancer treatments. Our patient‑focused and science‑driven approach powers pioneering research and development advancements across our robust pipeline of innovative therapeutics in oncology and neuroscience. Jazz is headquartered in Dublin, Ireland with research and development laboratories, manufacturing facilities and employees in multiple countries committed to serving patients worldwide. Please visit [www.jazzpharmaceuticals.com] for more information.
+The Senior Director, Corporate Counsel, Intellectual Property (IP), will develop and execute robust global patent and IP strategies for Jazz’s products, product candidates, platform technologies, and newly acquired or licensed assets, ensuring alignment with corporate growth objectives and maximizing the value of the company’s innovation portfolio. In addition, the Sr. Corporate Counsel, IP will play a critical role in supporting Jazz’s corporate development objectives by leading intellectual property due diligence, integration planning, and strategic portfolio development across acquisitions, licensing transactions, collaborations, and other strategic business opportunities.
+This individual will serve as a trusted advisor to Corporate Development, R&amp;D, Business Development, and senior leadership, providing sophisticated IP analyses that inform transaction structures, valuation, risk assessment, and post‑transaction integration strategies. Initially, this position reports directly to the VP of Legal &amp; IP.
+## Key Job Responsibilities
+Serve as a critical IP advisor to Corporate Development teams, providing strategic support for acquisitions, licensing transactions, collaborations, joint ventures, divestitures, and other strategic transactions.
+Conduct comprehensive IP due diligence for potential acquisitions, in‑licensing opportunities, collaborations, and strategic partnerships, including freedom‑to‑operate evaluations, portfolio strength analyses, exclusivity assessments, and identification of material IP risks and value drivers.
+Prepare and communicate clear, actionable diligence findings and recommendations to executive leadership, transaction teams, and legal leadership to support decision‑making, valuation, negotiation strategy, and transaction structuring.
+Partner closely with Transformation Office and cross‑functional stakeholders to develop and execute post‑transaction integration strategies, including patent portfolio optimization, ownership alignment, prosecution strategy harmonization, and identification of opportunities to enhance long‑term asset value.
+Develop and execute sophisticated global patent strategies that support business objectives, strengthen competitive positioning and exclusivity, and maximize the value of both internally developed and externally acquired or licensed assets.
+Build and manage high‑value global patent portfolios from invention capture through patent issuance and lifecycle management, ensuring alignment with product development and commercialization strategies.
+Provide strategic input into transaction documents, including licensing agreements, collaboration agreements, acquisition agreements, due diligence reports, representations and warranties, IP covenants, and integration‑related provisions.
+Build effective partnerships with stakeholders across research, development, commercial, regulatory, business development, and corporate development functions to deliver practical, business‑focused IP advice.
+Conduct freedom‑to‑operate, infringement, validity, patentability, and competitive landscape analyses and develop risk mitigation strategies in support of business objectives.
+Effectively manage outside counsel supporting patent prosecution, IP due diligence, litigation, opinions, and other strategic matters to ensure high‑quality, efficient, and commercially focused outcomes.
+Counsel senior management and cross‑functional teams on intellectual property risks, opportunities, exclusivity strategies, competitive positioning, and portfolio optimization initiatives.
+Review publications, presentations, press releases, and other public disclosures to protect patent rights and support external communication strategies.
+Advise on and/or lead contentious and adversarial matters involving company assets, including patent litigation, IPRs, PGRs, European oppositions, and related proceedings.
+Lead and contribute to departmental initiatives aimed at enhancing IP operations, diligence capabilities, portfolio management processes, and overall organizational effectiveness.
+## Required Knowledge, Skills, and Abilities
+Fully qualified U.S. Patent Attorney or Agent with 10+ years of relevant intellectual property experience in the biopharmaceutical industry, including substantial in‑house experience supporting corporate development, licensing, collaborations, mergers and acquisitions, or other strategic transactions.
+Undergraduate degree in biological sciences, biochemistry, chemistry, or another discipline relevant to pharmaceuticals, biotechnology, or life sciences; advanced degree preferred.
+Significant experience leading IP due diligence for acquisitions, licensing transactions, collaborations, venture investments, and other strategic corporate transactions.
+Demonstrated experience evaluating, integrating, and maximizing the value of acquired or licensed patent portfolios and intellectual property assets.
+Deep expertise in patent portfolio development, lifecycle management, exclusivity strategies, freedom‑to‑operate analyses, and competitive intelligence.
+Ability to work in dynamic, fast‑paced team environment; flexible and responsive self‑starter who can operate independently as well as collaboratively across the business.
+Excellent written, verbal, and presentation skills, with the ability to distill complex legal and scientific concepts into clear business recommendations for senior executives.
+Strategic thinker who anticipates business challenges, identifies opportunities to create and protect enterprise value, and develops creative, practical solutions.
+Proven ability to influence decision‑making across cross‑functional teams and build trusted partnerships with executives, researchers, commercial leaders, and corporate development professionals.
+Strong project management, prioritization, and organizational skills with the ability to manage multiple high‑impact initiatives simultaneously.
+Experience in patent litigation, post‑grant proceedings, oppositions, and other adversarial matters is a plus.
+#LI-Remote
+Jazz Pharmaceuticals is an equal opportunity/affirmative action employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, or any characteristic protected by law.
+## FOR US BASED CANDIDATES ONLY
+Jazz Pharmaceuticals, Inc. is committed to fair and equitable compensation practices and we strive to provide employees with total compensation packages that are market competitive. For this role, the full and complete base pay range is: $259,200.00 – $388,800.00
+Individual compensation paid within this range will depend on many factors, including qualifications, skills, relevant experience, job knowledge, and other pertinent factors. The goal is to ensure fair and competitive compensation aligned with the candidate’s expertise and contributions, within the established pay framework and our Total Compensation philosophy. Internal equity considerations will also influence individual base pay decisions. This range will be reviewed on a regular basis.
+At Jazz, your base pay is only one part of your total compensation package. The successful candidate may also be eligible for a discretionary annual cash bonus or incentive compensation (depending on the role), in accordance with the terms of the Company’s Global Cash Bonus Plan or Incentive Compensation Plan, as well as discretionary equity grants in accordance with Jazz’s Long Term Equity Incentive Plan.
+The successful candidate will also be eligible to participate in various benefits offerings, including, but not limited to, medical, dental and vision insurance, 401k retirement savings plan, and flexible paid vacation. For more information on our Benefits offerings please click here: [https://careers.jazzpharma.com/benefits.html]
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:</description>
+      <guid isPermaLink="false">https://pac.org/job/senior-director-sr-corporate-counsel-ip</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Jazz Pharmaceuticals</dc:creator>
+    <polintel:location>Palo Alto, CA | Philadelphia, PA</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Communications Associate</title>
+      <link>https://pac.org/job/communications-associate-26</link>
+      <description>Communications Associate
+Organization: Oberkotter Foundation – Hearing First
+Location: Remote
+Date Posted: 09/05/2026
+### **Oberkotter Foundation – Hearing First Communications Associate**
+Oberkotter Foundation – Hearing First seeks an experienced communications professional to join its team as a Communications Associate. Responsible for supporting Hearing First in its communications across an array of digital channels, the Communications Associate takes lead on Hearing First social media content development and strategy implementation, coordinates the creation of written, visual, and video content, and maintains digital asset systems for the organization.
+The ideal candidate has a solid background in social media strategy, content development, and channel execution, and would feel a strong commitment to Hearing First’s mission and work supporting children who are deaf or hard of hearing learn to listen and talk with Listening &amp; Spoken Language (LSL). They must be an excellent writer and editor, highly organized, and a detail‑oriented, collaborative team player. The Communications Associate will be confident in learning new tools, enthusiastic about expanding their work experience to new subject matters and communications mediums, and have a deep and ever‑evolving knowledge of social media best practices across multiple channels and content formats.
+—
+### **Position Responsibilities**
+The Communications Associate has the following duties and responsibilities:
+#### **Social Media Strategy &amp; Execution**
+– Implement Hearing First social media strategy across designated channels.
+– Plan content calendars aligned with organizational priorities, campaigns, and approved messaging.
+– Create original copy and content for owned channels, adapting for audience and platforms while maintaining Hearing First’s voice, tone, and brand standards.
+– Coordinate asset production of video, graphics, and visuals.
+– Monitor and respond to community engagement through social channels.
+– Collaborate with team members to ensure cohesive and successful ongoing strategy development and implementation.
+– Maintain fluency in platform‑specific best practices by researching industry‑related topics, audience interests, platform trends, and relevant communications practices to integrate into Hearing First workflows.
+– Evaluate performance using platform insights and analytics, and recommend strategy optimizations.
+#### **Communications Content Production**
+– Support the production and publication of various communications materials.
+– Write, edit, proofread, fact‑check, stage, publish, and ensure the quality of a variety of communications content and materials, including social media, email, blog, website, campaigns, events, and others.
+– Shape language and tone used in communications to ensure consistency of voice, accuracy, clarity, and quality across team‑produced content.
+– Support the planning, execution, and tracking of communications campaigns and activities across various channels.
+– Fulfill other duties as assigned.
+#### **Asset Production &amp; Digital Asset Management**
+– Coordinate asset production and management systems.
+– Support video production activities, including content coordination, scheduling, asset preparation, and ongoing production support.
+– Maintain the digital asset management system and accurate asset records in accordance with established processes.
+#### **Organizational &amp; Industry Knowledge**
+– Expand understanding of the organization, industry, and partners.
+– Expand understanding of Oberkotter Foundation and Hearing First’s mission, focus areas, audiences, systems, and standards to support all facets of their work.
+– Collaborate with cross‑functional team members and subject matter experts to gather information, complete assignments, and meet project timelines and organizational goals.
+– Develop and maintain fluency with digital tools required for fulfilling position responsibilities, including native social platforms, Sprout Social, HubSpot, Bynder, Wrike, Microsoft Teams, Microsoft 365, and others.
+– Adhere to the organization’s communications plans, policies, social media guidelines, crisis communications procedures, brand standards, and established approval processes.
+– Develop an understanding of Hearing First’s partners, collaborators, competitors, and the broader industry.
+—
+### **Qualifications, Knowledge, &amp; Skills**
+The ideal candidate will bring the following:
+– Bachelor’s degree with 3–5 years of experience in communications, copywriting, marketing, social media, digital communications, content production, or a related field.
+– Demonstrated ownership of social media channels, including content strategy, creation, and publishing, as well as engagement, channel monitoring, and reporting.
+– Portfolio of published digital content demonstrating ability to write, develop, and execute engaging and creative digital materials across multiple channels.
+– Exemplary writing and editing skills, including ability to write both long‑form copy and concise, engaging content for social media, email, and digital channels.
+– Expertise in social media, email, and digital communications best practices, as well as enthusiasm for continually expanding knowledge as platforms and audiences evolve.
+– Strong organizational skills and the ability to manage and prioritize a variety of concurrent projects, responsibilities, and deadlines with accuracy and follow‑through.
+– Comfortable contributing as a multi‑faceted team member with the ability to adapt content and communications effectively across multiple mediums and channels.
+– Experience collaborating with cross‑functional teams including subject matter experts, designers, video editors, web developers, and external partners.
+– Proficiency in using all digital tools needed to carry out the position’s responsibilities, including hands‑on experience with web content management systems, digital marketing tools, and digital asset management systems (e.g., Sprout Social, bit.ly, HubSpot, Bynder, social media monitoring tools, etc.).
+– Ability to perform successfully in a virtual working environment. Self‑management skills and confidence using digital collaboration tools such as Wrike, Microsoft Teams, Microsoft 365, Google Drive, and similar platforms.
+– Lifelong learner with enthusiasm and curiosity for maintaining expertise, learning new responsibilities, implementing tasks independently, and awareness of when to seek guidance and support.
+– Strong attention to detail and commitment to accuracy, consistency, and quality.
+—
+Oberkotter Foundation – Hearing First employees work remotely from communities across the United States. The position requires a standard Monday–Friday schedule with flexibility for occasional travel for team meetings.
+To apply, please send a cover letter, resume, portfolio of work samples, and three references to
+[email protected]
+. Subject line should read: \[Your First and Last Name\] Communications Associate Position.
+**Full time position:** 40 hours/week
+**Compensation:** Competitive compensation and benefits
+**Location:** Remote with light to moderate travel
+**Application Deadline:** September 20, 2026
+Oberkotter Foundation – Hearing First is an equal opportunity employer.
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Webinar
+Economic Messaging Crash Course
+December 8, 2026
+Virtual Workshop
+Understanding &amp; Messaging with Artificial Intelligence
+November 19, 2026
+Virtual Workshop
+Storytelling for Advocacy
+November 18, 2026
+Virtual Workshop
+Writing for Public Affairs
+October 7, 2026
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Article
+The Buzz: How Companies Are Responding to Anti-DEI Backlash
+June 13, 2025
+Recording
+Communicating Public Affairs Issues to Your Employees
+March 18, 2025
+Recording
+Training Your Executive for First-Rate External Communications
+February 20, 2025
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/communications-associate-26</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Oberkotter Foundation – Hearing First</dc:creator>
+    <polintel:location>Remote</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Digital Marketing Strategist</title>
+      <link>https://pac.org/job/senior-digital-marketing-strategist</link>
+      <description>Senior Digital Marketing Strategist
+Organization: Stanley Consultants
+Location: Denver, CO
+Date Posted: 09/05/2026
+# Stanley Consultants
+Stanley Consultants is an award-winning and industry-leading global consulting engineering firm, with an unmatched commitment to culture, values, and ethics. We are dedicated to client experience and solve the most complex challenges to create a sustainable, connected, and enriched world for all. As the world changes, Stanley strategically evolves with it, integrating the latest technology, innovation, and resiliency practices.
+With over a century of experience serving the energy, federal government, transportation, and water sectors, we have helped improve lives and shape the infrastructure systems that connect us. As an employee-owned organization with a People First approach, we stand apart from other engineering consulting and services firms. At Stanley, your voice counts, your growth matters, and your success is our success.
+Stanley Consultants offers flexible work options, competitive pay and great benefits, a strong sense of community, and the chance to build a meaningful, long-term career!
+—
+## Job Title: Senior Digital Marketing Strategist
+Location: Denver, CO (Centennial)
+Job Type: Hybrid
+Requisition ID: 11323
+—
+## Job Summary
+The Senior Digital Marketing Strategist is responsible for creating and managing integrated organic and paid media campaigns across multiple digital marketing channels including search engines, social media platforms and web. This role combines strategic campaign planning with hands-on content creation and cross-channel execution.
+The ideal candidate will develop compelling campaign content that aligns with market and business priorities; collaborate closely with Graphic Design, Digital Marketing and internal stakeholders to develop campaign visuals and measure campaign success; manage campaign refreshes to maintain relevance; and drive consistent brand voice across all marketing touchpoints. This position requires staying current with campaign best practices, AI search trends and integrating digital strategies with the overall marketing plan to drive measurable results.
+—
+## What You Will Be Doing
+– Develop integrated organic and paid campaign strategies across Google Ads, Microsoft Advertising (Bing), LinkedIn and other relevant digital platforms.
+– Lead campaign creation and management, including the development of ad copy, messaging frameworks and campaign themes that align with business development objectives and market sector priorities.
+– Collaborate with the Graphic Design team to develop campaign visuals, ensuring creative assets align with campaign messaging and brand guidelines.
+– Manage campaign refreshes and optimization cycles to keep content current, maintain engagement and improve performance across all channels.
+– Coordinate cross-channel campaign launches, ensuring consistent brand voice and messaging across search, social media, email, display and other digital touchpoints.
+– Align campaign content and strategy with market trends, competitive landscape and business priorities through regular consultation with internal stakeholders.
+– Collaborate with the Digital Marketing team to monitor and optimize campaign performance using Google Analytics, platform-specific analytics and other marketing tools to meet ROI objectives.
+– Stay current with digital marketing best practices, platform updates, algorithm changes and emerging trends in paid and organic campaign management.
+– Conduct A/B testing on campaign content, ad creative, landing pages and targeting strategies to continuously improve performance.
+—
+## Required Qualifications
+### Education
+Bachelor’s degree in marketing, digital communications, advertising or related field.
+### Experience
+7+ years of progressive digital marketing experience with demonstrated expertise in multi-channel campaign creation and management.
+AEC or professional services industry experience is a plus.
+Proven track record of developing and executing successful organic and paid campaigns across search engines and social media platforms.
+Experience collaborating with creative teams (graphic designers, video producers, etc.) to develop compelling campaign visuals.
+Experience with Adobe Creative Suite and Canva are preferred.
+Experience with marketing automation, CRM systems (HubSpot, Marketo, Salesforce, etc.) and campaign management tools is a plus.
+### Skills
+– Expert knowledge of paid advertising platforms including Google Ads, Microsoft Advertising, LinkedIn Campaign Manager and other social media advertising platforms.
+– Advanced campaign content creation skills including copywriting, messaging development and storytelling for digital marketing.
+– Strong creative collaboration abilities to work effectively with Graphic Design teams, providing clear creative direction and feedback.
+– Deep understanding of multi-channel campaign strategy and how to create cohesive campaigns across search, social, display and other digital channels.
+– Experience managing campaign refreshes and optimization cycles to maintain relevance and performance.
+– Strong brand management skills with ability to drive consistent brand voice across all campaign touchpoints.
+– Knowledge of SEO principles and how organic and paid campaigns work together.
+– Knowledge of campaign best practices including audience targeting, ad formats, bidding strategies and content optimization.
+– Excellent project management capabilities to coordinate multiple concurrent campaigns across various platforms and stakeholders.
+– Strong collaboration skills to integrate campaigns with overall marketing plan and other marketing initiatives.
+– Experience with marketing analytics tools (Google Analytics 4, platform analytics dashboards) to measure campaign effectiveness.
+– Strategic thinking to develop campaign concepts that support business development objectives.
+—
+## Compensation
+$94,100 – $120,875 a year
+(Salary range for CO location)
+Stanley Consultants is committed to maintaining transparency in our hiring process, including providing information about compensation. The starting salary for the successful candidate in this position is competitive and will be determined by the selected candidate’s qualifications and experience, geographic location, internal equity, company policy and practices. In compliance with pay transparency laws, pay ranges are disclosed for positions and locations where required.
+—
+## Work Environment
+Primarily office-based with occasional travel. Hybrid schedule available.
+—
+## Work-Life Balance
+We realize there’s more to life than just work. We help you meet the demands of work, family and personal life through several flexible options.
+—
+## What We Offer
+**Member-Owned.** Member-ownership is at the heart of our culture, aligning client satisfaction, company performance, and personal reward.
+**Paid Time Away.** Numerous paid holidays, generous PTO, parental leave, and professional development leave.
+**Health Insurance.** Comprehensive medical, dental, vision, FSA, HSA, Doctor On Demand, wellness reimbursement, and mental health resources.
+**Financial Health.** Life insurance, disability insurance, identity theft protection, and more.
+**Professional Growth.** Tuition assistance, professional society membership, and additional development opportunities.
+**Financial Rewards.** Company stock ownership, generous 401K match, incentive compensation, and profit-sharing contributions.
+—
+## Additional Information
+Stanley Consultants does not welcome unsolicited resumes from staffing and recruiting agencies. Any unsolicited resumes submitted to Stanley Consultants, including but not limited to resumes submitted directly to Stanley Consultants members or representatives, will be deemed the property of Stanley Consultants.
+—
+## Equal Opportunity Employer / Protected Veterans / Individuals with Disabilities
+The contractor will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is:
+(a) in response to a formal complaint or charge,
+(b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or
+(c) consistent with the contractor’s legal duty to furnish information.
+41 CFR 60-1.35(c)
+—
+## Use of Artificial Intelligence in Hiring
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Webinar
+Economic Messaging Crash Course
+December 8, 2026
+Virtual Workshop
+Understanding &amp; Messaging with Artificial Intelligence
+November 19, 2026
+Virtual Workshop
+Storytelling for Advocacy
+November 18, 2026
+Virtual Workshop
+Writing for Public Affairs
+October 7, 2026
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Article
+The Buzz: How Companies Are Responding to Anti-DEI Backlash
+June 13, 2025
+Recording
+Communicating Public Affairs Issues to Your Employees
+March 18, 2025
+Record</description>
+      <guid isPermaLink="false">https://pac.org/job/senior-digital-marketing-strategist</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Stanley Consultants</dc:creator>
+    <polintel:location>Denver, CO</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Director, Public Policy</title>
+      <link>https://pac.org/job/director-public-policy-15</link>
+      <description>Director, Public Policy
+Organization: Investment Company Institute (ICI)
+Location: Washington, DC
+Date Posted: 09/05/2026
+Salary Range:
+$174,450.00 To $189,300.00 Annually
+## Job Duties
+Identifies and analyzes key regulatory and policy initiatives in the Asia‑Pacific region affecting the global fund industry and the impacts of such developments on ICI member firms in Chinese (Cantonese and/or Mandarin) and English. Develops recommendations and policy positions on key proposals and initiatives in the Asia‑Pacific region and leads the drafting of relevant position papers and other materials, working in collaboration with ICI members and other ICI departments as appropriate.
+Designs and implements engagement and advocacy strategies with regulators and policymakers in support of ICI advocacy activities in the Asia‑Pacific region. Briefs ICI staff and ICI members on regulatory and policy developments through written and oral communications, including member memos, webinars, and other products. Prepares briefings for the CEO, Chief Global Affairs Officer, and the MD for Asia and Global Analytics on key topics and in support of meetings with senior officials and other key stakeholders in Asia‑Pacific.
+Designs and executes webinars, roundtables, and other member events in Asia‑Pacific, including identifying relevant discussion topics, securing public official and expert speakers, managing logistics, and ensuring seamless execution. Develops content and talking points on APAC and EMEA issues for ICI senior leaders’ participation in external seminars, luncheons, and other public speaking engagements.
+Builds relationships with regulators, policymakers, and key stakeholders (e.g., local industry associations) in the Asia‑Pacific region in Chinese (Cantonese and/or Mandarin) and English. Supports structuring of effective and efficient meetings of ICI steering and policy committees for Asia‑based members, and topic‑specific working groups, including developing agendas and leading relevant discussion items.
+Helps to ensure the accuracy and reliability of information and analysis collected and used in ICI materials. Drafts final reports of research results for internal use and use in ICI publications. Works effectively with external consultants and vendors to support ICI projects and ICI goals. Performs other duties as assigned.
+## Requirements
+Bachelor’s degree in Business, Finance, Economics, or related field and 96 months of experience in the job offered or as an analyst or researcher in the asset management or financial regulatory space. Alternatively, will accept a Master’s degree and 60 months of experience in the positions listed above.
+All candidates must possess written and spoken fluency in English and Chinese (Cantonese or Mandarin). Reference check required.
+Must have 5 years of:
+1) knowledge of APAC financial institutions and financial markets;
+2) experience independently managing multiple workflows against tight deadlines;
+3) experience collaborating with and presenting to colleagues and consultants across regions, jurisdictions, and time zones.
+Must also have 3 years of:
+1) experience synthesizing information, analysis, and data to respond to queries from members and policymakers;
+2) experience analyzing the impacts of regulatory initiatives and policy issues on the asset management industry in Asia, translating industry concerns into policy positions and advocacy strategy, and executing the strategy.
+Position is based out of 1401 H St. NW, Suite 1200, Washington, DC 20005. Must travel to the Asia‑Pacific region, Europe, and domestically throughout the year. Typically travels to Asia a minimum of 6 times per year to meet with Asia members.
+Partial remote schedule: 3 days in office and 2 days WFH, with Tuesday and Wednesday as core in‑office days. Must be able to work outside US business hours (Monday–Friday, 9am–5pm) as needed for meetings with Asia members.
+Rate of Pay: $174,450.00–$189,300.00 per year.
+Learn more
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Leveraging Your Leadership for PAC Success
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Webinar: International Membership Orientation
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/director-public-policy-15</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Investment Company Institute (ICI)</dc:creator>
+    <polintel:location>Washington, DC</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Content &amp; Event Marketing Specialist</title>
+      <link>https://pac.org/job/content-event-marketing-specialist</link>
+      <description>Content &amp; Event Marketing Specialist
+Organization: Investment Company Institute (ICI)
+Location: Washington, DC
+Date Posted: 09/05/2026
+**Salary Range:**
+$60,000.00 To $68,000.00 Annually
+As the leading global association of mutual funds, ETFs, and other regulated funds, the mission of the Investment Company Institute (ICI) is to strengthen the foundation of the asset management industry for the ultimate benefit of the long-term individual investor.
+As a member of the Strategic Communications department reporting to the Director, Digital Strategy, the Specialist, Content and Events Marketing is responsible for managing day-to-day execution of full-scale marketing plans to promote ICI’s business, brand, conferences, events, and webinars.
+**MAJOR DUTIES &amp; RESPONSIBILITIES**
+Works with the Director, Digital Strategy and Strategic Communications leadership to operationalize the broader communications vision for ICI into effective storytelling across audiences.
+Builds and executes full-scale marketing plans for conferences, workshops, webinars, and other ICI events, leveraging tactics including social media, email, SMS, paid promotion, and more.
+Supports the planning, development, and execution of research to gain in-depth knowledge of all ICI target audiences.
+Writes copy for conference promotions and events pages on the ICI website.
+Prepares attendee, exhibitor, sponsor, and speaker social media toolkits.
+Coordinates event promotion and registration through Cvent event management system.
+Works closely with subject matter experts to market events to appropriate groups, ensure customer list accuracy, and curate customer databases for future promotions.
+Builds long-term relationships with digital stakeholders and partners with colleagues at member firms and allied organizations.
+Creates daily newsletters published each morning of a conference sharing panel highlights, speaker insights, and more.
+Drafts pre- and post-conference blogs, previewing and recapping conference highlights.
+Partners with the creative team to develop video promotions, on-the-ground testimonials, and sizzle reels.
+Supports the broader digital team on the promotion of ICI Viewpoints blogs, research reports, and other ICI priorities.
+Collects rigorous metrics and KPIs to inform a proactive, forward-looking approach that can improve ICI’s marketing.
+**If you have the following credentials, we encourage you to apply:**
+Bachelor’s degree preferred and minimum of 2 – 4 years related experience in event promotions and meetings.
+Previous management of social channels and digital platforms.
+Experience supporting the development and execution of tailored communications and/or marketing campaigns.
+Experience in finance or other heavily regulated industries is a plus.
+Outstanding written communication abilities.
+Outstanding understanding of social and digital strategy.
+Commitment to the creation of creative, impactful, and compelling content contributing to ICI’s strategic goals.
+Excellent professional judgement.
+Ability to delegate tasks while maintaining high standards of quality.
+Deep understanding of digital and social platforms and relevant strategies.
+Ability to collect and use data, analytics, and other KPIs for campaign development and execution.
+ICI offers a competitive compensation and benefits package to include a comprehensive medical plan, generous 401(k) retirement savings plan, paid leave, commuting subsidies, and tuition reimbursement as well as training and development opportunities. Based in Washington, DC, ICI is conveniently located next to McPherson Square Metro station. This is a hybrid position with three days in the office and two working from home.
+To be considered for the position, please provide your cover letter and resume
+here
+.
+ICI is an Equal Opportunity Employer that values diversity and inclusion in the workplace.
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Webinar
+Economic Messaging Crash Course
+December 8, 2026
+Virtual Workshop
+Understanding &amp; Messaging with Artificial Intelligence
+November 19, 2026
+Virtual Workshop
+Storytelling for Advocacy
+November 18, 2026
+Virtual Workshop
+Writing for Public Affairs
+October 7, 2026
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Article
+The Buzz: How Companies Are Responding to Anti-DEI Backlash
+June 13, 2025
+Recording
+Communicating Public Affairs Issues to Your Employees
+March 18, 2025
+Recording
+Training Your Executive for First-Rate External Communications
+February 20, 2025
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/content-event-marketing-specialist</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Investment Company Institute (ICI)</dc:creator>
+    <polintel:location>Washington, DC</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Marketing Manager</title>
+      <link>https://pac.org/job/senior-marketing-manager-2</link>
+      <description>Senior Marketing Manager
+Organization: Mainely Grass Holdings
+Location: Newington, NH
+Date Posted: 09/05/2026
+## Job Type
+Full-time
+## Description
+Mainely Grass is a fast-growing, multi-location lawn care company serving homeowners across New England—and a nationally recognized Lawn &amp; Landscape Best Place to Work. We’re looking for a Senior Marketing Manager to lead the day-to-day execution of our marketing function while helping shape the strategy behind how we grow.
+You’ll work closely with the CEO, internal department leaders, and a network of specialized agencies and contractors—but you’ll be the quarterback of the marketing function. You’ll help set the direction, translate strategy into action, lead our external partners, and ensure great plans turn into great execution.
+This is a high-ownership role for someone who moves quickly, cares deeply about the details, and is equally comfortable thinking strategically and rolling up their sleeves to get things done. You’ll have the opportunity to make a significant impact on the growth of the business and how Mainely Grass shows up in the market.
+**Compensation:** $90,000 base salary, plus a meaningful annual bonus tied to performance
+—
+## Responsibilities
+– Develop and execute the annual marketing plan in partnership with the CEO, aligning campaigns, channels, budgets, and priorities with the company’s strategic objectives, seasonal needs, and growth goals.
+– Own the day-to-day execution of the marketing function, coordinating internal stakeholders and managing external agencies, contractors, and vendors to ensure work is delivered on time, on brand, and on budget.
+– Monitor and improve marketing performance across key marketing metrics, including lead volume, conversion rates, and customer acquisition cost.
+– Lead keeping the website current, keeping content refreshed, and maintaining and creating landing pages, overseeing all contractor/agency SEO changes and additions, as well as regularly seeking improvements to its conversion.
+– Work with head of customer experience to develop current customer communication campaigns, maintain communication calendars, and own execution of email + SMS, including seasonal upsell, annual renewal, and educational campaigns, with full accountability for performance on those channels and continuous improvement.
+– Work with head of sales to develop and execute communication campaigns to prior cancelled customers and rejected estimates via email + SMS, with full accountability for performance on those channels and continuous improvement.
+– Monitor and respond to customer reviews across platforms and maintain accurate digital listings to protect and strengthen our online reputation.
+– Manage organic social presence across platforms, with a focus on educational, seasonal content alongside internal team events.
+– Act as brand steward, maintaining and evolving brand guidelines and ensuring consistency in voice, messaging, and visual identity across all customer-facing communications.
+—
+## Requirements
+– Bachelor’s degree in Marketing, Communications, Business, or a related field, or an equivalent combination of education and experience
+– 5 years of marketing experience, preferably within the home services industry or a similar local business
+– HubSpot proficiency preferred
+– Demonstrated strength in project management, including the ability to manage multiple campaigns, deadlines, and external partners simultaneously
+– Experience managing agencies, contractors, and media vendors with a track record of holding partners accountable to deliverables and brand standards
+– Strong analytical skills with the ability to interpret performance data and translate insights into action
+– Excellent written and verbal communication skills with a high standard for quality and attention to detail
+– Creative thinker with the ability to develop effective campaigns across multiple channels
+– Self-directed, high ownership, low ego, and comfortable taking the lead across a broad range of marketing responsibilities
+—
+## Salary Description
+$90,000 base salary, plus annual bonus
+Apply
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Webinar
+Economic Messaging Crash Course
+December 8, 2026
+Virtual Workshop
+Understanding &amp; Messaging with Artificial Intelligence
+November 19, 2026
+Virtual Workshop
+Storytelling for Advocacy
+November 18, 2026
+Virtual Workshop
+Writing for Public Affairs
+October 7, 2026
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Article
+The Buzz: How Companies Are Responding to Anti-DEI Backlash
+June 13, 2025
+Recording
+Communicating Public Affairs Issues to Your Employees
+March 18, 2025
+Recording
+Training Your Executive for First-Rate External Communications
+February 20, 2025
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/senior-marketing-manager-2</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Mainely Grass Holdings</dc:creator>
+    <polintel:location>Newington, NH</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Director / VP of Marketing</title>
+      <link>https://pac.org/job/director-vp-of-marketing</link>
+      <description>Director / VP of Marketing
+Organization: Barletta Boats
+Location: Bristol, IN
+Date Posted: 09/05/2026
+# Director / Vice President of Marketing
+Barletta Boats is seeking a strategic and commercially minded marketing leader to help shape the next chapter of our premium brand. This opportunity may be structured as either Director of Marketing or Vice President of Marketing, depending on the selected candidate’s skills, experience, leadership scope, and demonstrated ability to influence both business‑unit and enterprise‑level outcomes.
+This leader will be responsible for advancing Barletta’s brand, market position, digital retail strategy, social presence, marketing technology, analytics, and AI‑enabled marketing capability. We are looking for someone who can move marketing beyond traditional execution into a more strategic, insight‑led, digitally enabled, and commercially connected function that supports long‑range growth and strengthens Barletta’s position as a premium pontoon brand.
+Founded on a commitment to creating exceptional boating experiences, Barletta Boats is proud to be part of Winnebago Industries (NYSE: WGO), a family of premium outdoor recreation brands that includes Winnebago, Grand Design RV, Newmar, and Chris‑Craft. Together, these brands share a passion for innovation, quality, and craftsmanship while retaining their own unique identities and legacies. Through the strength of the Winnebago Industries portfolio, Barletta combines entrepreneurial agility with the resources, expertise, and vision of a global leader in outdoor recreation.
+## About the Opportunity
+The Director / VP of Marketing will define how Barletta shows up in the market, how customers and dealers experience the brand, and how marketing strategy translates into measurable business impact. This role requires progressive thinking around brand strategy, the future of boat buying and digital retail, dealer and customer engagement, marketing analytics, AI‑enabled workflows, VOC‑driven insights, and cross‑functional commercialization.
+The ideal candidate will bring strong emotional intelligence, practical resourcefulness, and the ability to build momentum by leveraging expertise across the enterprise, dealer partners, agencies, vendors, and external thought leaders. This is a highly critical leadership role for someone who can connect brand, customer, dealer, product, digital, social, analytics, and commercial priorities into one integrated marketing agenda.
+Role level will be determined by experience: Candidates with strong functional leadership, team development, digital marketing, and brand execution experience may be considered at the Director level. Candidates with broader enterprise leadership experience, executive influence, measurable commercial impact, strategic transformation, and proven ability to lead a modern marketing function at scale may be considered at the Vice President level.
+## What You’ll Lead
+– **Brand strategy** and market position: Elevate and protect Barletta’s premium brand position across customer, dealer, media, product, social, digital, and internal touchpoints.
+– **Digital and social** and marketing technology: Establish a clear roadmap for the website, dealer portal, digital retail capabilities, social media platforms, asset management, lead‑management workflows, web analytics, and related marketing technologies.
+– **Customer and dealer experience**: Shape Barletta’s point of view on how premium boats are researched, configured, purchased, supported, and experienced over time.
+– **Marketing analytics** and performance: Build dashboards, scorecards, and operating rhythms that connect marketing activity to outcomes such as brand health, website traffic, lead generation, lead quality, conversion visibility, campaign ROI, dealer engagement, and growth priorities.
+– **AI‑enabled innovation**: Identify practical ways to develop AI competency and automation to improve speed, quality, personalization, insight generation, lead scoring, campaign optimization, content development, asset organization, customer segmentation, and workflow efficiency.
+– **VOC and market intelligence**: Partner with Sales, Product Development, CX, and dealer partners to organize customer and dealer signals into actionable recommendations.
+– **Commercial storytelling** and growth support: Translate Barletta’s long‑range growth strategy into marketing actions that support market share expansion, lead generation, dealer confidence, lot‑share improvement, new dealer support, and targeted distribution priorities.
+– **Product launches** and commercialization: Lead integrated marketing planning for model year rollover, new product introductions, product updates, dealer communications, website updates, social content, asset readiness, and go‑to‑market execution.
+– **Dealer enablement** and industry presence: Ensure dealers have the tools, content, communications, events, training support, and brand confidence needed to represent Barletta effectively.
+– **Content and PR**: Lead the strategy for boat tests, editorial opportunities, boating publications, influencer relationships, customer stories, testimonials, premium visual assets, and public relations.
+## What We’re Looking For
+– **Progressive marketing leadership experience** with responsibility for brand strategy, digital marketing, marketing operations, analytics, customer experience, and team leadership.
+– **Experience leading marketing transformation**, technology adoption, agency/vendor partnerships, content strategy, events, and integrated campaign execution.
+– **Strong understanding of dealer, channel, retail, or durable goods environments**; marine, powersports, RV, automotive, or premium lifestyle product experience is preferred.
+– **Ability to use data, dashboards, insights, and measurable rhythms** to guide decisions and improve outcomes.
+– **Growing fluency with AI‑enabled tools**, marketing automation, CRM/lead management, digital asset management, web analytics, and customer journey optimization.
+– **Executive presence, strategic communication skill, emotional intelligence**, and the ability to influence cross‑functional leaders, dealer partners, external agencies, and industry stakeholders.
+– **Demonstrated resourcefulness** in building capability, solving problems, and delivering outcomes by leveraging internal teams, enterprise expertise, dealer partners, agencies, vendors, and external thought leaders in a budget‑conscious environment.
+## Leadership Characteristics That Will Matter
+– **Strategic and enterprise‑minded**: Understands how marketing influences brand equity, customer demand, dealer confidence, product commercialization, market share, and long‑term growth.
+– **Progressive and future‑oriented**: Curious about digital retail, social media, customer journey design, AI, data‑driven marketing, customer segmentation, content personalization, and the future of premium boat buying.
+– **Emotionally intelligent and relationship‑driven**: Builds trust quickly, listens well, adapts communication style, and influences effectively across internal teams, dealers, agencies, vendors, and external partners.
+– **Commercially grounded**: Connects marketing to lead generation, website traffic, dealer engagement, conversion, market share, product launch success, brand strength, and ROI.
+– **Creative but disciplined**: Values storytelling, content quality, events, PR, social engagement, structure, prioritization, timelines, accountability, and follow‑through.
+– **Resourceful and collaborative**: Leverages internal talent, enterprise expertise, dealer partners, agencies, vendors, industry relationships, and external thought leaders.
+## Success in the First 12–24 Months
+– A clear marketing strategy aligning brand, dealer support, product launches, digital retail, social presence, VOC insights, analytics, and commercial priorities.
+– Improved consistency and strength of Barletta’s premium brand presence across customer, dealer, media, social, product, and internal touchpoints.
+– A modernized digital, social, and marketing technology roadmap with clearer ownership, improved usability, stronger data flow, and measurable performance expectations.
+– More visible customer journey and lead performance insights, including lead generation, website traffic, lead quality, conversion visibility, dealer engagement, and follow‑up effectiveness.
+– Improved execution discipline around model year rollover, product launch readiness, boat shows, dealer communications, content planning, social activation, and event support.
+– Practical adoption of AI and automation with clear use cases, governance, and measurable productivity, quality, or insight improvements.
+– A stronger, more scalable marketing team operating model with defined priorities, accountability, cross‑functional alignment, resourceful use of internal/external expertise, disciplined budget management, and a consistent cadence of reporting and decision‑making.
+## Why Barletta?
+At Barletta, marketing is more than a support function. It is a critical connector between our brand, our dealers, our customers, our products, and our long‑range growth strategy. This is an opportunity to help shape how a highly regarded premium pontoon brand continues to grow, differentiate, innovate, and deliver a customer and dealer experience that reflects who we are.
+If you are a marketing leader who combines strategic thinking, modern digital fluency, commercial discipline, creativity, collaboration, and a genuine interest in building future‑ready capability, we would like to connect with you.
+Learn more
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Webinar
+Economic Messaging Crash Course
+December 8, 2026
+Virtual Workshop
+Understanding &amp; Messaging with Artificial Intelligence
+November 19, 2026
+Virtual Workshop
+Storytelling for Advocacy
+November 18, </description>
+      <guid isPermaLink="false">https://pac.org/job/director-vp-of-marketing</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Barletta Boats</dc:creator>
+    <polintel:location>Bristol, IN</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Assistant General Counsel</title>
+      <link>https://pac.org/job/assistant-general-counsel-10</link>
+      <description>Assistant General Counsel
+Organization: Winnebago Industries
+Location: Eden Prairie, MN
+Date Posted: 09/05/2026
+**Salary Range:**
+$210,000.00 To $250,000.00 Annually
+Are you looking to join an organization with strong values and brand reputation? Winnebago Industries is seeking a highly organized, motivated, and energetic attorney to join our team as Assistant General Counsel based in Eden Prairie, MN. This role will manage legal support of commercial matters, innovation and dispute resolution. This position will report to the Vice President, Chief Compliance Officer and will play a critical role in partnering with the Winnebago Legal department as well as internal and external business stakeholders. The ideal candidate will have a growth mindset and the desire to learn to take on new challenges.
+**Day to Day of the Role:**
+Manage legal support for commercial matters, including contracts, marketing, and the company’s dealer channel.
+Manage legal support of intellectual property, including patents and trademarks.
+Manage general litigation, pre-litigation claims, and all related matters, including litigation risk mitigation.
+Manage legal support for real estate matters.
+Perform special projects and support continuous improvement of legal department standard work, knowledge management and process.
+Identify, supervise and partner with outside counsel to ensure that all aspects of the company’s legal representation are of the highest quality.
+Offer counsel on a variety of legal issues.
+Serve as an accountable, strategic business partner to business and function leaders, providing actionable advice and guidance to address legal risks.
+Contribute to strategic planning, direction, and goal setting for the Legal function.
+Support development of policies, practices, and procedures that have a significant impact on the organization.
+Support the development of the department budget.
+Provide training to the company on legal topics.
+Other duties assigned are based on business need.
+**Qualifications and Skills:**
+JD degree from an ABA accredited law school.
+Admitted to practice in the State of Minnesota.
+Minimum of 8+ years of litigation experience in a law firm or in-house legal department.
+Experience working with product warranty and/or product liability is highly preferred.
+Strong leadership skills, proven ability to build trust, lead, energize, influence and drive action at all levels within the organization including senior leadership.
+Experience with drafting and negotiating contracts is strongly preferred.
+This posting includes a range of the salary across a geographical market. The base pay for this position ranges from $210,000 in our lowest geographic market up to $250,000 in our highest geographic market. Pay is based on a number of factors including market location, internal equity, job-related knowledge, skills, and experience. Dependent on the position other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit [https://www.winnebagoind.com/careers/total-rewards.]
+Learn more
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Leveraging Your Leadership for PAC Success
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Webinar: International Membership Orientation
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/assistant-general-counsel-10</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Winnebago Industries</dc:creator>
+    <polintel:location>Eden Prairie, MN</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Quality &amp; Compliance Systems Specialist</title>
+      <link>https://pac.org/job/quality-compliance-systems-specialist</link>
+      <description>Quality &amp; Compliance Systems Specialist
+Organization: Winnebago Industries
+Location: Middlebury, IN
+Date Posted: 09/05/2026
+## Winnebago Industries
+Winnebago Industries is a prominent manufacturer of outdoor lifestyle products under the iconic Winnebago, Grand Design, Chris‑Craft, and Newmar brands. Our 6,500+ team members across Iowa, Indiana, Minnesota, and Florida deliver on our vision to be the trusted pacesetter in outdoor lifestyle solutions by providing unmatched innovation, quality, and service in the industries we engage.
+We believe our employees are our most valuable asset, and we are committed to providing a safe and engaging environment where you can be passionate about the work you do and have opportunities to learn and grow. Winnebago is excited to provide equal employment opportunities without regard to race, color, religion, sex, national origin, age, disability, marital status, veteran status, sexual orientation, genetic information, or any other protected characteristic under applicable law.
+Winnebago Towables has an immediate need for an experienced candidate to fill a **Quality &amp; Compliance Systems Specialist** position. This position will be based in Middlebury, Indiana.
+## Primary Objective of Position
+Winnebago Towables has an immediate opening for a Quality and Compliance Systems Specialist to support and enhance quality assurance activities throughout the manufacturing process. This role is involved across the full manufacturing lifecycle—from incoming materials to finished goods—ensuring products meet internal requirements as well as external regulatory and industry standards.
+The Quality and Compliance Systems Specialist conducts inspections, audits, testing, and data analysis; creates quality documentation; and drives continuous improvement using structured problem‑solving methodologies. This position plays a key role in maintaining compliance with Recreational Vehicle Industry Association (RVIA) and Canadian Standards Association (CSA) requirements while partnering cross‑functionally to improve product quality, reduce warranty issues, and support operational excellence.
+## Key Areas of Responsibility
+– Perform Quality Focus Group audits related to process adherence, defect prevention, standard work, and employee training.
+– Audit and verify proper installation and assembly per component manufacturer specifications; identify gaps and recommend process or design improvements.
+– Ensure manufacturing processes and finished products meet applicable industry and regulatory standards (RVIA, CSA).
+– Support and lead efforts to ensure appropriate inspection and testing procedures are defined, implemented, and sustained.
+– Develop and maintain visual work instructions, inspection aids, and quality documentation to support production and audit readiness.
+– Create, distribute, and follow up on Quality Alerts to drive prompt containment and corrective action.
+– Review customer and warranty claim data to identify trends, perform root cause analysis, and support cross‑functional warranty reduction initiatives.
+– Facilitate structured problem solving and corrective actions (e.g., containment, root cause, corrective/preventive actions) to prevent recurrence.
+– Partner with Operations, Service, Supply Chain, and Product Development to drive continuous improvement initiatives.
+– Identify, contain, and document nonconforming materials or components; coordinate communication and disposition with appropriate departments.
+– Collect, analyze, and report quality data to support decision‑making and continuous improvement efforts.
+## Education &amp; Experience
+High School Diploma / GED
+3–5 years of experience in quality, engineering, or manufacturing
+Experience in print reading and part measurement
+Ability to collaborate effectively across multiple cross‑functional groups at multiple levels of the company
+RVIA/RVDA Certification a plus
+## Physical Demands
+Office sitting and standing environment
+Position may require sitting for long periods of time
+At Winnebago, we believe ALL people are leaders and hold each other accountable to high expectations.
+## Leadership Expectations
+### Connect with Purpose
+– Be inclusive; seek out different perspectives.
+– Focus on the Customer; put yourself in the customer’s shoes.
+– Communicate Clearly; say what needs to be said and listen.
+### Execute with Excellence
+– Explore Possibilities; ask, “What if?” and embrace new ideas.
+– Set Direction; prioritize, plan, and align; balance thinking and action.
+– Drive Results; get the right things done; work with a sense of urgency.
+### Build the Future
+– Transform the Road Ahead; anticipate opportunities; seek new opportunities for continuous improvement.
+– Navigate Change; be agile and flexible; take on new challenges.
+– Inspire Growth; help each other improve; commit to personal development.
+## Benefits
+If you are the right candidate for this position, as a Winnebago Team Member you will be eligible for the following benefits:
+– Medical, Dental, Vision, Group Life Insurance, Accidental Injury, Critical Illness, Short &amp; Long‑Term Disability
+– Health Savings Account (HSA)
+– Flexible Spending Account (FSA)
+– 401(k) with match
+– Employee Stock Purchase Program
+– Tuition Reimbursement
+– Holiday and Vacation Pay
+Winnebago Towables is an Equal Opportunity Employer.
+Learn more
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Leveraging Your Leadership for PAC Success
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Webinar: International Membership Orientation
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/quality-compliance-systems-specialist</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Winnebago Industries</dc:creator>
+    <polintel:location>Middlebury, IN</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Permitting Policy Director</title>
+      <link>https://pac.org/job/permitting-policy-director</link>
+      <description>Permitting Policy Director
+Organization: Permit Power
+Location: Remote
+Date Posted: 09/05/2026
+tl;dr Co-lead Permit Power’s policy development to simplify and streamline permitting, inspection, HOAs, building codes, and product standards to dramatically lower the cost and accelerate the adoption of residential rooftop solar, plug-in solar, and home batteries.
+What we do at Permit Power
+Permit Power is an energy affordability non-profit on a mission to make it cheap and easy for American families to power their lives by cutting the red tape that makes home solar and batteries so expensive.
+We are a small but ambitious team that advances common-sense policy fixes in states around the country to modernize processes like permitting and utility interconnection to allow tens of millions more American families to produce their own affordable electricity.
+What you’ll be doing
+We are looking for a Permitting Policy Director to co-lead our agenda to remove bureaucratic barriers for residential rooftop solar, plug-in solar, and home batteries including streamlining permitting, inspection, homeowner association approvals, and codes and standards.
+In partnership with Permit Power’s advocacy staff, you’ll serve as a core part of our team to drive legislative change, lead and participate in coalition efforts, and be an internal expert and external thought leader on permit streamlining. A significant portion of your work will likely focus on policies derived from the values of property rights, small government, and consumer choice in conservative and purple states.
+The specific policies and states will be divided with Permit Power’s current Permitting Policy Director based on existing expertise, geography, and other factors. You will report to the Chief of Policy.
+Develop Permit Power’s permitting policy agenda
+Formulate and execute a comprehensive policy plan to simplify and streamline permitting and inspection processes for home solar and batteries, with a focus on states with the largest home solar and battery potential, as well as simplifying and streamlining building codes and product safety standards for home solar products such as plug-in solar.
+Oversee the bill-to-law cycle
+Conduct preliminary research for, draft, and vet permitting bill language. Produce advocacy materials such as talking points, fact sheets, graphics, and reports. In coordination with Permit Power’s advocacy team and outside lobbyists, lobby legislators, their staff, and executive branch officials. Negotiate with opposition.
+Build and drive coalitions
+Develop and manage relationships with partners such as home builders, the solar industry, think tanks, and others to broaden support for a permitting reform agenda and to collaboratively refine and update our state policy priorities.
+Serve as the subject matter expert
+Act as the organization’s authority on permitting rules, regulations, and cutting-edge policies like third-party permitting and inspection, HOA overreach, and simplified building codes and product standards.
+Evaluate compliance and implementation
+Investigate whether jurisdictions are following the bills we pass, whether installers are actively taking advantage of them, and why. Analyze where implementation is hitting friction points and refine solutions to remove further and persistent barriers to affordable home solar and batteries.
+Manage external research and consultants
+Scope external policy research and identify, onboard, and direct consultants to secure high-quality products supporting our permitting policy agenda.
+What we’re looking for
+7+ years of experience in policy development, legislative advocacy, and/or regulatory affairs related to solar, construction, permitting, or government efficiency.
+Track record of successfully developing and executing policy agendas that lead to tangible outcomes, particularly within state legislative arenas.
+Sufficient technical expertise with relevant engineering concepts (e.g., electrical, structural, and/or fire safety) to shape our policy approach to permitting and inspection policies, building codes, and product safety standards.
+Experience testifying before, interfacing with, and developing materials for policymakers.
+Demonstrated ability to build coalitions and partner with stakeholders to achieve policy goals.
+Ability to translate complex technical and engineering concepts into clear, accessible language and materials for policymakers, advocates, and the public.
+Relationships with energy policy organizations, the building industry, technical consultants, research firms, and think tanks.
+What will make you a good fit
+Entrepreneurial and self-directed. We are a small team, and you will need to be able to figure out what your goals are and how to achieve them within the set timeframe.
+Outcomes-oriented. We measure ourselves by how much we can drive down the cost and timelines for installing solar and batteries, and how much more solar and batteries are installed as a result of our work. We are looking for someone who will find fulfillment in achieving those concrete goals.
+Collaborative and low-ego. We’re a start-up organization and will make many mistakes. We will only succeed if we work together, acknowledge our mistakes, and learn from them.
+Flexible and open-minded. Comfortable collaborating and finding common ground with stakeholders across the ideological spectrum.
+Organized and detail-oriented. No one will be looking over your shoulder, and you will need to take true ownership over the quality of your work and stay on top of your own administrative work.
+Occasional travel
+Willing to travel for team meetings and periodic partner meetings, hearings, and conferences several times a year.
+The salary &amp; benefits you can expect
+The salary range for this position is $135,000–160,000. This is a full-time, exempt position. Permit Power offers a generous and comprehensive benefits package including health insurance, dental insurance, vision care, pre-tax commuter benefits, FSA, and 401k with 5% contribution matching (limits apply).
+Permit Power offers 6 months of paid maternity or paternity leave to bond with a newborn or adopted child within the first year of birth or adoption.
+We are a fully remote team open to candidates anywhere in the U.S.
+Equal Opportunity Employer
+We believe diversity fuels creativity, broadens knowledge, and helps drive success, and that is why we’re proud to be an Equal Opportunity Employer and strive to treat all employees and applicants with honesty, dignity, respect, and sensitivity.
+What the Lawyers told us to say
+The statements herein are intended to describe the general nature and level of work being performed by employees assigned to this position. They are not intended to be construed as an exhaustive list of all responsibilities, duties, and skills required of personnel so assigned, and are subject to change.
+Applications will close September 25, 2026.
+$135,000 – $160,000 yearly
+Learn more
+here
+Earn a certificate with the Council!
+Start your journey
+today.
+More News &amp; Resources
+«
+Webinar
+Webinar: EU Policy Insights – What Should PA Professionals Expect for the Remainder of 2026
+September 9, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Public Affairs in Latin America
+September 10, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+2026 Election Update
+September 15, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Social Media for Advocacy
+September 16, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Conference
+Training seminar: Strategic Planning for Public Affairs
+September 17, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Online Workshop: Policy Communications for Public Affairs - from Strategic Planning to Implementation
+September 22, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Election-Proofing Your Communications Strategy
+September 23, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Getting the Most Out of Your Consultants
+September 30, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Virtual Workshop
+Leveraging Your Leadership for PAC Success
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+Webinar
+Webinar: International Membership Orientation
+October 1, 2026
+Post Type:
+Highlight:
+Events
+Featured Weight:
+2
+Popular Weight:
+»
+Back to Jobs
+Government Relations &amp; Policy Conference
+We’re bringing together experts and practitioners from across industries for discussions on emerging issues affecting local, state and federal government relations professionals.
+Learn More</description>
+      <guid isPermaLink="false">https://pac.org/job/permitting-policy-director</guid>
+      <category>US Government Affairs</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Permit Power</dc:creator>
+    <polintel:location>Remote</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>structured</polintel:descriptionSource></item>
   </channel>
 </rss>
