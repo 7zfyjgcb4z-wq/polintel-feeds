@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 19:01:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 18:54:50 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-287/</link>
@@ -99,9 +99,9 @@
     <polintel:location>Nashville, Seattle, or Dallas preferred</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Chief Financial Officer</title>
-      <link>https://www.foundationlist.org/job-details/chief-financial-officer-74/</link>
+      <link>https://www.foundationlist.org/job-details/chief-financial-officer-75/</link>
       <description>Join our award winning culture as we serve members in the state of Wisconsin! The Chief Financial Officer (CFO) of Lakeland Care, Inc. (LCI) and Treasurer of Lakeland Care Plus, Inc. (LC Plus) provides strategic financial leadership and oversight</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-financial-officer-74/</guid>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-financial-officer-75/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
@@ -657,10 +657,10 @@ info@elmuseolatino.org</description>
     <item>
       <title>Controller</title>
       <link>https://www.foundationlist.org/job-details/controller-56/</link>
-      <description>Meals on Wheels People is a community-founded and community-driven nonprofit organization. For more than 50 years, we have supported the independence and well-being of older adults throughout the Portland Metro area by providing nutritious meals and</description>
+      <description>The Controller reports directly to the Chief Financial Officer (CFO) and is responsible for the leadership, management, and execution of the John F. Kennedy Library Foundation's accounting and financial operations. As a key member of a small, collabo</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/controller-56/</guid>
       <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
@@ -1023,5 +1023,32 @@ info@elmuseolatino.org</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>US Audience Growth Consultant</title>
+      <link>https://www.foundationlist.org/job-details/us-audience-growth-consultant/</link>
+      <description>350.org is seeking a senior consultant on Audience Growth on Social Media to deliver content production targeting US audiences within our global social media channels, with a focus on measurable audience growth across our shared global platforms. Thi</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/us-audience-growth-consultant/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Grant Writer</title>
+      <link>https://www.foundationlist.org/job-details/grant-writer-52/</link>
+      <description>Change Lives and Transform Communities – Join Our Development Team! Neighborhood Legal Services of Los Angeles County (NLSLA) provides free assistance to over 175,000 individuals and families each year through innovative projects that expand acces</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/grant-writer-52/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Climate &amp; Energy Attorney (Connecticut)</title>
+      <link>https://www.foundationlist.org/job-details/climate-energy-attorney-connecticut/</link>
+      <description>Conservation Law Foundation (CLF) is seeking a full-time Senior Attorney or Staff Attorney II to join our Climate &amp;amp;amp; Energy team. Based in CLF's New Haven office, the attorney will play a leading role in advancing innovative strategies to drive th</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/climate-energy-attorney-connecticut/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>New Haven</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>

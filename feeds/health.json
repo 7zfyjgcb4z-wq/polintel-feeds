@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-09-10T17:30:44Z",
+  "generated_at": "2026-09-10T18:54:50Z",
   "country_last_run": {
     "internship_graduate": "2026-09-10T13:55:50Z",
     "southern": "2026-09-10T15:51:26Z",
     "pan-eu": "2026-09-10T17:30:44Z",
     "dach": "2026-09-10T15:51:22Z",
     "brussels": "2026-09-10T12:18:22Z",
+    "us": "2026-09-10T18:54:50Z",
     "uk": "2026-09-10T09:27:21Z"
   },
   "feed_item_counts": {
@@ -53,9 +54,9 @@
     "us-us-campaigns.xml": 206,
     "us-us-congress.xml": 53,
     "us-us-fellowships.xml": 0,
-    "us-us-government-affairs.xml": 780,
-    "us-us-ngos.xml": 104,
-    "us-us-think-tanks.xml": 129
+    "us-us-government-affairs.xml": 779,
+    "us-us-ngos.xml": 107,
+    "us-us-think-tanks.xml": 127
   },
   "warnings": [
     {
@@ -74,67 +75,7 @@
       "count": 53
     },
     {
-      "feed": "brussels-ngos.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "cee-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "dach-trade-associations.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "southern-political-parties.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "nordics-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "southern-public-affairs.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "nordics-think-tanks.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "internship_graduate-us-congress.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "benelux-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
       "feed": "uk-fellowships.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "internship_graduate-us-fellowships.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "dach-foundations.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "southern-trade-associations.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "cee-think-tanks.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "internship_graduate-us-campaigns.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "benelux-think-tanks.xml",
       "type": "no_sources"
     },
     {
@@ -142,15 +83,19 @@
       "type": "no_sources"
     },
     {
-      "feed": "benelux-political-parties.xml",
+      "feed": "cee-national-politics.xml",
       "type": "no_sources"
     },
     {
-      "feed": "southern-think-tanks.xml",
+      "feed": "nordics-national-politics.xml",
       "type": "no_sources"
     },
     {
-      "feed": "uk-trade-associations.xml",
+      "feed": "dach-foundations.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "dach-trade-associations.xml",
       "type": "no_sources"
     },
     {
@@ -158,7 +103,63 @@
       "type": "no_sources"
     },
     {
+      "feed": "southern-trade-associations.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "uk-trade-associations.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "benelux-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
       "feed": "pan-eu-eu-affairs.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "benelux-political-parties.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "brussels-ngos.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "internship_graduate-us-fellowships.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "benelux-national-politics.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "internship_graduate-us-congress.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "cee-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "southern-political-parties.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "southern-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "nordics-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "southern-public-affairs.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "internship_graduate-us-campaigns.xml",
       "type": "no_sources"
     }
   ],
@@ -1216,7 +1217,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -1238,7 +1239,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -1502,7 +1503,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -1546,7 +1547,7 @@
       "new_prev_28d": 3,
       "median_lifetime_days": 18.12,
       "stub_share": null,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -1568,7 +1569,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -2272,7 +2273,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -2338,7 +2339,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": 1.0,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -2514,7 +2515,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -2756,7 +2757,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 9,
+      "consecutive_zero_runs": 10,
       "status": "dead"
     },
     {
@@ -2998,7 +2999,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 8,
+      "consecutive_zero_runs": 9,
       "status": "dead"
     },
     {
@@ -3174,7 +3175,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 8,
+      "consecutive_zero_runs": 9,
       "status": "dead"
     },
     {
@@ -3536,10 +3537,10 @@
       "feed": "us-us-congress.xml",
       "scraper_tier": "dedicated",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 53,
+      "last_run_found": 53,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 53,
@@ -3558,7 +3559,7 @@
       "feed": "us-us-congress.xml",
       "scraper_tier": "dedicated",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3580,7 +3581,7 @@
       "feed": "us-us-ngos.xml",
       "scraper_tier": "dedicated",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3602,18 +3603,18 @@
       "feed": "us-us-campaigns.xml",
       "scraper_tier": "dedicated",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 200,
+      "last_run_found": 200,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 202,
-      "new_7d": 31,
-      "new_28d": 152,
+      "active_rows": 206,
+      "new_7d": 35,
+      "new_28d": 156,
       "new_prev_28d": 233,
-      "median_lifetime_days": 10.79,
-      "stub_share": 0.0842,
+      "median_lifetime_days": 11.0,
+      "stub_share": 0.0874,
       "consecutive_zero_runs": 0,
       "status": "healthy"
     },
@@ -3624,7 +3625,7 @@
       "feed": "us-us-government-affairs.xml",
       "scraper_tier": "dedicated",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3646,17 +3647,17 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 14,
+      "last_run_found": 14,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 17,
       "new_7d": 2,
       "new_28d": 7,
       "new_prev_28d": 5,
-      "median_lifetime_days": 20.22,
+      "median_lifetime_days": 21.21,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -3668,17 +3669,17 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 22,
+      "last_run_found": 22,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 29,
       "new_7d": 1,
       "new_28d": 4,
       "new_prev_28d": 8,
-      "median_lifetime_days": 14.61,
+      "median_lifetime_days": 15.6,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -3690,20 +3691,20 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 14,
+      "last_run_found": 14,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 20,
-      "new_7d": null,
-      "new_28d": 3,
+      "active_rows": 21,
+      "new_7d": 1,
+      "new_28d": 4,
       "new_prev_28d": 6,
-      "median_lifetime_days": 8.91,
+      "median_lifetime_days": 8.94,
       "stub_share": null,
       "consecutive_zero_runs": 0,
-      "status": "stale"
+      "status": "healthy"
     },
     {
       "name": "Heritage Foundation Careers",
@@ -3712,17 +3713,17 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 10,
+      "last_run_found": 10,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 12,
       "new_7d": null,
       "new_28d": 1,
       "new_prev_28d": 1,
-      "median_lifetime_days": 20.22,
+      "median_lifetime_days": 21.21,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "stale"
@@ -3734,10 +3735,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": null,
@@ -3746,7 +3747,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -3756,10 +3757,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": null,
@@ -3768,7 +3769,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -3778,10 +3779,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": null,
@@ -3790,7 +3791,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -3800,17 +3801,17 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 5,
+      "last_run_found": 5,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 6,
       "new_7d": 2,
       "new_28d": 2,
       "new_prev_28d": 5,
-      "median_lifetime_days": 5.01,
+      "median_lifetime_days": 6.01,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -3822,10 +3823,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": null,
@@ -3834,7 +3835,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -3844,10 +3845,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": null,
@@ -3856,7 +3857,7 @@
       "new_prev_28d": 3,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -3866,17 +3867,17 @@
       "feed": "us-us-government-affairs.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 426,
+      "last_run_found": 426,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 762,
-      "new_7d": 83,
-      "new_28d": 333,
+      "active_rows": 779,
+      "new_7d": 100,
+      "new_28d": 350,
       "new_prev_28d": 342,
-      "median_lifetime_days": 12.76,
+      "median_lifetime_days": 12.77,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -3888,17 +3889,17 @@
       "feed": "us-us-ngos.xml",
       "scraper_tier": "rss_feed",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 50,
+      "last_run_found": 50,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 104,
-      "new_7d": 8,
-      "new_28d": 54,
+      "active_rows": 107,
+      "new_7d": 11,
+      "new_28d": 57,
       "new_prev_28d": 68,
-      "median_lifetime_days": 11.78,
+      "median_lifetime_days": 12.77,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -3910,7 +3911,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3932,7 +3933,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3954,17 +3955,17 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 9,
+      "last_run_found": 9,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 15,
       "new_7d": 1,
       "new_28d": 2,
       "new_prev_28d": 5,
-      "median_lifetime_days": 5.52,
+      "median_lifetime_days": 6.02,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -3976,7 +3977,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3998,7 +3999,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4020,10 +4021,10 @@
       "feed": "us-us-fellowships.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": null,
@@ -4032,7 +4033,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -4042,7 +4043,7 @@
       "feed": "us-us-campaigns.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4064,7 +4065,7 @@
       "feed": "us-us-fellowships.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4086,7 +4087,7 @@
       "feed": "us-us-fellowships.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4108,7 +4109,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4130,7 +4131,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4152,17 +4153,17 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 6,
+      "last_run_found": 6,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 7,
       "new_7d": 2,
       "new_28d": 4,
       "new_prev_28d": null,
-      "median_lifetime_days": 4.49,
+      "median_lifetime_days": 5.49,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -4174,10 +4175,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 4,
+      "last_run_found": 4,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 2,
@@ -4196,7 +4197,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4218,7 +4219,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4240,10 +4241,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 16,
+      "last_run_found": 16,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 3,
@@ -4262,10 +4263,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 3,
@@ -4274,7 +4275,7 @@
       "new_prev_28d": 2,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -4284,7 +4285,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4306,10 +4307,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": null,
@@ -4318,7 +4319,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -4328,10 +4329,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 1,
+      "last_run_found": 1,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 1,
@@ -4350,10 +4351,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 7,
+      "last_run_found": 7,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 4,
@@ -4372,7 +4373,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4394,10 +4395,10 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_run_new": null,
-      "last_run_found": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
+      "last_success_at": "2026-09-10T18:54:50Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 7,
@@ -4406,7 +4407,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": 0.0,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -4416,7 +4417,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -4438,7 +4439,7 @@
       "feed": "us-us-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": null,
+      "last_run_at": "2026-09-10T18:54:50Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -5809,7 +5810,7 @@
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 1010,
-      "new_7d": 170,
+      "new_7d": 141,
       "new_28d": 556,
       "new_prev_28d": 640,
       "median_lifetime_days": 7.95,
@@ -5875,7 +5876,7 @@
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 241,
-      "new_7d": 21,
+      "new_7d": 17,
       "new_28d": 54,
       "new_prev_28d": 267,
       "median_lifetime_days": 9.9,
@@ -5897,7 +5898,7 @@
       "last_run_failed": false,
       "last_error": null,
       "active_rows": 44,
-      "new_7d": 4,
+      "new_7d": 3,
       "new_28d": 7,
       "new_prev_28d": 50,
       "median_lifetime_days": 7.0,
