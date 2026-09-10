@@ -26,34 +26,29 @@ log = logging.getLogger(__name__)
 
 BASE = "https://www.civilservicejobs.service.gov.uk"
 JOBS_URL = f"{BASE}/csr/jobs.cgi"
+INDEX_URL = f"{BASE}/csr/index.cgi"
 MAX_PAGES_PER_KEYWORD = 10  # 25 results/page → up to 250 per keyword
 
+# Sort value for the "Refresh sort" GET form on the results page
+# (<select name="sort" id="new_search_sort_order">; value "opening" = Most recent).
+# The initial esearch POST ignores this parameter; the sort must be applied by
+# following the results-page Refresh sort form (GET /csr/index.cgi?sort=opening&…).
+# Diagnosis: DIAGNOSTIC_csj_capture_2026-09-09.md — Step 1 measurement.
+CSJ_SORT = "opening"
+
+# Keyword list trimmed 2026-09-10 (fix/csj-sort-newest-first).
+# Under sort=opening (most-recent), the first 75 most-recently-posted civil service
+# jobs match every broad keyword; 19 of 25 original keywords contributed zero unique
+# rows at 3-page (75-row) depth.  The six below are retained: the first four because
+# they are mandatory keeps per the design spec, the last two because they may surface
+# niche cohorts (Fast Stream, Diplomatic) that sit deeper in the result sets.
 SEARCH_KEYWORDS = [
     "policy",
     "analyst",
-    "strategy",
-    "international",
-    "communications",
-    "press officer",
-    "media officer",
-    "legal",
-    "intelligence",
     "parliamentary",
-    "regulatory",
-    "economist",
-    "evaluation",
-    "research",
-    "commercial",
-    "procurement",
-    "governance",
     "diplomatic",
-    "adviser",
-    "director",
     "graduate scheme",
     "fast stream",
-    "data scientist",
-    "cyber security",
-    "behavioural science",
 ]
 
 
@@ -197,6 +192,29 @@ class Scraper(BaseScraper):
 
         keyword_jobs: list[Job] = []
         current_soup = BeautifulSoup(r_results.text, "lxml")
+
+        # Apply CSJ_SORT via the results-page "Refresh sort" form (GET index.cgi).
+        # The initial esearch POST always returns sort=closing (server default);
+        # the sort control is only honoured through this extra GET step.
+        sort_url = self._sort_refresh_url(current_soup)
+        if sort_url:
+            try:
+                r_sorted = await client.get(sort_url)
+                r_sorted.raise_for_status()
+                await asyncio.sleep(REQUEST_DELAY)
+                current_soup = BeautifulSoup(r_sorted.text, "lxml")
+                r_results = r_sorted
+            except httpx.HTTPError as e:
+                self.log.warning(
+                    f"Sort refresh failed for keyword '{keyword}': {e}; "
+                    "falling back to closing-date sort"
+                )
+        else:
+            self.log.warning(
+                f"'Refresh sort' form not found for keyword '{keyword}'; "
+                "falling back to closing-date sort"
+            )
+
         page_num = 0
 
         while page_num < MAX_PAGES_PER_KEYWORD:
@@ -361,6 +379,43 @@ class Scraper(BaseScraper):
                 )
             )
         return jobs
+
+    def _sort_refresh_url(self, soup: BeautifulSoup) -> str | None:
+        """
+        Build the URL for the results-page 'Refresh sort' GET form, overriding
+        the sort value with CSJ_SORT.
+
+        The form is a GET form targeting /csr/index.cgi that carries the current
+        search contextid in its SID.  Submitting it with sort=CSJ_SORT re-renders
+        the same keyword search in a different order.  Pagination links on the
+        returned page encode sort=CSJ_SORT in their SID, preserving order across pages.
+
+        Returns None if the form is absent (caller falls back to default sort).
+        """
+        form = None
+        for f in soup.find_all("form"):
+            if f.get("method", "").upper() == "GET" and f.find("select", {"name": "sort"}):
+                form = f
+                break
+        if not form:
+            return None
+
+        action = form.get("action", "/csr/index.cgi")
+        if not action.startswith("http"):
+            action = f"{BASE}{action}"
+
+        sid_el = form.find("input", {"name": "SID"})
+        reqsig_el = form.find("input", {"name": "reqsig"})
+        sid = sid_el["value"] if sid_el else ""
+        reqsig = reqsig_el["value"] if reqsig_el else ""
+
+        params = {
+            "SID": sid,
+            "sort": CSJ_SORT,
+            "submit_results_sort_form": "Refresh sort",
+            "reqsig": reqsig,
+        }
+        return f"{action}?{urlencode(params)}"
 
     def _next_page_url(self, soup: BeautifulSoup) -> str | None:
         """Find the 'Next page' pagination link."""
