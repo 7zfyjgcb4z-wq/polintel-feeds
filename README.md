@@ -93,7 +93,25 @@ Live feeds at `https://7zfyjgcb4z-wq.github.io/polintel-feeds/`:
 
 Feed index: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/`  
 Run status: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/status.json`  
-Health alerts: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/alerts.json`
+Health alerts: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/alerts.json`  
+Source health: `https://7zfyjgcb4z-wq.github.io/polintel-feeds/health.json`
+
+### Per-country monitoring files
+
+Each country run writes its own baseline to avoid cross-country contamination:
+
+- `status-<country>.json` - per-country run status (baseline for alert comparison)
+- `alerts-<country>.json` - alerts produced by that country's run
+- `status.json` - most recent run (backward-compatible aggregate; schema unchanged)
+- `alerts.json` - merged view of all current country alert files
+- `health.json` - aggregated source-level health computed from all status files and `jobs.db`
+
+### CORS and the admin panel
+
+GitHub Pages serves all static files in `feeds/` with `Access-Control-Allow-Origin: *`.
+This applies to `health.json`, `status*.json`, and the XML feeds. Any admin panel or
+dashboard that fetches `health.json` via XHR or `fetch()` from a different origin will
+receive it without a CORS error. No additional configuration is required.
 
 ## Architecture
 
@@ -124,7 +142,7 @@ src/
   enrichment/
     readability_enricher.py   # Fetches job pages, extracts description + JSON-LD metadata
   feed/
-    generator.py              # RSS XML generation, status.json, alerts.json
+    generator.py              # RSS XML generation, per-country status/alerts, health.json
   models/
     job.py                    # Job dataclass
 ```
@@ -205,7 +223,7 @@ python3 -m src.cli sources --country dach
 python3 -m src.cli test --source "CharityJob"
 ```
 
-Output: `data/jobs.db` (SQLite), `feeds/` (RSS XML files), `feeds/status.json`, `feeds/alerts.json`.
+Output: `data/jobs.db` (SQLite), `feeds/` (RSS XML files), `feeds/status.json`, `feeds/alerts.json`, `feeds/health.json`.
 
 ## Adding a new source
 
@@ -287,7 +305,7 @@ Output: `data/jobs.db` (SQLite), `feeds/` (RSS XML files), `feeds/status.json`, 
 | `scrape-pan-eu.yml` | 10:00 UTC daily | Pan-European backbone |
 | `scrape-us.yml` | 13:00 UTC daily | United States |
 
-Results are committed back to the repository with `[skip ci]` in the message and served via GitHub Pages. Each run generates an updated `status.json` and `alerts.json`.
+Results are committed back to the repository with `[skip ci]` in the message and served via GitHub Pages. Each run generates an updated `status-<country>.json`, `alerts-<country>.json`, the merged `status.json` and `alerts.json`, and `health.json`.
 
 **Required secrets (GitHub repository settings → Secrets):**
 
