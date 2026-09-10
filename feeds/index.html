@@ -219,8 +219,117 @@
   <p style="margin-top:1.5rem;">
     Status: <a href="status.json"><code>status.json</code></a>
     &nbsp;·&nbsp;
+    Health: <a href="health.json"><code>health.json</code></a>
+    &nbsp;·&nbsp;
     Source: <a href="https://github.com/7zfyjgcb4z-wq/polintel-feeds">github.com/7zfyjgcb4z-wq/polintel-feeds</a>
   </p>
+
+  <h2 id="source-health" style="font-size:1.1rem; margin-top:2rem; margin-bottom:0.25rem;">Source health</h2>
+  <p id="health-meta" style="color:#666; font-size:0.875rem; margin-top:0.25rem;"></p>
+
+  <div style="overflow-x:auto;">
+    <table id="health-table" style="display:none;">
+      <thead>
+        <tr>
+          <th>Source</th>
+          <th>Country</th>
+          <th>Feed</th>
+          <th>Status</th>
+          <th>Last success</th>
+          <th>New 7d</th>
+          <th>New 28d</th>
+          <th>Prev 28d</th>
+          <th>Active rows</th>
+          <th>Last error</th>
+        </tr>
+      </thead>
+      <tbody id="health-body"></tbody>
+    </table>
+  </div>
+  <p id="health-error" style="color:#c00; font-size:0.875rem; display:none;"></p>
+
+  <style>
+    #health-table th, #health-table td { white-space: nowrap; }
+    .hs-healthy  { color: #1a7a1a; font-weight: 600; }
+    .hs-stale    { color: #7a6000; font-weight: 600; }
+    .hs-declining{ color: #a04000; font-weight: 600; }
+    .hs-dead     { color: #c00;    font-weight: 600; }
+    .hs-off      { color: #999; }
+    .hs-no_sources { color: #aaa; font-style: italic; }
+  </style>
+
+  <script>
+  (function () {
+    var STATUS_ORDER = { dead: 0, declining: 1, stale: 2, healthy: 3, off: 4, no_sources: 5 };
+
+    function fmtDate(iso) {
+      if (!iso) return '';
+      try {
+        var d = new Date(iso);
+        return d.toISOString().slice(0, 10);
+      } catch (e) { return iso; }
+    }
+
+    function fmtNum(n) {
+      return (n === null || n === undefined) ? '' : String(n);
+    }
+
+    function renderHealth(data) {
+      var meta = document.getElementById('health-meta');
+      meta.textContent = 'Generated ' + fmtDate(data.generated_at) + '.';
+
+      var sources = (data.sources || []).slice();
+      sources.sort(function (a, b) {
+        var oa = STATUS_ORDER[a.status] !== undefined ? STATUS_ORDER[a.status] : 99;
+        var ob = STATUS_ORDER[b.status] !== undefined ? STATUS_ORDER[b.status] : 99;
+        if (oa !== ob) return oa - ob;
+        return (a.name || '').localeCompare(b.name || '');
+      });
+
+      var tbody = document.getElementById('health-body');
+      tbody.innerHTML = '';
+      sources.forEach(function (s) {
+        var tr = document.createElement('tr');
+        var cls = 'hs-' + (s.status || 'healthy');
+        tr.innerHTML = [
+          '<td>' + escHtml(s.name || '') + '</td>',
+          '<td>' + escHtml(s.country || '') + '</td>',
+          '<td><a href="' + escHtml(s.feed || '') + '"><code>' + escHtml(s.feed || '') + '</code></a></td>',
+          '<td class="' + cls + '">' + escHtml(s.status || '') + '</td>',
+          '<td>' + escHtml(fmtDate(s.last_success_at)) + '</td>',
+          '<td>' + escHtml(fmtNum(s.new_7d)) + '</td>',
+          '<td>' + escHtml(fmtNum(s.new_28d)) + '</td>',
+          '<td>' + escHtml(fmtNum(s.new_prev_28d)) + '</td>',
+          '<td>' + escHtml(fmtNum(s.active_rows)) + '</td>',
+          '<td style="max-width:24rem; white-space:normal;">' + escHtml(s.last_error || '') + '</td>',
+        ].join('');
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById('health-table').style.display = '';
+    }
+
+    function escHtml(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    fetch('health.json')
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(renderHealth)
+      .catch(function (err) {
+        var el = document.getElementById('health-error');
+        el.textContent = 'Source health data not yet available (' + err.message + ').';
+        el.style.display = '';
+      });
+  }());
+  </script>
 
   <footer>
     Scraped by <a href="https://pol-intel.com">Pol-Intel</a>. Data from public job listings only.

@@ -13,7 +13,7 @@ import yaml
 
 from src.db.store import JobStore
 from src.enrichment.readability_enricher import enrich_jobs, enrich_threshold
-from src.feed.generator import generate_alerts, generate_feeds, generate_status
+from src.feed.generator import generate_alerts, generate_feeds, generate_health, generate_status
 from src.filters.relevance import filter_relevant_jobs, is_relevant
 from src.models.job import Job
 from src.scrapers.base import USER_AGENT
@@ -627,8 +627,9 @@ async def run_pipeline(
             if months:
                 entry["cyclical_active_months"] = months
 
-    # ── Health monitoring: alerts then status (order matters — alerts reads old status.json) ──
+    # ── Health monitoring: alerts then status (order matters — alerts reads old status-<country>.json) ──
     total_duration = round(time.monotonic() - pipeline_start, 1)
+    # Legacy paths kept for signature compatibility; generate_alerts now uses per-country paths.
     prev_status_path = os.path.join(output_dir, "status.json")
     prev_alerts_path = os.path.join(output_dir, "alerts.json")
 
@@ -638,6 +639,7 @@ async def run_pipeline(
             current_per_source=per_source_results,
             previous_status_path=prev_status_path,
             previous_alerts_path=prev_alerts_path,
+            country=country,
         )
     except Exception as exc:
         log.error(f"Alert generation failed (non-fatal): {exc}")
@@ -663,6 +665,12 @@ async def run_pipeline(
         log.error(f"Status generation failed (non-fatal): {exc}")
 
     db.close()
+
+    try:
+        generate_health(output_dir=output_dir, db_path=db_path)
+    except Exception as exc:
+        log.warning(f"Health aggregation failed (non-fatal): {exc}")
+
     log.info(f"Done: {len(all_jobs)} total scraped, {new_count} new")
     return {
         "total": len(all_jobs),
