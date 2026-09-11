@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 18:54:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 18:56:54 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-287/</link>
@@ -113,15 +113,6 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-manager-37-107/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Annual Giving Officer</title>
-      <link>https://www.foundationlist.org/job-details/annual-giving-officer-5/</link>
-      <description>Annual Giving Officer Amara serves the evolving needs of children, youth, and families impacted by the child welfare system. Centering equity, we advocate for systems change and bridge gaps by providing compassionate wrap-around resources, while h</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/annual-giving-officer-5/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
@@ -701,9 +692,9 @@ info@elmuseolatino.org</description>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Vice President of Philanthropy</title>
-      <link>https://www.foundationlist.org/job-details/vice-president-of-philanthropy-7/</link>
+      <link>https://www.foundationlist.org/job-details/vice-president-of-philanthropy-8/</link>
       <description>Vice President of Philanthropy Crazy Horse Memorial Foundation Crazy Horse, South Dakota &amp;amp;nbsp; The Moran Company [https://morancompany.com/] is pleased to partner with Crazy Horse Memorial Foundation to recruit the organization's Vice Presid</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/vice-president-of-philanthropy-7/</guid>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/vice-president-of-philanthropy-8/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
@@ -1050,5 +1041,23 @@ info@elmuseolatino.org</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>New Haven</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Philanthropic Advisor</title>
+      <link>https://www.foundationlist.org/job-details/philanthropic-advisor-2/</link>
+      <description>Job Identification: 21784 Posting Date: 09/08/2026, 10:38 PM Job Schedule: Full time Locations: Waco, TX, United States Degree Level: Bachelor &amp;amp;nbsp; Job Description A humble college founded before Texas was a state, Baylor now stands as o</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/philanthropic-advisor-2/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>Waco, United States</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Associate Director, Campaign Strategy</title>
+      <link>https://www.foundationlist.org/job-details/associate-director-campaign-strategy/</link>
+      <description>Organizational Summary: Playwrights Horizons is a writer’s theater committed to the advancement of bold and visionary contemporary playwrights. We carry out this mission through the development and production of daring new work and the education of</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/associate-director-campaign-strategy/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
