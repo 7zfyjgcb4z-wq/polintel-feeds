@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T11:40:53Z",
+  "generated_at": "2026-09-12T13:12:31Z",
   "country_last_run": {
-    "internship_graduate": "2026-09-11T13:55:38Z",
+    "internship_graduate": "2026-09-12T13:12:31Z",
     "southern": "2026-09-11T15:53:26Z",
     "pan-eu": "2026-09-11T17:36:02Z",
     "dach": "2026-09-11T15:53:23Z",
@@ -28,7 +28,7 @@
     "dach-think-tanks.xml": 0,
     "dach-trade-associations.xml": 0,
     "internship_graduate-general.xml": 0,
-    "internship_graduate-international-orgs.xml": 3,
+    "internship_graduate-international-orgs.xml": 2,
     "internship_graduate-public-affairs.xml": 4,
     "internship_graduate-research.xml": 21,
     "internship_graduate-us-campaigns.xml": 0,
@@ -75,27 +75,7 @@
       "count": 53
     },
     {
-      "feed": "nordics-think-tanks.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "benelux-political-parties.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "cee-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "southern-public-affairs.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "brussels-ngos.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "southern-trade-associations.xml",
+      "feed": "uk-fellowships.xml",
       "type": "no_sources"
     },
     {
@@ -103,31 +83,19 @@
       "type": "no_sources"
     },
     {
+      "feed": "nordics-national-politics.xml",
+      "type": "no_sources"
+    },
+    {
       "feed": "dach-foundations.xml",
       "type": "no_sources"
     },
     {
-      "feed": "cee-think-tanks.xml",
+      "feed": "uk-trade-associations.xml",
       "type": "no_sources"
     },
     {
-      "feed": "internship_graduate-us-fellowships.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "dach-trade-associations.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "benelux-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "southern-political-parties.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "internship_graduate-us-campaigns.xml",
+      "feed": "nordics-think-tanks.xml",
       "type": "no_sources"
     },
     {
@@ -135,7 +103,51 @@
       "type": "no_sources"
     },
     {
+      "feed": "brussels-ngos.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "dach-trade-associations.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "benelux-political-parties.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "internship_graduate-us-campaigns.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "benelux-national-politics.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "benelux-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "internship_graduate-us-fellowships.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "southern-trade-associations.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "cee-national-politics.xml",
+      "type": "no_sources"
+    },
+    {
       "feed": "dach-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "cee-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "southern-public-affairs.xml",
       "type": "no_sources"
     },
     {
@@ -147,19 +159,7 @@
       "type": "no_sources"
     },
     {
-      "feed": "uk-fellowships.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "uk-trade-associations.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "nordics-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "benelux-think-tanks.xml",
+      "feed": "southern-political-parties.xml",
       "type": "no_sources"
     }
   ],
@@ -865,8 +865,8 @@
       "new_prev_28d": 7,
       "median_lifetime_days": 6.01,
       "stub_share": null,
-      "consecutive_zero_runs": 2,
-      "status": "stale"
+      "consecutive_zero_runs": 3,
+      "status": "dead"
     },
     {
       "name": "Bank of England",
@@ -1217,7 +1217,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 22,
+      "consecutive_zero_runs": 23,
       "status": "dead"
     },
     {
@@ -1503,7 +1503,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 22,
+      "consecutive_zero_runs": 23,
       "status": "dead"
     },
     {
@@ -1569,7 +1569,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 22,
+      "consecutive_zero_runs": 23,
       "status": "dead"
     },
     {
@@ -2273,7 +2273,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 22,
+      "consecutive_zero_runs": 23,
       "status": "dead"
     },
     {
@@ -2339,7 +2339,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": 1.0,
-      "consecutive_zero_runs": 22,
+      "consecutive_zero_runs": 23,
       "status": "dead"
     },
     {
@@ -2515,7 +2515,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 22,
+      "consecutive_zero_runs": 23,
       "status": "dead"
     },
     {
@@ -2757,7 +2757,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 22,
+      "consecutive_zero_runs": 23,
       "status": "dead"
     },
     {
@@ -2999,7 +2999,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 21,
+      "consecutive_zero_runs": 22,
       "status": "dead"
     },
     {
@@ -3175,7 +3175,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 21,
+      "consecutive_zero_runs": 22,
       "status": "dead"
     },
     {
@@ -3747,7 +3747,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -3769,7 +3769,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -3791,7 +3791,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -3835,7 +3835,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -3857,7 +3857,7 @@
       "new_prev_28d": 3,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -4033,7 +4033,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -4275,7 +4275,7 @@
       "new_prev_28d": 1,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -4319,7 +4319,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -4407,7 +4407,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": 0.0,
       "stub_share": null,
-      "consecutive_zero_runs": 13,
+      "consecutive_zero_runs": 14,
       "status": "dead"
     },
     {
@@ -5935,8 +5935,8 @@
       "feed": "internship_graduate-public-affairs.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": "2026-09-11T13:55:38Z",
-      "last_success_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
+      "last_success_at": "2026-09-12T13:12:31Z",
       "last_run_new": 4,
       "last_run_found": 4,
       "last_run_failed": false,
@@ -5957,7 +5957,7 @@
       "feed": "internship_graduate-us-campaigns.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -5979,7 +5979,7 @@
       "feed": "internship_graduate-us-congress.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6001,7 +6001,7 @@
       "feed": "internship_graduate-us-campaigns.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6023,7 +6023,7 @@
       "feed": "internship_graduate-general.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6045,7 +6045,7 @@
       "feed": "internship_graduate-public-affairs.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6067,8 +6067,8 @@
       "feed": "internship_graduate-research.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": "2026-09-11T13:55:38Z",
-      "last_success_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
+      "last_success_at": "2026-09-12T13:12:31Z",
       "last_run_new": 21,
       "last_run_found": 21,
       "last_run_failed": false,
@@ -6089,10 +6089,10 @@
       "feed": "internship_graduate-international-orgs.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": "2026-09-11T13:55:38Z",
-      "last_success_at": "2026-09-11T13:55:38Z",
-      "last_run_new": 3,
-      "last_run_found": 3,
+      "last_run_at": "2026-09-12T13:12:31Z",
+      "last_success_at": "2026-09-12T13:12:31Z",
+      "last_run_new": 2,
+      "last_run_found": 2,
       "last_run_failed": false,
       "last_error": null,
       "active_rows": null,
@@ -6111,7 +6111,7 @@
       "feed": "internship_graduate-research.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6133,7 +6133,7 @@
       "feed": "internship_graduate-research.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6155,7 +6155,7 @@
       "feed": "internship_graduate-research.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6177,7 +6177,7 @@
       "feed": "internship_graduate-research.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6199,7 +6199,7 @@
       "feed": "internship_graduate-public-affairs.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6221,7 +6221,7 @@
       "feed": "internship_graduate-public-affairs.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6243,7 +6243,7 @@
       "feed": "internship_graduate-public-affairs.xml",
       "scraper_tier": "ats_auto",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6265,7 +6265,7 @@
       "feed": "internship_graduate-us-fellowships.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -6287,7 +6287,7 @@
       "feed": "internship_graduate-us-fellowships.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-09-11T13:55:38Z",
+      "last_run_at": "2026-09-12T13:12:31Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
