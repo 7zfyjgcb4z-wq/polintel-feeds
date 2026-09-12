@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 09:26:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 09:06:00 +0000</lastBuildDate>
     <item>
       <title>Speculative Application</title>
       <link>https://ecfr.jobs.personio.de/job/1993599</link>
@@ -425,5 +425,40 @@ We actively promote positive action to advance fairness and tackle underrepresen
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>E3G</dc:creator>
     <polintel:location>Brussels, Brussels</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Internship</title>
+      <link>https://policyexchange.org.uk/internship/</link>
+      <description>Job Title:
+Internship
+Location:
+London
+Salary:
+Commensurate with role
+Length of contract:
+6 months with the potential to extend
+Job Details
+Policy Exchange is the UK’s most influential independent think tank, with a strong record of achieving policy impact across a wide range of areas. Interns are an invaluable part of our organisation and play an active role in supporting the work of our research, events and operations teams.
+This role offers a unique opportunity to gain first-hand experience of public policy development, think-tank research, stakeholder engagement and event delivery in a fast-paced and intellectually stimulating environment.
+Interns work directly with researchers from across all Policy Exchange units, supporting projects on a diverse range of policy issues. Responsibilities may include conducting background research, data gathering and analysis, assisting with report production and monitoring policy developments. We aim, wherever possible, to involve interns in policy areas that align with their interests and career aspirations.
+Interns will also work closely with the events and operations team, helping to ensure the smooth delivery of Policy Exchange’s programme of public panels, conferences and roundtables.
+To be a strong candidate, you would have:
+A strong interest in public policy and an understanding of the role of think tanks.
+Excellent research and analytical skills, with the ability to gather, assess and synthesise information from a range of sources.
+Strong written and verbal communication skills.
+Excellent organisational, time-management and project-management abilities.
+High levels of reliability, professionalism and attention to detail.
+A willingness to work hard, take initiative and deliver results in a collaborative environment.
+This is a full-time, office-based role located in central Westminster.
+Application Details
+Please send a copy of your CV and a covering letter to
+Eleanor.wood@policyexchange.org.uk
+Please note that due to the number of applications we receive we are unable to acknowledge each applicant. If you are successful, you will be emailed an interview date.
+Closing Date
+:
+Friday 25 September 2026</description>
+      <guid isPermaLink="false">https://policyexchange.org.uk/internship/</guid>
+      <category>Think Tanks</category>
+      <dc:creator>Policy Exchange</dc:creator>
+    <polintel:location>London</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>

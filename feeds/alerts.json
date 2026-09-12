@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-09-11T18:56:54Z",
+  "generated_at": "2026-09-12T09:06:00Z",
   "alerts": [
+    {
+      "source": "ICO",
+      "type": "zero_result_after_success",
+      "previous_count": 1,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "ICO returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+    },
     {
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
