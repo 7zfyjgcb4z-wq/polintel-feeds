@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-09-12T18:02:55Z",
+  "generated_at": "2026-09-13T10:02:17Z",
   "alerts": [
     {
       "source": "ICO",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
+      "consecutive_zeros": 2,
+      "message": "ICO returned 0 jobs (was 1) for 2 consecutive run(s). Review selector or check for vacancies."
+    },
+    {
+      "source": "Policy Exchange",
+      "type": "zero_result_after_success",
+      "previous_count": 1,
+      "current_count": 0,
       "consecutive_zeros": 1,
-      "message": "ICO returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+      "message": "Policy Exchange returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
     },
     {
       "source": "House Employment Bulletin",
