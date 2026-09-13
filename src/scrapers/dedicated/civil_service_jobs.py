@@ -69,15 +69,37 @@ _CSJ_SESSION_INNER_PARAMS = frozenset({
 })
 
 
+# The only CSJ URL form that resolves to a vacancy page without a live session.
+# ``index.cgi?joblist_view_vac=N`` looks stable but lands on the empty search
+# page, because index.cgi needs the surrounding SID session state to render it.
+_CSJ_VACANCY_URL = "https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode={vac_id}"
+
+
+def _vacancy_url(vac_id: str) -> str:
+    return _CSJ_VACANCY_URL.format(vac_id=vac_id)
+
+
+def _first_vacancy_id(params: dict[str, list[str]]) -> str | None:
+    """Return the vacancy id from ``joblist_view_vac`` or ``jcode``, if present."""
+    for key in ("joblist_view_vac", "jcode"):
+        for value in params.get(key, []):
+            value = value.strip()
+            if value.isdigit():
+                return value
+    return None
+
+
 def _canonical_csj_url(raw_url: str) -> str:
     """
-    Return a stable canonical URL for a CSJ vacancy.
+    Return a stable, *working* canonical URL for a CSJ vacancy.
 
     CSJ vacancy URLs use a single ``SID`` query parameter that is a base64-encoded
     query string containing both the stable vacancy identifier (``joblist_view_vac``)
     and session-bound values (``usersearchcontext``, ``reqsig``) that change with
-    every ALTCHA solve.  The canonical form decodes the blob and retains only the
-    vacancy identifier, yielding a URL that is stable across scraper runs.
+    every ALTCHA solve.  The canonical form decodes the blob, takes the vacancy
+    identifier, and emits ``jobs.cgi?jcode=<id>`` -- the one form that opens the
+    vacancy page directly.  (``index.cgi?joblist_view_vac=<id>`` is stable but
+    renders the empty search page, so it is never emitted.)
 
     Falls back to the raw URL unchanged if decoding fails or no vacancy identifier
     can be extracted.
@@ -92,17 +114,20 @@ def _canonical_csj_url(raw_url: str) -> str:
             # Pad to a valid base64 length before decoding.
             inner_qs_str = base64.b64decode(sid_raw + "==").decode("utf-8", errors="replace")
             inner_params = parse_qs(inner_qs_str, keep_blank_values=False)
-            stable = {k: v for k, v in inner_params.items() if k in _CSJ_VACANCY_PARAMS}
-            if stable:
-                # Sort for deterministic ordering across runs.
-                canonical_query = urlencode(sorted(stable.items()), doseq=True)
-                return parsed._replace(query=canonical_query).geturl()
+            vac_id = _first_vacancy_id(inner_params)
+            if vac_id:
+                return _vacancy_url(vac_id)
         except Exception:
             pass
         # Could not extract a vacancy identifier; return the original URL unchanged.
         return raw_url
 
-    # Non-SID URL (e.g. a direct jobs.cgi?jcode=... link): strip session-bound params.
+    # Non-SID URL: a direct jobs.cgi?jcode=... link, or a bare index.cgi?joblist_view_vac=...
+    vac_id = _first_vacancy_id(qs)
+    if vac_id:
+        return _vacancy_url(vac_id)
+
+    # No vacancy id at all: strip session-bound params and keep the rest.
     stable = {k: v for k, v in qs.items() if k not in _CSJ_SESSION_PARAMS}
     if stable:
         canonical_query = urlencode(sorted(stable.items()), doseq=True)

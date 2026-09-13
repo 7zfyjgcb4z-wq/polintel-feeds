@@ -85,6 +85,51 @@ def test_parse_jobs_canonical_url_stable():
     for job in jobs:
         assert "reqsig" not in job.url, f"Session param in canonical URL: {job.url}"
         assert "usersearchcontext" not in job.url
+        assert job.url.startswith(
+            "https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode="
+        ), f"Canonical URL is not the jobs.cgi?jcode form: {job.url}"
+
+
+# ── _canonical_csj_url ────────────────────────────────────────────────────────
+
+_JCODE = "https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013132"
+
+
+def _sid_url(inner: str) -> str:
+    import base64 as _b64
+    blob = _b64.b64encode(inner.encode()).decode()
+    return f"https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID={blob}"
+
+
+def test_canonical_sid_blob_becomes_jobs_cgi_jcode():
+    """A SID-encoded results link resolves to jobs.cgi?jcode=<vacancy id>."""
+    url = _sid_url(
+        "usersearchcontext=190296044&searchsort=closing&pageaction=viewvacbyjoblist"
+        "&owner=5070000&pageclass=Jobs&joblist_view_vac=2013132&searchpage=10"
+        "&ownertype=fair&reqsig=1779524632-98d7f1012e99e50387c4546f4136aaa5ec0a4651"
+    )
+    assert _canonical_csj_url(url) == _JCODE
+
+
+def test_canonical_never_emits_index_cgi_joblist_view_vac():
+    """index.cgi?joblist_view_vac=N renders the empty search page; rewrite it."""
+    url = "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2013132"
+    assert _canonical_csj_url(url) == _JCODE
+
+
+def test_canonical_direct_jcode_link_strips_session_params():
+    url = "https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013132&csource=csalerts&searchpage=3"
+    assert _canonical_csj_url(url) == _JCODE
+
+
+def test_canonical_sid_without_vacancy_id_is_unchanged():
+    url = _sid_url("pageaction=default&owner=5070000&pageclass=Home&reqsig=1-abc")
+    assert _canonical_csj_url(url) == url
+
+
+def test_canonical_undecodable_sid_is_unchanged():
+    url = "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=%%%not-base64%%%"
+    assert _canonical_csj_url(url) == url
 
 
 # ── _sort_refresh_url ─────────────────────────────────────────────────────────
