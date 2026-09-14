@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-09-14T10:21:51Z",
+  "generated_at": "2026-09-14T14:17:11Z",
   "alerts": [
+    {
+      "source": "International IDEA",
+      "type": "zero_result_after_success",
+      "previous_count": 1,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "International IDEA returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+    },
+    {
+      "source": "College of Europe Careers",
+      "type": "zero_result_after_success",
+      "previous_count": 1,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "College of Europe Careers returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+    },
     {
       "source": "ICO",
       "type": "zero_result_after_success",
