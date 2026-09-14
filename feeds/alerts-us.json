@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-13T18:29:33Z",
+  "generated_at": "2026-09-14T20:08:16Z",
   "country": "us",
   "alerts": [
     {
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 139,
-      "message": "House Employment Bulletin upstream data source has not been updated in 139 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+      "upstream_days_since_update": 140,
+      "message": "House Employment Bulletin upstream data source has not been updated in 140 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
     }
   ],
   "_tracking": {

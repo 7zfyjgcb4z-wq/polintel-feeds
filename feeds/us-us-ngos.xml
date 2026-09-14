@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 18:29:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 20:08:16 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-287/</link>
@@ -45,14 +45,6 @@
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Director of Operations</title>
-      <link>https://www.foundationlist.org/job-details/director-of-operations-33/</link>
-      <description>Organization Overview Boston CASA (Court Appointed Special Advocates) promotes and protects the best interests of children and youth who have experienced abuse and neglect. We train and support community-based volunteers who provide a voice t</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-of-operations-33/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Chief Development Officer</title>
       <link>https://www.foundationlist.org/job-details/chief-development-officer-65-14/</link>
@@ -113,51 +105,6 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-manager-37-107/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Programs Assistant</title>
-      <link>https://www.foundationlist.org/job-details/programs-assistant-2/</link>
-      <description>POSITION SUMMARY Reporting to the Site Supervisor, the Program Assistant supports the implementation of year-round programming, consisting of afterschool programs, enrichment activities, leadership development and summer programs for students in gra</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/programs-assistant-2/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Donor Engagement Manager</title>
-      <link>https://www.foundationlist.org/job-details/donor-engagement-manager-6/</link>
-      <description>Position Function: Responsible for advancing the philanthropic mission of ACH Child and Family Services by designing and executing donor engagement, stewardship, and annual giving strategies that deepen relationships, strengthen donor retention, and</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/donor-engagement-manager-6/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Development Officer, Individual Giving, U.S.</title>
-      <link>https://www.foundationlist.org/job-details/development-officer-individual-giving-u-s/</link>
-      <description>ABOUT US Rainbow Railroad is an international human rights organization that helps at-risk LGBTQI+ people facing violence and persecution access pathways to safety worldwide. Since our founding in 2006, we have supported nearly 50,000 LGBTQI+ indivi</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-officer-individual-giving-u-s/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Communications and Development Coordinator</title>
-      <link>https://www.foundationlist.org/job-details/communications-and-development-coordinator/</link>
-      <description>Position Overview The Center for Effective Philanthropy (CEP) seeks a Communications and Development Coordinator to join the Communications and Programs (C&amp;amp;amp;P) team. This full-time role supports two connected areas of CEP’s external-facing work</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/communications-and-development-coordinator/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Associate Director of Development</title>
-      <link>https://www.foundationlist.org/job-details/associate-director-of-development-12/</link>
-      <description>The Associate Director of Development serves as a key member of Cleveland Play House’s fundraising leadership team, helping to advance fundraising initiatives that support the organization’s mission, artistic work, educational programs, and long-term</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/associate-director-of-development-12/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
@@ -463,12 +410,12 @@ https://allstars.org/careers/
     <item>
       <title>Director Of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-285/</link>
-      <description>&amp;amp;nbsp; DIRECTOR OF DEVELOPMENT JOB DESCRIPTION THE OPPORTUNITY Filling in the Blanks (FITB) is looking for a Director of Development who’s ready to turn passion into impact. This is a rare chance to build and lead a growing fundraisi</description>
+      <description>&amp;amp;nbsp; Musicians at Play Foundation, Inc. Seeks full time, hybrid Director of Development WHO WE ARE: Musicians at Play Foundation is a Los Angeles–based nonprofit dedicated to expanding access to high-quality music education, mentorship, an</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-of-development-29-285/</guid>
       <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <polintel:location>Los Angeles</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Director of Fund Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-fund-development-7/</link>
@@ -1003,6 +950,15 @@ info@elmuseolatino.org</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/associate-director-campaign-strategy/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Grant Manager</title>
+      <link>https://www.foundationlist.org/job-details/grant-manager-7/</link>
+      <description>Meals on Wheels People is a community-founded and community-driven nonprofit organization. For more than 50 years, we have supported the independence and well-being of older adults throughout the Portland Metro area by providing nutritious meals and</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/grant-manager-7/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
