@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 20:08:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 19:27:12 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-287/</link>
@@ -65,9 +65,9 @@
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Chief Executive Officer</title>
-      <link>https://www.foundationlist.org/job-details/chief-executive-officer-120/</link>
+      <link>https://www.foundationlist.org/job-details/chief-executive-officer-121/</link>
       <description>ABOUT NACDD The National Association of Chronic Disease Directors (NACDD) is a member-based Association that improves the health of the public by strengthening state-based leadership and expertise for chronic disease prevention and management. NAC</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-executive-officer-120/</guid>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-executive-officer-121/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>none</polintel:descriptionSource></item>
@@ -959,6 +959,33 @@ info@elmuseolatino.org</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/grant-manager-7/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Development Officer</title>
+      <link>https://www.foundationlist.org/job-details/senior-development-officer-10/</link>
+      <description>The Center for Science in the Public Interest (CSPI) seeks a strategic and relationship-driven Senior Development Officer to lead cultivation, solicitation, and stewardship of private foundations, family foundations, state-based foundations, and othe</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-development-officer-10/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Advocacy and Outreach Senior Coordinator</title>
+      <link>https://www.foundationlist.org/job-details/advocacy-and-outreach-senior-coordinator/</link>
+      <description>The Advocacy and Outreach Senior Coordinator plays a critical role in advancing CNPS’s Saving What Matters Most and Landscapes for Change campaigns by building grassroots advocacy capacity, supporting chapter conservation leaders, coordinat</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/advocacy-and-outreach-senior-coordinator/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Manager, Foundation Relations</title>
+      <link>https://www.foundationlist.org/job-details/senior-manager-foundation-relations/</link>
+      <description>About Step Up Tutoring Step Up Tutoring is on a mission to drive student success by providing free online tutoring and mentorship for elementary school students from under-resourced communities. Our unique value is in fostering the caring human rela</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-manager-foundation-relations/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
