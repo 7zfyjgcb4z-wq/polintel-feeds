@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-09-16T12:40:59Z",
+  "last_run": "2026-09-17T12:40:20Z",
   "country": "brussels",
-  "total_active_jobs": 161,
+  "total_active_jobs": 159,
   "new_jobs_found": 5,
   "sources_checked": 8,
   "sources_succeeded": 8,
@@ -10,7 +10,7 @@
   "relevance_filtered": 0,
   "descriptions_enriched": 5,
   "feeds_generated": 6,
-  "run_duration_seconds": 62.0,
+  "run_duration_seconds": 59.9,
   "failed_sources": [],
   "per_source": [
     {
@@ -19,8 +19,8 @@
       "status": "success",
       "jobs_found": 45,
       "jobs_after_relevance_filter": 45,
-      "descriptions_enriched": 2,
-      "duration_seconds": 49.2
+      "descriptions_enriched": 3,
+      "duration_seconds": 46.7
     },
     {
       "name": "EU Training Jobs",
@@ -29,7 +29,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 4.2
+      "duration_seconds": 3.0
     },
     {
       "name": "ECFR",
@@ -38,17 +38,17 @@
       "jobs_found": 2,
       "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.6,
+      "duration_seconds": 0.9,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "German Marshall Fund",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 6,
-      "jobs_after_relevance_filter": 6,
+      "jobs_found": 7,
+      "jobs_after_relevance_filter": 7,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
+      "duration_seconds": 0.6,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -58,7 +58,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5
+      "duration_seconds": 0.1
     },
     {
       "name": "European External Action Service",
@@ -66,7 +66,7 @@
       "status": "success",
       "jobs_found": 36,
       "jobs_after_relevance_filter": 36,
-      "descriptions_enriched": 3,
+      "descriptions_enriched": 2,
       "duration_seconds": 0.5
     },
     {
@@ -76,16 +76,17 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3
+      "duration_seconds": 0.5
     },
     {
       "name": "College of Europe Careers",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.8
+      "duration_seconds": 0.8,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     }
   ]
 }
