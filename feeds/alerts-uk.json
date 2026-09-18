@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:54:24Z",
+  "generated_at": "2026-09-18T09:28:35Z",
   "country": "uk",
   "alerts": [
     {
@@ -7,8 +7,8 @@
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 6,
-      "message": "ICO returned 0 jobs (was 1) for 6 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 7,
+      "message": "ICO returned 0 jobs (was 1) for 7 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 09:54:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 09:28:34 +0000</lastBuildDate>
     <item>
       <title>Regional Organiser: South East, East of England &amp; London (PT)</title>
       <link>https://party.coop/jobs/roseel</link>
@@ -2444,5 +2444,35 @@ Week commencing 6th October 2026</description>
       <category>Political Parties</category>
       <dc:creator>Green Party of England and Wales</dc:creator>
     <polintel:location>Remote – UK</polintel:location><polintel:closingDate>Closes 29t</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Panel Member: National Reputational Risk Review Panel</title>
+      <link>https://www.libdems.org.uk/work-for-us/vacancy/panel-member-national-reputational-risk-review-panel</link>
+      <description>Every Parliamentary applicant goes through a due diligence check and we're setting up a National Panel of experienced communications professionals to make that process consistent, fair and properly documented.
+Time commitment:
+Ad hoc, picked up via WhatsApp as reports come in. 5 working day turnaround.
+Location:
+Fully remote.
+Pay:
+Voluntary.
+What the role will include:
+Reviewing due diligence reports against a clear, documented set of criteria.
+Helping build a consistent, precedent-based approach across the whole country.
+What we're after from you:
+You understand public life and the media
+- Experience in communications, journalism or public affairs, so you can judge what's genuinely significant and what isn't.
+You're impartial
+-You judge what's in the report, not who the person is, where they're standing, or who you know.
+You can explain your reasoning clearly
+- A rating on its own isn't enough — you can set out, in writing, exactly why.
+You're responsive
+- You can turn a case round within the timeframe when one comes your way.
+Sound like you?
+Get in touch with the Candidates Office at
+candidates@libdems.org.uk
+.</description>
+      <guid isPermaLink="false">https://www.libdems.org.uk/work-for-us/vacancy/panel-member-national-reputational-risk-review-panel</guid>
+      <category>Political Parties</category>
+      <dc:creator>Liberal Democrats</dc:creator>
+    <polintel:location>Fully remote</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>
