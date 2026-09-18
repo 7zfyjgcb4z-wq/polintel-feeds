@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 19:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 18:49:09 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-287/</link>
@@ -116,15 +116,6 @@
       <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>Oakland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Gift and Data Integrity Senior Specialist</title>
-      <link>https://www.foundationlist.org/job-details/gift-and-data-integrity-senior-specialist/</link>
-      <description>The Gift and Data Integrity Senior Specialist plays a critical role in advancing Augsburg University's fundraising goals by ensuring the integrity, security, and strategic use of the institutional advancement database. As a key member of the Advancem</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/gift-and-data-integrity-senior-specialist/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:location>Augsburg</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Building Manager</title>
       <link>https://www.foundationlist.org/job-details/building-manager/</link>
@@ -1032,5 +1023,23 @@ info@elmuseolatino.org</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Case Manager</title>
+      <link>https://www.foundationlist.org/job-details/case-manager-25/</link>
+      <description>Help Veterans Move from Housing Crisis to Lasting Stability The Center for Veterans Issues, Inc. (CVI) seeks a compassionate, resourceful, and highly organized Case Manager to support Veterans and their families through the Supportive Services for V</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/case-manager-25/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Immigration Staff Attorney</title>
+      <link>https://www.foundationlist.org/job-details/immigration-staff-attorney/</link>
+      <description>FLSA Status: Full-Time, Exempt Division: Legal Programs Department: Immigration Practice Reports to: Director, Immigration Practice Salary: $90,000 - $95,000 Schedule: Hybrid — Minimum of two days per week in the New York City office (</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/immigration-staff-attorney/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>New York City</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
