@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-18T09:28:35Z",
+  "generated_at": "2026-09-18T12:18:27Z",
   "alerts": [
     {
       "source": "International IDEA",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 4,
-      "message": "International IDEA returned 0 jobs (was 1) for 4 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 5,
+      "message": "International IDEA returned 0 jobs (was 1) for 5 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "ICO",
