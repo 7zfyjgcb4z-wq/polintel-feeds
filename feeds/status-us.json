@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-09-18T18:49:09Z",
+  "last_run": "2026-09-19T18:21:42Z",
   "country": "us",
-  "total_active_jobs": 1285,
-  "new_jobs_found": 38,
+  "total_active_jobs": 1282,
+  "new_jobs_found": 4,
   "sources_checked": 24,
   "sources_succeeded": 24,
   "sources_failed": 0,
   "sources_disabled": 18,
   "relevance_filtered": 11,
-  "descriptions_enriched": 39,
+  "descriptions_enriched": 8,
   "feeds_generated": 6,
-  "run_duration_seconds": 102.3,
+  "run_duration_seconds": 76.0,
   "failed_sources": [],
   "per_source": [
     {
@@ -20,10 +20,10 @@
       "jobs_found": 53,
       "jobs_after_relevance_filter": 53,
       "descriptions_enriched": 0,
-      "duration_seconds": 11.6,
+      "duration_seconds": 11.5,
       "upstream_stale": true,
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 144,
+      "upstream_days_since_update": 145,
       "notes": "Description enrichment disabled for this source"
     },
     {
@@ -32,15 +32,15 @@
       "status": "success",
       "jobs_found": 200,
       "jobs_after_relevance_filter": 195,
-      "descriptions_enriched": 7,
-      "duration_seconds": 2.8
+      "descriptions_enriched": 6,
+      "duration_seconds": 2.9
     },
     {
       "name": "RAND Corporation Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 8,
-      "jobs_after_relevance_filter": 7,
+      "jobs_found": 9,
+      "jobs_after_relevance_filter": 8,
       "descriptions_enriched": 0,
       "duration_seconds": 7.8,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
@@ -52,7 +52,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3
+      "duration_seconds": 0.2
     },
     {
       "name": "Manhattan Institute",
@@ -61,7 +61,7 @@
       "jobs_found": 5,
       "jobs_after_relevance_filter": 5,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.2,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
@@ -71,7 +71,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.5,
+      "duration_seconds": 1.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -91,7 +91,7 @@
       "jobs_found": 14,
       "jobs_after_relevance_filter": 14,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
+      "duration_seconds": 0.6,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -101,15 +101,15 @@
       "jobs_found": 20,
       "jobs_after_relevance_filter": 19,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
+      "duration_seconds": 0.7,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "American Enterprise Institute Careers",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 16,
-      "jobs_after_relevance_filter": 16,
+      "jobs_found": 15,
+      "jobs_after_relevance_filter": 15,
       "descriptions_enriched": 0,
       "duration_seconds": 0.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
@@ -131,7 +131,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.2
+      "duration_seconds": 0.4
     },
     {
       "name": "Hoover Institution Careers",
@@ -149,7 +149,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4
+      "duration_seconds": 0.6
     },
     {
       "name": "New America Careers",
@@ -168,7 +168,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3
+      "duration_seconds": 0.4
     },
     {
       "name": "Third Way Careers",
@@ -185,7 +185,7 @@
       "status": "success",
       "jobs_found": 453,
       "jobs_after_relevance_filter": 452,
-      "descriptions_enriched": 32,
+      "descriptions_enriched": 2,
       "duration_seconds": 0.5
     },
     {
@@ -195,7 +195,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5
+      "duration_seconds": 0.4
     },
     {
       "name": "Niskanen Center",
@@ -204,7 +204,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3
+      "duration_seconds": 0.4
     },
     {
       "name": "Peterson Institute for International Economics",
@@ -213,7 +213,7 @@
       "jobs_found": 2,
       "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2,
+      "duration_seconds": 0.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -223,7 +223,7 @@
       "jobs_found": 5,
       "jobs_after_relevance_filter": 4,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.7,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -242,7 +242,7 @@
       "jobs_found": 50,
       "jobs_after_relevance_filter": 48,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.4,
+      "duration_seconds": 1.5,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     }
   ]

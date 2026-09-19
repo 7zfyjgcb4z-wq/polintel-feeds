@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Sep 2026 18:49:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 18:21:42 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-287/</link>
@@ -116,24 +116,6 @@
       <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>Oakland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Building Manager</title>
-      <link>https://www.foundationlist.org/job-details/building-manager/</link>
-      <description>Meals on Wheels People is an organization founded in and by the community! Over the past 50 years, our non-profit has helped thousands of older adults in the Portland Metro area keep their independence through weekly meal delivery and social connecti</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/building-manager/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>After-School Student Activities Lead</title>
-      <link>https://www.foundationlist.org/job-details/after-school-student-activities-lead/</link>
-      <description>The After-School Program Coordinator is responsible for all aspects of an after-school educational and recreational program that offers age-appropriate activities for youth in care. The program includes, but is not limited to, theatre, choir, drum li</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/after-school-student-activities-lead/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Civic Engagement Coordinator</title>
       <link>https://www.foundationlist.org/job-details/civic-engagement-coordinator/</link>
@@ -1037,6 +1019,15 @@ info@elmuseolatino.org</description>
       <link>https://www.foundationlist.org/job-details/immigration-staff-attorney/</link>
       <description>FLSA Status: Full-Time, Exempt Division: Legal Programs Department: Immigration Practice Reports to: Director, Immigration Practice Salary: $90,000 - $95,000 Schedule: Hybrid — Minimum of two days per week in the New York City office (</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/immigration-staff-attorney/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>New York City</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Immigration Paralegal</title>
+      <link>https://www.foundationlist.org/job-details/immigration-paralegal/</link>
+      <description>FLSA Status: Full-Time, Exempt Division: Legal Programs Department: Immigration Practice Reports to: Director, Immigration Practice Salary: $66,500 - $75,000 Schedule: Hybrid — Minimum of two days per week in the New York City office (</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/immigration-paralegal/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
