@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Sep 2026 09:15:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 09:40:00 +0000</lastBuildDate>
     <item>
       <title>Internet Resources Intern (Publication for roster purposes)</title>
       <link>https://careers.un.org/jobSearchDescription/273246?language=en</link>
@@ -139,9 +139,9 @@
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
       <title>Administrative Assistant</title>
-      <link>https://careers.un.org/jobSearchDescription/284255?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/283528?language=en</link>
       <description>Level : G-5 Job ID : 274445 Job Network : Management and Administration Job Family : Administration Department/Office : Department of Operational Support Duty Station : BRINDISI Staffing Exercise : undefined Posted Date : 03/30/2026 00:00:00 AM (New York time) Deadline : 04/28/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284255?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283528?language=en</guid>
       <category>General</category>
       <dc:creator>Department of Operational Support</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
@@ -6678,5 +6678,51 @@ https://www.fda.org.uk/</description>
       <category>General</category>
       <dc:creator>University of Cambridge</dc:creator>
     <polintel:location>Cambridge</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Head of Office</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100288</link>
+      <description>Dan Tomlinson is looking for a highly capable and driven leader to join as Head of Office. This person will work closely with Dan to develop and execute a strategy for a better Chipping Barnet as well as being a support to Dan in his role as Growth Minister.
+We want to go beyond typical MP visits and campaigns and think strategically and creatively about how to make the biggest positive difference we can to the lives of people in Chipping Barnet and beyond.
+The successful candidate will need to capable of delivering ambitious strategies and leading effective teams, with a deep commitment to serving communities.
+Job description
+Work with Dan on the team’s overall strategy and priorities and ensure that the team are delivering on these day-to-day.
+Build a high-performance culture to ensure that the team are delivering change for Chipping Barnet, and a high wellbeing culture to ensure they can do so sustainably.
+Manage key team members working across casework, communications, administration, parliamentary and local action roles.
+Build and maintain systems and processes that ensure effective progress across all workstreams.
+Support Dan as he undertakes his parliamentary and ministerial roles.
+Take on leadership of several local projects, in partnership with CB:CAN where appropriate.
+Work with Dan to manage financial and HR processes to ensure that all public resources are being used effectively to make a difference for the people of Chipping Barnet.
+Qualities – essential
+Character – high integrity, honesty and humility, with a commitment to doing the right thing
+Purpose – a deep commitment to social impact and serving others
+Strategic thinking – able to see the bigger picture, prioritise effectively and solve problems well
+Project management – able to turn priorities into action and keep multiple workstreams moving
+Leadership – able to manage and motivate others, helping people to do their best work
+Organisation – highly organised and able to manage competing demands and deadlines
+Values – a strong sympathy with Labour’s aims and values
+Desirable
+Prior experience leading a team
+Interest in creative ways of delivering local change, including community organising and systems thinking
+Closing Date
+: 5 October 2026
+Interview/Start Dates
+Applications will close on the 5th of October. First round interviews will take place the following week, with further interviews later in the month.
+There is no specific start date, but sooner is preferred where possible.
+Application Details
+See full application details and apply via this link
+https://dantomlinson.org.uk/2026/09/18/work-with-dan-tomlinson/
+You will need your CV and answers to the following:
+Why are you interested in being Head of Office for Dan Tomlinson MP?
+Tell us about a time when you developed and delivered a strategy to deal with a complex challenge.
+Tell us about a time when you helped a team member to improve their level of performance (ideally someone you were responsible for managing)
+Please share your views on the most effective ways for a local MP to deliver real local change.
+Website
+:
+https://dantomlinson.org.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100288</guid>
+      <category>General</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dan Tomlinson MP (Chipping Barnet)</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
   </channel>
 </rss>
