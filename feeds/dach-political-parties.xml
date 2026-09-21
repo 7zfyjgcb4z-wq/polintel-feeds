@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 15:28:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 17:55:39 +0000</lastBuildDate>
     <item>
       <title>Community-Management Mitarbeiter:in (m/w/d)</title>
       <link>https://neos.jobs.personio.de/job/2666098</link>
@@ -122,5 +122,14 @@
       <pubDate>Wed, 16 Sep 2026 11:28:50 +0000</pubDate>
       <dc:creator>NEOS</dc:creator>
     <polintel:location>Landesgruppe Oberösterreich</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>KI Manager:in (m/w/d) - Schwerpunkt Transformation &amp; Automatisierung</title>
+      <link>https://neos.jobs.personio.de/job/2806185</link>
+      <description>Stabsstelle für KI-Anwendung und digitale Zusammenarbeit Du hast mit KI schon etwas gebaut, das dir oder anderen Arbeit abnimmt? Bei NEOS machst du gemeinsam mit Kolleg:innen aus Ideen funktionierende Anwendungen. Als zentrale Anlaufstelle für KI unterstützt du Mitarbeiter:innen, Funktionsträger:innen und Mandatar:innen dabei, effizienter zu arbeiten. Für diese Rolle ist nicht entscheidend, wie viele Berufsjahre du mitbringst. Wichtig ist, dass du praktische Erfahrung hast, dazulernen willst und Dinge verlässlich fertig machst. In dieser Funktion koordinierst du das Thema ohne Personalverantwortung und arbeitest eng mit Geschäftsführung, IT und Datenschutz zusammen. Du hilfst bei KI-Fragen und entwickelst gemeinsam mit Kolleg:innen konkrete Anwendungen für ihren Arbeitsalltag. Du baust und testest Prompts, Assistenten oder einfache automatisierte Abläufe und begleitest erste Projekte bis zur tatsächlichen Nutzung. Du vernetzt KI-interessierte Menschen aus verschiedenen Teams und Bundesländern und machst gute Lösungen auch für andere nutzbar. Du gibst dein Wissen in kurzen Workshops, Sprechstunden und praxisnahen Anleitungen weiter. Du hilfst bei der Anwendung unserer KI-Guideline, pflegst die Tool-Übersicht und stimmst neue Anwendungen mit IT und Datenschutz ab. Du machst es dir zur Aufgabe, neue Weiterentwicklungen und KI-Tools kontinuierlich zu evaluieren, um deren konkrete Eignung und den Mehrwert für die Arbeit bei Neos zu prüfen. Du hast KI bereits für konkrete Aufgaben eingesetzt und kannst uns eine selbst entwickelte Lösung zeigen. Das kann aus einem Job, dem Studium, dem Ehrenamt oder einem eigenen Projekt sein. Du arbeitest dich selbstständig in neue Werkzeuge ein, probierst aus und bleibst dran, wenn etwas zunächst nicht funktioniert. Du kannst zuhören, Abläufe nachvollziehen und anderen verständlich erklären, wie eine Lösung funktioniert. Du arbeitest verlässlich, prüfst Ergebnisse und gehst sorgfältig mit vertraulichen Daten um. Du erkennst, wann du Unterstützung brauchst. Du kommunizierst sicher auf Deutsch, kannst englische Dokumentation nutzen und möchtest im Umfeld einer liberalen politischen Organisation arbeiten. Hilfreich sind erste Erfahrungen mit Automatisierung, APIs oder Programmierung. Du musst nicht alle diese Kenntnisse mitbringen. Ein bestimmter Studienabschluss und Zertifizierungen sind keine Voraussetzung. Du arbeitest mit Menschen aus der gesamten Organisation an konkreten Problemen. Dich erwarten direkter Austausch mit der Geschäftsführung, kurze Abstimmungswege und Raum für fachliche Entwicklung. IT und Datenschutz unterstützen dich in ihren Fachgebieten. Wir bieten flexible Arbeitszeiten mit Home-Office und einen zentralen Bürostandort in Wien sowie ein Öffi-Ticket. Der Dienstvertrag ist unbefristet und das Beschäftigungsausmaß liegt bei 40 Wochenstunden. Das Gehalt beträgt EUR 3.500,-- brutto/Monat auf Vollzeitbasis mit Bereitschaft zur Überzahlung bei entsprechender Qualifikation. Schick uns deinen Lebenslauf und ein kurzes Beispiel: Welches Problem hast du mit KI gelöst, was war dein eigener Beitrag und was hast du dabei gelernt? Ein Screenshot, eine kurze Beschreibung oder ein Link reichen. Bitte verwende keine vertraulichen Daten.</description>
+      <guid isPermaLink="false">https://neos.jobs.personio.de/job/2806185</guid>
+      <category>Political Parties</category>
+      <pubDate>Mon, 21 Sep 2026 16:58:55 +0000</pubDate>
+      <dc:creator>NEOS</dc:creator>
+    <polintel:location>Bundesbüro</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
