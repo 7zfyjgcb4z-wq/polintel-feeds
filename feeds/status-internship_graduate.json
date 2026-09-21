@@ -1,8 +1,8 @@
 {
-  "last_run": "2026-09-20T13:47:30Z",
+  "last_run": "2026-09-21T16:03:33Z",
   "country": "internship_graduate",
-  "total_active_jobs": 31,
-  "new_jobs_found": 31,
+  "total_active_jobs": 32,
+  "new_jobs_found": 32,
   "sources_checked": 3,
   "sources_succeeded": 3,
   "sources_failed": 0,
@@ -10,17 +10,17 @@
   "relevance_filtered": 0,
   "descriptions_enriched": 6,
   "feeds_generated": 7,
-  "run_duration_seconds": 70.3,
+  "run_duration_seconds": 72.4,
   "failed_sources": [],
   "per_source": [
     {
       "name": "Ipsos Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 23,
-      "jobs_after_relevance_filter": 23,
+      "jobs_found": 24,
+      "jobs_after_relevance_filter": 24,
       "descriptions_enriched": 0,
-      "duration_seconds": 51.6,
+      "duration_seconds": 53.2,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -30,7 +30,7 @@
       "jobs_found": 2,
       "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 4.9,
+      "duration_seconds": 5.7,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
@@ -40,7 +40,7 @@
       "jobs_found": 6,
       "jobs_after_relevance_filter": 6,
       "descriptions_enriched": 6,
-      "duration_seconds": 0.8
+      "duration_seconds": 0.7
     }
   ]
 }
