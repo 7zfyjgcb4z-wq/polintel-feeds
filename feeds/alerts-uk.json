@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T09:43:09Z",
+  "generated_at": "2026-09-23T09:48:34Z",
   "country": "uk",
   "alerts": [
     {
@@ -7,16 +7,8 @@
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 11,
-      "message": "ICO returned 0 jobs (was 1) for 11 consecutive run(s). Review selector or check for vacancies."
-    },
-    {
-      "source": "Policy Exchange",
-      "type": "zero_result_after_success",
-      "previous_count": 1,
-      "current_count": 0,
-      "consecutive_zeros": 1,
-      "message": "Policy Exchange returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+      "consecutive_zeros": 12,
+      "message": "ICO returned 0 jobs (was 1) for 12 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {

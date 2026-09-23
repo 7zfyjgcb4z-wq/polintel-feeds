@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 09:43:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 09:48:34 +0000</lastBuildDate>
     <item>
       <title>Internet Resources Intern (Publication for roster purposes)</title>
       <link>https://careers.un.org/jobSearchDescription/273246?language=en</link>
@@ -234,14 +234,6 @@
       <dc:creator>Department of Operational Support</dc:creator>
     <polintel:descriptionSource>none</polintel:descriptionSource></item>
     <item>
-      <title>Spécialiste du commerce des services en Afrique centrale (NPSA 9)</title>
-      <link>https://careers.un.org/jobSearchDescription/278645?language=en</link>
-      <description>Level : CON Job ID : 278645 Job Network : Job Family : Programme Management Department/Office : International Trade Centre Duty Station : YAOUNDE Staffing Exercise : undefined Posted Date : 06/04/2026 00:00:00 AM (New York time) Deadline : 06/25/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/278645?language=en</guid>
-      <category>General</category>
-      <dc:creator>International Trade Centre</dc:creator>
-    <polintel:descriptionSource>none</polintel:descriptionSource></item>
-    <item>
       <title>CHIEF OF SECTION, INFORMATION SYSTEMS AND TELECOMMUNICATIONS</title>
       <link>https://careers.un.org/jobSearchDescription/278542?language=en</link>
       <description>Level : P-5 Job ID : 278542 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : United Nations Office at Nairobi Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 06/08/2026 00:00:00 AM (New York time) Deadline : 07/22/2026 23:59:59 PM (New York time)</description>
@@ -394,15 +386,6 @@ http://www.fouroneone.co.uk/</description>
       <dc:creator>Liberal Democrats</dc:creator>
     <polintel:location>London</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Communications &amp; Public Affairs Officer</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99965</link>
-      <description>Help shape the conversation around bookselling in the UK and Ireland. The Booksellers Association is looking for a Communications &amp;amp; Public Affairs Officer with a passion for communications, public affairs or both. Working with ...</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99965</guid>
-      <category>General</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>The Booksellers Association</dc:creator>
-    <polintel:location>London</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Assistant Professor of International Relations (Tenure-Track)</title>
       <link>https://www.jobs.ac.uk/job/DSO222/assistant-professor-of-international-relations-tenure-track</link>
       <description>The Department of Political Science at Northwestern University seeks applications for a full-time, tenure-track Assistant Professor in International Relations to begin on September 1, 2027. We seek candidates who will advance international relations scholarship and engage with important issues in contemporary world politics.
@@ -428,41 +411,6 @@ additional information on the accommodations process
       <category>General</category>
       <dc:creator>Northwestern University</dc:creator>
     <polintel:location>Illinois</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
-    <item>
-      <title>Parliamentary and Public Affairs Manager</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=99983</link>
-      <description>Reporting to Director of Campaigns
-Line reports None
-Hours 4 days (30 hours) or 5 days (37.5 hours) per week, with flexibility over working hours (core hours are 10.00-16.00).
-Location London/Hybrid – minimum 2 days in the office (core days in the office are Tues &amp; Weds) further office attendance is encouraged
-About the Role
-The Parliamentary and Public Affairs Manager is a brand-new role for Foodrise. The successful candidate will lead on developing our first public and parliamentary affairs strategy to engage with political representatives and policymakers to advance our campaigning objectives and ensure progress towards our new strategic goals:
-• Dismantling the animal industrial complex and supporting the transition to plant-rich food
-• Eroding the social licence of large supermarkets and building alternative food economies
-Ultimately, this role is about securing wins to meet our vision of a greener, fairer food system, where food is a commons, not a commodity.
-This role is key to shaping public policy and legislative outcomes by building relationships, influencing decision-makers, and positioning Foodrise as an ambitious yet trusted voice in Westminster, Holyrood and amongst civil society across the UK. This role will work collaboratively with colleagues across campaigns, so would suit an adaptive candidate with strong communication skills, keen to advocate for Foodrise.
-See more information on our website:
-https://foodrise.org.uk/job/parliamentary-and-public-affairs-manager/
-Closing Date
-: 22 September 2026
-Interview/Start Dates
-Deadline to apply: 10am
-Successful candidates for interview will be notified by Thursday 24th September.
-First round interviews will be held on Thursday 1st October.
-Second round interviews will be held on Thursday 8th October.
-Start Date As soon as possible
-Application Details
-Please apply via Charity Jobs with:
-• Your CV (no longer than 2 A4 pages total)
-• A cover letter (no longer than 1 A4 page) explaining how you meet the criteria in the person specification with examples, and why you would like to work at Foodrise.
-Website
-:
-https://foodrise.org.uk/</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=99983</guid>
-      <category>General</category>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foodrise</dc:creator>
-    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-22</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Hatton Professorship of Sustainability</title>
       <link>https://www.jobs.ac.uk/job/DSP184/hatton-professorship-of-sustainability</link>
@@ -572,69 +520,6 @@ Only applications received before 12 midday on Thursday, 24 September 2026 can b
       <category>General</category>
       <dc:creator>University of Oxford</dc:creator>
     <polintel:location>Oxford</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
-    <item>
-      <title>Media and Policy Officer</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100044</link>
-      <description>This is an exciting opportunity to join a small, high performing team. This varied role sits at the heart of the policy and campaigns team, working in the policy detail to support key campaigns as well as media functions, including lots of interaction with supporters and carers. The role plays a vital part in delivering the charity’s core aims to make life better for carers by. Working closely with our communications team, this role spans across media, policy, public affairs and campaigns.
-https://www.carersuk.org/about-us/working-for-carers-uk/vacancies/media-and-policy-officer/
-Closing Date
-: 22 September 2026
-Interview/Start Dates
-Interview dates late September early October with commencement soon after.
-Application Details
-Please follow the 'how to apply' guidance on our website advert here:
-https://www.carersuk.org/about-us/working-for-carers-uk/vacancies/media-and-policy-officer/
-Website
-:
-http://Carersuk.org</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100044</guid>
-      <category>General</category>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Carers UK</dc:creator>
-    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-22</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
-    <item>
-      <title>Economy Researcher</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100057</link>
-      <description>Daisy Cooper MP is looking for an Economic Researcher to support her work as Treasury Spokesperson for the Liberal Democrats. The postholder will work closely with the Party’s Economy &amp; Business Adviser, Business Engagement Manager, and wider Economic and Business team.
-Key responsibilities
-Policy Development: Assist in the formation and analysis of economic and business policies
-Stakeholder Management: Identify, develop, and maintain relationships with key stakeholders
-Research and Analysis: Conduct extensive research and provide detailed analysis on economic and business issues
-Communication: Prepare reports, briefings, and speeches
-Skills required
-Start-up mentality: approaching challenges with a fresh perspective and a drive to create new and improved policy solutions
-Highly motivated and a self-starter
-Strong understanding of the economic &amp; business policy space and the key debates within it
-Experience undertaking economic research and/or working on economic policy
-Excellent written and verbal communication skills
-Ability to think creatively and solve problems
-Sound political judgement and experience of working in or around a political setting
-Ability to handle matters sensitively, confidentially, and to work well as part of a small team
-Sympathetic to the aims and objectives of the Liberal Democrats
-Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
-Members’ Staff Verification Office (MSVO)
-page for further info. MPs generally pay staff in accordance with
-IPSA guidelines
-.
-Closing Date
-: 22 September 2026
-Interview/Start Dates
-Interview Date: 28 September 2026
-Start Date: To be confirmed
-Application Details
-Please send a tailored CV (maximum two pages) and a covering letter (maximum one page), setting out why you would like to apply for this role with Daisy Cooper MP, to
-justin.meadows.stalbans@gmail.com
-. Use the subject line:
-Application for Economy Researcher - Name.
-Due to the expected high volume of applications, we regret that we are unable to respond to all unccessful applicants individually.
-Website
-:
-https://daisycooper.org.uk/</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100057</guid>
-      <category>General</category>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Daisy Cooper MP (St Albans)</dc:creator>
-    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-22</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Postdoctoral Researcher (Specified Purpose Contract)</title>
       <link>https://www.jobs.ac.uk/job/DSR588/postdoctoral-researcher-specified-purpose-contract</link>
@@ -1364,41 +1249,6 @@ http://www.royalcwsociety.org</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Royal Commonwealth Society</dc:creator>
     <polintel:location>London</polintel:location><polintel:closingDate>2026-09-29</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
-    <item>
-      <title>Fundraising &amp; Communications Assistant</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100160</link>
-      <description>This is an exciting opportunity to join EarthPercent at a pivotal stage in our growth.
-The Fundraising &amp; Communications Assistant is a brand-new role designed to support a more joined-up approach across EarthPercent’s activity. Working across fundraising, communications and community, you’ll help ensure these closely connected functions are aligned, enabling EarthPercent to build and strengthen relationships with artists, partners, donors, supporters and the wider music community.
-The role provides essential administrative, operational and project support, helping deliver partnerships, campaigns, events, communications and engagement activities that advance EarthPercent’s mission. You’ll play a key role in keeping projects organised, ensuring information flows effectively across the organisation and enabling colleagues to build and steward successful relationships.
-You’ll support the planning and delivery of live fundraising shows, industry events and campaigns; assist with partnership materials and communications; maintain key systems; and help ensure colleagues have the information they need to deliver high-quality work.
-As part of a small, ambitious team, you'll have the opportunity to contribute across a range of our fundraising, communications and engagement activity, gaining broad experience while helping shape a growing organisation. This varied, hands-on role is ideal for someone who is highly organised, proactive and keen to build a career at the intersection of music and environmental action.
-Key Responsibilities &amp; Person Specification
-Please view the full job advert on our website:
-https://www.earthpercent.org/jobs/fundraising-communications-assistant-1
-Closing Date
-: 22 September 2026
-Interview/Start Dates
-Application deadline: 2pm
-First interviews: Expected to take place week commencing 5th October
-Second interviews: Expected to take place week commencing 12th October
-Application Details
-Please send your CV (2 pages max.) to
-jobs@earthpercent.org
-. We would be grateful if you could use 'Your Name - Fundraising &amp; Communications Assistant’ as the subject line.
-Please also complete this Google Form (
-https://forms.gle/z2HD8B4zaitfCVJN9
-), which includes three questions designed to help us understand how you would approach some of the key aspects of the role and complement the information provided in your CV.
-Should you have any issues completing the form, or any queries about the role or application process, please contact us at
-jobs@earthpercent.org
-.
-Website
-:
-https://www.earthpercent.org/</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100160</guid>
-      <category>General</category>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>EarthPercent</dc:creator>
-    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-22</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Interim Public Affairs &amp; Media Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100161</link>
@@ -2136,28 +1986,6 @@ https://www.edge.co.uk/</description>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Edge Foundation</dc:creator>
     <polintel:location>London</polintel:location><polintel:closingDate>2026-09-29</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
-    <item>
-      <title>Regional Campaign Manager</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100195</link>
-      <description>Join Conservative Campaign Headquarters as a Regional Campaign Manager for the Eastern Region
-Are you ready to take on a leadership role at the heart of one of our most important campaign operations?
-As Regional Campaign Manager, you will be responsible for developing, leading, and delivering high-impact campaigns across the Eastern Region. You will play a pivotal role in shaping campaign strategy and overseeing its execution, ensuring every initiative is aligned with national objectives while responding effectively to local priorities and opportunities.
-This is a dynamic, digital-first position where innovation, data-driven decision-making, and modern campaigning techniques are central to success. You will be at the forefront of delivering effective, targeted campaigns that engage voters, build support, and drive results across the region.
-To view the full job description and apply, please visit
-https://theconservati-cb6741.careers.hibob.com/
-Closing Date
-: 22 September 2026
-Interview/Start Dates
-Application Details
-https://theconservati-cb6741.careers.hibob.com/
-Website
-:
-http://conservatives.com</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100195</guid>
-      <category>General</category>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>The Conservative Party</dc:creator>
-    <polintel:location>Eastern Region</polintel:location><polintel:closingDate>2026-09-22</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Constituency Support Manager</title>
       <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100196</link>
@@ -5645,7 +5473,7 @@ http://www.jeffersoncommunications.co.uk</description>
     <polintel:location>London</polintel:location><polintel:closingDate>2026-10-23</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
     <item>
       <title>Policy and Data Analyst - Hybrid/London</title>
-      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100290</link>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100305</link>
       <description>The British Academy
 – the UK’s national body for the humanities and social sciences - is seeking a
 Development Operations Manager
@@ -5668,7 +5496,7 @@ https://app.beapplied.com/apply/ugudikna8y
 Website
 :
 https://www.thebritishacademy.ac.uk/about/</description>
-      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100290</guid>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100305</guid>
       <category>General</category>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>The British Academy</dc:creator>
@@ -6067,5 +5895,606 @@ https://www.adsgroup.org.uk</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>ADS</dc:creator>
     <polintel:location>London</polintel:location><polintel:closingDate>2026-10-01</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Trainee Research Executive</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100303</link>
+      <description>Survation is hiring!
+We're growing our team and looking for a Trainee Research Executive to join us.
+If you're interested in polling and public opinion research and want to learn how it works - from writing a questionnaire to seeing the findings picked up by journalists, policymakers and business leaders - this role could be a good fit.
+You'll manage projects from start to finish, work with client data, sit in on client meetings, and help write reports, press releases and blog posts. There's also scope to get involved in event and conference work around the political calendar.
+What we're looking for:
+- An interest in research and polling, and a willingness to learn
+- A good grasp of UK politics and current affairs
+- Some data analysis experience - doesn't have to be professional, academic or self-taught is fine
+- Comfortable with Excel and PowerPoint
+- Good written and verbal communicationR, Python or SPSS experience is a bonus, not a requirement
+- You'll get hands-on training, exposure to high-profile clients and political figures, and a structured path to grow with us.
+If you're interested, send a CV and cover letter to
+careers@survation.com
+The full job posting can be found on our website here:
+https://www.survation.com/survation-is-hiring-a-trainee-research-executive/
+Closing Date
+: 30 September 2026
+Interview/Start Dates
+Application Details
+If you're interested send a CV and cover letter to
+careers@survation.com
+If you have any questions relating to this role please also send an email to
+careers@survation.com
+Website
+:
+http://www.survation.com/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100303</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Survation Ltd</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Office Manager</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100304</link>
+      <description>This is an exciting opportunity to join Olivia Blake’s team in either Sheffield or London as her Office Manager, supporting her as the MP for Sheffield Hallam.
+The successful candidate will be highly motivated, reliable, well-organised, and will identify with the core values of the Labour Party and the wider labour movement. They will have a keen interest in British politics and current affairs, excellent written communication skills, and experience of working in parliament or a similar political, trade union, or campaigning context.
+The role holder may be required to work outside of the normal working hours and travel for work occasionally.
+Key responsibilities:
+Provide strategic oversight, support and direction to ensure the effective delivery of the office’s priorities.
+Analyse local and national political developments and assess these against Olivia’s political priorities, using this insight to shape and tailor campaigns and ensure her work remains focused, relevant and impactful.
+Oversee and triage all constituency casework, manage office inboxes, and allocate workloads effectively to ensure cases are handled efficiently and resources are distributed fairly across the team.
+Manage various office budgets, expenses, and notifying IPSA of contractual changes as necessary
+Deal with security matters, maintain the security system, liaise with external bodies as appropriate
+Take ownership of certain casework as required, advise the team on complex casework.
+Skills and Experience:
+An excellent knowledge of the British political system and key issues in politics and current affairs, including Olivia Blake’s work in parliament and the constituency.
+Exceptional communication skills with a proven ability to express complex ideas clearly and concisely in an appropriate manner to a range of audiences.
+Experience of working in parliament or a similar political, trade union, or campaigning context.
+Ability to juggle multiple deadlines and manage a complex and varied workload.
+Ability to maintain confidentiality and behave with discretion.
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
+Members’ Staff Verification Office (MSVO)
+page for further info. MPs generally pay staff in accordance with
+IPSA guidelines
+.
+Closing Date
+: 1 October 2026
+Interview/Start Dates
+Candidates will be contacted within a week of the closing date if they are invited to interview.
+Application Details
+To apply for this position, please email your CV and covering letter (max 2 sides) in MS Word format to
+olivia.blake.mp@parliament.uk
+by 9am on Monday 11th December 2026, with the subject line “Application for Office Manager.” Your cover letter should address how you meet the required skills and experience set out above.
+Website
+:
+http://www.oliviablake.org.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100304</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Olivia Blake MP (Sheffield Hallam)</dc:creator>
+    <polintel:location>Sheffield/ London</polintel:location><polintel:closingDate>2026-10-01</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Head of Programmes</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100306</link>
+      <description>Round Our Way is looking for a Head of Programmes to work closely with our Co-Directors. This role will hold day-to-day responsibility for managing and driving a range of core projects, , build and sustain relationships with partners and stakeholders across the climate and politics, and deputise for the Co-Directors in external meetings, coalitions and partnerships.
+The role calls for someone who is both a strategic thinker and has a strong track record of delivery. We are looking for a candidate who brings the experience and credibility to represent Round Our Way at a senior level, alongside the drive and hands-on capability to take projects from conception through to completion. Strong writing, sound judgement and the ability to manage competing priorities is essential.
+We are looking for candidates who will revel in the flexibility and dynamism our small organisation provides while being prepared to roll up their sleeves. We’d love for this to be a role where someone can drive things forward but can also shape and expand the role itself, showing leadership within the organisation and externally, and creating creative opportunities for the role and for the organisation. For our people no ambition is too great, no task too small.
+Salary band: £50,000-£60,000
+Hours: 37.5 hours per week. (ROW are very open to conversations around flexible working and desired level and pattern of working days.)
+Location: The organisation is virtual so we can have staff dotted around the country. There is the budget for each staff member to use a co-working space or rent a desk in another organisation and for regular in-person meet-ups of the Round Our Way team.
+Contract: This is an initial one-year role (reflecting committed funding for the post) but our expectation and intention is that this will become a permanent position.
+Annual leave: 30 days and public holidays.
+Pension: Employer 5% contribution, based on an employee 3% contribution..
+Closing Date
+: 9 October 2026
+Interview/Start Dates
+Apply by 11.59pm on closing date
+Application Details
+To apply please send a CV and a 1 page cover letter detailing your suitability for the role to
+info@roundourway.org
+with "Head of Programmes application" in the subject line and complete this Equality and Diversity Monitoring form (
+https://docs.google.com/forms/d/e/1FAIpQLSeDbWAoX93oIpDhbka7ZmSUgTzmpk-_fok_q0BEJ5jMf3e20w/viewform
+).
+Due to the fact we are a small organisation we cannot committ to acknowleding every application. We will be in touch with those who have been shortlisted for interview within 2 weeks of the application deadline.
+Website
+:
+https://www.roundourway.org/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100306</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Round Our Way</dc:creator>
+    <polintel:location>UK</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Parliamentary Assistant</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100307</link>
+      <description>Uma Kumaran MP is seeking a highly motivated, politically engaged experienced individual to be her Parliamentary Assistant to support her work in Westminster and Stratford &amp; Bow
+Key responsibilities:
+• Analyse, evaluate and interpret data to ensure the MP is accurately informed on key issues
+• Assist in writing external communications including speeches for the MP
+• Assist with casework as required, exposure and management of complex cases
+• Compilation of briefing packs for MPs, take notes of meetings and draft appropriate submissions
+• Develop and maintain current knowledge on relevant areas of parliamentary business. This would include issues of importance both nationally and in the local constituency
+• Engage confidentially, professionally, with care and integrity with members of the public
+• Maintain positive on-going relationships with all parties including members of the public, groups, suppliers, and Westminster where required
+• Monitor local, regional, and national media coverage and brief the MP on relevant issues
+• Monitor social media activity and report any relevant trends to the Office Manager/MP
+• Project work and management, providing generalist admin support
+• Work with colleagues in communications/casework to identify potential impacts from the research work and disseminate them effectively
+• There may be a requirement for the role holder to work outside of normal working hours and travel for work occasionally
+Skills and experience:
+• Desirable – previous experience working in, or adjacent to, Parliament
+• Excellent organisational skills, with proven experience of managing competing priorities
+• Excellent communication skills, both verbal and written
+• Strong understanding of Parliament and the legislative process
+• Strong research and analytical skills, with the ability to interpret and present complex information clearly
+• Ability to anticipate needs, take initiative and resolve issues before they escalate
+• A compassionate person with a strong sense of justice, a natural ability to empathise with others, and a determination to fight for fair outcomes
+• Ability to adapt and work effectively as part of a small team
+• Being a self-starter with a demonstrable record of taking initiative
+• Sympathetic to the aims and values of the Labour Party
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
+Members’ Staff Verification Office (MSVO)
+page for further info. MPs generally pay staff in accordance with
+IPSA guidelines
+.
+Closing Date
+: 4 October 2026
+Interview/Start Dates
+Interviews to be held w/c 5th October, with the view to start as soon as soon as possible.
+Application Details
+A written CV no longer than 2 sides of A4, along with a covering letter no longer than 1 side of A4.
+Please send via email with the subject line ‘Parliamentary Assistant Application’ to my Head of Office at
+beatrice.morrison@parliament.uk
+Website
+:
+https://www.umakumaran.co.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100307</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Uma Kumaran MP (Stratford and Bow)</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-04</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Policy &amp; Advocacy Officer – Bioenergy and Resource Recovery</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100308</link>
+      <description>We're looking for a policy professional to work on REA's work on Energy from Waste, resource recovery and bioenergy — sectors at the heart of the UK's transition to a secure, circular energy system. Leading our Energy from Waste Forum, you'll set the policy agenda, build REA's influence with Government and Parliament, and give the sector a stronger, more confident voice.
+Reporting to the Head of Heat and Biomass UK, you'll shape and deliver policy priorities that reflect what matters most to REA's 400+ members, run our quarterly Forum meetings and steering groups, and represent REA to DESNZ, DEFRA, NESO, regulators and industry.
+The role also carries real commercial weight — growing membership, unlocking sponsorship and partnership opportunities, and strengthening the value REA offers across bioenergy, Energy from Waste and the wider circular economy. It's a high-profile position at the forefront of one of the most dynamic corners of the renewable energy sector.
+Closing Date
+: 15 October 2026
+Interview/Start Dates
+TBC
+Application Details
+https://rea.livevacancies.co.uk/#/job/details/28
+Website
+:
+https://www.r-e-a.net/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100308</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Renewable Energy Association</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-15</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Development Manager</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100309</link>
+      <description>The CSJ is seeking a highly strategic, proactive and ambitious individual to join our busy Westminster office. As part of a small, high-performing team, you will play a key role in engaging high-net-worth donors, securing income against targets, raising the profile of our work, and helping to steward and grow our exceptional supporter base.
+While previous fundraising experience would be an advantage, it is not essential. More important is that you are someone who can quickly grasp our organisation and funding model, produce compelling, high-quality written proposals, and communicate with confidence and credibility to senior and influential stakeholders.
+https://hr.breathehr.com/v/senior-development-manager-48828
+Closing Date
+: 9 October 2026
+Interview/Start Dates
+Application Details
+Please submit your CV and one-page cover letter in a pdf format by 23.59 on the closing date to
+https://hr.breathehr.com/v/senior-development-manager-48828
+If you require adjustments or a different format for your application, please email us.
+You must have the right to work in the UK, unfortunately we are unable to sponsor visa applications.
+Website
+:
+http://www.centreforsocialjustice.org.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100309</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Centre for Social Justice</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Policy and Campaigns Manager</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100310</link>
+      <description>Guide Dogs - Be Part of Something Life‑Changing
+Come and join us as a proactive and purpose‑led Policy and Campaigns Manager for Northern Ireland and be part of something life‑changing - helping people with sight loss live the life they choose.
+As a Policy and Campaigns Manager at Guide Dogs, you'll be at the forefront of creating lasting change for people with sight loss across Northern Ireland. You'll develop and influence policy, lead impactful campaigns, and build strong partnerships with government bodies, local authorities, and key stakeholders to advance Guide Dogs' strategic objectives and improve outcomes for blind and partially sighted people. The Policy and Campaigns Manager will be an expert in policy development, public affairs, stakeholder engagement, political influencing, and campaign leadership, with the ability to turn insight into action and drive meaningful change in policy and practice. Our Policy and Campaigns Managers play a vital role in ensuring everything we do enables us to deliver on our purpose and exceed expectations.
+This is an office-based role with flexibility for hybrid working. Ideally the successful candidate will live within a reasonable travelling distance of Belfast, as regular travel across Northern Ireland and attendance at meetings and events will be required. Occasionally you may be required to attend meetings and events across the UK.
+Closing Date
+: 6 October 2026
+Interview/Start Dates
+Application Details
+For more information and to apply visit:
+https://careers.guidedogs.org.uk/vacancies/1032/policy-and-campaigns-manager.html
+Website
+:
+http://www.guidedogs.org.uk</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100310</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>The Guide Dogs for the Blind Association</dc:creator>
+    <polintel:location>Belfast</polintel:location><polintel:closingDate>2026-10-06</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Communications and Constituency Support Manager</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100311</link>
+      <description>Lola McEvoy MP is looking for an experienced digital communications and press professional with demonstrable project managment skills to join her brilliant team in Darlington.
+Key Responsibilities:
+Lead proactive local improvement projects directed by the MP
+Produce Professional copy and digital content to support these projects
+Deputise for the Office Manager
+Key skills required:
+Professional Video Editing Skills and Digital Content Creation Skills Required
+High-level project management and prioritisation skills required
+About you:
+Has a good understanding of Darlington and the communities within the constituency
+Enjoys working with the public, within a team and delivering to a high professional standard across competing priority work strands.
+Has excellent copywriting skills
+Has proven experience producing high quality digital content and securing national press coverage
+Has proven experience delivering multi-strand projects with senior responsibility, while managing urgent incoming enquiries and breaking news cycles.
+Excellent prioritisation skills.
+Is sympathetic to the aims, values and objectives of the Labour Party
+Closing Date
+: 15 October 2026
+Interview/Start Dates
+Interviews: W/C 19th October 2026
+Start Date dependent on Security Clearance.
+Application Details
+Please email a CV and 1 page A4 cover letter explaining the experience you have that qualifies you for this role.
+In your application email please include links to one or more of the following:
+A piece of independently published copy you’ve written
+A piece of digital content you’ve created
+A video you’ve produced and edited
+Email:
+Lola.McEvoy.MP@parliament.uk
+with the subject line: Senior Comms and Constituency Support Manager
+Website
+:
+https://www.facebook.com/LolaMcEvoyMP</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100311</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Lola McEvoy MP (Darlington)</dc:creator>
+    <polintel:location>Darlington</polintel:location><polintel:closingDate>2026-10-15</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Communications Officer (Media Relations)</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100313</link>
+      <description>At the Royal Town Planning Institute (the RTPI), we champion the value of planning in building thriving places and communities. With over 27,000 members worldwide, we support planners at every stage of their career: raising professional standards, shaping planning policy, and proudly awarding chartered status, the highest professional accreditation in UK planning.
+For over a century, we have empowered planners to deliver positive impact: creating healthy, inclusive, economically and environmentally sustainable places. As the voice of the profession, we advocate, support, and lead with purpose, professionalism, and passion.
+Planning reform has dominated the headlines in recent years and we are now moving into a delivery stage. As such we are looking for someone who can help us shape that landscape and promote the planning system as a whole. This role will be crucial in helping to raise public awareness of the RTPI’s role through traditional media channels.
+This is an opportunity to join a team at an important time for the profession and the institute. You will work alongside our social media officer, web manager and member communications officer to ensure that RTPI’s activity is carried by a variety of media outlets. You will also work with the wider institute to help them develop media lines from their existing projects and have a close working relationship with our membership magazine The Planner.
+You will have a good understanding of how media can be used to reach multiple audiences and which outlets are best for which message. You will also be able to integrate social media and web content activity into wider campaign work to support media activity where required. You will also have a good understanding of how to build relationships with our key journalists and understand the news cycle.
+The RTPI has a positive, supportive and inclusive work environment that actively operates a policy of helping its employees at all levels to achieve professional growth. We seek to foster a collaborative and respectful work environment that promotes equality, diversity, and inclusion.
+Please apply via our website to upload your CV and a covering letter that tells us why you are intrested in the role and how you meet the person specification requirements.
+Closing Date
+: 25 October 2026
+Interview/Start Dates
+Interview Date: W/C 2nd November 2026
+Application Details
+Please apply via our website to upload your CV and a covering letter that tells us why you are intrested in the role and how you meet the person specification requirements.
+https://jobs.rtpi.org.uk/job/954878
+Website
+:
+https://www.rtpi.org.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100313</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>RTPI</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-25</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Economic Analyst</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100314</link>
+      <description>Pagefield Group are looking for an outstanding Economic Analyst, with an emphasis on economic research capabilities, to join our talented and growing team of 60+ consultants. The role will support our expanding portfolio of clients across a wide range of sectors including technology, financial services, transport, FMCG, property, infrastructure and not-for-profit.
+https://www.pagefield.com/careers/economic-analyst/
+Closing Date
+: 31 October 2026
+Interview/Start Dates
+Interviews to take place in September and October 2026
+Application Details
+HOW TO APPLY
+This is a unique agency looking for a special new team member. If you think that might be you, please contact
+talent@pagefield.co.uk
+with your CV and supporting statement of no more than 400 words.
+Pagefield was born out of a desire to bring something different to the communications industry. We are an open-minded and inclusive workplace, and welcome applications from people who share our to do things differently.
+Please let us know if you would benefit from any specific support to enable you to take part in our recruitment processes.
+Website
+:
+https://www.pagefield.com/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100314</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Pagefield Group</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-31</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Graduate Trainee, London</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100315</link>
+      <description>Invicta Public Affairs steers clients through challenging political, regulatory and media landscapes across all levels of government, including local and national. We seek to influence the development of public policy and the regulatory landscape where it affects the business environment. Our focus is on delivering the best chance of commercial success for our clients.
+We are looking to grow our team by recruiting a Graduate Trainee for our London office. This is an entry-level role working within our Account Team, with the opportunity for progression to Account Executive within 12 months. The successful candidate will take on a client-focused role, delivering political and community engagement services to clients. This position will suit a recently qualified graduate with experience in engaging the public. Strong research and analytical skills are paramount, together with sensitivity to community-based issues.
+RESPONSIBILITIES
+Working with the account team to deliver the day-to-day running of client accounts and to ensure that all work is produced in a timely fashion and to the highest quality.
+Working with the wider team to deliver public consultation programmes for client projects, including public exhibitions, community liaison forums, attendance at community meetings and engagement with the general public.
+Researching key legislation and initiatives that are relevant to a particular client sector or the company.
+Researching political and regulatory landscapes for current clients and when new business opportunities arise for the company.
+SKILLS &amp; PERSONAL ATTRIBUTES
+Outcome-oriented and results-focused.
+Confident, while remaining diplomatic.
+A keen interest in politics, policy and current affairs.
+Ability to manage and retain professional relationships.
+A good eye for detail and the ability to present information cogently.
+REQUIREMENTS
+Experience:
+Ideally, the successful candidate will have;
+Work experience in a customer-focused role or related to their degree, either in an intern/trainee role or in a voluntary capacity,
+Good basic knowledge of politics, current affairs and government in Westminster and across the UK.
+Experience using office based software, and generally IT competent.
+Education:
+Candidates must be educated to a degree level in a relevant discipline (Social Sciences, Humanities).
+Closing Date
+: 16 October 2026
+Interview/Start Dates
+Interviews will be conducted on a rolling basis throughout the application period.
+Application Details
+GENERAL COMMENTS
+To find out more about Invicta Public Affairs, please visit our website at www.invictapa.co.uk. If you are interested in applying for the position, please send a CV and cover letter to Jennifer Peltier:
+jennifer.peltier@invictapa.co.uk
+Please note that due to the potential volume of applications, only successful candidates will be contacted. If you have not heard back from us, unfortunately, you have not been successful on this occasion, and we wish you all the best in your search.
+Website
+:
+http://invictapa.co.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100315</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Invicta Public  Affairs</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-16</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Head of External Affairs (part - time, 3 days per week)</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100316</link>
+      <description>This newly created role gives an experienced external affairs leader the chance to build YES’s public affairs and reputation function from the ground up, working closely with the CEO, Executive Team and Board. It is a rare opportunity to shape how a fast-growing, purpose-driven organisation is seen, heard and understood by government, regulators and the communities it serves.
+Main responsibilities:
+• Develop and deliver a clear external affairs strategy aligned to YES’s purpose, five-year strategic objectives and commercial goals.
+• Own YES’s approach to public affairs, political engagement and policy influence at national, regional and local level, building trusted relationships with Ministers, government officials and regulators.
+• Lead corporate communications, media relations and crisis communications, acting as a trusted adviser to the CEO, Executive Team and Board.
+• Develop and maintain a strategic stakeholder map, building insightful relationships across government, regulators, industry bodies, funders and community organisations.
+• Own the corporate brand, reputation framework and organisational narrative for YES.
+• Represent YES at external forums, conferences and industry groups where reputation, policy influence and organisational visibility are the goal.
+for further information please click on the link below.
+https://www.ellwoodatfield.com/jobs/head-of-external-affairs-4
+Closing Date
+: 13 October 2026
+Interview/Start Dates
+TBC
+Application Details
+To apply, please click on the link below.
+https://www.ellwoodatfield.com/jobs/head-of-external-affairs-4
+Website
+:
+https://www.yesenergysolutions.co.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100316</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>YES Energy Solutions (Client of Ellwood Atfield)</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-13</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Parliamentary Assistant</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100317</link>
+      <description>Apsana Begum MP is looking to recruit a Parliamentary Assistant. This role is suitable for someone who enjoys working on policy and casework, interacting with members of the public to ensure their views are heard and represented in Parliament.
+Key responsibilities
+Casework and Parliamentary work
+Managing a large caseload of cases including on policy and drafting responses to constituents making contact by phone, email, online and face-to-face.
+Work with colleagues in communications/casework to identify impacts and opportunities from casework.
+Assist with the drafting of speeches.
+Produce graphics and video content to update online platforms.
+Analysis, research and reporting
+Analyse, evaluate and interpret data to ensure the MP is accurately informed on key issues and trends.
+Maintain and develop knowledge on specialist and relevant areas of parliamentary business – motions, Hansard, legislation, upcoming business and debates.
+Undertake research and produce updates and briefings for press releases, potential questions and parliamentary work.
+Project work and management
+Manage projects and deliver external stakeholder engagement on behalf of the MP and maintain ongoing relationships.
+Work in a professional, confidential and sensitive manner with members of the public, including those without English as a first language.
+Organise, attend and deliver meetings, appointments, events, tours, drop-ins, lobby days and APPGs, taking minutes and following up as needed.
+Administration
+Enhancing manuals, templates and office systems and trackers
+Hold and process data and information confidentially, in line with GDPR.
+Additional responsibilities:
+Attend constituency meetings as appropriate
+Supervision of staff, interns and volunteers
+There may be requirement for the role holder to work outside of normal hours and travel for work occasionally
+This is a full-time role based on 37.5 hours per week.
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
+Members’ Staff Verification Office (MSVO)
+page for further info. MPs generally pay staff in accordance with
+IPSA guidelines
+.
+Closing Date
+: 14 October 2026
+Interview/Start Dates
+Please be advised that the deadline may close earlier should a sufficient number of applications be received.
+Interviews will be held on the w/c 19th October and will involve written tests.
+The start date will be agreed with the successful candidate.
+Application Details
+Please visit www.apsanabegum.com for the Person Specification.
+Applicants should submit a CV (of no more than 2 pages) and a Written Statement demonstrating skills, knowledge and experience in the following key areas:
+Analysing information and drafting correspondence for different audiences
+Knowledge of national and local policy issues and government legislation
+Planning and delivering projects
+to
+apsana.begum.mp@parliament.uk
+with the subject line ‘Parliamentary Assistant 2026 – Full name’.
+Website
+:
+http://www.apsanabegum.com</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100317</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Apsana Begum MP (Poplar and Limehouse)</dc:creator>
+    <polintel:location>London, 5 days per week in the Constituency Office</polintel:location><polintel:closingDate>2026-10-14</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Executive Assistant</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100318</link>
+      <description>Green Party MP for North Herefordshire Dr Ellie Chowns is looking for someone to join her constituency team in an executive assistant role, focussed on supporting Ellie’s accessibility and accountability to her constituents, supporting administration around casework, and ad hoc projects.
+You will be efficient, self-motivated and organised. This role will suit someone who has strong IT and database skills, can work at speed whilst paying strong attention to detail, and who thrives in a small, purposeful team.
+Application is by submission of a CV (max 2 pages) plus a covering letter of up to 500 words, detailing the applicant’s suitability for the role, why it interests them and how they meet the person specification.
+The closing date is 11pm 7th October 2026. Interviews will be held week commencing 12th October 2026.
+Full details are to be found at
+https://elliechowns.org.uk/recruitment/
+Closing Date
+: 7 October 2026
+Interview/Start Dates
+Interviews will be held week commencing 12th October 2026.
+Application Details
+Applications to be submitted by 11pm on Wednesday 7th October 2026 to
+gillian.bullock@parliament.uk
+with Executive Assistant, Constituency Office in the subject line.
+Application is by submission of a CV (max 2 pages) plus a covering letter of up to 500 words, detailing the applicant’s suitability for the role, why it interests them and how they meet the person specification.
+Website
+:
+https://elliechowns.org.uk/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100318</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Ellie Chowns MP (North Herefordshire)</dc:creator>
+    <polintel:location>Leominster, Herefordshire</polintel:location><polintel:closingDate>2026-10-07</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Executive Office Manager</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100319</link>
+      <description>Apsana Begum MP is looking to recruit an experienced and people-orientated Executive Office Manager to join her in Poplar and Limehouse. This is a full-time and permanent role based in her constituency office.
+Key Responsibilities
+HR, Payroll and Finance
+• Manage and lead the office team, undertake 1:1s, ensuring the wellbeing of staff
+• Keep accurate personnel records &amp; notify IPSA of changes
+• Review and deliver budgets, liaising with IPSA
+• Manage the recruitment and retention of staff, identify training needs &amp; create development plans
+• Ensure budgets and office environment centre and support the MP’s needs &amp; priorities
+Administration
+• Maintain a highly professional administrative support including office systems, trackers, processes &amp; manuals
+• Proficient use Microsoft Office including Teams, Excel, Outlook &amp; SharePoint
+• Overall management of the MP's diary, delegating tasks as appropriate
+• Ensure the office is fully equipped
+• Hold and process data and information confidentially and in line with the data protection legislation
+Security
+• Lead on all security matters for the MP and office, maintain records and enhance protocols
+• Liaise with external bodies such as the Police
+• Keep abreast of security guidance and disseminate information within the office
+Constituency and stakeholder management
+• Horizon-scanning and problem-solving
+• Deliver external stakeholder engagement and on constituent matters on behalf of the MP
+• Liaise with interest groups within the constituency &amp; the public with professionalism, care and integrity, including people from diverse backgrounds &amp; without English as a first language
+Casework management
+• Lead casework meetings and oversee surgeries
+• Take ownership of certain complex and sensitive casework as required
+Person Specification
+Essential
+Experience as a business, non-profit, or MP office manager
+Enjoy working with people and leading teams
+Strong commitment to social justice and the following values: integrity, respect, accountability, collaboration, innovation, empathy, resilience, well-being, selflessness and responsibility
+Working in a constituency office
+Desired
+Chartered CMI, CIPD, project management certification or equivalent
+Accounting skills
+Experience of Caseworker.MP
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
+Members’ Staff Verification Office (MSVO)
+page for further info. MPs generally pay staff in accordance with
+IPSA guidelines
+.
+Closing Date
+: 14 October 2026
+Interview/Start Dates
+Interviews are expected to take place between 26th October and 6th November.
+The start date will be agreed with the successful candidate, as soon as possible after interviews.
+Application Details
+Applicants should submit a CV (of no more than 2 pages) as well as a Written Statement demonstrating skills, knowledge and experience in the following key areas:
+Human resource management and leading teams
+Strategic office management and operational delivery
+Effective communication between teams and senior management
+Building a positive workplace culture
+to
+apsana.begum.mp@parliament.uk
+with the subject line ‘Executive Office Manager 2026 – Full Name'
+Website
+:
+http://www.apsanabegum.com</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100319</guid>
+      <category>General</category>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Apsana Begum MP (Poplar and Limehouse)</dc:creator>
+    <polintel:location>London (Constituency Office)</polintel:location><polintel:closingDate>2026-10-14</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Caseworker</title>
+      <link>http://www.w4mpjobs.org/JobDetails.aspx?jobid=100323</link>
+      <description>Key responsibilities will include :
+- Deal with large numbers of standard queries, as well as assisting on more complex cases from members of the public by phone, email, social media, or face-to-face. Ongoing communication may be required.
+- Log all cases; monitor progress and ensure all identified actions are taken.
+- Gather relevant information to assist with resolving cases.
+- Draft responses to constituents.
+- Assist surgeries and other meetings and follow up as appropriate.
+- Ensure all enquiries are dealt with in a timely manner.
+- Critically analyse patterns of enquiries and articulate the findings in reports and communication with the MP and other staff members.
+- Manage and monitor casework enquiries received by social media.
+- Ensure records are kept and information managed confidentially in line with the data protection legislation.
+Desirable but not essential:
+Experience of working in an MP's office or other office environment
+Experience of using Caseworker.MP or another case management system
+There may be a requirement for the role holder to work outside of the normal working hours and travel for work occasionally. Applicants must be sympathetic to the aims and values of the Labour Party.
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See Members’ Staff Verification Office (MSVO) page for further info.
+Upon appointment you will be required to comply with the Baseline Personnel Security Standard, undertaken by the Members’ Staff Verification Office (MSVO). See
+Members’ Staff Verification Office (MSVO)
+page for further info. MPs generally pay staff in accordance with
+IPSA guidelines
+.
+Closing Date
+: 13 October 2026
+Interview/Start Dates
+Interviews will be scheduled from the 16th October. Start date will be as soon as practicable and dependent upon security clearance.
+Application Details
+Please send your CV and a one page covering letter setting out how your skills, experience and values match the role by email to
+sarah.jones.mp@parliament
+.uk
+Website
+:
+https://sarah-jones.org/</description>
+      <guid isPermaLink="false">http://www.w4mpjobs.org/JobDetails.aspx?jobid=100323</guid>
+      <category>General</category>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Sarah Jones MP (Croydon West)</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-13</polintel:closingDate><polintel:descriptionSource>structured</polintel:descriptionSource></item>
+    <item>
+      <title>Postdoctoral Research Fellow</title>
+      <link>https://www.jobs.ac.uk/job/DSZ903/postdoctoral-research-fellow</link>
+      <description>The German Institute for Global and Area Studies (GIGA) / Leibniz-Institut für Globale und Regionale Studien is an independent social-science research institute based in Hamburg. It analyses political, social and economic developments in Africa, Asia, Latin America and the Middle East, and links this knowledge to questions of global significance. It combines region-specific analysis with innovative comparative research on accountability and participation, peace and security, globalisation and development, and global orders and foreign policies. The GIGA seeks to appoint a
+Postdoctoral Research Fellow (m/f/d) Middle East and North Africa (MENA): Peace and Conflict Studies/ International Relations/ Comparative Politics or International Political
+Economy
+Applications are invited for a full-time position, with an initial contract of three years and the possibility of another three years after successful evaluation and depending on the availabil­ity of funds. The successful applicant should start as soon as possible. The position is de­signed for further professional qualification as defined in § 2 WissZeitVG (Academic Fixed-Term Contract Act). The salary is commensurate with EG 13 TV-AVH / TVöD.
+The successful candidate will work on key questions and challenges in Peace and Conflict Studies, International Relations, Comparative Politics or International Political Economy with a focus on the Middle East and North Africa (MENA). Potential research areas include but are not limited to the comparative study of conflicts, weaponized interdependence and changing phenomena of warfare, autocratization and democratisation, domestic politics and/or institutions, international political economy, energy economics, regional governance and foreign policy analysis, questions of misinformation and repression, and the political challenges arising from digitalization. We expect the candidate to outline a corresponding re­search agenda.
+The successful candidate will become member of the GIGA Institute for Middle East Studies (IMES) and at least one of GIGA’s four cross-regional GIGA Research Programmes (RPs): Accountability and Participation (RP1), Peace and Security (RP2) Globalisation and Develop­ment (RP 3) or Global Orders and Foreign Policies (RP 4).
+The candidate is expected to conduct excellent research with real world relevance and, ac­cordingly, to participate in knowledge exchange and outreach activities (media engagement, policy advisory activities). There are no teaching obligations for this position, but it will be possible to teach at one of GIGA’s partner universities.
+Mandatory qualifications:
+A very good doctoral degree (or submitted PhD thesis) in Social Sciences (Political Science, International Relations, Sociology, or Economics and related Disciplines) or History
+Emerging track record of publications in high-ranking journals and university presses
+Strong command of qualitative and/or quantitative comparative methods
+Field work experience in the MENA
+Fluency in English
+Fluency in at least one language of the region (e.g. Arabic, Farsi, Hebrew, Turkish, Kurdish)
+Desired qualifications:
+Emerging track record of attracting competitive third-party funding
+Focus on Egypt, Iraq, Iran, or the Gulf region
+Knowledge of German or willingness to learn it
+Experience with policy exchange and knowledge transfer activities
+Part-time options will be considered, if so desired by the successful candidate. Diversity and the reconciliation of work and family life are of great importance to the institute. The GIGA promotes the equality of all genders. Additionally, we actively encourage applications from persons with disabilities.
+Please visit our
+Careers page
+and complete the application form, including uploading rele­vant supporting documents (short cover letter, CV, list of publications, research outline, other credentials/diplomas/certificates, e-mail addresses of two references) as separate files. We only accept applications submitted via this form.
+Screening of applications will begin on 15 October 2026.
+For further information, please visit the GIGA homepage
+(
+https://www.giga-hamburg.de/en
+)
+or contact Prof. Dr. Eckart Woertz (email:
+eckart.woertz@giga-hamburg.de
+)
+.
+GIGA Institute for Middle East Studies
+Neuer Jungfernstieg 21, 20354 Hamburg, Germany</description>
+      <guid isPermaLink="false">https://www.jobs.ac.uk/job/DSZ903/postdoctoral-research-fellow</guid>
+      <category>General</category>
+      <dc:creator>German Institute for Global and Area Studies (GIGA)</dc:creator>
+    <polintel:location>Hamburg</polintel:location><polintel:closingDate>2026-10-15</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>
