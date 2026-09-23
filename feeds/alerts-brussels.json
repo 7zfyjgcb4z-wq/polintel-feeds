@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:43:02Z",
+  "generated_at": "2026-09-23T12:50:00Z",
   "country": "brussels",
   "alerts": [
     {
@@ -7,8 +7,8 @@
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 9,
-      "message": "International IDEA returned 0 jobs (was 1) for 9 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 10,
+      "message": "International IDEA returned 0 jobs (was 1) for 10 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {
