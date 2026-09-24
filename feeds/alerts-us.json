@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-23T19:25:04Z",
+  "generated_at": "2026-09-24T19:46:42Z",
   "country": "us",
   "alerts": [
     {
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 149,
-      "message": "House Employment Bulletin upstream data source has not been updated in 149 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+      "upstream_days_since_update": 150,
+      "message": "House Employment Bulletin upstream data source has not been updated in 150 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
     },
     {
-      "source": "Roosevelt Institute",
+      "source": "Foundation List",
       "type": "zero_result_after_success",
-      "previous_count": 6,
+      "previous_count": 50,
       "current_count": 0,
-      "consecutive_zeros": 8,
-      "message": "Roosevelt Institute returned 0 jobs (was 6) for 8 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 1,
+      "message": "Foundation List returned 0 jobs after previously returning 50. May be broken selector, site redesign, or no current vacancies."
     }
   ],
   "_tracking": {
