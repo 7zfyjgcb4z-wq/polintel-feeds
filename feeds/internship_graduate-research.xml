@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 14:30:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 14:30:03 +0000</lastBuildDate>
     <item>
       <title>Management Trainee - Innovation, Mumbai</title>
       <link>https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/602</link>
@@ -216,5 +216,14 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Ipsos</dc:creator>
     <polintel:location>Toronto, ON, Canada</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Marcom and Marketing Intern</title>
+      <link>https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/9697</link>
+      <description>Marcom and Marketing Intern</description>
+      <guid isPermaLink="false">https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/IpsosCareers/job/9697</guid>
+      <category>Research &amp; Polling</category>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Ipsos</dc:creator>
+    <polintel:location>Singapore</polintel:location><polintel:closingDate>2026-10-24</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>

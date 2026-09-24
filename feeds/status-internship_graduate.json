@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-23T14:30:11Z",
+  "last_run": "2026-09-24T14:30:03Z",
   "country": "internship_graduate",
   "total_active_jobs": 32,
   "new_jobs_found": 32,
@@ -8,7 +8,7 @@
   "sources_failed": 0,
   "sources_disabled": 14,
   "relevance_filtered": 0,
-  "descriptions_enriched": 7,
+  "descriptions_enriched": 6,
   "feeds_generated": 7,
   "run_duration_seconds": 74.7,
   "failed_sources": [],
@@ -17,10 +17,10 @@
       "name": "Ipsos Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 23,
-      "jobs_after_relevance_filter": 23,
+      "jobs_found": 24,
+      "jobs_after_relevance_filter": 24,
       "descriptions_enriched": 0,
-      "duration_seconds": 52.5,
+      "duration_seconds": 52.9,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -30,16 +30,16 @@
       "jobs_found": 2,
       "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 8.0,
+      "duration_seconds": 7.9,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
       "name": "PubAffairs Networking Jobs",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 7,
-      "jobs_after_relevance_filter": 7,
-      "descriptions_enriched": 7,
+      "jobs_found": 6,
+      "jobs_after_relevance_filter": 6,
+      "descriptions_enriched": 6,
       "duration_seconds": 0.7
     }
   ]
