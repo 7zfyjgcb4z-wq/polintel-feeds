@@ -1,16 +1,7 @@
 {
-  "generated_at": "2026-09-24T12:48:10Z",
+  "generated_at": "2026-09-25T12:51:39Z",
   "country": "brussels",
-  "alerts": [
-    {
-      "source": "International IDEA",
-      "type": "zero_result_after_success",
-      "previous_count": 1,
-      "current_count": 0,
-      "consecutive_zeros": 11,
-      "message": "International IDEA returned 0 jobs (was 1) for 11 consecutive run(s). Review selector or check for vacancies."
-    }
-  ],
+  "alerts": [],
   "_tracking": {
     "consecutive_failures": {
       "EuroBrussels": 0,
