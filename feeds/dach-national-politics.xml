@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 16:31:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 16:34:20 +0000</lastBuildDate>
     <item>
       <title>109 Politik-Jobs aus über 1.000 Datenquellen</title>
       <link>https://parlamentjobs.de/plus/plan-auswahl/</link>
@@ -223,54 +223,164 @@ E-Mail senden</description>
       <dc:creator>CSU-Landesleitung</dc:creator>
     <polintel:location>München</polintel:location><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
     <item>
-      <title>Fachreferent*in für Umwelt, Klima und Energie (m/w/d)</title>
-      <link>https://parlamentjobs.de/job/fachreferentin-fuer-umwelt-klima-und-energie-m-w-d/</link>
-      <description>Die Fraktion BÜNDNIS 90/DIE GRÜNEN in der Bremischen Bürgerschaft sucht zum 15. Oktober 2026 eine*n
-Fachreferent*in für Umwelt, Klima und Energie (m/w/d)
-Für die fachliche und strategische Begleitung der parlamentarischen Arbeit unserer Bürgerschaftsfraktion suchen wir Verstärkung in den Bereichen Umwelt-, Klima- und Energiepolitik.
-Es handelt sich um eine Vollzeitstelle mit 39,2 Wochenstunden. Eine Beschäftigung in Teilzeit ist möglich. Das Beschäftigungsverhältnis ist zunächst für die Dauer eines Jahres bis zum 14. Oktober 2027 befristet. Arbeitsort ist Bremen; anteiliges mobiles Arbeiten ist nach Absprache möglich.
-Zu den Aufgaben gehören insbesondere:
-fachliche und strategische Beratung der Fraktion und der zuständigen Abgeordneten in den Bereichen Umwelt, Klima und Energie
-Erarbeitung parlamentarischer Initiativen, insbesondere von Anträgen sowie Kleinen und Großen Anfragen
-Vorbereitung von Positionspapieren
-Beobachtung, Analyse und Bewertung aktueller politischer, wissenschaftlicher und rechtlicher Entwicklungen
-fachliche Begleitung der zuständigen Ausschüsse und Deputationen sowie Vor- und Nachbereitung der Sitzungen
-Auswertung von Vorlagen, Berichten, Gesetzentwürfen
-Weiterentwicklung grüner Positionen insbesondere zu Klimaschutz, Klimaanpassung, Energiewende, erneuerbaren Energien, Natur- und Artenschutz, Kreislaufwirtschaft und gesundheitlichem Umweltschutz
-Vorbereitung und Begleitung von Fachgesprächen, Anhörungen, Veranstaltungen und parlamentarischen Terminen
-Austausch mit Verbänden, Initiativen, Wissenschaft, Verwaltung, Unternehmen und weiteren gesellschaftlichen Akteur*innen
-Zusammenarbeit mit der Pressestelle bei der öffentlichkeitswirksamen Aufbereitung fachpolitischer Themen
-enge Abstimmung mit den Abgeordneten und Mitarbeitenden der Fraktion
-Wir erwarten:
-Kenntnisse in einem oder mehreren der genannten umwelt-, klima- und energiepolitischen Themenfelder
-die Fähigkeit, komplexe Sachverhalte zügig zu erfassen, zu bewerten und verständlich aufzubereiten
-sehr gute schriftliche und mündliche Ausdrucksfähigkeit sowie Freude am Verfassen politischer Texte
-ein abgeschlossenes Hochschulstudium in einem relevanten Bereich oder eine vergleichbare berufliche Qualifikation
-Interesse an tagesaktueller Politik und Identifikation mit den Zielen und Werten von BÜNDNIS 90/DIE GRÜNEN
-einen selbstständigen, strukturierten und zuverlässigen Arbeitsstil, Teamfähigkeit und politisches Urteilsvermögen
-Erfahrungen im politischen oder parlamentarischen Umfeld und Kenntnisse der bremischen Landespolitik sind von Vorteil, aber keine Voraussetzung. Nicht alle genannten Kenntnisse müssen bereits in gleicher Tiefe vorhanden sein. Wichtig sind fachpolitisches Interesse, eine schnelle Auffassungsgabe und die Bereitschaft, sich in neue Themen einzuarbeiten.
-Wir bieten:
-eine Vergütung in Anlehnung an den TV-L, Entgeltgruppe 12
-flexible Arbeitszeiten und die Möglichkeit zum anteiligen mobilen Arbeiten
-einen abwechslungsreichen und verantwortungsvollen Aufgabenbereich mit großem Gestaltungsspielraum
-einen Arbeitsplatz im Herzen der Bremer Landespolitik mit unmittelbaren Einblicken in die parlamentarische Arbeit und der Möglichkeit, grüne Politik fachlich mitzugestalten
-ein motiviertes, kompetentes und hilfsbereites Team mit flachen Hierarchien und einem engen fachlichen Austausch mit Kolleg*innen und Abgeordneten
-Als Grünen-Fraktion fördern wir Vielfalt. Wir freuen uns über Bewerbungen von Menschen unabhängig von Geschlecht und geschlechtlicher Identität, Nationalität, ethnischer und sozialer Herkunft, Religion oder Weltanschauung, Behinderung, Alter oder sexueller Identität.
-Insbesondere möchten wir Frauen, trans*, inter* und nichtbinäre Menschen sowie Menschen mit Behinderungen zur Bewerbung ermutigen.
-Bewerbungen:
-Bitte senden Sie uns
-ein aussagekräftiges Anschreiben,
-Ihren Lebenslauf,
-relevante Zeugnisse
-zusammengefasst in einem PDF-Dokument ausschließlich per E-Mail bis zum 24. September 2026 an unseren Fraktionsgeschäftsführer Christopher Kulmann:
-christopher.kulmann@gruene-bremen.de
-Da die Geschlechtsidentität einer Person nicht zuverlässig aus ihrem Namen abgeleitet werden kann, können Sie uns gerne mitteilen, mit welchen Pronomen Sie angesprochen werden möchten.
-Wir weisen darauf hin, dass Ihre Bewerbungsunterlagen für die Durchführung des Bewerbungsverfahrens gespeichert werden. Nach dessen Abschluss werden Ihre Daten gelöscht. Ihre Unterlagen werden nur an Personen innerhalb der Fraktion BÜNDNIS 90/DIE GRÜNEN in der Bremischen Bürgerschaft weitergegeben, die an diesem Bewerbungsverfahren beteiligt sind. Sie können sich jederzeit bei uns melden und Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung der über Sie gespeicherten Daten verlangen.
+      <title>Ausbildung zur Kauffrau/zum Kaufmann für Büromanagement (m/w/d)</title>
+      <link>https://parlamentjobs.de/job/ausbildung-zur-kauffrau-zum-kaufmann-fuer-bueromanagement-m-w-d/</link>
+      <description>Ausbildung zur Kauffrau/zum Kaufmann für Büromanagement (m/w/d)
+Du möchtest wissen, wie eine große Organisation funktioniert, Verantwortung übernehmen und gleichzeitig eine fundierte kaufmännische Ausbildung absolvieren? Du möchtest Büromanagement nicht nur in der Theorie, sondern mitten im Arbeitsalltag der größten europäischen Volkspartei lernen? Dann bist du bei uns genau richtig!
+Starte deine Ausbildung am
+1. Februar 2027 in Berlin
+, im Konrad-Adenauer-Haus, der Bundesgeschäftsstelle der CDU Deutschlands!
+Das erwartet dich:
+Während deiner dreijährigen Ausbildung lernst du unterschiedliche Bereiche unserer Bundesgeschäftsstelle kennen. Dabei übernimmst du Schritt für Schritt eigene Aufgaben und bekommst einen umfassenden Einblick in kaufmännische und organisatorische Abläufe.
+Du lernst unter anderem,
+Büroprozesse und kaufmännische Aufgaben zu organisieren und zu koordinieren,
+Termine, Besprechungen und Veranstaltungen vor- und nachzubereiten,
+professionell mit internen und externen Ansprechpartnern zu kommunizieren,
+Schriftverkehr und Anfragen zu bearbeiten,
+Informationen zu recherchieren und aufzubereiten,
+Daten und Dokumente strukturiert und digital zu verwalten,
+Rechnungen, Bestellungen und kaufmännische Vorgänge zu bearbeiten,
+mit modernen Büro- und Kommunikationstools sicher zu arbeiten,
+parteipolitische Prozesse und Zusammenhänge zu verstehen,
+mit unterschiedlichen Teams zusammenzuarbeiten.
+Das bringst du mit:
+Für uns zählt nicht nur dein Zeugnis. Wichtig ist für uns, dass du neugierig und offen bist, gerne lernst und Lust hast, dich einzubringen.
+Du passt zu uns, wenn du
+Interesse an Politik, Gesellschaft und Verwaltung hast,
+einen guten Schulabschluss mitbringst,
+dich für kaufmännische und organisatorische Zusammenhänge interessierst,
+gerne mit Menschen arbeitest und kommunizierst,
+dich schriftlich und mündlich gut ausdrücken kannst,
+sorgfältig, zuverlässig und strukturiert arbeitest,
+Verantwortung übernehmen und dich persönlich weiterentwickeln möchtest.
+Das bieten wir dir:
+eine qualifizierte dreijährige Ausbildung mit abwechslungsreichen Einsatzbereichen,
+feste Ansprechpersonen für deine Ausbildung,
+eigenständige Aufgaben und echte Einblicke in unsere Arbeit,
+Unterstützung bei der Vorbereitung auf deine Prüfungen,
+eine attraktive Ausbildungsvergütung sowie ein Deutschlandticket,
+30 Urlaubstage,
+Weiterbildungsangebote, flexible Arbeitszeiten und einen Zuschuss zum Mittagessen in unserer Kantine.
+Klingt das nach einem Ausbildungsplatz, der zu dir passt?
+Dann bewirb dich mit deinem Lebenslauf, deinen letzten Schulzeugnissen und einem Motivationsschreiben bis zum 31. Dezember 2026 per E-Mail an:
+ausbildung@cdu.de
+.
+Wir freuen uns sehr darauf, dich kennenzulernen!
 E-Mail senden</description>
-      <guid isPermaLink="false">https://parlamentjobs.de/job/fachreferentin-fuer-umwelt-klima-und-energie-m-w-d/</guid>
+      <guid isPermaLink="false">https://parlamentjobs.de/job/ausbildung-zur-kauffrau-zum-kaufmann-fuer-bueromanagement-m-w-d/</guid>
       <category>National Politics</category>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Fraktion BÜNDNIS 90/DIE GRÜNEN in der Bremischen Bürgerschaft</dc:creator>
-    <polintel:location>Bremen</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>CDU Deutschland</dc:creator>
+    <polintel:location>Berlin</polintel:location><polintel:closingDate>2026-12-31</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Pressereferent:in / Referent:in Kommunikation (m/w/d)</title>
+      <link>https://parlamentjobs.de/job/pressereferentin-referentin-kommunikation-m-w-d/</link>
+      <description>Wir sind ein unabhängiger unternehmerischer Berufsverband, der die wirtschaftspolitischen Belange kleiner Unternehmen, des Mittelstandes sowie großer, auch international tätiger Unternehmen vertritt. Bei uns engagieren sich Unternehmerinnen und Unternehmer, Führungskräfte, Selbständige und Freiberuflerinnen und Freiberufler. Uns verbindet die Überzeugung, dass wirtschaftliches Handeln dem Gemeinwohl, dem gesellschaftlichen Zusammenhalt und einer zukunftsfähigen Wirtschaftsordnung verpflichtet ist. Zur Verstärkung unserer Geschäftsstelle suchen wir zum 01. Januar 2027 (oder früher) eine/n
+PRESSEREFERENT:IN / REFERENT:IN KOMMUNIKATION (M/W/D)
+mit Schwerpunkt Newsroom und Redaktion Verbandskommunikation
+Arbeitszeit:
+Vollzeit (unbefristeter Job), Teilzeit möglich
+Arbeitsort:
+Berlin, Regierungsviertel
+Arbeitsmodell:
+Flexible Arbeitszeiten und mobiles Arbeiten nach Vereinbarung
+Vergütung:
+Jahresbruttofixentgelt im Rahmen von 65.000 bis 79.000 Euro, abhängig von einschlägiger Qualifikation, Berufserfahrung, redaktioneller Verantwortung und Erfahrung in der Steuerung von Kommunikationsprozessen. Zusätzlich bieten wir ein Fortbildungsbudget sowie weitere betriebliche Zusatzleistungen.
+Das bieten wir Ihnen:
+Eine verantwortungsvolle Tätigkeit an der Schnittstelle von Wirtschaft, Politik, Medien und Öffentlichkeit.
+Die Möglichkeit, die Presse- und Öffentlichkeitsarbeit eines wirtschaftspolitischen Verbandes redaktionell und strategisch weiterzuentwickeln.
+Eine zentrale Rolle in der Planung, Steuerung und Qualitätssicherung unserer Contentproduktion und Contentveröffentlichung.
+Ein engagiertes Team mit kurzen Entscheidungswegen, klaren Zielen und wertschätzender Zusammenarbeit.
+Einen modernen Arbeitsplatz in zentraler Lage im Berliner Regierungsviertel.
+Flexible Arbeitszeiten und Möglichkeiten zum mobilen Arbeiten.
+Eine transparente, faire Vergütung auf Grundlage objektiver Kriterien wie Qualifikation, einschlägiger Erfahrung, redaktioneller Verantwortung, Kommunikationskompetenz und strategischer Steuerungsfähigkeit.
+Ihre Aufgaben:
+Sie verantworten die redaktionelle Gesamtkoordination unserer Kommunikationsinhalte über Presse, Website, Newsletter, Social Media, Veranstaltungen und weitere Medienkanäle hinweg.
+Sie übernehmen die Funktion eines Chefs vom Dienst für die laufende Contentproduktion: Themenplanung, Priorisierung, Abstimmung, Freigabeprozesse und termingerechte Veröffentlichung.
+Sie entwickeln redaktionelle Linien, Themenpläne und Formate für wirtschafts- und gesellschaftspolitische Kommunikation.
+Sie verfassen, redigieren und qualitätssichern Pressemitteilungen, Statements, Namensbeiträge, Reden, Newsletter, Social-Media-Beiträge, Webtexte, Briefings und Hintergrundpapiere.
+Sie beobachten Medien, politische Debatten und wirtschaftspolitische Entwicklungen und leiten daraus relevante Kommunikationsanlässe ab.
+Sie betreuen Medienkontakte, beantworten Presseanfragen und bereiten Interviews, Hintergrundgespräche und öffentliche Auftritte vor.
+Sie steuern die redaktionelle Bespielung unserer digitalen Kanäle und entwickeln insbesondere unsere Social-Media-Kommunikation strategisch weiter.
+Sie sorgen für eine konsistente Tonalität, klare Botschaften und ein einheitliches Qualitätsniveau aller Veröffentlichungen.
+Sie sind kontinuierlich inhaltlich mit dem Team der Geschäftsstelle koordiniert.
+Sie arbeiten eng mit Verbandsleitung, Fachbereichen und ggf. externen Dienstleistern zusammen.
+Das bringen Sie mit:
+Ein erfolgreich abgeschlossenes Hochschulstudium, vorzugsweise in Kommunikations-, Medien-, Politik-, Wirtschafts-, Sozial- oder Geisteswissenschaften oder eine vergleichbare Qualifikation.
+Einschlägige Berufserfahrung in Pressearbeit, Journalismus, politischer Kommunikation, Verbandskommunikation, Unternehmenskommunikation oder Social Media sowie Affinität zu unseren Verbandszielen.
+Erfahrung bzw. Kenntnisse in redaktioneller Planung, Newsroom-Strukturen, CvD-Funktion, Themensteuerung oder kanalübergreifender Contentproduktion.
+Ausgezeichnete Schreib- und Redigierkompetenz in deutscher Sprache sowie ein sicheres Gespür für Zielgruppen, Tonalität, Timing und politische Sensibilität.
+Sehr gutes Verständnis wirtschafts- und gesellschaftspolitischer Zusammenhänge.
+Erfahrung im Umgang mit Journalistinnen und Journalisten, Medienanfragen, Presseverteilern und Monitoring-Tools.
+Sicherer Umgang mit digitalen Kommunikationskanälen, Content-Management-Systemen, Newsletter-Tools und Social-Media-Plattformen.
+Fähigkeit, komplexe Sachverhalte schnell zu erfassen und verständlich, prägnant und adressatengerecht aufzubereiten.
+Organisationsstärke, Priorisierungsfähigkeit, Verlässlichkeit und Freude an schneller, präziser redaktioneller Arbeit.
+Sehr gute Englischkenntnisse sind von Vorteil.
+Ihre Bewerbung
+Bitte senden Sie Ihre aussagekräftigen Bewerbungsunterlagen bis zum
+31. Oktober 2026
+ausschließlich per E-Mail an:
+bewerbung@spd-wirtschaftsforum.de
+Bitte fassen Sie Ihre Unterlagen in
+einem PDF-Dokument
+zusammen. Papierbewerbungen können nicht berücksichtigt und nicht zurückgesandt werden. Aussagekräftige Arbeitsproben, z.B. Pressemitteilungen, redaktionelle Texte, Social-Media-Beispiele oder Kampagnenbeispiele, können gern beigefügt oder verlinkt werden.
+Bitte verzichten Sie auf Angaben zu Ihrer bisherigen Vergütung. Eine Gehaltsvorstellung ist nicht erforderlich, da die vorgesehene Entgeltspanne für die Position in dieser Ausschreibung angegeben ist.
+Für Rückfragen steht Ihnen unsere Geschäftsstelle telefonisch unter 030 / 400 40 660 zur Verfügung.
+E-Mail senden</description>
+      <guid isPermaLink="false">https://parlamentjobs.de/job/pressereferentin-referentin-kommunikation-m-w-d/</guid>
+      <category>National Politics</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Wirtschaftsforum der SPD e.V.</dc:creator>
+    <polintel:location>Berlin</polintel:location><polintel:closingDate>2026-10-31</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Fachreferent*in für Verteidigungspolitik (m/w/d)</title>
+      <link>https://parlamentjobs.de/job/fachreferentin-fuer-verteidigungspolitik-m-w-d-2/</link>
+      <description>Die Fraktion Die Linke im Bundestag sucht zum nächstmöglichen Termin am
+Dienstort Berlin
+eine*n
+Fachreferent*in für Verteidigungspolitik
+in Vollzeit (39 Wochenstunden).
+Beschreibung der Aufgaben:
+die Erarbeitung von Analysen, Positionsbestimmungen, Stellungnahmen und Konzepten in den Themenfeldern Verteidigungspolitik
+die selbständige Entwicklung neuer und die Analyse vorliegender parlamentarischer Initiativen
+die Vor- und Nachbereitung sowie Teilnahme an Sitzungen des Verteidigungsausschuss
+die Teilnahme an und Mitwirkung in Arbeitskreissitzungen
+die inhaltliche Vorbereitung, Teilnahme an und Mitwirkung in Sitzungen der Fach-Arbeitsgruppensitzungen
+die Erledigung von Korrespondenz für die Fraktion
+Zuarbeiten für Presseerklärungen der Fraktion, zu fachpolitischen Reden und fachpolitischen Vorträgen der Fraktion bzw. der fachpolitischen Sprecher*in
+die inhaltliche Vorbereitung und Auswertung von Arbeitstagungen/Fachveranstaltungen der Fraktion
+die Zusammenarbeit mit Fachkolleg*innen der Landtagsfraktionen und der EU-Fraktion der Linken
+Herstellung und Aufrechterhaltung von Arbeitskontakten zu fachspezifischen Medienvertreter*innen, wissenschaftlichen Einrichtungen und außerparlamentarischen Initiativen
+eigenständige Referentinnen- und Publikationstätigkeiten sowie andere Öffentlichkeitsarbeit
+die eigenständige Weiterbildung im Fachgebiet
+Wir erwarten:
+einen wissenschaftlichen Hochschulabschluss, vorzugsweise in einem einschlägigen Fachgebiet, bzw. gleichwertige Fachkenntnisse
+Berufserfahrungen im Fachgebiet sowie Kenntnisse der parlamentarischen Abläufe sind von Vorteil
+sehr gute Kenntnisse der aktuellen politischen und wissenschaftlichen Fachdebatte
+die Fähigkeit zu analytischer und konzeptioneller Arbeit
+sicheren Umgang mit modernen Kommunikationstechniken
+einen kommunikativen und teamorientierten Arbeitsstil, gute rhetorische Fähigkeiten
+die Bereitschaft und Fähigkeit zum gemeinsamen Handeln mit außerparlamentarischen Bewegungen
+die Bereitschaft und Fähigkeit zu einer eigenständigen Vortrags-, Publikations- und Öffentlichkeitsarbeit
+die Bereitschaft zu flexibler Arbeitszeitgestaltung, hohe Eigenmotivation, Eigeninitiative und Eigenverantwortung
+die Bereitschaft, eine erweiterte Sicherheitsüberprüfung (SÜ2) zu beantragen
+Eine Identifikation mit den politischen Zielen der Fraktion „Die Linke im Bundestag“ wird vorausgesetzt.
+Geboten werden:
+ein befristetes Beschäftigungsverhältnis für die Dauer der 21. Wahlperiode;
+eine Vollzeitstelle mit regelmäßiger Wochenarbeitszeit von 39 Wochenstunden;
+Vergütung in Anlehnung an den TVöD/Bund (vergleichbar mit EG 13).
+Die Linke im Bundestag gewährleistet die berufliche Gleichstellung von Frauen und Männern und ist bestrebt, den Frauenanteil unter den Beschäftigten zu erhöhen. Bewerbungen von Frauen sind daher ausdrücklich erwünscht. Des Weiteren möchte Die Linke im Bundestag Interessentinnen und Interessenten mit Migrationshintergrund besonders zur Bewerbung ermutigen.
+Die Linke im Bundestag sieht sich der Gleichstellung von Menschen mit Behinderungen in besonderer Weise verpflichtet und begrüßt deshalb Bewerbungen von Menschen mit Behinderungen. Diese Bewerberinnen und Bewerber werden nach Maßgabe des SGB IX bei gleicher Eignung, Befähigung und fachlicher Leistung bevorzugt berücksichtigt.
+Reichen Sie bitte aussagekräftige Bewerbungen bis zum
+14.10.2026 ausschließlich
+über unser
+Bewerbungsportal
+ein.
+Jetzt bewerben</description>
+      <guid isPermaLink="false">https://parlamentjobs.de/job/fachreferentin-fuer-verteidigungspolitik-m-w-d-2/</guid>
+      <category>National Politics</category>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Fraktion Die Linke im Bundestag</dc:creator>
+    <polintel:location>Berlin</polintel:location><polintel:closingDate>2026-10-14</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>
