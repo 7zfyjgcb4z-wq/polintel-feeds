@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 09:47:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 10:05:52 +0000</lastBuildDate>
     <item>
       <title>Tax Manager in FINANCIAL REPORTING &amp; CONTROL</title>
       <link>https://eoff.fa.em1.ukg.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2229</link>
@@ -18,14 +18,6 @@
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Bank of England</dc:creator>
     <polintel:location>London, United Kingdom</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Data Engineer</title>
-      <link>https://nao.my.site.com/xcdrecruit__Site_ExternalPositionDetails?id=aJmQ40000000AFVKA2</link>
-      <description>Job description Data Engineer Location: London or Newcastle with a minimum 2 days a week office attendance Contract Type: Permanent Full Time Salary: London c£70,000 Newcastle £61,250 plus civil service employer pension employer contribution of 28.9% The deadline for applications is 5.00pm Sunday 5th July. We will be holding first stage online interviews WC 6th July followed bu a final 2nd stage interviews on the 14th and 15th July. Nationality Requirement: • UK Nationals • Nationals of Commonwealth countries who have the right to work in the UK • Nationals from the EU, EEA or Switzerland with (or eligible for) status under the European Union Settlement Scheme (EUSS) Please be aware that we do not provide sponsorship for work visas for this position. Applicants must already meet the nationality requirements outlined above. If you have any questions regarding your eligibility, please contact the HR Service desk ( HRServiceDesk@nao.org.uk ) should you have any questions on your nationality eligibility. About the National Audit Office The National Audit Office (NAO) is the UK’s main public sector audit body. Independent of government, we have responsibility for auditing the accounts of various public sector bodies, examining the propriety of government spending, assessing risks to financial control and accountability, and reviewing the economy, efficiency and effectiveness of programmes, projects, and activities. We report directly to Parliament, through the Committee of Public Accounts of the House of Commons which uses our reports as the basis of its own investigations. We employ approx. 1,000 people, most of whom are qualified accountants, trainees, or technicians. The organisation comprises two service lines: financial audit, and value for money (VFM) audit and has a strong core of highly talented corporate teams. The NAO welcomes applications from everyone. We value diversity in all its forms and the difference it makes to our organisation. By removing barriers and creating an inclusive culture all our people can develop and maximise their full potential. As members of the Business Disability Forum and the Disability Confident Scheme we guarantee to interview all disabled applicants who meet the minimum criteria. The NAO supports flexible working and is happy to discuss this with you at application stage. Context and main purpose of the job: Introduction: This is a new vacancy created within NAO’s Digital Services (DS) to expand the data team within the Audit Technology &amp; Data pillar, with responsibility for designing, building, and maintaining the infrastructure that enables robust data ingestion process, storage, and access across the organization. This role supports the development and continual improvement of NAO data &amp; technology service composition and provision, enabling scalable and reliable data solutions. In this capacity, you will build and optimize data pipelines, integrate diverse data sources, and ensure the efficient movement of data across systems. You will work closely with analytics engineers, data scientists, and other stakeholders to ensure data is accessible, high-quality, and fit for purpose. Your work will underpin the NAO’s ability to derive insights and automate processes using corporate and client data. In this role, you will: • Design, develop, and maintain scalable data pipelines and ETL processes. • Integrate structured and unstructured data from internal and external sources. • Ensure data quality, consistency, and security across systems aligning with the NAO’s data strategy. • Collaborate with analytics engineers and subject matter experts to support data modelling and transformation. • Work closely with the other digital roles including Cybersecurity, BI, Architecture to ensure effective delivery. • Monitor and optimize performance of data infrastructure • Test, monitor, and document data architecture and engineering processes to ensure transparency and maintainability. This role reports into the Audit Data Platform Lead This role requires regular attendance at the NAO’s office either in Victoria, London, or at the office in Newcastle. Responsibilities of the role: As a data engineer at the NAO, you will play a critical role in building and maintaining the technical foundation that enables data-driven operations and insights. You will be responsible for architecting and managing data infrastructure, ensuring that data flows securely and efficiently across systems, and enabling downstream users to access reliable, well-structured data. You will take ownership of the design and delivery of scalable cloud data pipelines, with a focus on Microsoft Azure-based solutions. Your key responsibilities will include: •Building scalable data infrastructure: Design and implement systems that support the ingestion, storage, and processing of large volumes of structured and unstructured data from internal and external sources. •Developing robust data pipelines: Create automated workflows that extract, transform, and load data into centralized platforms, ensuring consistency, reliability, and performance across all stages. •Designing and optimizing ETL processes: Build and maintain efficient ETL (Extract, Transform, Load) workflows to move data from source systems into usable formats. Ensure these processes are scalable, well-documented, and aligned with data quality standards. •Integrating diverse data sources: Connect and harmonize data from various systems (e.g., operational databases, APIs, cloud services) to create unified datasets for analysis and reporting. •Collaborating across teams: Work closely with analytics engineers, data scientists, and business stakeholders to understand data needs and deliver infrastructure that supports analytical and operational use cases. •Ensuring data reliability and performance: Monitor data systems for latency, failures, and bottlenecks. Implement performance tuning and system optimizations to maintain high availability and responsiveness. •Implementing data governance and security protocols: Apply best practices for data privacy, access control, and compliance. Ensure that sensitive data is protected and handled in accordance with regulatory requirements. •Maintaining technical documentation: Produce and update documentation for data architecture, pipeline configurations, and operational procedures to support transparency and continuity. •Troubleshooting and incident response: Investigate and resolve data-related issues, from pipeline failures to data integrity concerns. Establish proactive monitoring and alerting systems. •Supporting data accessibility: Enable self-service access to clean, well-organized data for analysts and other users through tools, APIs, or data platforms. •Keeping pace with technology: Stay informed about emerging tools, frameworks, and methodologies in data engineering. Continuously evaluate and adopt innovations that improve efficiency and scalability. Key skills / competencies required The skill sets listed also include the corresponding skill level (awareness, working, practitioner, expert): •Communicating between the technical and non-technical (Skill level: Awareness) You can explain why it's important to communicate technical concepts in non-technical language. You understand the types of communication used with internal and external stakeholders and their impact. •Data Analysis and Synthesis (Skill level: Working) You can undertake data profiling and source system analysis. You present clear insights to colleagues to support the end use of the data. •Data Development Process (Skill level: Working) You can design, build, and test data products based on feeds from multiple systems, using a range of storage technologies and access methods. You create repeatable and reusable products. •Data Innovation (Skill level: Awareness) You show awareness of opportunities for innovation with new tools and uses of data. •Data Integration Design (Skill level: Working) You deliver data solutions in accordance with agreed organisational standards that ensure services are resilient, scalable, and future-proof. •Data Modelling (Skill level: Working) You understand the concepts and principles of data modelling. You can produce, maintain, and update relevant data models and reverse-engineer models from live systems. •Metadata Management (Skill level: Working) You use metadata repositories to complete complex tasks such as data and systems integration impact analysis. You maintain metadata repositories to ensure accuracy and currency. •Problem Management (Skill level: Awareness) You investigate problems in systems, processes, and services, and contribute to the implementation of remedies and preventative measures. •Programming and Build (Data Engineering) (Skill level: Working) You can design, code, test, correct, and document simple programs or scripts under direction. You follow agreed standards and tools. •Technical Understanding (Skill level: Working) You understand core technical concepts related to the role and apply them with guidance. •Testing (Skill level: Working) You review requirements and specifications, define test conditions, identify issues and risks, and report test activities and results. Essential Criteria • Deep, hands-on experience as a cloud-based Data Engineer, ideally within Microsoft Azure environments. • Expert-level experience designing and delivering ETL/ELT pipelines at scale. • Strong experience in data modelling, including standardisation, best practice, and semantic layer design. • Advanced Python skills for data processing, optimisation, and automation. • Strong SQL expertise, including T-SQL and PostgreSQL. • Proven experience implementing and operating medallion architecture patterns. • Experience with cloud-native Azure data services, including: o Azure Databricks o Microsoft Fabric o Azure Data Factory • Demonstrable experience in pipeline performance tuning and optimisation. • Experience working closely wi</description>
-      <guid isPermaLink="false">https://nao.my.site.com/xcdrecruit__Site_ExternalPositionDetails?id=aJmQ40000000AFVKA2</guid>
-      <category>Government</category>
-      <dc:creator>National Audit Office</dc:creator>
-    <polintel:location>London or Newcastle with a minimum 2 days a week office attendance</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
     <item>
       <title>Executive Assistant</title>
       <link>https://nao.my.site.com/xcdrecruit__Site_ExternalPositionDetails?id=aJmQ40000000AVdKAM</link>
@@ -596,14 +588,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Ministry of Defence</dc:creator>
     <polintel:location>Fraser Building, HMS EXCELLENT, Whale Island, Portsmouth, PO2 8ER</polintel:location><polintel:closingDate>2026-09-30</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Delivery Manager</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012666</link>
-      <description>Role at Homes England in Birmingham, West Midlands (England), B1 2AX : Bristol, South West England, BS1 6EH : Longstanton, East of England, CB24 3EN : Liverpool, North West England, L3 1BP : Leeds, Yorkshire and the Humber, LS1 ... see the job advert for full location information. Salary: £39,933 to £46,573. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012666</guid>
-      <category>Government</category>
-      <dc:creator>Homes England</dc:creator>
-    <polintel:location>Birmingham, West Midlands (England), B1 2AX : Bristol, South West England, BS1 6EH : Longstanton, East of England, CB24 3EN : Liverpool, North West England, L3 1BP : Leeds, Yorkshire and the Humber, LS1 ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Nature Recovery Officer (Development Programme) (Ref: 6775)</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012709</link>
       <description>Role at Natural England in East of England, South East England. Salary: £28,910. Closing: 2026-10-05.</description>
@@ -803,30 +787,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>HM Prison &amp; Probation Service</dc:creator>
     <polintel:location>This position is based at HM PRISON COLDINGLEY WOKING, GU24 9EX</polintel:location><polintel:closingDate>2026-09-25</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Administration Officer, Yorkshire and the Humber Probation Service, Public Protection, Leeds, Full Time (Ref: 21767)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012834</link>
-      <description>Role at HM Prison &amp; Probation Service in This position is based at NPS WATERLOO HOUSE LEEDS, LS1 2EE. Salary: £28,064 to £33,549. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012834</guid>
-      <category>Government</category>
-      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
-    <polintel:location>This position is based at NPS WATERLOO HOUSE LEEDS, LS1 2EE</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>GIS Technician</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012668</link>
-      <description>Role at Forestry Commission in Grizedale, North West England, LA22 0QJ : Hexham, North East England, NE48 2HP. Salary: £30,105 to £30,105. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012668</guid>
-      <category>Government</category>
-      <dc:creator>Forestry Commission</dc:creator>
-    <polintel:location>Grizedale, North West England, LA22 0QJ : Hexham, North East England, NE48 2HP</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Lead Engineering Manager - Python</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012672</link>
-      <description>Role at Department for Business and Trade in Belfast, Birmingham, Cardiff, Darlington, Edinburgh, London, Manchester. Salary: £68,732 to £88,423. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012672</guid>
-      <category>Government</category>
-      <dc:creator>Department for Business and Trade</dc:creator>
-    <polintel:location>Belfast, Birmingham, Cardiff, Darlington, Edinburgh, London, Manchester</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Head of Service Operations and Assurance</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012676</link>
@@ -1036,14 +996,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Department for Environment, Food and Rural Affairs</dc:creator>
     <polintel:location>You can be based at any Environment Agency Hub office as the location is flexible</polintel:location><polintel:closingDate>2026-09-27</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Senior Finance Manager</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012861</link>
-      <description>Role at Ministry of Defence in This role can be based at Andover, Lichfield or Wyton.. Salary: £46,040. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012861</guid>
-      <category>Government</category>
-      <dc:creator>Ministry of Defence</dc:creator>
-    <polintel:location>This role can be based at Andover, Lichfield or Wyton.</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>SPI : Woodwork Wood Machinist (Ref: 22061)</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012889</link>
       <description>Role at HM Prison &amp; Probation Service in This position is based at HM PRISON GARTH - INDUSTRIES PRESTON, PR26 8NE. Salary: £34,440. Closing: 2026-10-16.</description>
@@ -1067,38 +1019,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>HM Prison &amp; Probation Service</dc:creator>
     <polintel:location>This position is based at HM PRISON BUCKLEY HALL ROCHDALE, OL12 9DP</polintel:location><polintel:closingDate>2026-09-25</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Crown Court Clerk (Ref: 21999)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012880</link>
-      <description>Role at HM Courts and Tribunals Service in This position is based at TAUNTON COMBINED TAUNTON, TA1 4EU. Salary: £29,303 to £31,061. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012880</guid>
-      <category>Government</category>
-      <dc:creator>HM Courts and Tribunals Service</dc:creator>
-    <polintel:location>This position is based at TAUNTON COMBINED TAUNTON, TA1 4EU</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Cyber Fraud Senior Analyst</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012877</link>
-      <description>Role at HM Revenue and Customs in Bristol Regional Centre - 3 Glass Wharf, Cardiff Regional Centre - Ty William Morgan, Edinburgh Regional Centre - Queen Elizabeth House, Leeds Regional Centre - Wellington Place, Newcastle Upon Tyne - Benton ... see the job advert for full location information. Salary: £45,544 to £55,157. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012877</guid>
-      <category>Government</category>
-      <dc:creator>HM Revenue and Customs</dc:creator>
-    <polintel:location>Bristol Regional Centre - 3 Glass Wharf, Cardiff Regional Centre - Ty William Morgan, Edinburgh Regional Centre - Queen Elizabeth House, Leeds Regional Centre - Wellington Place, Newcastle Upon Tyne - Benton ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Interventions Lead</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012898</link>
-      <description>Role at HM Revenue and Customs in Bristol Regional Centre - 3 Glass Wharf , Cardiff Regional Centre - Ty William Morgan, Leeds Regional Centre - Wellington Place, Manchester Regional Centre - Three New Bailey, Newcastle Upon Tyne - Benton ... see the job advert for full location information. Salary: £58,541 to £72,711. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012898</guid>
-      <category>Government</category>
-      <dc:creator>HM Revenue and Customs</dc:creator>
-    <polintel:location>Bristol Regional Centre - 3 Glass Wharf , Cardiff Regional Centre - Ty William Morgan, Leeds Regional Centre - Wellington Place, Manchester Regional Centre - Three New Bailey, Newcastle Upon Tyne - Benton ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>NAVY Command Travel and Transport Manager</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012874</link>
-      <description>Role at Ministry of Defence in NAVY Command Headquarters, Leach Building, HMS Excellent, Portsmouth, PO2 8BY. Salary: £37,720. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012874</guid>
-      <category>Government</category>
-      <dc:creator>Ministry of Defence</dc:creator>
-    <polintel:location>NAVY Command Headquarters, Leach Building, HMS Excellent, Portsmouth, PO2 8BY</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Notifications Support Officer</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012875</link>
@@ -1148,14 +1068,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Foreign, Commonwealth &amp; Development Office</dc:creator>
     <polintel:location>East Kilbride, Milton Keynes</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Infrastructure Engineer</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012892</link>
-      <description>Role at Office for National Statistics in The location for this role is Titchfield (Fareham).. Salary: £34,587 to £39,106. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012892</guid>
-      <category>Government</category>
-      <dc:creator>Office for National Statistics</dc:creator>
-    <polintel:location>The location for this role is Titchfield (Fareham).</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Head of Supplier Management Pillar</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012901</link>
       <description>Role at HM Revenue and Customs in Belfast, Birmingham, Bristol, Cardiff, Edinburgh, Glasgow, Leeds, Portsmouth, Telford, Worthing, Salford - Trinity Bridge House, 2 Dearmans Place, Salford, M3 5BS, Newcastle Upon Tyne.. Salary: £71,725 to £79,481. Closing: 2026-10-07.</description>
@@ -1180,14 +1092,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>UK Health Security Agency</dc:creator>
     <polintel:location>This role is being offered as hybrid working based at our Core HQ in South Colonnade. We offer great flexible working opportunities at UKHSA and operate using a hybrid working model where business needs ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>3936 - Economist - ADR Wales</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012904</link>
-      <description>Role at Welsh Government in Wales. Salary: £61,098 to £73,057. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012904</guid>
-      <category>Government</category>
-      <dc:creator>Welsh Government</dc:creator>
-    <polintel:location>Wales</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Head of Department: AI &amp; Technology Security Operations</title>
       <link>https://fca.wd3.myworkdayjobs.com/FCA_Careers/job/London/Head-of-Department--AI---Technology-Security-Operations_JR0022322-1</link>
       <description>The FCA has retained Global Resourcing to manage this role; send applications directly to Global Resourcing . About the FCA At the FCA, we’re creating a fair and more resilient financial system. We’re establishing more transparent relationships between financial services and customers, building trust in financial markets and protecting vulnerable consumers. We’re currently on an exciting journey as we drive forward significant organisational, people, process, and AI and technology transformation to become a more forward-thinking, proactive regulator. We will use data more effectively to drive better regulatory decisions and build greater cohesion across our broad financial services remit. Significant improvements in digital enablement, business intelligence, market data and information management maturity are all being pursued to maintain our position as a world leader in financial services regulation. In March 2025, the FCA launched a new 5-year strategy to deepen trust, rebalance risk, support growth and improve lives. The FCA will focus on four priorities: Be a smarter regulator; predictable, purposeful and proportionate. The FCA will improve its processes and embrace technology to become more efficient and effective. Support sustained economic growth, by enabling investment, innovation and ensuring the continued competitiveness of the UK’s world-leading financial services. Help consumers navigate their financial lives by working with industry to boost trust, product innovation and ensuring the right information and support is available for people to take financial decisions. Fight financial crime, focusing on those who seek to use the fact they are regulated to do harm. It will go further to disrupt criminals and support firms to be an effective line of defence. The Role We have an exciting opportunity for a permanent Head of AI &amp; Technology Security Operations. This role is designed for an experienced manager, senior technical specialist, or existing Head of Department with proven experience of leading teams and operating at scale in a rapidly evolving digital and AI-driven operating environment. The successful candidate will strengthen their strategic and operational leadership while overseeing high-tempo, service-critical digital and AI operations. The Head of AI &amp; Technology Security Operations is accountable for ensuring that the FCA’s technology estate — including rapidly expanding AI capabilities — is robust, secure, and able to withstand, detect, and recover from disruption, failure, or exploitation. The role brings together operational resilience, infrastructure governance, supplier oversight, and enterprise technology and AI-specific vulnerability management, ensuring that both traditional infrastructure and AI-enabled systems are designed, operated, and governed to remain safe, dependable, and trustworthy under stress. Working in close collaboration with C&amp;IR (Cyber and Information Resilience), this HoD plays a critical leadership role in implementing and managing the technology controls needed to anticipate and mitigate AI-driven risks, including model vulnerabilities, upstream dependency risks, data poisoning, adversarial attacks, and control failures arising from increased autonomy and scale. This role will be responsible for leading, motivating and directing the department (~70FTE) across London, Leeds, &amp; Edinburgh; and managing the FCA’s critical Digital and AI systems, including AI live service, Service Desk, Incident Management, Cyber Security Operations and Supplier Management. This is a fantastic development opportunity which will help to build expertise, experience and career skills in a senior, challenging and highly visible role. The role will be reporting to the Chief Information Officer, and sit in the wider Data, Technology, and Innovation Division. What will the candidate get from the role? As Head of AI &amp; Technology Security Operations, you will join the DTI senior leadership team at a pivotal moment in the FCA’s evolution, supporting its ambition to become a forward-thinking, AI-enabled and data-driven regulator. You will lead a skilled multidisciplinary department, working across high-impact digital and AI initiatives to strengthen technology and AI risk management, improve resilience and enable the safe adoption of emerging technologies. Collaborating closely with Cyber &amp; Information Resilience, DTI leadership, product teams and front-line divisions, you will play a key role in driving meaningful change and reinforcing the FCA’s reputation as a trusted, innovative regulator. Key responsibilities will include: Leading the development and operation of the FCA’s AI vulnerability and threat management capability, identifying and mitigating risks linked to AI model weaknesses, adversarial threats, automation and agentic AI systems. Establishing clear frameworks and controls for the safe deployment of AI, including human oversight, monitoring, explainability, version control, containment and safe shutdown mechanisms. Maintaining effective AI governance, including ownership, inventory management, risk classification and oversight of AI-enabled services across the organisation. Acting as accountable owner for technology and AI risk, including control design, testing, assurance activity and risk acceptance decisions. Providing clear, metrics-led reporting to senior committees and Board-level forums on risk posture, emerging threats, control effectiveness and material gaps. Overseeing critical third-party and AI supply chain dependencies, including cloud platforms, AI model providers, managed services and data sources. Ensuring supplier, concentration and substitution risks are understood, monitored and managed effectively. Owning technology continuity strategies across data, digital and AI services, ensuring critical services can withstand disruption, degrade safely and recover effectively. Overseeing scenario testing, failover design, recovery validation and core service operations, including incident, problem and change management. Leading and developing multidisciplinary teams across technology risk, AI operations, supplier management, continuity and live service operations. Building strong capability, clear accountability and a culture where secure, resilient and dependable systems are a shared responsibility. Representing the FCA externally with government, regulators, industry bodies and standards organisations on technology, AI and operational resilience. Managing team budget, headcount, resources and IT supplier spend of approximately £80m. Championing innovation, continuous improvement and the safe adoption of emerging technologies to strengthen resilience, efficiency and value for money. This is a high-profile leadership role with enterprise-scale accountability, operating at the intersection of AI, cyber, technology, supplier and operational risk, with a direct contribution to the FCA’s regulatory credibility and public trust. Skills/Experience Required We’re proud to be a Disability Confident Employer, and therefore, people or individuals with disabilities and long-term conditions who best meet the minimum criteria for a role will go through to the next stage of the recruitment process. In cases of high application volumes we may progress applicants whose experience most closely matches the role’s key requirements. (To learn more about the Disability Confident Scheme Click Here ) Minimum Hands on experience, however recent, with AI or agentic AI technologies. Familiarity with UK regulatory frameworks relating to operational resilience, critical third parties, cyber resilience, and AI governance. Experience within financial services, government, regulatory, or other highly regulated environments Essential Strong stakeholder management, capable of engaging with and developing strong trusting relationships with stakeholders from across a business organisation and at senior levels, as well as third parties. Evidence of managing supplier relationships across a complex supplier and contract environment Knowledge of NIST AI RMF, ISO 42001, ISO 27001, DORA, or similar frameworks. An ability to manage and control risk, embed good practice, and drive change where necessary. In-depth working knowledge of multiple domains, including Engineering, DevOps, AI, Cyber Security and Cloud technology platforms. Experience of driving change and process efficiency/improvements, delivering value for money and innovation. Ability to inclusively lead a large group of talented individuals with a wide variety of professional expertise, experience, and backgrounds. The FCA’s Values &amp; Diversity Our ambition is to create a diverse and inclusive workplace that reflects the society we serve, helping us to be a better regulator. We serve the public and our decisions directly affect the wellbeing of people, businesses and the UK economy. So, our values matter. They represent the culture we aspire to every day, guiding our judgements, building trust and helping us to be ‘At our best’. The FCA is committed to achieving greater diversity across all levels of our organisation. Given this, we particularly welcome applications from women, disabled, and minority ethnic candidates, as under-represented groups. As an inclusive employer, we are open to considering flexible working arrangements, including job shares. Please inform your recruiter if you wish to apply for this role on a flexible basis. As part of the FCA’s on-going commitment to develop our national presence, most of our vacancies are now open to working in our Edinburgh, Leeds or London offices. This means that as part of the application process you will be able to select your preference of which office location you would like to work from. Application Support We want to remove any possible barriers and are committed to providing a wide range of reasonable adjustments so that you can keep the focus on your conversations and be at your best. If you ha</description>
@@ -1197,83 +1101,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Financial Conduct Authority</dc:creator>
     <polintel:location>London</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Programme Manager – SEND</title>
-      <link>https://www.careers.local.gov.uk/job/programme-manager-send-005962</link>
-      <description>Location:
-Home based
-Contract
-: 8 month secondment or FTC
-Salary: £78,551 to £89,005
-About us
-The Local Government Association (LGA) is the national membership body for local authorities. We work on behalf of our member councils to support, promote and improve local government.
-We are a politically led, cross-party organisation that works on behalf of councils to ensure local government has a strong, credible voice with national government. We influence and set the political agenda on the issues that matter to councils to help them deliver local solutions to national problems.
-We also provide councils with the tools and resources to respond to challenges present and emerging, and support improvement across the sector.
-We value diversity and encourage applications from all sections of the community to this high-profile role.
-About the role
-The LGA is seeking to appoint a programme manager with experience of working in SEND system, within local government at a senior, strategic level.
-Working closely with senior colleagues within the LGA with responsibility for the children’s services improvement programme you will act as a key interface between the LGA and local authorities and their partners. You will lead the delivery and implementation of a Department for Education grant focussed on leadership development in SEND. You will work with key sector partners, including local authorities, DfE, ADCS, health, education settings and parents/carers, to design and deliver improvement activity that strengthens leadership capacity in local SEND systems.
-Your success will be determined by your ability to understand and respond to the highly challenging, politically sensitive and high-profile SEND environment in order to manage complexities and risk, and successfully maintain a positive reputation for the LGA with its member authorities.
-About you
-* You will have a comprehensive understanding about how local areas, through multi agency arrangements, provide services for children with SEND and the complexities, challenges and opportunities this presents.
-* You will have a comprehensive understanding of local government and the wider public sector and how the delivery of services for children sits within this.
-* You will be confident and credible in working with leading members, chief executives, directors of children’s services and other partner system leaders
-* You will hit the ground running, using your abilities and experience to effectively manage and maintain relationships with local authorities and the Department for Education to ensure effective delivery of the children’s improvement programme.
-You must have the right to work in the UK, the LGA are unfortunately unable to offer sponsorship visas. Evidence for the right to work in the UK will be requested at the interview stage.
-To apply
-If you would like to be considered for the role, please complete the online form and include a supporting statement detailing how you meet the criteria for the role before the closing date.
-We are specifically assessing candidates against the following criteria:
-* Proven knowledge and expertise in relation to the national policy context affecting SEND services
-* Record of achievement in complex political environments, in local government SEND services
-* Understanding of the key issues, priorities and pressures affecting local government including the policy and improvement agenda
-* Political sensitivity, and the ability to exercise appropriate discretion and judgement on issues of significance and importance, and when dealing with politicians and officials
-* Practical experience of designing interventions and innovative solutions to complex issues affecting SEND
-* Confident and resilient with excellent people skills, able to develop positive internal and external relationships; Strong team player able to build alliances and lead from within
-To help us anonymise applications efficiently, please ensure your CV meets the following formatting requirements:
-* Please use standard fonts such as Arial, Times New Roman, or Calibri
-* Avoid complex graphics, logos, or images where possible
-* Keep formatting simple – use basic bullet points and standard paragraph formatting
-* Save your CV as a standard PDF file
-* Ensure the file size is under 5MB
-* Avoid unusual page layouts or multi-column designs
-* Use standard text colours (e.g., black, or dark grey)
-CVs that do not meet these guidelines may not be processed correctly by our system.
-Closing Date:
-5pm, 24 September
-Interview Date:
-week commencing 28 September, interviews will be virtual
-Interview Panel:
-TBC
-We use anonymous recruitment, which is the practice of hiding candidates’ identities. This process involves removing any identifying information from candidates’ applications which includes names.
-At the LGA we celebrate diversity and are committed to creating an inclusive environment for all employees where everyone is treated with dignity and respect. Our recruitment decisions are based on fair, open competition, with appointment on merit.
-The LGA are proud to be awarded a “Disability Confident Leader”. Please contact us via
-Recruitment@local.gov.uk
-if you require a reasonable adjustment, which is a change to the format or conditions of the recruitment process to accommodate any disability-related needs you may have.
-Our benefits
-LGA annual leave entitlement is 29 days, rising to 31 days after three years’ service and to 33 days after five years’ service, plus all UK public holidays (pro rata for fixed term and part time contracts).*
-Flexible &amp; agile working – office-based staff are required to work in the LGA’s London office two days per week as a minimum, subject to business need and this may vary significantly between different roles and from week to week.
-Future development – face-to-face and virtual courses are scheduled in line with developmental goals
-The LGA offers 24/7 access to a free, confidential employee assistance programme managed by Health Assured.
-Family friendly policies
-For more of LGA’s benefits and working with us, please view our webpage https://www.local.gov.uk/benefits-and-working-lga
-Our values &amp; behaviours
-Our Values and Behaviours are there to give us an understanding of who we are as an organisation and who we want to be. They are a framework to help us understand:
-how we work with each other
-how we work with our members and stakeholders
-our expectations for ourselves and each other
-Our values are:
-Collaboration –
-We value collaboration, to pursue shared goals by encouraging and utilising diverse perspectives and working with internal and external colleagues across the organisation.
-Inclusion –
-We value inclusion, where everyone feels valued, understood, and supported to contribute meaningfully.
-Ambition –
-We value ambition, reflecting our desire to achieve best possible outcomes for local government, communities, and individuals.
-Respect –
-We value respect, to ensure fairness, recognition, and shared accountability.</description>
-      <guid isPermaLink="false">https://www.careers.local.gov.uk/job/programme-manager-send-005962</guid>
-      <category>Government</category>
-      <dc:creator>Local Government Association</dc:creator>
-    <polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
-    <item>
       <title>Senior Criminal Enforcement Officer, Investigator - £42,410 (National) or £46,160 (London) p.a. + benefits</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013077</link>
       <description>Role at Medicines and Healthcare Products Regulatory Agency in Remote working (anywhere in the UK). Salary: £42,410. Closing: 2026-09-25.</description>
@@ -1281,14 +1108,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>Medicines and Healthcare Products Regulatory Agency</dc:creator>
     <polintel:location>Remote working (anywhere in the UK)</polintel:location><polintel:closingDate>2026-09-25</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Technical Architect (Ref: 21982)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013076</link>
-      <description>Role at Ministry of Justice in East Midlands (England), East of England, London (region), North East England, North West England, Scotland, South East England, South West England, Wales, West Midlands (England), Yorkshire and the Humber. Salary: £58,511 to £70,725. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013076</guid>
-      <category>Government</category>
-      <dc:creator>Ministry of Justice</dc:creator>
-    <polintel:location>East Midlands (England), East of England, London (region), North East England, North West England, Scotland, South East England, South West England, Wales, West Midlands (England), Yorkshire and the Humber</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Anglican Chaplain (full time) (Ref: 22068)</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012918</link>
@@ -1386,30 +1205,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>HM Courts and Tribunals Service</dc:creator>
     <polintel:location>This position is based at CTS Usk House Newport Flr 2nd, Newport, NP20 2GD.</polintel:location><polintel:closingDate>2026-09-25</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Probation Services Officer - Norfolk - Norwich (Ref: 22205)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012910</link>
-      <description>Role at HM Prison &amp; Probation Service in This position is based at NPS CENTENARY HOUSE NORWICH, NR3 1RT. Salary: £28,064 to £33,549. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012910</guid>
-      <category>Government</category>
-      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
-    <polintel:location>This position is based at NPS CENTENARY HOUSE NORWICH, NR3 1RT</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Probation Service Officer - Housing Support Service - HMP Norwich - East of England (Outcome in a Day) (Ref: 22211)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012921</link>
-      <description>Role at HM Prison &amp; Probation Service in This position is based at HM PRISON NORWICH NR1 4LU, NPS CENTENARY HOUSE NORWICH NR3 1RT. Salary: £28,064 to £33,549. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2012921</guid>
-      <category>Government</category>
-      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
-    <polintel:location>This position is based at HM PRISON NORWICH NR1 4LU, NPS CENTENARY HOUSE NORWICH NR3 1RT</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Operational Support Officer (Ref: 21996)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2013027</link>
-      <description>Role at HM Courts and Tribunals Service in This position is based at BRIGHTON MAGISTRATES COURT, BN2 0LG, LEWES COMBINED LEWES, BN7 1YB. Salary: £25,582. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/index.cgi?joblist_view_vac=2013027</guid>
-      <category>Government</category>
-      <dc:creator>HM Courts and Tribunals Service</dc:creator>
-    <polintel:location>This position is based at BRIGHTON MAGISTRATES COURT, BN2 0LG, LEWES COMBINED LEWES, BN7 1YB</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Learning Designer</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012911</link>
       <description>Role at Cabinet Office in London, London (region), E14 4PU : Glasgow, Scotland, G2 8HS : Manchester, North West England, M2 3AA : Newcastle upon Tyne, North East England, NE98 1ZZ : York, Yorkshire and the Humber, YO1 7PX. Salary: £45,292 to £53,629. Closing: 2026-09-26.</description>
@@ -1474,22 +1269,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Ofwat (Water Services Regulation Authority)</dc:creator>
     <polintel:location>Birmingham (B5 4UA) or London (E14 4HD) based with hybrid working</polintel:location><polintel:closingDate>2026-10-01</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Records Manager</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012935</link>
-      <description>Role at Department for Education in Sheffield, Manchester, Nottingham. Salary: £32,581. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012935</guid>
-      <category>Government</category>
-      <dc:creator>Department for Education</dc:creator>
-    <polintel:location>Sheffield, Manchester, Nottingham</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Data Engineer, N and I Business Operations</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012939</link>
-      <description>Role at Home Office in Glasgow, Salford, Sheffield.. Salary: £49,850. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012939</guid>
-      <category>Government</category>
-      <dc:creator>Home Office</dc:creator>
-    <polintel:location>Glasgow, Salford, Sheffield.</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Head of Policy - Agriculture</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012943</link>
       <description>Role at Agriculture &amp; Horticulture Development Board (AHDB) in Coventry. Salary: £69,000 to £75,000. Closing: 2026-10-11.</description>
@@ -1506,14 +1285,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Active Travel England</dc:creator>
     <polintel:location>Birmingham, York</polintel:location><polintel:closingDate>2026-09-27</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Tax Risk Officer (Welsh essential)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012949</link>
-      <description>Role at Welsh Revenue Authority in We encourage flexible and hybrid working. Some office attendance will be required based on business needs. This role is based in our Merthyr or Cardiff office.. Salary: £30,754 to £34,997. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012949</guid>
-      <category>Government</category>
-      <dc:creator>Welsh Revenue Authority</dc:creator>
-    <polintel:location>We encourage flexible and hybrid working. Some office attendance will be required based on business needs. This role is based in our Merthyr or Cardiff office.</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Senior Scientist - Asbestos  &amp; Exposure Measurement (Band 3/SEO)</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012953</link>
       <description>Role at Health and Safety Executive in Harpur Hill, Buxton, Derbyshire SK17 9JN.. Salary: £47,686 to £54,453. Closing: 2026-10-05.</description>
@@ -1522,14 +1293,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Health and Safety Executive</dc:creator>
     <polintel:location>Harpur Hill, Buxton, Derbyshire SK17 9JN.</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Policy Adviser - Financial Services (multiple roles)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012956</link>
-      <description>Role at HM Treasury in These posts can be based in London (1 Horse Guards Road) or Darlington (Feethams House).. Salary: £36,130 to £44,074. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012956</guid>
-      <category>Government</category>
-      <dc:creator>HM Treasury</dc:creator>
-    <polintel:location>These posts can be based in London (1 Horse Guards Road) or Darlington (Feethams House).</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Operations Administrative Manager</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012960</link>
       <description>Role at Forestry Commission in Bristol, Bucks Horn Oak, or Bullers Hill preferred, other Forestry Commission (FC) offices may be considered.This post will require a regular Bristol office presence.. Salary: £33,854. Closing: 2026-10-04.</description>
@@ -1537,22 +1300,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>Forestry Commission</dc:creator>
     <polintel:location>Bristol, Bucks Horn Oak, or Bullers Hill preferred, other Forestry Commission (FC) offices may be considered.This post will require a regular Bristol office presence.</polintel:location><polintel:closingDate>2026-10-04</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Animal Care and Welfare Technician</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012959</link>
-      <description>Role at Home Office in Felixstowe, Horley. Salary: £30,920 to £31,254. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012959</guid>
-      <category>Government</category>
-      <dc:creator>Home Office</dc:creator>
-    <polintel:location>Felixstowe, Horley</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Workplace Delivery Officer</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012962</link>
-      <description>Role at OFGEM in This role requires the successful candidate to be onsite full time at our Glasgow offices.. Salary: £26,694 to £30,850. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012962</guid>
-      <category>Government</category>
-      <dc:creator>OFGEM</dc:creator>
-    <polintel:location>This role requires the successful candidate to be onsite full time at our Glasgow offices.</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Senior Associate Commercial Adviser, Major Water Infrastructure Projects</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012964</link>
@@ -1570,14 +1317,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Social Security Scotland</dc:creator>
     <polintel:location>Dundee, Glasgow</polintel:location><polintel:closingDate>2026-10-01</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Media Manager</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012968</link>
-      <description>Role at Home Office in Manchester, Sheffield, Westminster. Salary: £41,750 to £48,250. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012968</guid>
-      <category>Government</category>
-      <dc:creator>Home Office</dc:creator>
-    <polintel:location>Manchester, Sheffield, Westminster</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Power Platform Developer - His Majesty's Inspectorate of Constabulary and Fire &amp; Rescue Services</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012972</link>
       <description>Role at His Majesty's Inspectorate of Constabulary and Fire &amp; Rescue Services in His Majestys Inspectorate of Constabulary and Fire &amp; Rescue Services (HMICFRS) is a national organisation with a Head Office in Birmingham and regional offices in London and Salford. In line with the Places ... see the job advert for full location information. Salary: £49,850. Closing: 2026-10-05.</description>
@@ -1585,14 +1324,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>His Majesty's Inspectorate of Constabulary and Fire &amp; Rescue Services</dc:creator>
     <polintel:location>His Majestys Inspectorate of Constabulary and Fire &amp; Rescue Services (HMICFRS) is a national organisation with a Head Office in Birmingham and regional offices in London and Salford. In line with the Places ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>DIO  Facilities Manager - PFI</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012978</link>
-      <description>Role at Ministry of Defence in City of Westminster, London (region), SW1A 2HB. Salary: £37,720. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012978</guid>
-      <category>Government</category>
-      <dc:creator>Ministry of Defence</dc:creator>
-    <polintel:location>City of Westminster, London (region), SW1A 2HB</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Software Asset Management Lead &amp; IT Asset Manager (SEO &amp; HEO)</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012979</link>
@@ -1610,22 +1341,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Ministry of Defence</dc:creator>
     <polintel:location>MOD Abbeywood North Site, Filton, Bristol BS34 8QW</polintel:location><polintel:closingDate>2026-10-04</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Delivery Manager</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013015</link>
-      <description>Role at The National Archives in London, London (region), TW9 4DU. Salary: £53,100. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013015</guid>
-      <category>Government</category>
-      <dc:creator>The National Archives</dc:creator>
-    <polintel:location>London, London (region), TW9 4DU</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Programme Officer, Political Party Programmes</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012997</link>
-      <description>Role at Westminster Foundation for Democracy in Remote working (anywhere in the UK). Salary: £32,500 to £34,000. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012997</guid>
-      <category>Government</category>
-      <dc:creator>Westminster Foundation for Democracy</dc:creator>
-    <polintel:location>Remote working (anywhere in the UK)</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Business Engagement Adviser</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012998</link>
       <description>Role at HM Treasury in This post can be based in London (1 Horse Guards Road) or Darlington (Feethams House).. Salary: £36,130 to £44,074. Closing: 2026-09-27.</description>
@@ -1634,46 +1349,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>HM Treasury</dc:creator>
     <polintel:location>This post can be based in London (1 Horse Guards Road) or Darlington (Feethams House).</polintel:location><polintel:closingDate>2026-09-27</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Operational Reporting Manager</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013002</link>
-      <description>Role at Homes England in As we are headquartered in Leeds our preference is to appoint to this location and priority will be given to applicants based within commuting distance of the Leeds office.. Salary: £39,933 to £46,573. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013002</guid>
-      <category>Government</category>
-      <dc:creator>Homes England</dc:creator>
-    <polintel:location>As we are headquartered in Leeds our preference is to appoint to this location and priority will be given to applicants based within commuting distance of the Leeds office.</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Policy Advisor</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013353</link>
-      <description>Role at Serious Fraud Office in The role will be based at our offices at 2-4 Cockspur Street, London, SW1Y 5BS, in central London, however, please note that we are due to move to Canary Wharf in late 2026. Please be aware that this role ... see the job advert for full location information. Salary: £41,484 to £46,235. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013353</guid>
-      <category>Government</category>
-      <dc:creator>Serious Fraud Office</dc:creator>
-    <polintel:location>The role will be based at our offices at 2-4 Cockspur Street, London, SW1Y 5BS, in central London, however, please note that we are due to move to Canary Wharf in late 2026. Please be aware that this role ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Head - Programme Delivery</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013006</link>
-      <description>Role at Homes England in As we are headquartered in Leeds our preference is to appoint to this location and priority will be given to applicants based within commuting distance of the Leeds office.. Salary: £69,831 to £81,443. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013006</guid>
-      <category>Government</category>
-      <dc:creator>Homes England</dc:creator>
-    <polintel:location>As we are headquartered in Leeds our preference is to appoint to this location and priority will be given to applicants based within commuting distance of the Leeds office.</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Army - Administration Officer</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013008</link>
-      <description>Role at Ministry of Defence in Bovington, BH20 6JA. Salary: £27,866. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013008</guid>
-      <category>Government</category>
-      <dc:creator>Ministry of Defence</dc:creator>
-    <polintel:location>Bovington, BH20 6JA</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Manager - Programme Delivery</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013009</link>
-      <description>Role at Homes England in As we are headquartered in Leeds our preference is to appoint to this location and priority will be given to applicants based within commuting distance of the Leeds office.. Salary: £59,631 to £69,548. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013009</guid>
-      <category>Government</category>
-      <dc:creator>Homes England</dc:creator>
-    <polintel:location>As we are headquartered in Leeds our preference is to appoint to this location and priority will be given to applicants based within commuting distance of the Leeds office.</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>4135 - Assistant Property Surveyor</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012970</link>
       <description>Role at Welsh Government in Wales. Salary: £37,111 to £45,378. Closing: 2026-10-12.</description>
@@ -1681,14 +1356,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>Welsh Government</dc:creator>
     <polintel:location>Wales</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Infrastructure Engineer x2</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013017</link>
-      <description>Role at Home Office in Croydon, Liverpool, Salford, Sheffield. Salary: £41,750 to £48,250. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013017</guid>
-      <category>Government</category>
-      <dc:creator>Home Office</dc:creator>
-    <polintel:location>Croydon, Liverpool, Salford, Sheffield</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Chief Executive Officer, The Office of Environmental Governance Wales (OEGW)</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013025</link>
@@ -1705,14 +1372,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>Commonwealth Parliamentary Association UK</dc:creator>
     <polintel:location>Westminster</polintel:location><polintel:closingDate>2026-09-27</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Solicitor</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013030</link>
-      <description>Role at Homes England in Birmingham, West Midlands (England), B1 2AX : Bristol, South West England, BS1 6EH : Longstanton, East of England, CB24 3EN : London, London (region), E14 4PU : Liverpool, North West England, L3 1BP : Leeds, ... see the job advert for full location information. Salary: £39,933 to £46,573. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013030</guid>
-      <category>Government</category>
-      <dc:creator>Homes England</dc:creator>
-    <polintel:location>Birmingham, West Midlands (England), B1 2AX : Bristol, South West England, BS1 6EH : Longstanton, East of England, CB24 3EN : London, London (region), E14 4PU : Liverpool, North West England, L3 1BP : Leeds, ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Transformation Director</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013056</link>
@@ -1746,14 +1405,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>UK Health Security Agency</dc:creator>
     <polintel:location>Scientific Campus, Colindale, London</polintel:location><polintel:closingDate>2026-09-25</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>22180 - Operational Support Grade - HMP Feltham - Nights -(Prison Support Role)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013041</link>
-      <description>Role at HM Prison &amp; Probation Service in Feltham, London (region), TW13 4NP. Salary: £34,609. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013041</guid>
-      <category>Government</category>
-      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
-    <polintel:location>Feltham, London (region), TW13 4NP</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Energy Manager</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013034</link>
       <description>Role at Government Property Agency in Birmingham, Bristol, Cardiff, Leeds, Manchester, Nottingham, Swindon. Salary: £58,478 to £64,743. Closing: 2026-10-04.</description>
@@ -1785,14 +1436,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>Ministry of Defence</dc:creator>
     <polintel:location>Mount Pleasant Complex, Falkland Islands</polintel:location><polintel:closingDate>2026-09-25</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>22193 - Operational Support Grade - HMP Birmingham - 12 Months FTC - (Prison Support Role)</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013044</link>
-      <description>Role at HM Prison &amp; Probation Service in Birmingham, West Midlands (England), B18 4AS. Salary: £25,409. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013044</guid>
-      <category>Government</category>
-      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
-    <polintel:location>Birmingham, West Midlands (England), B18 4AS</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Senior Delivery Manager</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013048</link>
@@ -1989,14 +1632,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <category>Government</category>
       <dc:creator>Companies House</dc:creator>
     <polintel:location>Cardiff office address:Crown Way, Cardiff, CF14 3UZ</polintel:location><polintel:closingDate>2026-09-28</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Senior Policy Advisor, Domestic Rail Transport Security</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013089</link>
-      <description>Role at Department for Transport in Birmingham, Leeds, London. Salary: £44,241. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013089</guid>
-      <category>Government</category>
-      <dc:creator>Department for Transport</dc:creator>
-    <polintel:location>Birmingham, Leeds, London</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>26.134 - Finance Business Partner</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013090</link>
@@ -2959,14 +2594,6 @@ We value respect, to ensure fairness, recognition, and shared accountability.</d
       <dc:creator>Ministry of Defence</dc:creator>
     <polintel:location>This role will be based in High Wycombe. We operate a hybrid working model that allows you to work between home and on-site giving you greater flexibility about where and when you work, but you will need ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Service Desk Analyst</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013285</link>
-      <description>Role at Registers of Scotland in Location: Meadowbank House (MBH), Edinburgh. The Service Desk team are essential workers with a hybrid working approach, working on site within MBH with agreed fixed day/rational gap cover and occasional ... see the job advert for full location information. Salary: £36,366 to £39,037. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013285</guid>
-      <category>Government</category>
-      <dc:creator>Registers of Scotland</dc:creator>
-    <polintel:location>Location: Meadowbank House (MBH), Edinburgh. The Service Desk team are essential workers with a hybrid working approach, working on site within MBH with agreed fixed day/rational gap cover and occasional ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Technical Architect</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013294</link>
       <description>Role at Cabinet Office in Existing CO Staff can work in their original contractual work location.Existing Civil Servants working in all other departments can work in Bristol, Manchester, Newcastle, York, Glasgow and Norwich. External ... see the job advert for full location information. Salary: £59,207. Closing: 2026-09-27.</description>
@@ -3427,14 +3054,6 @@ for more information on appropriate and inappropriate use.</description>
       <category>Government</category>
       <dc:creator>Social Security Scotland</dc:creator>
     <polintel:location>Dundee, Glasgow</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Mental Health Inspector - South West</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013317</link>
-      <description>Role at Care Quality Commission in South West England. Salary: £42,044. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013317</guid>
-      <category>Government</category>
-      <dc:creator>Care Quality Commission</dc:creator>
-    <polintel:location>South West England</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Criminal Investigator, Midlands and West Region</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013329</link>
@@ -4118,14 +3737,6 @@ We are committed to fair and open recruitment. All applications will be assessed
       <category>Government</category>
       <dc:creator>HM Revenue and Customs</dc:creator>
     <polintel:location>Leeds, Liverpool, Manchester, Newcastle-upon-Tyne, Nottingham, Preston, Stratford</polintel:location><polintel:closingDate>2026-09-29</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Engineering Manager - Python</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012672</link>
-      <description>Role at Department for Business and Trade in Belfast, Birmingham, Cardiff, Darlington, Edinburgh, London, Manchester. Salary: £68,732 to £88,423. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2012672</guid>
-      <category>Government</category>
-      <dc:creator>Department for Business and Trade</dc:creator>
-    <polintel:location>Belfast, Birmingham, Cardiff, Darlington, Edinburgh, London, Manchester</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Strategy, Policy and Engagement Advisor</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013484</link>
@@ -5417,14 +5028,6 @@ We are committed to fair and open recruitment. All applications will be assessed
       <dc:creator>Department for Work and Pensions</dc:creator>
     <polintel:location>East Midlands (England), East of England, London (region), North East England, North West England, Scotland, South East England, South West England, Wales, West Midlands (England), Yorkshire and the Humber</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
-      <title>Supervising Finance Officer</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013778</link>
-      <description>Role at Serious Fraud Office in The role will be based at our offices at 2-4 Cockspur Street, London, SW1Y 5BS, in central London, however, please note that we are due to move to Canary Wharf in late 2026. Please be aware that this role ... see the job advert for full location information. Salary: £41,484 to £46,235. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013778</guid>
-      <category>Government</category>
-      <dc:creator>Serious Fraud Office</dc:creator>
-    <polintel:location>The role will be based at our offices at 2-4 Cockspur Street, London, SW1Y 5BS, in central London, however, please note that we are due to move to Canary Wharf in late 2026. Please be aware that this role ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
       <title>Countermeasures Analyst</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013793</link>
       <description>Role at Ministry of Defence in Waddington, East Midlands (England), LN5 9NB. Salary: £30,740. Closing: 2026-10-19.</description>
@@ -5987,9 +5590,9 @@ We are committed to fair and open recruitment. All applications will be assessed
     <polintel:location>These positions are based at HMP Channings Wood Newton Abbot, TQ12 6DW</polintel:location><polintel:closingDate>2026-10-25</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Director of Communication, Scotland Office</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013953</link>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014783</link>
       <description>Role at Ministry of Justice in London (region), Scotland. Salary: £86,000 to £117,800. Closing: 2026-10-11.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2013953</guid>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014783</guid>
       <category>Government</category>
       <dc:creator>Ministry of Justice</dc:creator>
     <polintel:location>London (region), Scotland</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
@@ -6235,9 +5838,9 @@ We are committed to fair and open recruitment. All applications will be assessed
     <polintel:location>National</polintel:location><polintel:closingDate>2026-09-28</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Risk &amp; Assurance Adviser</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014027</link>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014698</link>
       <description>Role at Ministry of Defence in London, SW1A 2HB, although the MOD has adopted hybrid working, there is an expectation that the successful candidate will spend at least 23 days a week in London as required. There will be some travel to ... see the job advert for full location information. Salary: £37,720. Closing: 2026-10-05.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014027</guid>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014698</guid>
       <category>Government</category>
       <dc:creator>Ministry of Defence</dc:creator>
     <polintel:location>London, SW1A 2HB, although the MOD has adopted hybrid working, there is an expectation that the successful candidate will spend at least 23 days a week in London as required. There will be some travel to ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
@@ -7614,14 +7217,6 @@ As those with disabilities and women are underrepresented, applications from the
       <category>Government</category>
       <dc:creator>Forestry Commission</dc:creator>
     <polintel:location>Santon Downham, East of England, IP27 0TJ</polintel:location><polintel:closingDate>2026-10-26</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
-    <item>
-      <title>Portfolio Lead</title>
-      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014278</link>
-      <description>Role at Housing Ombudsman Service in Remote working (anywhere in the UK). Salary: £53,948. Closing: 2026-09-24.</description>
-      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014278</guid>
-      <category>Government</category>
-      <dc:creator>Housing Ombudsman Service</dc:creator>
-    <polintel:location>Remote working (anywhere in the UK)</polintel:location><polintel:closingDate>2026-09-24</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
     <item>
       <title>Technical Communications Lead - £46,160-£51,666 p.a. + benefits</title>
       <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014280</link>
@@ -9004,5 +8599,614 @@ As those with disabilities and women are underrepresented, applications from the
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Financial Conduct Authority</dc:creator>
     <polintel:location>3 Locations</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Service Designer</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014834</link>
+      <description>Role at HM Revenue and Customs in Edinburgh, Leeds, Manchester, Worthing. Salary: £45,544 to £49,523. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014834</guid>
+      <category>Government</category>
+      <dc:creator>HM Revenue and Customs</dc:creator>
+    <polintel:location>Edinburgh, Leeds, Manchester, Worthing</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Data Protection Advisor</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014835</link>
+      <description>Role at Home Office in Cardiff, Liverpool, Manchester, Sheffield. Salary: £49,850 to £52,850. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014835</guid>
+      <category>Government</category>
+      <dc:creator>Home Office</dc:creator>
+    <polintel:location>Cardiff, Liverpool, Manchester, Sheffield</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Enterprise Architect (Data Platform Technology)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014833</link>
+      <description>Role at HM Revenue and Customs in Birmingham Regional Centre - Arena CentralBristol Regional Centre - 3 Glass WharfCardiff Regional Centre - Ty William MorganEdinburgh Regional Centre - Queen Elizabeth House Leeds Regional Centre - Wellington ... see the job advert for full location information. Salary: £58,541 to £72,711. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014833</guid>
+      <category>Government</category>
+      <dc:creator>HM Revenue and Customs</dc:creator>
+    <polintel:location>Birmingham Regional Centre - Arena CentralBristol Regional Centre - 3 Glass WharfCardiff Regional Centre - Ty William MorganEdinburgh Regional Centre - Queen Elizabeth House Leeds Regional Centre - Wellington ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Technology Adviser</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014529</link>
+      <description>Role at Competition &amp; Markets Authority in Belfast, Cardiff, Darlington, Edinburgh, London, Manchester. Salary: £63,800 to £71,550. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014529</guid>
+      <category>Government</category>
+      <dc:creator>Competition &amp; Markets Authority</dc:creator>
+    <polintel:location>Belfast, Cardiff, Darlington, Edinburgh, London, Manchester</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>HOFS: Learning, Skills &amp; Employment Wales Part Time (Ref: 22692)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014755</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at HM PRISON USK, NP15 1XP. Salary: £54,148. Closing: 2026-10-15.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014755</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at HM PRISON USK, NP15 1XP</polintel:location><polintel:closingDate>2026-10-15</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>SPI: Printing Services Standford Hill (Ref: 22683)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014724</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at HM Prison Standford Hill, Sheerness, ME12 4AA.. Salary: £34,440. Closing: 2026-10-14.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014724</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at HM Prison Standford Hill, Sheerness, ME12 4AA.</polintel:location><polintel:closingDate>2026-10-14</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Assistant Controller  HMP Oakwood (Ref: 22595)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014705</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at HM PRISON OAKWOOD WOLVERHAMPTON, WV10 7QD. Salary: £34,440. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014705</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at HM PRISON OAKWOOD WOLVERHAMPTON, WV10 7QD</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Crown Court Clerk (Ref: 22681)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014727</link>
+      <description>Role at HM Courts and Tribunals Service in This position is based at READING CROWN READING, RG1 3EH. Salary: £29,303 to £31,061. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014727</guid>
+      <category>Government</category>
+      <dc:creator>HM Courts and Tribunals Service</dc:creator>
+    <polintel:location>This position is based at READING CROWN READING, RG1 3EH</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Approved Premises - Probation Service Officer - Full Time - Astral Grove AP, Trent House AP and Southwell House AP, Nottingham (Ref: 22750)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014657</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at NPS 106 RALEIGH STREET NOTTINGHAM NG7 4DJ, NPS 205 YARBOROUGH ROAD LINCOLN LN1 3NQ, NPS 5-7 ASTRAL GROVE NOTTINGHAM NG15 6FY, NPS BURDETT LODGE DERBY DE22 3BR, NPS TRENT HOUSE NOTTINGHAM ... see the job advert for full location information. Salary: £28,064 to £33,549. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014657</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at NPS 106 RALEIGH STREET NOTTINGHAM NG7 4DJ, NPS 205 YARBOROUGH ROAD LINCOLN LN1 3NQ, NPS 5-7 ASTRAL GROVE NOTTINGHAM NG15 6FY, NPS BURDETT LODGE DERBY DE22 3BR, NPS TRENT HOUSE NOTTINGHAM ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>HMP Nottingham - Specialist Production Instructor - Cycle Repair - 18.5 hrs per week (Ref: 22676)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014690</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based atHM PRISON NOTTINGHAM, NG5 3AG. Salary: £34,440. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014690</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based atHM PRISON NOTTINGHAM, NG5 3AG</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Paralegal Caseworker (Ref: 22608)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014740</link>
+      <description>Role at Office of the Public Guardian in This position is based at NOTTINGHAM OPG NOTTINGHAM, NG2 1AR, OPG Victoria Square House, B2 4AJ. Salary: £35,335 to £37,847. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014740</guid>
+      <category>Government</category>
+      <dc:creator>Office of the Public Guardian</dc:creator>
+    <polintel:location>This position is based at NOTTINGHAM OPG NOTTINGHAM, NG2 1AR, OPG Victoria Square House, B2 4AJ</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Head of Operations (Crime) &amp; Head of Service Performance &amp; Improvement (South West) (Ref: 22603)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014760</link>
+      <description>Role at HM Courts and Tribunals Service in This position is based at BARNSTAPLE COUNTY COURT BARNSTAPLE EX31 1DY, BARNSTAPLE MAGISTRATES BARNSTAPLE, EX31 1DX, BATH COUNTY COURT BATH, BA1 1DJ, BATH MAGISTRATES BATH, BA1 5AF, BODMIN COUNTY COURT BODMIN ... see the job advert for full location information. Salary: £71,381 to £80,419. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014760</guid>
+      <category>Government</category>
+      <dc:creator>HM Courts and Tribunals Service</dc:creator>
+    <polintel:location>This position is based at BARNSTAPLE COUNTY COURT BARNSTAPLE EX31 1DY, BARNSTAPLE MAGISTRATES BARNSTAPLE, EX31 1DX, BATH COUNTY COURT BATH, BA1 1DJ, BATH MAGISTRATES BATH, BA1 5AF, BODMIN COUNTY COURT BODMIN ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Head of Accessibility</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014656</link>
+      <description>Role at HM Revenue and Customs in Cardiff Regional Centre - Ty William MorganBristol Regional Centre - 3 Glass WharfEdinburgh Regional Centre - Queen Elizabeth HouseLeeds Regional Centre - Wellington Place Manchester Regional Centre - Three ... see the job advert for full location information. Salary: £71,725 to £79,481. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014656</guid>
+      <category>Government</category>
+      <dc:creator>HM Revenue and Customs</dc:creator>
+    <polintel:location>Cardiff Regional Centre - Ty William MorganBristol Regional Centre - 3 Glass WharfEdinburgh Regional Centre - Queen Elizabeth HouseLeeds Regional Centre - Wellington Place Manchester Regional Centre - Three ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>SDA Operations Manager</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014683</link>
+      <description>Role at Ministry of Defence in HMNB Clyde, Faslane, Helensburgh, G84 8HL. Salary: £32,000 to £33,600. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014683</guid>
+      <category>Government</category>
+      <dc:creator>Ministry of Defence</dc:creator>
+    <polintel:location>HMNB Clyde, Faslane, Helensburgh, G84 8HL</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>UCR Operational Team Leader</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014722</link>
+      <description>Role at Department for Work and Pensions in Bangor, Basildon, Birkenhead, Burnley, Canterbury, Dudley, Dundee, Glasgow, Grimsby, Hastings, Hull, Kilmarnock, Leeds, Leicester, Newcastle, Pembroke Dock, Plymouth, Preston, Sheffield, Sunderland, Swindon, ... see the job advert for full location information. Salary: £38,772 to £45,065. Closing: 2026-10-07.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014722</guid>
+      <category>Government</category>
+      <dc:creator>Department for Work and Pensions</dc:creator>
+    <polintel:location>Bangor, Basildon, Birkenhead, Burnley, Canterbury, Dudley, Dundee, Glasgow, Grimsby, Hastings, Hull, Kilmarnock, Leeds, Leicester, Newcastle, Pembroke Dock, Plymouth, Preston, Sheffield, Sunderland, Swindon, ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-07</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Administrative Officers</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014812</link>
+      <description>Role at Foreign, Commonwealth &amp; Development Office in East Kilbride, London, Milton Keynes. Salary: £30,600. Closing: 2026-10-26.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014812</guid>
+      <category>Government</category>
+      <dc:creator>Foreign, Commonwealth &amp; Development Office</dc:creator>
+    <polintel:location>East Kilbride, London, Milton Keynes</polintel:location><polintel:closingDate>2026-10-26</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Digital Strategy &amp; Portfolio Manager</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014654</link>
+      <description>Role at Department for Environment, Food and Rural Affairs in Birmingham, Bristol, London, Newcastle-upon-Tyne, York. Salary: £58,207 to £71,178. Closing: 2026-10-02.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014654</guid>
+      <category>Government</category>
+      <dc:creator>Department for Environment, Food and Rural Affairs</dc:creator>
+    <polintel:location>Birmingham, Bristol, London, Newcastle-upon-Tyne, York</polintel:location><polintel:closingDate>2026-10-02</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Deputy Director for Digital Standards and Inclusive Design</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014663</link>
+      <description>Role at Department for Science, Innovation &amp; Technology in Bristol, London, Manchester. Salary: £86,000 to £117,800. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014663</guid>
+      <category>Government</category>
+      <dc:creator>Department for Science, Innovation &amp; Technology</dc:creator>
+    <polintel:location>Bristol, London, Manchester</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Customer Relations Assistant</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014667</link>
+      <description>Role at Forestry Commission in Keystone Innovation Centre, Croxton Road, Thetford, Norfolk. Salary: £26,959 to £26,959. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014667</guid>
+      <category>Government</category>
+      <dc:creator>Forestry Commission</dc:creator>
+    <polintel:location>Keystone Innovation Centre, Croxton Road, Thetford, Norfolk</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Head of Census Location Services</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014706</link>
+      <description>Role at Office for National Statistics in The locations of this role are Newport &amp; Titchfield (Fareham).. Salary: £56,861. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014706</guid>
+      <category>Government</category>
+      <dc:creator>Office for National Statistics</dc:creator>
+    <polintel:location>The locations of this role are Newport &amp; Titchfield (Fareham).</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Census Geospatial Analyst</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014707</link>
+      <description>Role at Office for National Statistics in The locations of this role are Newport &amp; Titchfield (Fareham).. Salary: £35,144. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014707</guid>
+      <category>Government</category>
+      <dc:creator>Office for National Statistics</dc:creator>
+    <polintel:location>The locations of this role are Newport &amp; Titchfield (Fareham).</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Census Senior Geospatial Analyst</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014708</link>
+      <description>Role at Office for National Statistics in The locations of this role are Newport &amp; Titchfield (Fareham).. Salary: £43,644. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014708</guid>
+      <category>Government</category>
+      <dc:creator>Office for National Statistics</dc:creator>
+    <polintel:location>The locations of this role are Newport &amp; Titchfield (Fareham).</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Navy Command - FOST(S) Gunnery Instructor</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014678</link>
+      <description>Role at Ministry of Defence in HMS Drake, PL2 2BG. Salary: £30,740. Closing: 2026-10-01.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014678</guid>
+      <category>Government</category>
+      <dc:creator>Ministry of Defence</dc:creator>
+    <polintel:location>HMS Drake, PL2 2BG</polintel:location><polintel:closingDate>2026-10-01</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Policy Officer</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014672</link>
+      <description>Role at Cabinet Office in Glasgow, London, Manchester, Newcastle-upon-Tyne, York. Salary: £45,292 to £53,629. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014672</guid>
+      <category>Government</category>
+      <dc:creator>Cabinet Office</dc:creator>
+    <polintel:location>Glasgow, London, Manchester, Newcastle-upon-Tyne, York</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>International Policy Analyst</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014679</link>
+      <description>Role at House of Lords in Westminster. Salary: £46,500. Closing: 2026-10-04.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014679</guid>
+      <category>Government</category>
+      <dc:creator>House of Lords</dc:creator>
+    <polintel:location>Westminster</polintel:location><polintel:closingDate>2026-10-04</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>IT Service Manager - Newport</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014671</link>
+      <description>Role at Office for National Statistics in The location for this role is Newport - Office For National Statistics, Government Buildings, Cardiff Road, Newport, NP10 8XG.. Salary: £41,985 to £47,121. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014671</guid>
+      <category>Government</category>
+      <dc:creator>Office for National Statistics</dc:creator>
+    <polintel:location>The location for this role is Newport - Office For National Statistics, Government Buildings, Cardiff Road, Newport, NP10 8XG.</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Wildlife Ranger</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014686</link>
+      <description>Role at Forestry Commission in Forestry England, Fineshade, Corby. Salary: £34,793 to £34,793. Closing: 2026-10-15.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014686</guid>
+      <category>Government</category>
+      <dc:creator>Forestry Commission</dc:creator>
+    <polintel:location>Forestry England, Fineshade, Corby</polintel:location><polintel:closingDate>2026-10-15</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Officer, Drugs Threat</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014689</link>
+      <description>Role at National Crime Agency in Birmingham, Bristol, London, Warrington. Salary: £51,269. Closing: 2026-10-21.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014689</guid>
+      <category>Government</category>
+      <dc:creator>National Crime Agency</dc:creator>
+    <polintel:location>Birmingham, Bristol, London, Warrington</polintel:location><polintel:closingDate>2026-10-21</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Process Governance Analyst</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014688</link>
+      <description>Role at The Money and Pensions Service in 138 Cauldwell Street, Bedford, MK40 1SU, United Kingdom. Salary: £45,000. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014688</guid>
+      <category>Government</category>
+      <dc:creator>The Money and Pensions Service</dc:creator>
+    <polintel:location>138 Cauldwell Street, Bedford, MK40 1SU, United Kingdom</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Officer - Service Delivery</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014703</link>
+      <description>Role at National Crime Agency in Birmingham, Bristol, Leicester. Salary: £47,049. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014703</guid>
+      <category>Government</category>
+      <dc:creator>National Crime Agency</dc:creator>
+    <polintel:location>Birmingham, Bristol, Leicester</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Planning Knowledge Development Lawyer (KDL)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014692</link>
+      <description>Role at Government Legal Department in Bristol, Croydon, Leeds, London, Manchester. Salary: £74,960. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014692</guid>
+      <category>Government</category>
+      <dc:creator>Government Legal Department</dc:creator>
+    <polintel:location>Bristol, Croydon, Leeds, London, Manchester</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Performance, Assurance and Evidence Counter Fraud Insights Lead</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014693</link>
+      <description>Role at Cabinet Office in Glasgow, London, Manchester, Newcastle-upon-Tyne, York. Salary: £39,250 to £46,844. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014693</guid>
+      <category>Government</category>
+      <dc:creator>Cabinet Office</dc:creator>
+    <polintel:location>Glasgow, London, Manchester, Newcastle-upon-Tyne, York</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>4177 Head of Information Rights Unit</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014694</link>
+      <description>Role at Welsh Government in Wales. Salary: £47,675 to £56,445. Closing: 2026-10-15.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014694</guid>
+      <category>Government</category>
+      <dc:creator>Welsh Government</dc:creator>
+    <polintel:location>Wales</polintel:location><polintel:closingDate>2026-10-15</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Information and Cyber Risk Assurance Advisor</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014701</link>
+      <description>Role at Department for Energy Security &amp; Net Zero in Birmingham, Bristol, Cardiff, Darlington, Edinburgh, London, Salford. Salary: £56,900 to £69,765. Closing: 2026-10-15.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014701</guid>
+      <category>Government</category>
+      <dc:creator>Department for Energy Security &amp; Net Zero</dc:creator>
+    <polintel:location>Birmingham, Bristol, Cardiff, Darlington, Edinburgh, London, Salford</polintel:location><polintel:closingDate>2026-10-15</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Public Bodies - HEO</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014704</link>
+      <description>Role at Cabinet Office in Glasgow, London. Salary: £39,250 to £46,844. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014704</guid>
+      <category>Government</category>
+      <dc:creator>Cabinet Office</dc:creator>
+    <polintel:location>Glasgow, London</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>In-house Solicitor</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014714</link>
+      <description>Role at Environmental Standards Scotland in Edinburgh. Salary: £49,401. Closing: 2026-10-13.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014714</guid>
+      <category>Government</category>
+      <dc:creator>Environmental Standards Scotland</dc:creator>
+    <polintel:location>Edinburgh</polintel:location><polintel:closingDate>2026-10-13</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Business Support Executive</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014731</link>
+      <description>Role at HM Land Registry in Birkenhead, North West England, CH41 6DU : Croydon, London (region), CR0 2AQ : Coventry, West Midlands (England), CV1 2WT : Durham, North East England, DH1 5TR : Weymouth, South West England, DT4 9TT : Gloucester, ... see the job advert for full location information. Salary: £33,227. Closing: 2026-10-04.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014731</guid>
+      <category>Government</category>
+      <dc:creator>HM Land Registry</dc:creator>
+    <polintel:location>Birkenhead, North West England, CH41 6DU : Croydon, London (region), CR0 2AQ : Coventry, West Midlands (England), CV1 2WT : Durham, North East England, DH1 5TR : Weymouth, South West England, DT4 9TT : Gloucester, ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-04</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Internal Communications Executive</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014736</link>
+      <description>Role at National Savings and Investments in This role will be based in the London Office (SE1 9HA).. Salary: £39,000. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014736</guid>
+      <category>Government</category>
+      <dc:creator>National Savings and Investments</dc:creator>
+    <polintel:location>This role will be based in the London Office (SE1 9HA).</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Maths and Cryptography Internship</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014738</link>
+      <description>Role at GCHQ in Cheltenham. Salary: £5,528. Closing: 2026-10-01.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014738</guid>
+      <category>Government</category>
+      <dc:creator>GCHQ</dc:creator>
+    <polintel:location>Cheltenham</polintel:location><polintel:closingDate>2026-10-01</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Range Safety Officer</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014732</link>
+      <description>Role at Defence Science and Technology Laboratory in Dstl Porton Down, Salisbury, Wiltshire, SP4 0JQ. Salary: £60,448 to £67,274. Closing: 2026-10-13.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014732</guid>
+      <category>Government</category>
+      <dc:creator>Defence Science and Technology Laboratory</dc:creator>
+    <polintel:location>Dstl Porton Down, Salisbury, Wiltshire, SP4 0JQ</polintel:location><polintel:closingDate>2026-10-13</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Product Co-ordinator (Fixed Term Appointment) (5140)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014739</link>
+      <description>Role at Social Security Scotland in Dundee, Glasgow. Salary: £39,767 to £45,472. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014739</guid>
+      <category>Government</category>
+      <dc:creator>Social Security Scotland</dc:creator>
+    <polintel:location>Dundee, Glasgow</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Data Analyst</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014744</link>
+      <description>Role at HM Revenue and Customs in Bristol, Leeds, Stratford, Telford Please note that due to workforce controls, Stratford is only available to existing HMRC staff in this locations. HMRC staff based in Reading can also apply to move to ... see the job advert for full location information. Salary: £37,682 to £46,077. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014744</guid>
+      <category>Government</category>
+      <dc:creator>HM Revenue and Customs</dc:creator>
+    <polintel:location>Bristol, Leeds, Stratford, Telford Please note that due to workforce controls, Stratford is only available to existing HMRC staff in this locations. HMRC staff based in Reading can also apply to move to ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Maths And Cryptography Insight Programme</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014743</link>
+      <description>Role at GCHQ in Cheltenham. Salary: £350. Closing: 2026-10-01.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014743</guid>
+      <category>Government</category>
+      <dc:creator>GCHQ</dc:creator>
+    <polintel:location>Cheltenham</polintel:location><polintel:closingDate>2026-10-01</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Associate Commercial Practitioner</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014752</link>
+      <description>Role at Driver and Vehicle Licensing Agency in Swansea. Salary: £30,485. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014752</guid>
+      <category>Government</category>
+      <dc:creator>Driver and Vehicle Licensing Agency</dc:creator>
+    <polintel:location>Swansea</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Head of Programme Development</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014756</link>
+      <description>Role at Department for Science, Innovation &amp; Technology in Salford. Salary: £56,850 to £68,570. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014756</guid>
+      <category>Government</category>
+      <dc:creator>Department for Science, Innovation &amp; Technology</dc:creator>
+    <polintel:location>Salford</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Principal Project Manager</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014763</link>
+      <description>Role at FCDO Services in Hanslope, South East England, MK19 7BH : City of Westminster, London (region), SW1A 2AH. Salary: £75,055 to £77,259. Closing: 2026-10-18.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014763</guid>
+      <category>Government</category>
+      <dc:creator>FCDO Services</dc:creator>
+    <polintel:location>Hanslope, South East England, MK19 7BH : City of Westminster, London (region), SW1A 2AH</polintel:location><polintel:closingDate>2026-10-18</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Software Developer (Management)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014762</link>
+      <description>Role at Met Office in Exeter, South West England, EX1 3PB. Salary: £43,081 to £46,728. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014762</guid>
+      <category>Government</category>
+      <dc:creator>Met Office</dc:creator>
+    <polintel:location>Exeter, South West England, EX1 3PB</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Manager - Delivery Control Performance</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014764</link>
+      <description>Role at Homes England in Birmingham, West Midlands (England), B1 2AX : Bristol, South West England, BS1 6EH : Longstanton, East of England, CB24 3EN : Liverpool, North West England, L3 1BP : Leeds, Yorkshire and the Humber, LS11 ... see the job advert for full location information. Salary: £39,933 to £46,573. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014764</guid>
+      <category>Government</category>
+      <dc:creator>Homes England</dc:creator>
+    <polintel:location>Birmingham, West Midlands (England), B1 2AX : Bristol, South West England, BS1 6EH : Longstanton, East of England, CB24 3EN : Liverpool, North West England, L3 1BP : Leeds, Yorkshire and the Humber, LS11 ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Manager  Planning &amp; insight</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014767</link>
+      <description>Role at Homes England in Birmingham, West Midlands (England), B1 2AX : Bristol, South West England, BS1 6EH : Longstanton, East of England, CB24 3EN : Liverpool, North West England, L3 1BP : Leeds, Yorkshire and the Humber, LS11 ... see the job advert for full location information. Salary: £59,631 to £69,548. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014767</guid>
+      <category>Government</category>
+      <dc:creator>Homes England</dc:creator>
+    <polintel:location>Birmingham, West Midlands (England), B1 2AX : Bristol, South West England, BS1 6EH : Longstanton, East of England, CB24 3EN : Liverpool, North West England, L3 1BP : Leeds, Yorkshire and the Humber, LS11 ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Debt &amp; Invoicing Assistant (Band 6/AO)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014770</link>
+      <description>Role at Health and Safety Executive in Bootle. Salary: £28,499. Closing: 2026-10-05.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014770</guid>
+      <category>Government</category>
+      <dc:creator>Health and Safety Executive</dc:creator>
+    <polintel:location>Bootle</polintel:location><polintel:closingDate>2026-10-05</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Probation Service Officer - North Kent - Kent, Surrey &amp; Sussex  (Ref: 22764)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014810</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at NPS MEDWAY MAGISTRATES COURT CHATHAM ME4 4JZ, NPS NEW ROAD CHATHAM ME4 4QQ. Salary: £28,064 to £33,549. Closing: 2026-10-16.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014810</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at NPS MEDWAY MAGISTRATES COURT CHATHAM ME4 4JZ, NPS NEW ROAD CHATHAM ME4 4QQ</polintel:location><polintel:closingDate>2026-10-16</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Probation Service Officer - Mid Kent - Kent, Surrey &amp; Sussex  (Ref: 22765)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014815</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at MAIDSTONE MAGISTRATES MAIDSTONE ME15 6LL, NPS 17 GARDEN ROAD TUNBRIDGE WELLS TN1 2XP, NPS 56-58 COLLEGE ROAD MAIDSTONE ME15 6SJ, NPS MAIDSTONE CROWN COURT MAIDSTONE ME16 8EQ. Salary: £28,064 to £33,549. Closing: 2026-10-16.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014815</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at MAIDSTONE MAGISTRATES MAIDSTONE ME15 6LL, NPS 17 GARDEN ROAD TUNBRIDGE WELLS TN1 2XP, NPS 56-58 COLLEGE ROAD MAIDSTONE ME15 6SJ, NPS MAIDSTONE CROWN COURT MAIDSTONE ME16 8EQ</polintel:location><polintel:closingDate>2026-10-16</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Probation Service Officer - East Kent - Kent, Surrey &amp; Sussex  (Ref: 22767)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014817</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at CANTERBURY COMBINED CANTERBURY CT1 1ZA, MARGATE MAGISTRATES COURT MARGATE CT9 1LG, NMS Queens House CT11 9DH, NMS Templar House TN23 1PL, NPS FOLKESTONE MAGISTRATES COURT FOLKESTONE ... see the job advert for full location information. Salary: £28,064 to £33,549. Closing: 2026-10-16.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014817</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at CANTERBURY COMBINED CANTERBURY CT1 1ZA, MARGATE MAGISTRATES COURT MARGATE CT9 1LG, NMS Queens House CT11 9DH, NMS Templar House TN23 1PL, NPS FOLKESTONE MAGISTRATES COURT FOLKESTONE ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-16</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Probation Service Officer - West Sussex -  Kent, Surrey &amp; Sussex   (Ref: 22768)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014820</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at CRAWLEY MAGISTRATES CRAWLEY RH10 8BF, NMS Arun Civic Centre BN17 5NA, NMS Midtown House RH10 1BW, NPS WORTHING PROBATION OFFICE WORTHING BN11 2BE, WORTHING MAGISTRATES WORTHING ... see the job advert for full location information. Salary: £28,064 to £33,549. Closing: 2026-10-16.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014820</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at CRAWLEY MAGISTRATES CRAWLEY RH10 8BF, NMS Arun Civic Centre BN17 5NA, NMS Midtown House RH10 1BW, NPS WORTHING PROBATION OFFICE WORTHING BN11 2BE, WORTHING MAGISTRATES WORTHING ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-16</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Probation Service Officer - East Sussex - Kent, Surrey &amp; Sussex  (Ref: 22770)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014822</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at BRIGHTON MAGISTRATES COURT BN2 0LG, NPS 47 GRAND PARADE BRIGHTON BN2 9QA, NPS COMUNITY SUPERVISION EASTBOURNE BN21 1DD, NPS CROZIER HOUSE ST LEONARDS TN38 0ET, NPS LEWES CROWN COURT ... see the job advert for full location information. Salary: £28,064 to £33,549. Closing: 2026-10-16.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014822</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at BRIGHTON MAGISTRATES COURT BN2 0LG, NPS 47 GRAND PARADE BRIGHTON BN2 9QA, NPS COMUNITY SUPERVISION EASTBOURNE BN21 1DD, NPS CROZIER HOUSE ST LEONARDS TN38 0ET, NPS LEWES CROWN COURT ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-16</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Probation Service Officer - Surrey - Kent, Surrey &amp; Sussex   (Ref: 22773)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014824</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at GUILDFORD CROWN GUILDFORD GU1 4ST, GUILDFORD MAGISTRATES GUILDFORD GU1 4PS, NPS COLLEGE HOUSE GUILDFORD GU1 4RS, NPS FORUM HOUSE SURREY RH1 6YS, NPS SWAN HOUSE STAINES TW18 1AJ. Salary: £28,064 to £33,549. Closing: 2026-10-16.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014824</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at GUILDFORD CROWN GUILDFORD GU1 4ST, GUILDFORD MAGISTRATES GUILDFORD GU1 4PS, NPS COLLEGE HOUSE GUILDFORD GU1 4RS, NPS FORUM HOUSE SURREY RH1 6YS, NPS SWAN HOUSE STAINES TW18 1AJ</polintel:location><polintel:closingDate>2026-10-16</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Probation Service Officer - Public Protection - Kent, Surrey &amp; Sussex (Ref: 22777)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014825</link>
+      <description>Role at HM Prison &amp; Probation Service in This position is based at HM PRISON BRONZEFIELD ASHFORD TW15 3JZ, HM PRISON COOKHAM WOOD ROCHESTER ME1 3LU, HM PRISON EAST SUTTON PARK MAIDSTONE ME17 3DF, HM PRISON ELMLEY SHEERNESS ME12 4DZ, HM PRISON FORD ... see the job advert for full location information. Salary: £28,064 to £33,549. Closing: 2026-10-16.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014825</guid>
+      <category>Government</category>
+      <dc:creator>HM Prison &amp; Probation Service</dc:creator>
+    <polintel:location>This position is based at HM PRISON BRONZEFIELD ASHFORD TW15 3JZ, HM PRISON COOKHAM WOOD ROCHESTER ME1 3LU, HM PRISON EAST SUTTON PARK MAIDSTONE ME17 3DF, HM PRISON ELMLEY SHEERNESS ME12 4DZ, HM PRISON FORD ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-16</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Operational Support Officer (Ref: 22696)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014781</link>
+      <description>Role at HM Courts and Tribunals Service in This position is based at PORTSMOUTH COMBINED PORTSMOUTH, PO1 2EB. Salary: £25,582. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014781</guid>
+      <category>Government</category>
+      <dc:creator>HM Courts and Tribunals Service</dc:creator>
+    <polintel:location>This position is based at PORTSMOUTH COMBINED PORTSMOUTH, PO1 2EB</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Administrative Officer  Customer Contact</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014786</link>
+      <description>Role at Animal and Plant Health Agency in Stafford. Salary: £27,001 to £27,001. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014786</guid>
+      <category>Government</category>
+      <dc:creator>Animal and Plant Health Agency</dc:creator>
+    <polintel:location>Stafford</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Infrastructure Engineer</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014785</link>
+      <description>Role at Department for Work and Pensions in This role may be located in one of the following locations; Blackpool or Manchester.. Salary: £57,946 to £73,205. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014785</guid>
+      <category>Government</category>
+      <dc:creator>Department for Work and Pensions</dc:creator>
+    <polintel:location>This role may be located in one of the following locations; Blackpool or Manchester.</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Head of Employment Relations - Casework</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014788</link>
+      <description>Role at Office for National Statistics in The locations for this role are Newport &amp; Titchfield (Fareham).. Salary: £56,861. Closing: 2026-10-18.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014788</guid>
+      <category>Government</category>
+      <dc:creator>Office for National Statistics</dc:creator>
+    <polintel:location>The locations for this role are Newport &amp; Titchfield (Fareham).</polintel:location><polintel:closingDate>2026-10-18</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Deputy Director, Arts (Maternity Cover)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014793</link>
+      <description>Role at Department for Culture, Media and Sport in London, Manchester. Salary: £86,000. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014793</guid>
+      <category>Government</category>
+      <dc:creator>Department for Culture, Media and Sport</dc:creator>
+    <polintel:location>London, Manchester</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Finance Business Partner</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014795</link>
+      <description>Role at Innovate UK in Swindon. Salary: £46,743 to £46,743. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014795</guid>
+      <category>Government</category>
+      <dc:creator>Innovate UK</dc:creator>
+    <polintel:location>Swindon</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Project Management Officer</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014796</link>
+      <description>Role at Department for Transport in Birmingham, Leeds. Salary: £44,241. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014796</guid>
+      <category>Government</category>
+      <dc:creator>Department for Transport</dc:creator>
+    <polintel:location>Birmingham, Leeds</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Weapons Effect Analyst</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014798</link>
+      <description>Role at Defence Science and Technology Laboratory in Dstl Portsdown West, Fareham, Hants PO17 6AD. Salary: £30,741 to £35,088. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014798</guid>
+      <category>Government</category>
+      <dc:creator>Defence Science and Technology Laboratory</dc:creator>
+    <polintel:location>Dstl Portsdown West, Fareham, Hants PO17 6AD</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Defence Nuclear Organisation - Assistant Head Strategy</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014831</link>
+      <description>Role at Ministry of Defence in MOD Main Building: Whitehall, London SW1A 2HB. Salary: £61,630. Closing: 2026-10-09.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014831</guid>
+      <category>Government</category>
+      <dc:creator>Ministry of Defence</dc:creator>
+    <polintel:location>MOD Main Building: Whitehall, London SW1A 2HB</polintel:location><polintel:closingDate>2026-10-09</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Employee Experience Lead</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014799</link>
+      <description>Role at Companies House in Crown Way, Cardiff, CF14 3UZ. Salary: £46,744 to £51,256. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014799</guid>
+      <category>Government</category>
+      <dc:creator>Companies House</dc:creator>
+    <polintel:location>Crown Way, Cardiff, CF14 3UZ</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Principal Governance and Risk Manager</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014801</link>
+      <description>Role at Department for Transport in Birmingham, Hastings, Leeds, Swansea. Salary: £57,515. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014801</guid>
+      <category>Government</category>
+      <dc:creator>Department for Transport</dc:creator>
+    <polintel:location>Birmingham, Hastings, Leeds, Swansea</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Co-Head of Policy Team</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014802</link>
+      <description>Role at UK Debt Management Office in City of London. Salary: £110,000 to £125,000. Closing: 2026-10-18.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014802</guid>
+      <category>Government</category>
+      <dc:creator>UK Debt Management Office</dc:creator>
+    <polintel:location>City of London</polintel:location><polintel:closingDate>2026-10-18</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Scientific Assessor - £37,456-£42,084 p.a. + benefits</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014809</link>
+      <description>Role at Medicines and Healthcare Products Regulatory Agency in Canary Wharf, London. Salary: £37,456. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014809</guid>
+      <category>Government</category>
+      <dc:creator>Medicines and Healthcare Products Regulatory Agency</dc:creator>
+    <polintel:location>Canary Wharf, London</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Engagement Officer</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014823</link>
+      <description>Role at HM Treasury in This post is based in Darlington (Feethams House). This role cannot be worked from any other HM Treasury office.. Salary: £30,310 to £32,962. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014823</guid>
+      <category>Government</category>
+      <dc:creator>HM Treasury</dc:creator>
+    <polintel:location>This post is based in Darlington (Feethams House). This role cannot be worked from any other HM Treasury office.</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Deputy Director Data Modernisation and Deputy Director Data Innovation (2 posts)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014814</link>
+      <description>Role at Home Office in London, Croydon, Manchester or Sheffield. Frequent travel to 2 Marsham Street, London will be required if based elsewhere in the UK.. Salary: £90,000 to £105,000. Closing: 2026-10-08.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014814</guid>
+      <category>Government</category>
+      <dc:creator>Home Office</dc:creator>
+    <polintel:location>London, Croydon, Manchester or Sheffield. Frequent travel to 2 Marsham Street, London will be required if based elsewhere in the UK.</polintel:location><polintel:closingDate>2026-10-08</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Deputy Director  -  Counter Fraud</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014821</link>
+      <description>Role at HM Land Registry in Birkenhead, North West England, CH41 6DU : Croydon, London (region), CR0 2AQ : Coventry, West Midlands (England), CV1 2WT : Durham, North East England, DH1 5TR : Weymouth, South West England, DT4 9TT : Gloucester, ... see the job advert for full location information. Salary: £86,000 to £117,800. Closing: 2026-10-25.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014821</guid>
+      <category>Government</category>
+      <dc:creator>HM Land Registry</dc:creator>
+    <polintel:location>Birkenhead, North West England, CH41 6DU : Croydon, London (region), CR0 2AQ : Coventry, West Midlands (England), CV1 2WT : Durham, North East England, DH1 5TR : Weymouth, South West England, DT4 9TT : Gloucester, ... see the job advert for full location information</polintel:location><polintel:closingDate>2026-10-25</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Cyber Strategy Technical Expert</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014826</link>
+      <description>Role at OFGEM in Successful candidates may be based in any of our office locations  Cardiff, Glasgow, or London. We especially welcome applicants from Cardiff and Glasgow.. Salary: £63,443 to £86,547. Closing: 2026-10-12.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014826</guid>
+      <category>Government</category>
+      <dc:creator>OFGEM</dc:creator>
+    <polintel:location>Successful candidates may be based in any of our office locations  Cardiff, Glasgow, or London. We especially welcome applicants from Cardiff and Glasgow.</polintel:location><polintel:closingDate>2026-10-12</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Software Developer C# .NET and Angular (up to £83,918)</title>
+      <link>https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014827</link>
+      <description>Role at Department for Education in Coventry, West Midlands (England), CV1 2WT : Darlington, North East England, DL1 5QE : Manchester, North West England, M1 2WD : Sheffield, Yorkshire and the Humber, S1 2FJ. Salary: £60,222. Closing: 2026-10-11.</description>
+      <guid isPermaLink="false">https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2014827</guid>
+      <category>Government</category>
+      <dc:creator>Department for Education</dc:creator>
+    <polintel:location>Coventry, West Midlands (England), CV1 2WT : Darlington, North East England, DL1 5QE : Manchester, North West England, M1 2WD : Sheffield, Yorkshire and the Humber, S1 2FJ</polintel:location><polintel:closingDate>2026-10-11</polintel:closingDate><polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Lead Financial Promotion Supervisor</title>
+      <link>https://fca.wd3.myworkdayjobs.com/FCA_Careers/job/London/Lead-Financial-Promotion-Supervisor_JR0022438-1</link>
+      <description>Job Title: Lead Financial Promotion Supervisor Division: Supervision, Policy &amp; Competition (SPC) Department: Consumer Investments (CI) Salary: National (Edinburgh and Leeds) ranging from £60,700 to £75,600 and London £66,600 to £83,100 (salary offered will be based on skills and experience) This role is graded as: Lead Associate – Regulatory Your external recruitment contact is Steve Christopher via steve.christopher@fca.org.uk . Your internal recruitment contact is Isabelle Groves via isabelle.groves@fca.org.uk . Applications must be submitted through our online portal. Applications sent via social media or email will not be accepted. About the FCA and team We regulate financial services firms in the UK, to keep financial markets fair, thriving and effective. By joining us, you’ll play a key part in protecting consumers, driving economic growth and shaping the future of financial services in the UK. SPC oversees firms and individuals (supervision), creates and reviews the rules by which they operate (policy) and identifies and remedies ineffective competition in markets (competition). We are currently recruiting for a Lead Associate to join our Engagement &amp; Strategy Team within SPEP. Our department has a broad remit across both authorised and unauthorised activities, working to reduce harm arising from non-compliant financial promotions, scams, fraud, high-risk investments and other activities that may lead to consumer harm or financial loss. The Engagement &amp; Strategy Team plays a critical role in identifying and assessing emerging risks through horizon scanning, risk analysis and strategic project work. The team oversees the department’s risk framework and project portfolio, helping to shape proactive interventions that mitigate harm, support market integrity and deliver better outcomes for consumers across the UK. Role responsibilities Lead high-profile supervisory projects, delivering robust analysis and evidence-based assessments that help shape regulatory outcomes and protect consumers Identify emerging and complex risks across financial markets, assessing potential harm and supporting action to improve outcomes for people and businesses across the UK Apply intelligence, data and cross-FCA collaboration to spot issues early, helping to prevent consumer and market harm before it occurs Evaluate innovative and higher-risk financial promotions, including cryptoassets and non-mainstream investments, applying regulatory expertise to support sound decision-making Help create positive change by developing creative approaches to reducing harm, working with firms to raise standards and deliver better consumer outcomes Coach, support and develop colleagues while helping to shape team priorities, ensuring resources are focused on the areas that deliver the greatest impact for consumers and markets Skills required Minimum: Prior experience of making timely, risk-based decisions, with clear justification and the ability to implement an appropriate strategy Prior experience in analysing complex information from multiple sources to identify key risks, insights and outcomes Prior experience of supporting, mentoring and leading others, delivering results through collaboration and communicating clearly and concisely Essential: Demonstrated accountability, with the ability to take ownership of issues and deliver pragmatic, solutions-focused outcomes Solid organisational and prioritisation skills, with the ability to manage competing demands and adjust to changing priorities Effective influencing and negotiation skills, while maintaining the integrity and accuracy of key messages and issues Sound judgement, with the ability to assess, analyse and validate risks, reaching robust and well-reasoned decisions in demanding situations Ability to work well collaboratively as part of a team to meet shared objectives and deliver effective outcomes Well-developed written and verbal communication abilities, including the capacity to convey complex ideas clearly and confidently to different audiences Commitment to continuous learning and development, with a flexible, adaptable and proactive approach to taking on new responsibilities Ability to build and maintain positive working relationships with internal and external stakeholders at all levels to support the delivery of organisational objectives Benefits 25 days annual leave plus bank holidays Colleagues spend a minimum of 50% of their working time in the office each month (60% for Directors and Executive Directors) across our London, Leeds and Edinburgh offices Non-contributory pension (8–12% depending on age) and life assurance at eight times your salary Private healthcare with Bupa, income protection and 24/7 Employee Assistance 35 hours of paid volunteering annually A flexible benefits scheme designed around your lifestyle For a full list of our benefits and our recruitment process as a whole visit our benefits page . Our values and culture Our colleagues are the key to our success as a regulator. We are committed to fostering a diverse and inclusive culture: one that’s free from discrimination and bias, celebrates difference and supports colleagues to deliver at their best. We believe that our differences and similarities enable us to be a better organisation – one that makes better decisions, drives innovation and delivers better regulation. If you require any adjustments due to a disability or condition, your recruiter is here to help - reach out for tailored support. We welcome diverse working styles and aim to find flexible solutions that suit both the role and individual needs, including options like part-time and job sharing where applicable. Disability confident: our hiring approach We’re proud to be a Disability Confident Employer and therefore, people or individuals with disabilities and long-term conditions who best meet the minimum criteria for a role will go through to the next stage of the recruitment process. In cases of high application volumes we may progress applicants whose experience most closely matches the role’s key requirements. Useful information and timelines Timeline: Job advert close:  9th October 2026 at Midnight CV Review/Shortlist: 13th October 2026 Case Study Assessment &amp; Interviews: w/c 19th October 2026 Your Recruiter will discuss the process in detail with you during screening for the role, therefore, please make them aware if you are going to be unavailable for any date during this time</description>
+      <guid isPermaLink="false">https://fca.wd3.myworkdayjobs.com/FCA_Careers/job/London/Lead-Financial-Promotion-Supervisor_JR0022438-1</guid>
+      <category>Government</category>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Financial Conduct Authority</dc:creator>
+    <polintel:location>London</polintel:location><polintel:closingDate>2026-10-10</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
