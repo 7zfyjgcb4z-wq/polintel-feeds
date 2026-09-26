@@ -1,38 +1,36 @@
 {
-  "last_run": "2026-09-25T10:05:52Z",
+  "last_run": "2026-09-26T09:47:21Z",
   "country": "uk",
-  "total_active_jobs": 2615,
+  "total_active_jobs": 2664,
   "new_jobs_found": 168,
   "sources_checked": 26,
-  "sources_succeeded": 25,
-  "sources_failed": 1,
+  "sources_succeeded": 26,
+  "sources_failed": 0,
   "sources_disabled": 99,
-  "relevance_filtered": 38,
-  "descriptions_enriched": 96,
+  "relevance_filtered": 44,
+  "descriptions_enriched": 88,
   "feeds_generated": 8,
-  "run_duration_seconds": 540.3,
-  "failed_sources": [
-    "Bank of England"
-  ],
+  "run_duration_seconds": 500.9,
+  "failed_sources": [],
   "per_source": [
     {
       "name": "Civil Service Jobs",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 253,
-      "jobs_after_relevance_filter": 230,
+      "jobs_found": 250,
+      "jobs_after_relevance_filter": 227,
       "descriptions_enriched": 0,
-      "duration_seconds": 298.2,
+      "duration_seconds": 287.3,
       "notes": "Description enrichment disabled for this source"
     },
     {
       "name": "NICS",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 16,
-      "jobs_after_relevance_filter": 16,
+      "jobs_found": 10,
+      "jobs_after_relevance_filter": 10,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.4,
+      "duration_seconds": 1.0,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -49,10 +47,10 @@
       "name": "CharityJob",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 384,
-      "jobs_after_relevance_filter": 373,
-      "descriptions_enriched": 90,
-      "duration_seconds": 82.6
+      "jobs_found": 383,
+      "jobs_after_relevance_filter": 367,
+      "descriptions_enriched": 67,
+      "duration_seconds": 78.6
     },
     {
       "name": "jobs.ac.uk",
@@ -60,36 +58,39 @@
       "status": "success",
       "jobs_found": 36,
       "jobs_after_relevance_filter": 33,
-      "descriptions_enriched": 2,
-      "duration_seconds": 10.4
+      "descriptions_enriched": 0,
+      "duration_seconds": 10.2,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "FCA",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 15,
-      "jobs_after_relevance_filter": 15,
+      "jobs_found": 16,
+      "jobs_after_relevance_filter": 16,
       "descriptions_enriched": 0,
-      "duration_seconds": 15.9,
+      "duration_seconds": 15.4,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
       "name": "ICO",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
+      "jobs_found": 1,
+      "jobs_after_relevance_filter": 1,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.1
+      "duration_seconds": 2.0,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
       "name": "Bank of England",
       "scraper_type": "ats_auto",
-      "status": "failed",
-      "jobs_found": 0,
-      "jobs_after_relevance_filter": 0,
+      "status": "success",
+      "jobs_found": 19,
+      "jobs_after_relevance_filter": 18,
       "descriptions_enriched": 0,
-      "duration_seconds": 30.0
+      "duration_seconds": 14.6,
+      "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
       "name": "Tony Blair Institute",
@@ -98,7 +99,7 @@
       "jobs_found": 12,
       "jobs_after_relevance_filter": 11,
       "descriptions_enriched": 0,
-      "duration_seconds": 13.4,
+      "duration_seconds": 13.8,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
@@ -108,7 +109,7 @@
       "jobs_found": 2,
       "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.9,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -118,7 +119,7 @@
       "jobs_found": 6,
       "jobs_after_relevance_filter": 6,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.0,
+      "duration_seconds": 0.7,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -128,7 +129,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.0
+      "duration_seconds": 0.7
     },
     {
       "name": "National Audit Office",
@@ -137,7 +138,7 @@
       "jobs_found": 5,
       "jobs_after_relevance_filter": 5,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.0,
+      "duration_seconds": 0.8,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -147,7 +148,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.8
+      "duration_seconds": 0.6
     },
     {
       "name": "Policy Exchange",
@@ -156,7 +157,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 2.6
+      "duration_seconds": 0.5
     },
     {
       "name": "Onward",
@@ -165,7 +166,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 2.0
+      "duration_seconds": 1.7
     },
     {
       "name": "NEF",
@@ -174,7 +175,7 @@
       "jobs_found": 1,
       "jobs_after_relevance_filter": 1,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.0,
+      "duration_seconds": 0.9,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -192,8 +193,9 @@
       "status": "success",
       "jobs_found": 12,
       "jobs_after_relevance_filter": 12,
-      "descriptions_enriched": 1,
-      "duration_seconds": 1.2
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.9,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "SNP",
@@ -202,7 +204,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.1
+      "duration_seconds": 0.8
     },
     {
       "name": "Green Party",
@@ -210,8 +212,9 @@
       "status": "success",
       "jobs_found": 7,
       "jobs_after_relevance_filter": 7,
-      "descriptions_enriched": 1,
-      "duration_seconds": 0.8
+      "descriptions_enriched": 0,
+      "duration_seconds": 0.5,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "Co-operative Party",
@@ -226,20 +229,19 @@
       "name": "Ellwood Atfield",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 13,
-      "jobs_after_relevance_filter": 13,
-      "descriptions_enriched": 0,
-      "duration_seconds": 0.2,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+      "jobs_found": 19,
+      "jobs_after_relevance_filter": 19,
+      "descriptions_enriched": 4,
+      "duration_seconds": 0.2
     },
     {
       "name": "Amnesty International UK",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 4,
-      "jobs_after_relevance_filter": 4,
+      "jobs_found": 3,
+      "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.3,
+      "duration_seconds": 0.9,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -249,16 +251,16 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.2
     },
     {
       "name": "W4MP",
       "scraper_type": "rss_feed",
       "status": "success",
-      "jobs_found": 134,
-      "jobs_after_relevance_filter": 134,
-      "descriptions_enriched": 2,
-      "duration_seconds": 3.8
+      "jobs_found": 139,
+      "jobs_after_relevance_filter": 139,
+      "descriptions_enriched": 17,
+      "duration_seconds": 0.7
     }
   ]
 }

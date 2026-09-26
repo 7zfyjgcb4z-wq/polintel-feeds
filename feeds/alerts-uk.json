@@ -1,30 +1,22 @@
 {
-  "generated_at": "2026-09-25T10:05:52Z",
+  "generated_at": "2026-09-26T09:47:21Z",
   "country": "uk",
   "alerts": [
-    {
-      "source": "ICO",
-      "type": "zero_result_after_success",
-      "previous_count": 1,
-      "current_count": 0,
-      "consecutive_zeros": 14,
-      "message": "ICO returned 0 jobs (was 1) for 14 consecutive run(s). Review selector or check for vacancies."
-    },
     {
       "source": "Policy Exchange",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 1,
-      "message": "Policy Exchange returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+      "consecutive_zeros": 2,
+      "message": "Policy Exchange returned 0 jobs (was 1) for 2 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "Demos",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 1,
-      "message": "Demos returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+      "consecutive_zeros": 2,
+      "message": "Demos returned 0 jobs (was 1) for 2 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {
@@ -36,7 +28,7 @@
       "jobs.ac.uk": 0,
       "FCA": 0,
       "ICO": 0,
-      "Bank of England": 1,
+      "Bank of England": 0,
       "Tony Blair Institute": 0,
       "ECFR London": 0,
       "E3G": 0,

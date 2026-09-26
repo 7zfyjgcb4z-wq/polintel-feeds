@@ -1,29 +1,21 @@
 {
-  "generated_at": "2026-09-25T19:47:52Z",
+  "generated_at": "2026-09-26T09:47:21Z",
   "alerts": [
-    {
-      "source": "ICO",
-      "type": "zero_result_after_success",
-      "previous_count": 1,
-      "current_count": 0,
-      "consecutive_zeros": 14,
-      "message": "ICO returned 0 jobs (was 1) for 14 consecutive run(s). Review selector or check for vacancies."
-    },
     {
       "source": "Policy Exchange",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 1,
-      "message": "Policy Exchange returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+      "consecutive_zeros": 2,
+      "message": "Policy Exchange returned 0 jobs (was 1) for 2 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "Demos",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 1,
-      "message": "Demos returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+      "consecutive_zeros": 2,
+      "message": "Demos returned 0 jobs (was 1) for 2 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "House Employment Bulletin",
