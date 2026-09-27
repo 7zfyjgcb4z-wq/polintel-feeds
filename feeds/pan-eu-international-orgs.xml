@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Sep 2026 17:38:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 18:04:30 +0000</lastBuildDate>
     <item>
       <title>Social Media Internship</title>
       <link>https://careers.un.org/jobSearchDescription/282307?language=en</link>
@@ -84,11 +84,11 @@
     <item>
       <title>Information Systems Officer</title>
       <link>https://careers.un.org/jobSearchDescription/283429?language=en</link>
-      <description>Level : P-3 Job ID : 278968 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : Office of Information and Communications Technology Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 06/18/2026 00:00:00 AM (New York time) Deadline : 07/17/2026 23:59:59 PM (New York time)</description>
+      <description>Level : P-3 Job ID : 283429 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : Office of Information and Communications Technology Duty Station : VALENCIA Staffing Exercise : undefined Posted Date : 09/01/2026 00:00:00 AM (New York time) Deadline : 09/30/2026 23:59:59 PM (New York time)</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283429?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>Office of Information and Communications Technology</dc:creator>
-    <polintel:location>Bangkok, Thailand</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <polintel:location>Valencia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Deputy Executive Director, ITC</title>
       <link>https://careers.un.org/jobSearchDescription/280321?language=en</link>
@@ -145,14 +145,6 @@
       <category>International Organisations</category>
       <dc:creator>Resident Coordinator System</dc:creator>
     <polintel:location>Amman, Jordan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>ENGINEER</title>
-      <link>https://careers.un.org/jobSearchDescription/282976?language=en</link>
-      <description>Level : P-3 Job ID : 280757 Job Network : Logistics, Transportation and Supply Chain Job Family : Engineering Department/Office : UN Support Office in Haiti Duty Station : PORT-AU-PRINCE Staffing Exercise : undefined Posted Date : 07/08/2026 00:00:00 AM (New York time) Deadline : 07/15/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282976?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>UN Support Office in Haiti</dc:creator>
-    <polintel:location>Port-Au-Prince, Haiti</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Political Affairs Intern</title>
       <link>https://careers.un.org/jobSearchDescription/281751?language=en</link>
@@ -225,30 +217,6 @@
       <category>International Organisations</category>
       <dc:creator>United Nations Conference on Trade and Development</dc:creator>
     <polintel:location>Bridgetown</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Administrative Officer</title>
-      <link>https://careers.un.org/jobSearchDescription/277712?language=en</link>
-      <description>Level : P-4 Job ID : 277712 Job Network : Management and Administration Job Family : Administration Department/Office : Department of Management Strategy, Policy and Compliance Office of Programme Planning, Finance and Budget Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/14/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/277712?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Department of Management Strategy, Policy and Compliance Office of Programme Planning, Finance and Budget</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>CONTRACTS MANAGEMENT OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/280591?language=en</link>
-      <description>Level : P-3 Job ID : 280591 Job Network : Logistics, Transportation and Supply Chain Job Family : Procurement Department/Office : United Nations Logistic Base Duty Station : BRINDISI Staffing Exercise : undefined Posted Date : 07/14/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/280591?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Logistic Base</dc:creator>
-    <polintel:location>Brindisi</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>LEGAL OFFICER (Temporary Job Opening)</title>
-      <link>https://careers.un.org/jobSearchDescription/282572?language=en</link>
-      <description>Level : P-3 Job ID : 280358 Job Network : Legal Job Family : Legal Affairs Department/Office : Office of Legal Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/15/2026 00:00:00 AM (New York time) Deadline : 07/22/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282572?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Office of Legal Affairs</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>General Services Management Assistant</title>
       <link>https://careers.un.org/jobSearchDescription/272990?language=en</link>
@@ -957,14 +925,6 @@ Maîtrise des outils de pr</description>
       <dc:creator>Economic and Social Commission for Western Asia</dc:creator>
     <polintel:location>Beirut, Lebanon</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Chief, Facilitation Section</title>
-      <link>https://careers.un.org/jobSearchDescription/281822?language=en</link>
-      <description>Level : P-5 Job ID : 281822 Job Network : Logistics, Transportation and Supply Chain Job Family : Aviation Department/Office : International Civil Aviation Organization Duty Station : MONTREAL Staffing Exercise : undefined Posted Date : 07/24/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281822?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>International Civil Aviation Organization</dc:creator>
-    <polintel:location>Montreal</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>FINANCE AND BUDGET OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/278858?language=en</link>
       <description>Level : P-4 Job ID : 278858 Job Network : Management and Administration Job Family : Finance Department/Office : Department of Peace Operations Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/24/2026 00:00:00 AM (New York time) Deadline : 09/06/2026 23:59:59 PM (New York time)</description>
@@ -1020,14 +980,6 @@ Maîtrise des outils de pr</description>
       <category>International Organisations</category>
       <dc:creator>United Nations Office at Nairobi</dc:creator>
     <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>ECE EHLM Internship</title>
-      <link>https://careers.un.org/jobSearchDescription/281753?language=en</link>
-      <description>Level : I-1 Job ID : 281441 Job Network : Job Family : Economic Affairs Department/Office : Economic Commission for Europe Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 07/28/2026 00:00:00 AM (New York time) Deadline : 08/10/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281753?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Economic Commission for Europe</dc:creator>
-    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>ADMINISTRATIVE ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/281589?language=en</link>
@@ -1214,14 +1166,6 @@ Les fonctions décrites ci-dessus seront pourvues dès que</description>
       <dc:creator>Economic Commission for Africa</dc:creator>
     <polintel:location>Rabat, Morocco</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>LEGAL ASSISTANT  (Personal Assistant to the Under-Secretary-General)</title>
-      <link>https://careers.un.org/jobSearchDescription/281282?language=en</link>
-      <description>Level : G-6 Job ID : 281282 Job Network : Legal Job Family : Legal Affairs Department/Office : Office of Legal Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/29/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281282?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Office of Legal Affairs</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Director, Corporate Management Division</title>
       <link>https://careers.un.org/jobSearchDescription/281516?language=en</link>
       <description>Level : D-1 Job ID : 281516 Job Network : Management and Administration Job Family : Management and Analysis Department/Office : United Nations Human Settlements Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 09/12/2026 23:59:59 PM (New York time)</description>
@@ -1240,11 +1184,11 @@ Les fonctions décrites ci-dessus seront pourvues dès que</description>
     <item>
       <title>Procurement Officer</title>
       <link>https://careers.un.org/jobSearchDescription/283354?language=en</link>
-      <description>Level : P-4 Job ID : 277407 Job Network : Logistics, Transportation and Supply Chain Job Family : Procurement Department/Office : Department of Operational Support Duty Station : ENTEBBE Staffing Exercise : undefined Posted Date : 07/30/2026 00:00:00 AM (New York time) Deadline : 09/12/2026 23:59:59 PM (New York time)</description>
+      <description>Level : P-3 Job ID : 283354 Job Network : Logistics, Transportation and Supply Chain Job Family : Procurement Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 09/10/2026 00:00:00 AM (New York time) Deadline : 10/24/2026 23:59:59 PM (New York time)</description>
       <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283354?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>Department of Operational Support</dc:creator>
-    <polintel:location>Entebbe</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>CHIEF, OPERATIONS AND RESOURCE MANAGEMENT</title>
       <link>https://careers.un.org/jobSearchDescription/282071?language=en</link>
@@ -2463,14 +2407,6 @@ pour consulter les Statut, Règlement et Instructions applicables aux agents de 
       <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>(Senior) Industry Specialist – AgTech</title>
-      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38010</link>
-      <description>Build a career with impact. Working at the World Bank Group (WBG) provides a unique opportunity to help countries solve their greatest development challenges. As one of the largest sources of funding and knowledge for developing countries, the WBG is a unique partnership of five global institutions dedicated to ending poverty, increasing shared prosperity, and promoting sustainable development. With 189 member countries and more than 120 offices worldwide, the WBG works with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. The WBG Planet Vice Presidency is responsible for getting the right public and private sector solutions to our operational teams and to our clients, and to produce scalable impact. Its mandate is to deliver knowledge for impact to enable and support the WBG to achieve its goals in support of our mission and specifically: providing guidance on creating more and better jobs; supporting foundational infrastructure and human capital, policy environment, and private sector mobilization; focusing on agribusiness, healthcare, infrastructure, manufacturing, and tourism; and support and accelerate specific targets such as M300, Health 1.5bn, and SP 500. The VPU’s objectives in driving outcomes include replicating and scaling effective solutions, enhancing thought leadership and innovation, and delivering timely knowledge to client teams. Agribusinesses in emerging markets, including farmers, input suppliers, aggregators, and processors, face numerous challenges such as limited access to necessary inputs, fragmented supply chains, high transaction costs, underdeveloped logistics, and climate change impacts. We are establishing an umbrella AgTech approach aimed at investing in innovative AgTech providers that address key areas such as access to finance, market linkages, farm-level productivity, supply chain management, post-harvest optimization, and climate. The dedicated AgTech approach will assist IFC in developing deeper expertise in the sector, which will drive impactful, long-term growth, increase returns, and foster closer relationships with industry players, thereby enhancing its market presence and creating more business opportunities. This approach will also boost technology update for Small Holder Farmers which is critical for narrowing the yield gap and mitigate the climate impact of agriculture. To support this work, we are seeking to employ a (Senior) Industry Specialist on AgTech, location would be in Washington (D.C., USA), specializing in all aspects AgTech investments including early-stage accelerators/incubators, climate-focused VC funds, venture debt, and direct equity investments. She/he will belong to the Farming and Agribusiness, Solutions Impact Unit and focus on global emerging markets. Assignment Objectives The (Senior) Industry Specialist will assist the Agribusiness unit in the identification, development and execution of the AgTech approach, ensuring alignment with WBG/IFC's broader strategy to build resilient and sustainable agrifood systems. When assessing investments, the specialist would be required to extensively travel and conduct due diligence on Companies being considered for an IFC investment. Industry Specialists play a key role within the investment teams and provide broad and in-depth industry knowledge to assess new investment companies and conduct detailed on-site due diligence, as well as performing supervision and value-addition of portfolio investments. IFC’s Advisory/Upstream teams might tap into the specialist’s knowledge/expertise. Duties and Accountabilities The (Senior) Industry Specialist will report to the Sector Lead and will be accountable for the following tasks: • Assist the Agribusiness team in developing a comprehensive sector strategy for AgTech investments, building on lessons learned from IFC's current AgTech portfolio; • Identify and map existing AgTech startups and relevant themes that align with WBG/IFC's investment mandate and strategic priorities; • Working closely with the sector lead, Global subsector industry specialists, and regional investment teams, conduct due diligence to assess project strengths and weaknesses, and provide investment teams with an appraisal report and operational parameters to be built into financial models; • Collaborate closely with Blended Finance and other stakeholders to mitigate risks and enhance the AgTech ecosystem. • Provide industry and best practice advice to internal - IFC and WBG colleagues - and external clients and add value to new business development activities and portfolio monitoring, as well as to advisory services projects; • Assist in the selection, briefing and supervision of technical consultants, engaged on due diligence, as needed; • Participate in conferences and seminars and other events representing WBG/IFC and as appropriate to maintaining and building sector knowledge. • Participate in the investment committee meetings and respond to the committee’s questions; • Support the review of advisory/upstream services proposals; • Replicates/ scales high-impact projects innovations across all WBG products;</description>
-      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38010</guid>
-      <category>International Organisations</category>
-      <dc:creator>World Bank Group</dc:creator>
-    <polintel:location>Washington, DC, US</polintel:location><polintel:closingDate>8/28/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Senior Health Specialist</title>
       <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38016</link>
       <description>Do you want to build a career that is truly worthwhile? The World Bank Group is one of the largest sources of funding and knowledge for developing countries; a unique global partnership of five institutions dedicated to ending extreme poverty and promoting shared prosperity. With 189 member countries and more than 120 offices worldwide, we work with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. For more information, visit www.worldbank.org. The People Vertical The World Bank Group (WBG) is the largest provider of development finance and solutions for human development working with high-income, middle-income, and low-income countries to develop country-tailored solutions for human development (HD) under the themes of education, health, social policy and gender. The HD PG coordinates with other Practice Groups to ensure a coordinated and integrated approach to development challenges, and through the World Bank Regional Units is expected to deliver the strongest and most pertinent support to our client countries. The People Vice Presidency (HDVP) at the World Bank Group is made up of the Departments for education; health and social policy. Additionally, the HDVP houses the gender group. As such, HD is central to the World Bank Group’s goals to end extreme poverty by 2030 and raise shared prosperity. The primary challenges of health development relate to health, nutrition, and demographic transitions, through an agile short-term response, and a sustainable and inclusive longer-term response that tackles inequitable opportunities and outcomes in the health sector globally, regionally and within countries. The fundamental challenge is to preempt, prevent and mitigate the developmental impact of these challenges now and into the future. Specific challenges include: providing equitable, efficient, accountable and sustainable financing of health coverage; providing equitable, quality, appropriate and scaled-up delivery of priority public health services according to need; mobilizing the appropriate quantity and quality of key health systems inputs related to health workers, pharmaceuticals, and healthcare technology and facilities; and strengthening models of governance for the health sector that recognize core functions for government, responsibilities/accountability of key actors and enhance competencies for governance across levels (local, national, regional and global) and sectors (public/private/civil society, as well as government sectors such as education, transport, social protection, etc.). Health Department The World Bank Group (WBG) supports countries’ efforts towards achieving Universal Health Coverage (UHC) and to provide quality, affordable health services to everyone —regardless of their ability to pay — by strengthening primary health care systems and reducing the financial risks associated with ill health and increasing equity. For more information: https://www.worldbank.org/en/topic/health The Health Department is led by a Director, who has overall responsibility for the GP and also serves as the Director for the GFF. The Department works with and across multiple sectors, in recognition of the fact that Health outcomes often depend on actions that lie outside the health sector. Accordingly, a capacity to work across GP boundaries, forge coalitions and influence multi-practice solutions are essential for achieving the major objectives of improving health outcomes. Unit Context Global Financing Facility The Global Financing Facility for Women, Children and Adolescents (GFF) is a multi-stakeholder global partnership housed at the World Bank that is committed to ensuring all women, children and adolescents can survive and thrive. Launched in July 2015, the GFF supports 36 low and lower-middle income countries with catalytic financing and technical assistance to develop and implement prioritized national health plans to scale up access to affordable, quality care for women, children, and adolescents. The GFF also works with countries to maximize the use of domestic financing and external support for better, more sustainable health results. The GFF is focused on prioritizing and scaling up evidence-driven investments to improve reproductive, maternal, newborn, child and adolescent health and nutrition through targeted strengthening of primary health care systems – to save lives and as a critical first step toward accelerating progress on Universal Health Coverage (UHC) and the Sustainable Development Goals (SDGs). The GFF has pioneered a shift from traditional development approaches to a more sustainable way forward where governments lead and bring global partners together to support a prioritized, costed national plan. Through this partnership, the GFF aims to mobilize additional funding through the combination of grants from a dedicated multi-donor trust fund (the GFF Trust Fund), financing from International Development Association (IDA) and International Bank for Reconstruction and Development (IBRD), and the crowding in of additional domestic and external resources. To date, the GFF has mobilized more than $2.5 billion in trust fund resources. This approach and these resources have catalyzed high-impact investments for reproductive, maternal, newborn, child and adolescent health and nutrition in the world’s most vulnerable countries. More information is available at: www.globalfinancingfacility.org The GFF partnership is led by the GFF Director; the day-to-day management of the GFF team is the responsibility of the GFF Manager. The GFF secretariat, which is based at the World Bank and is situated in the Health Department, works to deliver on the GFF objectives. This includes working with countries to develop quality investment cases, managing the GFF Trust Fund, technical assistance to regional teams, and supporting the GFF Investors Group, the governance mechanism for the GFF. Background With a mission to end all preventable deaths among women, children and adolescents, one of the prominent areas of focus for the GFF is maternal and newborn health. The GFF partners with the countries with the highest burden of maternal and neonatal mortality and stillbirths in the world by supporting country led prioritization of health systems and health financing reforms to accelerate progress in mortality reduction. The Senior Health Specialist/MNH will oversee the GFF’s co-financing and technical assistance to countries to achieve this acceleration; will represent the GFF in key global MNH partnerships and events; contribute to GFF, World Bank and external learning and knowledge management activities around MNH; and work closely with the other units within the GFF Secretariat to advance MNH programming aims. Duties and Accountabilities •	Provides advice to country clients, World Bank task teams and the GFF secretariat team on evidence-based and scale-able approaches to address issues related to maternal, newborn and child health and stillbirth prevention (MNCH); Translate technical evidence and best practice into high quality investment case and large scale World Bank program development in the context of a health systems approach to RMNCH-N. •	Supports the development of relevant metrics and evaluation approaches to enable results and performance-based financing approaches which can be used to improve MNCH performance with a focus on service quality. •	Advises on GFF collaboration with internal and external stakeholders on MNCH, including links to education, social protection, and labor market opportunities. •	Contributes to knowledge products including development and dissemination of tools, analytical work, country case studies and workshops at regional and global level, in collaboration with the other teams within the GFF Secretariat. • Support the GFF in routine reporting to stakeholders and responding to ad hoc requests for information on MNH and stillbirth prevention programming across the GFF portfolio and in ensuring the successful operationalization of the GFF strategy, Transform 2030: Transforming health Systems, Saving Lives. •	Represents the GFF on global MNH donor and technical partnerships and at relevant events. •	Serves as a GFF Focal Point in one to two partner countries to support the country led processes of investment case development and implementation and stakeholder alignment through a functional country platform. Engages with World Bank regions, country management units and task teams in the development and implementation of IDA/IBRD operations in support of the investment case and facilitates Bank access to GFF trust funds in support of strategic technical assistance, advisory services, and analytics.</description>
@@ -2558,14 +2494,6 @@ pour consulter les Statut, Règlement et Instructions applicables aux agents de 
       <category>International Organisations</category>
       <dc:creator>United Nations Joint Staff Pension Fund – Office of Investment Management</dc:creator>
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Senior External Relations Officer (Internal and Executive Communications)</title>
-      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38071</link>
-      <description>Working at the World Bank Group provides a unique opportunity for you to help our clients solve their greatest development challenges. The World Bank Group is one of the largest sources of funding and knowledge for developing countries; a unique global partnership of five institutions dedicated to ending extreme poverty, increasing shared prosperity and promoting sustainable development. With 189 member countries and more than 120 offices worldwide, we work with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. Please visit www.worldbank.org. Communications and External Relations Vice-Presidency (CER) The mission of External and Corporate Relations (CER) is to help deliver financial and political support for the World Bank Group, strengthen the Bank Group’s role as a global thought leader in development by enhancing and safeguarding its reputation, and supporting operational teams to achieve country outcomes. CER manages corporate communications and global engagement with key stakeholders, including media, civil society, foundations, private sector, donor countries, and international organizations, as well as employee engagement. CER also manages strategic communications for the World Bank’s Regions and Global Practices and leads the management of reputation risk. CER Communication Marketing (CERCM) Communications and Marketing at the World Bank Group is a unified, strategic organization representing all areas of the institution. Its mission is to deliver world-class communications and marketing leadership—driving clarity, creativity, innovation, and impact across every audience and channel. Through compelling storytelling, global brand stewardship, and data-driven engagement, the team advances the Bank Group’s vision of creating a world free of poverty on a livable planet. Together, we shape the institution’s voice, strengthen trust and reputation, and connect the World Bank Group’s work to people and partners around the world. The Senior External Affairs Officer plays a strategic role in strengthening narrative discipline and advancing a coherent, institution-wide communications approach across the World Bank Group. The position leads the Messaging team, providing strategic direction, oversight, and leadership while driving the development and implementation of the Bank Group’s corporate narrative and strategic priorities. Working closely with the Internal and Executive Communications Manager, Director of Communications and Marketing, and communications colleagues across the WBG, this role provides strategic counsel on messaging, storytelling, and communications priorities. Serving as a trusted thought partner and connector across teams, the position helps align Senior Leadership communications, identify high-impact storytelling opportunities, and strengthen consistency of voice across major institutional moments and priority initiatives. Key Responsibilities Narrative Strategy and Corporate Storytelling • Partner with the CERCM Messaging team, providing strategic direction and cross- enterprise coordination across the business unit to ensure the deployment and delivery of clear, consistent, and proactive impactful corporate messaging across the World Bank Group • Help shape and reinforce the World Bank Group’s corporate narrative, ensuring communications consistently reflect institutional priorities and leadership objectives. • Champion narrative discipline across communications activities, ensuring messaging, stories, and leadership communications reinforce a consistent institutional narrative. • Identify and elevate high-impact stories that showcase the World Bank Group’s work across regions, sectors, and institutions. • Monitor emerging issues and external trends to identify opportunities and risks that inform communications strategy and narrative development. Strategic Communications Counsel • Serve as a strategic advisor to CER communications teams, providing guidance on messaging, positioning, and storytelling for high-profile initiatives and complex issues. • Review and provide strategic input on high-profile communications products to ensure consistency with the World Bank Group’s narrative, voice, and strategic priorities. • Act as a thought partner to CER leadership, connecting emerging themes, institutional priorities, and external developments into cohesive communications strategies. • Contribute to the continuous improvement of communications processes, templates, and playbooks that strengthen narrative consistency and strategic planning. Senior Leadership Communications • Liaise with Senior Leadership Team communications colleagues across the Bank Group to ensure coordinated messaging and alignment around institutional priorities. • Support communications planning for select leadership engagements, speeches, and major institutional moments, translating leadership priorities into clear messaging and communications products. • Lead select executive writing assignments, including speeches, op-eds, thought leadership pieces, and strategic messaging for senior leadership. • Coordinate across communications, operational, and regional teams to ensure narrative coherence and effective delivery. Cross-Institution Collaboration • Convene and connect communications colleagues across CER and the wider World Bank Group to identify shared storytelling opportunities, align messaging, and strengthen collaboration across teams. Special Projects and Other Tasks • Serve as a trusted strategic partner on high-priority projects requiring senior-level judgment, coordination, and execution. • Support strategic communications initiatives assigned by the Internal and Executive Communications Manager and the Director of Communications and Marketing.</description>
-      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38071</guid>
-      <category>International Organisations</category>
-      <dc:creator>World Bank Group</dc:creator>
-    <polintel:location>Washington, DC, US</polintel:location><polintel:closingDate>8/28/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>National Consultant to conduct training needs assessment for criminal justice institutions to strengthen case management systems.</title>
       <link>https://careers.un.org/jobSearchDescription/284427?language=en</link>
@@ -2900,30 +2828,6 @@ Salaire mensuel de base à partir de 8.098 EUR, plus allocations/indemnités en 
       <dc:creator>Department of Operational Support</dc:creator>
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Intern - Economist and Development Coordination Support</title>
-      <link>https://careers.un.org/jobSearchDescription/282751?language=en</link>
-      <description>Level : I-1 Job ID : 282751 Job Network : Job Family : Economic Affairs Department/Office : Resident Coordinator System Duty Station : JAKARTA Staffing Exercise : undefined Posted Date : 08/13/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282751?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Resident Coordinator System</dc:creator>
-    <polintel:location>Jakarta, Indonesia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>ACCOUNTING ASSISTANT</title>
-      <link>https://careers.un.org/jobSearchDescription/282988?language=en</link>
-      <description>Level : G-5 Job ID : 282895 Job Network : Management and Administration Job Family : Finance Department/Office : United Nations Joint Staff Pension Fund - Pension Administration Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/12/2026 00:00:00 AM (New York time) Deadline : 08/26/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282988?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Joint Staff Pension Fund - Pension Administration</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Evaluator - Evaluation of the Development Account Project 2326Q  “RESILIENT HEALTH SYSTEMS WITH UNIVERSAL HEALTH COVERAGE IN LATIN AMERICA AND THE CARIBBEAN”</title>
-      <link>https://careers.un.org/jobSearchDescription/281360?language=en</link>
-      <description>Level : CON Job ID : 281360 Job Network : Job Family : MPA Department/Office : Economic Commission for Latin America and the Caribbean Duty Station : SANTIAGO Staffing Exercise : undefined Posted Date : 08/12/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281360?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Economic Commission for Latin America and the Caribbean</dc:creator>
-    <polintel:location>Santiago, Chile</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Medical Officer</title>
       <link>https://careers.un.org/jobSearchDescription/280931?language=en</link>
       <description>Level : P-4 Job ID : 280931 Job Network : Science Job Family : Medical Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/12/2026 00:00:00 AM (New York time) Deadline : 09/25/2026 23:59:59 PM (New York time)</description>
@@ -3044,14 +2948,6 @@ OECD</description>
       <dc:creator>World Bank Group</dc:creator>
     <polintel:location>Washington, DC, US</polintel:location><polintel:closingDate>9/3/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>E T Consultant - Health Economist / Health Specialist</title>
-      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38059</link>
-      <description>Do you want to build a career that is truly worthwhile? The World Bank Group is one of the largest sources of funding and knowledge for developing countries; a unique global partnership of five institutions dedicated to ending extreme poverty and promoting shared prosperity. With 189 member countries and more than 120 offices worldwide, we work with public and private sector partners, investing in groundbreaking projects and using data, research, and technology to develop solutions to the most urgent global challenges. For more information, visit www.worldbank.org E urope and Central Asia (ECA) Region: The Europe and Central Asia (ECA) region comprises 30 extremely diverse, predominantly middle-income countries, with a population of nearly 500 million people. ECA countries face structural and legacy issues, including an incomplete transition to a market economy and declining productivity, weak institutional capacity, dependence on fossil fuels, limited physical and digital connectivity and, in many instances, aging populations. Recent shocks (COVID-19, Russia’s invasion of Ukraine, weather shocks and natural disaster) have further exacerbated these challenges, with significant impacts on the level, inclusiveness and sustainability of growth and overall living standards. The World Bank Group is working closely with client countries in the region to address these issues, with increasing focus on productivity growth and job creation, energy security and water management, human capital and economic inclusion, and physical and digital connectivity. The region has a strong lending pipeline and a large portfolio of projects spanning a number of sectors. In addition, knowledge is critical to the Bank’s value proposition to client countries in the ECA region. https://www.worldbank.org/en/region/eca Background and Context The World Bank’s Health, Nutrition and Population (HNP) Global Practice in the Europe and Central Asia (ECA) Region is supporting Bosnia and Herzegovina (BiH) in advancing health system reforms focused on financial sustainability, service delivery performance, quality of care, and resilience, in line with Universal Health Coverage (UHC) objectives. The ETC will support implementation and preparation of World Bank–financed activities in BiH, with two anchor engagements: • MDTF: “Technical Support for BiH Health Reform” (P180862) Advisory Services and Analytics (ASA), providing analytical, technical assistance, and implementation support for health sector reforms; and • Health Systems Improvement Project (HSIP, P171150), including Additional Financing, supporting investments and reforms in health financing, service delivery, digital health, and system performance. The ETC will contribute to our operational engagement in the health sector and act as a focal point between the World Bank and relevant stakeholders, at state, entity and cantonal levels, and development partners to ensure strong analytical underpinnings, smooth implementation support, and effective policy dialogue. Duties and Responsibilities: The ETC will be based in Sarajevo, Bosnia and Herzegovina and report to the HNP Practice Manager and will be responsible for the following tasks and duties: • Provide day to day implementation support for ongoing projects, including health financing, strategic purchasing, service delivery reforms, digital health, and quality improvement. • Contribute to implementation support missions, preparation of Aide Memoires, management updates, and follow up on agreed actions. • Support preparation or restructuring of project documentation (Project papers, results frameworks, indicators, and progress reporting). • Assist in monitoring results, identifying implementation bottlenecks, and proposing corrective actions. • Contribute to design, preparation, and delivery of analytical and advisory activities. • Support preparation of policy notes, technical briefs, diagnostic studies, and just in time analysis on health financing, pharmaceuticals, service delivery performance, provider payment mechanisms, and system efficiency. • Compile, validate, and analyze quantitative and qualitative data from administrative sources, household surveys, and international benchmarks. • Ensure analytical outputs are policy relevant, well structured, and aligned with ongoing reforms and lending operations. • Support ongoing policy dialogue with Ministries of Health, Health Insurance Funds, Ministries of Finance, and other relevant institutions at state, entity, and cantonal levels. • Assist in organizing consultations, workshops, and technical discussions with civil society, professional associations, and donor partners, as relevant. • Contribute to communication materials, presentations, and briefing notes for senior government officials and World Bank management. • Support knowledge sharing across BiH, Western Balkans, and ECA, drawing on regional and global experience. • Monitor sector developments and reforms, keep teams informed of emerging risks and opportunities. • Undertake additional tasks related to the BiH health portfolio or beyond as requested.</description>
-      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38059</guid>
-      <category>International Organisations</category>
-      <dc:creator>World Bank Group</dc:creator>
-    <polintel:location>Sarajevo, BA</polintel:location><polintel:closingDate>8/28/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>RESEARCH ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/282378?language=en</link>
       <description>Level : G-6 Job ID : 282378 Job Network : Economic, Social and Development Job Family : Social Affairs Department/Office : DPPA-SPM cluster II Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 08/20/2026 23:59:59 PM (New York time)</description>
@@ -3068,30 +2964,6 @@ OECD</description>
       <dc:creator>International Trade Centre</dc:creator>
     <polintel:location>Cairo, Egypt</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>FACILITIES MANAGEMENT ASSISTANT</title>
-      <link>https://careers.un.org/jobSearchDescription/282379?language=en</link>
-      <description>Level : G-6 Job ID : 282379 Job Network : Logistics, Transportation and Supply Chain Job Family : Facilities Management Department/Office : United Nations Joint Staff Pension Fund - Pension Administration Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/13/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282379?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Joint Staff Pension Fund - Pension Administration</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>MEETINGS SERVICES ASSISTANT</title>
-      <link>https://careers.un.org/jobSearchDescription/282624?language=en</link>
-      <description>Level : G-5 Job ID : 282434 Job Network : Public Information and Conference Management Job Family : Conference Services Department/Office : DPPA-SPM cluster II Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 08/20/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282624?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>DPPA-SPM cluster II</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>CHIEF OF SECTION, INFORMATION SYSTEMS AND TELECOMMUNICATIONS</title>
-      <link>https://careers.un.org/jobSearchDescription/282974?language=en</link>
-      <description>Level : P-5 Job ID : 282974 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : UN Support Office in Haiti Duty Station : PORT-AU-PRINCE Staffing Exercise : undefined Posted Date : 08/13/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282974?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>UN Support Office in Haiti</dc:creator>
-    <polintel:location>Port-Au-Prince, Haiti</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Software Tester (QA/QC)</title>
       <link>https://careers.un.org/jobSearchDescription/282942?language=en</link>
       <description>Level : CON Job ID : 282942 Job Network : Job Family : Department/Office : Office of Information and Communications Technology Duty Station : Huzhou (Deqing) Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 09/27/2026 23:59:59 PM (New York time)</description>
@@ -3099,22 +2971,6 @@ OECD</description>
       <category>International Organisations</category>
       <dc:creator>Office of Information and Communications Technology</dc:creator>
     <polintel:location>Huzhou (Deqing)</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Human Resources Assistant - Daily Paid Contract-FO West Bank grade</title>
-      <link>https://careers.un.org/jobSearchDescription/282929?language=en</link>
-      <description>Level : Job ID : 282929 Job Network : Management and Administration Job Family : Human Resources Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : WEST BANK Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282929?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
-    <polintel:location>West Bank</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Logistics And Administrative Assistant -Fixed Term- Procurement and Logistics Department- Field Office West Bank- For Internal Candidates only- Grade,10</title>
-      <link>https://careers.un.org/jobSearchDescription/282314?language=en</link>
-      <description>Level : Job ID : 282314 Job Network : Logistics, Transportation and Supply Chain Job Family : Procurement Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO West Bank Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282314?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
-    <polintel:location>FO West Bank</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Diseño y fortalecimiento de una estrategia de articulación productiva orientada al desarrollo de un clúster de biotecnología y ciencias de la vida en la Ciudad de México</title>
       <link>https://careers.un.org/jobSearchDescription/282911?language=en</link>
@@ -3124,14 +2980,6 @@ OECD</description>
       <dc:creator>Economic Commission for Latin America and the Caribbean</dc:creator>
     <polintel:location>Mexico City, Mexico</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>UNEP Finance Initiative (UNEP FI) - Lead Expert - Mid-term review of Bank Secondments</title>
-      <link>https://careers.un.org/jobSearchDescription/282949?language=en</link>
-      <description>Level : CON Job ID : 282949 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 08/13/2026 00:00:00 AM (New York time) Deadline : 08/20/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282949?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Chief, Staff Employment and Administration Section</title>
       <link>https://careers.un.org/jobSearchDescription/282993?language=en</link>
       <description>Level : P-5 Job ID : 282993 Job Network : Management and Administration Job Family : Human Resources Department/Office : International Civil Aviation Organization Duty Station : MONTREAL Staffing Exercise : undefined Posted Date : 08/13/2026 00:00:00 AM (New York time) Deadline : 09/14/2026 23:59:59 PM (New York time)</description>
@@ -3139,14 +2987,6 @@ OECD</description>
       <category>International Organisations</category>
       <dc:creator>International Civil Aviation Organization</dc:creator>
     <polintel:location>Montreal</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Spécialiste genre et inclusion (GEDSI)</title>
-      <link>https://careers.un.org/jobSearchDescription/282964?language=en</link>
-      <description>Level : CON Job ID : 282964 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : PARIS Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 08/20/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282964?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    <polintel:location>Paris, France</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>ASSOCIATE COMMUNICATIONS OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/283392?language=en</link>
@@ -3171,14 +3011,6 @@ OECD</description>
       <category>International Organisations</category>
       <dc:creator>Department of Political and Peacebuilding Affairs</dc:creator>
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Subnational Climate Finance and Sustainable Buildings Consultant</title>
-      <link>https://careers.un.org/jobSearchDescription/283011?language=en</link>
-      <description>Level : CON Job ID : 283011 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : PARIS Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283011?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    <polintel:location>Paris, France</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Programme Assistant</title>
       <link>https://careers.un.org/jobSearchDescription/283043?language=en</link>
@@ -3244,14 +3076,6 @@ OECD</description>
       <dc:creator>United Nations Human Settlements Programme</dc:creator>
     <polintel:location>Rio De Janeiro</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>IMEO Industry Engagement Consultant – Steel Methane Programme</title>
-      <link>https://careers.un.org/jobSearchDescription/283045?language=en</link>
-      <description>Level : CON Job ID : 283045 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : PARIS Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283045?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    <polintel:location>Paris, France</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Programme Officer (Alternative Development)</title>
       <link>https://careers.un.org/jobSearchDescription/282015?language=en</link>
       <description>Level : P-3 Job ID : 282015 Job Network : Economic, Social and Development Job Family : Drug Control and Crime Prevention Department/Office : United Nations Office on Drugs and Crime Duty Station : KABUL Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 09/12/2026 23:59:59 PM (New York time)</description>
@@ -3260,14 +3084,6 @@ OECD</description>
       <dc:creator>United Nations Office on Drugs and Crime</dc:creator>
     <polintel:location>Kabul, Afghanistan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Principal Medical Officer</title>
-      <link>https://careers.un.org/jobSearchDescription/281913?language=en</link>
-      <description>Level : D-1 Job ID : 281913 Job Network : Science Job Family : Medical Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/14/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281913?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Department of Operational Support</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>CREATIVE INDUSTRIES ADVISOR</title>
       <link>https://careers.un.org/jobSearchDescription/283048?language=en</link>
       <description>Level : CON Job ID : 283048 Job Network : Job Family : Programme Management Department/Office : International Trade Centre Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 08/15/2026 00:00:00 AM (New York time) Deadline : 08/29/2026 23:59:59 PM (New York time)</description>
@@ -3275,14 +3091,6 @@ OECD</description>
       <category>International Organisations</category>
       <dc:creator>International Trade Centre</dc:creator>
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Executive Assistant</title>
-      <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38037</link>
-      <description>Do you want to build a career that is truly worthwhile? Working at the World Bank Group (WBG) offers a unique opportunity to help our clients address their greatest development challenges. In Zambia, the World Bank Group works through its institutions—the International Bank for Reconstruction and Development (IBRD), the International Development Association (IDA), the International Finance Corporation (IFC) and the Multilateral Investment Guarantee Agency (MIGA)—to support the country’s development priorities by combining public sector financing, private sector investment, guarantees, analytics, policy dialogue, and convening power Visit www.worldbank.org VPU Context: The Country Management Unit (CMU) for Africa East Central East Countries 1 (AECE1) includes Tanzania, Malawi, Zambia, and Zimbabwe. The AECE1 CMU Office is in Dar es Salaam, Tanzania, and covers the Offices. Unit Context: Zambia Country Context The WBG program in Zambia is broad and strategically important, combining IDA and IBRD operations, Trust Fund-financed activities, IFC private sector engagement, MIGA instruments where relevant, analytics, advisory services and policy dialogue. The Lusaka Country Office plays a central role in supporting delivery of the country program, maintaining strong client relationships, coordinating across WBG institutions, and engaging with government, development partners and private sector stakeholders. To support this agenda, the Zambia Country Office is seeking a highly organized, discreet and proactive Executive Assistant to support the WBG Country Manager (CM) and help ensure the effective functioning of the CM’s Front Office. The selected candidate will provide high-quality executive support, facilitate coordination across WBG teams and institutions, strengthen information flow and follow-up, and contribute to an efficient, client-focused and collaborative office environment. Duties and accountabilities: The successful candidate will work under the overall leadership of the CM. The job implies frequent interaction with other institutional units, staff in other locations (locally and internationally), Government officials, consultants and external organizations. Specifically, the Executive Assistant will be responsible for the following: (i) Managing the CM’s Office • Manages the CM’s schedule; organizes and coordinates relevant briefing or background material for meetings. Screens and prioritizes incoming correspondence and messages to the CM, independently responding to extensive and diverse inquiries, liaising with others in the CMU, including Washington and making independent decisions when multiple courses of action are required. Monitors and follows up on issues related to the CM’s function and ensures that relevant staff members are informed. Handles sensitive and confidential information. Ensures timely submission and review of briefing materials and appropriate follow-up actions, making sure materials are presented to the Country Manager for review prior to meetings. • Initiates and coordinates all aspects of the CM’s travel schedule (i.e., SAP, ticket and hotel reservations, visa requests, etc.), including coordinating the travel and protocol needs of the CM while on mission. • Drafts correspondence and prepares and ensures adherence to administrative guidelines and overall quality of outputs requiring the CM’s signature. • Provides general research support and utilizes all relevant computer software, including artificial intelligence tools, to retrieve, maintain and manipulate data and independently respond to diverse inquiries and make decisions when multiple courses of action are possible. • Establishes and maintains relevant files and databases for the Country Office. • Ensures the quality and timeliness of information emanating from the front office; independently decides and follows through on appropriate dissemination of information to staff by sharing reports, status updates and other information as necessary. • Serves as the first point of contact and liaison with an extensive network of contacts at the most senior levels, both internally and externally. Provides follow-up on required actions and monitors compliance. Responds to diverse inquiries and makes decisions when multiple courses of action are possible. Establishes and maintains an effective network of contacts with Government officials at the highest level. (ii) Representation and Liaison • Provide guidance, leadership and direction within the CMU to facilitate a changing work environment and a strong communication flow among virtual teams. Coordinate with the Tanzania, Malawi and Zimbabwe Executive Assistants, as well as Nairobi[MV1.1] and Washington-based staff on a regular basis, assuring smooth functioning of the Country Office (CO) Front Office. • Help maintain effective working relationships with government counterparts, development partners, private sector stakeholders, regional teams, and WBG staff across practices and institutions, ensuring timely follow-up and professional engagement on behalf of the CM’s Office. • Independently organize high-level events such as client and donor meetings and workshops and high-level visits. (iii) Country Office Front Office • Ensure effective operation of the CM's Front Office, correspondence flow and specifically records management. Work closely with and support the Country Office’s Operations Officer(s), as needed. • Support the CM’s oversight of the Zambia country program by tracking key follow-up actions, coordinating inputs for management briefings, supporting mission schedules, and helping ensure the timely flow of information on operational, portfolio, and corporate priorities. • Support effective coordination across WBG institutions in Zambia, including IBRD/IDA, IFC and MIGA as relevant, by facilitating information flow, scheduling, mission logistics, meeting preparation, and follow-up on issues of common interest. (iv) Outreach work • Provide day-to-day coordination, guidance, and quality assurance for Administrative and Client Support (ACS) staff in the Lusaka Country Office, promoting consistent service standards, effective workload management, knowledge sharing, and collaboration across teams. Act as the liaison person with the Washington unit and the CMU.</description>
-      <guid isPermaLink="false">https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38037</guid>
-      <category>International Organisations</category>
-      <dc:creator>World Bank Group</dc:creator>
-    <polintel:location>Lusaka, ZM</polintel:location><polintel:closingDate>8/28/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>ET Consultant - Public Financial Management</title>
       <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38070</link>
@@ -3515,14 +3323,6 @@ OECD</description>
       <category>International Organisations</category>
       <dc:creator>UN Support Office in Haiti</dc:creator>
     <polintel:location>Port-Au-Prince, Haiti</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Consultancy - Specialist in Ecosystems Restoratoin in Saint Lucia</title>
-      <link>https://careers.un.org/jobSearchDescription/282947?language=en</link>
-      <description>Level : CON Job ID : 282947 Job Network : Job Family : Environmental Affairs Department/Office : United Nations Environment Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 08/18/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282947?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Environment Programme</dc:creator>
-    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Facilities Manager, International Real Estate</title>
       <link>https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/38114</link>
@@ -4020,22 +3820,6 @@ OECD</description>
       <dc:creator>Economic Commission for Latin America and the Caribbean</dc:creator>
     <polintel:location>Santiago, Chile</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Chief of Section, Programme Management</title>
-      <link>https://careers.un.org/jobSearchDescription/283388?language=en</link>
-      <description>Level : P-5 Job ID : 283388 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : Economic Commission for Africa Duty Station : ADDIS ABABA Staffing Exercise : undefined Posted Date : 08/21/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283388?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Economic Commission for Africa</dc:creator>
-    <polintel:location>Addis Ababa, Ethiopia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>ASSOCIATE HUMAN RESOURCES OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/283321?language=en</link>
-      <description>Level : NO-B Job ID : 283321 Job Network : Management and Administration Job Family : Human Resources Department/Office : Office for the Coordination of Humanitarian Affairs Duty Station : ISLAMABAD Staffing Exercise : undefined Posted Date : 08/21/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283321?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Office for the Coordination of Humanitarian Affairs</dc:creator>
-    <polintel:location>Islamabad, Pakistan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>ACCOUNTING ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/282851?language=en</link>
       <description>Level : G-6 Job ID : 282851 Job Network : Management and Administration Job Family : Finance Department/Office : United Nations Office at Geneva Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 08/20/2026 00:00:00 AM (New York time) Deadline : 09/03/2026 23:59:59 PM (New York time)</description>
@@ -4083,22 +3867,6 @@ OECD</description>
       <category>International Organisations</category>
       <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
     <polintel:location>Mexico City, Mexico</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>TEAM ASSISTANT (Temporary)</title>
-      <link>https://careers.un.org/jobSearchDescription/283401?language=en</link>
-      <description>Level : G-4 Job ID : 283401 Job Network : Management and Administration Job Family : Administration Department/Office : United Nations Office for Disaster Risk Reduction Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 08/21/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283401?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Office for Disaster Risk Reduction</dc:creator>
-    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Consultant in human rights monitoring, civic space, democracy, rule of law, or related thematic work.</title>
-      <link>https://careers.un.org/jobSearchDescription/282730?language=en</link>
-      <description>Level : CON Job ID : 282730 Job Network : Job Family : Human Rights Affairs Department/Office : Office of the High Commissioner for Human Rights Duty Station : SANTIAGO Staffing Exercise : undefined Posted Date : 08/21/2026 00:00:00 AM (New York time) Deadline : 08/27/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282730?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
-    <polintel:location>Santiago, Chile</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>ASSOCIATE PUBLIC INFORMATION OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/282374?language=en</link>
@@ -10051,5 +9819,61 @@ OECD</description>
       <category>International Organisations</category>
       <dc:creator>Resident Coordinator System</dc:creator>
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>TVET Instructor (Graphic Design) - Daily Paid Opportunity - Aleppo, Homs, Hama, Daraa, Lattakia - Grade 11</title>
+      <link>https://careers.un.org/jobSearchDescription/284828?language=en</link>
+      <description>Level : Job ID : 284828 Job Network : Economic, Social and Development Job Family : Education Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO Syria Staffing Exercise : undefined Posted Date : 09/24/2026 00:00:00 AM (New York time) Deadline : 10/07/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284828?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO Syria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>TVET Instructor (Information Technology) - Daily Paid Opportunity - Lattakia Area - Grade 11</title>
+      <link>https://careers.un.org/jobSearchDescription/284832?language=en</link>
+      <description>Level : Job ID : 284832 Job Network : Economic, Social and Development Job Family : Education Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO Syria Staffing Exercise : undefined Posted Date : 09/24/2026 00:00:00 AM (New York time) Deadline : 10/07/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284832?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO Syria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Travel Services Officer (for internal and external candidates - Candidates who applied before, are encouraged to re-apply)</title>
+      <link>https://careers.un.org/jobSearchDescription/284512?language=en</link>
+      <description>Level : Job ID : 284512 Job Network : Management and Administration Job Family : Administration Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : HQ Amman Staffing Exercise : undefined Posted Date : 09/27/2026 00:00:00 AM (New York time) Deadline : 10/10/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284512?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>HQ Amman</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Chief Field Health Programme, Gaza Field Office, for internal staff only.</title>
+      <link>https://careers.un.org/jobSearchDescription/283080?language=en</link>
+      <description>Level : Job ID : 283080 Job Network : Science Job Family : Medical Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : GAZA Staffing Exercise : undefined Posted Date : 09/27/2026 00:00:00 AM (New York time) Deadline : 10/11/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283080?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>Gaza</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Enterprise Support Officer - TVET - Daily Paid Opportunity - Aleppo, Homs, Hama, Daraa, Lattakia - Grade 14</title>
+      <link>https://careers.un.org/jobSearchDescription/284838?language=en</link>
+      <description>Level : Job ID : 284838 Job Network : Economic, Social and Development Job Family : Education Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO Syria Staffing Exercise : undefined Posted Date : 09/24/2026 00:00:00 AM (New York time) Deadline : 10/07/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284838?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO Syria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>TVET Instructor (Commercial) - Daily Paid Opportunity - Homs Area - Grade 11</title>
+      <link>https://careers.un.org/jobSearchDescription/284823?language=en</link>
+      <description>Level : Job ID : 284823 Job Network : Economic, Social and Development Job Family : Education Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO Syria Staffing Exercise : undefined Posted Date : 09/24/2026 00:00:00 AM (New York time) Deadline : 10/07/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284823?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO Syria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Vocational Training Instructor - Welding and Sheet Metal - TVET - Daily Paid Opportunity – Homs Area - Grade 09</title>
+      <link>https://careers.un.org/jobSearchDescription/284852?language=en</link>
+      <description>Level : Job ID : 284852 Job Network : Economic, Social and Development Job Family : Education Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO Syria Staffing Exercise : undefined Posted Date : 09/24/2026 00:00:00 AM (New York time) Deadline : 10/07/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284852?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO Syria</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
