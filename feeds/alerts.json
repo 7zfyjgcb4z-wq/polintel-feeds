@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-09-27T18:04:30Z",
+  "generated_at": "2026-09-27T19:28:15Z",
   "alerts": [
     {
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 152,
-      "message": "House Employment Bulletin upstream data source has not been updated in 152 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+      "upstream_days_since_update": 153,
+      "message": "House Employment Bulletin upstream data source has not been updated in 153 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+    },
+    {
+      "source": "Niskanen Center",
+      "type": "zero_result_after_success",
+      "previous_count": 3,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "Niskanen Center returned 0 jobs after previously returning 3. May be broken selector, site redesign, or no current vacancies."
+    },
+    {
+      "source": "Roosevelt Institute",
+      "type": "zero_result_after_success",
+      "previous_count": 6,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "Roosevelt Institute returned 0 jobs after previously returning 6. May be broken selector, site redesign, or no current vacancies."
     }
   ]
 }
