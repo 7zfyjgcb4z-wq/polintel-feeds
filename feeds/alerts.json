@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-09-27T19:28:15Z",
+  "generated_at": "2026-09-28T11:29:58Z",
   "alerts": [
+    {
+      "source": "Policy Exchange",
+      "type": "zero_result_after_success",
+      "previous_count": 1,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "Policy Exchange returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+    },
+    {
+      "source": "Demos",
+      "type": "zero_result_after_success",
+      "previous_count": 1,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "Demos returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+    },
     {
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
