@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-27T14:52:41Z",
+  "last_run": "2026-09-28T17:51:48Z",
   "country": "internship_graduate",
   "total_active_jobs": 37,
   "new_jobs_found": 37,
@@ -8,39 +8,39 @@
   "sources_failed": 0,
   "sources_disabled": 14,
   "relevance_filtered": 0,
-  "descriptions_enriched": 9,
+  "descriptions_enriched": 8,
   "feeds_generated": 7,
-  "run_duration_seconds": 83.3,
+  "run_duration_seconds": 85.0,
   "failed_sources": [],
   "per_source": [
     {
       "name": "Ipsos Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 26,
-      "jobs_after_relevance_filter": 26,
+      "jobs_found": 25,
+      "jobs_after_relevance_filter": 25,
       "descriptions_enriched": 0,
-      "duration_seconds": 57.5,
+      "duration_seconds": 56.5,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "IMF Careers",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 2,
-      "jobs_after_relevance_filter": 2,
+      "jobs_found": 4,
+      "jobs_after_relevance_filter": 4,
       "descriptions_enriched": 0,
-      "duration_seconds": 7.0,
+      "duration_seconds": 11.8,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
       "name": "PubAffairs Networking Jobs",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 9,
-      "jobs_after_relevance_filter": 9,
-      "descriptions_enriched": 9,
-      "duration_seconds": 0.8
+      "jobs_found": 8,
+      "jobs_after_relevance_filter": 8,
+      "descriptions_enriched": 8,
+      "duration_seconds": 0.6
     }
   ]
 }
