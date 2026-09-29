@@ -1,0 +1,842 @@
+[
+  {
+    "name": "Ofcom",
+    "platform": "workday",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 5,
+    "filtered_count": 3,
+    "sample_titles_raw": [
+      [
+        "Senior Associate, Technical Advisor",
+        "5 Locations"
+      ],
+      [
+        "Senior Associate, Online Safety Policy Development",
+        "5 Locations"
+      ],
+      [
+        "Senior Regulatory Affairs Manager (Consumer, Infrastructure and Connectivity)",
+        "Edinburgh"
+      ],
+      [
+        "Group Director, Enforcement",
+        "3 Locations"
+      ],
+      [
+        "Senior Associate, Technology Policy",
+        "2 Locations"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Senior Associate, Technical Advisor",
+        "5 Locations"
+      ],
+      [
+        "Group Director, Enforcement",
+        "3 Locations"
+      ]
+    ],
+    "elapsed_s": 12.6,
+    "notes": "Ofcom regulatory body — mixed board; title filter required."
+  },
+  {
+    "name": "FCA",
+    "platform": "workday",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 12,
+    "filtered_count": 7,
+    "sample_titles_raw": [
+      [
+        "People Data & Reporting Analyst",
+        "3 Locations"
+      ],
+      [
+        "Senior Benchmarks Supervision Associate",
+        "London"
+      ],
+      [
+        "Lead Financial Promotion Supervisor",
+        "London"
+      ],
+      [
+        "HR Systems Associate",
+        "3 Locations"
+      ],
+      [
+        "Strategic Assessment Intelligence Analyst – FTC until 31/03/28",
+        "3 Locations"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "HR Systems Associate",
+        "3 Locations"
+      ],
+      [
+        "Lawyer- Retail Investment Services",
+        "3 Locations"
+      ],
+      [
+        "Product Owner - Graph Analytics",
+        "3 Locations"
+      ],
+      [
+        "Personal Assistant to the Head of Department",
+        "3 Locations"
+      ],
+      [
+        "Head of Department: AI & Technology Security Operations",
+        "London"
+      ]
+    ],
+    "elapsed_s": 11.4,
+    "notes": "FCA main careers board — mixed board; title filter required. Two Workday sites: FCA_Careers + FCA_earlycareers."
+  },
+  {
+    "name": "FCA Early Careers",
+    "platform": "workday",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 1.1,
+    "notes": "FCA early careers / graduate board — same tenant as FCA main, separate site."
+  },
+  {
+    "name": "ICO",
+    "platform": "workday",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 1,
+    "filtered_count": 0,
+    "sample_titles_raw": [
+      [
+        "Principal Technology Adviser - Identity and Trust",
+        "5 Locations"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Principal Technology Adviser - Identity and Trust",
+        "5 Locations"
+      ]
+    ],
+    "elapsed_s": 10.7,
+    "notes": "Information Commissioner's Office — mixed board; title filter required."
+  },
+  {
+    "name": "Wellcome",
+    "platform": "workday",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 13,
+    "filtered_count": 5,
+    "sample_titles_raw": [
+      [
+        "Operations Risk & Controls Analyst",
+        "London"
+      ],
+      [
+        "Programme Manager",
+        "London"
+      ],
+      [
+        "Funding Manager, Directed Activities",
+        "London"
+      ],
+      [
+        "Research Manager, Capacity & Field Development",
+        "London"
+      ],
+      [
+        "Brand Manager",
+        "London"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Programme Manager",
+        "London"
+      ],
+      [
+        "Funding Manager, Directed Activities",
+        "London"
+      ],
+      [
+        "Brand Manager",
+        "London"
+      ],
+      [
+        "Senior Manager, Tools, Technology & AI",
+        "London"
+      ],
+      [
+        "Assistant Property Asset Manager",
+        "London"
+      ]
+    ],
+    "elapsed_s": 10.0,
+    "notes": "Wellcome Trust — global health research funder; mixed board; title filter required."
+  },
+  {
+    "name": "Innovate UK",
+    "platform": "workday",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 1,
+    "filtered_count": 0,
+    "sample_titles_raw": [
+      [
+        "Finance Business Partner",
+        "Swindon"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Finance Business Partner",
+        "Swindon"
+      ]
+    ],
+    "elapsed_s": 9.6,
+    "notes": "Innovate UK public careers board. NOT iukukri (internal portal). Mixed board; title filter required."
+  },
+  {
+    "name": "FTI Consulting",
+    "platform": "workday",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 212,
+    "filtered_count": 12,
+    "sample_titles_raw": [
+      [
+        "Manager, Continual Service Improvement",
+        "3 Locations"
+      ],
+      [
+        "Analyst, Strategy and Transformation",
+        "Washington, DC"
+      ],
+      [
+        "Intern, Consultant Cyber Threat Intelligence (CTI) & Investigation numérique (DFIR)",
+        "Paris, France"
+      ],
+      [
+        "Senior Consultant, Public Affairs - Industrials",
+        "Washington, DC"
+      ],
+      [
+        "Consultant, Public Affairs - Industrials",
+        "Washington, DC"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Manager, Continual Service Improvement",
+        "3 Locations"
+      ],
+      [
+        "Analyst, Strategy and Transformation",
+        "Washington, DC"
+      ],
+      [
+        "Intern, Consultant Cyber Threat Intelligence (CTI) & Investigation numérique (DFIR)",
+        "Paris, France"
+      ],
+      [
+        "Senior Consultant, Public Affairs - Industrials",
+        "Washington, DC"
+      ],
+      [
+        "Consultant, Public Affairs - Industrials",
+        "Washington, DC"
+      ]
+    ],
+    "elapsed_s": 11.9,
+    "notes": "FTI Consulting public careers board (dc=wd108). NOT the private internal site. Location filter to London/UK; title filter required."
+  },
+  {
+    "name": "Bank of England",
+    "platform": "oracle_hcm",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 21,
+    "filtered_count": 9,
+    "sample_titles_raw": [
+      [
+        "Technical Specialist (cyber related), Operational Risk and Resilience, R&CGI Operational Risk and Resilience Team - Insurance Directorate",
+        "Leeds, United Kingdom"
+      ],
+      [
+        "Manager, Specialist Financial Risk, Specialist Supervision Division, Capital Assessment Team - UKDT",
+        "Leeds, United Kingdom"
+      ],
+      [
+        "Technical Product Manager (Messaging & Integration)",
+        "Leeds, United Kingdom"
+      ],
+      [
+        "Fabric Maintenance Technician - London Sites",
+        "London, United Kingdom"
+      ],
+      [
+        "Lead Security Architect in SECURITY ARCHITECTURE",
+        "London, United Kingdom"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Technical Specialist (cyber related), Operational Risk and Resilience, R&CGI Operational Risk and Resilience Team - Insurance Directorate",
+        "Leeds, United Kingdom"
+      ],
+      [
+        "Technical Product Manager (Messaging & Integration)",
+        "Leeds, United Kingdom"
+      ],
+      [
+        "Fabric Maintenance Technician - London Sites",
+        "London, United Kingdom"
+      ],
+      [
+        "Lead Security Architect in SECURITY ARCHITECTURE",
+        "London, United Kingdom"
+      ],
+      [
+        "Security Protection Officer in Security Ops - London",
+        "London, United Kingdom"
+      ]
+    ],
+    "elapsed_s": 8.4,
+    "notes": "Bank of England Oracle HCM. Host: eoff.fa.em1.ukg.oraclecloud.com site=CX_1001. Mixed board; title filter required."
+  },
+  {
+    "name": "UKRI",
+    "platform": "oracle_hcm",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 37,
+    "filtered_count": 6,
+    "sample_titles_raw": [
+      [
+        "Workplace Investigations Senior Manager",
+        "Swindon, Wiltshire, United Kingdom"
+      ],
+      [
+        "Content Designer",
+        "Swindon, Wiltshire, United Kingdom"
+      ],
+      [
+        "MRC Postdoctoral Research Scientist",
+        "Greater London, United Kingdom"
+      ],
+      [
+        "MRC Postdoctoral Research Scientist",
+        "London, Greater London, United Kingdom"
+      ],
+      [
+        "Research Technician",
+        "London, Greater London, United Kingdom"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Workplace Investigations Senior Manager",
+        "Swindon, Wiltshire, United Kingdom"
+      ],
+      [
+        "Content Designer",
+        "Swindon, Wiltshire, United Kingdom"
+      ],
+      [
+        "Investigator Scientist | Cell Biology | Dr Marta Shahbazi | LMB 2929",
+        "Cambridge, Cambridgeshire, United Kingdom"
+      ],
+      [
+        "Senior Finance Specialist",
+        "Swindon, Wiltshire, United Kingdom"
+      ],
+      [
+        "Finance Manager - Corporate Finance",
+        "Swindon, Wiltshire, United Kingdom"
+      ]
+    ],
+    "elapsed_s": 7.7,
+    "notes": "UKRI Oracle HCM (evzn tenant). Mixed board; title filter required."
+  },
+  {
+    "name": "Scottish Government",
+    "platform": "oracle_hcm",
+    "tier": 1,
+    "verify_only": true,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 27,
+    "filtered_count": 27,
+    "sample_titles_raw": [
+      [
+        "Finance Business Partner",
+        "United Kingdom"
+      ],
+      [
+        "Organisational Design and Development Manager - Social Security Scotland",
+        "Dundee, United Kingdom"
+      ],
+      [
+        "Product Lead (Fixed Term Appointment)",
+        "Glasgow, United Kingdom"
+      ],
+      [
+        "Appointment of a Member to the Board of Children’s Hearings Scotland",
+        "United Kingdom"
+      ],
+      [
+        "Central Correspondence Unit Officer",
+        "Edinburgh, United Kingdom"
+      ]
+    ],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 7.7,
+    "notes": "Scottish Government Oracle HCM (evxn tenant). VERIFY ONLY — do not add to sources.yaml until explicit ruling."
+  },
+  {
+    "name": "ECFR",
+    "platform": "personio",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 2,
+    "filtered_count": 0,
+    "sample_titles_raw": [
+      [
+        "Speculative Application",
+        "Berlin"
+      ],
+      [
+        "Working Student – European Security Programme (m/f/d)",
+        "Berlin"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Speculative Application",
+        "Berlin"
+      ],
+      [
+        "Working Student – European Security Programme (m/f/d)",
+        "Berlin"
+      ]
+    ],
+    "elapsed_s": 4.2,
+    "notes": "ECFR Personio board. Global board — London location filter required. Separate UK entry from the existing pan-eu source."
+  },
+  {
+    "name": "E3G",
+    "platform": "bamboohr",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "disallow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 2,
+    "filtered_count": 1,
+    "sample_titles_raw": [
+      [
+        "Associate Director, Clean Economy, London, Brussels or Berlin",
+        "London, Greater London"
+      ],
+      [
+        "Senior Researcher, EU Energy Transition (Internal Opportunity)",
+        "Brussels, Brussels"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Senior Researcher, EU Energy Transition (Internal Opportunity)",
+        "Brussels, Brussels"
+      ]
+    ],
+    "elapsed_s": 5.7,
+    "notes": "E3G BambooHR board. Global board — London location filter required."
+  },
+  {
+    "name": "Chatham House",
+    "platform": "teamtailor",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 3,
+    "filtered_count": 3,
+    "sample_titles_raw": [
+      [
+        "CRM Administrator",
+        "London"
+      ],
+      [
+        "Research Fellow (West Africa) - Africa Programme",
+        "London"
+      ],
+      [
+        "HR Operations Officer - Maternity cover",
+        "London"
+      ]
+    ],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 3.3,
+    "notes": "Chatham House custom TeamTailor domain careers.chathamhouse.org. Do not scrape chathamhouse.org main site."
+  },
+  {
+    "name": "Portland Communications",
+    "platform": "teamtailor",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "404",
+    "challenge_detected": false,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 3.2,
+    "notes": "Portland Communications TeamTailor board."
+  },
+  {
+    "name": "Hanbury Strategy",
+    "platform": "teamtailor",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 3,
+    "filtered_count": 3,
+    "sample_titles_raw": [
+      [
+        "EU Financial Services Public Affairs Traineeship",
+        "Bruxelles"
+      ],
+      [
+        "Financial Services Executive",
+        "London"
+      ],
+      [
+        "Account Director (Public Affairs & Communications)",
+        "Sydney"
+      ]
+    ],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 3.2,
+    "notes": "Hanbury Strategy TeamTailor board."
+  },
+  {
+    "name": "Green Alliance",
+    "platform": "teamtailor",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 2.3,
+    "notes": "Green Alliance TeamTailor board."
+  },
+  {
+    "name": "FGS Global",
+    "platform": "greenhouse",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 9,
+    "filtered_count": 0,
+    "sample_titles_raw": [
+      [
+        "Accountant",
+        "Hong Kong"
+      ],
+      [
+        "Associate Director, Strategic Communications",
+        "Washington, District of Columbia, United States"
+      ],
+      [
+        "Associate Global Public Affairs - The Hague",
+        "Continental Europe"
+      ],
+      [
+        "Billing Associate",
+        "Washington, District of Columbia, United States"
+      ],
+      [
+        "Finance Graduate Associate",
+        "Hong Kong"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Accountant",
+        "Hong Kong"
+      ],
+      [
+        "Associate Director, Strategic Communications",
+        "Washington, District of Columbia, United States"
+      ],
+      [
+        "Associate Global Public Affairs - The Hague",
+        "Continental Europe"
+      ],
+      [
+        "Billing Associate",
+        "Washington, District of Columbia, United States"
+      ],
+      [
+        "Finance Graduate Associate",
+        "Hong Kong"
+      ]
+    ],
+    "elapsed_s": 2.0,
+    "notes": "FGS Global Greenhouse board. Location filter to London/UK."
+  },
+  {
+    "name": "Labour PLP",
+    "platform": "greenhouse",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 0.1,
+    "notes": "Labour PLP Greenhouse board."
+  },
+  {
+    "name": "Teneo",
+    "platform": "greenhouse",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 40,
+    "filtered_count": 1,
+    "sample_titles_raw": [
+      [
+        "Accountant",
+        "Hong Kong, China"
+      ],
+      [
+        "Associate Consultant(e)",
+        "Paris, France"
+      ],
+      [
+        "Associate Consultant - Financial Advisory",
+        "Hong Kong, China"
+      ],
+      [
+        "Associate Consultant, Financial Communications - Industrials",
+        "London, United Kingdom"
+      ],
+      [
+        "Associate Director / Director, Financial Advisory",
+        "Riyadh, Saudi Arabia"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Accountant",
+        "Hong Kong, China"
+      ],
+      [
+        "Associate Consultant(e)",
+        "Paris, France"
+      ],
+      [
+        "Associate Consultant - Financial Advisory",
+        "Hong Kong, China"
+      ],
+      [
+        "Associate Director / Director, Financial Advisory",
+        "Riyadh, Saudi Arabia"
+      ],
+      [
+        "Associate, Strategy & Communications",
+        "Hong Kong, China"
+      ]
+    ],
+    "elapsed_s": 0.2,
+    "notes": "Teneo Greenhouse board. Mixed board — London location filter + title filter required."
+  },
+  {
+    "name": "Burson (Global)",
+    "platform": "greenhouse",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 189,
+    "filtered_count": 8,
+    "sample_titles_raw": [
+      [
+        "Account Director",
+        "Jakarta, Jakarta, Indonesia"
+      ],
+      [
+        "Account Director, Consumer Brand, Nutrition & Wellness - Burson",
+        "New York, New York, United States"
+      ],
+      [
+        "Account Director, Corporate & Public Affairs (Health Policy)",
+        "Washington, District of Columbia, United States"
+      ],
+      [
+        "Account Director, Digital - Health & Wellness",
+        "New York, New York, United States"
+      ],
+      [
+        "Account Director, Earned Media, Consumer Brand - Burson",
+        "New York, New York, United States"
+      ]
+    ],
+    "sample_titles_filtered_out": [
+      [
+        "Account Director",
+        "Jakarta, Jakarta, Indonesia"
+      ],
+      [
+        "Account Director, Consumer Brand, Nutrition & Wellness - Burson",
+        "New York, New York, United States"
+      ],
+      [
+        "Account Director, Corporate & Public Affairs (Health Policy)",
+        "Washington, District of Columbia, United States"
+      ],
+      [
+        "Account Director, Digital - Health & Wellness",
+        "New York, New York, United States"
+      ],
+      [
+        "Account Director, Earned Media, Consumer Brand - Burson",
+        "New York, New York, United States"
+      ]
+    ],
+    "elapsed_s": 0.7,
+    "notes": "Burson global Greenhouse board. Mixed board — London location filter + title filter required. Two boards: bursonglobalcareers and bursonbuchanan (separate source entry)."
+  },
+  {
+    "name": "Burson (Buchanan)",
+    "platform": "greenhouse",
+    "tier": 1,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 0.1,
+    "notes": "Burson Buchanan Greenhouse board. UK-focused; location filter precautionary."
+  },
+  {
+    "name": "PubAffairs Bruxelles",
+    "platform": "selector",
+    "tier": 2,
+    "verify_only": true,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 1.8,
+    "notes": "VERIFY ONLY pending ToS ruling. Public affairs job board."
+  },
+  {
+    "name": "Scottish Parliament",
+    "platform": "selector",
+    "tier": 2,
+    "verify_only": false,
+    "robots": "disallow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 1.2,
+    "notes": "Scottish Parliament career search. Scrape listing page only; do not scrape WebITrent system."
+  },
+  {
+    "name": "Senedd",
+    "platform": "selector",
+    "tier": 2,
+    "verify_only": false,
+    "robots": "allow",
+    "http_status": "200",
+    "challenge_detected": false,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 1.0,
+    "notes": "Senedd Welsh Parliament jobs board."
+  },
+  {
+    "name": "Greater London Authority",
+    "platform": "selector",
+    "tier": 2,
+    "verify_only": false,
+    "robots": "disallow",
+    "http_status": "403",
+    "challenge_detected": true,
+    "raw_count": 0,
+    "filtered_count": 0,
+    "sample_titles_raw": [],
+    "sample_titles_filtered_out": [],
+    "elapsed_s": 0.1,
+    "notes": "GLA vacancies page at london.gov.uk. NOT gla.gov.uk (Gangmasters and Labour Abuse Authority). Mixed board; title filter required."
+  }
+]
