@@ -313,6 +313,21 @@ sources:
     title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
     enabled: true  # Enabled 2026-09-29: Oracle HCM evzn/UKRI-Careers; robots allow; 37 raw / 6 after filter; false positive: 'MRC Postdoctoral Research Scientist' ('research' matches — lab role passing policy filter)
 
+  - name: "Innovate UK"
+    url: "https://innovateuk.wd3.myworkdayjobs.com/innovateukcareers"
+    category: "government"
+    country: "uk"
+    scraper: "ats_auto"
+    platform: "workday"
+    identifier:
+      tenant: innovateuk
+      dc: wd3
+      site: innovateukcareers
+    org_static: "Innovate UK"
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    enabled: true  # Enabled 2026-09-29: Workday innovateuk/wd3/innovateukcareers; robots allow; 1 raw / 0 after filter (Finance Business Partner at verification — board accessible)
+
   - name: "National Audit Office"
     url: "https://www.nao.org.uk/about-us/jobs/current-vacancies/"
     category: "government"
@@ -399,11 +414,15 @@ sources:
   # ── Tier 2: Generic AI scrapers — uk-think-tanks ───────────────────────────
 
   - name: "Chatham House"
-    url: "https://www.chathamhouse.org/about-us/careers"
+    url: "https://careers.chathamhouse.org"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Disabled 2026-04-11: 403 blocked
+    scraper: "ats_auto"
+    platform: "teamtailor"
+    identifier:
+      base_url: careers.chathamhouse.org
+    org_static: "Chatham House"
+    enabled: true  # Enabled 2026-09-29: TeamTailor careers.chathamhouse.org (custom domain); robots allow; 3 jobs verified
 
   - name: "IISS"
     url: "https://www.iiss.org/about/careers"
@@ -674,11 +693,15 @@ sources:
     enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Green Alliance"
-    url: "https://green-alliance.org.uk/about-us/work-for-us/"
+    url: "https://greenalliance.teamtailor.com"
     category: "think-tanks"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
+    scraper: "ats_auto"
+    platform: "teamtailor"
+    identifier:
+      base_url: greenalliance.teamtailor.com
+    org_static: "Green Alliance"
+    enabled: true  # Enabled 2026-09-29: TeamTailor greenalliance.teamtailor.com; robots allow; 0 jobs at verification but board accessible
 
   - name: "E3G"
     url: "https://e3g.bamboohr.com/careers"
@@ -838,6 +861,17 @@ sources:
     scraper: "generic"
     enabled: false  # Disabled 2026-04-11: SSL TLSv1 protocol error
 
+  - name: "Labour PLP"
+    url: "https://boards.greenhouse.io/workforlabourplp"
+    category: "political-parties"
+    country: "uk"
+    scraper: "ats_auto"
+    platform: "greenhouse"
+    identifier:
+      token: workforlabourplp
+    org_static: "Labour Party (PLP)"
+    enabled: true  # Enabled 2026-09-29: Greenhouse workforlabourplp; robots allow; 0 jobs at verification but board accessible
+
   - name: "Liberal Democrats"
     url: "https://www.libdems.org.uk/work-for-us"
     category: "political-parties"
@@ -913,25 +947,34 @@ sources:
   # ── Tier 2: Generic AI scrapers — uk-public-affairs ───────────────────────
 
   - name: "FGS Global"
-    url: "https://fgsglobal.com/careers/"
+    url: "https://boards.greenhouse.io/fgsglobal"
     category: "public-affairs"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Disabled 2026-04-11: 404 not found
+    scraper: "ats_auto"
+    platform: "greenhouse"
+    identifier:
+      token: fgsglobal
+    org_static: "FGS Global"
+    location_filter: "London|United Kingdom"
+    enabled: true  # Enabled 2026-09-29: Greenhouse fgsglobal; robots allow; 9 raw / 0 after London filter (no UK jobs at verification — board accessible)
 
   - name: "Hanbury Strategy"
-    url: "https://www.hanburystrategy.com/careers"
+    url: "https://hanburystrategy.teamtailor.com"
     category: "public-affairs"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Disabled 2026-04-11: 403 blocked
+    scraper: "ats_auto"
+    platform: "teamtailor"
+    identifier:
+      base_url: hanburystrategy.teamtailor.com
+    org_static: "Hanbury Strategy"
+    enabled: true  # Enabled 2026-09-29: TeamTailor hanburystrategy.teamtailor.com; robots allow; 3 jobs verified (1 Sydney — small board, no location filter applied)
 
   - name: "Portland Communications"
     url: "https://portland-communications.com/careers/"
     category: "public-affairs"
     country: "uk"
     scraper: "generic"
-    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
+    enabled: false  # Disabled 2026-09-29: TeamTailor board at portland.teamtailor.com returns 404; correct subdomain not confirmed — hold pending investigation
 
   - name: "APCO Worldwide"
     url: "https://www.apcoworldwide.com/about/careers/"
@@ -941,26 +984,61 @@ sources:
     org_static: "APCO Worldwide"
     enabled: false  # 404 — URL redirects to 404 page; no working careers URL found
 
-  - name: "Burson"
-    url: "https://www.bursonglobal.com/careers"
+  - name: "Burson (Global)"
+    url: "https://boards.greenhouse.io/bursonglobalcareers"
     category: "public-affairs"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # CraftCMS jobList component: __NEXT_DATA__ has page metadata only, job listings fetched client-side — no accessible API endpoint found
+    scraper: "ats_auto"
+    platform: "greenhouse"
+    identifier:
+      token: bursonglobalcareers
+    org_static: "Burson"
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    location_filter: "London|United Kingdom"
+    enabled: true  # Enabled 2026-09-29: Greenhouse bursonglobalcareers; robots allow; 189 raw / 8 after title+location filter
+
+  - name: "Burson (Buchanan)"
+    url: "https://boards.greenhouse.io/bursonbuchanan"
+    category: "public-affairs"
+    country: "uk"
+    scraper: "ats_auto"
+    platform: "greenhouse"
+    identifier:
+      token: bursonbuchanan
+    org_static: "Burson"
+    location_filter: "London|United Kingdom"
+    enabled: false  # Disabled 2026-09-29: Greenhouse board accessible but 0 jobs at verification; enable when hiring resumes
 
   - name: "FTI Consulting"
-    url: "https://www.fticonsulting.com/careers"
+    url: "https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers"
     category: "public-affairs"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
+    scraper: "ats_auto"
+    platform: "workday"
+    identifier:
+      tenant: fticonsulting
+      dc: wd108
+      site: FTIConsultingCareers
+    org_static: "FTI Consulting"
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    location_filter: "London|United Kingdom"
+    enabled: true  # Enabled 2026-09-29: Workday fticonsulting/wd108/FTIConsultingCareers; robots allow; 212 raw / 12 after title+location filter
 
   - name: "Teneo"
-    url: "https://www.teneo.com/careers/"
+    url: "https://boards.greenhouse.io/teneolinkedin"
     category: "public-affairs"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Disabled 2026-04-11: React SPA — jobs list not in initial HTML
+    scraper: "ats_auto"
+    platform: "greenhouse"
+    identifier:
+      token: teneolinkedin
+    org_static: "Teneo"
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    location_filter: "London|United Kingdom"
+    enabled: true  # Enabled 2026-09-29: Greenhouse teneolinkedin; robots allow; 40 raw / 1 after title+location filter
 
   - name: "SEC Newgate"
     url: "https://secnewgateuk.bamboohr.com/careers"
