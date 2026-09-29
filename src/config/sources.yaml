@@ -193,11 +193,19 @@ sources:
     enabled: false  # Disabled 2026-04-11: 404 not found
 
   - name: "Ofcom"
-    url: "https://www.ofcom.org.uk/about-ofcom/jobs"
+    url: "https://ofcom.wd3.myworkdayjobs.com/Ofcom_Careers"
     category: "government"
     country: "uk"
-    scraper: "generic"
-    enabled: false  # Disabled 2026-03-27: fetch error (403/404)
+    scraper: "ats_auto"
+    platform: "workday"
+    identifier:
+      tenant: ofcom
+      dc: wd3
+      site: Ofcom_Careers
+    org_static: "Ofcom"
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    enabled: true  # Enabled 2026-09-29: Workday ofcom/wd3/Ofcom_Careers; robots allow; 5 raw / 3 after filter; false negative: 'Group Director, Enforcement' (regulatory role excluded by filter)
 
   - name: "Ofgem"
     url: "https://www.ofgem.gov.uk/about-us/our-people/careers-ofgem"
@@ -217,7 +225,22 @@ sources:
       dc: wd3
       site: FCA_Careers
     org_static: "Financial Conduct Authority"
-    enabled: true
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    enabled: true  # Title filter added 2026-09-29: 12 raw / 7 after filter
+
+  - name: "FCA Early Careers"
+    url: "https://fca.wd3.myworkdayjobs.com/FCA_earlycareers"
+    category: "fellowships"
+    country: "uk"
+    scraper: "ats_auto"
+    platform: "workday"
+    identifier:
+      tenant: fca
+      dc: wd3
+      site: FCA_earlycareers
+    org_static: "Financial Conduct Authority"
+    enabled: true  # Enabled 2026-09-29: FCA graduate/early careers board; 0 jobs at verification (seasonal board); robots allow
 
   - name: "CMA"
     url: "https://www.gov.uk/government/organisations/competition-and-markets-authority/about/recruitment"
@@ -258,7 +281,9 @@ sources:
       dc: wd3
       site: ICO
     org_static: "Information Commissioner's Office"
-    enabled: true
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    enabled: true  # Title filter added 2026-09-29: 1 raw / 0 after filter; false negative noted: 'Principal Technology Adviser - Identity and Trust' (regulatory-adjacent role)
 
   - name: "Bank of England"
     url: "https://eoff.fa.em1.ukg.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs"
@@ -270,7 +295,23 @@ sources:
       api_host: "eoff.fa.em1.ukg.oraclecloud.com"
       site: "CX_1001"
     org_static: "Bank of England"
-    enabled: true
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    enabled: true  # Title filter added 2026-09-29: 21 raw / 9 after filter
+
+  - name: "UKRI"
+    url: "https://fa-evzn-saasfaukgovprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UKRI-Careers/jobs"
+    category: "government"
+    country: "uk"
+    scraper: "ats_auto"
+    platform: "oracle_hcm"
+    identifier:
+      api_host: "fa-evzn-saasfaukgovprod1.fa.ocs.oraclecloud.com"
+      site: "UKRI-Careers"
+    org_static: "UK Research and Innovation"
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    enabled: true  # Enabled 2026-09-29: Oracle HCM evzn/UKRI-Careers; robots allow; 37 raw / 6 after filter; false positive: 'MRC Postdoctoral Research Scientist' ('research' matches — lab role passing policy filter)
 
   - name: "National Audit Office"
     url: "https://www.nao.org.uk/about-us/jobs/current-vacancies/"
@@ -577,6 +618,21 @@ sources:
     scraper: "generic"
     enabled: false  # Disabled 2026-03-27: fetch error (403/404)
 
+  - name: "Wellcome"
+    url: "https://wellcome.wd3.myworkdayjobs.com/Wellcome"
+    category: "think-tanks"
+    country: "uk"
+    scraper: "ats_auto"
+    platform: "workday"
+    identifier:
+      tenant: wellcome
+      dc: wd3
+      site: Wellcome
+    org_static: "Wellcome Trust"
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    enabled: true  # Enabled 2026-09-29: Workday wellcome/wd3/Wellcome; robots allow; 13 raw / 5 after filter
+
   - name: "ECFR London"
     url: "https://ecfr.eu/jobs/"
     category: "think-tanks"
@@ -586,7 +642,8 @@ sources:
     identifier:
       subdomain: ecfr
     org_static: "European Council on Foreign Relations"
-    enabled: true
+    location_filter: "London"
+    enabled: true  # Location filter added 2026-09-29: both current vacancies are Berlin; filter prevents cross-contamination with pan-eu ECFR source
 
   - name: "Centre for Cities"
     url: "https://www.centreforcities.org/about/vacancies/"
@@ -632,7 +689,7 @@ sources:
     identifier:
       company: e3g
     org_static: "E3G"
-    enabled: true
+    enabled: false  # Disabled 2026-09-29: robots.txt at e3g.bamboohr.com returns 403 for Python urllib; RFC 9309 requires treating 403 on robots.txt as disallow-all
 
   - name: "IIED"
     url: "https://www.iied.org/vacancies"
