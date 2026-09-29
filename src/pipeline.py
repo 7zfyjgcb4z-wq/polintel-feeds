@@ -59,6 +59,37 @@ def _needs_enrichment(desc: str | None, threshold: int = 200) -> bool:
     return any(t.startswith(p) for p in DEGRADED_PREFIXES)
 
 
+def _ats_api_host(source: dict) -> str:
+    """Return an API-host key for per-host semaphore grouping.
+
+    Sources that share the same API host are serialised (Semaphore(1)) to
+    respect politeness; sources on distinct hosts run concurrently.
+    """
+    platform = source.get("platform", "")
+    ident = source.get("identifier") or {}
+    if platform == "workday":
+        return f"{ident.get('tenant', '')}.{ident.get('dc', '')}.myworkdayjobs.com"
+    if platform == "oracle_hcm":
+        return ident.get("api_host", "oracle_hcm")
+    if platform == "greenhouse":
+        return "boards-api.greenhouse.io"
+    if platform == "teamtailor":
+        return ident.get("base_url", "teamtailor.com")
+    if platform == "personio":
+        return f"{ident.get('subdomain', '')}.jobs.personio.de"
+    if platform == "bamboohr":
+        return f"{ident.get('company', '')}.bamboohr.com"
+    if platform == "lever":
+        return "api.lever.co"
+    if platform == "ashby":
+        return "api.ashbyhq.com"
+    if platform == "smartrecruiters":
+        return "api.smartrecruiters.com"
+    if platform == "workable":
+        return f"{ident.get('subdomain', '')}.workable.com"
+    return platform or "unknown"
+
+
 def load_config(path: str | Path = CONFIG_PATH) -> dict:
     with open(path) as f:
         return yaml.safe_load(f)
@@ -206,58 +237,93 @@ async def run_pipeline(
         from src.scrapers.ats_detector import detect_ats  # noqa: PLC0415
         from src.scrapers.ats_extractors import get_extractor, PLATFORM_EXTRACTORS  # noqa: PLC0415
 
-        for source in ats_sources:
+        # Partition into three groups:
+        #   js_sources       — requires_js=true: skip (Playwright not in normal runs)
+        #   platform_sources — have a known platform extractor: gathered concurrently
+        #   legacy_sources   — HTML-detection path: run sequentially (no platform field)
+        js_sources = [s for s in ats_sources if s.get("requires_js")]
+        platform_sources = [
+            s for s in ats_sources
+            if not s.get("requires_js") and s.get("platform") in PLATFORM_EXTRACTORS
+        ]
+        legacy_sources = [
+            s for s in ats_sources
+            if not s.get("requires_js") and s.get("platform") not in PLATFORM_EXTRACTORS
+        ]
+
+        # Skip JS-required sources
+        for source in js_sources:
+            sources_checked += 1
+            log.warning(f"{source['name']}: requires_js=true — skipping (Playwright not enabled)")
+            failed_sources.append(source["name"])
+            _record(source["name"], "ats_auto", "failed", 0, 0.0,
+                    "requires_js=true (Playwright not enabled)")
+
+        # Gather API-platform sources concurrently with per-host semaphores.
+        # Sources sharing an API host (e.g. all Greenhouse sources share
+        # boards-api.greenhouse.io) are serialised by Semaphore(1); sources on
+        # distinct hosts run in parallel.
+        if platform_sources:
+            _host_sems: dict[str, asyncio.Semaphore] = {}
+
+            def _sem_for(src: dict) -> asyncio.Semaphore:
+                host = _ats_api_host(src)
+                if host not in _host_sems:
+                    _host_sems[host] = asyncio.Semaphore(1)
+                return _host_sems[host]
+
+            async def _fetch_platform(src: dict):
+                _platform = src.get("platform")
+                _extractor = PLATFORM_EXTRACTORS[_platform]
+                _pre = None
+                _post = None
+                if (country == "internship_graduate"
+                        and src.get("require_internship_signal")
+                        and not src.get("curated")
+                        and _platform in {"oracle_hcm", "workday"}):
+                    from src.filters.internship_signal import (  # noqa: PLC0415
+                        has_internship_signal as _hs,
+                        is_senior_title as _is_senior,
+                    )
+                    _pre = lambda rec: not _is_senior(  # noqa: E731
+                        rec.get("Title") or rec.get("title") or ""
+                    )
+                    _post = lambda title, desc_full: _hs(title, desc_full)  # noqa: E731
+                _t = time.monotonic()
+                async with _sem_for(src):
+                    try:
+                        if _pre is not None:
+                            _ceiling = src.get("max_detail_fetches") or 200
+                            _jobs = await _extractor.extract(
+                                src, prefilter=_pre, postfilter=_post,
+                                detail_ceiling=_ceiling, known_urls=known_urls,
+                            )
+                        else:
+                            _jobs = await _extractor.extract(src, known_urls=known_urls)
+                        return src["name"], _platform, _jobs, time.monotonic() - _t, None
+                    except Exception as _exc:
+                        return src["name"], _platform, [], time.monotonic() - _t, str(_exc)
+
+            _gather_results = await asyncio.gather(
+                *[_fetch_platform(s) for s in platform_sources]
+            )
+            sources_checked += len(platform_sources)
+            for _name, _plat, _jobs, _elapsed, _err in _gather_results:
+                if _err:
+                    log.error(f"FAIL: {_name}: {_err}")
+                    failed_sources.append(_name)
+                    _record(_name, "ats_auto", "failed", 0, _elapsed, _err[:200])
+                else:
+                    all_jobs.extend(_jobs)
+                    sources_succeeded += 1
+                    log.info(f"OK: {_name} (API:{_plat}) — {len(_jobs)} jobs")
+                    _record(_name, "ats_auto", "success", len(_jobs), _elapsed)
+
+        # HTML-based detection/extraction path (legacy ats_type or auto-detection).
+        for source in legacy_sources:
             sources_checked += 1
             t = time.monotonic()
             try:
-                if source.get("requires_js", False):
-                    elapsed = time.monotonic() - t
-                    log.warning(f"{source['name']}: requires_js=true — skipping (Playwright not enabled)")
-                    failed_sources.append(source["name"])
-                    _record(source["name"], "ats_auto", "failed", 0, elapsed, "requires_js=true (Playwright not enabled)")
-                    continue
-
-                # New API-based path: 'platform' field triggers direct API call (no HTML fetch).
-                # Legacy 'ats_type' field still routes through the HTML-based detection path.
-                platform = source.get("platform")
-                if platform and platform in PLATFORM_EXTRACTORS:
-                    api_extractor = PLATFORM_EXTRACTORS[platform]
-                    # Two-stage filter for internship_graduate oracle_hcm/workday sources
-                    # with require_internship_signal:
-                    #   Stage 1 prefilter (list level): drop titles with unambiguous
-                    #     seniority markers; keep neutral titles like "Research Analyst".
-                    #   Stage 2 postfilter (detail level): full has_internship_signal on
-                    #     title + FULL unclipped description (Fix 1: never clip before eval).
-                    # prefilter=None / postfilter=None leave all other platforms and all
-                    # non-internship_graduate paths byte-for-byte unchanged.
-                    prefilter = None
-                    postfilter = None
-                    if (country == "internship_graduate"
-                            and source.get("require_internship_signal")
-                            and not source.get("curated")
-                            and platform in {"oracle_hcm", "workday"}):
-                        from src.filters.internship_signal import (  # noqa: PLC0415
-                            has_internship_signal as _hs,
-                            is_senior_title as _is_senior,
-                        )
-                        prefilter = lambda rec: not _is_senior(rec.get("Title") or rec.get("title") or "")  # noqa: E731
-                        postfilter = lambda title, desc_full: _hs(title, desc_full)  # noqa: E731
-                    if prefilter is not None:
-                        _ceiling = source.get("max_detail_fetches") or 200
-                        jobs = await api_extractor.extract(
-                            source, prefilter=prefilter, postfilter=postfilter,
-                            detail_ceiling=_ceiling, known_urls=known_urls,
-                        )
-                    else:
-                        jobs = await api_extractor.extract(source, known_urls=known_urls)
-                    elapsed = time.monotonic() - t
-                    all_jobs.extend(jobs)
-                    sources_succeeded += 1
-                    log.info(f"OK: {source['name']} (API:{platform}) — {len(jobs)} jobs")
-                    _record(source["name"], "ats_auto", "success", len(jobs), elapsed)
-                    continue
-
-                # HTML-based detection/extraction path (legacy ats_type or auto-detection).
                 html = await _fetch_html(source["url"])
                 ats_type = source.get("ats_type") or detect_ats(html, source["url"])
 
