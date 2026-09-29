@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 19:15:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 17:39:52 +0000</lastBuildDate>
     <item>
       <title>Stagiaire au cabinet de la ministre déléguée IA et numérique</title>
       <link>https://www.emplois-politiques.fr/post/stagiaire-au-cabinet-de-la-ministre-déléguée-ia-et-nu</link>
@@ -73,5 +73,13 @@
       <category>National Politics</category>
       <dc:creator>Emplois Politiques</dc:creator>
     <polintel:descriptionSource>stub</polintel:descriptionSource></item>
+    <item>
+      <title>Attaché(e) parlementaire en circonscription de la sénatrice Catherine Belrhiti (Strasbourg)</title>
+      <link>https://www.emplois-politiques.fr/post/attaché-e-parlementaire-en-circonscription-de-la-sénatrice-catherine-belrhiti-strasbourg</link>
+      <description>Poste d'attaché(e) / collaborateur / collaboratrice parlementaire à pourvoir au sein de l'équipe parlementaire de la Sénatrice Les Républicains de la Moselle, Catherine BELRHITI, en circonscription (Ville de Sarrebourg). Adresse : 24 Grand Rue, 57400 Sarrebourg. Type de contrat et durée : Emploi en CDI à pourvoir dès que possible, pour 35h/semaine. Au sein de son équipe parlementaire, vous contribuerez directement à l’accompagnement de la Sénatrice dans son activité et au sui</description>
+      <guid isPermaLink="false">https://www.emplois-politiques.fr/post/attaché-e-parlementaire-en-circonscription-de-la-sénatrice-catherine-belrhiti-strasbourg</guid>
+      <category>National Politics</category>
+      <dc:creator>Emplois Politiques</dc:creator>
+    <polintel:location>Strasbourg</polintel:location><polintel:descriptionSource>stub</polintel:descriptionSource></item>
   </channel>
 </rss>
