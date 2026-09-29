@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 21:31:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 20:24:41 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-289/</link>
@@ -107,15 +107,6 @@
       <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>Oakland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Associate Director of Finance</title>
-      <link>https://www.foundationlist.org/job-details/associate-director-of-finance-3/</link>
-      <description>Scion Nonprofit Staffing has been engaged to conduct a search for an Associate Director of Finance - Nonprofit on behalf of a respected, mission-driven nonprofit organization in Cedar Rapids, Iowa. This is a full-time, direct-hire opportunity</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/associate-director-of-finance-3/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Texas Executive Director  (Remote-based in Texas)</title>
       <link>https://www.foundationlist.org/job-details/texas-executive-director-remote-based-in-texas-2/</link>
@@ -1040,6 +1031,24 @@ Please note that given the anticipated interest in this position, the names of a
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-operations-associate-3/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Director/Manager of Foundation Relations</title>
+      <link>https://www.foundationlist.org/job-details/director-manager-of-foundation-relations/</link>
+      <description>Director/Manager of Foundation Relations - 107320 Division: LD-Laboratory Directorate Lawrence Berkeley National Laboratory is seeking a Director or Manager, Foundation Relations for Berkeley Lab Foundation. The Berkeley Lab Foundation supports r</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-manager-of-foundation-relations/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Director, Sales &amp; Strategic Partnerships</title>
+      <link>https://www.foundationlist.org/job-details/director-sales-strategic-partnerships/</link>
+      <description>AHIP is looking for an experienced Director, Sales &amp;amp;amp; Strategic Partnerships to join their team! If you are looking to make a real difference through your career journey, why not do it with the foremost health insurance advocacy organization in th</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-sales-strategic-partnerships/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
