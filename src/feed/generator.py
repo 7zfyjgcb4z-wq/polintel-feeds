@@ -165,22 +165,55 @@ COUNTRY_CATEGORIES: dict[str, list[str]] = {
 }
 
 
+def _passes_source_filter(job: Job, sf: dict) -> bool:
+    """Return False if the job should be excluded by per-source title/location filters."""
+    title = job.title or ""
+    include_pat = sf.get("title_include_regex")
+    exclude_pat = sf.get("title_exclude_regex")
+    location_filter = sf.get("location_filter")
+    if include_pat and not re.search(include_pat, title, re.IGNORECASE):
+        return False
+    if exclude_pat and re.search(exclude_pat, title, re.IGNORECASE):
+        return False
+    if location_filter:
+        loc = job.location or ""
+        if loc and not re.search(location_filter, loc, re.IGNORECASE):
+            return False
+    return True
+
+
 def generate_feeds(
     jobs: list[Job],
     output_dir: str,
     base_url: str = "",
     country: str = "uk",
+    source_filters: dict[str, dict] | None = None,
 ) -> dict[str, int]:
-    """Generate one RSS XML file per category. Returns {category: job_count}."""
+    """Generate one RSS XML file per category. Returns {category: job_count}.
+
+    source_filters maps source_name -> {title_include_regex, title_exclude_regex,
+    location_filter}. When a job's source has a filter entry, the job is excluded
+    from the feed if it does not pass. Jobs that are filtered out are NOT stored
+    back to the DB — the filter is feed-output-only.
+    """
     os.makedirs(output_dir, exist_ok=True)
 
     categories = COUNTRY_CATEGORIES.get(country, COUNTRY_CATEGORIES["uk"])
     feed_meta = FEED_META.get(country, FEED_META["uk"])
 
+    filtered_total = 0
     by_category: dict[str, list[Job]] = {}
     for job in jobs:
+        if source_filters:
+            sf = source_filters.get(job.source_name)
+            if sf and not _passes_source_filter(job, sf):
+                filtered_total += 1
+                continue
         cat = job.category or "general"
         by_category.setdefault(cat, []).append(job)
+
+    if filtered_total:
+        log.info("source_filters: excluded %d jobs from feed output", filtered_total)
 
     counts: dict[str, int] = {}
     for category in categories:
