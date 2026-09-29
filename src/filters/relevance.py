@@ -56,10 +56,10 @@ HARD_EXCLUSIONS = [
     "Farm", "Agricultural", "Fisheries", "Marine", "Laboratory",
     "Lab Technician", "Mortuary", "Coroner",
     # Upstream selection-noise (Political Job Hunt) — phrases match as substrings;
-    # "political science" used (not "political science instructor") to also cover
-    # department-admin titles; "Photographer" added for "Legislative Photographer".
+    # "political science instructor" (not bare "political science") preserves
+    # academic/research posts; "Photographer" added for "Legislative Photographer".
     "order selection", "vendor selection", "site selection", "design selections",
-    "material handler", "political science",
+    "material handler", "political science instructor",
     "Photographer",
 ]
 

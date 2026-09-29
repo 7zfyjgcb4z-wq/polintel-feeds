@@ -250,3 +250,41 @@ def test_filter_drops_administrator_at_generic_org():
     jobs = [_make_job("Administrator", "City Council")]
     result = filter_relevant_jobs(jobs)
     assert len(result) == 0
+
+
+# ── US feed noise exclusions (Political Job Hunt selection-noise) ─────────────
+
+def test_exclusions_yaml_parses():
+    """exclusions.yaml must remain valid YAML with description_fetch keys intact."""
+    import yaml
+    from pathlib import Path
+    data = yaml.safe_load(Path("src/config/exclusions.yaml").read_text())
+    df = data["description_fetch"]
+    assert "throttle_seconds" in df
+    assert "timeout_seconds" in df
+    assert "max_description_length" in df
+    assert "min_existing_description_length" in df
+
+
+@pytest.mark.parametrize("title", [
+    "Material Handler I Order Selection",
+    "Project Manager Rfp And Vendor Selection",
+    "Design Selections Coordinator",
+    "Analyst Site Selection Incentives Advisory",
+    "Legislative Photographer",
+    "Political Science Instructor",
+])
+def test_us_noise_titles_excluded(title):
+    assert is_relevant(title) is False
+
+
+@pytest.mark.parametrize("title", [
+    "Legislative Affairs Assistant",
+    "Election Manager",
+    "Deputy Political Director",
+    "Candidate Selection Coordinator",
+    "Assistant Professor of Political Science",
+    "Political Science Research Fellow",
+])
+def test_us_noise_legitimate_titles_kept(title):
+    assert is_relevant(title) is True
