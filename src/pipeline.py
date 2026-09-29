@@ -570,7 +570,19 @@ async def run_pipeline(
         active_jobs = db.get_active_jobs(country=country)
 
     # ── Generate feeds ────────────────────────────────────────────────────────
-    feed_counts = generate_feeds(active_jobs, output_dir=output_dir, base_url=base_url, country=country)
+    _filter_fields = ("title_include_regex", "title_exclude_regex", "location_filter")
+    source_filters: dict[str, dict] = {
+        s["name"]: {k: s[k] for k in _filter_fields if k in s}
+        for s in all_sources
+        if any(k in s for k in _filter_fields)
+    }
+    feed_counts = generate_feeds(
+        active_jobs,
+        output_dir=output_dir,
+        base_url=base_url,
+        country=country,
+        source_filters=source_filters or None,
+    )
 
     # ── Per-source log summaries ──────────────────────────────────────────────
     try:

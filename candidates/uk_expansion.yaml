@@ -1,0 +1,367 @@
+# UK source expansion candidates — verified by scripts/verify_sources.py
+# Format mirrors sources.yaml for Tier 1 fields; adds tier, verify_only, and filter proposals.
+# All candidates are enabled: false until verification passes and approval is given.
+#
+# title_include_regex / title_exclude_regex: proposed per-source filters for mixed boards.
+# location_filter: if set, only jobs whose location matches (re.IGNORECASE) are included.
+# verify_only: true = do not add to sources.yaml without explicit ruling.
+
+candidates:
+
+  # ── Tier 1: Workday ────────────────────────────────────────────────────────
+
+  - name: "Ofcom"
+    platform: "workday"
+    identifier:
+      tenant: ofcom
+      dc: wd3
+      site: Ofcom_Careers
+    org_static: "Ofcom"
+    category: "general"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "Ofcom regulatory body — mixed board; title filter required."
+
+  - name: "FCA"
+    platform: "workday"
+    identifier:
+      tenant: fca
+      dc: wd3
+      site: FCA_Careers
+    org_static: "Financial Conduct Authority"
+    category: "general"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "FCA main careers board — mixed board; title filter required. Two Workday sites: FCA_Careers + FCA_earlycareers."
+
+  - name: "FCA Early Careers"
+    platform: "workday"
+    identifier:
+      tenant: fca
+      dc: wd3
+      site: FCA_earlycareers
+    org_static: "Financial Conduct Authority"
+    category: "fellowships"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "FCA early careers / graduate board — same tenant as FCA main, separate site."
+
+  - name: "ICO"
+    platform: "workday"
+    identifier:
+      tenant: ico
+      dc: wd3
+      site: ICO
+    org_static: "Information Commissioner's Office"
+    category: "general"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "Information Commissioner's Office — mixed board; title filter required."
+
+  - name: "Wellcome"
+    platform: "workday"
+    identifier:
+      tenant: wellcome
+      dc: wd3
+      site: Wellcome
+    org_static: "Wellcome Trust"
+    category: "think-tanks"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "Wellcome Trust — global health research funder; mixed board; title filter required."
+
+  - name: "Innovate UK"
+    platform: "workday"
+    identifier:
+      tenant: innovateuk
+      dc: wd3
+      site: innovateukcareers
+    org_static: "Innovate UK"
+    category: "general"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "Innovate UK public careers board. NOT iukukri (internal portal). Mixed board; title filter required."
+
+  - name: "FTI Consulting"
+    platform: "workday"
+    identifier:
+      tenant: fticonsulting
+      dc: wd108
+      site: FTIConsultingCareers
+    org_static: "FTI Consulting"
+    category: "public-affairs"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    location_filter: "London|United Kingdom|UK"
+    verify_only: false
+    notes: "FTI Consulting public careers board (dc=wd108). NOT the private internal site. Location filter to London/UK; title filter required."
+
+  # ── Tier 1: Oracle HCM ────────────────────────────────────────────────────
+
+  - name: "Bank of England"
+    platform: "oracle_hcm"
+    identifier:
+      api_host: eoff.fa.em1.ukg.oraclecloud.com
+      site: CX_1001
+    org_static: "Bank of England"
+    category: "general"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "Bank of England Oracle HCM. Host: eoff.fa.em1.ukg.oraclecloud.com site=CX_1001. Mixed board; title filter required."
+
+  - name: "UKRI"
+    platform: "oracle_hcm"
+    identifier:
+      api_host: fa-evzn-saasfaukgovprod1.fa.ocs.oraclecloud.com
+      site: UKRI-Careers
+    org_static: "UK Research and Innovation"
+    category: "general"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "UKRI Oracle HCM (evzn tenant). Mixed board; title filter required."
+
+  - name: "Scottish Government"
+    platform: "oracle_hcm"
+    identifier:
+      api_host: fa-evxn-saasfaukgovprod1.fa.ocs.oraclecloud.com
+      site: CX_1
+    org_static: "Scottish Government"
+    category: "government"
+    country: "uk"
+    tier: 1
+    verify_only: true
+    notes: "Scottish Government Oracle HCM (evxn tenant). VERIFY ONLY — do not add to sources.yaml until explicit ruling."
+
+  # ── Tier 1: Personio ─────────────────────────────────────────────────────
+
+  - name: "ECFR"
+    platform: "personio"
+    identifier:
+      subdomain: ecfr
+    org_static: "European Council on Foreign Relations"
+    category: "think-tanks"
+    country: "uk"
+    tier: 1
+    location_filter: "London"
+    verify_only: false
+    notes: "ECFR Personio board. Global board — London location filter required. Separate UK entry from the existing pan-eu source."
+
+  # ── Tier 1: BambooHR ──────────────────────────────────────────────────────
+
+  - name: "E3G"
+    platform: "bamboohr"
+    identifier:
+      company: e3g
+    org_static: "E3G"
+    category: "think-tanks"
+    country: "uk"
+    tier: 1
+    location_filter: "London"
+    verify_only: false
+    notes: "E3G BambooHR board. Global board — London location filter required."
+
+  # ── Tier 1: TeamTailor ────────────────────────────────────────────────────
+
+  - name: "Chatham House"
+    platform: "teamtailor"
+    identifier:
+      base_url: careers.chathamhouse.org
+    org_static: "Chatham House"
+    category: "think-tanks"
+    country: "uk"
+    tier: 1
+    verify_only: false
+    notes: "Chatham House custom TeamTailor domain careers.chathamhouse.org. Do not scrape chathamhouse.org main site."
+
+  - name: "Portland Communications"
+    platform: "teamtailor"
+    identifier:
+      base_url: portland.teamtailor.com
+    org_static: "Portland Communications"
+    category: "public-affairs"
+    country: "uk"
+    tier: 1
+    verify_only: false
+    notes: "Portland Communications TeamTailor board."
+
+  - name: "Hanbury Strategy"
+    platform: "teamtailor"
+    identifier:
+      base_url: hanburystrategy.teamtailor.com
+    org_static: "Hanbury Strategy"
+    category: "public-affairs"
+    country: "uk"
+    tier: 1
+    verify_only: false
+    notes: "Hanbury Strategy TeamTailor board."
+
+  - name: "Green Alliance"
+    platform: "teamtailor"
+    identifier:
+      base_url: greenalliance.teamtailor.com
+    org_static: "Green Alliance"
+    category: "think-tanks"
+    country: "uk"
+    tier: 1
+    verify_only: false
+    notes: "Green Alliance TeamTailor board."
+
+  # ── Tier 1: Greenhouse ────────────────────────────────────────────────────
+
+  - name: "FGS Global"
+    platform: "greenhouse"
+    identifier:
+      token: fgsglobal
+    org_static: "FGS Global"
+    category: "public-affairs"
+    country: "uk"
+    tier: 1
+    location_filter: "London|United Kingdom"
+    verify_only: false
+    notes: "FGS Global Greenhouse board. Location filter to London/UK."
+
+  - name: "Labour PLP"
+    platform: "greenhouse"
+    identifier:
+      token: workforlabourplp
+    org_static: "Labour Party (PLP)"
+    category: "political-parties"
+    country: "uk"
+    tier: 1
+    verify_only: false
+    notes: "Labour PLP Greenhouse board."
+
+  - name: "Teneo"
+    platform: "greenhouse"
+    identifier:
+      token: teneolinkedin
+    org_static: "Teneo"
+    category: "public-affairs"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    location_filter: "London|United Kingdom"
+    verify_only: false
+    notes: "Teneo Greenhouse board. Mixed board — London location filter + title filter required."
+
+  - name: "Burson (Global)"
+    platform: "greenhouse"
+    identifier:
+      token: bursonglobalcareers
+    org_static: "Burson"
+    category: "public-affairs"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    location_filter: "London|United Kingdom"
+    verify_only: false
+    notes: "Burson global Greenhouse board. Mixed board — London location filter + title filter required. Two boards: bursonglobalcareers and bursonbuchanan (separate source entry)."
+
+  - name: "Burson (Buchanan)"
+    platform: "greenhouse"
+    identifier:
+      token: bursonbuchanan
+    org_static: "Burson"
+    category: "public-affairs"
+    country: "uk"
+    tier: 1
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    location_filter: "London|United Kingdom"
+    verify_only: false
+    notes: "Burson Buchanan Greenhouse board. UK-focused; location filter precautionary."
+
+  # ── Tier 2: Selector ──────────────────────────────────────────────────────
+
+  - name: "PubAffairs Bruxelles"
+    url: "https://www.publicaffairsnetworking.com/public-affairs-jobs.php"
+    scraper: "selector"
+    category: "public-affairs"
+    country: "uk"
+    org_static: "PubAffairs Bruxelles"
+    tier: 2
+    verify_only: true
+    notes: "VERIFY ONLY pending ToS ruling. Public affairs job board."
+    selectors:
+      job_card: "div.job-listing, article.job, li.job-item, div.views-row"
+      title: "h2, h3, .job-title, .views-field-title"
+      link: "a"
+      location: ".location, .views-field-field-location"
+
+  - name: "Scottish Parliament"
+    url: "https://www.parliament.scot/careers/career-search"
+    scraper: "selector"
+    category: "government"
+    country: "uk"
+    org_static: "Scottish Parliament"
+    tier: 2
+    verify_only: false
+    notes: "Scottish Parliament career search. Scrape listing page only; do not scrape WebITrent system."
+    selectors:
+      job_card: "div.vacancy-result, article.vacancy, li.vacancy, div.job-listing-item, tr.vacancy-row"
+      title: "h2, h3, .vacancy-title, .job-title, td.title"
+      link: "a"
+      location: ".location, .vacancy-location"
+      closing_date: ".closing-date, .deadline, time"
+
+  - name: "Senedd"
+    url: "https://jobs.senedd.wales/"
+    scraper: "selector"
+    category: "government"
+    country: "uk"
+    org_static: "Senedd Cymru / Welsh Parliament"
+    tier: 2
+    verify_only: false
+    notes: "Senedd Welsh Parliament jobs board."
+    selectors:
+      job_card: "div.job, article.job, li.job-item, div.vacancy, tr[class*='job']"
+      title: "h2, h3, .job-title, td.title, a.job-link"
+      link: "a"
+      location: ".location, .job-location"
+      closing_date: ".closing, .deadline, time"
+
+  - name: "Greater London Authority"
+    url: "https://www.london.gov.uk/take-part/working-city-hall/current-vacancies"
+    scraper: "selector"
+    category: "government"
+    country: "uk"
+    org_static: "Greater London Authority"
+    tier: 2
+    title_include_regex: "policy|regulat|supervis|econom|public affairs|government affairs|strategy|research|analyst|parliament|legislat|stakeholder|communications|advocacy|campaign|graduate|intern"
+    title_exclude_regex: "facilities|cleaner|catering|payroll|accounts payable|IT support|service desk|security officer|receptionist|driver"
+    verify_only: false
+    notes: "GLA vacancies page at london.gov.uk. NOT gla.gov.uk (Gangmasters and Labour Abuse Authority). Mixed board; title filter required."
+    selectors:
+      job_card: "div.views-row, article.job, li.vacancy, div.job-item"
+      title: "h2, h3, .views-field-title, .job-title"
+      link: "a"
+      location: ".location, .views-field-field-location"
+      closing_date: ".closing-date, .deadline"
