@@ -156,3 +156,17 @@ description_fetch:
   timeout_seconds: 15
   max_description_length: 5000
   min_existing_description_length: 500
+
+  # Upstream selection-noise (Political Job Hunt)
+  # Political Wire's board matches "selection" inside compound words upstream.
+  # Phrases only — the single word "selection" is NOT added (hits "candidate selection").
+  # "political science" used in place of "political science instructor" to also cover
+  # department-admin roles (e.g. "Administrative Associate Iii Political Science").
+  # "photographer" added to cover "Legislative Photographer" and the category generally.
+  - order selection
+  - vendor selection
+  - site selection
+  - design selections
+  - material handler
+  - political science
+  - photographer

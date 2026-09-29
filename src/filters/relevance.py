@@ -55,6 +55,12 @@ HARD_EXCLUSIONS = [
     "Forklift Driver", "Stockperson",
     "Farm", "Agricultural", "Fisheries", "Marine", "Laboratory",
     "Lab Technician", "Mortuary", "Coroner",
+    # Upstream selection-noise (Political Job Hunt) — phrases match as substrings;
+    # "political science" used (not "political science instructor") to also cover
+    # department-admin titles; "Photographer" added for "Legislative Photographer".
+    "order selection", "vendor selection", "site selection", "design selections",
+    "material handler", "political science",
+    "Photographer",
 ]
 
 # Only Administrator stays soft: the title can legitimately describe a
