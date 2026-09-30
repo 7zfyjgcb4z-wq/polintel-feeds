@@ -480,7 +480,7 @@ sources:
     org_static: "ODI"
     identifier:
       account: "odi"  # board at odi.pinpointhq.com; extractor calls /postings.json directly
-    enabled: false  # careers.odi.org returns Cloudflare JS challenge — use Pinpoint API when re-enabling
+    enabled: false  # careers.odi.org returns Cloudflare JS challenge. Pinpoint API path also blocked: odi.pinpointhq.com/robots.txt is Disallow:/ (confirmed 2026-09-30). No compliant re-enable path available; owner decision required.
 
   - name: "Tony Blair Institute"
     url: "https://tbinstitute.wd3.myworkdayjobs.com/TBI"
