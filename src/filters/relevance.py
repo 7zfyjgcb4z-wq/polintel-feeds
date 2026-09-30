@@ -61,6 +61,15 @@ HARD_EXCLUSIONS = [
     "order selection", "vendor selection", "site selection", "design selections",
     "material handler", "political science instructor",
     "Photographer",
+    # Amnesty International UK — volunteer and committee listings only;
+    # bare "volunteer" omitted (hits paid "Volunteer Coordinator/Manager" elsewhere).
+    # "country coordinator" omitted — too generic for HARD_EXCLUSIONS; Amnesty volunteer
+    # country coordinators are the only current instances but the phrase is common
+    # across the NGO sector for paid roles at other sources.
+    "event day volunteer",
+    "student action network",
+    "amnesty feminist network",
+    "anti-racism network",
 ]
 
 # Only Administrator stays soft: the title can legitimately describe a
