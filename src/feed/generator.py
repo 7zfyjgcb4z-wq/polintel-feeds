@@ -372,7 +372,20 @@ def _write_feed(
     fg.link(href=feed_url, rel="self")
     fg.language("en")
     fg.description(f"Job listings for {label} roles, scraped by Pol-Intel.")
-    fg.lastBuildDate(datetime.now(timezone.utc))
+    _build_date: datetime | None = None
+    for _j in jobs:
+        if _j.posted_date:
+            try:
+                _dt = datetime.fromisoformat(_j.posted_date)
+                if _dt.tzinfo is None:
+                    _dt = _dt.replace(tzinfo=timezone.utc)
+                if _build_date is None or _dt > _build_date:
+                    _build_date = _dt
+            except (ValueError, TypeError):
+                pass
+    # Fall back to a fixed epoch rather than datetime.now() so the feed is
+    # byte-stable across runs when no job content changes.
+    fg.lastBuildDate(_build_date or datetime(2020, 1, 1, tzinfo=timezone.utc))
 
     for job in jobs:
         # Skip entries with non-absolute URLs

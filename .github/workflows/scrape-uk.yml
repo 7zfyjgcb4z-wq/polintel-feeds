@@ -34,10 +34,28 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Playwright browsers
+      - name: Install Playwright if needed
         run: |
           source .venv/bin/activate
-          playwright install chromium --with-deps
+          JS_SOURCES=$(python3 - <<'PYEOF'
+import glob, yaml
+triggered = []
+for path in sorted(glob.glob("src/config/sources*.yaml")):
+    with open(path) as f:
+        cfg = yaml.safe_load(f)
+    for s in (cfg or {}).get("sources", []):
+        if s.get("enabled") and s.get("requires_js"):
+            triggered.append(s["name"])
+print("\n".join(triggered))
+PYEOF
+)
+          if [ -n "$JS_SOURCES" ]; then
+            echo "Enabled JS sources requiring Playwright:"
+            echo "$JS_SOURCES"
+            playwright install chromium --with-deps
+          else
+            echo "No enabled JS sources, skipping Playwright"
+          fi
 
       - name: Run scrapers
         env:
