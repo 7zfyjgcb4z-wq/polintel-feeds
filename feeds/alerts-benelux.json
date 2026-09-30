@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-09-29T17:39:53Z",
+  "generated_at": "2026-09-30T17:38:35Z",
   "country": "benelux",
   "alerts": [],
   "_tracking": {
-    "consecutive_failures": {}
+    "consecutive_failures": {
+      "VVD": 0
+    }
   }
 }

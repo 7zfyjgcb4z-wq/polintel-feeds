@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 17:39:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Referentin / Referent für Kommunikation und Öffentlichkeitsarbeit (w/m/d)</title>
       <link>https://jobs.politik-kommunikation.de/stellenanzeigen/referentin-referent-fur-kommunikation-und-offentlichkeitsarbeit-wmd-berlin-landesvertretung-baden-wurttemberg-12974979</link>
@@ -251,5 +251,17 @@ Wir freuen uns darauf, Sie kennenzulernen.</description>
       <category>Public Affairs</category>
       <dc:creator>sofatutor GmbH</dc:creator>
     <description /><polintel:location>Berlin</polintel:location><polintel:descriptionSource>none</polintel:descriptionSource></item>
+    <item>
+      <title>Referent Gesundheit, Medizin und Life Sciences</title>
+      <link>https://jobs.politik-kommunikation.de/stellenanzeigen/referent-gesundheit-medizin-und-life-sciences-berlin-bio-deutschland-e-v-12975430</link>
+      <description>Der BIO Deutschland e. V. ist eine unabhängige Biotechnologie-Organisation. Wir vertreten die Interessen unserer Mitglieder auf nationaler, europäischer und globaler Ebene. Die Biotechnologie überführt Biologie in die industrielle Anwendung. Sie hat beispielsweise in der Medizin bereits weithin sichtbaren Nutzen gezeigt. Innovative biobasierte Wirtschaftssysteme können Deutschland und Europa Souveränität und Wohlstand auf lange Sicht ermöglichen. Unser Netzwerk im Verband ist interdisziplinär und einmalig. Unsere Mitglieder forschen, entwickeln, produzieren und vermarkten global. Wir sind eine starke Gemeinschaft. Wir setzen auf Vielfalt, Offenheit und Chancengleichheit und bekennen uns zur freiheitlich demokratischen Grundordnung.
+Dabei folgen die Mitglieder des Verbands und die Mitarbeitenden in der Geschäftsstelle speziellen
+Grundsätzen zu Ethik und Gesetzgebung
+.
+BIO Deutschland wird von einem zehnköpfigen Vorstand geleitet, der sich aus Vorstandsvorsitzenden und Geschäftsführern von Biotechnologie-Unternehmen zusammensetzt. Dieses Gremium repräsentiert umfassend die unterschiedlichen Bereiche der Branche.</description>
+      <guid isPermaLink="false">https://jobs.politik-kommunikation.de/stellenanzeigen/referent-gesundheit-medizin-und-life-sciences-berlin-bio-deutschland-e-v-12975430</guid>
+      <category>Public Affairs</category>
+      <dc:creator>BIO Deutschland e. V.</dc:creator>
+    <polintel:location>Berlin</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>
