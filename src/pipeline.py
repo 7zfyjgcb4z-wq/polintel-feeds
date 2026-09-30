@@ -300,9 +300,12 @@ async def run_pipeline(
                             )
                         else:
                             _jobs = await _extractor.extract(src, known_urls=known_urls)
-                        return src["name"], _platform, _jobs, time.monotonic() - _t, None
+                        result = src["name"], _platform, _jobs, time.monotonic() - _t, None
                     except Exception as _exc:
-                        return src["name"], _platform, [], time.monotonic() - _t, str(_exc)
+                        result = src["name"], _platform, [], time.monotonic() - _t, str(_exc)
+                    finally:
+                        await asyncio.sleep(2)
+                return result
 
             _gather_results = await asyncio.gather(
                 *[_fetch_platform(s) for s in platform_sources]

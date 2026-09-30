@@ -37,10 +37,24 @@ jobs:
       - name: Install Playwright if needed
         run: |
           source .venv/bin/activate
-          if grep -q "requires_js: true" src/config/sources.yaml 2>/dev/null; then
+          JS_SOURCES=$(python3 - <<'PYEOF'
+import glob, yaml
+triggered = []
+for path in sorted(glob.glob("src/config/sources*.yaml")):
+    with open(path) as f:
+        cfg = yaml.safe_load(f)
+    for s in (cfg or {}).get("sources", []):
+        if s.get("enabled") and s.get("requires_js"):
+            triggered.append(s["name"])
+print("\n".join(triggered))
+PYEOF
+)
+          if [ -n "$JS_SOURCES" ]; then
+            echo "Enabled JS sources requiring Playwright:"
+            echo "$JS_SOURCES"
             playwright install chromium --with-deps
           else
-            echo "No JS sources, skipping Playwright"
+            echo "No enabled JS sources, skipping Playwright"
           fi
 
       - name: Run scrapers
