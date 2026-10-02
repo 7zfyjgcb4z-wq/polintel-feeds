@@ -1,8 +1,8 @@
 {
-  "last_run": "2026-10-01T18:02:52Z",
+  "last_run": "2026-10-02T17:29:24Z",
   "country": "dach",
   "total_active_jobs": 30,
-  "new_jobs_found": 1,
+  "new_jobs_found": 0,
   "sources_checked": 3,
   "sources_succeeded": 3,
   "sources_failed": 0,
@@ -10,7 +10,7 @@
   "relevance_filtered": 0,
   "descriptions_enriched": 0,
   "feeds_generated": 6,
-  "run_duration_seconds": 15.3,
+  "run_duration_seconds": 15.1,
   "failed_sources": [],
   "per_source": [
     {
@@ -20,7 +20,7 @@
       "jobs_found": 7,
       "jobs_after_relevance_filter": 7,
       "descriptions_enriched": 0,
-      "duration_seconds": 6.6,
+      "duration_seconds": 6.9,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -30,15 +30,15 @@
       "jobs_found": 2,
       "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 5.1,
+      "duration_seconds": 5.0,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "NEOS",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 14,
-      "jobs_after_relevance_filter": 14,
+      "jobs_found": 13,
+      "jobs_after_relevance_filter": 13,
       "descriptions_enriched": 0,
       "duration_seconds": 1.1,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
