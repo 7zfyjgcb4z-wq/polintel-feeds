@@ -1,46 +1,45 @@
 {
-  "last_run": "2026-10-04T16:27:13Z",
+  "last_run": "2026-10-06T17:57:05Z",
   "country": "dach",
-  "total_active_jobs": 29,
-  "new_jobs_found": 0,
+  "total_active_jobs": 31,
+  "new_jobs_found": 2,
   "sources_checked": 3,
   "sources_succeeded": 3,
   "sources_failed": 0,
   "sources_disabled": 16,
   "relevance_filtered": 0,
-  "descriptions_enriched": 0,
+  "descriptions_enriched": 1,
   "feeds_generated": 6,
-  "run_duration_seconds": 13.8,
+  "run_duration_seconds": 15.9,
   "failed_sources": [],
   "per_source": [
     {
       "name": "Parlamentjobs.de",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 7,
-      "jobs_after_relevance_filter": 7,
-      "descriptions_enriched": 0,
-      "duration_seconds": 6.3,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+      "jobs_found": 8,
+      "jobs_after_relevance_filter": 8,
+      "descriptions_enriched": 1,
+      "duration_seconds": 6.0
     },
     {
       "name": "Politik-Kommunikation Jobs",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 2,
-      "jobs_after_relevance_filter": 2,
+      "jobs_found": 3,
+      "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 4.6,
+      "duration_seconds": 4.9,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "NEOS",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 13,
-      "jobs_after_relevance_filter": 13,
+      "jobs_found": 12,
+      "jobs_after_relevance_filter": 12,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.8,
+      "duration_seconds": 0.7,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     }
   ]
