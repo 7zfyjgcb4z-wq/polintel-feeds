@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Stage campagneteam</title>
       <link>https://www.vvd.nl/vacatures/stage-campagne-team/</link>
@@ -154,5 +154,14 @@ Voor nadere informatie kun je contact opnemen met Hoofd Parlementaire Voorlichti
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>VVD</dc:creator>
     <polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Eventmanager</title>
+      <link>https://www.vvd.nl/vacatures/eventmanager/</link>
+      <description>Het partijbureau van de VVD zoekt een Eventmanager die verantwoordelijk is voor de organisatie en uitvoering van de landelijke evenementen van de partij. Van congressen en ledendagen tot politieke en campagnebijeenkomsten. Je houdt overzicht, neemt eigenaarschap en zorgt dat alles klopt: van voorbereiding en planning tot uitvoering en evaluatie. Wat ga je doen? Als Eventmanager ben je verantwoordelijk voor het landelijke evenementenprogramma van de VVD. Je: organiseert evenementen van A tot Z en bewaakt planning, kwaliteit en budget; ontwikkelt draaiboeken, briefings en nieuwe evenementconcepten; onderhoudt contact met locaties, leveranciers en andere betrokkenen; zorgt voor een professionele en herkenbare aanpak van de landelijke evenementen; werkt nauw samen met communicatie, campagne en andere teams binnen het partijbureau; Wie zoeken wij? Een zelfstandige en energieke eventprofessional die overzicht houdt en van aanpakken weet. Je bent: sterk in organiseren en plannen; creatief en oplossingsgericht; nauwkeurig en stressbestendig; politiek en organisatiesensitief; communicatief sterk en verbindend; iemand die eigenaarschap neemt en afspraken nakomt. Je hebt ervaring met het organiseren van evenementen, bijeenkomsten of congressen en bent gewend om zelfstandig verantwoordelijkheid te dragen voor het hele proces. Wat bieden wij? Een veelzijdige functie in het hart van de landelijke politiek, waarin je direct bijdraagt aan een sterke en betrokken vereniging. Dit bieden wij: een afwisselende functie met grote maatschappelijke betekenis; veel ruimte voor eigen initiatief en creativiteit; werken op een toplocatie in het politieke centrum van Den Haag; een betrokken team van medewerkers en vrijwilligers; uitstekende arbeidsvoorwaarden, waaronder een 13e maand en een goede pensioenregeling; een passend salaris, waarbij de salarisschalen van het Rijk als referentiekader worden gevolgd. Interesse? Wil jij de evenementen van de VVD naar een hoger niveau tillen? Stuur dan je cv en motivatie naar werken@vvd.nl voor 24 oktober 2026. De eerste gesprekken vinden plaats op 29 oktober 2026. Voor vragen over de functie kun je contact opnemen met Nelleke van Houwelingen via bovengenoemd e-mailadres.</description>
+      <guid isPermaLink="false">https://www.vvd.nl/vacatures/eventmanager/</guid>
+      <category>Political Parties</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>VVD</dc:creator>
+    <polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
