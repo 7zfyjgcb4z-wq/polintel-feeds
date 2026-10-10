@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-09T17:59:09Z",
+  "last_run": "2026-10-10T16:59:27Z",
   "country": "benelux",
   "total_active_jobs": 7,
   "new_jobs_found": 0,
@@ -20,7 +20,7 @@
       "jobs_found": 4,
       "jobs_after_relevance_filter": 4,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.7,
+      "duration_seconds": 0.8,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     }
   ]
