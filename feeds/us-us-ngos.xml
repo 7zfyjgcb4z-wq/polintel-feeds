@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-290/</link>
@@ -109,15 +109,6 @@
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>United States</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Program Coordinator, High School Workforce Pathways</title>
-      <link>https://www.foundationlist.org/job-details/program-coordinator-high-school-workforce-pathways-2/</link>
-      <description>Position Summary Urban Alliance Baltimore is seeking an experienced youth development professional to serve as a Program Coordinator supporting high school students participating in paid internship and apprenticeship pathways. The</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/program-coordinator-high-school-workforce-pathways-2/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Vice President of Philanthropy</title>
       <link>https://www.foundationlist.org/job-details/vice-president-of-philanthropy-8/</link>
       <description>Vice President of Philanthropy Crazy Horse Memorial Foundation Crazy Horse, South Dakota &amp;amp;nbsp; The Moran Company [https://morancompany.com/] is pleased to partner with Crazy Horse Memorial Foundation to recruit the organization's Vice Presid</description>
@@ -126,24 +117,6 @@
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Business Operations Manager</title>
-      <link>https://www.foundationlist.org/job-details/business-operations-manager/</link>
-      <description>Veggielution is hiring a collaborative Business Operations Manager to bridge administration, programmatic, facility and grant management workflows. The Business Operations Manager serves as the Executive Director's primary operational owner, ensuring</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/business-operations-manager/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Strategic Advisor to the CEO</title>
-      <link>https://www.foundationlist.org/job-details/strategic-advisor-to-the-ceo/</link>
-      <description>Job Title: Strategic Advisor and Executive Coordinator to the CEO Supervisor: Chief Executive Officer (CEO) Job Status: Full-Time / Exempt Job Hours: 35 hours per week, On-Site Location: New York, NY (Midtown Manhattan) Compensation: $</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/strategic-advisor-to-the-ceo/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:location>New York, NY (Midtown Manhattan) Compensation: $</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Development and Grants Director</title>
       <link>https://www.foundationlist.org/job-details/development-and-grants-director/</link>
@@ -1173,5 +1146,14 @@ Please note that given the anticipated interest in this position, the names of a
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Part-Time Administrative Coordinator</title>
+      <link>https://www.foundationlist.org/job-details/part-time-administrative-coordinator/</link>
+      <description>The Decorators Club / Decorators Club Education Fund Hours: About 50 hours per month (12–13 per week), flexible, with potential to expand Reports to: Board of Directors Location: NYC, hybrid (remote, plus on-site for meetings and events) Compensat</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/part-time-administrative-coordinator/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>NYC, hybrid (remote, plus on-site for meetings and events) Compensat</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
