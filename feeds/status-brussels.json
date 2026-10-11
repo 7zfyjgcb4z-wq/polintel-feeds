@@ -1,26 +1,27 @@
 {
-  "last_run": "2026-10-10T13:53:55Z",
+  "last_run": "2026-10-11T14:13:43Z",
   "country": "brussels",
-  "total_active_jobs": 170,
-  "new_jobs_found": 1,
+  "total_active_jobs": 169,
+  "new_jobs_found": 0,
   "sources_checked": 8,
   "sources_succeeded": 8,
   "sources_failed": 0,
   "sources_disabled": 20,
   "relevance_filtered": 1,
-  "descriptions_enriched": 1,
+  "descriptions_enriched": 0,
   "feeds_generated": 6,
-  "run_duration_seconds": 62.4,
+  "run_duration_seconds": 61.2,
   "failed_sources": [],
   "per_source": [
     {
       "name": "EuroBrussels",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 43,
-      "jobs_after_relevance_filter": 43,
-      "descriptions_enriched": 1,
-      "duration_seconds": 48.8
+      "jobs_found": 42,
+      "jobs_after_relevance_filter": 42,
+      "descriptions_enriched": 0,
+      "duration_seconds": 48.2,
+      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "EU Training Jobs",
@@ -29,7 +30,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 3.1
+      "duration_seconds": 2.9
     },
     {
       "name": "ECFR",
@@ -38,7 +39,7 @@
       "jobs_found": 1,
       "jobs_after_relevance_filter": 1,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.0,
+      "duration_seconds": 0.7,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -48,7 +49,7 @@
       "jobs_found": 10,
       "jobs_after_relevance_filter": 10,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.2,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -58,7 +59,7 @@
       "jobs_found": 2,
       "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2,
+      "duration_seconds": 1.0,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
@@ -68,7 +69,7 @@
       "jobs_found": 36,
       "jobs_after_relevance_filter": 35,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -78,7 +79,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.5
     },
     {
       "name": "College of Europe Careers",
@@ -87,7 +88,7 @@
       "jobs_found": 1,
       "jobs_after_relevance_filter": 1,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.0,
+      "duration_seconds": 0.7,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     }
   ]
