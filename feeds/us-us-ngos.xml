@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-290/</link>
@@ -1164,5 +1164,23 @@ Please note that given the anticipated interest in this position, the names of a
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>San</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Evaluation Associate</title>
+      <link>https://www.foundationlist.org/job-details/evaluation-associate/</link>
+      <description>Research and Evaluation Associate The Evaluation Associate will be responsible for supporting the Director of Evaluation and the Executive Vice President for Health Policy, Research &amp;amp;amp; Strategic Partnerships in conducting quantitative and quali</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/evaluation-associate/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Vice President of Education</title>
+      <link>https://www.foundationlist.org/job-details/vice-president-of-education-2/</link>
+      <description>Position Summary The MDI Biological Laboratory (MDIBL) seeks an innovative, entrepreneurial, and strategic Vice President of Education (VPE) to modernize and expand its education and training portfolio. Position Description A member of the E</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/vice-president-of-education-2/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
