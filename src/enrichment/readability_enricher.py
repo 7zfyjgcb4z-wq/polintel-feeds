@@ -91,9 +91,10 @@ def _looks_like_challenge(text: str) -> bool:
 
 
 def _parse_job_ld(html: str) -> dict:
-    """Extract hiringOrganization, jobLocation, and validThrough from a
-    JobPosting JSON-LD block.  Returns a dict with keys 'organisation',
-    'location', 'closing_date' — any of which may be None.
+    """Extract hiringOrganization, jobLocation, validThrough and description
+    from a JobPosting JSON-LD block.  Returns a dict with keys 'organisation',
+    'location', 'closing_date', 'description' — any of which may be None.
+    'description' is the raw JSON-LD value, usually HTML; callers convert it.
 
     Traverses ``@graph`` arrays (Yoast SEO, Rank Math, myjobscotland) so
     that a JobPosting nested under a WebPage/@graph wrapper is found.
@@ -150,9 +151,22 @@ def _parse_job_ld(html: str) -> dict:
             except Exception:
                 pass
 
-        return {"organisation": org, "location": location, "closing_date": closing_date}
+        description = data.get("description")
+        if not isinstance(description, str) or not description.strip():
+            description = None
 
-    return {"organisation": None, "location": None, "closing_date": None}
+        return {
+            "organisation": org,
+            "location": location,
+            "closing_date": closing_date,
+            "description": description,
+        }
+
+    return {"organisation": None, "location": None, "closing_date": None, "description": None}
+
+
+# Public name for scrapers that read JSON-LD at ingest time.
+parse_job_ld = _parse_job_ld
 
 
 async def _fetch_html(url: str) -> str | None:
