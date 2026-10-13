@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-12T16:52:22Z",
+  "generated_at": "2026-10-13T15:10:32Z",
   "country": "brussels",
-  "alerts": [],
+  "alerts": [
+    {
+      "source": "College of Europe Careers",
+      "type": "zero_result_after_success",
+      "previous_count": 1,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "College of Europe Careers returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
+    }
+  ],
   "_tracking": {
     "consecutive_failures": {
       "EuroBrussels": 0,
