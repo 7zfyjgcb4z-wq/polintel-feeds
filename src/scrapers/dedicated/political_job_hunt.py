@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import asyncio
 import re
+import time
 from xml.etree import ElementTree as ET
 
 import httpx
@@ -37,6 +38,11 @@ BASE = "https://www.politicaljobhunt.com"
 SITEMAP_URL = f"{BASE}/sitemap.xml"
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 JOB_CAP = 200
+
+# Detail-page fetch limits.  The whole source must fit in about five minutes.
+DETAIL_TIMEOUT = 15.0      # seconds per request (was 30 via _make_client)
+DETAIL_RETRIES = 1         # one retry (was 3, with up to 14s of backoff each)
+DETAIL_BUDGET_SECONDS = 240.0   # stop fetching and emit what we have
 
 # Strip trailing 8-char hex job-ID suffix from URL slugs
 _ID_RE = re.compile(r"-[0-9a-f]{8}$")
@@ -90,6 +96,9 @@ def apply_job_ld(job: Job, ld: dict) -> bool:
 
 
 class Scraper(BaseScraper):
+    # Set by the pipeline to the URLs already stored; empty means "fetch all".
+    known_urls: set[str] | frozenset[str] = frozenset()
+
     async def scrape(self) -> list[Job]:
         partisan_lean = self.source.get("partisan_lean")
 
@@ -151,12 +160,32 @@ class Scraper(BaseScraper):
         return jobs
 
     async def _read_job_ld(self, jobs: list[Job]) -> None:
-        """Fetch each job page once and read its JobPosting JSON-LD."""
-        filled = 0
-        async with self._make_client() as client:
-            for job in jobs:
+        """Fetch each NEW job page once and read its JobPosting JSON-LD.
+
+        Jobs whose URL is already in ``known_urls`` are skipped (the feeds
+        contract is one polite fetch per new job).  Fetching stops when the
+        time budget is spent; remaining jobs are emitted with an empty
+        description and picked up on a later run.  The REQUEST_DELAY gap
+        between fetches to the host is kept.
+        """
+        todo = [j for j in jobs if j.url not in self.known_urls]
+        filled = attempted = 0
+        start = time.monotonic()
+        async with httpx.AsyncClient(
+            headers={"User-Agent": USER_AGENT},
+            follow_redirects=True,
+            timeout=DETAIL_TIMEOUT,
+        ) as client:
+            for job in todo:
+                if time.monotonic() - start >= DETAIL_BUDGET_SECONDS:
+                    self.log.warning(
+                        f"Detail-page budget of {DETAIL_BUDGET_SECONDS:.0f}s spent; "
+                        f"{len(todo) - attempted} jobs left without a fetch"
+                    )
+                    break
+                attempted += 1
                 try:
-                    r = await fetch_with_retry(client, job.url)
+                    r = await fetch_with_retry(client, job.url, retries=DETAIL_RETRIES)
                     ld = parse_job_ld(r.text)
                 except Exception as exc:  # noqa: BLE001 - one bad page must not sink the run
                     self.log.warning(f"JSON-LD read failed for {job.url}: {type(exc).__name__}: {exc}")
@@ -164,4 +193,7 @@ class Scraper(BaseScraper):
                     if apply_job_ld(job, ld):
                         filled += 1
                 await asyncio.sleep(REQUEST_DELAY)
-        self.log.info(f"JSON-LD description read for {filled}/{len(jobs)} jobs")
+        self.log.info(
+            f"JSON-LD description read for {filled}/{attempted} fetched "
+            f"({len(jobs) - len(todo)} known skipped, {len(todo) - attempted} unfetched)"
+        )

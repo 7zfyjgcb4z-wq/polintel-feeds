@@ -43,3 +43,45 @@ def test_real_org_is_not_overwritten():
     job = _job(); job.organisation = "Already Real Org"
     apply_job_ld(job, {"organisation": "Other", "description": None})
     assert job.organisation == "Already Real Org"
+
+
+def _scraper(known=()):
+    from src.scrapers.dedicated.political_job_hunt import Scraper
+    s = Scraper({"name": "Political Job Hunt", "url": "https://www.politicaljobhunt.com"})
+    s.known_urls = set(known)
+    return s
+
+
+def _run_read(monkeypatch, scraper, jobs, budget=240.0):
+    import asyncio
+    import types
+    from src.scrapers.dedicated import political_job_hunt as m
+    fetched = []
+
+    async def fake_fetch(client, url, retries=3):
+        fetched.append(url)
+        return types.SimpleNamespace(text=LD_HTML)
+
+    async def no_sleep(_):
+        return None
+
+    monkeypatch.setattr(m, "fetch_with_retry", fake_fetch)
+    monkeypatch.setattr(m.asyncio, "sleep", no_sleep)
+    monkeypatch.setattr(m, "DETAIL_BUDGET_SECONDS", budget)
+    asyncio.run(scraper._read_job_ld(jobs))
+    return fetched
+
+
+def test_known_urls_are_not_fetched(monkeypatch):
+    a, b = _job(), _job()
+    b.url += "-new"
+    fetched = _run_read(monkeypatch, _scraper(known=[a.url]), [a, b])
+    assert fetched == [b.url]
+    assert a.description == "" and b.description
+
+
+def test_time_budget_stops_fetching(monkeypatch):
+    jobs = [_job() for _ in range(3)]
+    fetched = _run_read(monkeypatch, _scraper(), jobs, budget=0.0)
+    assert fetched == []
+    assert all(j.description == "" for j in jobs)
