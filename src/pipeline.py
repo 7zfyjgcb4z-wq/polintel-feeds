@@ -216,6 +216,8 @@ async def run_pipeline(
         t = time.monotonic()
         try:
             scraper = load_dedicated_scraper(source)
+            if hasattr(scraper, "known_urls"):
+                scraper.known_urls = known_urls  # freshness gate: no detail fetch for known jobs
             jobs = await scraper.scrape()
             elapsed = time.monotonic() - t
             all_jobs.extend(jobs)
