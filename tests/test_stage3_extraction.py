@@ -285,7 +285,7 @@ def test_parse_job_ld_at_graph_without_jobposting_returns_empty():
 </script></head><body></body></html>"""
     meta = _parse_job_ld(html)
 
-    assert meta == {"organisation": None, "location": None, "closing_date": None}
+    assert meta == {"organisation": None, "location": None, "closing_date": None, "description": None}
 
 
 # ── EuroBrussels content_scope fix (fix/degraded-extractors) ─────────────────
