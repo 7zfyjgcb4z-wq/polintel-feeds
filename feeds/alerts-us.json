@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-13T20:58:03Z",
+  "generated_at": "2026-10-14T19:56:48Z",
   "country": "us",
   "alerts": [
     {
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 169,
-      "message": "House Employment Bulletin upstream data source has not been updated in 169 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+      "upstream_days_since_update": 170,
+      "message": "House Employment Bulletin upstream data source has not been updated in 170 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
     },
     {
       "source": "Niskanen Center",
       "type": "zero_result_after_success",
       "previous_count": 3,
       "current_count": 0,
-      "consecutive_zeros": 17,
-      "message": "Niskanen Center returned 0 jobs (was 3) for 17 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 18,
+      "message": "Niskanen Center returned 0 jobs (was 3) for 18 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "Roosevelt Institute",
       "type": "zero_result_after_success",
       "previous_count": 6,
       "current_count": 0,
-      "consecutive_zeros": 17,
-      "message": "Roosevelt Institute returned 0 jobs (was 6) for 17 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 18,
+      "message": "Roosevelt Institute returned 0 jobs (was 6) for 18 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {
