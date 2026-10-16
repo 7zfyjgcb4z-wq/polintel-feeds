@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:44:54Z",
+  "generated_at": "2026-10-16T12:35:35Z",
   "country": "brussels",
   "alerts": [
     {
@@ -7,8 +7,8 @@
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 3,
-      "message": "College of Europe Careers returned 0 jobs (was 1) for 3 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 4,
+      "message": "College of Europe Careers returned 0 jobs (was 1) for 4 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {
