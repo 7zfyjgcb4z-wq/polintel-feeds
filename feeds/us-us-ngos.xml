@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-290/</link>
@@ -1189,6 +1189,15 @@ Please note that given the anticipated interest in this position, the names of a
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-director-leadership-giving/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Finance &amp; Operations Coordinator</title>
+      <link>https://www.foundationlist.org/job-details/finance-operations-coordinator-2/</link>
+      <description>Finance and Operations Coordinator Help Volunteer Leaders Succeed Through Finance Operations, Project Management and Volunteer Support. About the Role • The Finance &amp;amp; Operations Coordinator provides project management, operational coordination,</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/finance-operations-coordinator-2/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
