@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-20T16:22:36Z",
+  "generated_at": "2026-10-21T16:39:04Z",
   "country": "benelux",
-  "alerts": [],
+  "alerts": [
+    {
+      "source": "VVD",
+      "type": "zero_result_after_success",
+      "previous_count": 6,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "VVD returned 0 jobs after previously returning 6. May be broken selector, site redesign, or no current vacancies."
+    }
+  ],
   "_tracking": {
     "consecutive_failures": {
       "VVD": 0
