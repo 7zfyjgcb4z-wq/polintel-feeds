@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-10-22T14:44:37Z",
+  "generated_at": "2026-10-22T16:39:30Z",
   "alerts": [
-    {
-      "source": "VVD",
-      "type": "zero_result_after_success",
-      "previous_count": 6,
-      "current_count": 0,
-      "consecutive_zeros": 1,
-      "message": "VVD returned 0 jobs after previously returning 6. May be broken selector, site redesign, or no current vacancies."
-    },
     {
       "source": "European External Action Service",
       "type": "zero_result_after_success",
