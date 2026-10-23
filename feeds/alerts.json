@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-22T19:42:53Z",
+  "generated_at": "2026-10-23T12:43:24Z",
   "alerts": [
     {
       "source": "European External Action Service",
       "type": "zero_result_after_success",
       "previous_count": 36,
       "current_count": 0,
-      "consecutive_zeros": 1,
-      "message": "European External Action Service returned 0 jobs after previously returning 36. May be broken selector, site redesign, or no current vacancies."
+      "consecutive_zeros": 2,
+      "message": "European External Action Service returned 0 jobs (was 36) for 2 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "College of Europe Careers",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 10,
-      "message": "College of Europe Careers returned 0 jobs (was 1) for 10 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 11,
+      "message": "College of Europe Careers returned 0 jobs (was 1) for 11 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "Policy Exchange",
