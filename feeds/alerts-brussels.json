@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:07:19Z",
+  "generated_at": "2026-10-25T12:39:57Z",
   "country": "brussels",
   "alerts": [
     {
@@ -7,16 +7,16 @@
       "type": "zero_result_after_success",
       "previous_count": 36,
       "current_count": 0,
-      "consecutive_zeros": 3,
-      "message": "European External Action Service returned 0 jobs (was 36) for 3 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 4,
+      "message": "European External Action Service returned 0 jobs (was 36) for 4 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "College of Europe Careers",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 12,
-      "message": "College of Europe Careers returned 0 jobs (was 1) for 12 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 13,
+      "message": "College of Europe Careers returned 0 jobs (was 1) for 13 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {
