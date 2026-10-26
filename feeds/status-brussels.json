@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-10-25T12:39:57Z",
+  "last_run": "2026-10-26T14:26:32Z",
   "country": "brussels",
-  "total_active_jobs": 175,
+  "total_active_jobs": 165,
   "new_jobs_found": 0,
   "sources_checked": 8,
   "sources_succeeded": 8,
@@ -10,17 +10,17 @@
   "relevance_filtered": 0,
   "descriptions_enriched": 0,
   "feeds_generated": 6,
-  "run_duration_seconds": 62.6,
+  "run_duration_seconds": 62.0,
   "failed_sources": [],
   "per_source": [
     {
       "name": "EuroBrussels",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 52,
-      "jobs_after_relevance_filter": 52,
+      "jobs_found": 45,
+      "jobs_after_relevance_filter": 45,
       "descriptions_enriched": 0,
-      "duration_seconds": 49.0,
+      "duration_seconds": 48.2,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -30,7 +30,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 2.5
+      "duration_seconds": 3.1
     },
     {
       "name": "ECFR",
@@ -39,7 +39,7 @@
       "jobs_found": 1,
       "jobs_after_relevance_filter": 1,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.0,
+      "duration_seconds": 0.6,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -49,7 +49,7 @@
       "jobs_found": 11,
       "jobs_after_relevance_filter": 11,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -69,7 +69,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2
+      "duration_seconds": 0.4
     },
     {
       "name": "European Policy Centre",
@@ -78,7 +78,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.2
     },
     {
       "name": "College of Europe Careers",
@@ -87,7 +87,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2
+      "duration_seconds": 0.3
     }
   ]
 }
