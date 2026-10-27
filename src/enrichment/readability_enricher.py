@@ -4,7 +4,7 @@ import asyncio
 import json
 import logging
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from typing import List, Optional
 
 import httpx
@@ -90,6 +90,22 @@ def _looks_like_challenge(text: str) -> bool:
     return any(phrase in lower for phrase in _CHALLENGE_PHRASES)
 
 
+def is_default_valid_through(date_posted: object, valid_through: object) -> bool:
+    """True when validThrough is datePosted plus one year (364 to 366 days).
+
+    Seen on every iCIMS careers portal (Brookings, CFR, AEI: datePosted 2026-10-23, validThrough
+    2027-10-23). A real deadline exactly a year out is vanishingly rare. Compares calendar dates
+    only, so time-of-day and timezone suffixes do not matter. Findings: feeds/findings-closing-date-
+    and-org-type-2026-10-27 in the vault.
+    """
+    try:
+        posted = date.fromisoformat(str(date_posted)[:10])
+        through = date.fromisoformat(str(valid_through)[:10])
+    except (TypeError, ValueError):
+        return False
+    return (through - posted).days in (364, 365, 366)
+
+
 def _parse_job_ld(html: str) -> dict:
     """Extract hiringOrganization, jobLocation, validThrough and description
     from a JobPosting JSON-LD block.  Returns a dict with keys 'organisation',
@@ -150,6 +166,10 @@ def _parse_job_ld(html: str) -> dict:
                 closing_date = str(valid_through)[:10]  # "2026-07-17T..." → "2026-07-17"
             except Exception:
                 pass
+        # iCIMS portals publish validThrough as datePosted plus one year when the employer set no
+        # deadline. That is a default, not a closing date: leave it empty.
+        if closing_date and is_default_valid_through(data.get("datePosted"), closing_date):
+            closing_date = None
 
         description = data.get("description")
         if not isinstance(description, str) or not description.strip():
