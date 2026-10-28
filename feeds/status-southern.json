@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-27T17:29:30Z",
+  "last_run": "2026-10-28T17:54:41Z",
   "country": "southern",
   "total_active_jobs": 7,
   "new_jobs_found": 0,
@@ -10,7 +10,7 @@
   "relevance_filtered": 0,
   "descriptions_enriched": 0,
   "feeds_generated": 5,
-  "run_duration_seconds": 3.4,
+  "run_duration_seconds": 3.5,
   "failed_sources": [],
   "per_source": [
     {
