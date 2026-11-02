@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-291/</link>
@@ -97,15 +97,6 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-communications-manager-10/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Environmental Services Director</title>
-      <link>https://www.foundationlist.org/job-details/environmental-services-director/</link>
-      <description>The City of Tucson is seeking a Director of Environmental Services to lead the City’s solid waste operations, including municipal refuse and recycling collection and waste disposal at the Los Reales Sustainability Campus, the largest regional landfil</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/environmental-services-director/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
@@ -999,5 +990,23 @@
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Development Officer</title>
+      <link>https://www.foundationlist.org/job-details/senior-development-officer-11/</link>
+      <description>Position Overview: The ACLU of Georgia seeks a Senior Development Officer (SDO), a frontline fundraiser who establishes and builds strong, authentic, long-term partnerships with donors and foundations, bringing them closer to our work. As the stat</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-development-officer-11/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>Georgia</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Communications Manager/Senior Communications Manager</title>
+      <link>https://www.foundationlist.org/job-details/communications-manager-senior-communications-manager/</link>
+      <description>Based in Portland, Maine, with a satellite office in Lewiston, the Immigrant Legal Advocacy Project (ILAP) is Maine’s only state-wide immigration legal aid organization. ILAP’s mission is to advance justice for Maine’s immigrants through free immigra</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/communications-manager-senior-communications-manager/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>Portland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
