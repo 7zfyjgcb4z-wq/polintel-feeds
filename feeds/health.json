@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T20:04:28Z",
+  "generated_at": "2026-11-02T17:16:51Z",
   "country_last_run": {
     "benelux": "2026-11-01T17:39:33Z",
     "dach": "2026-11-01T17:39:27Z",
@@ -7,17 +7,17 @@
     "southern": "2026-11-01T17:39:31Z",
     "us": "2026-11-01T20:04:28Z",
     "uk": "2026-09-29T11:12:53Z",
-    "brussels": "2026-11-01T14:24:12Z",
+    "brussels": "2026-11-02T17:16:51Z",
     "pan-eu": "2026-11-01T18:46:54Z"
   },
   "feed_item_counts": {
     "benelux-national-politics.xml": 0,
     "benelux-political-parties.xml": 11,
     "benelux-think-tanks.xml": 0,
-    "brussels-eu-affairs.xml": 65,
-    "brussels-eu-institutions.xml": 80,
+    "brussels-eu-affairs.xml": 66,
+    "brussels-eu-institutions.xml": 77,
     "brussels-fellowships.xml": 2,
-    "brussels-international-orgs.xml": 1,
+    "brussels-international-orgs.xml": 0,
     "brussels-ngos.xml": 0,
     "brussels-think-tanks.xml": 3,
     "cee-national-politics.xml": 0,
@@ -81,47 +81,7 @@
       "count": 53
     },
     {
-      "feed": "internship_graduate-us-fellowships.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "dach-foundations.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "southern-political-parties.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "nordics-think-tanks.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "cee-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "southern-think-tanks.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "uk-trade-associations.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "benelux-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "nordics-national-politics.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "dach-trade-associations.xml",
-      "type": "no_sources"
-    },
-    {
-      "feed": "internship_graduate-us-campaigns.xml",
+      "feed": "southern-trade-associations.xml",
       "type": "no_sources"
     },
     {
@@ -129,19 +89,31 @@
       "type": "no_sources"
     },
     {
-      "feed": "internship_graduate-general.xml",
+      "feed": "dach-trade-associations.xml",
       "type": "no_sources"
     },
     {
-      "feed": "cee-think-tanks.xml",
+      "feed": "dach-think-tanks.xml",
       "type": "no_sources"
     },
     {
-      "feed": "southern-trade-associations.xml",
+      "feed": "southern-think-tanks.xml",
       "type": "no_sources"
     },
     {
       "feed": "benelux-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "nordics-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "internship_graduate-us-campaigns.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "southern-political-parties.xml",
       "type": "no_sources"
     },
     {
@@ -153,11 +125,39 @@
       "type": "no_sources"
     },
     {
-      "feed": "dach-think-tanks.xml",
+      "feed": "dach-foundations.xml",
       "type": "no_sources"
     },
     {
       "feed": "pan-eu-eu-affairs.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "internship_graduate-us-fellowships.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "nordics-national-politics.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "cee-national-politics.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "benelux-national-politics.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "cee-think-tanks.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "uk-trade-associations.xml",
+      "type": "no_sources"
+    },
+    {
+      "feed": "internship_graduate-general.xml",
       "type": "no_sources"
     }
   ],
@@ -178,7 +178,7 @@
       "active_rows": null,
       "new_7d": null,
       "new_28d": null,
-      "new_prev_28d": 1798,
+      "new_prev_28d": 1678,
       "median_lifetime_days": null,
       "stub_share": null,
       "consecutive_zero_runs": 0,
@@ -222,7 +222,7 @@
       "active_rows": null,
       "new_7d": null,
       "new_28d": null,
-      "new_prev_28d": 20,
+      "new_prev_28d": 11,
       "median_lifetime_days": null,
       "stub_share": null,
       "consecutive_zero_runs": 0,
@@ -266,7 +266,7 @@
       "active_rows": null,
       "new_7d": null,
       "new_28d": null,
-      "new_prev_28d": 1352,
+      "new_prev_28d": 1330,
       "median_lifetime_days": null,
       "stub_share": null,
       "consecutive_zero_runs": 0,
@@ -775,7 +775,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 302,
+      "consecutive_zero_runs": 303,
       "status": "dead"
     },
     {
@@ -1281,7 +1281,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 492,
+      "consecutive_zero_runs": 493,
       "status": "dead"
     },
     {
@@ -1303,7 +1303,7 @@
       "new_prev_28d": 1,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 312,
+      "consecutive_zero_runs": 313,
       "status": "dead"
     },
     {
@@ -1567,7 +1567,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 492,
+      "consecutive_zero_runs": 493,
       "status": "dead"
     },
     {
@@ -1633,7 +1633,7 @@
       "new_prev_28d": 1,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 312,
+      "consecutive_zero_runs": 313,
       "status": "dead"
     },
     {
@@ -1875,7 +1875,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 302,
+      "consecutive_zero_runs": 303,
       "status": "dead"
     },
     {
@@ -2337,7 +2337,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 302,
+      "consecutive_zero_runs": 303,
       "status": "dead"
     },
     {
@@ -2381,7 +2381,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 492,
+      "consecutive_zero_runs": 493,
       "status": "dead"
     },
     {
@@ -2447,7 +2447,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 492,
+      "consecutive_zero_runs": 493,
       "status": "dead"
     },
     {
@@ -2645,7 +2645,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 492,
+      "consecutive_zero_runs": 493,
       "status": "dead"
     },
     {
@@ -2887,7 +2887,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 492,
+      "consecutive_zero_runs": 493,
       "status": "dead"
     },
     {
@@ -2994,7 +2994,7 @@
       "active_rows": null,
       "new_7d": null,
       "new_28d": null,
-      "new_prev_28d": 176,
+      "new_prev_28d": 175,
       "median_lifetime_days": null,
       "stub_share": null,
       "consecutive_zero_runs": 0,
@@ -3051,17 +3051,17 @@
       "feed": "brussels-eu-affairs.xml",
       "scraper_tier": "dedicated",
       "enabled": true,
-      "last_run_at": "2026-11-01T14:24:12Z",
-      "last_success_at": "2026-11-01T14:24:12Z",
-      "last_run_new": 47,
-      "last_run_found": 47,
+      "last_run_at": "2026-11-02T17:16:51Z",
+      "last_success_at": "2026-11-02T17:16:51Z",
+      "last_run_new": 48,
+      "last_run_found": 48,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 65,
-      "new_7d": 12,
-      "new_28d": 69,
-      "new_prev_28d": 58,
-      "median_lifetime_days": 11.06,
+      "active_rows": 66,
+      "new_7d": 15,
+      "new_28d": 72,
+      "new_prev_28d": 55,
+      "median_lifetime_days": 11.54,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -3073,7 +3073,7 @@
       "feed": "brussels-eu-institutions.xml",
       "scraper_tier": "dedicated",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3095,7 +3095,7 @@
       "feed": "brussels-eu-institutions.xml",
       "scraper_tier": "dedicated",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3117,8 +3117,8 @@
       "feed": "brussels-eu-affairs.xml",
       "scraper_tier": "dedicated",
       "enabled": true,
-      "last_run_at": "2026-11-01T14:24:12Z",
-      "last_success_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
+      "last_success_at": "2026-11-02T17:16:51Z",
       "last_run_new": 0,
       "last_run_found": 0,
       "last_run_failed": false,
@@ -3129,7 +3129,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 491,
+      "consecutive_zero_runs": 492,
       "status": "dead"
     },
     {
@@ -3139,7 +3139,7 @@
       "feed": "brussels-eu-affairs.xml",
       "scraper_tier": "dedicated",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3161,17 +3161,17 @@
       "feed": "brussels-eu-institutions.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": "2026-11-01T14:24:12Z",
-      "last_success_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
+      "last_success_at": "2026-11-02T17:16:51Z",
       "last_run_new": 36,
       "last_run_found": 36,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 80,
-      "new_7d": 6,
+      "active_rows": 77,
+      "new_7d": 7,
       "new_28d": 41,
-      "new_prev_28d": 58,
-      "median_lifetime_days": 15.11,
+      "new_prev_28d": 57,
+      "median_lifetime_days": 16.23,
       "stub_share": null,
       "consecutive_zero_runs": 0,
       "status": "healthy"
@@ -3183,7 +3183,7 @@
       "feed": "brussels-eu-institutions.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3205,7 +3205,7 @@
       "feed": "brussels-international-orgs.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3227,7 +3227,7 @@
       "feed": "brussels-international-orgs.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3249,7 +3249,7 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3271,7 +3271,7 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3293,8 +3293,8 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": "2026-11-01T14:24:12Z",
-      "last_success_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
+      "last_success_at": "2026-11-02T17:16:51Z",
       "last_run_new": 0,
       "last_run_found": 0,
       "last_run_failed": false,
@@ -3305,7 +3305,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 491,
+      "consecutive_zero_runs": 492,
       "status": "dead"
     },
     {
@@ -3315,7 +3315,7 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3337,7 +3337,7 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3359,8 +3359,8 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": "2026-11-01T14:24:12Z",
-      "last_success_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
+      "last_success_at": "2026-11-02T17:16:51Z",
       "last_run_new": 1,
       "last_run_found": 1,
       "last_run_failed": false,
@@ -3381,7 +3381,7 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3403,7 +3403,7 @@
       "feed": "brussels-ngos.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3425,7 +3425,7 @@
       "feed": "brussels-ngos.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3447,7 +3447,7 @@
       "feed": "brussels-ngos.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3469,7 +3469,7 @@
       "feed": "brussels-fellowships.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3491,7 +3491,7 @@
       "feed": "brussels-fellowships.xml",
       "scraper_tier": "selector",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3513,7 +3513,7 @@
       "feed": "brussels-fellowships.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3535,8 +3535,8 @@
       "feed": "brussels-fellowships.xml",
       "scraper_tier": "selector",
       "enabled": true,
-      "last_run_at": "2026-11-01T14:24:12Z",
-      "last_success_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
+      "last_success_at": "2026-11-02T17:16:51Z",
       "last_run_new": 0,
       "last_run_found": 0,
       "last_run_failed": false,
@@ -3547,7 +3547,7 @@
       "new_prev_28d": 2,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 180,
+      "consecutive_zero_runs": 181,
       "status": "dead"
     },
     {
@@ -3557,8 +3557,8 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": "2026-11-01T14:24:12Z",
-      "last_success_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
+      "last_success_at": "2026-11-02T17:16:51Z",
       "last_run_new": 11,
       "last_run_found": 11,
       "last_run_failed": false,
@@ -3579,7 +3579,7 @@
       "feed": "brussels-think-tanks.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3601,7 +3601,7 @@
       "feed": "brussels-ngos.xml",
       "scraper_tier": "generic",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3623,19 +3623,19 @@
       "feed": "brussels-international-orgs.xml",
       "scraper_tier": "ats_auto",
       "enabled": true,
-      "last_run_at": "2026-11-01T14:24:12Z",
-      "last_success_at": "2026-11-01T14:24:12Z",
-      "last_run_new": 1,
-      "last_run_found": 1,
+      "last_run_at": "2026-11-02T17:16:51Z",
+      "last_success_at": "2026-11-02T17:16:51Z",
+      "last_run_new": 0,
+      "last_run_found": 0,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 1,
+      "active_rows": null,
       "new_7d": null,
       "new_28d": 1,
       "new_prev_28d": 1,
       "median_lifetime_days": 26.0,
       "stub_share": null,
-      "consecutive_zero_runs": 0,
+      "consecutive_zero_runs": 1,
       "status": "stale"
     },
     {
@@ -3645,7 +3645,7 @@
       "feed": "brussels-eu-affairs.xml",
       "scraper_tier": "rss_feed",
       "enabled": false,
-      "last_run_at": "2026-11-01T14:24:12Z",
+      "last_run_at": "2026-11-02T17:16:51Z",
       "last_success_at": null,
       "last_run_new": null,
       "last_run_found": null,
@@ -3739,12 +3739,12 @@
       "last_run_found": 200,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 196,
+      "active_rows": 194,
       "new_7d": 29,
       "new_28d": 141,
       "new_prev_28d": 218,
       "median_lifetime_days": 10.01,
-      "stub_share": 0.1122,
+      "stub_share": 0.1134,
       "consecutive_zero_runs": 0,
       "status": "healthy"
     },
@@ -3783,7 +3783,7 @@
       "last_run_found": 11,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 24,
+      "active_rows": 22,
       "new_7d": 2,
       "new_28d": 10,
       "new_prev_28d": 2,
@@ -3877,7 +3877,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 483,
+      "consecutive_zero_runs": 484,
       "status": "dead"
     },
     {
@@ -3899,7 +3899,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 483,
+      "consecutive_zero_runs": 484,
       "status": "dead"
     },
     {
@@ -3921,7 +3921,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 483,
+      "consecutive_zero_runs": 484,
       "status": "dead"
     },
     {
@@ -3965,7 +3965,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 483,
+      "consecutive_zero_runs": 484,
       "status": "dead"
     },
     {
@@ -3987,7 +3987,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 483,
+      "consecutive_zero_runs": 484,
       "status": "dead"
     },
     {
@@ -4003,7 +4003,7 @@
       "last_run_found": 446,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 857,
+      "active_rows": 838,
       "new_7d": 100,
       "new_28d": 367,
       "new_prev_28d": 374,
@@ -4025,7 +4025,7 @@
       "last_run_found": 50,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 110,
+      "active_rows": 109,
       "new_7d": 16,
       "new_28d": 63,
       "new_prev_28d": 55,
@@ -4091,7 +4091,7 @@
       "last_run_found": 23,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 24,
+      "active_rows": 22,
       "new_7d": 1,
       "new_28d": 11,
       "new_prev_28d": 6,
@@ -4163,7 +4163,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": null,
       "stub_share": null,
-      "consecutive_zero_runs": 483,
+      "consecutive_zero_runs": 484,
       "status": "dead"
     },
     {
@@ -4449,7 +4449,7 @@
       "new_prev_28d": 1,
       "median_lifetime_days": 0.0,
       "stub_share": null,
-      "consecutive_zero_runs": 28,
+      "consecutive_zero_runs": 29,
       "status": "dead"
     },
     {
@@ -4537,7 +4537,7 @@
       "new_prev_28d": null,
       "median_lifetime_days": 4.09,
       "stub_share": null,
-      "consecutive_zero_runs": 28,
+      "consecutive_zero_runs": 29,
       "status": "dead"
     },
     {
@@ -5939,7 +5939,7 @@
       "last_run_found": 435,
       "last_run_failed": false,
       "last_error": null,
-      "active_rows": 1040,
+      "active_rows": 1030,
       "new_7d": 146,
       "new_28d": 616,
       "new_prev_28d": 562,
