@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-291/</link>
@@ -131,15 +131,6 @@
       <link>https://www.foundationlist.org/job-details/immigration-staff-attorney/</link>
       <description>FLSA Status: Full-Time, Exempt Division: Legal Programs Department: Immigration Practice Reports to: Director, Immigration Practice Salary: $90,000 - $95,000 Schedule: Hybrid — Minimum of two days per week in the New York City office (</description>
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/immigration-staff-attorney/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:location>New York City</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Immigration Paralegal</title>
-      <link>https://www.foundationlist.org/job-details/immigration-paralegal/</link>
-      <description>FLSA Status: Full-Time, Exempt Division: Legal Programs Department: Immigration Practice Reports to: Director, Immigration Practice Salary: $66,500 - $75,000 Schedule: Hybrid — Minimum of two days per week in the New York City office (</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/immigration-paralegal/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
@@ -396,15 +387,6 @@
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>United States</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Director of Operations</title>
-      <link>https://www.foundationlist.org/job-details/director-of-operations-34/</link>
-      <description>&amp;amp;nbsp; JOB DESCRIPTION JOB TITLE: Director of Operations REPORTS TO: Co-Presidents STATUS: Full-Time, Exempt LOCATION: Norwalk, CT SALARY RANGE: $75,000-$90,000 &amp;amp;nbsp; PRIMARY OBJECTIVE: Reporting d</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-of-operations-34/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:location>Norwalk, CT</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Senior Loan Officer</title>
       <link>https://www.foundationlist.org/job-details/senior-loan-officer-3/</link>
@@ -1008,5 +990,23 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>Portland</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Program Coordinator: Love Languages &amp; Cultures? Lead a Global Community of Teachers, Interns &amp; Volunteers!</title>
+      <link>https://www.foundationlist.org/job-details/program-coordinator-love-languages-cultures-lead-a-global-community-of-teachers-interns-volunteers/</link>
+      <description>Do you love languages and cultures? Are you excited about leading and supporting a diverse team of teachers, interns, and volunteers? Are you great with people, exceptionally organized, and eager to grow personally and professionally while making a B</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/program-coordinator-love-languages-cultures-lead-a-global-community-of-teachers-interns-volunteers/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Director of Head Start and Early Head Start</title>
+      <link>https://www.foundationlist.org/job-details/director-of-head-start-and-early-head-start/</link>
+      <description>Opening: (1FT) Services: 4 sites in Ocean County– Hours: 40 hours per weekRate: $80,000 - $95,000 based on education and experience. Eligible for FT paid time off, paid holidays, and fringe benefits such as health, life, dental, and a 403 (b) plan.</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-of-head-start-and-early-head-start/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
