@@ -154,14 +154,6 @@
       <dc:creator>United Nations Conference on Trade and Development</dc:creator>
     <polintel:location>Bridgetown</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Programme Management Officer</title>
-      <link>https://careers.un.org/jobSearchDescription/282532?language=en</link>
-      <description>Level : P-4 Job ID : 282532 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : Office of Counter-Terrorism Duty Station : ASHKHABAD Staffing Exercise : undefined Posted Date : 08/20/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/282532?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Office of Counter-Terrorism</dc:creator>
-    <polintel:location>Ashkhabad</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Consultant for Informal Conflict Resolution</title>
       <link>https://careers.un.org/jobSearchDescription/285163?language=en</link>
       <description>Level : CON Job ID : 281129 Job Network : Job Family : Ombudsman Department/Office : Office of the United Nations Ombudsman and Mediation Services Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 07/16/2026 00:00:00 AM (New York time) Deadline : 08/29/2026 23:59:59 PM (New York time)</description>
@@ -219,7 +211,7 @@
     <polintel:location>Sydney, AU</polintel:location><polintel:closingDate>8/6/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Internship Programme</title>
-      <link>https://api.smartrecruiters.com/v1/companies/OECD/postings/744000101644285</link>
+      <link>https://api.smartrecruiters.com/v1/companies/OECD/postings/744000159414159</link>
       <description>{"id":"744000101644285","name":"Internship Programme","uuid":"679e3a4d-f152-4467-8adf-b009e97bf65a","jobId":"a56a937a-d99a-4063-a152-e7941234d30b","jobAdId":"c2106c67-8f92-4c16-bf8e-bb8fd2da1e2e","defaultJobAd":true,"refNumber":"REF2793W","company":{"name":"OECD","identifier":"OECD"},"location":{"city":"Paris","region":"Île-de-France Region","country":"fr","remote":false,"hybrid":false,"fullLocation":"Paris, Île-de-France Region, France"},"customField":[{"fieldId":"648821a3b6b69322b51f3093","fieldLabel":"Directorate","valueId":"GENERIC","valueLabel":"GENERIC"},{"fieldId":"COUNTRY","fieldLabel":"Country/Region","valueId":"fr","valueLabel":"France"},{"fieldId":"633d99302e608549cea4cccb","fieldLabel":"Department","valueId":"6106611","valueLabel":"Policy Analysis and Legal"},{"fieldId":"633d99302e608549cea4ccca","fieldLabel":"Brands","valueId":"default","valueLabel":"OECD"},{"fieldId":"64882104a519d256d6751438","fieldLabel":"Grade","valueId":"01","valueLabel":"01"}],"releasedDate":"2026-01-05T15:01:46.987Z","creator":{"name":"","avatarUrl":""},"postingUrl":"https://jobs.smartrecruiters.com/OECD/744000101644285-internship-programme","applyUrl":"https://jobs.smartrecruiters.com/OECD/744000101644285-internship-programme?oga=true","referralUrl":"https://jobs.smartrecruiters.com/external-referrals/company/OECD/publication/679e3a4d-f152-4467-8adf-b009e97bf65a?dcr_ci=OECD","jobAd":{"sections":{"companyDescription":{"title":"Company Description","text":"
 The OECD – Who we are, what we do
 The Organisation for Economic Co-operation and Development (
@@ -310,7 +302,7 @@ Browse our
 People Management Guidebook
 to learn more about all aspects relating to people at the OECD, our workplace environment and on policies supporting staff in their daily life.
 "},"videos":{"title":"Videos To Watch","urls":["https://www.youtube.com/watch?v=T0Q7LtIYg7s&amp;t=7s"]}}},"active":true,"visibility":"PUBLIC","industry":{"id":"nonprofit_organization_mgmt","label":"Non-Profit Organization Management"},"function":{"id":"analyst","label":"Analyst"},"department":{"id":6106611,"label":"Policy Analysis and Legal"},"experienceLevel":{"id":"internship","label":"Internship"},"typeOfEmployment":{"id":"intern","label":"Intern"},"language":{"code":"en","label":"English","labelNative":"English (US)"}}</description>
-      <guid isPermaLink="false">https://api.smartrecruiters.com/v1/companies/OECD/postings/744000101644285</guid>
+      <guid isPermaLink="false">https://api.smartrecruiters.com/v1/companies/OECD/postings/744000159414159</guid>
       <category>International Organisations</category>
       <dc:creator>OECD</dc:creator>
     <polintel:location>Paris, Île-de-France Region, fr</polintel:location><polintel:descriptionSource>readability</polintel:descriptionSource></item>
@@ -569,9 +561,9 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
     <polintel:location>Vienna, AT</polintel:location><polintel:closingDate>8/27/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>ASSOCIATE COMMUNICATIONS OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/287302?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/283502?language=en</link>
       <description>Level : NO-B Job ID : 283325 Job Network : Public Information and Conference Management Job Family : Public Information Department/Office : Resident Coordinator System Duty Station : GEORGETOWN Staffing Exercise : undefined Posted Date : 10/07/2026 00:00:00 AM (New York time) Deadline : 10/21/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287302?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283502?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>Resident Coordinator System</dc:creator>
     <polintel:location>Georgetown, Guyana</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -609,9 +601,9 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
     <polintel:location>New Delhi, IN</polintel:location><polintel:closingDate>9/3/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>SENIOR PROGRAMME MANAGEMENT OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/284641?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/284914?language=en</link>
       <description>Level : P-5 Job ID : 284641 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : United Nations Environment Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 10/02/2026 00:00:00 AM (New York time) Deadline : 10/31/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284641?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284914?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>United Nations Environment Programme</dc:creator>
     <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -624,14 +616,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>DIRECTOR, LEGAL AFFAIRS</title>
-      <link>https://careers.un.org/jobSearchDescription/281658?language=en</link>
-      <description>Level : D-2 Job ID : 281658 Job Network : Legal Job Family : Legal Affairs Department/Office : Office of Legal Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/20/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/281658?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Office of Legal Affairs</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>CHIEF OF SECTION, ECONOMIC AFFAIRS</title>
       <link>https://careers.un.org/jobSearchDescription/287315?language=en</link>
       <description>Level : P-5 Job ID : 282941 Job Network : Economic, Social and Development Job Family : Economic Affairs Department/Office : Economic Commission for Africa Duty Station : ADDIS ABABA Staffing Exercise : undefined Posted Date : 08/20/2026 00:00:00 AM (New York time) Deadline : 08/26/2026 23:59:59 PM (New York time)</description>
@@ -639,14 +623,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <category>International Organisations</category>
       <dc:creator>Economic Commission for Africa</dc:creator>
     <polintel:location>Addis Ababa, Ethiopia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>STATISTICIAN</title>
-      <link>https://careers.un.org/jobSearchDescription/283237?language=en</link>
-      <description>Level : P-3 Job ID : 283237 Job Network : Economic, Social and Development Job Family : Statistics Department/Office : United Nations Joint Staff Pension Fund - Pension Administration Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 08/20/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283237?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Joint Staff Pension Fund - Pension Administration</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>TEAM ASSISTANT</title>
       <link>https://careers.un.org/jobSearchDescription/285821?language=en</link>
@@ -928,14 +904,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <dc:creator>International Trade Centre</dc:creator>
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>ECONOMIC AFFAIRS OFFICER</title>
-      <link>https://careers.un.org/jobSearchDescription/283467?language=en</link>
-      <description>Level : P-4 Job ID : 283467 Job Network : Economic, Social and Development Job Family : Economic Affairs Department/Office : United Nations Office for Disaster Risk Reduction Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 09/04/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283467?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Office for Disaster Risk Reduction</dc:creator>
-    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>INFORMATION OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/284184?language=en</link>
       <description>Level : P-4 Job ID : 284184 Job Network : Public Information and Conference Management Job Family : Public Information Department/Office : Department of Global Communications Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 09/03/2026 00:00:00 AM (New York time) Deadline : 10/18/2026 23:59:59 PM (New York time)</description>
@@ -992,14 +960,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <dc:creator>World Bank Group</dc:creator>
     <polintel:location>Djibouti, DJ</polintel:location><polintel:closingDate>9/19/2026</polintel:closingDate><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Mail Assistant</title>
-      <link>https://careers.un.org/jobSearchDescription/283147?language=en</link>
-      <description>Level : G-5 Job ID : 283147 Job Network : Management and Administration Job Family : Administration Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 09/04/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/283147?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Department of Operational Support</dc:creator>
-    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Policy Research, Editorial and Knowledge Products Consultant</title>
       <link>https://careers.un.org/jobSearchDescription/284120?language=en</link>
       <description>Level : CON Job ID : 284120 Job Network : Job Family : Economic Affairs Department/Office : Economic and Social Commission for Western Asia Duty Station : BEIRUT Staffing Exercise : undefined Posted Date : 09/07/2026 00:00:00 AM (New York time) Deadline : 10/06/2026 23:59:59 PM (New York time)</description>
@@ -1039,14 +999,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <category>International Organisations</category>
       <dc:creator>United Nations Environment Programme</dc:creator>
     <polintel:location>Paris, France</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Vocational Training Instructor – Solar System - Daily Paid Opportunity - Grade 9 - TVET program - Homs Area</title>
-      <link>https://careers.un.org/jobSearchDescription/284337?language=en</link>
-      <description>Level : Job ID : 284337 Job Network : Economic, Social and Development Job Family : Education Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : Homs Staffing Exercise : undefined Posted Date : 09/07/2026 00:00:00 AM (New York time) Deadline : 09/20/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284337?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
-    <polintel:location>Homs</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>SENIOR PUBLIC INFORMATION OFFICER</title>
       <link>https://careers.un.org/jobSearchDescription/283576?language=en</link>
@@ -1247,14 +1199,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <category>International Organisations</category>
       <dc:creator>Office for Disarmament Affairs</dc:creator>
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Associate Digital Marketing Officer</title>
-      <link>https://careers.un.org/jobSearchDescription/284013?language=en</link>
-      <description>Level : P-2 Job ID : 284013 Job Network : Information and Telecommunication Technology Job Family : Media Technology Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : HQ Amman Staffing Exercise : undefined Posted Date : 09/13/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284013?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
-    <polintel:location>HQ Amman</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Media Coordinator</title>
       <link>https://careers.un.org/jobSearchDescription/284262?language=en</link>
@@ -1608,14 +1552,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <dc:creator>United Nations Environment Programme</dc:creator>
     <polintel:location>Paris, France</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
-      <title>Associate Monitoring and Evaluation Expert (LICA 9)</title>
-      <link>https://careers.un.org/jobSearchDescription/285077?language=en</link>
-      <description>Level : CON Job ID : 285077 Job Network : Job Family : Programme Management Department/Office : International Trade Centre Duty Station : KATHMANDU Staffing Exercise : undefined Posted Date : 09/18/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/285077?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>International Trade Centre</dc:creator>
-    <polintel:location>Kathmandu, Nepal</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
       <title>Programme Management Officer (Deputy Chief of Mine Action Programme)</title>
       <link>https://careers.un.org/jobSearchDescription/281376?language=en</link>
       <description>Level : P-4 Job ID : 281376 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : Department of Peace Operations Duty Station : JERUSALEM Staffing Exercise : undefined Posted Date : 09/17/2026 00:00:00 AM (New York time) Deadline : 10/16/2026 23:59:59 PM (New York time)</description>
@@ -1647,14 +1583,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <category>International Organisations</category>
       <dc:creator>International Civil Aviation Organization</dc:creator>
     <polintel:location>Montreal</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Project Assistant (LICA 5)</title>
-      <link>https://careers.un.org/jobSearchDescription/285081?language=en</link>
-      <description>Level : CON Job ID : 285081 Job Network : Job Family : Programme Management Department/Office : International Trade Centre Duty Station : KATHMANDU Staffing Exercise : undefined Posted Date : 09/18/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/285081?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>International Trade Centre</dc:creator>
-    <polintel:location>Kathmandu, Nepal</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Intern - Public Information</title>
       <link>https://careers.un.org/jobSearchDescription/284705?language=en</link>
@@ -2111,14 +2039,6 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <category>International Organisations</category>
       <dc:creator>International Trade Centre</dc:creator>
     <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Asistente de atención al público para el stand de la CEPAL en la FIL-Guadalajara 2026</title>
-      <link>https://careers.un.org/jobSearchDescription/285357?language=en</link>
-      <description>Level : CON Job ID : 285357 Job Network : Job Family : Public Information Department/Office : Economic Commission for Latin America and the Caribbean Duty Station : MEXICO CITY Staffing Exercise : undefined Posted Date : 09/24/2026 00:00:00 AM (New York time) Deadline : 10/03/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/285357?language=en</guid>
-      <category>International Organisations</category>
-      <dc:creator>Economic Commission for Latin America and the Caribbean</dc:creator>
-    <polintel:location>Mexico City, Mexico</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Senior Digital Transformation Consultant</title>
       <link>https://careers.un.org/jobSearchDescription/285326?language=en</link>
@@ -6882,9 +6802,9 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
     <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Travel Assistant</title>
-      <link>https://careers.un.org/jobSearchDescription/286757?language=en</link>
+      <link>https://careers.un.org/jobSearchDescription/287422?language=en</link>
       <description>Level : G-5 Job ID : 286757 Job Network : Management and Administration Job Family : Administration Department/Office : United Nations Office on Drugs and Crime Duty Station : ISLAMABAD Staffing Exercise : undefined Posted Date : 10/22/2026 00:00:00 AM (New York time) Deadline : 11/05/2026 23:59:59 PM (New York time)</description>
-      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/286757?language=en</guid>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287422?language=en</guid>
       <category>International Organisations</category>
       <dc:creator>United Nations Office on Drugs and Crime</dc:creator>
     <polintel:location>Islamabad, Pakistan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
@@ -8745,5 +8665,205 @@ afin d’en savoir plus sur tous les aspects touchant aux ressources humaines de
       <category>International Organisations</category>
       <dc:creator>OECD</dc:creator>
     <polintel:location>Paris, Île-de-France Region, fr</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>ASSOCIATE POLITICAL AFFAIRS OFFICER</title>
+      <link>https://careers.un.org/jobSearchDescription/287529?language=en</link>
+      <description>Level : P-2 Job ID : 287529 Job Network : Political, Peace and Humanitarian Job Family : Political Affairs Department/Office : Department of Political and Peacebuilding Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287529?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Department of Political and Peacebuilding Affairs</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Associate Programme Officers (ATCMA) - 3 posts, DCP/OA (FT-LTD)</title>
+      <link>https://careers.un.org/jobSearchDescription/287649?language=en</link>
+      <description>Level : P-1 Job ID : 287649 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : International Trade Centre Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/18/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287649?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>International Trade Centre</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>LOGISTICS OFFICER</title>
+      <link>https://careers.un.org/jobSearchDescription/287676?language=en</link>
+      <description>Level : P-3 Job ID : 287676 Job Network : Logistics, Transportation and Supply Chain Job Family : Logistics and Supply Chain Department/Office : United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011) Duty Station : Juba Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287676?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011)</dc:creator>
+    <polintel:location>Juba, South Sudan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>INFORMATION SYSTEMS OFFICER, 2 posts (Temporary Job Opening)</title>
+      <link>https://careers.un.org/jobSearchDescription/287113?language=en</link>
+      <description>Level : P-3 Job ID : 287113 Job Network : Information and Telecommunication Technology Job Family : Information Management Systems and Technology Department/Office : United Nations Conference on Trade and Development Duty Station : LUSAKA Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287113?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Conference on Trade and Development</dc:creator>
+    <polintel:location>Lusaka, Zambia</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Digital Accessibility Specialist</title>
+      <link>https://careers.un.org/jobSearchDescription/287653?language=en</link>
+      <description>Level : CON Job ID : 287653 Job Network : Job Family : Information Management Systems and Technology Department/Office : Office of Information and Communications Technology Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/10/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287653?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of Information and Communications Technology</dc:creator>
+    <polintel:location>Bangkok, Thailand</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>MOVEMENT CONTROL ASSISTANT</title>
+      <link>https://careers.un.org/jobSearchDescription/287584?language=en</link>
+      <description>Level : FS-4 Job ID : 287584 Job Network : Logistics, Transportation and Supply Chain Job Family : Transportation Department/Office : United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011) Duty Station : Malakal Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287584?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011)</dc:creator>
+    <polintel:location>Malakal</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Mining Data Analyst</title>
+      <link>https://careers.un.org/jobSearchDescription/287184?language=en</link>
+      <description>Level : I-1 Job ID : 287184 Job Network : Job Family : Economic Affairs Department/Office : United Nations Conference on Trade and Development Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287184?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Conference on Trade and Development</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>UNCTAD Internship in the Division on International Trade and Commodities</title>
+      <link>https://careers.un.org/jobSearchDescription/287325?language=en</link>
+      <description>Level : I-1 Job ID : 287325 Job Network : Job Family : Public Information Department/Office : United Nations Conference on Trade and Development Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287325?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Conference on Trade and Development</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>SENIOR FACILITIES MANAGEMENT ASSISTANT</title>
+      <link>https://careers.un.org/jobSearchDescription/287509?language=en</link>
+      <description>Level : G-7 Job ID : 287509 Job Network : Logistics, Transportation and Supply Chain Job Family : Facilities Management Department/Office : Economic Commission for Latin America and the Caribbean Duty Station : SANTIAGO Staffing Exercise : undefined Posted Date : 11/02/2026 00:00:00 AM (New York time) Deadline : 11/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287509?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic Commission for Latin America and the Caribbean</dc:creator>
+    <polintel:location>Santiago, Chile</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Budget Officer- Fixed Term- Finance Department- FO West  Bank- For Internal &amp; External Candidates - Grade</title>
+      <link>https://careers.un.org/jobSearchDescription/287640?language=en</link>
+      <description>Level : Job ID : 287640 Job Network : Management and Administration Job Family : Finance Department/Office : United Nations Relief and Works Agency (UNRWA) Duty Station : FO West Bank Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287640?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Relief and Works Agency (UNRWA)</dc:creator>
+    <polintel:location>FO West Bank</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Data Analysis Assistant</title>
+      <link>https://careers.un.org/jobSearchDescription/287313?language=en</link>
+      <description>Level : CON Job ID : 287313 Job Network : Job Family : Statistics Department/Office : United Nations Human Settlements Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287313?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>TEAM ASSISTANT (TJO)</title>
+      <link>https://careers.un.org/jobSearchDescription/287491?language=en</link>
+      <description>Level : G-4 Job ID : 287491 Job Network : Management and Administration Job Family : Administration Department/Office : Office of the High Commissioner for Human Rights Duty Station : GENEVA Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/09/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287491?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Office of the High Commissioner for Human Rights</dc:creator>
+    <polintel:location>Geneva, Switzerland</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Consultancy: Senior expert on sand and dust storms to produce assessments for select countries and regions</title>
+      <link>https://careers.un.org/jobSearchDescription/287679?language=en</link>
+      <description>Level : CON Job ID : 287679 Job Network : Job Family : Department/Office : Convention to Combat Desertification Duty Station : BONN Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287679?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Convention to Combat Desertification</dc:creator>
+    <polintel:location>Bonn</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>INTER-REGIONAL ADVISER IN BLENDED FINANCE AND SUSTAINABLE INVESTMENT</title>
+      <link>https://careers.un.org/jobSearchDescription/284631?language=en</link>
+      <description>Level : P-5 Job ID : 284631 Job Network : Economic, Social and Development Job Family : Economic Affairs Department/Office : Department of Economic and Social Affairs Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 11/02/2026 00:00:00 AM (New York time) Deadline : 12/01/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/284631?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Department of Economic and Social Affairs</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>INFORMATION ANALYST, POLITICAL AFFAIRS</title>
+      <link>https://careers.un.org/jobSearchDescription/287590?language=en</link>
+      <description>Level : P-3 Job ID : 287590 Job Network : Political, Peace and Humanitarian Job Family : Political Affairs Department/Office : United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011) Duty Station : Juba Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287590?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011)</dc:creator>
+    <polintel:location>Juba, South Sudan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>TRANSPORT ASSISTANT</title>
+      <link>https://careers.un.org/jobSearchDescription/287560?language=en</link>
+      <description>Level : FS-4 Job ID : 287560 Job Network : Logistics, Transportation and Supply Chain Job Family : Transportation Department/Office : United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011) Duty Station : Juba Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287560?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011)</dc:creator>
+    <polintel:location>Juba, South Sudan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>ASSOCIATE PROGRAMME MANAGEMENT OFFICER</title>
+      <link>https://careers.un.org/jobSearchDescription/285629?language=en</link>
+      <description>Level : P-2 Job ID : 285629 Job Network : Economic, Social and Development Job Family : Programme Management Department/Office : United Nations Environment Programme Duty Station : PARIS Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 12/02/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/285629?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Environment Programme</dc:creator>
+    <polintel:location>Paris, France</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Urban and Territorial Planner consultant</title>
+      <link>https://careers.un.org/jobSearchDescription/287558?language=en</link>
+      <description>Level : CON Job ID : 287558 Job Network : Job Family : HST Department/Office : United Nations Human Settlements Programme Duty Station : NAIROBI Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/12/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287558?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Nairobi, Kenya</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Intern - Communication</title>
+      <link>https://careers.un.org/jobSearchDescription/287328?language=en</link>
+      <description>Level : I-1 Job ID : 287328 Job Network : Job Family : Department/Office : United Nations Human Settlements Programme Duty Station : FUKUOKA Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287328?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Fukuoka</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>CHIEF OF SERVICE, ECONOMIC AFFAIRS</title>
+      <link>https://careers.un.org/jobSearchDescription/287199?language=en</link>
+      <description>Level : D-1 Job ID : 287199 Job Network : Economic, Social and Development Job Family : Economic Affairs Department/Office : Economic and Social Commission for Western Asia Duty Station : BEIRUT Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287199?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic and Social Commission for Western Asia</dc:creator>
+    <polintel:location>Beirut, Lebanon</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>STAFF COUNSELLOR</title>
+      <link>https://careers.un.org/jobSearchDescription/287512?language=en</link>
+      <description>Level : P-3 Job ID : 287512 Job Network : Management and Administration Job Family : Human Resources Department/Office : United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011) Duty Station : Juba Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287512?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Mission in the Republic of South Sudan - created by GA Resolution 1996 (2011)</dc:creator>
+    <polintel:location>Juba, South Sudan</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Intern - Programme Management</title>
+      <link>https://careers.un.org/jobSearchDescription/287326?language=en</link>
+      <description>Level : I-1 Job ID : 287326 Job Network : Job Family : Department/Office : United Nations Human Settlements Programme Duty Station : FUKUOKA Staffing Exercise : undefined Posted Date : 11/02/2026 00:00:00 AM (New York time) Deadline : 11/16/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287326?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>United Nations Human Settlements Programme</dc:creator>
+    <polintel:location>Fukuoka</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Finance and Budget Officer</title>
+      <link>https://careers.un.org/jobSearchDescription/287472?language=en</link>
+      <description>Level : P-4 Job ID : 287472 Job Network : Management and Administration Job Family : Finance Department/Office : Department of Operational Support Duty Station : NEW YORK Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 12/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287472?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Department of Operational Support</dc:creator>
+    <polintel:location>New York, United States</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>INTERN - Administration</title>
+      <link>https://careers.un.org/jobSearchDescription/287486?language=en</link>
+      <description>Level : I-1 Job ID : 287486 Job Network : Job Family : Administration Department/Office : Economic and Social Commission for Asia and the Pacific Duty Station : BANGKOK Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 12/17/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287486?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Economic and Social Commission for Asia and the Pacific</dc:creator>
+    <polintel:location>Bangkok, Thailand</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>International Consultant to support the implementation of the Rangelands Flagship Initiative</title>
+      <link>https://careers.un.org/jobSearchDescription/287681?language=en</link>
+      <description>Level : CON Job ID : 287681 Job Network : Job Family : Department/Office : Convention to Combat Desertification Duty Station : BONN Staffing Exercise : undefined Posted Date : 11/03/2026 00:00:00 AM (New York time) Deadline : 11/10/2026 23:59:59 PM (New York time)</description>
+      <guid isPermaLink="false">https://careers.un.org/jobSearchDescription/287681?language=en</guid>
+      <category>International Organisations</category>
+      <dc:creator>Convention to Combat Desertification</dc:creator>
+    <polintel:location>Bonn</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
