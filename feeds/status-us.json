@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-11-05T21:46:00Z",
+  "last_run": "2026-11-06T21:13:40Z",
   "country": "us",
-  "total_active_jobs": 1361,
-  "new_jobs_found": 25,
+  "total_active_jobs": 1353,
+  "new_jobs_found": 22,
   "sources_checked": 24,
   "sources_succeeded": 24,
   "sources_failed": 0,
   "sources_disabled": 18,
-  "relevance_filtered": 26,
-  "descriptions_enriched": 23,
+  "relevance_filtered": 24,
+  "descriptions_enriched": 24,
   "feeds_generated": 6,
-  "run_duration_seconds": 128.8,
+  "run_duration_seconds": 121.4,
   "failed_sources": [],
   "per_source": [
     {
@@ -20,10 +20,10 @@
       "jobs_found": 53,
       "jobs_after_relevance_filter": 53,
       "descriptions_enriched": 0,
-      "duration_seconds": 12.3,
+      "duration_seconds": 11.2,
       "upstream_stale": true,
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 192,
+      "upstream_days_since_update": 193,
       "notes": "Description enrichment disabled for this source"
     },
     {
@@ -31,9 +31,9 @@
       "scraper_type": "dedicated",
       "status": "success",
       "jobs_found": 200,
-      "jobs_after_relevance_filter": 184,
+      "jobs_after_relevance_filter": 186,
       "descriptions_enriched": 0,
-      "duration_seconds": 59.0,
+      "duration_seconds": 56.6,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -43,7 +43,7 @@
       "jobs_found": 21,
       "jobs_after_relevance_filter": 15,
       "descriptions_enriched": 0,
-      "duration_seconds": 21.5,
+      "duration_seconds": 20.2,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
@@ -62,7 +62,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 2.3,
+      "duration_seconds": 2.4,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
@@ -72,17 +72,17 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "Hudson Institute",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 10,
-      "jobs_after_relevance_filter": 10,
+      "jobs_found": 14,
+      "jobs_after_relevance_filter": 14,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -92,7 +92,7 @@
       "jobs_found": 10,
       "jobs_after_relevance_filter": 10,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.6,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -102,7 +102,7 @@
       "jobs_found": 19,
       "jobs_after_relevance_filter": 19,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4,
+      "duration_seconds": 0.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -112,7 +112,7 @@
       "jobs_found": 16,
       "jobs_after_relevance_filter": 16,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -122,7 +122,7 @@
       "jobs_found": 16,
       "jobs_after_relevance_filter": 16,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -141,7 +141,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.2
     },
     {
       "name": "Wilson Center Careers",
@@ -150,7 +150,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.3
     },
     {
       "name": "New America Careers",
@@ -159,7 +159,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -169,7 +169,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.2
     },
     {
       "name": "Third Way Careers",
@@ -178,14 +178,14 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4
+      "duration_seconds": 0.3
     },
     {
       "name": "Public Affairs Council Jobs",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 454,
-      "jobs_after_relevance_filter": 451,
+      "jobs_found": 455,
+      "jobs_after_relevance_filter": 452,
       "descriptions_enriched": 20,
       "duration_seconds": 0.4
     },
@@ -196,7 +196,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4,
+      "duration_seconds": 0.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -222,10 +222,10 @@
       "name": "Brennan Center for Justice",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 23,
-      "jobs_after_relevance_filter": 23,
-      "descriptions_enriched": 3,
-      "duration_seconds": 0.5
+      "jobs_found": 24,
+      "jobs_after_relevance_filter": 24,
+      "descriptions_enriched": 4,
+      "duration_seconds": 0.4
     },
     {
       "name": "Roosevelt Institute",
@@ -234,7 +234,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.2
     },
     {
       "name": "Foundation List",
