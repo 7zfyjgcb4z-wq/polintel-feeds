@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Stage campagneteam</title>
       <link>https://www.vvd.nl/vacatures/stage-campagne-team/</link>
@@ -227,5 +227,14 @@ g.vrooyen@tweedekamer.nl
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>VVD</dc:creator>
     <polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Communicatie- en Marketingspecialist</title>
+      <link>https://www.vvd.nl/vacatures/senior-communicatie-en-marketingspecialist/</link>
+      <description>Wat ga je doen? Ontwikkelen en implementeren van marketingstrategieën en heldere communicatieplanningen. Bouwen, optimaliseren en analyseren van doelgerichte e-mailcampagnes, mailinglijsten en geautomatiseerde ledenreizen. Verzorgen van de structurele en ad-hoc communicatie richting onze leden en de bredere achterban. Beheren van de diverse marketingkanalen en coördineren van de media-inkoop en advertentiecampagnes. Analyseren van doelgroepdata, marketingtrends en innovatieve advertentiemogelijkheden. Vertalen van data en onderzoeksresultaten naar concrete, resultaatgerichte verbeteringen voor onze campagneaanpak. Bedenken, uitwerken en doorvertalen van creatieve concepten en strategische campagneplannen. Wie ben jij? Jij bent een resultaatgerichte professional die strategisch denken moeiteloos combineert met een hands-on mentaliteit. Je beschikt over sterke redactionele vaardigheden en hebt de drive om processen continu te optimaliseren. Aantoonbare kennis en ervaring op het gebied van communicatie, marketing en digitale kanalen. Sterke affiniteit met e-mailmarketing, data-analyse en geavanceerde doelgroepsegmentatie. Zelfstandig, initiatiefrijk en organisatorisch sterk in een dynamische omgeving. Affiniteit met de politiek en de VVD, gecombineerd met een scherp gevoel voor de impact van gerichte communicatie. Wat bieden wij? Een veelzijdige functie in het hart van de landelijke politiek, waarin je direct bijdraagt aan een sterke en betrokken vereniging. Dit bieden wij: een afwisselende functie met grote maatschappelijke betekenis; veel ruimte voor eigen initiatief en creativiteit; werken op een toplocatie in het politieke centrum van Den Haag; een betrokken team van medewerkers en vrijwilligers; uitstekende arbeidsvoorwaarden, waaronder een 13e maand en een goede pensioenregeling; een passend salaris, waarbij de salarisschalen van het Rijk als referentiekader worden gevolgd. Interesse? Wil jij de communicatie en marketing van de VVD naar een hoger niveau tillen? Stuur dan je cv en motivatie naar werken@vvd.nl voor 19 november 2026. Voor vragen over de functie kun je contact opnemen met Nelleke van Houwelingen via bovengenoemd e-mailadres.</description>
+      <guid isPermaLink="false">https://www.vvd.nl/vacatures/senior-communicatie-en-marketingspecialist/</guid>
+      <category>Political Parties</category>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>VVD</dc:creator>
+    <polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
