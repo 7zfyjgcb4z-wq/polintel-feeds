@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-11-06T21:13:40Z",
+  "last_run": "2026-11-07T19:48:57Z",
   "country": "us",
-  "total_active_jobs": 1353,
-  "new_jobs_found": 22,
+  "total_active_jobs": 1345,
+  "new_jobs_found": 9,
   "sources_checked": 24,
   "sources_succeeded": 24,
   "sources_failed": 0,
   "sources_disabled": 18,
-  "relevance_filtered": 24,
-  "descriptions_enriched": 24,
+  "relevance_filtered": 25,
+  "descriptions_enriched": 6,
   "feeds_generated": 6,
-  "run_duration_seconds": 121.4,
+  "run_duration_seconds": 134.5,
   "failed_sources": [],
   "per_source": [
     {
@@ -20,10 +20,10 @@
       "jobs_found": 53,
       "jobs_after_relevance_filter": 53,
       "descriptions_enriched": 0,
-      "duration_seconds": 11.2,
+      "duration_seconds": 10.8,
       "upstream_stale": true,
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 193,
+      "upstream_days_since_update": 194,
       "notes": "Description enrichment disabled for this source"
     },
     {
@@ -31,9 +31,9 @@
       "scraper_type": "dedicated",
       "status": "success",
       "jobs_found": 200,
-      "jobs_after_relevance_filter": 186,
+      "jobs_after_relevance_filter": 185,
       "descriptions_enriched": 0,
-      "duration_seconds": 56.6,
+      "duration_seconds": 76.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -43,7 +43,7 @@
       "jobs_found": 21,
       "jobs_after_relevance_filter": 15,
       "descriptions_enriched": 0,
-      "duration_seconds": 20.2,
+      "duration_seconds": 19.8,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
@@ -53,7 +53,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2
+      "duration_seconds": 0.3
     },
     {
       "name": "Manhattan Institute",
@@ -62,7 +62,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 2.4,
+      "duration_seconds": 2.3,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     },
     {
@@ -72,7 +72,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4,
+      "duration_seconds": 0.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -82,7 +82,7 @@
       "jobs_found": 14,
       "jobs_after_relevance_filter": 14,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4,
+      "duration_seconds": 0.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -92,7 +92,7 @@
       "jobs_found": 10,
       "jobs_after_relevance_filter": 10,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4,
+      "duration_seconds": 0.3,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -102,7 +102,7 @@
       "jobs_found": 19,
       "jobs_after_relevance_filter": 19,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
+      "duration_seconds": 0.2,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -112,7 +112,7 @@
       "jobs_found": 16,
       "jobs_after_relevance_filter": 16,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4,
+      "duration_seconds": 0.2,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -122,7 +122,7 @@
       "jobs_found": 16,
       "jobs_after_relevance_filter": 16,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4,
+      "duration_seconds": 0.1,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -132,7 +132,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4
+      "duration_seconds": 1.7
     },
     {
       "name": "Hoover Institution Careers",
@@ -150,7 +150,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3
+      "duration_seconds": 0.2
     },
     {
       "name": "New America Careers",
@@ -159,7 +159,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.4,
+      "duration_seconds": 0.1,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -186,8 +186,8 @@
       "status": "success",
       "jobs_found": 455,
       "jobs_after_relevance_filter": 452,
-      "descriptions_enriched": 20,
-      "duration_seconds": 0.4
+      "descriptions_enriched": 3,
+      "duration_seconds": 0.5
     },
     {
       "name": "R Street Institute",
@@ -196,7 +196,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
+      "duration_seconds": 0.1,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -206,7 +206,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.2
     },
     {
       "name": "Peterson Institute for International Economics",
@@ -215,7 +215,7 @@
       "jobs_found": 2,
       "jobs_after_relevance_filter": 2,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2,
+      "duration_seconds": 0.1,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -224,8 +224,8 @@
       "status": "success",
       "jobs_found": 24,
       "jobs_after_relevance_filter": 24,
-      "descriptions_enriched": 4,
-      "duration_seconds": 0.4
+      "descriptions_enriched": 3,
+      "duration_seconds": 0.1
     },
     {
       "name": "Roosevelt Institute",
@@ -234,7 +234,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.2
+      "duration_seconds": 0.1
     },
     {
       "name": "Foundation List",
