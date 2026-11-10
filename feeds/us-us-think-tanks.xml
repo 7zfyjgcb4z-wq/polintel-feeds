@@ -5248,5 +5248,84 @@ The Brennan Center for Justice is committed to a workplace based on equal opport
       <category>US Think Tanks</category>
       <dc:creator>Brennan Center for Justice</dc:creator>
     <polintel:location>New York, NY</polintel:location><polintel:partisanLean>left</polintel:partisanLean><polintel:closingDate>2027-02-04</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>(Senior) Data Scientist, Housing Center</title>
+      <link>https://careers-aei.icims.com/jobs/2652/%28senior%29-data-scientist%2c-housing-center/job?in_iframe=1</link>
+      <description>The
+Housing Center
+at the American Enterprise Institute (AEI) is the nation’s leading market-oriented housing research center. It operates at the intersection of data-driven housing knowledge and policy solutions.
+The AEI Housing Center seeks a full-time, in-person (senior) data scientist to develop and manage large datasets to derive insights and inform US housing policy. The data scientist will be responsible for maintaining the nation’s foremost housing database and designing the systems and infrastructure that produce research to improve the operation of housing markets, mortgage lending practices, and housing policy. This will include seeking, creating, cleaning, and analyzing new datasets; developing automated processes for data maintenance; and building the infrastructure for regular Housing Center updates on the housing market.
+This position requires superior technical and quantitative skills, the capacity to develop additional skills, and the initiative to build new systems and processes. The ideal candidate will have a demonstrated interest in and knowledge of housing policy. Creativity, attention to detail, and the ability to independently manage multiple complex projects and deliver reliable results are essential. The anticipated start date for this position is as soon as possible.
+Final title and salary will be commensurate with a candidate’s educational level and years of full-time, applicable work experience. Master’s degree preferred. Candidates who can successfully meet the responsibilities of this role are encouraged to apply, regardless of their years of experience. AEI offers a stimulating and harmonious work environment and excellent benefits. Applicants must submit a cover letter demonstrating their interest in housing policy and noting their quantitative and technical experience and skills, a resume, an unofficial academic transcript, and a writing sample with the online application. Candidates also will be asked to pass a skills assessment and an analytical assessment.
+Artificial Intelligence (AI) Usage Disclaimer:
+As a part of the talent acquisition process, AEI reserves the right to use tools that assess whether AI was used by candidates to produce written application or interview materials and consider the results as a part of the interview process. To maintain transparency and integrity in the interview process, candidates must disclose any use of AI, the tool they used, and explain how it was utilized.
+Assemble financial, workforce, technological, economic, statistical, and other operational datasets to inform comparative and predictive analyses of housing issues.
+Develop models, algorithms, and metrics to facilitate data interpretation and work with team members to present and operationalize data for analysis.
+Automate recurring analyses that are currently performed manually, including data collection, cleaning, reporting, and visualization.
+Lead data projects from source acquisition through technical design, quality control, publication, and ongoing maintenance.
+Translate technical findings by creating interactive dashboards and data visualizations that make Housing Center data and insights accessible to researchers and the public.
+Examine data for trends and anomalies to draw actionable conclusions; present findings and recommendations to the team.
+Use APIs, web scraping, and other computational methods to collect new data.
+Experiment with emerging methods for gathering and processing data, including AI-assisted analysis.
+Additional Responsibilities (Senior Data Scientist)
+Project-manage analyst workflows and provide supervision and quality control over analyst assignments.
+Conduct advanced predictive modeling, statistical analyses, and machine learning on complex datasets.
+Establish and advise on best practices for data management, emerging methodologies, and analysis, improving the center’s analytical capabilities.
+Physical Requirements and Working Conditions at AEI
+The employee is expected to regularly stand, sit, talk, hear, and use hands and fingers to operate a computer, telephone, and keyboard. This job requires close-up vision for computer work.
+The employee must be able to lift up to 30 pounds.
+The employee must be able to work in a confined area.
+Moderate noise (e.g., from computers, phones, printers, and light traffic) is expected.
+Reasonable accommodations may be made to enable individuals with disabilities to perform the essential responsibilities associated with this position.
+Required:
+A bachelor’s degree in economics, finance, math, computer science, data science, or a related discipline;
+Proficiency in Python, R, or Stata and demonstrated ability to learn and work in additional analytical languages;
+Strong SQL skills and experience designing and maintaining relational and analytical data systems, using tools such as PostgreSQL, DuckDB, or comparable technologies;
+Experience with data visualization and geospatial tools, such as Tableau, PostGIS, QGIS, Mapbox, ggplot2, or Matplotlib;
+Experience using various AI models to accelerate data collection and analysis;
+Knowledge of version control systems such as Git and GitHub and other quality control protocols;
+Strong communication, organizational, and problem-solving skills;
+The ability to work effectively in a fast-paced, team-oriented environment; and
+High initiative.
+Preferred:
+A master’s degree in economics, finance, math, computer science, or a related discipline;
+Working experience with Stata and Microsoft Excel;
+Experience with web development, cloud-based, and development tools, such as HTML, JavaScript, AWS, or Docker;
+Experience automating, scheduling, testing, and documenting recurring data workflows, using tools such as Airflow, GitHub Actions, or comparable systems;
+A demonstrated interest in housing and public policy research;
+Experience managing other team members’ workflows; and
+A demonstrated track record of project management on data-management projects.
+Benefits
+AEI offers generous benefits, including 18 days of paid leave (15 days of paid annual leave and 3 personal/floating holidays); 12 days of paid sick leave; paid family leave; medical and dental coverage, in addition to a health savings account; medical and dependent care FSA; a tuition assistance program of up to $5,200; life and disability insurance at no cost to employees; and a 403b retirement plan with a contribution from AEI, among other benefits. For more information, you can see a full summary of our benefits at https://www.aei.org/jobs/benefits/.
+Compensation is based on a number of factors, including the position’s scope and responsibilities; a candidate's full-time, applicable work experience; key skills and qualifications; and internal and external market considerations. The salary range for this full-time, exempt position is $85,000–$120,000. Salary is just one component of AEI’s total compensation package for employees.</description>
+      <guid isPermaLink="false">https://careers-aei.icims.com/jobs/2652/%28senior%29-data-scientist%2c-housing-center/job?in_iframe=1</guid>
+      <category>US Think Tanks</category>
+      <dc:creator>American Enterprise Institute</dc:creator>
+    <polintel:location>UNAVAILABLE, DC</polintel:location><polintel:partisanLean>right</polintel:partisanLean><polintel:closingDate>2027-11-10</polintel:closingDate><polintel:descriptionSource>readability</polintel:descriptionSource></item>
+    <item>
+      <title>DevOps Engineer / Site Reliability Engineer</title>
+      <link>https://careers-cfr.icims.com/jobs/3078/devops-engineer---site-reliability-engineer/job?in_iframe=1</link>
+      <description>Founded in 1921, the Council on Foreign Relations (CFR) is a leading nonprofit membership organization, research center, and publisher, with headquarters in New York, an office in Washington, DC, and programs nationwide. It is dedicated to increasing America's understanding of the world and contributing ideas to U.S. foreign policy. CFR’s 5,000+ members are leaders in international affairs and foreign policy. CFR also publishes
+Foreign Affairs
+, the preeminent magazine on global issues, and provides up-to-date information about the world and U.S. foreign policy on its award-winning website, CFR.org.
+The Council on Foreign Relations (CFR) is seeking an experienced DevOps engineer / Site Reliability Engineer. This role
+is responsible for
+maintaining
+the secure and reliable functioning of our digital properties including
+CFR.org
+,
+ForeignAffairs.com
+, Think Global Health, The China
+Open Source
+Observatory, and other associated web and mobile sites. The portfolio spans a managed WordPress VIP publishing platform, Pantheon publishing platform, and custom AWS applications.
+This role owns the reliability, resilience, security, and observability of those properties, the delivery pipeline that ships to them, and a growing set of AI and agentic services built on top of them.
+Your goal is to prevent outages; when incidents happen, you lead the response and make sure we learn from them. You will work closely with the software engineering team and report to the associate vice president of product, design, and engineering.
+This full-time position is based in CFR’s New York City or Washington D.C. office on a hybrid basis. CFR currently defines hybrid status as working at least four days a week onsite, with Tuesdays, Wednesdays, and Thursdays considered institutional anchor days where all staff are required to be onsite.
+Please submit a résumé and cover letter stating your interest in the position.
+The Council on Foreign Relations (CFR) is committed to fostering a foreign policy community in the United States that is more representative of American society, recognizing that diverse backgrounds and perspectives contribute to broader, more informed participation in the foreign policy debate and lead to an enhanced understanding of the world and the United States’ role therein. To that end, CFR is dedicated to continuing to advance diversity, equity, and inclusion throughout its work and workplace by building a more diverse membership and staff, producing and dispensing thoughtful analysis on a broad range of foreign policy issues, and developing relevant, wide-reaching programming that also serves to expand the foreign policy talent pipeline to underrepresented populations.</description>
+      <guid isPermaLink="false">https://careers-cfr.icims.com/jobs/3078/devops-engineer---site-reliability-engineer/job?in_iframe=1</guid>
+      <category>US Think Tanks</category>
+      <dc:creator>Council on Foreign Relations</dc:creator>
+    <polintel:location>New York, NY</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>
