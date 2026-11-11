@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-291/</link>
@@ -83,9 +83,9 @@
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Chief Operating Officer</title>
-      <link>https://www.foundationlist.org/job-details/chief-operating-officer-50/</link>
+      <link>https://www.foundationlist.org/job-details/chief-operating-office-2/</link>
       <description>THE OPPORTUNITY Filling in the Blanks (FITB) is seeking a Chief Operating Officer (COO) to serve as the organizational backbone that enables our mission to scale. As second-in-command, the COO will turn mission and strategy into action—bringing stru</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-operating-officer-50/</guid>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-operating-office-2/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
@@ -97,15 +97,6 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/individual-giving-manager-23/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Development Operations Associate</title>
-      <link>https://www.foundationlist.org/job-details/development-operations-associate-3/</link>
-      <description>Development Operations Associate Land Together (LT) is seeking a full-time (40 hours a week) Development Operations Associate to keep the systems behind our fundraising running smoothly, from government grant reports and donor data to stewardship</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-operations-associate-3/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
@@ -936,5 +927,14 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Senior Strategist</title>
+      <link>https://www.foundationlist.org/job-details/senior-strategist/</link>
+      <description>Stand Together is a philanthropic community that helps America’s boldest changemakers tackle the root causes of our country’s biggest problems, from education to the economy, broken communities, and toxic division, among dozens of other pressing issu</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/senior-strategist/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>United States</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
