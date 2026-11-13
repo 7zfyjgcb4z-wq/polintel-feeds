@@ -1,29 +1,21 @@
 {
-  "generated_at": "2026-11-12T22:01:35Z",
+  "generated_at": "2026-11-13T15:33:16Z",
   "alerts": [
     {
       "source": "International IDEA",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 11,
-      "message": "International IDEA returned 0 jobs (was 1) for 11 consecutive run(s). Review selector or check for vacancies."
-    },
-    {
-      "source": "European External Action Service",
-      "type": "zero_result_after_success",
-      "previous_count": 36,
-      "current_count": 0,
-      "consecutive_zeros": 7,
-      "message": "European External Action Service returned 0 jobs (was 36) for 7 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 12,
+      "message": "International IDEA returned 0 jobs (was 1) for 12 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "College of Europe Careers",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 31,
-      "message": "College of Europe Careers returned 0 jobs (was 1) for 31 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 32,
+      "message": "College of Europe Careers returned 0 jobs (was 1) for 32 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "Policy Exchange",
