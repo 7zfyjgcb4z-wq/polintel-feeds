@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 04:08:51 -0500</lastBuildDate>
-    <item>
-      <title>Senior Coordinator, Private Sector Partnerships</title>
-      <link>https://recruiting.paylocity.com/Recruiting/Jobs/Details/43d988e3-6446-4a25-8e28-28602ea60858/4233540</link>
-      <description>We are currently experiencing some technical issues with the job platform that may prevent you from finalizing</description>
-      <guid isPermaLink="false">https://recruiting.paylocity.com/Recruiting/Jobs/Details/43d988e3-6446-4a25-8e28-28602ea60858/4233540</guid>
-      <category>Think Tanks</category>
-      <pubDate>Thu, 16 Jul 2026 04:08:51 -0500</pubDate>
-      <dc:creator>German Marshall Fund</dc:creator>
-    <polintel:location>GMF Brussels</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <lastBuildDate>Mon, 13 Jul 2026 14:27:54 -0500</lastBuildDate>
     <item>
       <title>Senior Coordinator, Institutional Partnerships</title>
       <link>https://recruiting.paylocity.com/Recruiting/Jobs/Details/43d988e3-6446-4a25-8e28-28602ea60858/4233541</link>
@@ -36,5 +27,32 @@
       <pubDate>Mon, 08 Jun 2026 14:50:41 -0500</pubDate>
       <dc:creator>German Marshall Fund</dc:creator>
     <polintel:location>GMF Washington</polintel:location><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Communication: Senior Impact Accelerator</title>
+      <link>https://www.epc.eu/vacancies/positions-in-communication/</link>
+      <description>Impact Acceleration
+The European Policy Centre (EPC) is a leading independent think tank in the heart of Brussels, providing balanced, impactful research that advances our mission of greater European integration. In a volatile, fast-moving world where permanent change and recurring crises are a reality, the EPC is looking for a communications professional to help us sharpen and accelerate our impact as the think tank enters its fourth decade.
+The successful candidate will have sharp political instincts combined with a proven capacity to respond to rapidly changing European and global events. He/She/They will have experience of the latest communications technology, be keen to experiment and innovate, have a solid pool of relevant media contacts in Brussels and national capitals – or a strong interest in developing them - and be able to craft key messages to the relevant actors to maximise our impact in a timely and effective manner.
+We are looking to cover the following tasks and workflows:
+Accelerating Impact
+Ensure Smooth Communications
+Manage the EPC team of communications professionals working in events, publications, social media, media outreach functions and assistants.
+Project Management based approach:
+Working at the EPC in this role requires relevant experience, innovative and entrepreneurial spirit, creativity, flexibility, patience, leadership and empathy.
+People specifications:
+Additional Assets:
+To apply:
+Please specify your name + SENIOR IMPACT ACCELERATOR in the file names submitted by the form below.
+Deadline for applicants: 17.00 on October 30th
+Your application should contain:
+A one paragraph information statement about which of the above tasks and workflows you are strongest in and where you need to grow.
+A one paragraph information statement about team leadership experience and approach.
+The EPC is a registered AiSBL with a limited budget. We cannot offer high fees, but an opportunity to join a team of passionate, values driven people committed to democracy, rule of law and European integration.
+Due to the high number of applications we normally receive, we can only contact shortlisted candidates.
+The EPC is an equal opportunities organisation. We value diversity and particularly encourage applicants from sectors of society that are not well represented in Brussels think tanks, Brussels-based civil society or European policy making.</description>
+      <guid isPermaLink="false">https://www.epc.eu/vacancies/positions-in-communication/</guid>
+      <category>Think Tanks</category>
+      <dc:creator>European Policy Centre (EPC)</dc:creator>
+    <polintel:descriptionSource>readability</polintel:descriptionSource></item>
   </channel>
 </rss>
