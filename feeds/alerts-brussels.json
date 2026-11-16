@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T14:53:15Z",
+  "generated_at": "2026-11-16T17:13:02Z",
   "country": "brussels",
   "alerts": [
     {
@@ -7,16 +7,16 @@
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 14,
-      "message": "International IDEA returned 0 jobs (was 1) for 14 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 15,
+      "message": "International IDEA returned 0 jobs (was 1) for 15 consecutive run(s). Review selector or check for vacancies."
     },
     {
       "source": "College of Europe Careers",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 34,
-      "message": "College of Europe Careers returned 0 jobs (was 1) for 34 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 35,
+      "message": "College of Europe Careers returned 0 jobs (was 1) for 35 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {
