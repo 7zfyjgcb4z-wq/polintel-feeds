@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-11-15T18:29:33Z",
+  "last_run": "2026-11-16T21:39:04Z",
   "country": "dach",
-  "total_active_jobs": 27,
+  "total_active_jobs": 26,
   "new_jobs_found": 0,
   "sources_checked": 3,
   "sources_succeeded": 3,
@@ -10,7 +10,7 @@
   "relevance_filtered": 0,
   "descriptions_enriched": 0,
   "feeds_generated": 6,
-  "run_duration_seconds": 14.5,
+  "run_duration_seconds": 15.0,
   "failed_sources": [],
   "per_source": [
     {
@@ -30,7 +30,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 4.9,
+      "duration_seconds": 6.0,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -40,7 +40,7 @@
       "jobs_found": 3,
       "jobs_after_relevance_filter": 3,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.9,
+      "duration_seconds": 0.6,
       "notes": "Descriptions already substantive \u2014 enrichment skipped"
     }
   ]
