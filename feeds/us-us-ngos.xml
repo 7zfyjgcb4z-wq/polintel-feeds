@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-291/</link>
@@ -826,6 +826,33 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/groton-fund-associate-2/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Human Resources Manager</title>
+      <link>https://www.foundationlist.org/job-details/human-resources-manager-20/</link>
+      <description>Scion Nonprofit Staffing has been engaged to conduct a search for an experienced Human Resources Manager on behalf of a mission-driven nonprofit organization dedicated to strengthening communities and expanding access to essential resources in Oaklan</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/human-resources-manager-20/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Chief Development Officer (CDO)</title>
+      <link>https://www.foundationlist.org/job-details/chief-development-officer-cdo-3/</link>
+      <description>Position Overview: The Chief Development Officer (CDO) serves as the executive leader responsible for designing, implementing, and overseeing all philanthropic, fundraising, community relations, and constituent engagement initiatives at the school.</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-development-officer-cdo-3/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Development Data &amp; Relations Coordinator</title>
+      <link>https://www.foundationlist.org/job-details/development-data-relations-coordinator/</link>
+      <description>Position Summary The Development Data &amp;amp; Relations Coordinator is responsible for maintaining the integrity, accuracy, and operational efficiency of the organization’s Constituent Relationship Management (CRM) database while supporting ongoing donor</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/development-data-relations-coordinator/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
