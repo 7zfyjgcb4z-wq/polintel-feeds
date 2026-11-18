@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-291/</link>
@@ -88,24 +88,6 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/individual-giving-manager-23/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>NexGen Philanthropy Manager</title>
-      <link>https://www.foundationlist.org/job-details/nexgen-philanthropy-manager/</link>
-      <description>Reporting to the Chief Philanthropy Officer, the NexGen Philanthropy Manager will join a growing and strategic fundraising team committed to elevating philanthropy across the Houston Jewish community. This experienced professional will focus on build</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/nexgen-philanthropy-manager/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Director of Finance Operations</title>
-      <link>https://www.foundationlist.org/job-details/director-of-finance-operations-3/</link>
-      <description>Under the direction of the Executive Director, the Director of Finance Operations owns and provides oversight for all of YouthCare’s financial operations. As a member of the Executive Leadership Team, serves as a financial re</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-of-finance-operations-3/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
@@ -855,5 +837,32 @@
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>President and CEO</title>
+      <link>https://www.foundationlist.org/job-details/president-and-ceo-18/</link>
+      <description>Following 25 years of exceptional leadership, MCC’s President and CEO will retire in July 2027. The Board of Directors is launching a national search for an inspiring, growth-oriented executive to guide our premier conservation corps into its next er</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/president-and-ceo-18/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Chief of Schools</title>
+      <link>https://www.foundationlist.org/job-details/chief-of-schools/</link>
+      <description>Chief of Schools Excellent Schools New Mexico About Excellent Schools New Mexico Excellent Schools New Mexico (ESNM) invests in and supports our state’s best schools and educators so that more New Mexico children receive a quality public edu</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-of-schools/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>Mexico</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Associate Director of Development</title>
+      <link>https://www.foundationlist.org/job-details/associate-director-of-development-13/</link>
+      <description>Hadassah, The Women’s Zionist Organization of America is a philanthropic membership organization that inspires a deep commitment to the land, people and future of Israel by funding world-class medical care and research as well as youth development. H</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/associate-director-of-development-13/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>United States</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
