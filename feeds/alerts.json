@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:37:00Z",
+  "generated_at": "2026-11-18T18:27:50Z",
   "alerts": [
     {
       "source": "International IDEA",
@@ -16,6 +16,12 @@
       "current_count": 0,
       "consecutive_zeros": 37,
       "message": "College of Europe Careers returned 0 jobs (was 1) for 37 consecutive run(s). Review selector or check for vacancies."
+    },
+    {
+      "source": "IMF Careers",
+      "type": "consecutive_failure",
+      "consecutive_failures": 3,
+      "message": "IMF Careers has failed for 3 consecutive pipeline runs."
     },
     {
       "source": "Policy Exchange",
