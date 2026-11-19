@@ -1,34 +1,28 @@
 {
-  "generated_at": "2026-11-18T22:50:35Z",
+  "generated_at": "2026-11-19T22:54:00Z",
   "country": "us",
   "alerts": [
     {
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 205,
-      "message": "House Employment Bulletin upstream data source has not been updated in 205 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
-    },
-    {
-      "source": "RAND Corporation Careers",
-      "type": "consecutive_failure",
-      "consecutive_failures": 3,
-      "message": "RAND Corporation Careers has failed for 3 consecutive pipeline runs."
+      "upstream_days_since_update": 206,
+      "message": "House Employment Bulletin upstream data source has not been updated in 206 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
     },
     {
       "source": "R Street Institute",
       "type": "zero_result_after_success",
       "previous_count": 3,
       "current_count": 0,
-      "consecutive_zeros": 7,
-      "message": "R Street Institute returned 0 jobs (was 3) for 7 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 8,
+      "message": "R Street Institute returned 0 jobs (was 3) for 8 consecutive run(s). Review selector or check for vacancies."
     }
   ],
   "_tracking": {
     "consecutive_failures": {
       "House Employment Bulletin": 0,
       "Political Job Hunt": 0,
-      "RAND Corporation Careers": 3,
+      "RAND Corporation Careers": 0,
       "Truman National Security Project": 0,
       "Manhattan Institute": 0,
       "CNAS": 0,
