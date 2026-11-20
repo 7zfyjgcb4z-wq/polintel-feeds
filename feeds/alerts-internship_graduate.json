@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-19T18:43:10Z",
+  "generated_at": "2026-11-20T18:04:44Z",
   "country": "internship_graduate",
   "alerts": [
     {
       "source": "IMF Careers",
       "type": "consecutive_failure",
-      "consecutive_failures": 4,
-      "message": "IMF Careers has failed for 4 consecutive pipeline runs."
+      "consecutive_failures": 5,
+      "message": "IMF Careers has failed for 5 consecutive pipeline runs."
     }
   ],
   "_tracking": {
     "consecutive_failures": {
       "Ipsos Careers": 0,
-      "IMF Careers": 4,
+      "IMF Careers": 5,
       "PubAffairs Networking Jobs": 0
     }
   }
