@@ -1,26 +1,26 @@
 {
-  "last_run": "2026-11-23T19:23:20Z",
+  "last_run": "2026-11-24T18:59:37Z",
   "country": "brussels",
-  "total_active_jobs": 188,
-  "new_jobs_found": 9,
+  "total_active_jobs": 190,
+  "new_jobs_found": 6,
   "sources_checked": 8,
   "sources_succeeded": 8,
   "sources_failed": 0,
   "sources_disabled": 20,
   "relevance_filtered": 1,
-  "descriptions_enriched": 9,
+  "descriptions_enriched": 6,
   "feeds_generated": 6,
-  "run_duration_seconds": 69.0,
+  "run_duration_seconds": 64.2,
   "failed_sources": [],
   "per_source": [
     {
       "name": "EuroBrussels",
       "scraper_type": "dedicated",
       "status": "success",
-      "jobs_found": 78,
-      "jobs_after_relevance_filter": 77,
-      "descriptions_enriched": 4,
-      "duration_seconds": 47.1
+      "jobs_found": 79,
+      "jobs_after_relevance_filter": 78,
+      "descriptions_enriched": 5,
+      "duration_seconds": 46.0
     },
     {
       "name": "EU Training Jobs",
@@ -29,7 +29,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 4.0
+      "duration_seconds": 2.7
     },
     {
       "name": "ECFR",
@@ -38,17 +38,17 @@
       "jobs_found": 1,
       "jobs_after_relevance_filter": 1,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
+      "duration_seconds": 0.1,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
       "name": "German Marshall Fund",
       "scraper_type": "ats_auto",
       "status": "success",
-      "jobs_found": 12,
-      "jobs_after_relevance_filter": 12,
+      "jobs_found": 11,
+      "jobs_after_relevance_filter": 11,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3,
+      "duration_seconds": 0.4,
       "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
     },
     {
@@ -58,7 +58,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.1
+      "duration_seconds": 0.2
     },
     {
       "name": "European External Action Service",
@@ -66,18 +66,17 @@
       "status": "success",
       "jobs_found": 36,
       "jobs_after_relevance_filter": 36,
-      "descriptions_enriched": 5,
-      "duration_seconds": 0.5
+      "descriptions_enriched": 1,
+      "duration_seconds": 0.4
     },
     {
       "name": "European Policy Centre",
       "scraper_type": "selector",
       "status": "success",
-      "jobs_found": 1,
-      "jobs_after_relevance_filter": 1,
+      "jobs_found": 0,
+      "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 1.1,
-      "notes": "Enrichment skipped or failed \u2014 captcha or fetch error likely"
+      "duration_seconds": 0.5
     },
     {
       "name": "College of Europe Careers",
@@ -86,7 +85,7 @@
       "jobs_found": 0,
       "jobs_after_relevance_filter": 0,
       "descriptions_enriched": 0,
-      "duration_seconds": 0.3
+      "duration_seconds": 0.4
     }
   ]
 }
