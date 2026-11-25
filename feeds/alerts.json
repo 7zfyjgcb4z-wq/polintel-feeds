@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:04:15Z",
+  "generated_at": "2026-11-25T22:58:10Z",
   "alerts": [
     {
       "source": "International IDEA",
@@ -34,8 +34,8 @@
     {
       "source": "WTO Careers",
       "type": "consecutive_failure",
-      "consecutive_failures": 9,
-      "message": "WTO Careers has failed for 9 consecutive pipeline runs."
+      "consecutive_failures": 10,
+      "message": "WTO Careers has failed for 10 consecutive pipeline runs."
     },
     {
       "source": "Policy Exchange",
