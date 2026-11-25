@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-291/</link>
@@ -88,24 +88,6 @@
       <guid isPermaLink="false">https://www.foundationlist.org/job-details/individual-giving-manager-23/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Chief Membership Development Officer</title>
-      <link>https://www.foundationlist.org/job-details/chief-membership-development-officer/</link>
-      <description>This position requires relocating to be able to work at Shriners International Headquarters: 2900 North Rocky Point Drive, Tampa, FL 33607. Success Profile A. Broad Goals and Attributes A successful Chief Membership Development Of</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/chief-membership-development-officer/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Donor Engagement Officer</title>
-      <link>https://www.foundationlist.org/job-details/donor-engagement-officer-2/</link>
-      <description>The Donor Engagement Officer is a full-time exempt position and a member of the Philanthropic Engagement Team of the Triangle Community Foundation. The position reports to the Director of Donor Engagement. This position provides front-line steward</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/donor-engagement-officer-2/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
@@ -254,9 +236,9 @@
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Operations Manager</title>
-      <link>https://www.foundationlist.org/job-details/operations-manager-42/</link>
+      <link>https://www.foundationlist.org/job-details/operations-manager-43/</link>
       <description>Organization: HEART (Helping Eastside And Reynoldsburg Thrive) Location: Reynoldsburg, Ohio Status: Full-Time, Exempt Salary: $50,000-$57,500 About HEART HEART is a community-focused organization committed to addressing hunger and promotin</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/operations-manager-42/</guid>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/operations-manager-43/</guid>
       <category>US NGOs &amp; Advocacy</category>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
@@ -837,5 +819,14 @@
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Vice President/Senior Vice President, Government Relations and External Engagement</title>
+      <link>https://www.foundationlist.org/job-details/vice-president-senior-vice-president-government-relations-and-external-engagement/</link>
+      <description>Vice President/Senior Vice President, Government Relations and External Engagement Reports To: Executive Vice President, Policy and Government Relations Supervises: None Position Type: Full-Time Location: Washington, D.C. BACKGROUND</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/vice-president-senior-vice-president-government-relations-and-external-engagement/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:location>Washington, D</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>

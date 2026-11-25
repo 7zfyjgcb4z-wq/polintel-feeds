@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:24:24Z",
+  "generated_at": "2026-11-25T00:19:05Z",
   "alerts": [
     {
       "source": "International IDEA",
@@ -57,8 +57,16 @@
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 211,
-      "message": "House Employment Bulletin upstream data source has not been updated in 211 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+      "upstream_days_since_update": 212,
+      "message": "House Employment Bulletin upstream data source has not been updated in 212 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+    },
+    {
+      "source": "R Street Institute",
+      "type": "zero_result_after_success",
+      "previous_count": 1,
+      "current_count": 0,
+      "consecutive_zeros": 1,
+      "message": "R Street Institute returned 0 jobs after previously returning 1. May be broken selector, site redesign, or no current vacancies."
     }
   ]
 }
