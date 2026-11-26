@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-25T22:58:10Z",
+  "generated_at": "2026-11-26T22:50:34Z",
   "country": "pan-eu",
   "alerts": [
     {
       "source": "WTO Careers",
       "type": "consecutive_failure",
-      "consecutive_failures": 10,
-      "message": "WTO Careers has failed for 10 consecutive pipeline runs."
+      "consecutive_failures": 11,
+      "message": "WTO Careers has failed for 11 consecutive pipeline runs."
     }
   ],
   "_tracking": {
     "consecutive_failures": {
       "World Bank Careers": 0,
       "OECD Careers": 0,
-      "WTO Careers": 10,
+      "WTO Careers": 11,
       "UN Job Feed": 0
     }
   }
