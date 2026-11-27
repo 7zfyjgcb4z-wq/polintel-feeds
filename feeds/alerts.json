@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T22:50:34Z",
+  "generated_at": "2026-11-27T00:16:52Z",
   "alerts": [
     {
       "source": "International IDEA",
@@ -57,22 +57,22 @@
       "source": "House Employment Bulletin",
       "type": "upstream_stale",
       "upstream_last_bulletin": "2026-04-27",
-      "upstream_days_since_update": 212,
-      "message": "House Employment Bulletin upstream data source has not been updated in 212 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
+      "upstream_days_since_update": 214,
+      "message": "House Employment Bulletin upstream data source has not been updated in 214 days (last bulletin: 2026-04-27). Verify dwillis/house-jobs is still being maintained."
     },
     {
       "source": "RAND Corporation Careers",
       "type": "consecutive_failure",
-      "consecutive_failures": 3,
-      "message": "RAND Corporation Careers has failed for 3 consecutive pipeline runs."
+      "consecutive_failures": 4,
+      "message": "RAND Corporation Careers has failed for 4 consecutive pipeline runs."
     },
     {
       "source": "R Street Institute",
       "type": "zero_result_after_success",
       "previous_count": 1,
       "current_count": 0,
-      "consecutive_zeros": 2,
-      "message": "R Street Institute returned 0 jobs (was 1) for 2 consecutive run(s). Review selector or check for vacancies."
+      "consecutive_zeros": 3,
+      "message": "R Street Institute returned 0 jobs (was 1) for 3 consecutive run(s). Review selector or check for vacancies."
     }
   ]
 }

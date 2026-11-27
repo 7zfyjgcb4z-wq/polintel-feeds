@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Director of Development</title>
       <link>https://www.foundationlist.org/job-details/director-of-development-29-291/</link>
@@ -90,24 +90,6 @@
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Director of People &amp; Culture</title>
-      <link>https://www.foundationlist.org/job-details/director-of-people-culture-3/</link>
-      <description>THE OPPORTUNITY: The Director of People and Culture develops and implements the human resources strategies, initiatives, systems and policies that are aligned with overall business goals. This position is a key member of the Senior Leadership Team (S</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/director-of-people-culture-3/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
-    <item>
-      <title>Part-Time Administrative Coordinator</title>
-      <link>https://www.foundationlist.org/job-details/part-time-administrative-coordinator/</link>
-      <description>The Decorators Club / Decorators Club Education Fund Hours: About 50 hours per month (12–13 per week), flexible, with potential to expand Reports to: Board of Directors Location: NYC, hybrid (remote, plus on-site for meetings and events) Compensat</description>
-      <guid isPermaLink="false">https://www.foundationlist.org/job-details/part-time-administrative-coordinator/</guid>
-      <category>US NGOs &amp; Advocacy</category>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Foundation List</dc:creator>
-    <polintel:location>NYC, hybrid (remote, plus on-site for meetings and events) Compensat</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
     <item>
       <title>Chief Advancement Officer</title>
       <link>https://www.foundationlist.org/job-details/chief-advancement-officer-24/</link>
@@ -792,5 +774,14 @@
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <dc:creator>Foundation List</dc:creator>
     <polintel:location>Ukraine</polintel:location><polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
+    <item>
+      <title>Research Analyst</title>
+      <link>https://www.foundationlist.org/job-details/research-analyst-6/</link>
+      <description>The Research Analyst plays a critical role in the advancement of CRL’s mission by delivering trusted, groundbreaking primary research to highlight issues, identify workable solutions, and shape policy discussions. Participating in major quantitative</description>
+      <guid isPermaLink="false">https://www.foundationlist.org/job-details/research-analyst-6/</guid>
+      <category>US NGOs &amp; Advocacy</category>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Foundation List</dc:creator>
+    <polintel:partisanLean>nonpartisan</polintel:partisanLean><polintel:descriptionSource>api</polintel:descriptionSource></item>
   </channel>
 </rss>
