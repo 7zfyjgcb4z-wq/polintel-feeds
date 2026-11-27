@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:34:09Z",
+  "generated_at": "2026-11-27T19:13:29Z",
   "alerts": [
     {
       "source": "International IDEA",
@@ -28,8 +28,8 @@
     {
       "source": "IMF Careers",
       "type": "consecutive_failure",
-      "consecutive_failures": 5,
-      "message": "IMF Careers has failed for 5 consecutive pipeline runs."
+      "consecutive_failures": 6,
+      "message": "IMF Careers has failed for 6 consecutive pipeline runs."
     },
     {
       "source": "WTO Careers",
